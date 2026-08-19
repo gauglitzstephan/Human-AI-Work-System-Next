@@ -1,33 +1,33 @@
 # Human–AI Work System Next
 
-> Reconstruction program for a reference-grounded, empirically testable Human–AI Work System.
+> Lineage-aware reconstruction program for a reference-grounded, empirically testable Human–AI Work System.
 
 ## Status
 
-**BOOTSTRAP / PRE-ARCHITECTURE**
+**BOOTSTRAP / PRE-ARCHITECTURE / LINEAGE RECONCILIATION**
 
-This repository intentionally does **not** begin by copying the predecessor architecture or by assuming that `Work Engine`, DWM, Semantic Compiler, Work Graph, prior lifecycle stages, Skills, agents or any current product surface belong in the final system.
+This repository is not another blank-slate architecture branch.
+
+Its job is to recover and reconcile the substantial existing Human–AI architecture lineage, preserve qualified prior knowledge, identify genuine conflicts/gaps, and create new architecture only where prior designs plus current evidence are insufficient.
 
 ## Working intent
 
-Develop a general Human–AI Work System that improves real professional work by composing human judgment and agency, AI capabilities, tools, knowledge, state and existing processes appropriately for the situation.
-
-This intent remains provisional until the System of Interest, stakeholder concerns, operational context and performance model are qualified.
+Develop or select a general Human–AI Work System that improves real professional work by composing human judgment and agency, AI capabilities, tools, knowledge, state and existing processes appropriately for the situation.
 
 ## Epistemic stance
 
-The reconstruction triangulates:
+The reconstruction uses four distinct inputs:
 
-1. **External knowledge** — state of the art, standards, research, reference architectures and productive systems.
-2. **Internal evidence** — predecessor repository, real work traces, prior evaluations, successes/failures and implemented workflows.
-3. **First-principles reasoning** — purpose, mechanisms, constraints, alternatives and trade-offs.
-
-None is sufficient alone.
+1. **External knowledge** — research, standards, reference architectures and productive systems.
+2. **Qualified Prior Designs** — bounded prior architecture decisions with sufficient reference, review/falsification and acceptance to be closed-but-reopenable.
+3. **Raw internal / real-use evidence** — work traces, failures, corrections, runtime and implementation evidence.
+4. **First-principles reasoning** — purpose, mechanisms, constraints, alternatives and trade-offs.
 
 ```text
 reference ≠ requirement
-prior architecture ≠ truth
-plausible deduction ≠ validated mechanism
+qualified prior ≠ universal truth
+qualified prior ≠ open-by-default
+raw internal evidence ≠ accepted design
 current product capability ≠ system invariant
 ```
 
@@ -35,88 +35,102 @@ current product capability ≠ system invariant
 
 ### Foundation and method
 - [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md)
-- [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md)
+- [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — **v0.2 lineage-corrected**
 - [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md)
 - [`decisions/ADR-0001-reconstruction-bootstrap.md`](decisions/ADR-0001-reconstruction-bootstrap.md)
 
-### External knowledge stream
-- [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — **v0.3 working coverage baseline:** 17 Reference Families + 16 conditional Coverage Lenses; explicitly not architecture.
-- [`references/SEED-REFERENCE-REGISTER.md`](references/SEED-REFERENCE-REGISTER.md) — verified bootstrap anchors and remaining verification frontier.
+### Reference stream
+- [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — v0.3 working coverage baseline
+- [`references/SEED-REFERENCE-REGISTER.md`](references/SEED-REFERENCE-REGISTER.md)
+- [`references/REFERENCE-ENVELOPE-DEPTH-CALIBRATION-v0.1.md`](references/REFERENCE-ENVELOPE-DEPTH-CALIBRATION-v0.1.md)
 - [`references/REFERENCE-MAP-COVERAGE-AUDIT-v0.1.md`](references/REFERENCE-MAP-COVERAGE-AUDIT-v0.1.md)
 - [`references/REFERENCE-MAP-RED-TEAM-v0.1.md`](references/REFERENCE-MAP-RED-TEAM-v0.1.md)
-- [`references/REFERENCE-ANCHOR-CONFLICT-SWEEP-v0.1.md`](references/REFERENCE-ANCHOR-CONFLICT-SWEEP-v0.1.md) — resolves the first four disputed areas.
+- [`references/REFERENCE-ANCHOR-CONFLICT-SWEEP-v0.1.md`](references/REFERENCE-ANCHOR-CONFLICT-SWEEP-v0.1.md)
 - [`references/FRONTIER-USER-CHALLENGE-v0.1.md`](references/FRONTIER-USER-CHALLENGE-v0.1.md)
 
-### Internal evidence stream
-- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md)
+### Lineage / evidence stream
+- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md) — **v0.2 with I0–I4 status classes**
+- [`evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md`](evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md)
+- [`evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md`](evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md)
 - [`evidence/PREDECESSOR-INVENTORY-v0.1.md`](evidence/PREDECESSOR-INVENTORY-v0.1.md)
 
-## Reference Map v0.3 delta
+## Central process correction
 
-The first Anchor & Conflict Sweep supports:
+The relevant predecessor estate is broader than `Human-AI-Work-System` alone.
 
-- **R7 expanded** to `Intelligence, Sensemaking, Decision, Metareasoning, Foresight & Operations Research`;
-- **R16 promoted:** `Strategic Management, Strategy Formation & Strategic Renewal`;
-- **R17 promoted:** `Project, Programme, Portfolio, Initiative & Management Control`;
-- **L15 promoted:** `Strategy / Portfolio / Initiative Coherence`;
-- **L16 promoted:** `Organizational Persistence / Institutionalization`.
+High-priority priors include:
 
-Important boundary:
+- `AI-native-Operating-Model` — accepted five-layer/five-control-plane foundation with Work Architecture and Work Units;
+- `human-ai-work-architecture` — accepted v1.3.1 semantics and execution-context architecture;
+- `Human-AI-Work-System` — current Core/B.6/Semantic Compiler/runtime line and real-use evidence;
+- `PAOS` — minimum-kernel/native-surface counter-design;
+- `Personal-AI-Operating-Model` — HAPS/PAWS/AMM reconstruction research;
+- persistence/workspace repositories — promotion/state counter-design lineage.
 
-```text
-Strategy ≠ local decision quality
-Strategy ≠ portfolio management
-Portfolio management ≠ Work Engine
-Intelligence ≠ strategy ownership
-stored knowledge ≠ organizational persistence
-```
+A prior accepted question is reopened only with a named trigger: changed SoI, new external evidence, new real-use failure, stronger rival, material prior conflict, implementation impossibility, or evidence that the prior was not actually qualified.
+
+## Reclassification of Q1–Q3
+
+The first Cross-Reference synthesis is retained as useful research but is **not treated as wholly novel derivation**.
+
+- Work Units / Work Graph / Work→Outcome semantics were already substantially developed and qualified.
+- Strategy/Operating/Work/Execution separation already exists in the accepted AI-native Operating Model.
+- PAOS already supplies a serious minimal counter-design against universal formal Work Objects.
+- `nested claim-relative SoIs` may be an incremental boundary repair and remains to be compared against the prior models.
+- F0–F4 and SC/PC/WC/OC are candidate normalization/views until they demonstrate incremental value over existing structures.
 
 ## Current non-decisions
 
-Still **not established**:
+Still not established:
 
-- final System of Interest boundary;
-- final nested focal units;
-- whether `Work Engine` is a subsystem, control policy, viewpoint, runtime loop or another construct;
-- whether `Capabilities` / `Environment` are structural components;
-- lifecycle/work-state model;
-- runtime realization;
-- which predecessor concepts survive, change level or are rejected.
+- which prior architecture becomes the parent representation;
+- whether five layers, eight views, Core/B.6, PAOS or a synthesis is the best representation;
+- whether `Work Engine` adds a distinct mechanism beyond accepted Work Architecture + Semantic Compiler + simple routing;
+- final SoI model;
+- final runtime realization.
 
-## Reconstruction flow
+## Corrected reconstruction flow
 
 ```text
-Purpose / Problem / Operational Context
-                +
-     External reference landscape
-                +
-         Internal evidence
-                ↓
-      Concerns and requirements
-                ↓
-        Conceptual alternatives
-                ↓
-     Architecture viewpoints/views
-                ↓
-        Candidate architecture
-                ↓
-     Verification / falsification
-                ↓
-       Accepted architecture
-                ↓
-       Runtime realization
+Recover predecessor lineage
+        ↓
+Classify: raw evidence / candidate / qualified prior / runtime / counter-design
+        ↓
+Reconcile qualified priors
+RETAIN / REFINE / RELOCATE / MERGE / SUPERSEDE / REJECT / OPEN-CONFLICT
+        ↓
+Identify genuine reopen triggers, conflicts and gaps
+        ↓
+Use external references + current real evidence to discriminate only those
+        ↓
+Qualified concerns / requirements
+        ↓
+Architecture delta or selection
+        ↓
+Behavioral / implementation evaluation
 ```
 
 ## Current gate
 
-**Do not design the Work Engine yet.**
+**Do not continue Q4–Q8 as blank-slate synthesis. Do not design the Work Engine.**
 
-Reference coverage is now sufficiently broad to stop adding topics by intuition. The next work is **synthesis and discrimination**:
+Next work:
 
-1. broaden external Anchor & Conflict verification across the remaining highest-discrimination families;
-2. build a cross-reference synthesis by `concern → competing mechanisms → evidence → boundary conditions → conflict → transfer implication`;
-3. build the high-priority predecessor evidence matrix in parallel;
-4. use the two streams to qualify SoI boundary, focal units and performance concerns;
-5. derive `CONCERNS-AND-REQUIREMENTS v0.1` only then.
+> **Prior Architecture Differential Review v0.1**
 
-The governing rule remains: **a concept earns architectural placement only after its problem, mechanism, scope, evidence, alternatives, trade-offs and level are sufficiently established.**
+Compare the four strongest competing representations:
+
+1. `AI-native-Operating-Model` accepted five-layer/five-control-plane model;
+2. `human-ai-work-architecture` accepted eight-view model;
+3. `Human-AI-Work-System` Core/B.6 + Semantic Compiler candidate;
+4. `PAOS` minimum-kernel/native-surface rival.
+
+Determine:
+
+- whether they are alternative architectures or orthogonal views/realizations;
+- which questions each uniquely solves;
+- where they conflict;
+- which accepted semantics are common and can be frozen;
+- what the **actual unresolved architecture delta** is.
+
+Only that delta should drive further Cross-Reference Synthesis.
