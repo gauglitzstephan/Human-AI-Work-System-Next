@@ -2,6 +2,18 @@
 
 > Lineage-aware reconstruction program for a reference-grounded, empirically testable Human–AI Work System.
 
+## Start here
+
+**[`CURRENT.md`](CURRENT.md) is the controlling repository state pointer.**
+
+Use it to determine:
+- what the current bootstrap decisions are;
+- which prior designs are treated as Qualified Priors;
+- which intermediate artifacts are historical/non-controlling;
+- what the active next gate is.
+
+Do not infer current development state from the newest-looking filename or from a historical artifact's embedded `Next` / `Current gate` section.
+
 ## Status
 
 **BOOTSTRAP / PRE-ARCHITECTURE / DIFFERENTIAL RECONCILIATION**
@@ -31,30 +43,33 @@ current product capability ≠ system invariant
 
 ## Core reconstruction artifacts
 
-### Foundation / architecture method
-- [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md) — **v0.3 lineage-aware / claim-relative boundary**
+### Current state / foundation / method
+- [`CURRENT.md`](CURRENT.md) — controlling state/navigation pointer
+- [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md) — v0.3 lineage-aware / closure-synced
 - [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — v0.2 lineage-corrected
 - [`architecture/ARCHITECTURE-PRINCIPLES-v0.1.md`](architecture/ARCHITECTURE-PRINCIPLES-v0.1.md)
+- [`decisions/ADR-0001-reconstruction-bootstrap.md`](decisions/ADR-0001-reconstruction-bootstrap.md) — lineage-corrected bootstrap ADR
+- [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md)
+
+### Differential / lineage reconciliation
 - [`architecture/PRIOR-ARCHITECTURE-DIFFERENTIAL-REVIEW-v0.1.md`](architecture/PRIOR-ARCHITECTURE-DIFFERENTIAL-REVIEW-v0.1.md)
 - [`architecture/LAYER-VIEW-WORKCONTROL-RUNTIME-CORRESPONDENCE-v0.1.md`](architecture/LAYER-VIEW-WORKCONTROL-RUNTIME-CORRESPONDENCE-v0.1.md)
 - [`architecture/DELTA-01-02-PERSONAL-OPERATING-ARCHITECTURE-SOI-REVIEW-v0.1.md`](architecture/DELTA-01-02-PERSONAL-OPERATING-ARCHITECTURE-SOI-REVIEW-v0.1.md)
 - [`architecture/DELTA-03-VIEW-CONTROL-PLANE-RECONCILIATION-v0.1.md`](architecture/DELTA-03-VIEW-CONTROL-PLANE-RECONCILIATION-v0.1.md)
-- [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md)
+- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md) — v0.2 with I0–I4 status classes
+- [`evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md`](evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md)
+- [`evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md`](evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md)
+- [`evidence/PREDECESSOR-INVENTORY-v0.1.md`](evidence/PREDECESSOR-INVENTORY-v0.1.md)
 
 ### Reference stream
-- [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — v0.3 working coverage baseline
+- [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — v0.3 working coverage baseline; its historical `Current gate` is not the project-state pointer
 - [`references/SEED-REFERENCE-REGISTER.md`](references/SEED-REFERENCE-REGISTER.md)
 - [`references/REFERENCE-ENVELOPE-DEPTH-CALIBRATION-v0.1.md`](references/REFERENCE-ENVELOPE-DEPTH-CALIBRATION-v0.1.md)
 - [`references/REFERENCE-MAP-COVERAGE-AUDIT-v0.1.md`](references/REFERENCE-MAP-COVERAGE-AUDIT-v0.1.md)
 - [`references/REFERENCE-MAP-RED-TEAM-v0.1.md`](references/REFERENCE-MAP-RED-TEAM-v0.1.md)
 - [`references/REFERENCE-ANCHOR-CONFLICT-SWEEP-v0.1.md`](references/REFERENCE-ANCHOR-CONFLICT-SWEEP-v0.1.md)
+- [`references/CROSS-REFERENCE-SYNTHESIS-DISCRIMINATION-v0.1.md`](references/CROSS-REFERENCE-SYNTHESIS-DISCRIMINATION-v0.1.md) — retained intermediate synthesis; later deltas supersede parts of its candidate dispositions
 - [`references/FRONTIER-USER-CHALLENGE-v0.1.md`](references/FRONTIER-USER-CHALLENGE-v0.1.md)
-
-### Lineage / evidence stream
-- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md) — v0.2 with I0–I4 status classes
-- [`evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md`](evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md)
-- [`evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md`](evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md)
-- [`evidence/PREDECESSOR-INVENTORY-v0.1.md`](evidence/PREDECESSOR-INVENTORY-v0.1.md)
 
 ## Leading type-correct architecture interpretation
 
@@ -108,11 +123,9 @@ Key principles include:
 
 **Resolved provisionally:** retain Operating Architecture as a scale-invariant responsibility class. Generalize `organization/roles` to `role/responsibility → actor binding`; enterprise-specific mechanisms are conditional.
 
-A one-Human-plus-AI configuration is the minimum non-trivial case where persistent capabilities, roles, state, authority, economics and learning can already require operating design.
-
 ### Δ2 — System-of-Interest boundary
 
-**Resolved provisionally:** do not promote a permanent `SoI-P / SoI-E` taxonomy. Use claim-relative boundary selection. Human–AI Work System is the default focal SoI for work/outcome claims; focus nested technical elements only when the engineering/security/lifecycle claim requires it.
+**Resolved provisionally:** do not promote a permanent `SoI-P / SoI-E` taxonomy. Use claim-relative boundary selection. Human–AI Work System is the default focal SoI for work/outcome claims; focus narrower technical or wider organizational scope only when the claim requires it.
 
 ### Δ3 — Views vs Control Planes
 
@@ -148,7 +161,7 @@ Unless a named reopen trigger appears, stop first-principles re-derivation of:
 
 **Do not create new top-level architecture by default. Do not create a peer Work Engine layer.**
 
-Next:
+After the bootstrap PR closes, start a new branch / PR for:
 
 > **Δ4 Adaptive Work-Control Differential Review**
 
