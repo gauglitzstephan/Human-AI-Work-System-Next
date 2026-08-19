@@ -37,8 +37,10 @@ None of these streams is sufficient alone. References are evidence, not authorit
 
 ### External knowledge stream
 
-- [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — reference families and the questions each should answer.
-- [`references/SEED-REFERENCE-REGISTER.md`](references/SEED-REFERENCE-REGISTER.md) — first verified source register covering architecture, concept definition, AI assurance, agents/orchestration, and Human–AI collaboration.
+- [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — v0.2 coverage baseline: 15 external reference families, 14 cross-cutting coverage lenses, and a frontier watchlist. This is a research map, not system architecture.
+- [`references/REFERENCE-MAP-COVERAGE-AUDIT-v0.1.md`](references/REFERENCE-MAP-COVERAGE-AUDIT-v0.1.md) — cross-workspace audit of Library, Notion, Drive, prior ChatGPT work, predecessor research, and current product reality that motivated the v0.2 repair.
+- [`references/SEED-REFERENCE-REGISTER.md`](references/SEED-REFERENCE-REGISTER.md) — verified bootstrap anchors plus the prioritized external-verification frontier implied by v0.2.
+- [`references/FRONTIER-USER-CHALLENGE-v0.1.md`](references/FRONTIER-USER-CHALLENGE-v0.1.md) — current-product stress test of high-leverage AI-work patterns; explicitly not an empirical claim about a literal user percentile.
 
 ### Internal evidence stream
 
@@ -85,11 +87,12 @@ Purpose / Problem / Operational Context
 
 Do **not** design the Work Engine yet.
 
-The next decision-relevant work is to build two linked matrices:
+`REFERENCE-MAP.md` v0.2 is now a working **coverage baseline**, not a completed synthesis. The next decision-relevant work has three linked parts:
 
-1. **Reference synthesis by concern/mechanism** — what the strongest external disciplines say about the same underlying concerns, including conflicts and transfer limits.
-2. **Predecessor evidence matrix** — `problem → reference basis → mechanism → architectural placement → evidence → counterevidence → dependencies → confidence → candidate disposition` for the high-priority predecessor sources.
+1. **External anchor expansion and verification** — add the strongest 2–5 sources where needed, prioritizing fields able to change the SoI boundary, focal unit, Human role, state model, authority boundary, outcome model, or operating economics.
+2. **Reference synthesis by concern/mechanism** — determine what different disciplines say about the same underlying concerns, including conflicts, units of analysis, evidence strength, and transfer limits.
+3. **Predecessor evidence matrix** — `problem → reference basis → mechanism → architectural placement → evidence → counterevidence → dependencies → confidence → candidate disposition` for the high-priority predecessor sources.
 
-Those matrices should then produce the first qualified set of stakeholder/system concerns and candidate requirements. Only after that do we define architecture viewpoints and compare conceptual architecture alternatives.
+Those work products should then produce the first qualified set of stakeholder/system concerns and candidate requirements. Only after that do we define architecture viewpoints and compare conceptual architecture alternatives.
 
-The governing rule is: **do not promote a concept into the architecture merely because it is plausible, familiar, or previously useful. Establish its role, scope, mechanism, evidence, alternatives, and architectural placement first.**
+The governing rule is: **do not promote a concept into the architecture merely because it is plausible, familiar, previously useful, or currently easy to implement. Establish its role, scope, mechanism, evidence, alternatives, and architectural placement first.**
