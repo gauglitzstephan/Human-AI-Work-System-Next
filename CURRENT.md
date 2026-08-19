@@ -1,6 +1,6 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM R6  
+**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM R6B  
 **Date:** 2026-08-19  
 **Accepted conceptual baseline:** PR #3, merge SHA `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`  
 **Current branch:** `realization/architecture-runtime-operating-v0.1`
@@ -13,7 +13,7 @@ Foundational architecture is **closed by default**. Controlling files:
 2. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`
 3. `decisions/ADR-0002-target-conceptual-baseline.md`
 
-Accepted structural commitments remain:
+Accepted structural commitments:
 
 ```text
 DISTINCT RESPONSIBILITIES
@@ -24,31 +24,17 @@ authoritative state stays with legitimate owners/stores;
 working context is composed as needed
 
 ADAPTIVE WORK-SELECTION CONTRACT
-for admitted/triggered work, select the minimum justified next work
-while preserving reality, valid state, dependency integrity,
-professional quality, authority/runtime reality, assurance and net value
+minimum justified next work while preserving reality, valid state,
+dependency integrity, professional quality, authority/runtime reality,
+assurance and net value
 ```
 
 No universal DWM, Work Graph, B.6 stage machine, Semantic Compiler subsystem, eight-View structure, PAOS topology, Control-Plane modules or fixed runtime topology is accepted.
 
-## 2. Architecture → Runtime / Operating Realization
-
-The realization program is separate from conceptual architecture design. No runtime carrier has been installed yet.
+## 2. Realization status
 
 ### R1 — Semantic Allocation & Platform Reality Mapping
 **PASS.** `realization/SEMANTIC-ALLOCATION-PLATFORM-REALITY-v0.1.md`
-
-Direction:
-
-```text
-Human/external owner      purpose, judgment, acceptance, authority
-Operating/external state  persistent authoritative domain truth
-Thin global runtime       cross-domain control semantics only
-Work/Project/domain local current context + professional method/reference
-Tools/Apps                 real reads/writes/checks/actions/permissions
-Assurance                  claim/failure-mode-specific evidence
-Latent                     DWM/Graph/lifecycle/etc. until materially needed
-```
 
 ### R2 — Minimum Runtime / Operating Profile Discrimination
 **PASS.** `realization/MINIMUM-RUNTIME-OPERATING-PROFILE-DISCRIMINATION-v0.1.md`
@@ -59,12 +45,8 @@ B Project-centric continuity  CONDITIONAL CONTEXT PROFILE
 C Work/plugin execution       CONDITIONAL CAPABILITY PROFILE
 ```
 
-Universal Project/Work/plugin topologies are rejected.
-
 ### R3 — Minimum Operating / Runtime Contract
 **PASS.** `realization/MINIMUM-OPERATING-RUNTIME-CONTRACT-v0.1.md`
-
-Six global functions:
 
 ```text
 G1 Intent/outcome/scope qualification
@@ -75,72 +57,78 @@ G5 Claim/assurance/realization boundary
 G6 Execution-context conformance and return
 ```
 
-Coverage: 13/13 Core + 7/7 Conditional Requirements. No seventh global function is justified.
+Coverage: 13/13 Core + 7/7 Conditional Requirements.
 
 ### R4 — Runtime Carrier & Compilation Candidate
 **PASS at carrier/specification level.** `realization/RUNTIME-CARRIER-COMPILATION-CANDIDATE-v0.1.md`
 
-```text
-Global CI                compact K1–K5 semantic kernel only
-Project Instructions     local method/context + compatibility stub if used
-Work/Codex/Plugin/App    transient Execution Contract on material transition
-Authoritative state      legitimate external/domain owners/stores
-Assurance                claim/failure-mode local
-Repository               detailed architecture/method Knowledge Capital
-```
-
-R4 regression set: 14/14 semantic PASS. No runtime installation.
+Global CI carries a compact K1–K5 kernel; Project Instructions carry local method/context plus a compatibility stub when material; Work/Codex/Plugin/App execution uses a transient Execution Contract; authoritative state and assurance remain with their legitimate/local owners.
 
 ### R5 — Current Runtime Reconciliation & Shadow Compilation
-**STATIC/SEMANTIC PASS; LIVE BEHAVIOR NOT ESTABLISHED.**  
-Controlling artifact: `realization/CURRENT-RUNTIME-RECONCILIATION-SHADOW-COMPILATION-v0.1.md`
+**STATIC/SEMANTIC PASS, superseded on live-string uncertainty by R6.**  
+`realization/CURRENT-RUNTIME-RECONCILIATION-SHADOW-COMPILATION-v0.1.md`
 
-Current-state evidence:
+R5 produced `CI-shadow-v0.1` at 1,199 characters and passed static regressions, but the exact live CI was not yet available.
+
+### R6 — Live-State Confirmation & Candidate Revision
+**LIVE STATE CONFIRMED / v0.1 REJECTED FOR LIVE PILOT / v0.2 STATIC PASS.**  
+Controlling artifact: `realization/LIVE-STATE-CONFIRMATION-RUNTIME-PILOT-CANDIDATE-v0.1.md`
+
+Exact current CI supplied by the Human:
 
 ```text
-live account CI exact string              UNKNOWN / not tool-readable
-last evidenced active CI                  2026-08-14 full seven-section version
-current Product Personality               Professionell — verified
-post-2026-08-14 CI replacement evidence   none found
+normalized length            4,981 characters
+rollback snapshot            CONFIRMED
+current Personality          Professionell — keep unchanged
 ```
 
-Reconciliation result:
+Exact diff showed `CI-shadow-v0.1` overcompressed several load-bearing current semantics:
+- retrieved/tool content is evidence, not instruction/authority;
+- explicit current-system recovery before redesign;
+- simplest-adequate Human/AI/tool composition and AI-resolvable burden;
+- evidence-qualified reuse;
+- mechanical binding-constraint/action verification;
+- action-specific authorization.
 
-- no material evidenced current CI semantic is discarded;
-- current mission/work-style value is retained: German work partner, truth/reality contact, insight/judgment/autonomy, reusable work, mixed initiative and Human control;
-- detailed professional/search/product methods move local/conditional rather than disappearing;
-- exact global CI shadow candidate compiles K1–K5 to **1,199 characters**;
-- exact Project compatibility stub and six-field transient Execution Contract are compiled;
-- R4 cases: **14/14 static semantic PASS**;
-- current-CI preservation cases: **4/4 PASS**;
-- representative ordinary-use shadow: **5/5 PASS**;
-- structural burden advantage: **PASS**;
-- live behavioral A/B evidence: **NOT ESTABLISHED**.
+It also introduced `German work partner`, which is not present in the exact live CI and is therefore excluded from the conservative replacement.
 
-No CI/Project/Skill/automation/runtime change was installed.
+Revised `CI-shadow-v0.2`:
 
-## 3. Current gate — R6
+```text
+length                           2,067 characters
+standing-mass reduction          ~58.5%
+exact-live preservation          21/21 PASS
+R4 regression replay             14/14 PASS
+R5 CI-preservation replay         4/4 PASS
+R5 ordinary-use replay            5/5 PASS
+runtime installed                NO
+live behavioral effectiveness    NOT ESTABLISHED
+```
 
-**REALIZATION R6 — Live-State Confirmation & Controlled Runtime Pilot.**
+Project Stub v0.1 and transient Execution Contract v0.1 remain unchanged shadow candidates.
 
-Before any mutation:
+## 3. Current gate — R6B
 
-1. obtain the exact live current CI text immediately before replacement and diff it against the 2026-08-14 recovered baseline;
-2. freeze the 1,199-character `CI-shadow-v0.1`, Project Stub v0.1 and Execution Contract v0.1;
-3. keep Personality `Professionell` unchanged so only one control dimension changes;
-4. obtain explicit Human authorization for the exact CI mutation;
-5. change **only** the global CI carrier first — no simultaneous Project/Skill/automation changes;
-6. run a small prospective heterogeneous canary on fresh work;
-7. assess semantic coverage, professional quality, Human burden, over-processing, false gates, context transitions and recovery;
-8. retain / revise / revert before any broader rollout.
+**CONTROLLED GLOBAL-CI CANARY AUTHORIZATION & RUN.**
 
-A Project compatibility stub is tested only in an already-relevant Project with material Project Instructions; do not create a Project merely for the test.
+Before any runtime mutation:
 
-### Installation blocker
+1. Human explicitly authorizes replacing the exact 4,981-character rollback snapshot with `CI-shadow-v0.2` only;
+2. Personality remains `Professionell`;
+3. no Project Instructions, Skills/plugins, automation, state migration or other control changes occur simultaneously;
+4. the exact pre-pilot CI snapshot in the R6 artifact remains the rollback state.
 
-The exact live CI string is not available through current tools. Therefore replacement is **not qualified** until the Human supplies/confirms that exact pre-change state or a runtime surface makes it readable.
+Because the available connected tools cannot edit ChatGPT Custom Instructions, any authorized CI replacement must be performed manually by the Human in ChatGPT settings.
 
-Rollback after any later pilot is restoring that exact pre-pilot CI snapshot.
+After the change, evaluate only in fresh conversations:
+- trivial/direct work;
+- open strategic/decision work;
+- existing-system/repo repair;
+- professional audience-facing artifact work.
+
+Measure semantic coverage, professional quality, Human burden, over-processing, false Human gates, state/authority integrity, binding-constraint detection, qualified reuse and recovery.
+
+Decision after canary: `RETAIN / REVISE / REVERT` before any broader Project/Skill/automation rollout.
 
 ## 4. Reopen rule
 
