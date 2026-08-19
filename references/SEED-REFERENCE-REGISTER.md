@@ -1,204 +1,215 @@
-# Seed Reference Register v0.2
+# Seed Reference Register v0.3
 
-**Status:** VERIFIED BOOTSTRAP SEED SET / MATERIAL COVERAGE STILL OPEN  
+**Status:** VERIFIED BOOTSTRAP ANCHORS / NOT COMPLETE LITERATURE BASE  
 **Checked:** 2026-08-19  
-**Reference Map:** `REFERENCE-MAP.md` v0.2
+**Reference Map:** `REFERENCE-MAP.md` v0.3
 
-This is a starting register, not a completed literature review. Each source is included because it informs a bootstrap concern; none is architectural authority for this project.
-
-The Reference Map coverage audit substantially widened the research surface. This register therefore distinguishes **already verified bootstrap anchors** from the **next external-verification frontier** instead of pretending the current six sources cover v0.2.
+This register contains sources already checked closely enough to support bootstrap/reference-map decisions. It is not intended to give equal numerical coverage to every family.
 
 ---
 
-## REF-001 — ISO/IEC/IEEE 42010:2022
+## R1 — Systems / Architecture
 
-- **Family:** R1 — Systems Engineering, Architecture, Requirements & Lifecycle
-- **Source:** ISO
-- **URL:** https://www.iso.org/standard/74393.html
-- **Current status:** Published, Edition 2 (2022)
-- **Relevant scope:** architecture descriptions, entities of interest, viewpoints, views, model kinds, architecture-description frameworks.
-- **Bootstrap implication:** distinguish the architecture of the entity from its description; use concerns/viewpoints rather than assuming one decomposition is the architecture.
-- **Transfer caveat:** the standard does not prescribe our architecting method, runtime design, or System of Interest.
-- **Register status:** REVIEWED FOR BOOTSTRAP
+### REF-001 — ISO/IEC/IEEE 42010:2022
+- Source: ISO
+- URL: https://www.iso.org/standard/74393.html
+- Scope: architecture descriptions, entity of interest, stakeholders/concerns, viewpoints/views/model kinds.
+- Use here: prevents one decomposition from being mistaken for the architecture itself.
+- Status: REVIEWED FOR BOOTSTRAP
 
-## REF-002 — SEBoK: System Concept Definition
-
-- **Family:** R1 — Systems Engineering, Architecture, Requirements & Lifecycle
-- **Source:** Systems Engineering Body of Knowledge (SEBoK)
-- **URL:** https://sebokwiki.org/wiki/System_Concept_Definition
-- **Current status:** SEBoK material current in 2026
-- **Relevant scope:** problem space, business/mission analysis, stakeholder needs, measures of success, lifecycle concepts, System of Interest before detailed solution definition.
-- **Bootstrap implication:** clarify why/what and stakeholder needs before freezing how; problem and solution exploration may iterate but should remain distinguishable.
-- **Transfer caveat:** SEBoK is broad systems-engineering guidance; documentation/process weight must remain proportional to this project's needs.
-- **Register status:** REVIEWED FOR BOOTSTRAP
-
-## REF-003 — NIST AI Risk Management Framework Core
-
-- **Families:** R12 / R13 — Evaluation & Assurance / Governance, Risk & Control
-- **Source:** NIST AI Resource Center
-- **URL:** https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
-- **Relevant scope:** lifecycle risk management, human-AI roles/responsibilities, targeted scope, human oversight, TEVV, representative deployment conditions, monitoring.
-- **Bootstrap implication:** keep role/authority/oversight and evaluation claims explicit; evaluate systems under conditions sufficiently similar to intended use for the claim being made.
-- **Transfer caveat:** this project is not automatically a regulated or high-risk AI deployment; controls must be risk-proportionate.
-- **Register status:** REVIEWED FOR BOOTSTRAP
-
-## REF-004 — Anthropic: Building Effective Agents
-
-- **Family:** R14 — AI/ML, Agents, Workflows, Context & Reusable Capability Engineering
-- **Source:** Anthropic Engineering
-- **URL:** https://www.anthropic.com/engineering/building-effective-agents
-- **Published:** 2024-12-19
-- **Relevant scope:** workflows vs agents, orchestration patterns, tool-using systems, complexity management.
-- **Bootstrap implication:** prefer simple composable patterns; add agentic complexity when it measurably improves the use case rather than because a framework makes it available.
-- **Transfer caveat:** our System of Interest may be broader than an AI agent; this is primarily a realization/control reference.
-- **Register status:** REVIEWED FOR BOOTSTRAP
-
-## REF-005 — OpenAI: A Practical Guide to Building AI Agents
-
-- **Family:** R14 — AI/ML, Agents, Workflows, Context & Reusable Capability Engineering
-- **Source:** OpenAI
-- **URL:** https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/
-- **Relevant scope:** model/tools/instructions, workflow execution, single vs multi-agent orchestration, exit conditions, tool risk, guardrails, human intervention, baselines and evals.
-- **Bootstrap implication:** distinguish model-driven workflow control from simpler LLM use; keep orchestration incremental; treat stopping, tool access, and handoff as explicit runtime concerns.
-- **Transfer caveat:** vendor guidance and product architecture are not a neutral ontology of professional work.
-- **Register status:** REVIEWED FOR BOOTSTRAP
-
-## REF-006 — Microsoft Research: Scaffolding Human-AI Collaboration
-
-- **Family:** R4 — HCI, Human–AI Interaction, Mixed Initiative & Joint Performance
-- **Source:** Microsoft Research
-- **URL:** https://www.microsoft.com/en-us/research/publication/human-ai-collaboration-field-experiment/
-- **Published:** 2026-04
-- **Evidence type:** field experiment / preprint, 388 employees at a Fortune 500 retailer
-- **Relevant scope:** structured behavioral protocols and cognitive reframing around Human–AI collaboration.
-- **Reported finding relevant here:** more explicit collaboration structure was not automatically better; one structured protocol was associated with lower document quality and substantially lower production relative to unstructured use, subject to stated design limitations.
-- **Bootstrap implication:** do not equate visible process/scaffolding with effective Human–AI work; structure must earn its cost behaviorally.
-- **Transfer caveat:** one field setting and task family; do not generalize effect sizes beyond scope.
-- **Register status:** REVIEWED FOR BOOTSTRAP
+### REF-002 — SEBoK: System Concept Definition
+- Source: SEBoK
+- URL: https://sebokwiki.org/wiki/System_Concept_Definition
+- Scope: problem space, mission analysis, stakeholder needs, measures of success, System of Interest before detailed solution definition.
+- Use here: supports pre-architecture SoI and need qualification.
+- Status: REVIEWED FOR BOOTSTRAP
 
 ---
 
-# Next external-verification frontier
+## R4 — Human–AI Interaction / Joint Performance
 
-Reference Map v0.2 contains fifteen families. The six sources above are intentionally insufficient to cover them.
-
-The next sweep should prioritize **discriminating evidence**, not equal coverage by page count.
-
-## Priority A — can change the System-of-Interest boundary or work-control model
-
-1. **R2 Work / Activity / Sociotechnical Systems**
-   - Work System Theory;
-   - Activity Theory / practice traditions;
-   - sociotechnical work design;
-   - adaptive case work / OMG CMMN.
-
-2. **R3 Cognitive Work / Human Factors**
-   - Human Systems Integration;
-   - Cognitive Systems Engineering / Cognitive Work Analysis;
-   - Joint Cognitive Systems;
-   - Distributed Cognition.
-
-3. **R4 Human–AI Joint Performance**
-   - systematic/meta-analytic Human–AI complementarity evidence;
-   - mixed initiative / coactive design;
-   - common ground / appropriate reliance.
-
-4. **R6 Expertise / Learning / Capability Formation**
-   - adaptive expertise;
-   - professional/tacit knowledge;
-   - workplace learning and reflective practice;
-   - deskilling / cognitive offloading / AI-assisted learning.
-
-5. **R7 Decision / Sensemaking / Metareasoning**
-   - Naturalistic Decision Making / macrocognition;
-   - value of information / value of computation;
-   - robust decision making / deep uncertainty;
-   - real options / staged commitment.
-
-6. **R9 Knowledge / Provenance / State**
-   - knowledge management and organizational memory;
-   - provenance / data lineage / authoritative-record patterns;
-   - information architecture / context engineering;
-   - AI memory research with freshness and authority boundaries.
-
-7. **R10 Organization / Economics / Power / Ownership**
-   - coordination / transaction-cost / principal-agent theory;
-   - decision rights and organizational design;
-   - platform/institutional economics;
-   - technical capability vs diffusion/adoption;
-   - ownership / complementary assets / value capture.
-
-8. **R11 Realization / Adoption / Outcomes**
-   - implementation science / technology adoption;
-   - behavior change / organizational change;
-   - benefits realization / outcome chains / externalities.
-
-## Priority B — can change qualification, risk and implementation boundaries
-
-9. **R12 Evaluation / Assurance**
-   - NIST TEVV;
-   - OMG SACM / structured assurance;
-   - representative-use evaluation;
-   - causal inference / impact evaluation;
-   - AI eval methodology and independence.
-
-10. **R13 Security / Privacy / Resilience / Rights**
-    - threat modeling / secure development;
-    - prompt-injection and excessive-agency threats;
-    - privacy engineering / data governance;
-    - resilience / fallback / meaningful human control / contestability.
-
-11. **R15 Runtime Reliability / Interoperability**
-    - durable execution / distributed systems;
-    - versioning / configuration management;
-    - observability / SRE / recovery;
-    - authorization and cross-surface state contracts.
-
-## Priority C — important but less likely to set the initial boundary alone
-
-12. **R5 Human Goals / Motivation / Wellbeing**
-13. **R8 Design / Creativity / Collective Intelligence**
-14. **R14 Current AI/Agent/Skill/Context Engineering** — maintain freshness continuously; do not over-weight vendors.
-
-R1 already has a credible bootstrap anchor set but will require additional requirements/quality-attribute sources during architecture evaluation.
+### REF-003 — Microsoft Research: Scaffolding Human-AI Collaboration
+- Source: Microsoft Research
+- URL: https://www.microsoft.com/en-us/research/publication/human-ai-collaboration-field-experiment/
+- Published: 2026
+- Evidence: field experiment / preprint, 388 employees in one Fortune 500 retailer setting.
+- Use here: explicit collaboration structure is not automatically beneficial; interaction/process overhead must earn its cost behaviorally.
+- Boundary: do not generalize effect sizes beyond the setting.
+- Status: REVIEWED FOR BOOTSTRAP
 
 ---
 
-# Separate current-product register
+## R7 — Intelligence / Decision / Foresight
 
-Current ChatGPT/Codex product capabilities are tracked as a **frontier-use / realization stress test**, not as neutral scientific references. See:
+### REF-004 — ISO 56006:2021
+- Title: Innovation management — Tools and methods for strategic intelligence management — Guidance
+- URL: https://www.iso.org/standard/72621.html
+- Scope: strategic intelligence management in an innovation-management setting.
+- Use here: evidence that strategic intelligence is an established organizational practice linked to decision support.
+- Boundary: innovation-management scope does not define a universal Human–AI intelligence subsystem.
+- Status: REVIEWED FOR R7 PLACEMENT
 
-- `FRONTIER-USER-CHALLENGE-v0.1.md`
-
-This prevents fast-changing product surfaces from silently dominating the general Reference Map.
+### REF-005 — ODNI / ICD 203 Analytic Standards
+- Official overview: https://www.dni.gov/index.php/ic-legal-reference-book/123-about
+- Scope: analytic objectivity, source credibility, uncertainty, distinction between information/assumptions/judgments, alternatives, customer relevance, argumentation, changed judgments and evaluation.
+- Use here: establishes intelligence-analysis tradecraft as a mature decision-support reference.
+- Boundary: intelligence analysis informs decisions; the Intelligence Community explicitly distinguishes analysis from policy recommendation.
+- Status: REVIEWED FOR R7 PLACEMENT
 
 ---
 
-# Synthesis deliverable
+## R12 / R13 — Assurance / Governance / Risk
 
-Do **not** produce fifteen isolated literature summaries.
+### REF-006 — NIST AI Risk Management Framework Core
+- Source: NIST AI Resource Center
+- URL: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+- Scope: lifecycle risk management, roles/responsibilities, human oversight, TEVV, representative conditions, monitoring.
+- Use here: keeps assurance claim-bound and use-context-sensitive.
+- Boundary: do not import high-risk governance ceremony into low-consequence work by default.
+- Status: REVIEWED FOR BOOTSTRAP
 
-Build a concern-driven synthesis such as:
+---
 
-```text
-Concern / decision
-→ candidate mechanism(s)
-→ relevant reference families
-→ strongest evidence
-→ incompatible assumptions / counterevidence
-→ unit of analysis
-→ transfer conditions to our SoI
-→ internal evidence comparison
-→ architecture implication or NO IMPLICATION YET
-```
+## R14 — Agents / Workflows / AI Capability Engineering
 
-The first synthesis should focus on the concerns that can discriminate:
+### REF-007 — Anthropic: Building Effective Agents
+- URL: https://www.anthropic.com/engineering/building-effective-agents
+- Published: 2024-12-19
+- Scope: workflows vs agents, composable orchestration patterns, complexity management.
+- Use here: simplest sufficient architecture; agentic complexity must improve the use case.
+- Boundary: implementation/control reference, not a professional-work ontology.
+- Status: REVIEWED FOR BOOTSTRAP
 
-- SoI boundary;
-- focal units / scale;
-- human role and capability formation;
-- work-control / initiative model;
-- state/knowledge boundary;
-- authority/action boundary;
-- outcome/evaluation model;
-- proportionality / operating economics.
+### REF-008 — OpenAI: A Practical Guide to Building AI Agents
+- URL: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/
+- Scope: model/tools/instructions, orchestration, exit conditions, guardrails, human intervention, evals.
+- Use here: current agent-runtime design evidence.
+- Boundary: vendor/product guidance is not neutral architecture authority.
+- Status: REVIEWED FOR BOOTSTRAP
+
+---
+
+## R16 — Strategic Management / Strategy Formation / Renewal
+
+### REF-009 — Mintzberg & Waters (1985), Of strategies, deliberate and emergent
+- Source: Strategic Management Journal
+- DOI: https://doi.org/10.1002/smj.4250060306
+- Evidence type: foundational conceptual/empirical strategy-process work.
+- Relevant claim: deliberate and emergent strategies are ends of a continuum; realized strategy is not reducible to prior explicit plan.
+- Use here: separates strategy over time from a single local decision.
+- Status: REVIEWED FOR R16 PROMOTION
+
+### REF-010 — Noda & Bower (1996), Strategy making as iterated processes of resource allocation
+- Source: Strategic Management Journal
+- DOI: https://doi.org/10.1002/smj.4250171011
+- Evidence type: field-based study.
+- Relevant claim: strategic commitment can emerge through iterations of resource allocation influenced by strategic context and early business-development results.
+- Use here: connects strategy formation, initiatives, feedback and resource commitment while preserving their distinct roles.
+- Status: REVIEWED FOR R16/R17 BOUNDARY
+
+### REF-011 — Teece, Pisano & Shuen (1997), Dynamic capabilities and strategic management
+- Source: Strategic Management Journal
+- DOI: https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z
+- Relevant claim: under rapid change, competitive advantage depends on coordination/reconfiguration processes, asset positions and path dependencies.
+- Use here: strategy includes capability configuration/renewal and path dependence, not only choice among current alternatives.
+- Status: REVIEWED FOR R16 PROMOTION
+
+---
+
+## R17 — Project / Programme / Portfolio / Initiative / Management Control
+
+### REF-012 — ISO 21500:2021
+- Title: Project, programme and portfolio management — Context and concepts
+- URL: https://www.iso.org/standard/75704.html
+- Use here: formal evidence that project, programme and portfolio are distinct management concepts within a shared organizational context.
+- Status: REVIEWED FOR R17 PROMOTION
+
+### REF-013 — ISO 21503:2022
+- Title: Guidance on programme management
+- URL: https://www.iso.org/standard/82868.html
+- Use here: programme management has its own concepts, prerequisites, practices, roles and responsibilities.
+- Status: REVIEWED FOR R17 PROMOTION
+
+### REF-014 — ISO 21504:2022
+- Title: Guidance on portfolio management
+- URL: https://www.iso.org/standard/82867.html
+- Use here: project/programme portfolio management is a distinct management object and is not identical to project/programme management.
+- Status: REVIEWED FOR R17 PROMOTION
+
+### REF-015 — ISO 21505:2017
+- Title: Guidance on governance
+- URL: https://www.iso.org/standard/63578.html
+- Use here: distinguishes governance of projects/programmes/portfolios as an executive concern.
+- Status: REVIEWED FOR R17 PROMOTION
+
+### REF-016 — ISO 21513:2026
+- Title: Guidance on post-project and post-programme evaluation
+- URL: https://www.iso.org/standard/63585.html
+- Use here: post-completion evaluation includes objectives, actual outcomes, benefit realization and governance/management effectiveness.
+- Status: REVIEWED FOR R17 / R11 BOUNDARY
+
+### REF-017 — Malmi & Brown (2008), Management control systems as a package
+- Source: Management Accounting Research
+- DOI: https://doi.org/10.1016/j.mar.2008.09.003
+- Relevant claim: management control includes planning, cybernetic, reward/compensation, administrative and cultural controls, and is distinguishable from decision making.
+- Use here: multi-work operating control is not exhausted by local decision analysis.
+- Status: REVIEWED FOR R17 PROMOTION
+
+---
+
+## L16 — Organizational Persistence / Institutionalization anchors
+
+### REF-018 — Crossan, Lane & White (1999), An Organizational Learning Framework: From Intuition to Institution
+- Source: Academy of Management Review
+- DOI: https://doi.org/10.5465/amr.1999.2202135
+- Relevant claim: organizational learning links individual, group and organizational levels through intuiting, interpreting, integrating and institutionalizing.
+- Use here: institutionalization is distinct from individual learning or information storage.
+- Status: REVIEWED FOR L16 PROMOTION
+
+### REF-019 — Argote, Lee & Park (2020), Organizational Learning Processes and Outcomes
+- Source: Management Science
+- DOI: https://doi.org/10.1287/mnsc.2020.3693
+- Relevant claim: organizational learning can be separated into search, knowledge creation, knowledge retention and knowledge transfer.
+- Use here: retention and transfer need separate mechanisms from creation.
+- Status: REVIEWED FOR L16 PROMOTION
+
+### REF-020 — Cohen & Bacdayan (1994), Organizational Routines Are Stored as Procedural Memory
+- Source: Organization Science
+- DOI: https://doi.org/10.1287/orsc.5.4.554
+- Evidence: laboratory study.
+- Use here: organizational routines can embody procedural memory distributed in action, not merely explicit documents.
+- Status: REVIEWED FOR L16 PROMOTION
+
+### REF-021 — Pentland, Hærem & Hillison (2011), The (N)Ever-Changing World
+- Source: Organization Science
+- DOI: https://doi.org/10.1287/orsc.1110.0624
+- Evidence: empirical multi-organization study of routine stability/change.
+- Use here: persistence must preserve adaptability; routine does not mean static frozen procedure.
+- Status: REVIEWED FOR L16 PROMOTION
+
+### REF-022 — ISO 30401:2018 Knowledge management systems — Requirements
+- URL: https://www.iso.org/standard/68683.html
+- Use here: organizational knowledge can be governed through a management-system concern.
+- Freshness caveat: a DIS revision is in progress to replace the 2018 edition; do not treat the current text as a permanent design recipe.
+- Status: REVIEWED AS SUPPORTING L16/R9 REFERENCE
+
+---
+
+# Next verification frontier
+
+The register is now strong enough for Reference Map v0.3 coverage decisions, but not for architecture derivation.
+
+Highest-priority remaining external synthesis:
+
+1. R2 — Work System / Activity / Socio-technical / Adaptive Case conflicts;
+2. R3 — Cognitive Work / Human Factors transfer into professional knowledge work;
+3. R4 — comparative Human-only / AI-only / Human–AI performance and mixed initiative;
+4. R6 — expertise formation, deskilling and Human review competence;
+5. R7 — metareasoning / value-of-information / robustness beyond intelligence anchors;
+6. R9 — provenance, authoritative state, memory and context architecture;
+7. R10 — economics, power, ownership, adoption;
+8. R11 — implementation, adoption, benefits and outcome realization;
+9. R12/R13 — assurance independence, security/privacy/resilience proportionality;
+10. R15 — durable execution, cross-surface state and runtime reliability.
+
+Do not write ten independent literature reviews. Synthesize by decision-relevant concern and conflict.
