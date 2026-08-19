@@ -1,15 +1,14 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** CONTROLLING BOOTSTRAP STATE POINTER  
+**Status:** CONTROLLING BOOTSTRAP BASELINE STATE POINTER  
 **Date:** 2026-08-19  
-**Scope:** `bootstrap/foundation-v0.1` / PR #1  
+**Baseline:** Bootstrap / Differential Reconciliation v0.1  
+**Origin:** developed and closure-reviewed in PR #1  
 **Authority boundary:** This file controls repository navigation and current development state. It does **not** itself accept a final Human–AI Work System architecture or runtime.
 
-## 1. Current bootstrap state
+## 1. Current baseline state
 
-PR #1 is the bootstrap/reconciliation baseline for `Human-AI-Work-System-Next`.
-
-The reconstruction is now **lineage-aware**, not blank-slate. Qualified predecessor designs are closed-but-reopenable; new architecture is created only for a named unresolved delta or reopen trigger.
+The bootstrap/reconciliation baseline is **lineage-aware**, not blank-slate. Qualified predecessor designs are closed-but-reopenable; new architecture is created only for a named unresolved delta or reopen trigger.
 
 Current leading type-correct representation:
 
@@ -40,12 +39,12 @@ context-specific minimal realization
 
 These are different architecture object types. This representation remains provisional until later integration/evaluation; it is not a claim of runtime effectiveness.
 
-## 2. Controlling bootstrap documents
+## 2. Controlling baseline documents
 
 Use these for current meaning:
 
-1. `README.md` — repository orientation and active gate.
-2. `CURRENT.md` — current state pointer and precedence for development-state/navigation questions.
+1. `CURRENT.md` — current state pointer and precedence for development-state/navigation questions.
+2. `README.md` — repository orientation and active gate.
 3. `foundation/SYSTEM-OF-INTEREST.md` — current problem/SoI foundation.
 4. `architecture/ARCHITECTURE-METHOD.md` — lineage-aware architecture/reopen method.
 5. `architecture/ARCHITECTURE-PRINCIPLES-v0.1.md` — provisional architecture-decision principles.
@@ -53,8 +52,9 @@ Use these for current meaning:
 7. `decisions/ADR-0001-reconstruction-bootstrap.md` — accepted bootstrap/reconstruction decision.
 8. `architecture/DELTA-01-02-PERSONAL-OPERATING-ARCHITECTURE-SOI-REVIEW-v0.1.md` — Δ1/Δ2 evidence and disposition.
 9. `architecture/DELTA-03-VIEW-CONTROL-PLANE-RECONCILIATION-v0.1.md` — Δ3 evidence and disposition.
+10. `reviews/BOOTSTRAP-CLOSURE-REVIEW-v0.1.md` — merge/closure assessment when present.
 
-When current-state wording conflicts with an older intermediate artifact, this file plus the latest controlling document above governs the development state. Historical evidence remains evidence; it is not silently rewritten.
+When current-state wording conflicts with an older intermediate artifact, this file plus the latest controlling document above governs development state. Historical evidence remains evidence; it is not silently rewritten.
 
 ## 3. Qualified Prior Designs currently inherited
 
@@ -67,7 +67,7 @@ Highest-priority closed-but-reopenable priors:
 
 Inherited common semantics are not re-derived without a named reopen trigger.
 
-## 4. Provisional differential decisions completed in PR #1
+## 4. Provisional differential decisions completed in the bootstrap baseline
 
 ### Δ1 — Personal/general Operating Architecture
 
@@ -117,7 +117,7 @@ Only three current deltas remain from this bootstrap pass:
 
 ## 7. Current gate
 
-**Next work after PR #1 closes:** Δ4 Adaptive Work-Control Differential Review on a new branch / PR.
+**Next development unit:** Δ4 Adaptive Work-Control Differential Review on a dedicated branch / PR.
 
 Compare:
 
@@ -147,7 +147,7 @@ permanent SoI-P / SoI-E taxonomy          → not promoted
 F0–F4 as new canonical work ontology      → not promoted
 SC/PC/WC/OC as second master hierarchy    → not promoted
 blank-slate Q4–Q8 synthesis               → stopped
-Δ3 as open                               → completed provisionally
+Δ3 as open                                → completed provisionally
 ```
 
 Do not infer the current development state from the newest-looking filename or from a historical artifact's last `Next` paragraph.
