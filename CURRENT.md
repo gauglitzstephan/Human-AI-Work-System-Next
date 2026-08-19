@@ -1,6 +1,6 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM R3  
+**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM R4  
 **Date:** 2026-08-19  
 **Accepted conceptual baseline:** PR #3, merge SHA `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`  
 **Current branch:** `realization/architecture-runtime-operating-v0.1`
@@ -38,7 +38,7 @@ The active problem is **Architecture → Runtime / Operating Realization**, sepa
 
 Realization allocates baseline semantics to Humans/external owners, persistent Operating state/policy/capability, runtime context/control, work-local method/context, tools/apps/technical enforcement and assurance/observability while minimizing burden and preventing unowned semantic loss.
 
-No concrete runtime carrier is installed by the R1/R2 records.
+No concrete runtime carrier has yet been installed.
 
 ## 3. R1 — Semantic Allocation & Platform Reality Mapping
 
@@ -92,53 +92,86 @@ C — WORK / PLUGIN-ORCHESTRATED EXECUTION
     CONDITIONAL CAPABILITY PROFILE — RETAIN
 ```
 
-Meaning:
+R2 rejects universal Project or Work/plugin topologies and requires context-transition conformance rather than assuming instructions/state/capabilities transfer across surfaces.
+
+## 5. R3 — Minimum Operating / Runtime Contract & Semantic Coverage
+
+**Status: PASS / MINIMUM CONTRACT DEFINED.**
+
+Controlling artifact:
+- `realization/MINIMUM-OPERATING-RUNTIME-CONTRACT-v0.1.md`
+
+R3 compresses the accepted architecture into **six global functions**, each carrying only the invariant/trigger needed cross-domain while detailed methods/state remain local or latent:
 
 ```text
-DEFAULT
-  ordinary work starts with a thin cross-domain kernel / direct Chat posture
-
-WHEN CONTINUITY EARNS IT
-  Project/domain context carries local instructions/sources/continuity
-  while authoritative state remains with legitimate owners/stores
-
-WHEN EXECUTION/CAPABILITY EARNS IT
-  Work / Codex / Plugin / App / Skill / tool is selected for the actual required capability
-  under real access/permission/runtime conditions
+G1 — Intent / outcome / scope qualification
+G2 — Reality / state / authority routing
+G3 — Professional / capability composition trigger
+G4 — Adaptive sufficiency / preservation / dependency control
+G5 — Claim / assurance / realization boundary
+G6 — Execution-context conformance and return
 ```
 
-R2 rejects:
-- universal Project topology;
-- universal Work/plugin topology;
-- Project as authoritative truth merely because context is present;
-- Plugin/Skill availability as authority;
-- encoding the full conceptual architecture into global instructions.
+### R3 coverage
 
-### Context-transition conformance
+```text
+Core Requirements:          PASS — 13/13 owned
+Conditional Requirements:   PASS — 7/7 trigger + local path
+Project admission/exit:     PASS
+Execution admission/return: PASS
+Authoritative-state return: PASS
+Human/authority return:     PASS
+Context conformance:        PASS
+Burden/inflation test:      PASS
+Runtime installed:          NO
+```
 
-When work crosses into a Project, Work, Codex, Scheduled Task or Plugin/App-backed execution context, material instructions/state/capability/authority are not assumed to transfer automatically.
+No seventh global function is currently justified.
 
-The realization must verify what the target context actually receives, recompile only the missing semantic minimum, then reconcile returned result/state with the legitimate owner/context.
+### Global vs local boundary
 
-This is particularly material because current Project Instructions override global Custom Instructions and current Scheduled Tasks may not have access to Project files.
+Global runtime carries only:
+- enough intent/scope qualification to prevent material misdirection;
+- reality/state/authority routing;
+- the trigger for local professional/capability composition;
+- minimum-sufficient work/preservation/dependency control;
+- claim/assurance/realization boundaries;
+- context-transition conformance and return.
 
-## 5. Current gate — R3
+Detailed professional methods, DWM/Work Graph, domain rules/references, assurance methods, risk/security controls, uncertainty/commitment methods, portfolio logic, realization models, Project topology and reusable Skill/plugin content remain local/retrievable/conditional until a material trigger justifies them.
 
-**REALIZATION R3 — Minimum Operating/Runtime Contract & Semantic Coverage.**
+## 6. Current gate — R4
 
-R3 must define only:
+**REALIZATION R4 — Runtime Carrier & Compilation Candidate.**
 
-1. the minimum cross-domain functions the global kernel must reliably carry;
-2. admission/exit contracts for Project continuity and Work/Codex/Plugin execution;
-3. authoritative-state and Human/authority return contracts;
-4. context-transition conformance / semantic-preservation requirements;
-5. which baseline semantics remain latent/retrievable rather than globally encoded;
-6. a coverage/burden test capable of rejecting global-kernel inflation before wording or deployment.
+R4 may now design a concrete realization candidate, but must keep separate:
 
-Do **not** yet write/install final Custom Instructions, create/restructure Projects, build Skills/plugins/agents, migrate state or schedule automations.
+```text
+FUNCTION
+  G1…G6
 
-Only after R3 passes should a concrete runtime carrier candidate be designed.
+CARRIER
+  global Custom Instructions / Project-local context / Work-Codex handoff /
+  Plugin-Skill / external state-tool enforcement / assurance mechanism
 
-## 6. Reopen rule
+WORDING / CONFIGURATION
+  concrete runtime implementation
+
+CONFORMANCE EVIDENCE
+  proof that the implementation preserves the intended function
+  in the actual execution context
+```
+
+R4 should first determine:
+
+1. which subset of G1–G6 genuinely belongs in global Custom Instructions rather than another carrier;
+2. how Project Instructions preserve/recompile baseline-critical functions given current override behavior;
+3. the minimum preflight/handoff/return contract for Work, Codex and Plugin/App execution;
+4. which semantics should be retrieved from this repository/local knowledge rather than encoded in active runtime context;
+5. the smallest regression set able to detect semantic loss and global-kernel inflation before deployment.
+
+Do **not** install/change final Custom Instructions, create/restructure Projects, build Skills/plugins/agents, migrate state or schedule automations until the R4 carrier/compilation candidate itself passes.
+
+## 7. Reopen rule
 
 Foundational architecture reopens only for ADR-0002 material triggers. Product limitations or realization friction should first be treated as Runtime/Operating realization problems unless they prove a required conceptual semantic cannot be represented or preserved.
