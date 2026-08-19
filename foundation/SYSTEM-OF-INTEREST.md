@@ -1,7 +1,8 @@
-# System of Interest — Foundation v0.1
+# System of Interest — Foundation v0.2
 
-**Status:** PROVISIONAL / PRE-ARCHITECTURE  
-**Purpose:** Establish the problem space and decision boundaries before committing to an architecture.
+**Status:** PROVISIONAL / PRE-ARCHITECTURE / PARTIALLY SYNTHESIZED  
+**Purpose:** Establish the problem space and decision boundaries before committing to an architecture.  
+**Synthesis basis:** `REFERENCE-ENVELOPE-DEPTH-CALIBRATION-v0.1.md` + `CROSS-REFERENCE-SYNTHESIS-DISCRIMINATION-v0.1.md` Stage 1.
 
 ## 1. Why this document exists
 
@@ -69,7 +70,7 @@ A valid architecture must therefore explain how it handles differences in task s
 
 ## 6. Candidate System-of-Interest boundaries
 
-The boundary is **not yet decided**. At least two serious alternatives must be evaluated.
+The final boundary is **not yet decided**. Stage-1 cross-reference synthesis materially changes the candidate set: a nested/claim-relative boundary is now the leading hypothesis rather than forcing one boundary to answer incompatible performance and engineering questions.
 
 ### Boundary hypothesis A — socio-technical joint work system
 
@@ -83,11 +84,32 @@ The System of Interest is the designed AI-mediated work-support system. Human ac
 
 **Implication:** human outcomes and agency remain critical stakeholder concerns, but the architecture can distinguish the engineered support system from the wider joint cognitive system.
 
+### Boundary hypothesis C — nested / claim-relative Systems of Interest — LEADING CANDIDATE
+
+Use explicitly related SoIs for different classes of claims:
+
+```text
+SoI-P — Human–AI Work System
+        primary performance / professional-work / outcome SoI
+        includes the sociotechnical configuration material to joint work
+
+        contains / uses
+             ↓
+
+SoI-E — AI Work-Support / Control Subsystem
+        nested engineered SoI for technical behavior, lifecycle,
+        verification, runtime, security and implementation responsibility
+```
+
+**Rationale:** work-system and joint-cognitive references indicate that joint work performance may not be attributable to the AI component alone, while systems/software engineering, assurance and security still require a clearly bounded engineered entity.
+
+**Non-decision:** Hypothesis C does not imply that `SoI-E` is a single Work Engine, agent, service or software component.
+
 ### Boundary decision test
 
-The selected boundary should make responsibility, state ownership, authority, performance attribution, lifecycle management, and evaluation clearer rather than merely producing a more elegant diagram.
+The selected boundary model should make responsibility, state ownership, authority, performance attribution, lifecycle management and evaluation clearer rather than merely producing a more elegant diagram.
 
-Other boundary hypotheses may emerge from reference work.
+**Falsifier for C:** reject the nested model if it adds semantic complexity without changing any material evaluation, responsibility, architecture or lifecycle decision, or if one simpler boundary preserves the same distinctions.
 
 ---
 
@@ -107,20 +129,40 @@ Stakeholders are not assumed to have aligned objectives. Conflicts among outcome
 
 ---
 
-## 8. Candidate units of concern
+## 8. Candidate focal units and scale
 
-A major unresolved question is the unit at which the system controls work. Possible units include:
+Stage-1 synthesis rejects a single universal work unit as the default. Different scales earn distinct types only when purpose, state, authority, persistence, dependencies, resource allocation, outcome horizon or opportunity cost materially change.
 
-- interaction / turn;
-- task;
-- work item;
-- work product;
-- decision;
-- workflow / case;
-- project;
-- persistent operational process.
+Leading candidate set:
 
-The system may require **multiple nested units** rather than a single universal unit. A core architecture must not silently transfer state or completion semantics from one level to another.
+```text
+F0 — Interaction / Operation
+     local exchange, tool invocation or concrete execution operation
+
+F1 — Work Episode / Case
+     bounded purpose-directed work with local state and exit conditions
+     LEADING DEFAULT work-control focal unit
+
+F2 — Initiative / Project / Programme
+     persistent multi-episode coordinated work/change with dependencies,
+     shared outcome horizon and continuation/closure semantics
+
+F3 — Portfolio
+     competing initiatives/bets sharing scarce resources and attention;
+     selection, balancing, scale/pause/kill and opportunity-cost semantics
+
+F4 — Configured Human–AI Work System
+     standing arrangement through which episodes and initiatives occur
+```
+
+Compression rule:
+
+- simple direct work must not require explicit F2/F3 machinery;
+- F2 activates only when persistence/dependency/shared-outcome semantics matter;
+- F3 activates only when material initiatives compete for scarce resources/attention;
+- organization, market, institution and ecosystem remain environment or higher-scope SoI candidates rather than mandatory runtime units.
+
+**Open issue:** whether `Programme` requires a distinct type or can remain a subtype/configuration of F2.
 
 ---
 
@@ -135,9 +177,11 @@ A future performance model must distinguish at least:
 - factual/epistemic integrity from persuasive plausibility;
 - behavioral reliability from architecture elegance;
 - capability from authority;
-- in-lab task performance from in-use performance.
+- in-lab task performance from in-use performance;
+- episode-level success from initiative/portfolio contribution;
+- local optimization from system/strategic coherence.
 
-Potential measures may include outcome quality, critical error rate, rework, human correction burden, elapsed work, turns/tokens/tool calls, state-recovery success, false-completion rate, transition success, human learning/agency measures, and robustness under changed conditions.
+Potential measures may include outcome quality, critical error rate, rework, human correction burden, elapsed work, turns/tokens/tool calls, state-recovery success, false-completion rate, transition success, human learning/agency measures, robustness under changed conditions, WIP/resource burden and contribution to higher-level outcomes.
 
 No metric is accepted merely because it is easy to measure.
 
@@ -159,29 +203,84 @@ The following are **questions to cover**, not a declaration of final views or co
 - How are context, knowledge, references, and persistent memory managed?
 - How is system complexity kept proportional to the work?
 - How is the system evaluated, learned from, versioned, rolled back, and retired?
+- How is episode-level work control kept distinct from strategic direction and portfolio/initiative control?
+- How can local work evidence challenge higher-level strategy/portfolio state without silently acquiring authority to change it?
+- How are multiple nested focal units linked without importing project/portfolio ceremony into ordinary work?
 
 ---
 
-## 11. Explicit non-decisions
+## 11. Stage-1 control-level discrimination
 
-At Foundation v0.1 we do **not** assume:
+Cross-reference synthesis currently supports a **coupled multi-level control hypothesis**:
+
+```text
+SC — Strategic Control
+     directions, positions, capabilities, strategic bets and renewal
+
+PC — Portfolio / Initiative Control
+     admission, resource/attention allocation, dependencies,
+     scale/pause/combine/kill
+
+WC — Work / Episode Control
+     minimum sufficient next work for an admitted episode
+
+OC — Operational / Execution Control
+     execution, observation, retry, containment, rollback, safe failure
+```
+
+This is **not a component diagram**. The domains may later be realized through human decisions, policies, views, capabilities, runtime functions or combinations.
+
+Leading implication for the `Work Engine` hypothesis:
+
+> if the concept survives, its defensible scope is currently closest to **WC — Work / Episode Control**, not universal strategy/portfolio ownership.
+
+Strategy and portfolio state may constrain WC; work evidence may challenge them upward; neither direction automatically transfers authority.
+
+---
+
+## 12. Explicit non-decisions
+
+At Foundation v0.2 we do **not** assume:
 
 - that a `Work Engine` is a subsystem rather than a control viewpoint or policy;
 - that `Capabilities` form a peer subsystem to any engine;
 - that `Environment` is an architectural component rather than operational context;
+- that SC/PC/WC/OC are software modules;
 - that DWM, Semantic Compiler, Work Graph, Realization, Prospective Robustness, or predecessor lifecycle stages retain their prior form;
 - that the best implementation is a prompt, Custom Instructions, skills, an agent graph, a multi-agent system, deterministic orchestration, or any particular platform;
-- that one architecture can be represented adequately by one hierarchy.
+- that one architecture can be represented adequately by one hierarchy;
+- that an Operating Model, Management System, Enterprise Architecture or AI “Operating System” is identical with the Human–AI Work System.
 
 ---
 
-## 12. Next qualification gates
+## 13. Reference-envelope constraint
 
-Before freezing a conceptual architecture:
+The external reference program is bounded by `REFERENCE-ENVELOPE-DEPTH-CALIBRATION-v0.1.md`.
 
-1. complete a bounded but serious reference sweep across the relevant disciplines;
-2. harvest the predecessor architecture and high-information real work evidence with provenance;
-3. derive and reconcile stakeholder concerns and candidate requirements;
-4. compare alternative SoI boundaries and units of concern;
-5. define an initial performance model sufficient to discriminate architectural alternatives;
-6. only then define architecture viewpoints and candidate conceptual structures.
+Key rule:
+
+> Research knowledge necessary to understand/architect the Human–AI Work System deeply; treat Operating Models, Management Systems, Enterprise/Business Architecture, Process/Case Management, Service Management and Personal-AI-OS practice as bridge references unless a distinct missing mechanism family is demonstrated.
+
+Reference depth is decision-relative (D0 Map → D4 Domain Deep Dive), not equal across all families.
+
+---
+
+## 14. Next qualification gates
+
+Completed/advanced:
+
+1. bounded Reference Map coverage and Red Team;
+2. first Anchor & Conflict Sweep;
+3. Reference Envelope & Depth Calibration;
+4. Stage-1 Cross-Reference Synthesis on Q1 SoI boundary, Q2 focal units and Q3 control levels.
+
+Next:
+
+5. synthesize Q4 Human/joint cognition & capability formation;
+6. synthesize Q5 state / knowledge / persistence;
+7. synthesize Q6 authority / action / control;
+8. synthesize Q7 Work Product → use → outcome/value performance;
+9. synthesize Q8 local/global economics & proportionality;
+10. reconcile those results with the predecessor evidence matrix and real-work evidence;
+11. derive `CONCERNS-AND-REQUIREMENTS v0.1`;
+12. only then define architecture viewpoints and compare conceptual architecture alternatives.
