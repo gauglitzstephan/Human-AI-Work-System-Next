@@ -28,19 +28,29 @@ None of these streams is sufficient alone. References are evidence, not authorit
 
 ## Bootstrap work products
 
-- [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md) — provisional problem, mission, boundary, stakeholders, outcomes, and performance concerns.
+### Foundation and method
+
+- [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md) — provisional problem, mission, competing boundary hypotheses, stakeholders, outcomes, and performance concerns.
+- [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — how concerns, references, evidence, alternatives, views, and decisions become architecture.
+- [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md) — how conceptual, behavioral, economic, Human–AI, state, transition, and robustness claims will be tested.
+- [`decisions/ADR-0001-reconstruction-bootstrap.md`](decisions/ADR-0001-reconstruction-bootstrap.md) — rationale for reconstruction rather than direct refactoring.
+
+### External knowledge stream
+
 - [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — reference families and the questions each should answer.
-- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md) — internal evidence sources and harvesting rules.
-- [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — how evidence becomes concerns, requirements, alternatives, views, and architecture decisions.
-- [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md) — how architectural and behavioral claims will be tested.
-- [`decisions/ADR-0001-reconstruction-bootstrap.md`](decisions/ADR-0001-reconstruction-bootstrap.md) — rationale for a clean reconstruction rather than direct refactoring.
+- [`references/SEED-REFERENCE-REGISTER.md`](references/SEED-REFERENCE-REGISTER.md) — first verified source register covering architecture, concept definition, AI assurance, agents/orchestration, and Human–AI collaboration.
+
+### Internal evidence stream
+
+- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md) — internal evidence sources, evidence strength, and harvesting rules.
+- [`evidence/PREDECESSOR-INVENTORY-v0.1.md`](evidence/PREDECESSOR-INVENTORY-v0.1.md) — first-pass inventory of high-value architecture, runtime, falsification, and real-use evidence in `Human-AI-Work-System`.
 
 ## Current non-decisions
 
 The following are **not yet established**:
 
 - the final System of Interest boundary;
-- whether `Work Engine` is the correct name, abstraction, or subsystem boundary;
+- whether `Work Engine` is the correct name, abstraction, subsystem, control policy, or viewpoint;
 - whether `Capabilities` and `Environment` are architectural components or views;
 - the final lifecycle or work-state model;
 - the runtime implementation (Custom Instructions, skills, agents, deterministic orchestration, or combinations);
@@ -71,4 +81,15 @@ Purpose / Problem / Operational Context
        Runtime realization
 ```
 
-The governing rule is: **do not promote a concept into the architecture merely because it is plausible, familiar, or previously useful. Establish its role, scope, mechanism, evidence, and architectural placement first.**
+## Current gate
+
+Do **not** design the Work Engine yet.
+
+The next decision-relevant work is to build two linked matrices:
+
+1. **Reference synthesis by concern/mechanism** — what the strongest external disciplines say about the same underlying concerns, including conflicts and transfer limits.
+2. **Predecessor evidence matrix** — `problem → reference basis → mechanism → architectural placement → evidence → counterevidence → dependencies → confidence → candidate disposition` for the high-priority predecessor sources.
+
+Those matrices should then produce the first qualified set of stakeholder/system concerns and candidate requirements. Only after that do we define architecture viewpoints and compare conceptual architecture alternatives.
+
+The governing rule is: **do not promote a concept into the architecture merely because it is plausible, familiar, or previously useful. Establish its role, scope, mechanism, evidence, alternatives, and architectural placement first.**
