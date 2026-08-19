@@ -6,13 +6,11 @@
 
 **BOOTSTRAP / PRE-ARCHITECTURE / DIFFERENTIAL RECONCILIATION**
 
-This repository is not another blank-slate architecture branch.
-
-Its job is to recover and reconcile the substantial existing Human–AI architecture lineage, preserve qualified prior knowledge, identify genuine conflicts/gaps, and create new architecture only where prior designs plus current evidence are insufficient.
+This repository is not another blank-slate architecture branch. It preserves qualified prior designs, reconciles architecture types, and creates new architecture only where a genuine unresolved delta remains.
 
 ## Working intent
 
-Develop or select a general Human–AI Work System that improves real professional work by composing human judgment and agency, AI capabilities, tools, knowledge, state and existing processes appropriately for the situation.
+Develop or select a general Human–AI Work System that improves real professional work by composing Human judgment and agency, AI capabilities, tools, knowledge, state and existing processes appropriately for the situation — and that scales from one Human + AI to larger Human–AI organizations without architecture rewrite.
 
 ## Epistemic stance
 
@@ -31,15 +29,17 @@ raw internal evidence ≠ accepted design
 current product capability ≠ system invariant
 ```
 
-## Bootstrap work products
+## Core reconstruction artifacts
 
-### Foundation and method
-- [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md)
+### Foundation / architecture method
+- [`foundation/SYSTEM-OF-INTEREST.md`](foundation/SYSTEM-OF-INTEREST.md) — **v0.3 lineage-aware / claim-relative boundary**
 - [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — v0.2 lineage-corrected
+- [`architecture/ARCHITECTURE-PRINCIPLES-v0.1.md`](architecture/ARCHITECTURE-PRINCIPLES-v0.1.md)
 - [`architecture/PRIOR-ARCHITECTURE-DIFFERENTIAL-REVIEW-v0.1.md`](architecture/PRIOR-ARCHITECTURE-DIFFERENTIAL-REVIEW-v0.1.md)
 - [`architecture/LAYER-VIEW-WORKCONTROL-RUNTIME-CORRESPONDENCE-v0.1.md`](architecture/LAYER-VIEW-WORKCONTROL-RUNTIME-CORRESPONDENCE-v0.1.md)
+- [`architecture/DELTA-01-02-PERSONAL-OPERATING-ARCHITECTURE-SOI-REVIEW-v0.1.md`](architecture/DELTA-01-02-PERSONAL-OPERATING-ARCHITECTURE-SOI-REVIEW-v0.1.md)
+- [`architecture/DELTA-03-VIEW-CONTROL-PLANE-RECONCILIATION-v0.1.md`](architecture/DELTA-03-VIEW-CONTROL-PLANE-RECONCILIATION-v0.1.md)
 - [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md)
-- [`decisions/ADR-0001-reconstruction-bootstrap.md`](decisions/ADR-0001-reconstruction-bootstrap.md)
 
 ### Reference stream
 - [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — v0.3 working coverage baseline
@@ -56,53 +56,69 @@ current product capability ≠ system invariant
 - [`evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md`](evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md)
 - [`evidence/PREDECESSOR-INVENTORY-v0.1.md`](evidence/PREDECESSOR-INVENTORY-v0.1.md)
 
-## Central process correction
-
-The relevant predecessor estate is broader than `Human-AI-Work-System` alone.
-
-Highest-priority qualified priors:
-
-- `AI-native-Operating-Model` — accepted five-layer/five-control-plane whole-system responsibility architecture with Work Architecture and Work Units;
-- `human-ai-work-architecture` — accepted v1.3.1 architecture-description / semantic view system and execution-context architecture;
-- `Human-AI-Work-System` — later Work Architecture / Core/B.6 / Semantic Compiler / runtime candidate and real-use evidence;
-- `PAOS` — minimum-kernel/native-surface runtime and proportionality counter-design.
-
-A prior accepted question is reopened only with a named trigger: changed SoI, new external evidence, new real-use failure, stronger rival, material prior conflict, implementation impossibility, or evidence that the prior was not actually qualified.
-
-## Differential architecture result
-
-The strongest prior lines are **not four equivalent competing architectures**.
-
-Leading type-correct interpretation:
+## Leading type-correct architecture interpretation
 
 ```text
-WHOLE-SYSTEM RESPONSIBILITY ARCHITECTURE
+RESPONSIBILITY ARCHITECTURE
 → Strategic / Operating / Work / Execution / Learning
-  [AI-native Operating Model]
 
-CROSS-CUTTING ARCHITECTURE VIEWS
-→ Mission / Work Process / State / Capability / Authority /
-  Assurance / Governance-Learning / Execution Context
-  [human-ai-work-architecture]
+ARCHITECTURE DESCRIPTION VIEWS
+→ Mission & Outcome / Work Process / Information & State /
+  Capability & Resource / Interaction & Authority /
+  Quality & Assurance / Governance & Learning /
+  Execution Context & Integration
+
+CROSS-CUTTING INTEGRITY CONTRACTS
+→ Reality & Provenance
+→ Authority / Governance / Security
+→ Assurance & Risk
+→ Performance / Economics / Value
+→ Knowledge / Configuration / Change
 
 WITHIN WORK ARCHITECTURE
-→ Work Graph / conditional Work Units / Work Products
+→ Work Object / Work Product / conditional Work Units / Work Graph
 → optional adaptive next-work control
-  [Semantic Compiler candidate]
 
-CONCRETE RUNTIME / OPERATING PROFILE
-→ PAOS-like kernel + surfaces + conditional contexts / tools / skills
+RUNTIME / OPERATING PROFILE
+→ context-specific minimal realization (e.g. PAOS-like)
 ```
 
-The five layers and eight views passed the first correspondence test as complementary dimensions rather than duplicate master hierarchies.
+The categories above are different architecture object types, not peer layers.
 
-Important:
+## Architecture principles now active for reconstruction
 
-```text
-Work Architecture ≠ Work Process View ≠ Semantic Compiler ≠ PAOS Runtime Profile
-```
+Key principles include:
 
-This type confusion is a leading explanation for repeated architecture rediscovery in predecessor work.
+- optimize the whole Human–AI work system;
+- responsibility/role before actor binding;
+- scale-invariant semantics, scale-conditional structures;
+- persistent Operating Architecture distinct from episodic Work;
+- economics and Human attention as architecture inputs;
+- layers/views/control/runtime remain type-correct;
+- capability/access/authority/accountability remain distinct;
+- persistent ownership only where divergence matters;
+- simple work collapses aggressively;
+- design for actor substitution, extensibility and portability;
+- preserve material semantics through runtime compression;
+- qualified prior architecture is closed-but-reopenable.
+
+## Differential results to date
+
+### Δ1 — Personal/general Operating Architecture
+
+**Resolved provisionally:** retain Operating Architecture as a scale-invariant responsibility class. Generalize `organization/roles` to `role/responsibility → actor binding`; enterprise-specific mechanisms are conditional.
+
+A one-Human-plus-AI configuration is the minimum non-trivial case where persistent capabilities, roles, state, authority, economics and learning can already require operating design.
+
+### Δ2 — System-of-Interest boundary
+
+**Resolved provisionally:** do not promote a permanent `SoI-P / SoI-E` taxonomy. Use claim-relative boundary selection. Human–AI Work System is the default focal SoI for work/outcome claims; focus nested technical elements only when the engineering/security/lifecycle claim requires it.
+
+### Δ3 — Views vs Control Planes
+
+**Resolved provisionally:** retain the five responsibility layers and eight accepted Views. Retain the five Control Plane semantics but represent them in Next as cross-cutting **Integrity Contracts / lenses**, not a third peer decomposition.
+
+No new top-level responsibility layer or View is currently justified.
 
 ## Provisionally inherited common semantics
 
@@ -122,23 +138,28 @@ Unless a named reopen trigger appears, stop first-principles re-derivation of:
 - aggressive collapse for simple work;
 - architecture acceptance ≠ runtime installation ≠ behavioral effectiveness.
 
-## Actual unresolved architecture delta
+## Remaining genuine architecture delta
 
-The remaining research frontier is now six bounded deltas:
-
-1. **Δ1 Personal/general transfer of Operating Architecture** — which persistent operating responsibilities are constitutive for a personal/general Human–AI Work System versus organizational only?
-2. **Δ2 SoI/boundary formalization** — does explicit nested claim-relative `SoI-P / SoI-E` improve attribution, lifecycle/security scope and evaluation enough to justify itself?
-3. **Δ3 View/control-plane compression** — can the five control-plane functions become invariant contracts carried through the views rather than another explicit architecture vocabulary?
-4. **Δ4 Adaptive Work-Control value** — does Semantic Compiler / Work-Control policy materially improve behavior over accepted Work Architecture + PAOS-like conditional routing?
-5. **Δ5 Architecture→runtime semantic compilation** — how are load-bearing semantics preserved under severe active-context/salience constraints?
-6. **Δ6 Knowledge Capital ownership/promotion** — where do reusable knowledge, Work patterns, Skills/capabilities, Operating patterns and authoritative state live and transition?
+1. **Δ4 Adaptive Work-Control value** — does Semantic Compiler / Work-Control policy materially improve behavior over accepted Work Architecture + PAOS-like conditional routing?
+2. **Δ5 Architecture→runtime semantic compilation** — how are load-bearing semantics preserved under severe active-context/salience constraints?
+3. **Δ6 Knowledge Capital ownership/promotion** — where do reusable knowledge, Work patterns, Skills/capabilities, Operating patterns and authoritative state live and transition?
 
 ## Current gate
 
-**Do not resume generic Q4–Q8 synthesis. Do not create a peer Work Engine layer.**
+**Do not create new top-level architecture by default. Do not create a peer Work Engine layer.**
 
-Proceed only on the genuine deltas, beginning upstream with:
+Next:
 
-> **Δ1 Personal/general transfer of Operating Architecture + Δ2 SoI/boundary formalization**
+> **Δ4 Adaptive Work-Control Differential Review**
 
-Use qualified predecessor semantics as the baseline. External research is now differential: it is used to challenge or resolve a specific transfer/conflict question, not to rediscover established mechanisms.
+Compare:
+
+```text
+accepted Work Architecture only
+vs
+Work Architecture + Semantic Compiler / adaptive Work-Control
+vs
+PAOS-style minimal conditional routing
+```
+
+The question is empirical and architectural: whether an explicit adaptive controller adds unique behavioral value after its semantic and coordination cost is included.
