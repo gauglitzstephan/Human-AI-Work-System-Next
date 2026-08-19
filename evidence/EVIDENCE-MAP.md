@@ -1,180 +1,280 @@
-# Evidence Map v0.1
+# Evidence Map v0.2
 
-**Status:** WORKING INVENTORY  
-**Purpose:** Define how prior work becomes usable evidence without silently becoming the new architecture.
-
-## 1. Evidence principle
-
-The reconstruction has substantial prior work available. That is an asset only if provenance and epistemic status are preserved.
-
-The evidence stream therefore distinguishes:
-
-- what was actually observed;
-- what was inferred from the observation;
-- what design response was attempted;
-- what changed afterward;
-- whether the change was causally tested;
-- what scope the result can legitimately support.
-
-A predecessor concept is not a requirement merely because it was carefully developed.
+**Status:** WORKING INVENTORY / LINEAGE-CORRECTED  
+**Purpose:** Define how prior work becomes usable evidence or qualified inherited design without silently becoming the new architecture and without forcing repeated rediscovery.
 
 ---
 
-## 2. Primary internal evidence sources
+## 1. Evidence principle
 
-### E1 — Predecessor repository
+The reconstruction has substantial prior work available. That is an asset only if provenance, status and **design maturity** are preserved.
 
-**Source:** `gauglitzstephan/Human-AI-Work-System`
+The prior corpus is not one homogeneous evidence bucket.
 
-Potential evidence:
-- architecture versions and rationale;
-- architecture audits and falsification attempts;
-- runtime / Custom Instruction variants;
-- evaluation fixtures and outputs;
-- failure taxonomies;
+Keep distinct:
+
+```text
+raw observation
+≠ design hypothesis
+≠ qualified prior design
+≠ implementation/runtime evidence
+≠ accepted architecture
+≠ external validation
+```
+
+A predecessor concept is not a requirement merely because it was carefully developed. Equally, an accepted reference-grounded and falsified predecessor design is not reset to zero merely because a new repository was created.
+
+---
+
+# 2. Internal evidence / design status classes
+
+## I0 — Raw internal evidence
+
+Examples:
+- real work traces;
+- user corrections;
+- failures / near misses;
+- output or transition defects;
+- implementation incidents;
+- observed successful patterns.
+
+Use: causal/mechanism hypotheses and representative eval fixtures.
+
+## I1 — Design hypothesis / candidate
+
+Examples:
+- candidate architecture;
+- unaccepted HAPS/PAWS/AMM family claim;
+- proposed lifecycle or semantic object;
+- conceptual synthesis without accepted closure.
+
+Use: compare alternatives; do not inherit as default.
+
+## I2 — Qualified Prior Design
+
+A bounded prior design with sufficiently explicit:
+- scope / System of Interest;
+- reference/rationale basis;
+- alternatives/failure analysis;
+- review/falsification;
+- human acceptance;
+- limitations / reopen conditions.
+
+Use: **closed-but-reopenable prior**. Recover and map first. Reopen only with an explicit trigger.
+
+## I3 — Implementation / runtime evidence
+
+Examples:
+- installed or runnable mechanisms;
+- canary evidence;
+- platform/access behavior;
+- runtime regressions;
+- state/recovery incidents;
+- performance and cost observations.
+
+Use: test whether conceptual semantics survive realization and ordinary use.
+
+## I4 — Superseded / rejected / counter-design
+
+Examples:
+- GitHub-first persistence later rejected;
+- heavy registry designs replaced by bounded manual storage;
+- deliberately thin PAOS alternatives;
+- failed or retired runtime architectures.
+
+Use: negative evidence and architecture alternatives. Do not discard merely because superseded.
+
+---
+
+# 3. Primary internal sources
+
+## E1 — Predecessor architecture lineage
+
+**Sources include at least:**
+
+- `AI-native-Operating-Model`;
+- `human-ai-work-architecture`;
+- `Human-AI-Work-System`;
+- `PAOS`;
+- `Personal-AI-Operating-Model`;
+- `personal-ai-workspace-system`;
+- `Persistence-System`;
+- `PAW`;
+- additional relevant repos discovered through lineage audit.
+
+Potential evidence/design:
+- accepted architecture versions and rationale;
+- architecture audits / falsification;
+- simplified counter-designs;
+- runtime and integration variants;
+- persistence/state/governance experiments;
 - reference work already performed;
 - rejected or superseded designs;
-- commit history revealing architecture churn and repair cycles.
+- commit history revealing churn, repair and convergence.
 
-**Use:** harvest claims, mechanisms, evidence, and unresolved conflicts. Do not migrate the directory structure or terminology by default.
+**Use:** classify each material artifact as I0–I4 before synthesis. Do not treat the immediate predecessor as the whole lineage.
 
-### E2 — Real Human–AI work traces
+See `PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md`.
+
+## E2 — Real Human–AI work traces
 
 Potential evidence:
-- conversations where work succeeded unusually well;
-- conversations where intent was misunderstood;
-- unnecessary questioning or unnecessary work;
+- unusually strong work;
+- intent misunderstanding;
+- unnecessary questioning/work;
 - premature artifact production;
-- excessive process/architecture activation;
-- state-loss or state-conflict episodes;
-- situations where human judgment or learning was displaced;
-- situations where AI correctly took on work that otherwise would have been delegated back to the human.
+- process/architecture overactivation;
+- state-loss/conflict;
+- displaced Human judgment/learning;
+- cases where AI correctly completed work without needless relay to the Human.
 
-**Use:** reconstruct work episodes and causal hypotheses. Avoid treating user dissatisfaction or preference alone as proof of a general mechanism.
+Use: reconstruct episodes and causal hypotheses. User dissatisfaction/preference alone is not proof of a universal mechanism.
 
-### E3 — Real implemented workflows and projects
-
-Potential evidence:
-- workflows using files, repositories, external applications, automation, or persistent state;
-- handoffs between AI, deterministic tooling, and humans;
-- operational failures, retries, recovery, and resource limits;
-- artifacts that were produced but failed in transition or use;
-- successful cases where existing assets were preserved and repaired.
-
-**Use:** test whether conceptual distinctions survive contact with real state, authority, and implementation constraints.
-
-### E4 — Existing evaluations and benchmarks
+## E3 — Real implemented workflows and projects
 
 Potential evidence:
-- representative task fixtures;
+- files, repositories, external apps, automation, persistent state;
+- Human/AI/tool handoffs;
+- operational failures/retries/recovery/resource limits;
+- produced artifacts that failed transition/use;
+- successful preservation/repair of existing assets.
+
+Use: test conceptual semantics against real state, authority and implementation constraints.
+
+## E4 — Existing evaluations and benchmarks
+
+Potential evidence:
+- representative fixtures;
 - baseline comparisons;
 - model/runtime comparisons;
 - regression tests;
 - evaluator disagreement;
-- failure cases where micro-tests passed but whole-task performance did not.
+- micro-test vs whole-task failures;
+- architecture scenario evaluations and acceptance records.
 
-**Use:** preserve reusable fixtures and results only with sufficient provenance, versioning, and scope.
+Use: preserve with provenance, scope and construct validity.
 
-### E5 — Human corrections and design decisions
+## E5 — Human corrections and design decisions
 
 Potential evidence:
-- repeated corrections of the same semantic failure;
-- explicit acceptance or rejection of proposed mechanisms;
-- decisions made under known constraints;
-- later reversals that reveal missing assumptions or changed reality.
+- repeated semantic corrections;
+- explicit accept/reject decisions;
+- known constraints;
+- reversals revealing missing assumptions or changed reality.
 
-**Use:** distinguish `human preference`, `domain truth`, `design decision`, and `empirical evidence` rather than merging them.
+Use: distinguish Human preference, domain truth, architecture authority, acceptance and empirical evidence.
 
 ---
 
-## 3. Work-episode harvest schema
-
-Each high-information episode should be reconstructed into a compact evidence object:
+# 4. Work-episode harvest schema
 
 ```text
 Episode ID
 Source / date / version
 Work context
-Initial user intent / requested outcome
-Available state and constraints
+Initial Human intent / requested outcome
+Available authoritative state / constraints
 What the Human–AI system actually did
 Observed success / failure
 Downstream result, if known
-Human correction or intervention
+Human correction / intervention
 Competing causal explanations
+Prior mechanism(s) already intended to handle this failure?
 Candidate mechanism(s)
 Evidence strength
 Transferability / boundary conditions
-Architecture relevance, if any
+Architecture relevance
 Candidate eval fixture? yes/no
 ```
 
-## 4. Architecture-artifact harvest schema
+The added `Prior mechanism` field is mandatory for material architecture learning: do not invent a new mechanism before checking whether the failure is an implementation, salience, activation, state, or conformance defect in an existing one.
 
-For predecessor concepts, decisions, or documents:
+---
+
+# 5. Architecture / prior-design harvest schema
 
 ```text
-Artifact ID
-Source path / commit / date
-Problem it attempted to solve
-Construct / mechanism proposed
-Reference basis
+Artifact / Decision ID
+Repository / source path / commit / date
+System of Interest / scope
+Prior status: I1 | I2 | I3 | I4
+Problem / concern
+Construct / mechanism / architecture decision
+External reference basis
 Internal evidence basis
-What changed behaviorally, if known
+Alternatives / counter-designs considered
+Validation / falsification performed
+Human acceptance / authority state
 Known failure / conflict / supersession
-Dependencies on other concepts
-Current status:
-  REUSE-AS-EVIDENCE
-  REFERENCE-ONLY
-  CANDIDATE-FOR-RETEST
-  SUPERSEDED
-  REJECTED
-  UNKNOWN
+Reopen conditions
+Dependencies
+Current external-evidence delta
+Current real-use delta
+Reopen trigger now? yes/no
+Disposition:
+  RETAIN
+  RETAIN-WITH-BOUNDARY
+  REFINE
+  RELOCATE
+  MERGE
+  SUPERSEDE
+  REJECT
+  OPEN-CONFLICT
+Novel delta, if any
 ```
 
-## 5. Evidence strength
+---
 
-Use a simple explicit scale rather than rhetorical certainty:
+# 6. Evidence strength
+
+Use an explicit evidence scale for empirical claims:
 
 - **E0 — assertion:** proposed without supporting observation or reference.
 - **E1 — observed:** one or more real episodes are consistent with the claim.
 - **E2 — triangulated:** multiple independent episodes or external references support the mechanism.
-- **E3 — tested:** a comparison or targeted test discriminates the mechanism from meaningful alternatives.
+- **E3 — tested:** comparison or targeted test discriminates meaningful alternatives.
 - **E4 — replicated / robust:** performance persists across representative task classes, models/conditions, or repeated use sufficient for the claim.
 
-Evidence strength never substitutes for scope. A strong result on one task class does not automatically generalize.
+Do not confuse this empirical scale with design acceptance status. An architecture can be accepted as a bounded design decision while many real-world performance claims remain unvalidated.
 
 ---
 
-## 6. Harvest sequence — first pass
+# 7. Corrected harvest sequence
 
-The first harvest should be deliberately bounded and information-dense:
+The old first-pass sequence started too late in the lineage.
 
-1. predecessor repository: current core architecture, latest runtime, architecture falsification audits, reference/coverage audits, evaluation framework;
-2. 15–30 high-information real work episodes spanning radically different task classes and scales;
-3. 3–5 persistent/tool-rich workflows where state, authority, recovery, or transition actually mattered;
-4. existing benchmark/evaluation assets that can be reused with provenance;
-5. explicit predecessor concepts that were repeatedly added, removed, or repaired.
+Use this sequence instead:
 
-The purpose is **not completeness**. The purpose is to expose the strongest evidence, contradictions, and alternative explanations before conceptual architecture is frozen.
+1. **Lineage recovery** — inventory relevant prior repositories and canonical/accepted/candidate states.
+2. **Qualified-prior reconciliation** — extract the highest-value accepted architecture decisions, scope, reference basis, validation and reopen conditions.
+3. **Counter-design recovery** — preserve deliberately simpler, rejected or superseded alternatives such as PAOS and persistence corrections.
+4. **Current real-use/runtime evidence** — map recent canaries, failures and state/platform observations against prior mechanisms.
+5. **External delta research** — search only where evidence changed, prior sources were weak, or an open conflict remains.
+6. **Representative episode/eval harvest** — use cases that can discriminate remaining alternatives rather than reproduce prior tests.
+
+The purpose is not completeness. It is to expose **where prior knowledge is still valid and where the real unresolved decision frontier begins**.
 
 ---
 
-## 7. Anti-bias rules
+# 8. Anti-bias / anti-rediscovery rules
 
-- Do not harvest only spectacular failures; include strong success cases and cases where the base model was already sufficient.
-- Do not treat repeated terminology as repeated independent evidence.
-- Do not infer causality from a better response after a prompt change without an adequate comparison.
-- Preserve negative evidence and cases where additional structure reduced quality or efficiency.
-- Preserve temporal order so that later design vocabulary is not projected backward onto earlier observations.
-- Do not convert every failure into a new global rule; first test whether an existing capability, local method, runtime implementation, or state defect explains it.
+- Do not harvest only spectacular failures; include strong success and base-model-sufficient cases.
+- Do not treat repeated terminology as independent evidence.
+- Do not infer causality from a better response after a prompt change without adequate comparison.
+- Preserve negative evidence where added structure reduced quality/efficiency.
+- Preserve temporal order.
+- Do not convert every failure into a new global rule; check existing mechanism, implementation, state and activation first.
+- **Do not re-derive a qualified accepted prior merely to make the new repo self-contained.** Summarize/link it and reopen only with cause.
+- **Do not prefer the newest vocabulary.** Prefer the best-supported mechanism and clearest boundary.
+- **Do not equate old with superseded.** Status must be established, not assumed from age.
 
-## 8. Output of the harvest
+---
 
-The harvest should produce three separate outputs:
+# 9. Outputs of the lineage-aware harvest
 
-1. **Evidence corpus** — reconstructed observations with provenance.
-2. **Mechanism candidate register** — possible general mechanisms with evidence status and competing explanations.
-3. **Eval fixture pool** — representative episodes that can discriminate architecture alternatives.
+1. **Prior Architecture Reconciliation Matrix** — accepted/candidate/counter-design lineage with current disposition.
+2. **Evidence corpus** — reconstructed observations with provenance.
+3. **Mechanism candidate/conflict register** — only genuinely unresolved mechanisms.
+4. **Eval fixture pool** — representative episodes capable of discriminating live alternatives.
 
-None of these is itself the architecture.
+None is itself the new architecture.
