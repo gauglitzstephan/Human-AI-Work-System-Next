@@ -1,100 +1,121 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM OPEN  
+**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM R2  
 **Date:** 2026-08-19  
-**Accepted by:** PR #3 merge  
-**Baseline merge SHA:** `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`  
+**Accepted conceptual baseline:** PR #3, merge SHA `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`  
 **Current branch:** `realization/architecture-runtime-operating-v0.1`
 
-## 1. Controlling conceptual baseline
+## 1. Controlling baseline
 
-PR #3 was explicitly Human-authorized and merged. Its conditional acceptance clause is therefore satisfied.
+The conceptual baseline is accepted and foundational architecture is **closed by default**:
 
-The controlling conceptual baseline is:
+1. `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`
+2. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`
+3. `decisions/ADR-0002-target-conceptual-baseline.md`
 
-1. `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` — 11 Concerns, 13 Core Requirements, 7 Conditional Requirements.
-2. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` — accepted conceptual Human–AI Work System architecture.
-3. `decisions/ADR-0002-target-conceptual-baseline.md` — acceptance, non-claim and reopen boundary; the merge condition recorded there has occurred.
-4. `architecture/ARCHITECTURE-METHOD.md` — lineage/reopen discipline.
-5. `evidence/EVIDENCE-MAP.md` and predecessor-lineage records — evidence status/provenance.
+The conditional merge clause in ADR-0002 has occurred. `PROPOSED` wording inside those pre-merge artifacts records authoring provenance and does not override the accepted state.
 
-The `PROPOSED` wording preserved inside the PR #3 artifacts records their pre-merge authoring state. It does not override the acceptance event established by the merged PR and this controlling state pointer.
-
-## 2. Accepted structural commitments
+Accepted structural commitments remain:
 
 ```text
 A. DISTINCT RESPONSIBILITIES
    Strategic / Operating / Work / Execution / Learning-Change
-   responsibility distinctions, not mandatory runtime layers
 
 B. DISTRIBUTED TYPED STATE
    authoritative state remains with legitimate owners/stores;
-   working context is composed as needed;
-   integrated DWM-like projection is conditional
+   working context is composed as needed
 
 C. ADAPTIVE WORK-SELECTION CONTRACT
-   for admitted/triggered work only,
-   select the minimum justified next work while preserving
-   reality, qualified state, requirements, dependency integrity,
+   for admitted/triggered work, select the minimum justified next work
+   while preserving reality, qualified state, dependency integrity,
    professional quality, capability/authority/runtime reality,
    assurance, uncertainty and net value
 ```
 
-## 3. Baseline non-claims
+No mandatory DWM, Work Graph, B.6 stage machine, Semantic Compiler subsystem, eight-View structure, PAOS topology, Control-Plane modules or fixed runtime topology is accepted.
 
-The accepted conceptual baseline does **not** establish:
+## 2. Realization program boundary
 
-- runtime installation or deployment;
-- behavioral superiority / Human–AI synergy;
-- a mandatory DWM, Work Graph, B.6 stage machine or Semantic Compiler subsystem;
-- mandatory eight Views, five Control-Plane modules or PAOS surface topology;
-- any particular model, tool, agent, Skill, Project, instruction or state-store topology;
-- cross-domain empirical generality;
-- outcome or value realization.
+The active problem is now **Architecture → Runtime / Operating Realization**, separate from conceptual architecture design.
 
-## 4. Foundational architecture mode
+Realization must allocate baseline semantics to actual Humans, persistent Operating state/policy/capability, runtime context/control, work-local method/context, tools/apps/technical enforcement and assurance/observability while minimizing burden and preventing unowned semantic loss.
 
-**CLOSED BY DEFAULT.**
+No runtime build/deployment is authorized until the realization profile is discriminated and reviewed.
 
-Reopen only for the named material triggers in ADR-0002 / Target Architecture v0.2. Without a trigger, prefer bounded Operating, Runtime, Method or product repair rather than foundational architecture expansion.
+## 3. R1 — Semantic Allocation & Platform Reality Mapping
 
-The earlier bootstrap `Δ4 / Δ5 / Δ6` sequence and the closed/unmerged PR #2 are historical/non-controlling.
+**Status: PASS AS MAPPING CANDIDATE.**
 
-## 5. Current program — Architecture → Runtime / Operating Realization
+Controlling artifact:
+- `realization/SEMANTIC-ALLOCATION-PLATFORM-REALITY-v0.1.md`
 
-The active work is now a separate realization problem:
+R1 mapped all 13 Core and 7 Conditional Requirements to the smallest plausible realization owners and reviewed current ChatGPT/OpenAI implementation reality for Chat, Work, Projects, Memory, Custom/Project Instructions, Plugins/Apps/Skills, Scheduled Tasks and Codex.
 
-> Determine how accepted baseline semantics are allocated to actual Humans, AI, ChatGPT surfaces, tools/apps, instructions, state stores, workflows/Skills, Projects/contexts, scheduled mechanisms and external authoritative systems — while preserving material semantics and minimizing implementation/coordination burden.
-
-### Realization discipline
-
-Do **not** start by writing new Custom Instructions, building a Skill, agent, DWM store, Work Graph, Project topology or automation.
-
-First establish:
-
-1. current platform/runtime reality;
-2. required semantic owners and enforcement strength;
-3. Operating vs Runtime vs Human/external-authority placement;
-4. which semantics can remain latent/contextual;
-5. semantic-preservation/conformance risks;
-6. smallest plausible realization profile.
-
-## 6. Current gate
-
-**REALIZATION R1 — Semantic Allocation & Platform Reality Mapping.**
-
-For each baseline requirement/mechanism classify the smallest sufficient owner as one or more of:
+Primary direction from R1:
 
 ```text
-HUMAN / LEGITIMATE EXTERNAL OWNER
-OPERATING STATE / POLICY / CAPABILITY
-RUNTIME CONTEXT / INSTRUCTION / CONTROL
-WORK-LOCAL METHOD / CONTEXT
-TOOL / APP / TECHNICAL ENFORCEMENT
+HUMAN / EXTERNAL OWNER
+  purpose, values, material judgment/acceptance/authority
+
+OPERATING / AUTHORITATIVE STATE
+  persistent domain truth, ownership, accepted patterns/capabilities
+
+THIN GLOBAL RUNTIME
+  only cross-domain control semantics that must reliably survive ordinary work
+
+WORK / PROJECT / DOMAIN LOCAL
+  current state, professional method, references, requirements, artifact context
+
+TOOLS / APPS
+  real retrieval/write, deterministic checks, computation/actions, permissions
+
 ASSURANCE / OBSERVABILITY
-LATENT / NO PERSISTENT REALIZATION
+  claim/failure-mode-specific evidence, validation, readback, monitoring
+
+LATENT
+  DWM/Work Graph/lifecycle/assurance ledgers/etc. until material triggers justify them
 ```
 
-Then map only those needs to current platform capabilities and limitations. Product capability does not become architecture authority; unavailable or context-specific capability remains explicit.
+R1 explicitly rejects treating ChatGPT Project/Memory/chat as authoritative truth merely because context is available, treating Scheduled Tasks as a truth store, or transferring capability/state claims across Chat/Work/Codex/Task/App contexts without evidence.
 
-No runtime build/deployment is authorized until this mapping survives a semantic-loss and burden review.
+## 4. Current gate — R2
+
+**REALIZATION R2 — Minimum Runtime / Operating Profile Discrimination.**
+
+Compare the smallest plausible default ownership profiles:
+
+```text
+A — GLOBAL-KERNEL MINIMAL
+    tiny cross-domain runtime invariants
+    + domain/project/external state retrieved as needed
+
+B — PROJECT-CENTRIC
+    minimal global kernel
+    + Projects as primary continuity/context carrier
+    + external authoritative state
+
+C — WORK/PLUGIN-ORCHESTRATED
+    minimal global kernel
+    + Work as long-task controller
+    + Plugins/Skills/Apps as reusable capability packages
+    + external authoritative state
+```
+
+These are realization profiles, not new conceptual architectures and not necessarily mutually exclusive products. R2 asks which responsibilities each profile should own **by default** and which remain conditional.
+
+Evaluate only:
+- CR-01…CR-13 coverage;
+- ordinary-work burden;
+- state/authority integrity;
+- runtime-context fidelity;
+- professional-method locality;
+- portability/exit;
+- observability/debuggability;
+- failure containment;
+- dependence on mutable product capability.
+
+Do **not** write Custom Instructions, create/restructure Projects, build Skills/plugins or schedule automations before R2 passes.
+
+## 5. Reopen rule
+
+Foundational architecture reopens only for ADR-0002 material triggers. Product limitations or realization friction should first be treated as Runtime/Operating realization problems unless they prove a required conceptual semantic cannot be represented or preserved.
