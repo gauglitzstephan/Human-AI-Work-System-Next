@@ -16,7 +16,7 @@ Do not infer current development state from the newest-looking filename or from 
 
 ## Status
 
-**BOOTSTRAP / PRE-ARCHITECTURE / DIFFERENTIAL RECONCILIATION**
+**BOOTSTRAP BASELINE / PRE-ARCHITECTURE / DIFFERENTIAL RECONCILIATION**
 
 This repository is not another blank-slate architecture branch. It preserves qualified prior designs, reconciles architecture types, and creates new architecture only where a genuine unresolved delta remains.
 
@@ -60,6 +60,7 @@ current product capability ≠ system invariant
 - [`evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md`](evidence/PREDECESSOR-LINEAGE-REUSE-AUDIT-v0.1.md)
 - [`evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md`](evidence/PRIOR-ARCHITECTURE-RECONCILIATION-MATRIX-v0.1.md)
 - [`evidence/PREDECESSOR-INVENTORY-v0.1.md`](evidence/PREDECESSOR-INVENTORY-v0.1.md)
+- [`reviews/BOOTSTRAP-CLOSURE-REVIEW-v0.1.md`](reviews/BOOTSTRAP-CLOSURE-REVIEW-v0.1.md) — closure/merge assessment when present
 
 ### Reference stream
 - [`references/REFERENCE-MAP.md`](references/REFERENCE-MAP.md) — v0.3 working coverage baseline; its historical `Current gate` is not the project-state pointer
@@ -161,7 +162,7 @@ Unless a named reopen trigger appears, stop first-principles re-derivation of:
 
 **Do not create new top-level architecture by default. Do not create a peer Work Engine layer.**
 
-After the bootstrap PR closes, start a new branch / PR for:
+Next development unit:
 
 > **Δ4 Adaptive Work-Control Differential Review**
 
