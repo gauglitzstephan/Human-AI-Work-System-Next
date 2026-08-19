@@ -1,13 +1,18 @@
-# Seed Reference Register v0.1
+# Seed Reference Register v0.2
 
-**Status:** VERIFIED SEED SET  
-**Checked:** 2026-08-19
+**Status:** VERIFIED BOOTSTRAP SEED SET / MATERIAL COVERAGE STILL OPEN  
+**Checked:** 2026-08-19  
+**Reference Map:** `REFERENCE-MAP.md` v0.2
 
 This is a starting register, not a completed literature review. Each source is included because it informs a bootstrap concern; none is architectural authority for this project.
 
+The Reference Map coverage audit substantially widened the research surface. This register therefore distinguishes **already verified bootstrap anchors** from the **next external-verification frontier** instead of pretending the current six sources cover v0.2.
+
+---
+
 ## REF-001 — ISO/IEC/IEEE 42010:2022
 
-- **Family:** Systems engineering / architecture description
+- **Family:** R1 — Systems Engineering, Architecture, Requirements & Lifecycle
 - **Source:** ISO
 - **URL:** https://www.iso.org/standard/74393.html
 - **Current status:** Published, Edition 2 (2022)
@@ -18,10 +23,10 @@ This is a starting register, not a completed literature review. Each source is i
 
 ## REF-002 — SEBoK: System Concept Definition
 
-- **Family:** Systems engineering / concept definition
+- **Family:** R1 — Systems Engineering, Architecture, Requirements & Lifecycle
 - **Source:** Systems Engineering Body of Knowledge (SEBoK)
 - **URL:** https://sebokwiki.org/wiki/System_Concept_Definition
-- **Current status:** SEBoK v2.14 material available in 2026
+- **Current status:** SEBoK material current in 2026
 - **Relevant scope:** problem space, business/mission analysis, stakeholder needs, measures of success, lifecycle concepts, System of Interest before detailed solution definition.
 - **Bootstrap implication:** clarify why/what and stakeholder needs before freezing how; problem and solution exploration may iterate but should remain distinguishable.
 - **Transfer caveat:** SEBoK is broad systems-engineering guidance; documentation/process weight must remain proportional to this project's needs.
@@ -29,7 +34,7 @@ This is a starting register, not a completed literature review. Each source is i
 
 ## REF-003 — NIST AI Risk Management Framework Core
 
-- **Family:** Assurance / AI risk / Human–AI roles
+- **Families:** R12 / R13 — Evaluation & Assurance / Governance, Risk & Control
 - **Source:** NIST AI Resource Center
 - **URL:** https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
 - **Relevant scope:** lifecycle risk management, human-AI roles/responsibilities, targeted scope, human oversight, TEVV, representative deployment conditions, monitoring.
@@ -39,7 +44,7 @@ This is a starting register, not a completed literature review. Each source is i
 
 ## REF-004 — Anthropic: Building Effective Agents
 
-- **Family:** AI agents / orchestration
+- **Family:** R14 — AI/ML, Agents, Workflows, Context & Reusable Capability Engineering
 - **Source:** Anthropic Engineering
 - **URL:** https://www.anthropic.com/engineering/building-effective-agents
 - **Published:** 2024-12-19
@@ -50,7 +55,7 @@ This is a starting register, not a completed literature review. Each source is i
 
 ## REF-005 — OpenAI: A Practical Guide to Building AI Agents
 
-- **Family:** AI agents / runtime realization
+- **Family:** R14 — AI/ML, Agents, Workflows, Context & Reusable Capability Engineering
 - **Source:** OpenAI
 - **URL:** https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/
 - **Relevant scope:** model/tools/instructions, workflow execution, single vs multi-agent orchestration, exit conditions, tool risk, guardrails, human intervention, baselines and evals.
@@ -60,7 +65,7 @@ This is a starting register, not a completed literature review. Each source is i
 
 ## REF-006 — Microsoft Research: Scaffolding Human-AI Collaboration
 
-- **Family:** Human–AI collaboration / HCI
+- **Family:** R4 — HCI, Human–AI Interaction, Mixed Initiative & Joint Performance
 - **Source:** Microsoft Research
 - **URL:** https://www.microsoft.com/en-us/research/publication/human-ai-collaboration-field-experiment/
 - **Published:** 2026-04
@@ -73,16 +78,127 @@ This is a starting register, not a completed literature review. Each source is i
 
 ---
 
-## Next reference work
+# Next external-verification frontier
 
-The seed set is intentionally architecture-heavy. The next sweep must strengthen undercovered reference families before conceptual architecture is frozen, especially:
+Reference Map v0.2 contains fifteen families. The six sources above are intentionally insufficient to cover them.
 
-1. cognitive systems engineering / joint cognitive systems;
-2. human expertise, naturalistic decision making, and reflective professional practice;
-3. Human–AI complementarity / comparative performance;
-4. metareasoning, value of information/computation, robust decision making, and commitment under uncertainty;
-5. knowledge/state/provenance architecture;
-6. organization design, coordination, and socio-technical work systems;
-7. runtime reliability, durable workflow, observability, recovery, and authorization.
+The next sweep should prioritize **discriminating evidence**, not equal coverage by page count.
 
-The deliverable should be a **cross-reference synthesis by concern and mechanism**, not a collection of standalone summaries.
+## Priority A — can change the System-of-Interest boundary or work-control model
+
+1. **R2 Work / Activity / Sociotechnical Systems**
+   - Work System Theory;
+   - Activity Theory / practice traditions;
+   - sociotechnical work design;
+   - adaptive case work / OMG CMMN.
+
+2. **R3 Cognitive Work / Human Factors**
+   - Human Systems Integration;
+   - Cognitive Systems Engineering / Cognitive Work Analysis;
+   - Joint Cognitive Systems;
+   - Distributed Cognition.
+
+3. **R4 Human–AI Joint Performance**
+   - systematic/meta-analytic Human–AI complementarity evidence;
+   - mixed initiative / coactive design;
+   - common ground / appropriate reliance.
+
+4. **R6 Expertise / Learning / Capability Formation**
+   - adaptive expertise;
+   - professional/tacit knowledge;
+   - workplace learning and reflective practice;
+   - deskilling / cognitive offloading / AI-assisted learning.
+
+5. **R7 Decision / Sensemaking / Metareasoning**
+   - Naturalistic Decision Making / macrocognition;
+   - value of information / value of computation;
+   - robust decision making / deep uncertainty;
+   - real options / staged commitment.
+
+6. **R9 Knowledge / Provenance / State**
+   - knowledge management and organizational memory;
+   - provenance / data lineage / authoritative-record patterns;
+   - information architecture / context engineering;
+   - AI memory research with freshness and authority boundaries.
+
+7. **R10 Organization / Economics / Power / Ownership**
+   - coordination / transaction-cost / principal-agent theory;
+   - decision rights and organizational design;
+   - platform/institutional economics;
+   - technical capability vs diffusion/adoption;
+   - ownership / complementary assets / value capture.
+
+8. **R11 Realization / Adoption / Outcomes**
+   - implementation science / technology adoption;
+   - behavior change / organizational change;
+   - benefits realization / outcome chains / externalities.
+
+## Priority B — can change qualification, risk and implementation boundaries
+
+9. **R12 Evaluation / Assurance**
+   - NIST TEVV;
+   - OMG SACM / structured assurance;
+   - representative-use evaluation;
+   - causal inference / impact evaluation;
+   - AI eval methodology and independence.
+
+10. **R13 Security / Privacy / Resilience / Rights**
+    - threat modeling / secure development;
+    - prompt-injection and excessive-agency threats;
+    - privacy engineering / data governance;
+    - resilience / fallback / meaningful human control / contestability.
+
+11. **R15 Runtime Reliability / Interoperability**
+    - durable execution / distributed systems;
+    - versioning / configuration management;
+    - observability / SRE / recovery;
+    - authorization and cross-surface state contracts.
+
+## Priority C — important but less likely to set the initial boundary alone
+
+12. **R5 Human Goals / Motivation / Wellbeing**
+13. **R8 Design / Creativity / Collective Intelligence**
+14. **R14 Current AI/Agent/Skill/Context Engineering** — maintain freshness continuously; do not over-weight vendors.
+
+R1 already has a credible bootstrap anchor set but will require additional requirements/quality-attribute sources during architecture evaluation.
+
+---
+
+# Separate current-product register
+
+Current ChatGPT/Codex product capabilities are tracked as a **frontier-use / realization stress test**, not as neutral scientific references. See:
+
+- `FRONTIER-USER-CHALLENGE-v0.1.md`
+
+This prevents fast-changing product surfaces from silently dominating the general Reference Map.
+
+---
+
+# Synthesis deliverable
+
+Do **not** produce fifteen isolated literature summaries.
+
+Build a concern-driven synthesis such as:
+
+```text
+Concern / decision
+→ candidate mechanism(s)
+→ relevant reference families
+→ strongest evidence
+→ incompatible assumptions / counterevidence
+→ unit of analysis
+→ transfer conditions to our SoI
+→ internal evidence comparison
+→ architecture implication or NO IMPLICATION YET
+```
+
+The first synthesis should focus on the concerns that can discriminate:
+
+- SoI boundary;
+- focal units / scale;
+- human role and capability formation;
+- work-control / initiative model;
+- state/knowledge boundary;
+- authority/action boundary;
+- outcome/evaluation model;
+- proportionality / operating economics.
