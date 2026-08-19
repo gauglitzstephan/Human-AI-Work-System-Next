@@ -6,6 +6,8 @@
 **R1 basis:** `realization/SEMANTIC-ALLOCATION-PLATFORM-REALITY-v0.1.md`  
 **Authority boundary:** This record chooses default realization placement only. It does not install Custom Instructions, create/restructure Projects, build Skills/plugins/agents, migrate state, schedule Tasks, deploy Work/Codex flows or authorize external actions.
 
+**Product-evidence boundary:** Current ChatGPT/OpenAI facts below were rechecked against official OpenAI documentation on 2026-08-19. They are implementation evidence, not stable architecture invariants.
+
 ---
 
 # 1. Decision question
@@ -49,7 +51,13 @@ Official OpenAI documentation checked 2026-08-19 establishes:
 5. **Scheduled Tasks** have a distinct execution context; a task created in a Project cannot currently access that Project's files. Scheduling therefore cannot be assumed to preserve interactive Project context.
 6. **Memory/chat history** provides useful selective personalization/context but is not a complete operational record.
 
-These are current implementation facts, not stable architecture invariants.
+Official sources used:
+- OpenAI Help Center — `Custom Instructions in ChatGPT`;
+- OpenAI Help Center — `Projects in ChatGPT`;
+- OpenAI Help Center — `ChatGPT Work and Codex`;
+- OpenAI Help Center — `Plugins in ChatGPT and Codex`;
+- OpenAI Help Center — `Scheduled Tasks in ChatGPT`;
+- OpenAI Help Center — `How does Reference saved memories work?`.
 
 ---
 
