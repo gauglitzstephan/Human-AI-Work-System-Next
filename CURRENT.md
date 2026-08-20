@@ -1,17 +1,14 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + STATIC-COMPLETE E2E WORK ARCHITECTURE CANDIDATE v0.1 + E2E RUNTIME MIGRATION CANDIDATE v0.1  
+**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + STATIC-COMPLETE E2E WORK ARCHITECTURE CANDIDATE v0.1 + E2E RUNTIME MIGRATION CANDIDATE v0.2  
 **Date:** 2026-08-20  
-**Accepted parent baseline:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` via merged PR #3  
 **E2E static package:** promoted to `main` via merged PR #11  
 **Current candidate branch:** `runtime/e2e-migration-v0.1`  
-**Authority boundary:** `main` controls the accepted repository program. This branch contains a runtime-migration candidate only. Repository state does not establish external ChatGPT installation or behavioral effectiveness.
+**Authority boundary:** `main` controls the accepted repository program. This branch contains runtime-migration candidates only. External ChatGPT installation and behavioral effectiveness remain separate evidence.
 
 ## 1. Controlling program
 
-PR #11 closed the static architecture program at the current evidence/reference horizon.
-
-Controlling E2E claim:
+Static architecture work is closed by default at the current evidence/reference horizon:
 
 ```text
 CR-01–13                         PASS
@@ -23,154 +20,135 @@ Boundary reification             NONE REQUIRED
 Unowned material transformation  NONE FOUND
 ```
 
-Claim boundary:
-
-> STATIC / ARCHITECTURAL COMPLETENESS CANDIDATE — PASS within the defined scope and current evidence/reference horizon.
-
-Do not add further conceptual boxes by default. Reopen only for a named material trigger from real runtime/use evidence or a legitimate scope/requirement change.
-
-## 2. Current work program — Runtime migration
-
-The immediate program is **not yet representative E2E behavioral validation** because the Human reports that the legacy Global Custom Instructions are still externally live.
-
-Sequence:
+Current program:
 
 ```text
 STATIC E2E PACKAGE ON MAIN
-→ compile concrete runtime carriers
-→ preserve exact legacy rollback state
-→ migrate one real Project / initiative
+→ realize concrete runtime carriers
+→ preserve exact rollback state
+→ migrate one real Project
 → Human installs reviewed Global + Project configuration
 → runtime conformance preflight
 → first actual representative E2E work case
-→ persist material evidence outside chat history
+→ persist evidence outside chat history
 ```
 
-## 3. Runtime migration candidate package
+Do not reopen static architecture absent a named material trigger.
 
-### Global kernel
+## 2. Exact current live Global CI — rollback control
+
+The Human supplied the exact currently live pre-E2E Global Custom Instructions.
+
+Persisted:
+
+- `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT.txt`
+- `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT-METADATA.md`
+
+Identity:
+
+```text
+LF characters:     4,984
+CRLF characters:   4,997
+SHA-256 UTF-8 LF:  c45fe172cd39dfc4295042963e97bf1617244a206be1709839dbf5d11b1ac1bc
+```
+
+This resolves the prior Global rollback blocker.
+
+## 3. New Global E2E kernel
+
+### Superseded installation candidate
 
 - `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.1.md`
 
-Exact payload:
+v0.1 passed against the E2E contract before the exact live Global CI was available. Exact-live differential review later found several integrity/authority cues that should remain explicit. Therefore v0.1 is **REVISE / DO NOT INSTALL**.
+
+### Current repair candidate
+
+- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.2.md`
+- `reviews/E2E-GLOBAL-KERNEL-STATIC-REGRESSION-REVIEW-v0.2.md`
+- `reviews/E2E-KERNEL-LIVE-CONTROL-AND-SIX-PRIMITIVE-REVIEW-v0.1.md`
+
+Target payload:
 
 ```text
-4,984 LF characters
-4,993 CRLF characters
+4,977 LF characters
+4,986 CRLF characters
 ```
 
-Static review:
+v0.2 preserves the E2E additions plus restored live-control guardrails for instruction authority, Reality/no-invention, absence/blocked-route semantics, point-of-effect authorization, and sensitive-data/containment control.
 
-- `reviews/E2E-GLOBAL-KERNEL-STATIC-REGRESSION-REVIEW-v0.1.md`
+External installation: **NOT PERFORMED**.
 
-Status: static PASS; not externally installed.
+## 4. Six-primitive parallel exploration
 
-### Project operating template
-
-- `realization/E2E-PROJECT-OPERATING-TEMPLATE-v0.1.md`
-
-OpenAI currently documents that Project Instructions override Global Custom Instructions inside the Project. Therefore Project migration is a separate runtime requirement; Global installation alone cannot establish E2E behavior inside every Project.
-
-### Chat / Work / Codex allocation
-
-- `realization/E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md`
-
-Current default:
+The parallel Free-account proposal
 
 ```text
-Chat  → fast/interactive control, decision and bounded work
-Work  → longer multi-step frontiers / finished deliverables
-Codex → software/repository technical work
-Apps/tools → authoritative retrieval / external execution / deterministic capability
+INTERPRET → MODEL → TEST → DECIDE → WORK → VERIFY
 ```
 
-These are product-realization defaults, not architecture-stage identities. Surface choice is recompiled per next legitimate frontier.
+is retained only as a **compression/interpretability lens**.
 
-### Migration manifest
+Useful ideas adopted:
 
-- `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.1.md`
+- applicable authority/intent interpretation;
+- `smallest sufficient` depth;
+- model vs test/challenge distinction;
+- selective revision when new evidence arrives.
 
-## 4. Hard installation blocker — exact live rollback state
+Not adopted as the runtime architecture because `WORK = establish/commit + execute` would re-collapse Commitment / Promotion / Authorization / Execution, and one `VERIFY` primitive would collapse distinct assurance/readiness/outcome claims.
 
-The repository does **not** currently establish the exact Global Custom Instructions text that is installed in the Human's account.
+## 5. First real Project migration
 
-Blocking artifact:
-
-- `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT-PENDING.md`
-
-Required before replacement:
+Selected:
 
 ```text
-exact currently live Global CI text
-+ capture time
-+ exact character count/hash
-+ relevant account/workspace context
-+ Human confirmation of identity
+System Weiterentwicklung Projekt
+Authoritative repository/program source:
+https://github.com/gauglitzstephan/Human-AI-Work-System-Next
 ```
 
-Prior CI candidates are not assumed to equal the currently installed payload.
+Current Project-specific blocker:
 
-**Global E2E installation remains BLOCKED until this exact snapshot exists.**
+> The exact existing **ChatGPT Project Instructions** have not yet been captured.
 
-## 5. First Project migration
+The GitHub repository does not establish those instructions.
 
-Do not mass-migrate existing Projects.
-
-Select one **real active initiative** as the first validation Project. Before changing it:
-
-1. capture exact existing Project Instructions;
-2. identify project/domain instructions to retain;
-3. remove/replace stale old-runtime semantics;
-4. instantiate `E2E-PROJECT-OPERATING-TEMPLATE-v0.1.md` with the real parent outcome, current state/gate, authoritative-source pointers and local constraints;
-5. preserve rollback text;
-6. record exact post-install Project Instructions.
-
-No synthetic Project is required.
-
-## 6. Runtime conformance preflight
-
-After Human installation but before interpreting real-work performance, establish:
+Required next state:
 
 ```text
-Global payload saved as reviewed
-selected Project Instructions saved as reviewed
-Global-vs-Project precedence understood
-required sources/tools/connectors actually accessible
-parent/source pointers resolve
-material Human Gate can create real WAIT where needed
-validation evidence has a persistent write/readback path
+exact current Project Instructions
+(or explicit NONE)
+→ rollback snapshot
+→ classify retained local rules vs obsolete runtime rules
+→ instantiate E2E Project Operating Template
+→ readback/static review
 ```
 
-This preflight tests installation/runtime facts only. It is not an outcome-quality benchmark.
+Do not install the Global kernel and then attribute Project behavior to it while Project Instructions remain unknown.
 
-## 7. External live state
+## 6. Migration manifest
 
-Current supported state:
+Current plan:
+
+- `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.2.md`
+
+State:
 
 ```text
-legacy Global Custom Instructions externally live      HUMAN REPORTED
-exact live rollback payload persisted                  NO
-Global E2E kernel externally installed                 NO
-Project E2E instructions installed                     NO
-E2E behavioral validation started                      NO
+I0 repository/static architecture                  COMPLETE
+I1 exact Global rollback capture                   COMPLETE
+I2 select first real Project                       COMPLETE
+I3 capture first Project Instructions              BLOCKED — HUMAN INPUT
+I4 finalize exact Project E2E instruction instance PENDING
+I5 Human installs Global kernel v0.2               PENDING
+I6 Human installs Project policy                   PENDING
+I7 installation/readback conformance preflight     PENDING
+I8 first actual E2E real-work case                 PENDING
 ```
 
-Do not claim otherwise from repository candidates.
+## 7. Next legitimate gate
 
-## 8. Next legitimate gate
+**Mode:** RUNTIME MIGRATION → FIRST-PROJECT INSTRUCTION CAPTURE.
 
-**Mode:** RUNTIME MIGRATION → ROLLBACK CAPTURE / FIRST-PROJECT INVENTORY.
-
-Next legitimate actions:
-
-```text
-1. Human supplies/captures exact currently live Global Custom Instructions
-2. choose the first real active Project/initiative
-3. capture its current Project Instructions
-4. finalize project-local E2E instruction instance
-5. Human installs reviewed Global + Project configuration
-6. record/read back installation
-7. begin first actual E2E real-work validation case
-```
-
-Until items 1–5 occur, do not attribute ordinary ChatGPT behavior to the new E2E Runtime candidate.
+Next legitimate action is the exact current Project Instructions for `System Weiterentwicklung Projekt` (or explicit confirmation that none exist). Until then, no external E2E installation or behavioral attribution.
