@@ -33,7 +33,7 @@
       "consistency": "CONFLICT"
     },
     "control_status": "CONTROL_CONFLICT",
-    "conflict_rule": "Do not infer acceptance state from the stale pointer when the explicit acceptance event is observable; repair pointer consistency before any promotion that depends on CURRENT.md as controlling navigation."
+    "conflict_rule": "Discriminate the conflict's affected scope. Do not infer acceptance state from the stale pointer. Block promotion/state mutation that depends on the disputed control state; explicitly bounded isolated candidate work may proceed only when it cannot mutate or promote that disputed state."
   },
   "active_program": {
     "name": "Architecture → Runtime / Operating Realization",
@@ -49,6 +49,12 @@
     "parent_state": "Conceptual baseline accepted by PR #3 merge; repository navigation pointer currently inconsistent with that event.",
     "next_claim_or_transition": "Determine whether a persistent transaction record plus runtime transition contract materially prevents continuation, state-authority, unauthorized-mutation, false-promotion, and stale-pointer failures at acceptable coordination cost.",
     "allowed_operation": "Create isolated candidate realization artifacts on a dedicated branch. Do not mutate main, rewrite Custom Instructions, change Projects, install Skills/agents, alter deployment, merge, or promote controlling state.",
+    "conflict_scope_assessment": {
+      "conflict_id": "CF-001",
+      "material_to_isolated_candidate_build": false,
+      "material_to_promotion_or_main_control_state": true,
+      "reason": "The candidate can be authored and inspected without changing the disputed main control pointer or asserting promotion. Any merge/promotion would depend on a resolved/dispositioned control state."
+    },
     "proposed_delta": [
       "realization/STATE-TRANSITION-CONTROL-PROFILE-v0.1.md",
       "realization/WORK-CONTROL-RECORD-v0.1.json"
@@ -81,7 +87,7 @@
     ],
     "promotion_event": null,
     "promotion_blocked": true,
-    "promotion_block_reason": "Candidate is unverified and the repository controlling pointer conflicts with the explicit PR #3 acceptance event."
+    "promotion_block_reason": "Candidate is unverified and promotion/main control-state mutation is materially affected by the CURRENT.md versus PR #3 acceptance conflict."
   },
   "conflicts": [
     {
@@ -89,7 +95,17 @@
       "type": "CONTROL_POINTER_VS_ACCEPTANCE_EVENT",
       "observation": "PR #3 is merged, while CURRENT.md on main still states that the same baseline is pending PR acceptance.",
       "impact": "Repository navigation/control state is internally inconsistent.",
-      "allowed_response": "Recover and repair/disposition the control-state inconsistency before promotion; do not use conversational plausibility to choose a state."
+      "affected_scope": [
+        "main control-state interpretation",
+        "promotion decisions depending on CURRENT.md",
+        "post-promotion parent/gate binding"
+      ],
+      "unaffected_scope_if_explicitly_bounded": [
+        "read-only diagnosis",
+        "evidence gathering",
+        "isolated non-promoted candidate authoring on a dedicated branch"
+      ],
+      "allowed_response": "Record and scope the conflict. Block affected state changes; do not guess. Allow only explicitly bounded unaffected work that cannot mutate/promote the disputed state."
     }
   ],
   "learning_refs": [
