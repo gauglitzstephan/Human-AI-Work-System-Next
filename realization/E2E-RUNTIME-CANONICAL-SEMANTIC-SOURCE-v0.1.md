@@ -2,7 +2,7 @@
 
 **Status:** CANDIDATE CANONICAL SOURCE — source for target-specific Runtime compilation; not itself an installable prompt.  
 **Date:** 2026-08-20  
-**Basis:** CR-01–13 / CCR-01–07, Target Architecture v0.2, merged E2E Work Architecture, E2E Operating Runtime Contract, qualified Orchestration Model v0.5 / DWM v0.5, Runtime Deployment Mapping RCA.
+**Basis:** CR-01–13 / CCR-01–07, Target Architecture v0.2, merged E2E Work Architecture, E2E Operating Runtime Contract, qualified Orchestration Model v0.5 / DWM v0.5, Runtime Deployment Mapping RCA, observed Human-facing control-return failure on 2026-08-20.
 
 ## 1. Purpose
 
@@ -11,8 +11,8 @@ This file is the single semantic source for current ChatGPT Runtime compilation.
 ```text
 canonical semantics
       ↓ compile
-Global CI / Project Instructions / Handoff / Return /
-Method activation / Gate / Promotion views
+Global CI / Project Instructions / Handoff / Provider Return /
+Human-facing Control Return / Method activation / Gate / Promotion views
 ```
 
 Compiled views are derived artifacts. They do not independently redefine the Runtime.
@@ -59,6 +59,8 @@ Work Function
 - **CTL-09 Control operators:** compile Commitment, Authorization, Handoff, Human Gate or Promotion only when their triggers are present.
 - **CTL-10 Exact qualification:** after execution/integration qualify only the exact supported result; no stronger downstream claim.
 - **CTL-11 Closure:** close/wait/handoff/monitor/stop when that is the correct frontier; do not create work because more is possible.
+- **CTL-12 Human-facing Control Return:** at every material interaction boundary expose enough qualified state that the Human does not have to infer the achieved state, next legitimate frontier, next actor, persistence/promotion implication, or exact contribution required.
+- **CTL-13 Continuation semantics:** a continuation input such as `Next` means continue the currently bound legitimate frontier. It does not imply acceptance, promotion, authorization, persistence, scope change or a new commitment. Before continuation crosses a material Work Unit/Gate/state/surface boundary, integrate and qualify the current delta and expose any required Gate.
 
 ### C — Generic Work Functions / Transformations
 
@@ -107,7 +109,7 @@ Work Function
 - **CAP-02 Provider set:** consider Human, ChatGPT/Chat, Work, Codex, web/Deep Research, deterministic tools/Python, apps/connectors, specialist, validated workflow/existing process, no-action.
 - **CAP-03 Evaluate actual reality:** information/context access, effective competence, artifact/tool ability, verifiability/observability, consequence/reversibility, latency/cost/coordination, Human learning/authorship and authority/permissions.
 - **CAP-04 Select simplest adequate:** do not choose provider/surface from habit or novelty.
-- **CAP-05 Revalidate material capability/authority at point of effect where relevant.
+- **CAP-05 Revalidate material capability/authority at point of effect where relevant.**
 
 ### H — Control Operators
 
@@ -115,7 +117,7 @@ Work Function
 - **CO-02 Authorization:** bind actor/provider + exact allowed action/write/transition + object/state domain + scope/constraints + path + blocked transitions/revalidation conditions. Technical ability ≠ authorization.
 - **CO-03 Human Gate:** only when non-substitutable Human contribution blocks a material transition; compile mature decision/work object + exact contribution/reason + evidence/trade-offs + what can continue safely + WAIT/no blocked downstream execution + re-entry condition.
 - **CO-04 Handoff:** when active responsibility or execution environment materially changes, compile a Frontier Handoff Contract; Handoff ≠ delegation of parent authority ≠ acceptance ≠ promotion.
-- **CO-05 Return / Rebind:** every material Handoff returns work/delta/evidence/method/assurance/writes/blockers/authority need; read back material effects, rebind parent state and integrate before next frontier.
+- **CO-05 Provider Return / Rebind:** every material Handoff returns work/delta/evidence/method/assurance/writes/blockers/authority need; read back material effects, rebind parent state and integrate before next frontier.
 - **CO-06 Promotion:** candidate/working state may gain stronger semantic/control status only with baseline + exact delta + target status + requirements/assurance + dependencies + legitimate decision/acceptance/authority + authorized write path; then WRITE → READBACK → RECONCILE.
 - **CO-07 Reopen / Close:** evidence changes beliefs first; reopen only materially dependent state; controlling changes require legitimate owner/decision/promotion.
 
@@ -123,9 +125,10 @@ Work Function
 
 - **BC-01 Commitment / Work-Basis Contract:** decision object/selected route; commitment mode; assumptions/uncertainty; requirements/success floor; Work Product/next-use target; dependencies/blockers; horizon/signposts; residual decisions; decision/commitment owner.
 - **BC-02 Frontier Handoff Contract:** parent outcome/Work Object; parent state/gate; exact Work Unit/transformation; child→parent contribution; authoritative inputs; requirements/Performance Model; method/source; Work Basis; authorization; assumptions/uncertainty/signposts; dependencies/interfaces; output/version; assurance/return; blocked transitions/Human Gates; write path.
-- **BC-03 Return Contract:** work performed; output/state delta; child→parent contribution; sources/evidence; method applied; assumptions/changes; blockers/dependencies; assurance applied; exact supported claim/readiness; actions/writes; transition/use state; Human/authority need; recommended next frontier.
+- **BC-03 Provider Return Contract:** work performed; output/state delta; child→parent contribution; sources/evidence; method applied; assumptions/changes; blockers/dependencies; assurance applied; exact supported claim/readiness; actions/writes; transition/use state; Human/authority need; recommended next frontier.
 - **BC-04 Promotion Contract:** baseline; delta; target semantic status; object/domain/version; requirements/assurance; dependency/reopen implications; authority; write path; readback/reconcile.
 - **BC-05 Human Gate Object:** blocked transition; mature object; exact Human contribution; why AI/retrieval/robust proceeding cannot substitute; evidence/trade-offs; safe parallel work; WAIT; re-entry.
+- **BC-06 Human-facing Control Return:** achieved result / exact qualified state; persistence status/requirement where material; promotion status/requirement where material; next legitimate frontier; next actor; exact Human contribution if any; disposition from CLOSE / CONTINUE / HUMAN GATE / PROMOTION GATE / HANDOFF / WAIT / MONITOR. If Human action is required, present that action explicitly and withhold blocked downstream work. If no Human action is required, do not manufacture a question.
 
 ### J — Assurance / realization invariants
 
@@ -140,7 +143,7 @@ Work Function
 
 - **STATE-01 Domain ownership:** authoritative records remain with legitimate domain owners/stores; one authoritative source may exist per defined state domain rather than one universal store.
 - **STATE-02 Project context:** Project/chat context is working/derived unless explicitly designated for a state domain.
-- **STATE-03 Persistent write:** persistent/control changes use legitimate owner/write path and material readback/reconciliation.
+- **STATE-03 Persistent write:** persistent/control changes use legitimate owner/write path and material readback/reconciliation. Persistence does not itself imply Promotion.
 - **STATE-04 Knowledge Capital:** reusable method/pattern/knowledge requires supported scope/freshness/evidence/transferability and legitimate promotion; repetition alone is not validation.
 - **STATE-05 Evidence persistence:** material real-use validation state/evidence must persist outside transient chat memory at evidence/promotion boundaries.
 
@@ -148,7 +151,7 @@ Work Function
 
 - **PROD-01 Global CI:** cross-context Runtime carrier where Global CI applies; current Pro deployment target supports up to 5,000 characters. It is not the domain Method library.
 - **PROD-02 Project:** persistent initiative/context boundary. Project Instructions apply only in that Project and override Global CI. Project view must be compiled from this canonical source + local bindings; it is not an independent policy.
-- **PROD-03 Chat:** default interactive control/state-rebind/Formation/Decision/Human-Gate/Return-reconciliation surface; may execute bounded work.
+- **PROD-03 Chat:** default interactive control/state-rebind/Formation/Decision/Human-Gate/Provider-Return reconciliation/Human-facing Control Return surface; may execute bounded work.
 - **PROD-04 Work:** provider/environment for longer multi-step research/analysis/artifact frontiers under a bounded Handoff/Authorization; it is not the global Orchestrator.
 - **PROD-05 Codex:** preferred specialized provider/environment for repository/software frontiers where effective; commit/branch/write ≠ merge/accept/promotion.
 - **PROD-06 Apps/tools/web:** providers for authoritative retrieval, deterministic compute/verification and external actions; evidence/runtime state ≠ authority unless delegated.
@@ -162,7 +165,7 @@ Work Function
 - **SD-04 Promotion path:** candidate → applicable assurance/review → legitimate Human decision/authority where required → PR/merge or authorized write → readback/reconcile.
 - **SD-05 Local Method Library:** `methods/METHOD-REGISTRY-v0.1.md` and referenced System Development method packs.
 - **SD-06 Evidence persistence:** material runtime/real-use evidence under `evaluation/e2e-real-use/` or other designated authoritative evidence path.
-- **SD-07 Provider defaults:** Chat interactive control/Formation/Decision/reconciliation; Work long bounded research/analysis/artifact frontier; Codex repo/software frontier; GitHub authoritative repository state/write path; web/apps/tools evidence/execution.
+- **SD-07 Provider defaults:** Chat interactive control/Formation/Decision/reconciliation/Control Return; Work long bounded research/analysis/artifact frontier; Codex repo/software frontier; GitHub authoritative repository state/write path; web/apps/tools evidence/execution.
 
 ## 4. Compilation rule
 
