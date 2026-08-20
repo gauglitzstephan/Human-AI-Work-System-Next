@@ -6,7 +6,7 @@
 **Prior Runtime package:** promoted via PR #12 — **REOPENED / DO NOT INSTALL** after deployment-fidelity failure.  
 **Repair branch / PR:** `runtime/deployment-mapping-repair-v0.5` / PR #13.  
 **Superseded parallel PR:** #10 **CLOSED / NOT MERGED**.  
-**Authority boundary:** `main` remains controlling until PR #13 is explicitly accepted/merged. No external ChatGPT settings change is established or authorized by this branch.
+**Authority boundary:** if this file is read on the unmerged repair branch, `main` remains controlling and PR #13 is still at the Human merge gate. If this exact state is read on `main` after PR #13 merge, repository promotion is **COMPLETE**, this file is the controlling post-promotion repository state, and external ChatGPT installation/readback remains a separate Human transition not established by the merge.
 
 ## 1. Named Runtime reopen trigger
 
@@ -139,6 +139,7 @@ No Personal Skills dependency is required.
 - `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.2.md`;
 - `reviews/E2E-RUNTIME-MECHANISM-DEPLOYMENT-REGRESSION-v0.2.md`;
 - `reviews/E2E-RUNTIME-REPAIR-PACKAGE-READBACK-v0.2.md`;
+- `reviews/E2E-PROMOTION-STATE-HANDOFF-READBACK-v0.1.md`;
 - `reviews/E2E-PROJECT-CARRIER-BOUNDARY-RECHECK-v0.1.md`.
 
 Supported verdict:
@@ -154,6 +155,7 @@ Human-facing Control Return binding           PASS static
 Next continuation semantics                   PASS static
 Persistence≠Promotion                         PASS static
 Commitment/Authorization/Promotion binding    PASS static
+promotion-state handoff                       PASS for repository transition
 repository promotion eligibility              PASS
 external installation/readback                NOT PERFORMED
 behavioral/cross-surface effectiveness         NOT ESTABLISHED
@@ -168,33 +170,35 @@ The observed 2026-08-20 interaction failure is evidence against the prior Runtim
 
 This bundle supersedes all earlier installation bundles for future external installation if PR #13 is promoted.
 
-## 9. Dependency / open-PR state
+## 9. Dependency / PR state
 
 ```text
 PR #10        CLOSED / NOT MERGED / superseded by #13
-PR #13        ACTIVE Runtime repair line
-other competing Runtime PR dependency         NONE IDENTIFIED as of current review
-main behind candidate branch                  0 commits at dependency check
+PR #13        active repair line before merge; repository-promoted line after merge
+other competing Runtime PR dependency         NONE IDENTIFIED at promotion review
+main behind candidate branch                  0 commits at pre-promotion dependency check
 ```
 
-A fresh PR/readback check is still required at the actual merge point because mergeability is point-in-time state.
+Mergeability and head identity are point-in-time state and must be revalidated immediately before effect.
 
-## 10. Current gate
+## 10. Promotion-state handoff / current gate
+
+The same persisted state is intentionally valid on both sides of the repository transition:
 
 ```text
-R0 defect detected / install stopped                         COMPLETE
-R1–R11 deployment/type/method/handoff repair                COMPLETE — candidate/reviewed
-R12 Human-facing Control Return / Next repair               COMPLETE — candidate
-R13 Global v0.5 + Project v0.4 compilation                  COMPLETE — carrier PASS
-R14 semantic trace + mechanism regression                   PASS for repository promotion
-R15 package readback                                        PASS for repository promotion
-R16 open-PR/dependency cleanup                              COMPLETE — #10 closed; #13 active
-R17 PR #13 repository Promotion                             HUMAN MERGE GATE — WAIT
-R18 external Global + Project installation/readback         BLOCKED until R17
-R19 runtime conformance preflight                           BLOCKED until R18
-R20 first genuine E2E real-work validation                  BLOCKED until R19
+IF this file is on unmerged PR #13 branch:
+  R17 PR #13 repository Promotion              HUMAN MERGE GATE — WAIT
+  R18 external Global + Project install        BLOCKED until R17
+
+IF this file is on main after PR #13 merge:
+  R17 PR #13 repository Promotion              COMPLETE
+  R18 external Global + Project installation/readback
+                                                NEXT HUMAN TRANSITION — NOT YET PERFORMED
+  R19 runtime conformance preflight             BLOCKED until R18
+  R20 first genuine E2E real-work validation    BLOCKED until R19
 ```
 
-**Mode:** PROMOTION GATE — PR #13.
+A PR merge authorizes and establishes only repository promotion. It does **not** authorize or establish external ChatGPT settings installation.
 
-Do not perform the merge, external installation or downstream preflight without the corresponding Human authority/event. At the merge point, re-read PR #13 mergeability/current head and dependency state before effect.
+**Mode before merge:** PROMOTION GATE — PR #13.  
+**Mode after merge on `main`:** REPOSITORY PROMOTION COMPLETE → WAIT FOR SEPARATE EXTERNAL INSTALLATION/READBACK AUTHORITY.
