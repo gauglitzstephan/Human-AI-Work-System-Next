@@ -61,8 +61,6 @@ Current installation candidate:
 
 v0.1 is superseded / do not install.
 
-v0.2 target payload is inside the 5,000-character migration envelope and preserves the E2E additions plus restored live-control integrity/authority guardrails.
-
 External installation: **NOT PERFORMED**.
 
 ## 4. First real Project migration
@@ -89,8 +87,6 @@ Current Project installation candidate:
 - `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.1.md`
 - static review: `reviews/E2E-FIRST-PROJECT-INSTRUCTIONS-STATIC-REVIEW-v0.1.md`
 
-The Project candidate binds `main/CURRENT.md` as program control, preserves candidate-vs-main state, and locally carries the material E2E controls because Project Instructions override Global Custom Instructions.
-
 External Project installation: **NOT PERFORMED**.
 
 ## 5. Surface allocation
@@ -108,11 +104,10 @@ Apps/tools → authoritative retrieval / external execution / deterministic capa
 
 These are runtime defaults, not architecture stages. Surface choice is recompiled per next legitimate frontier.
 
-## 6. Migration manifest
-
-Current:
+## 6. Installation package
 
 - `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.3.md`
+- `realization/E2E-INSTALLATION-BUNDLE-v0.1.md`
 
 State:
 
@@ -129,11 +124,7 @@ I8 installation/readback conformance preflight     PENDING
 I9 first actual E2E real-work case                 PENDING
 ```
 
-## 7. Six-primitive parallel exploration
-
-`INTERPRET → MODEL → TEST → DECIDE → WORK → VERIFY` remains a compression/interpretability lens only. Useful ideas retained: applicable authority/intent, smallest-sufficient depth, model-vs-test distinction and revision on new evidence. It is not the E2E control architecture because it would collapse Commitment/Promotion/Authorization/Execution and multiple assurance/readiness/outcome claims.
-
-## 8. Next legitimate gate
+## 7. Next legitimate gate
 
 **Mode:** RUNTIME MIGRATION PACKAGE READY → HUMAN PROMOTION / INSTALLATION.
 
