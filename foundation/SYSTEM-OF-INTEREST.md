@@ -1,11 +1,11 @@
 # System of Interest — Foundation v0.4
 
-**Status:** QUALIFIED FOUNDATION / POST-ARCHITECTURE CLOSURE-SYNCED  
+**Status:** POST-ARCHITECTURE CLOSURE-SYNC REPAIR CANDIDATE  
 **Purpose:** Define the parent problem and claim-relative System-of-Interest boundary for the Human–AI Work System across architecture, realization and evaluation.  
 **Current basis:** predecessor lineage/reconciliation + external reference program + Concerns & Requirements v0.1 + accepted Target Architecture v0.2 / ADR-0002.  
-**Acceptance note:** the core SoI/boundary semantics in this file are incorporated into the accepted Target Architecture v0.2. This file is a foundation/navigation artifact; it does not create a separate architecture acceptance event.
+**Acceptance note:** the core SoI/boundary semantics are already represented in the accepted Target Architecture v0.2. This v0.4 revision only closure-syncs the foundation/navigation artifact to the factual post-PR3 program state; it becomes the `main` foundation version only if this repair is legitimately accepted/merged.
 
-Current repository program state and next-work authority are controlled by `CURRENT.md`.
+Current repository program state and next-work authority are controlled by `CURRENT.md` on `main`; this repair branch proposes the corrected pointer/state.
 
 ---
 
@@ -293,9 +293,9 @@ These are realization/evaluation questions unless a named ADR-0002 reopen trigge
 
 ---
 
-# 14. Current parent program
+# 14. Candidate post-repair parent program
 
-The repository is now in:
+If this control-state repair is accepted/merged, the repository navigation state becomes:
 
 > **Architecture → Runtime / Operating Realization**
 
@@ -310,7 +310,7 @@ Concerns & Requirements v0.1                 ACCEPTED BASELINE
 ↓
 Target Architecture v0.2                     ACCEPTED CONCEPTUAL BASELINE
 ↓
-Runtime / Operating Realization              CURRENT PROGRAM
+Runtime / Operating Realization              POST-ACCEPTANCE PROGRAM
 ↓
 behavioral + implementation evaluation       REQUIRED BEFORE EFFECTIVENESS CLAIM
 ↓
