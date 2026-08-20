@@ -1,6 +1,6 @@
 # E2E ChatGPT Installation Bundle v0.2
 
-**Status:** CANDIDATE INSTALLATION PACKAGE — repository-ready after static v0.3 regression; external settings not changed.  
+**Status:** REVIEWED INSTALLATION PACKAGE — repository-ready after static v0.3 regression/readback; external settings not changed.  
 **Date:** 2026-08-20
 
 ## Install only after PR #12 is accepted/merged
