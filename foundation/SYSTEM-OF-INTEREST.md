@@ -68,9 +68,9 @@ A single Human working with AI is not identical to a legal or social organizatio
 
 Therefore:
 
-> **Operating responsibility is treated as scale-invariant. Institutional realization mechanisms are conditional.**
+> **Operating Responsibility is a durable responsibility distinction that may be co-located in one Human or distributed across larger arrangements. Institutional realization mechanisms remain conditional on actual need.**
 
-At personal scale one Human may bind many legitimate ownership roles. At larger scale those same roles can bind to multiple Humans, teams, AI actors, tools or workflows without redefining the underlying responsibility semantics.
+At personal scale one Human may bind many legitimate ownership roles. At larger scale those same responsibilities can bind to multiple Humans, teams, AI actors, tools or workflows without turning the responsibility distinction itself into an organization chart or mandatory subsystem.
 
 ---
 
@@ -109,9 +109,9 @@ These remain performance concerns, not a final metric suite. `evaluation/EVALUAT
 
 ---
 
-# 6. Scale-invariant role model
+# 6. Responsibility / actor binding — inherited descriptive aid
 
-Architecture defines responsibility before actor binding.
+Target Architecture v0.2 requires **Responsibility ≠ Actor**. Where explicit role modelling adds value, the following inherited model may be used as a descriptive aid; it is not an additional accepted Target-Architecture contract.
 
 ```text
 Role / Responsibility
@@ -130,9 +130,9 @@ Actor Binding
 → current constraints
 ```
 
-A Human may hold many roles. A future AI/workflow may take over a production responsibility without inheriting Human values, commitment authority, risk acceptance or acceptance rights.
+A Human may hold many roles. A future AI/workflow may take over a production responsibility without thereby inheriting Human values, commitment authority, risk acceptance or acceptance rights.
 
-This is an architectural abstraction, not a mandatory runtime object.
+This is a conditional description aid, not a mandatory runtime object or new Target Architecture commitment.
 
 ---
 
@@ -178,7 +178,7 @@ These scales remain semantically distinct where they change purpose/owner, persi
 
 Do not promote provisional labels such as `F0–F4` into a new canonical ontology unless they add decision value beyond existing concepts.
 
-The complete **Work Episode** remains a strong default evaluation/control scope for bounded professional work, while simple direct work may collapse operationally to one response/action.
+The complete **Work Episode** remains a useful inherited default evaluation/control scope for bounded professional work, while simple direct work may collapse operationally to one response/action. It is not a mandatory Target Architecture unit or stage.
 
 ---
 
@@ -191,25 +191,27 @@ High-priority closed-but-reopenable priors remain:
 3. `Human-AI-Work-System` — later Work/Core/B.6/Semantic Compiler/runtime line plus real-use/failure evidence;
 4. `PAOS` — minimum-kernel/native-surface counter-design.
 
-Their accepted semantics remain qualified priors within scope rather than being re-derived absent a named trigger.
+Their qualified semantics remain available within their supported scope. They do not override Target Architecture v0.2 and their prior packaging is not silently imported as accepted architecture.
 
 ---
 
-# 10. Architecture principles
+# 10. Architecture principles — lineage guidance
 
-The system remains constrained by `architecture/ARCHITECTURE-PRINCIPLES-v0.1.md`, especially:
+`architecture/ARCHITECTURE-PRINCIPLES-v0.1.md` remains lineage/design guidance rather than an independent controlling architecture baseline. Where consistent with Target Architecture v0.2, useful themes include:
 
 - optimize the whole Human–AI Work System;
-- responsibility/role before actor;
-- scale-invariant semantics, scale-conditional structures;
+- responsibility before actor binding;
+- scale-conditional realization;
 - persistent Operating vs episodic Work;
-- economics as architecture input;
+- economics as architecture/work input;
 - type-correct separation of architecture description, work-control and runtime realization;
 - capability/access/authority separation;
 - proportionality and latent complexity;
 - actor substitution/extensibility/portability;
 - preserve material semantics through realization;
 - accepted prior architecture is closed-but-reopenable.
+
+If any lineage principle conflicts with the accepted Target Architecture, the accepted Target Architecture controls.
 
 ---
 
@@ -219,7 +221,7 @@ The bootstrap pass resolved several questions provisionally before the independe
 
 ### Δ1 — Personal/general Operating Architecture
 
-Result retained in the accepted baseline: Operating responsibility is scale-invariant; institutional mechanisms are conditional.
+The retained useful result is consistent with the accepted baseline: Operating Responsibility may be co-located in one Human or distributed across actors; institutional realization mechanisms are conditional rather than implied by the responsibility distinction.
 
 ### Δ2 — System-of-Interest boundary
 
