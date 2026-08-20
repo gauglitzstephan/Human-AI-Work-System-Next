@@ -1,10 +1,9 @@
-# System of Interest — Foundation v0.3
+# System of Interest — Foundation v0.4
 
-**Status:** PROVISIONAL / PRE-ARCHITECTURE / LINEAGE-AWARE / BOOTSTRAP-CLOSURE-SYNCED  
-**Purpose:** Define the problem and claim-relative system boundary while preserving qualified predecessor architecture rather than re-deriving it.  
-**Current basis:** predecessor lineage/reconciliation + Reference Map v0.3 + Reference Envelope calibration + Δ1/Δ2 review + Δ3 reconciliation.
-
-This document is not the final architecture. Current repository state and next-work authority are controlled by `CURRENT.md`.
+**Status:** CLOSURE-SYNCED FOUNDATION / POST-ARCHITECTURE  
+**Purpose:** Define the parent problem and claim-relative System-of-Interest boundary for the Human–AI Work System across architecture, realization and evaluation.  
+**Current basis:** predecessor lineage/reconciliation + Reference Map + Concerns & Requirements v0.1 + accepted Target Architecture v0.2 / ADR-0002.  
+**Authority boundary:** `CURRENT.md` controls current repository development/operating state and next-work authority. This foundation document does not independently define the active gate.
 
 ---
 
@@ -49,6 +48,8 @@ Use the smallest boundary that preserves the mechanism and responsibility needed
 
 Explicit nested SoI types should be introduced only if ordinary parent/subsystem notation repeatedly fails to keep material claims distinct.
 
+A narrower realization, evaluation or implementation question remains a child of the Human–AI Work System unless the claim itself changes the SoI. A runtime carrier, Skill, agent, Project topology, state-control mechanism or other implementation construct does not become the parent SoI merely because it is the current topic.
+
 ---
 
 # 3. Personal scale is a minimum non-trivial operating context
@@ -67,15 +68,15 @@ A single Human working with AI is not identical to a legal or social organizatio
 
 Therefore:
 
-> **Operating Architecture is treated as a scale-invariant responsibility class. Institutional realization mechanisms are conditional.**
+> **Operating Responsibility is a durable responsibility distinction that may be co-located in one Human or distributed across larger arrangements. Institutional realization mechanisms remain conditional on actual need.**
 
-At personal scale one Human may bind many legitimate ownership roles. At larger scale those same roles can bind to multiple Humans, teams, AI actors, tools or workflows without redefining the underlying responsibility semantics.
+At personal scale one Human may bind many legitimate ownership roles. At larger scale those same responsibilities can bind to multiple Humans, teams, AI actors, tools or workflows without turning the responsibility distinction itself into an organization chart or mandatory subsystem.
 
 ---
 
-# 4. Mission — provisional
+# 4. Mission
 
-Develop, select or reconcile a general Human–AI Work System architecture that:
+Develop, realize and evaluate a general Human–AI Work System that:
 
 1. supports high-quality professional work across heterogeneous tasks;
 2. scales from one Human + AI to larger Human–AI organizations without architecture rewrite;
@@ -83,7 +84,10 @@ Develop, select or reconcile a general Human–AI Work System architecture that:
 4. composes actors by capability, authority and economics rather than title or technology;
 5. allows simple work to collapse to direct execution;
 6. preserves material semantics through runtime realization;
-7. learns and changes without discarding qualified prior knowledge or silently mutating authoritative state.
+7. learns and changes without discarding qualified prior knowledge or silently mutating authoritative state;
+8. improves through evidence from real use without turning every local failure into new global architecture.
+
+The mission is system-level. Producing architecture, a runtime carrier or an artifact is not itself the outcome.
 
 ---
 
@@ -101,13 +105,13 @@ The system should improve, where material:
 - **transition, adoption and in-use performance**;
 - **portability and avoidable dependency/lock-in**.
 
-These remain performance concerns, not a final metric suite.
+These remain performance concerns, not a final metric suite. `evaluation/EVALUATION-STRATEGY.md` governs claim-matched evaluation.
 
 ---
 
-# 6. Scale-invariant role model — candidate contract
+# 6. Responsibility / actor binding — inherited descriptive aid
 
-Architecture should define responsibility before actor binding.
+Target Architecture v0.2 requires **Responsibility ≠ Actor**. Where explicit role modelling adds value, the following inherited model may be used as a descriptive aid; it is not an additional accepted Target-Architecture contract.
 
 ```text
 Role / Responsibility
@@ -126,19 +130,19 @@ Actor Binding
 → current constraints
 ```
 
-A Human may hold many roles. A future AI/workflow may take over a production responsibility without inheriting Human values, commitment authority, risk acceptance or acceptance rights.
+A Human may hold many roles. A future AI/workflow may take over a production responsibility without thereby inheriting Human values, commitment authority, risk acceptance or acceptance rights.
 
-This is an architectural abstraction, not a mandatory runtime object.
+This is a conditional description aid, not a mandatory runtime object or new Target Architecture commitment.
 
 ---
 
 # 7. Persistent Operating vs episodic Work
 
-Qualified prior architecture already supports this distinction.
+Persistent Operating responsibilities and episodic Work remain distinct.
 
 ## Persistent Operating responsibilities
 
-Only things that must remain coherent across Work Episodes belong to persistent Operating Architecture, such as:
+Only things that must remain coherent across Work Episodes belong to persistent Operating responsibility, such as:
 
 - capability portfolio and performance expectations;
 - role/authority bindings;
@@ -151,146 +155,152 @@ Only things that must remain coherent across Work Episodes belong to persistent 
 
 ## Episodic Work responsibilities
 
-A concrete Work Episode uses current reality and the persistent operating context to:
+A concrete Work Episode uses current reality and persistent operating context to:
 
-- form/confirm the Work Object and intended outcome;
+- form/confirm the intended outcome / Work Object where explicit representation adds value;
 - choose professional method/evidence;
 - create Work Products;
-- decompose conditionally into Work Units/Work Graph;
+- decompose conditionally into Work Units/Work Graph where dependency structure warrants it;
 - allocate Human/AI/tool functions;
 - execute/integrate;
 - assure the claimed readiness;
 - transition toward use/outcome where required.
 
-One-off work does not become Operating state merely because it was useful. Institutionalization is a separate authorized transition.
+One-off work does not become Operating state merely because it was useful. Institutionalization is a separate legitimate transition.
 
 ---
 
-# 8. Work scales — recovered semantics, not a new mandatory taxonomy
+# 8. Work scales — recovered semantics, not a mandatory taxonomy
 
-Prior architectures already distinguish local operations, Work Episodes, persistent initiatives/projects, portfolios and the configured Work System.
+Prior architectures distinguish local operations, Work Episodes, persistent initiatives/projects, portfolios and the configured Work System.
 
-These scales should remain semantically distinct where they change purpose/owner, persistence, state/completion, authority/acceptance, dependencies, resource allocation/opportunity cost, outcome horizon or monitoring/reopen conditions.
+These scales remain semantically distinct where they change purpose/owner, persistence, state/completion, authority/acceptance, dependencies, resource allocation/opportunity cost, outcome horizon or monitoring/reopen conditions.
 
-Do not promote provisional labels such as `F0–F4` into a new canonical ontology unless they add decision value beyond the existing concepts.
+Do not promote provisional labels such as `F0–F4` into a new canonical ontology unless they add decision value beyond existing concepts.
 
-The complete **Work Episode** remains a strong default evaluation/control scope for bounded professional work, while simple direct work may collapse operationally to one response/action.
+The complete **Work Episode** remains a useful inherited default evaluation/control scope for bounded professional work, while simple direct work may collapse operationally to one response/action. It is not a mandatory Target Architecture unit or stage.
 
 ---
 
 # 9. Qualified prior architecture status
 
-High-priority closed-but-reopenable priors:
+High-priority closed-but-reopenable priors remain:
 
-1. `AI-native-Operating-Model` v0.2 — five responsibility layers plus cross-cutting control semantics;
-2. `human-ai-work-architecture` v1.3.1 — eight architecture views and accepted Work/State/Authority/Execution-context semantics;
-3. `Human-AI-Work-System` — later Work/Core/B.6/Semantic Compiler/runtime line and real-use evidence;
+1. `AI-native-Operating-Model` v0.2 — responsibility architecture plus cross-cutting control semantics;
+2. `human-ai-work-architecture` v1.3.1 — architecture views and accepted Work/State/Authority/Execution-context semantics;
+3. `Human-AI-Work-System` — later Work/Core/B.6/Semantic Compiler/runtime line plus real-use/failure evidence;
 4. `PAOS` — minimum-kernel/native-surface counter-design.
 
-Their common qualified semantics are provisionally inherited rather than re-derived absent a named reopen trigger.
+Their qualified semantics remain available within their supported scope. They do not override Target Architecture v0.2 and their prior packaging is not silently imported as accepted architecture.
 
 ---
 
-# 10. Architecture principles
+# 10. Architecture principles — lineage guidance
 
-The reconstruction is constrained by `architecture/ARCHITECTURE-PRINCIPLES-v0.1.md`, especially:
+`architecture/ARCHITECTURE-PRINCIPLES-v0.1.md` remains lineage/design guidance rather than an independent controlling architecture baseline. Where consistent with Target Architecture v0.2, useful themes include:
 
-- optimize the whole Human–AI work system;
-- responsibility/role before actor;
-- scale-invariant semantics, scale-conditional structures;
+- optimize the whole Human–AI Work System;
+- responsibility before actor binding;
+- scale-conditional realization;
 - persistent Operating vs episodic Work;
-- economics as architecture input;
-- type-correct separation of layers/views/control/runtime;
+- economics as architecture/work input;
+- type-correct separation of architecture description, work-control and runtime realization;
 - capability/access/authority separation;
 - proportionality and latent complexity;
 - actor substitution/extensibility/portability;
 - preserve material semantics through realization;
 - accepted prior architecture is closed-but-reopenable.
 
+If any lineage principle conflicts with the accepted Target Architecture, the accepted Target Architecture controls.
+
 ---
 
-# 11. Differential decisions completed in bootstrap
+# 11. Bootstrap differential history
+
+The bootstrap pass resolved several questions provisionally before the independent requirements-derived Target Architecture was accepted.
 
 ### Δ1 — Personal/general Operating Architecture
 
-**Provisionally resolved:** `RETAIN + GENERALIZE + PROFILE`.
-
-Operating Architecture remains a scale-invariant responsibility class. Enterprise/institutional mechanisms activate only when scale creates the mechanism.
+The retained useful result is consistent with the accepted baseline: Operating Responsibility may be co-located in one Human or distributed across actors; institutional realization mechanisms are conditional rather than implied by the responsibility distinction.
 
 ### Δ2 — System-of-Interest boundary
 
-**Provisionally resolved:** do not promote a permanent dual/nested `SoI-P / SoI-E` taxonomy. Use claim-relative boundary selection.
+Result retained in the accepted baseline: no permanent dual/nested `SoI-P / SoI-E` taxonomy; use claim-relative boundary selection.
 
 ### Δ3 — Views vs Control Planes
 
-**Provisionally resolved:**
+The bootstrap reconciliation remains lineage evidence. Target Architecture v0.2 subsequently selected a smaller requirements-derived conceptual baseline and does not require predecessor Views or Control-Plane groupings as mandatory architecture objects.
 
-```text
-Five responsibility layers      → RETAIN as leading parent responsibility model
-Eight architecture Views        → RETAIN
-Five Control Plane semantics    → RETAIN semantics
-Peer Control-Plane hierarchy    → DO NOT RETAIN in Next representation
-Integrity Contracts / lenses    → leading cross-cutting representation
-```
-
-No new top-level responsibility layer or View is currently justified.
+The bootstrap differential records remain useful evidence; they do not independently control current development.
 
 ---
 
-# 12. Remaining genuine architecture deltas
+# 12. Architecture status after PR #3
 
-Only three current decision-relevant deltas remain from this bootstrap pass:
+PR #3 merged `Concerns & Requirements v0.1`, `Target Architecture v0.2` and ADR-0002. Under ADR-0002, that merge accepts the conceptual baseline within its explicit scope/non-claims.
 
-### Δ4 — Adaptive Work Control
-Does the Semantic Compiler / adaptive Work-Control policy add measurable value beyond accepted Work Architecture plus PAOS-style conditional routing and proportional activation?
+The previously controlling bootstrap sequence:
 
-### Δ5 — Architecture → runtime semantic compilation
-How can material architecture semantics remain behaviorally salient in finite AI context/runtime without copying the full architecture or silently losing functions?
+```text
+Δ4 Adaptive Work-Control
+→ Δ5 Architecture → runtime semantic compilation
+→ Δ6 Knowledge Capital ownership/promotion
+```
 
-### Δ6 — Knowledge Capital ownership and promotion
-Which reusable outputs remain knowledge, which become validated capability/skill, which become persistent Operating patterns/state, and how are promotion, ownership, freshness and retirement governed?
+is therefore **historical and non-controlling as an architecture-development program**.
+
+This does not erase its findings. Relevant issues may reappear as realization questions, implementation constraints, evaluation hypotheses, Knowledge-Capital / operating-design questions, or architecture reopen triggers if evidence eventually warrants reopening.
+
+Foundational architecture is closed by default under the accepted Target Architecture / ADR-0002 reopen discipline.
 
 ---
 
-# 13. Current non-decisions
+# 13. Current open claims / non-claims
 
-Still not established:
+Still not established by conceptual architecture acceptance:
 
-- whether the five-layer responsibility architecture becomes the final accepted parent representation for Next;
-- whether `Work Engine` survives as a distinct Work-Control mechanism after Δ4;
-- exact runtime realization;
-- final capability/Knowledge Capital lifecycle representation;
-- final evaluation model sufficient to prove incremental behavioral value and runtime integrity.
+- behavioral superiority / Human–AI synergy;
+- runtime installation or conformance;
+- cross-domain empirical generality;
+- the best concrete allocation across Human, AI, tools, instructions, Skills/workflows, Projects/contexts and state stores;
+- which reusable mechanisms deserve promotion into persistent capability / Operating state;
+- in-use outcome/value performance;
+- whether any particular runtime/controller/agent/topology improves total-system performance against the best realistic incumbent.
 
-The Δ3 representation is provisionally selected for bootstrap but remains reopenable under the architecture-method rules.
+These are realization/evaluation questions unless a named architecture reopen trigger is established.
 
 ---
 
-# 14. Current gate
+# 14. Relationship to the current operating mode
 
-Do **not** return to blank-slate Human–AI architecture derivation and do **not** create a peer Work Engine layer.
-
-After the bootstrap PR closes, proceed on a new branch with:
-
-> **Δ4 Adaptive Work-Control Differential Review**
-
-Compare:
+`CURRENT.md` controls the active repository state. At the time of this closure sync it records:
 
 ```text
-accepted Work Architecture without explicit adaptive controller
-vs
-Work Architecture + Semantic Compiler / adaptive Work-Control
-vs
-PAOS-style minimal conditional routing
+accepted Target Architecture v0.2
++ incumbent Work-Control runtime
++ domain-owned authoritative state / current tools
++ Working-Solution Operating Mode
++ Solution Formation as a working method inside Work / DESIGN-COMPOSE
 ```
 
-Then, if still decision-relevant:
+This does **not** create a new parent SoI, Solution layer, engine, agent, store or mandatory lifecycle.
+
+Parent continuity remains:
 
 ```text
-Δ5 architecture/runtime semantic compilation
-→ Δ6 Knowledge Capital lifecycle
-→ integrated architecture selection/delta
-→ behavioral + implementation evaluation
+Human–AI Work System                         PARENT SoI
+↓
+problem / mission / performance concerns     FOUNDATION
+↓
+Concerns & Requirements v0.1                 ACCEPTED BASELINE
+↓
+Target Architecture v0.2                     ACCEPTED CONCEPTUAL BASELINE
+↓
+operating / runtime realization              CURRENTLY ACTIVE AT WORK-SYSTEM LEVEL
+↓
+real Work Episodes + readback/use            BEHAVIORAL EVIDENCE SOURCE
+↓
+evidence-driven improvement                  LOCAL BY DEFAULT; ARCHITECTURE REOPEN ONLY BY TRIGGER
 ```
 
-External reference research is opened only where it can discriminate a remaining delta or a new qualified reopen trigger appears.
+The current next gate is intentionally **not** restated here. Use `CURRENT.md` so this foundation artifact cannot silently become a competing program pointer.
