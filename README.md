@@ -6,84 +6,147 @@
 
 **[`CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point.**
 
-Do not infer the current program from historical `Next` sections, the newest-looking file, or closed/unmerged branches.
+Do not infer the current program from historical `Next` sections, newest-looking files, or closed/unmerged branches.
 
 ## Current status
 
 ```text
-Target Architecture v0.2             ACCEPTED — PR #3 merged
+Target Architecture v0.2              ACCEPTED
 Foundational architecture exploration CLOSED BY DEFAULT
-Current operating mode                WORKING-SOLUTION / REALIZATION
-Current solution strategy             KEEP + ADAPT + COMPOSE
+Operating mode                         WORKING-SOLUTION / REALIZATION
+Solution-forming ownership             DISTRIBUTED EXISTING FUNCTIONS
+Runtime conformance candidate          v0.2 REVIEWED / NOT INSTALLED
 ```
-
-The repository no longer treats the old bootstrap `Δ4 / Δ5 / Δ6` sequence as the controlling development program.
 
 ## Accepted conceptual baseline
 
-[`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) reduces the conceptual system to three structural commitments:
+[`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) retains three structural commitments:
 
 ```text
 DISTINCT RESPONSIBILITIES
-Strategic / Operating / Work / Execution / Learning-Change
-
 DISTRIBUTED TYPED STATE
-authoritative state stays with legitimate owners/stores;
-working context is composed only as needed
-
 ADAPTIVE WORK SELECTION
-select the minimum justified next work from current reality,
-intended outcome, requirements, preserved state, dependencies,
-capability/authority/runtime reality, consequence, uncertainty
-and economics
 ```
 
 These are responsibilities/contracts, not mandatory runtime layers, agents, stores, ontologies or stage machines.
 
-## Working solution
+## Problem → working solution
 
-The current Human–AI Work System is intentionally composed from what already exists:
+The current system does **not** add a new `Solution Formation` subsystem or mandatory `System Review` phase.
+
+Solution-forming behavior is composed from mechanisms already present in the qualified system:
+
+```text
+QUALIFY / CURRENT-SYSTEM BASELINE
+→ understand what must work; inspect real existing state/failures when changing a material system
+
+SOLUTION INTELLIGENCE / REUSE
+→ Reference → Retrieve → Review
+→ Reuse / Adapt / Combine / Reject / Design New
+
+DESIGN / COMPOSE
+→ preserve / repair / retire / replace
+→ sufficient work/capability definition
+
+OPEN-ROUTE CHALLENGE + DECISION EDGE
+→ distinct mechanisms only while genuinely open
+→ simpler/no-action; Information Value; Robustness; Commitment
+
+SEMANTIC COMPILER
+→ minimum justified next work
+
+EXECUTION + REALIZATION
+→ configure / instantiate / build
+→ transition / representative use / readback / learning
+```
+
+`System Review` is therefore a conditional existing-system diagnostic function, not a new universal stage. `Solution Formation` is useful language for the overall behavior, but not a newly accepted owner.
+
+## Runtime problem being repaired
+
+The active external CI can still under-activate the chain above and drift from problem into decomposition/meta-artifact production too early.
+
+The Runtime repair is an **activation-salience repair**:
+
+```text
+before unnecessary decomposition
+→ use current-system review + Solution Intelligence
+→ form the solution route
+→ define only enough
+→ configure / instantiate / build
+```
+
+No new Solution Layer, Work Engine, System Review module, central DWM store, agent topology, Skill library or Project hierarchy is required.
+
+## Ownership-corrected Golden Path
+
+```text
+RAW NEED
+→ QUALIFY what must work
+→ REVIEW actual current system/state/failures when an existing material system is changing
+→ use SOLUTION INTELLIGENCE / qualified reuse
+→ determine preserve/repair/retire/replace + reuse/adapt/combine/design-new route
+→ open alternatives only if route remains materially unresolved
+→ use Decision Edge for decision-material information/robustness/commitment
+→ define only enough for implementation/use
+→ CONFIGURE / INSTANTIATE / BUILD
+→ READBACK / REPRESENTATIVE USE
+→ repair affected scope only
+→ retain reusable knowledge only when earned
+```
+
+Architecture, requirements documents, specifications, ADRs, fixtures and evaluation artifacts remain conditional tools.
+
+## Runtime candidate
+
+### External live control
+
+The exact Human-supplied incumbent Global CI remains live until manually changed.
+
+### Current reviewed installation candidate
+
+[`realization/GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md`](realization/GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md)
+
+```text
+LF:      4,980
+CRLF:    4,993
+SHA-256: b38986ecf12286e235e3ff12dc7540b571c0fc310ab8c831127052f944943d37
+```
+
+Static ownership/regression review:
+[`reviews/GLOBAL-CI-SOLUTION-FORMING-OWNERSHIP-REGRESSION-REVIEW-v0.2.md`](reviews/GLOBAL-CI-SOLUTION-FORMING-OWNERSHIP-REGRESSION-REVIEW-v0.2.md)
+
+Result:
+
+```text
+ownership conformance          PASS
+incumbent functions            PASS 19/19
+P1–P4                           PASS
+Parent/Promotion continuity    PASS
+unowned material loss          NONE FOUND
+external installation          NOT PERFORMED
+behavioral superiority         NOT ESTABLISHED
+```
+
+The earlier `GLOBAL-CI-SOLUTION-FORMATION-CANDIDATE-v0.1.md` is superseded for installation because its framing implied a stronger new method owner than the recovered system justifies.
+
+## Minimum operating setup
 
 ```text
 Human
-+ incumbent Global Work-Control CI
-+ active Chat / Project working context
++ Global Work-Control CI
++ active Chat / Project working context as needed
 + authoritative domain state / sources
-+ tools/connectors when needed
++ tools/connectors when material
 + qualified prior solutions / patterns / references
 + readback / assurance / representative use
 ```
 
-No new Solution Layer, Work Engine, agent topology, central DWM store, Skill library or Project hierarchy is required by default.
-
-## Golden Path — problem to working solution
-
-For solution-building work:
-
-```text
-RAW NEED
-→ establish what must work
-→ recover current reality + existing solution
-→ retrieve relevant patterns / precedents / building blocks
-→ choose the shallowest viable strategy:
-   KEEP / USE / CONFIGURE / REUSE / INSTANTIATE /
-   ADAPT / COMPOSE / BUILD / INVENT
-→ open materially distinct solution concepts only if the route remains open
-→ eliminate candidates that fail critical requirements / realization feasibility
-→ select using evidence, performance, cost, complexity, Human burden,
-   risk, uncertainty and commitment
-→ define the selected solution only as deeply as implementation/use requires
-→ BUILD / CONFIGURE / INSTANTIATE a working slice
-→ READBACK / USE / VALIDATE
-→ repair observed failure locally
-→ retain reusable knowledge only when reuse value is earned
-```
-
-Architecture, requirements documents, specifications, ADRs, fixtures and evaluation artifacts are **conditional tools**. They are produced only when the actual solution, interface, risk, authority or assurance boundary requires them.
+Additional persistent structure must earn its cost.
 
 ## Work-control rules
 
-The system preserves these boundaries where material:
+Keep distinct where material:
 
 ```text
 input / proposed means ≠ complete requirement / outcome
@@ -91,50 +154,30 @@ working state ≠ authoritative state ≠ reusable knowledge
 proposal ≠ recommendation ≠ decision ≠ acceptance ≠ authorization
 capability ≠ access ≠ effective performance ≠ authority
 attempt ≠ completion ≠ transition ≠ use ≠ outcome ≠ value
-Work Product ≠ working solution ≠ real-world outcome
 ```
 
-For existing-system work, recover the current artifacts/state/workflow/failures before redesign.
-
-For multi-step work, `Next` means advancing the controlling parent program. A local child thread does not silently become the root.
-
-## Knowledge / reuse
-
-Qualified prior designs and reusable solution knowledge are reused with evidence, scope, freshness and transferability discipline. Important predecessor lines include:
-
-- `AI-native-Operating-Model` v0.2;
-- `human-ai-work-architecture` v1.3.1;
-- `PAOS` as a minimum-complexity counter-design;
-- the later `Human-AI-Work-System` B.6/Core/runtime line.
-
-Repository evidence/pattern records remain inputs to solution formation; they are not automatic authority for the current case.
+For multi-step work, `Next` advances the controlling parent program; a local child thread does not silently become root.
 
 ## Key current documents
 
 - [`CURRENT.md`](CURRENT.md) — controlling operating/program state
 - [`foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md) — accepted concern/requirements basis
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) — accepted conceptual baseline
-- [`decisions/ADR-0002-target-conceptual-baseline.md`](decisions/ADR-0002-target-conceptual-baseline.md) — acceptance/non-claim/reopen boundary
-- [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — lineage/reopen discipline
-- [`evidence/EVIDENCE-MAP.md`](evidence/EVIDENCE-MAP.md) — evidence/Qualified-Prior status
-- [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md) — evaluation principles
+- [`architecture/ARCHITECTURE-METHOD.md`](architecture/ARCHITECTURE-METHOD.md) — lineage/reopen/failure-localization discipline
+- [`evaluation/EVALUATION-STRATEGY.md`](evaluation/EVALUATION-STRATEGY.md) — evaluation/promotion discipline
+- [`realization/GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md`](realization/GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md) — reviewed runtime candidate
 
-Historical bootstrap, differential, reference and realization artifacts remain evidence and provenance but are non-controlling unless `CURRENT.md` explicitly promotes them.
-
-## Current development mode
+## Current gate
 
 ```text
-OPERATE / REALIZE
-      ↓
-use the system on real work
-      ↓
-produce working solutions rather than meta-artifact chains
-      ↓
-observe actual failures / friction / Quality-in-Use
-      ↓
-repair only the affected method/runtime/state/knowledge layer
-      ↓
-reopen foundational architecture only for a named material trigger
+RUNTIME CONFORMANCE
+→ Human installation of reviewed v0.2
+→ ordinary real-work canary
+→ observe solution-route formation vs meta-work
+→ verify quality/state/authority/assurance/Human-agency preservation
+→ accept / locally repair / rollback
 ```
 
-The next legitimate unit is therefore **the next real problem**, not another architecture package.
+Until manual installation, the old external CI remains the real Runtime control.
+
+The next legitimate unit is therefore **runtime installation + real work**, not another conceptual Solution/System-Review package.
