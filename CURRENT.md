@@ -1,141 +1,169 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + WORKING-SOLUTION OPERATING MODE v0.1  
+**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + WORKING-SOLUTION OPERATING MODE v0.1 + OWNERSHIP-CORRECTED RUNTIME CANDIDATE v0.2  
 **Date:** 2026-08-20  
 **Accepted baseline:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` via merged PR #3  
-**Authority boundary:** This file controls repository development/operating state. It does not claim behavioral superiority or external runtime deployment beyond explicitly observed state.
+**Authority boundary:** This file controls repository development/operating state. It does not establish external CI installation or behavioral superiority.
 
 ## 1. Controlling state
 
-The conceptual reconstruction phase is closed by default.
+Foundational architecture is closed by default.
 
-Accepted conceptual commitments:
+Accepted conceptual commitments remain:
 
 ```text
-A. DISTINCT RESPONSIBILITIES
-   Strategic / Operating / Work / Execution / Learning-Change
+DISTINCT RESPONSIBILITIES
+Strategic / Operating / Work / Execution / Learning-Change
 
-B. DISTRIBUTED TYPED STATE
-   authoritative state remains with legitimate owners/stores;
-   working context is composed as needed
+DISTRIBUTED TYPED STATE
+authoritative state remains with legitimate owners/stores;
+working context is composed as needed
 
-C. ADAPTIVE WORK-SELECTION CONTRACT
-   select the minimum justified next work from current reality,
-   intended outcome, requirements, preserved state, dependencies,
-   capability/authority/runtime reality, consequence, uncertainty
-   and economics
+ADAPTIVE WORK-SELECTION CONTRACT
+select the minimum justified next work from current reality,
+intended outcome, requirements, preserved state, dependencies,
+capability/authority/runtime reality, consequence, uncertainty
+and economics
 ```
 
-These are responsibilities/contracts, not mandatory runtime layers, agents, stores or stage machines.
+No new architecture layer, Solution subsystem, System Review subsystem, agent, store or stage machine is accepted.
 
-## 2. Current working-solution strategy
+## 2. Ownership correction — solution-forming behavior
 
-For the current Human–AI Work System itself, the selected solution strategy is:
+The earlier Working-Solution state over-framed `Solution Formation` as a new standalone working-method owner.
+
+Current reconstruction shows that most solution-forming behavior is already distributed across accepted/qualified mechanisms:
+
+```text
+QUALIFY / CURRENT-SYSTEM BASELINE
+→ establish what must work; inspect actual existing system/state/failures
+
+SOLUTION INTELLIGENCE / REUSE
+→ Reference → Retrieve → Review
+→ Reuse / Adapt / Combine / Reject / Design New
+
+DESIGN / COMPOSE
+→ preserve / repair / retire / replace current system where material
+→ define only sufficient work/capability composition
+
+OPEN-ROUTE CHALLENGE + DECISION EDGE
+→ materially distinct mechanisms only while route is genuinely open
+→ simpler/no-action; information value; robustness; commitment
+
+SEMANTIC COMPILER
+→ minimum legitimate next work
+
+EXECUTION + REALIZATION
+→ configure / instantiate / build
+→ transition / representative use / readback
+→ local repair / learning
+```
+
+`System Review` is therefore not introduced as a new universal phase. Existing-system review/diagnosis is a conditional function owned by Qualification/DWM/current-state recovery and failure localization.
+
+`Solution Formation` is not promoted as a new architecture/lifecycle owner. The useful Runtime behavior is a **composition of the existing owners above**.
+
+## 3. Actual Runtime gap
+
+The demonstrated gap is activation/salience:
+
+```text
+qualified solution-forming functions exist
+BUT runtime can still drift:
+problem → decomposition / architecture / specification meta-work
+before
+current-system review → Solution Intelligence → route/form choice → sufficient definition
+```
+
+The required repair is therefore not a new process. It is an activation hook that makes the existing solution-forming chain fire before unnecessary decomposition/meta-work.
+
+## 4. Current solution strategy
 
 ```text
 KEEP      Target Architecture v0.2
-KEEP      current incumbent Global-CI control until a better carrier is behaviorally proven
-KEEP      domain-owned authoritative state + current tools/connectors
-ADAPT     Work / DESIGN-COMPOSE with explicit Solution Formation
-COMPOSE   qualified reuse + decision/uncertainty + realization/assurance
-DO NOT    introduce a new Solution layer/engine/agent/store by default
+KEEP      exact Human-supplied incumbent CI as live/rollback state until manual change
+KEEP      domain-owned authoritative state + existing tools/connectors
+COMPOSE   current-system review + Solution Intelligence + Decision Edge + sufficient design + Execution/Realization
+ADAPT     Runtime salience so solution-route formation precedes unnecessary decomposition
+DO NOT    introduce a new Solution/System-Review layer, agent, store, Skill or ontology by default
 ```
 
-The problem is not lack of architecture. The current operating objective is to turn the accepted control/state architecture into a reliable **problem → working solution** system with less meta-work.
-
-## 3. Minimum operating setup
-
-A working instance requires only:
+## 5. Minimum operating setup
 
 ```text
 Human
-+ current Global Work-Control CI
++ Global Work-Control CI
 + active Chat / Project context as needed
 + authoritative sources/state when material
 + execution tools/connectors when material
 + readback / verification before strong completion/readiness claims
 ```
 
-Projects, Skills, agents, Work Graphs, persistent stores and additional documents are conditional realizations. They must earn their burden through actual need/reuse/evidence.
+Projects, Skills, agents, Work Graphs, persistent stores and extra artifacts remain conditional realizations that must earn their burden.
 
-## 4. Solution Formation — current working method
+## 6. Golden Path — ownership-corrected
 
-Within Work / `DESIGN-COMPOSE`, solution-building work uses this positive mechanism:
-
-```text
-1. SOLUTION INTENT
-   Establish what must work in reality, for whom, in which context,
-   with critical constraints and success/failure conditions.
-
-2. RECOVER / RETRIEVE
-   Inspect the current system/solution first and retrieve relevant
-   cases, patterns, reference solutions, building blocks and failures.
-
-3. CHOOSE SOLUTION STRATEGY
-   Prefer the shallowest viable route:
-   KEEP / USE / CONFIGURE / REUSE / INSTANTIATE / ADAPT /
-   COMPOSE / BUILD / INVENT.
-
-4. SYNTHESIZE ONLY IF ROUTE IS OPEN
-   If no strong existing route is sufficient, form materially distinct
-   solution concepts by mechanism rather than cosmetic variants.
-
-5. ANALYZE + SELECT
-   Eliminate candidates that fail critical requirements or realization
-   feasibility; compare survivors on evidence, performance, cost,
-   complexity, Human burden, risk, uncertainty and commitment.
-
-6. DEFINE SUFFICIENTLY
-   Define the selected solution only to the fidelity required for the
-   next legitimate implementation/use step. Architecture/specification
-   are subordinate tools, not default end products.
-
-7. INSTANTIATE / BUILD
-   Once sufficiently defined, make a working slice rather than continue
-   meta-work.
-
-8. READBACK / USE / LEARN
-   Verify the actual result in the receiving context where possible;
-   repair observed failure locally; retain reusable knowledge only when
-   future reuse justifies promotion.
-```
-
-## 5. Golden Path
-
-For ordinary solution-building work in this repository:
+For solution-building work:
 
 ```text
 RAW NEED
-→ qualify what must work
-→ recover current reality + existing solution
-→ select KEEP/USE/CONFIGURE/REUSE/ADAPT/COMPOSE/BUILD
-→ open alternatives only if genuinely necessary
-→ select preferred solution
-→ define only enough for implementation
-→ BUILD / CONFIGURE / INSTANTIATE
+→ QUALIFY what must work
+→ if existing material system: REVIEW current reality/state/failures sufficiently
+→ use SOLUTION INTELLIGENCE / qualified reuse
+→ determine preserve/repair/retire/replace + reuse/adapt/combine/design-new route
+→ open materially distinct alternatives only if genuinely unresolved
+→ use Decision Edge for decision-material information/robustness/commitment
+→ define only enough for the next implementation/use step
+→ CONFIGURE / INSTANTIATE / BUILD
 → READBACK / REPRESENTATIVE USE
-→ local repair
-→ retain pattern only when earned
+→ repair affected scope only
+→ retain reusable knowledge only when earned
 ```
 
-Default anti-pattern:
+Architecture, requirements documents, specifications, ADRs, fixtures and evaluation artifacts are conditional tools, not default outputs.
+
+## 7. Runtime candidate state
+
+### Live / rollback control
+
+The exact Human-supplied incumbent Global CI remains externally live until the Human manually replaces it.
+
+### Superseded candidate
+
+`realization/GLOBAL-CI-SOLUTION-FORMATION-CANDIDATE-v0.1.md`
+
+- static regression PASS at its time;
+- **SUPERSEDED FOR INSTALLATION** because it over-framed Solution Formation as a new standalone working method.
+
+### Current reviewed installation candidate
+
+`realization/GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md`
 
 ```text
-need
-→ requirements package
-→ architecture package
-→ specification package
-→ evaluation package
-→ eventual implementation
+LF:      4,980
+CRLF:    4,993
+SHA-256: b38986ecf12286e235e3ff12dc7540b571c0fc310ab8c831127052f944943d37
 ```
 
-unless those artifacts are independently required by the actual solution, interface, risk, authority or assurance boundary.
+Review: `reviews/GLOBAL-CI-SOLUTION-FORMING-OWNERSHIP-REGRESSION-REVIEW-v0.2.md`
 
-## 6. Work-control continuity
+Static status:
 
-`Next` / continuation means advancing the controlling parent work program, not the newest local reasoning thread.
+```text
+ownership conformance             PASS
+incumbent functions               PASS 19/19
+P1–P4                              PASS
+Parent/Promotion continuity       PASS
+unowned material loss             NONE FOUND
+external installation             NOT PERFORMED
+behavioral superiority            NOT ESTABLISHED
+```
 
-Before material continuation, preserve enough of:
+## 8. Work-control continuity
+
+`Next` / continuation advances the controlling parent program, not the newest local reasoning thread.
+
+Before material continuation preserve enough of:
 
 ```text
 parent outcome / Work Object
@@ -144,35 +172,31 @@ parent outcome / Work Object
 + allowed operation / authority
 ```
 
-A child/local reasoning trajectory does not silently become the root.
+Changing candidate/controlling/accepted state or next gate is a promotion transition and requires qualified delta, lineage/status/authority and readback.
 
-Changing accepted/candidate/controlling state or the next gate is a promotion transition and requires a qualified delta, lineage/status/authority and readback.
+## 9. Current gate
 
-## 7. Current implementation boundary
+**Mode:** RUNTIME CONFORMANCE → HUMAN INSTALLATION / REAL-USE CANARY.
 
-The current solution does **not** require a new global runtime, Skill, Project topology or agent system merely to represent Solution Formation.
+No further conceptual Solution/System-Review modeling is authorized by default.
 
-The present implementation is intentionally conservative:
+The next legitimate transition is:
 
 ```text
-accepted Target Architecture
-+ incumbent Work-Control runtime
-+ this repository's controlling operating state
-+ Solution Formation as the active working method
+Human explicitly installs reviewed CI v0.2
+→ ordinary real work
+→ observe whether current-system review + Solution Intelligence activate earlier
+→ observe whether unnecessary meta-work falls
+→ verify no regression in state, authority, professional quality, assurance or Human agency
+→ accept / locally repair / rollback based on evidence
 ```
 
-Carrier changes are a separate realization decision and require behavioral transfer evidence.
+Until installation, the old external CI remains the real Runtime control.
 
-## 8. Current gate
+Reopen foundational architecture only for a named accepted reopen trigger.
 
-**Mode:** OPERATE / REALIZE, not standalone architecture exploration.
+## 10. Historical state
 
-The next legitimate work is the next real work problem itself. For system-building work, use the Golden Path above and observe whether it produces a usable working solution faster and with less meta-work while preserving state, authority, professional quality and assurance.
+Old bootstrap `Δ4 / Δ5 / Δ6`, PR #2's A/B/C attempt, closed PR #4 realization work, and CI Solution Formation v0.1 remain historical evidence/non-controlling unless explicitly reused within their qualified scope.
 
-Reopen foundational architecture only for a named material trigger from the accepted Target Architecture v0.2 reopen rules.
-
-## 9. Historical state
-
-The earlier bootstrap `Δ4 / Δ5 / Δ6` sequence and PR #2's A/B/C Δ4 attempt are historical/non-controlling. PR #4 realization work was closed unmerged; its incumbent-first audit remains useful evidence, but it does not override `main` by itself.
-
-Use Git history and the accepted Target Architecture/requirements/evidence records for lineage. Do not infer current program state from historical artifact `Next` sections.
+Do not infer current program state from historical artifact `Next` sections.
