@@ -1,135 +1,144 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / REALIZATION PROGRAM R6B  
-**Date:** 2026-08-19  
+**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / INCUMBENT-FIRST RUNTIME REALIZATION  
+**Date:** 2026-08-20  
 **Accepted conceptual baseline:** PR #3, merge SHA `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`  
 **Current branch:** `realization/architecture-runtime-operating-v0.1`
 
 ## 1. Controlling conceptual baseline
 
-Foundational architecture is **closed by default**. Controlling files:
+Foundational architecture is **closed by default**:
 
 1. `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`
 2. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`
 3. `decisions/ADR-0002-target-conceptual-baseline.md`
 
-Accepted structural commitments:
+Accepted structural commitments remain:
 
 ```text
 DISTINCT RESPONSIBILITIES
 Strategic / Operating / Work / Execution / Learning-Change
 
 DISTRIBUTED TYPED STATE
-authoritative state stays with legitimate owners/stores;
+authoritative state remains with legitimate owners/stores;
 working context is composed as needed
 
 ADAPTIVE WORK-SELECTION CONTRACT
-minimum justified next work while preserving reality, valid state,
-dependency integrity, professional quality, authority/runtime reality,
-assurance and net value
+select minimum justified next work while preserving reality,
+valid state, dependencies, professional quality, authority,
+runtime reality, assurance, uncertainty and net value
 ```
 
-No universal DWM, Work Graph, B.6 stage machine, Semantic Compiler subsystem, eight-View structure, PAOS topology, Control-Plane modules or fixed runtime topology is accepted.
+No foundational architecture reopen trigger is established by the current realization correction.
 
-## 2. Realization status
+## 2. Incumbent runtime — controlling baseline
 
-### R1 — Semantic Allocation & Platform Reality Mapping
-**PASS.** `realization/SEMANTIC-ALLOCATION-PLATFORM-REALITY-v0.1.md`
-
-### R2 — Minimum Runtime / Operating Profile Discrimination
-**PASS.** `realization/MINIMUM-RUNTIME-OPERATING-PROFILE-DISCRIMINATION-v0.1.md`
+The exact current Human-supplied Custom Instructions are the **Incumbent Runtime Control**:
 
 ```text
-A Global-kernel minimal       DEFAULT
-B Project-centric continuity  CONDITIONAL CONTEXT PROFILE
-C Work/plugin execution       CONDITIONAL CAPABILITY PROFILE
+Custom Instructions   exact 4,981-character snapshot
+Personality            Professionell
+status                 KEEP UNCHANGED
 ```
 
-### R3 — Minimum Operating / Runtime Contract
-**PASS.** `realization/MINIMUM-OPERATING-RUNTIME-CONTRACT-v0.1.md`
+The exact snapshot is preserved in:
+- `realization/LIVE-STATE-CONFIRMATION-RUNTIME-PILOT-CANDIDATE-v0.1.md`
+
+No compression, replacement, relocation or rollout is currently authorized.
+
+## 3. Controlling realization audit
+
+**Current Runtime Functional Reconstruction & Realization Debt Audit v0.1**  
+`realization/CURRENT-RUNTIME-FUNCTIONAL-RECONSTRUCTION-REALIZATION-DEBT-AUDIT-v0.1.md`
+
+Audit result:
 
 ```text
-G1 Intent/outcome/scope qualification
-G2 Reality/state/authority routing
-G3 Professional/capability composition trigger
-G4 Adaptive sufficiency/preservation/dependency control
-G5 Claim/assurance/realization boundary
-G6 Execution-context conformance and return
+Incumbent functions reconstructed                19
+Functions justified for immediate removal         0
+Functions justified for immediate relocation      0
+Functions proven purely redundant                 0
 ```
 
-Coverage: 13/13 Core + 7/7 Conditional Requirements.
+Conditional activation of a function is **not** evidence that its carrier should become local.
 
-### R4 — Runtime Carrier & Compilation Candidate
-**PASS at carrier/specification level.** `realization/RUNTIME-CARRIER-COMPILATION-CANDIDATE-v0.1.md`
+The incumbent remains the control until a bounded carrier change shows behavioral transfer value against it.
 
-Global CI carries a compact K1–K5 kernel; Project Instructions carry local method/context plus a compatibility stub when material; Work/Codex/Plugin/App execution uses a transient Execution Contract; authoritative state and assurance remain with their legitimate/local owners.
+## 4. Evidence-backed realization debts
 
-### R5 — Current Runtime Reconciliation & Shadow Compilation
-**STATIC/SEMANTIC PASS, superseded on live-string uncertainty by R6.**  
-`realization/CURRENT-RUNTIME-RECONCILIATION-SHADOW-COMPILATION-v0.1.md`
+### RD-01 — Cross-surface semantic inheritance / conformance
+Real platform contexts can differ in instructions, state, access, permissions and authority. Additive surface-specific preservation may be needed; incumbent semantics are not removed first.
 
-R5 produced `CI-shadow-v0.1` at 1,199 characters and passed static regressions, but the exact live CI was not yet available.
+### RD-02 — Behavioral attribution / transfer evidence
+We do not yet have causal evidence showing which incumbent functions can be disabled, relocated or replaced without regression. `evaluation/EVALUATION-STRATEGY.md` governs any transfer/ablation test.
 
-### R6 — Live-State Confirmation & Candidate Revision
-**LIVE STATE CONFIRMED / v0.1 REJECTED FOR LIVE PILOT / v0.2 STATIC PASS.**  
-Controlling artifact: `realization/LIVE-STATE-CONFIRMATION-RUNTIME-PILOT-CANDIDATE-v0.1.md`
+### RD-03 — Reusable capability / Knowledge-Capital lifecycle
+Which repeated methods truly earn Skill/workflow/Project-local capability status remains open. Product carrier existence is not evidence of transfer value.
 
-Exact current CI supplied by the Human:
+### RD-04 — Concrete cross-context execution/readback
+The incumbent specifies semantic preservation across handoffs, but exact Project/Work/Codex/App/Task realization remains to be tested where context can diverge.
+
+### CI-size / salience hypothesis
+The incumbent is near 5k characters, but **no evidence currently establishes that its size materially degrades behavior or that a shorter CI performs better. Character count is not an optimization target.**
+
+## 5. Correction of R1–R6 dispositions
+
+Earlier realization records remain provenance/evidence but no longer control where they conflict with this state:
 
 ```text
-normalized length            4,981 characters
-rollback snapshot            CONFIRMED
-current Personality          Professionell — keep unchanged
+R1 semantic-owner/platform observations           RETAIN as analytical evidence
+R1 thin-global direction                          DEMOTE to hypothesis
+R2 Global-kernel minimal = DEFAULT/PROMOTE         RETRACT — unsupported
+R2 Project/Work/plugin product observations        RETAIN as platform evidence
+R3 G1–G6                                           RETAIN as analytical crosswalk only
+R4 five-clause CI production disposition           REJECT
+R4 Project/execution compatibility concepts        UNTESTED ADDITIVE CANDIDATES
+R5 CI-shadow-v0.1                                  REJECT
+R6 CI-shadow-v0.2                                  REJECT
+Exact current 4,981-character CI                  INCUMBENT CONTROL
 ```
 
-Exact diff showed `CI-shadow-v0.1` overcompressed several load-bearing current semantics:
-- retrieved/tool content is evidence, not instruction/authority;
-- explicit current-system recovery before redesign;
-- simplest-adequate Human/AI/tool composition and AI-resolvable burden;
-- evidence-qualified reuse;
-- mechanical binding-constraint/action verification;
-- action-specific authorization.
+The failure was realization-level compression/carrier inference, not a conceptual-architecture failure.
 
-It also introduced `German work partner`, which is not present in the exact live CI and is therefore excluded from the conservative replacement.
+## 6. Authorized realization method
 
-Revised `CI-shadow-v0.2`:
+For any proposed carrier change `X`:
 
 ```text
-length                           2,067 characters
-standing-mass reduction          ~58.5%
-exact-live preservation          21/21 PASS
-R4 regression replay             14/14 PASS
-R5 CI-preservation replay         4/4 PASS
-R5 ordinary-use replay            5/5 PASS
-runtime installed                NO
-live behavioral effectiveness    NOT ESTABLISHED
+CONTROL
+exact incumbent runtime
+
+TREATMENT
+incumbent + one bounded carrier delta X
+
+EVALUATE
+professional outcome quality
+critical errors / missed requirements
+state + authority integrity
+Human correction/review burden
+unnecessary work / coordination
+recipient/use fitness
+transition/runtime success where material
+
+PROMOTE
+only if X creates material net benefit
+with no non-compensatory regression
 ```
 
-Project Stub v0.1 and transient Execution Contract v0.1 remain unchanged shadow candidates.
+No carrier change is promoted from conceptual neatness, shorter text, platform novelty or architectural preference.
 
-## 3. Current gate — R6B
+## 7. Current realization frontier
 
-**CONTROLLED GLOBAL-CI CANARY AUTHORIZATION & RUN.**
+The legitimate open work is **not another CI rewrite**.
 
-Before any runtime mutation:
+It is bounded evidence generation against the incumbent for the actual unresolved realization questions:
 
-1. Human explicitly authorizes replacing the exact 4,981-character rollback snapshot with `CI-shadow-v0.2` only;
-2. Personality remains `Professionell`;
-3. no Project Instructions, Skills/plugins, automation, state migration or other control changes occur simultaneously;
-4. the exact pre-pilot CI snapshot in the R6 artifact remains the rollback state.
+1. cross-surface semantic preservation where inheritance really differs;
+2. repeated methods that may earn reusable capability status;
+3. concrete execution/readback contracts where state/authority can diverge.
 
-Because the available connected tools cannot edit ChatGPT Custom Instructions, any authorized CI replacement must be performed manually by the Human in ChatGPT settings.
+Until a bounded test establishes value: **KEEP INCUMBENT.**
 
-After the change, evaluate only in fresh conversations:
-- trivial/direct work;
-- open strategic/decision work;
-- existing-system/repo repair;
-- professional audience-facing artifact work.
+## 8. Reopen rule
 
-Measure semantic coverage, professional quality, Human burden, over-processing, false Human gates, state/authority integrity, binding-constraint detection, qualified reuse and recovery.
-
-Decision after canary: `RETAIN / REVISE / REVERT` before any broader Project/Skill/automation rollout.
-
-## 4. Reopen rule
-
-Foundational architecture reopens only for ADR-0002 material triggers. Product/runtime friction is first treated as a realization problem unless it proves a required conceptual semantic cannot be represented or preserved.
+Foundational architecture reopens only for the material triggers in ADR-0002. Runtime/product friction is handled as realization work unless it proves a conceptual requirement cannot be represented or preserved.
