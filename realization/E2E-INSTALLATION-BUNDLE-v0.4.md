@@ -1,26 +1,32 @@
 # E2E ChatGPT Installation Bundle v0.4
 
-**Status:** CANDIDATE INSTALLATION PACKAGE — repository promotion candidate; external installation not performed.  
+**Status:** CURRENT REPOSITORY-PROMOTED EXTERNAL-TRANSITION PACKAGE — effective Global v0.5 + Project v0.4 load observed by content in the current System Development session; independent persistent UI save/readback not separately recorded.  
 **Date:** 2026-08-20
 
-## 1. Promotion boundary
+## 1. Current transition boundary
 
-Use this bundle only after PR #13 is explicitly reviewed and merged **and** post-merge readback of `main/CURRENT.md` shows:
+PR #13 repository Promotion is **COMPLETE**. Repository promotion and external ChatGPT Runtime transition remain separate claims.
+
+Current supported external state:
 
 ```text
-PR #13 repository Promotion = COMPLETE
-external Global + Project installation/readback = NEXT HUMAN TRANSITION
+current-session effective Global v0.5 load   OBSERVED BY CONTENT
+current-session effective Project v0.4 load  OBSERVED BY CONTENT
+independent persistent UI save/readback       NOT SEPARATELY RECORDED
+future-session persistence                    NOT ESTABLISHED
+behavioral conformance                        NOT ESTABLISHED
 ```
 
-Repository promotion and external ChatGPT installation are separate transitions. Squash Merge of PR #13 does **not** authorize or establish external settings changes.
+The current-session observation does not retroactively mean that PR #13 authorized or performed an external settings change. It only establishes that the promoted payloads are effectively present in this session. Any future settings mutation remains separately Human-authorized.
 
-Promotion-state evidence:
+Promotion/transition evidence:
 
 - `reviews/E2E-PROMOTION-STATE-HANDOFF-READBACK-v0.1.md`
+- `evaluation/e2e-real-use/E2E-04-2026-08-20-POST-PR13-RUNTIME-LOAD-AND-HYGIENE.md`
 
 ## 2. Global Custom Instructions
 
-Install only the exact payload inside:
+Current exact payload:
 
 - `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`
 
@@ -42,7 +48,7 @@ Do not install Global v0.1–v0.4 or a paraphrase.
 
 ## 3. System Weiterentwicklung Project Instructions
 
-Install only the exact payload inside:
+Current exact payload:
 
 - `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`
 
@@ -113,35 +119,39 @@ Decision
 
 At material interaction boundaries, the Human-facing Control Return must expose the qualified result, persistence/promotion state when material, next frontier/actor, exact Human contribution if any, and disposition. If no Human contribution is needed, do not manufacture a question.
 
-## 6. Human external installation sequence
+## 6. External settings readback / conditional installation sequence
 
-Only after the promotion-state readback in §1 and a separate Human authorization for external installation:
+Because the exact Global v0.5 and Project v0.4 payloads are already observed as effectively loaded in the current session, the next transition check is **readback/reconciliation**, not an assumed reinstall.
+
+First, without changing settings, record where the product surface makes this observable:
 
 ```text
-A. replace live Global CI with exact Global v0.5 payload
-→ save
-→ visible readback / truncation check
+A. Global payload visible/readable
+→ compare with exact Global v0.5 payload
+→ truncation/mismatch check
 
-B. set System Weiterentwicklung Project Instructions to exact Project v0.4 payload
-→ save
-→ visible readback / truncation check
+B. Project payload visible/readable
+→ compare with exact Project v0.4 payload
+→ truncation/mismatch check
 
-C. record installation evidence
-→ Global installed YES/NO
-→ Global readback PASS/FAIL
-→ Project installed YES/NO
-→ Project readback PASS/FAIL
+C. record transition evidence
+→ Global effective load OBSERVED/NOT OBSERVED
+→ Global persistent UI readback PASS/FAIL/NOT AVAILABLE
+→ Project effective load OBSERVED/NOT OBSERVED
+→ Project persistent UI readback PASS/FAIL/NOT AVAILABLE
 → warnings/truncation
 → account/project context + time
 ```
 
-Any mismatch keeps installation status FAIL/UNVERIFIED; do not repair by ad-hoc editing in the UI.
+Only if a required payload is absent/mismatched **and** a separate Human authorization for external settings mutation is given, install the exact current payload and repeat visible readback. Do not repair by ad-hoc paraphrasing or unreviewed UI edits.
 
-## 7. Runtime conformance preflight after installation
+A missing independent UI readback keeps only that persistence/readback claim unverified; it does not erase the separately observed current-session effective load.
+
+## 7. Runtime conformance preflight after transition reconciliation
 
 Before interpreting real-work quality, verify:
 
-1. Project Instructions visibly saved without truncation;
+1. current Project Instructions are effectively available and any available persistent UI readback shows no truncation/mismatch;
 2. `main/CURRENT.md` and repository Method Registry resolve from Chat;
 3. actual Work/Codex/tool access is established before relying on it;
 4. a natural Chat→Work/Codex handoff carries Parent/Work Basis/Method/Authorization/Provider-Return state;
@@ -158,7 +168,7 @@ Preflight tests Runtime realization facts, not outcome quality.
 
 ## 8. First real-use rule
 
-After installation/readback/preflight, use the next genuine System Development work frontier. Persist only material validation evidence. Localize failures to the lowest responsible layer:
+After transition reconciliation and preflight, use the next genuine System Development work frontier. Persist only material validation evidence. Localize failures to the lowest responsible layer:
 
 ```text
 domain Method
