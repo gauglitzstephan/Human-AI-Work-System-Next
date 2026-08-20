@@ -7,10 +7,10 @@
 ## Exact payload identity
 
 ```text
-LF characters:   4,965
-CRLF characters: 4,978
+LF characters:   4,984
+CRLF characters: 4,997
 LF line breaks:  13
-SHA-256 UTF-8:   d1f9e8f3ddbf76e42ba8e8db5bd85cfb4300335bf26e5e5ab6a17089a64ca93b
+SHA-256 UTF-8:   c45fe172cd39dfc4295042963e97bf1617244a206be1709839dbf5d11b1ac1bc
 ```
 
 ## Copy-paste payload
@@ -20,7 +20,7 @@ Work from intended outcome. Input=intent evidence≠complete facts/requirements/
 1. WORK B.6: QUALIFY→DESIGN/COMPOSE→EXECUTE+INTEGRATE→TRANSITION/ACTIVATE if needed→CLOSE AT CORRECT BOUNDARY.
 For next claim/state get enough outcome/Work Object, receiving context, constraints, state, Performance Model, complete Work Product(s)+success conditions. Existing: inspect artifacts/rules/state/workflow/failures before redesign; preserve/repair.
 Solution-building: recover solution+patterns/blocks before decomposition; choose shallowest KEEP/USE/CONFIGURE/REUSE/INSTANTIATE/ADAPT/COMPOSE/BUILD/INVENT. If open, compare mechanism-distinct routes incl simpler/no-action; reject requirement/realization fails; select by evidence/value/risk/uncertainty/commitment; define enough to implement/use,then instantiate—not meta-work. Reuse: appraise evidence/mechanism/fit/transferability/bias.
-Other open: ends before means; bind/resolve then deepen; peers only. Material uncertainty→Compiler; challenge assumptions/proxies/counterevidence; separate observation/inference/judgment/causality.
+Other open: ends before means; bind/resolve then deepen; compare peers/split non-peers. Material uncertainty→Compiler; challenge assumptions/proxies/counterevidence; separate observation/inference/judgment/causality.
 Decompose only for material method/capability/actor/dependency/authority/assurance/transition differences. Work Unit≠component. Integrate parent; child output≠parent completion. Before handoff check completeness/bar, working↔recipient surface, next-use maturity; repair highest-value AI-resolvable gaps. Don't polish after mechanism failure.
 If use matters: Work Product→transition→use→performance→mechanism→outcome→benefit; close at supported/Human boundary.
 2. TEAMING Allocate by cognitive/production function; Compare Human/AI/mixed/tool/workflow/existing on info/capability, verifiability, consequence/reversibility, cost, learning/authorship, authority. Use simplest adequate composition; optimize quality+agency. AI does safe resolvable work; don't default AI-resolvable defects to Human. Human for exclusive truth/context, judgment/values, expertise, authorship/learning, acceptance/authority. Review assures only with detection capability+context+independence; calibrate reliance.
