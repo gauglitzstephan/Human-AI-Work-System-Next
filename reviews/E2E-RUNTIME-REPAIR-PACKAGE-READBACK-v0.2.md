@@ -7,113 +7,119 @@
 
 ## 1. Readback question
 
-After adding the observed Human-facing interaction defect to the existing PR #13 Runtime repair, is the branch still one coherent Runtime-realization repair and ready to stop at the Human merge gate?
+After adding the Human-facing Control Return / `Next` repair and the point-of-effect promotion-state handoff repair, is the Runtime deployment repair package internally coherent, bounded to Runtime realization, and ready for repository promotion without reopening static architecture or claiming external installation?
 
 ## 2. Scope readback
 
-The added UX delta modifies only Runtime realization/control and derived compiled/review/install artifacts. No `architecture/` or `foundation/` file is changed.
+Branch-vs-main remains bounded to:
 
-Newly repaired boundary:
+- `CURRENT.md`;
+- Runtime realization/compilation/control artifacts;
+- Method Registry + System Development Method Packs;
+- deployment reviews/RCA;
+- Project carrier evidence.
+
+No file under `architecture/` or `foundation/` is modified.
+
+**Static architecture reopen:** NO.
+
+## 3. Runtime interaction repair
+
+Canonical Runtime now distinguishes:
 
 ```text
 Provider Return
-→ parent readback/rebind/integration/qualification
-→ Human-facing Control Return
-→ exact continuation / Gate / closure
+≠ Human-facing Control Return
 ```
 
-**Static architecture reopen: NO.**
+and adds:
 
-## 3. Canonical semantic delta
+```text
+CTL-12 Human-facing Control Return
+CTL-13 Next / continuation semantics
+BC-06 Human-facing Control Return Contract
+```
 
-Canonical source adds:
+At material boundaries the Controller must expose enough state for the Human to know the qualified result/status, persistence state, next legitimate frontier, next actor, exact Human contribution if any, and disposition.
 
-- `CTL-12 Human-facing Control Return`;
-- `CTL-13 continuation / Next semantics`;
-- `BC-06 Human-facing Control Return Contract`;
-- explicit `Provider Return ≠ Human-facing Control Return`;
-- explicit `Persistence ≠ Promotion`.
+`Next` continues the bound legitimate frontier only. It does not imply acceptance, Promotion, Authorization, persistence, scope change or new commitment.
 
-`reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.2.md` traces these into both deployable views.
+**Verdict:** PASS static mechanism binding; behavioral effectiveness remains unestablished until installed/used.
 
-**Verdict: PASS.**
-
-## 4. Compiled candidates
+## 4. Compiled-view readback
 
 ```text
 Global Pro v0.5
-  CRLF    4,997
+  CRLF 4,997
   SHA-256 865cc07b101a907b42adaa5506537f27db554d9195a70077ae7050d7cf84d72f
-  carrier <= 5,000 — PASS
+  carrier fit PASS <= 5,000
 
 System Development Project v0.4
-  CRLF    5,181
+  CRLF 5,181
   SHA-256 338a01576cfa3e330b0e120dba509ee447f516cd4675a212924efc91388dd69b
-  observed carrier 8,000 — PASS
+  carrier fit PASS <= Human-observed 8,000
 ```
 
-Prior Global v0.4 / Project v0.3 remain repository history but are superseded for installation by v0.5/v0.4.
+Semantic trace: `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.2.md`.
+
+**Verdict:** PASS.
 
 ## 5. Boundary/control readback
 
-Bound mechanisms:
+Current package explicitly binds:
 
 - Commitment / Work Basis;
 - Authorization;
 - Frontier Handoff;
-- Provider Return / Rebind;
+- Provider Return;
 - Human-facing Control Return;
 - Human Gate / WAIT;
 - Promotion / State Transition;
-- Persistence/write/readback;
-- explicit `Next` continuation semantics.
+- Readback / reconciliation.
 
-Material response UX now has a typed disposition without requiring every trivial response to show ceremony.
+`Persistence ≠ Promotion` is preserved.
 
-**Verdict: PASS static mechanism binding.**
+**Verdict:** PASS static mechanism binding.
 
-## 6. Installation package readback
+## 6. Promotion-state handoff readback
 
-Current candidate bundle:
+Point-of-effect review identified that the earlier `CURRENT.md` would become immediately stale on `main` after merge because it described only the pre-merge Human Gate.
+
+Repair evidence:
+
+- `reviews/E2E-PROMOTION-STATE-HANDOFF-READBACK-v0.1.md`.
+
+`CURRENT.md` now carries a location-sensitive transition:
+
+```text
+on unmerged PR #13 branch:
+  R17 = HUMAN MERGE GATE — WAIT
+
+on main after PR #13 merge:
+  R17 = COMPLETE
+  R18 external installation/readback = NEXT HUMAN TRANSITION
+```
+
+Repository merge still does not authorize or establish external settings installation.
+
+**Verdict:** PASS for repository promotion-state integrity, subject to final head/mergeability check and post-merge `main/CURRENT.md` readback.
+
+## 7. Installation package readback
+
+Current bundle:
 
 - `realization/E2E-INSTALLATION-BUNDLE-v0.4.md`
 
-It references only the current compiled candidates and current boundary/method mechanisms. Its preflight explicitly tests:
+It references only the current Global v0.5 / Project v0.4 pair plus current Method and boundary mechanisms. Earlier install bundles are superseded for installation.
 
-- Provider Return vs Control Return;
-- usable Human-facing disposition;
-- `Next` Gate safety;
-- Human Gate exact-action UX;
-- Persistence≠Promotion.
-
-External installation/readback remains **NOT PERFORMED**.
-
-## 7. Regression readback
-
-`reviews/E2E-RUNTIME-MECHANISM-DEPLOYMENT-REGRESSION-v0.2.md` result:
-
-```text
-Runtime repair scope integrity                  PASS
-canonical one-source compilation                PASS
-Global v0.5 carrier fit                         PASS
-Project v0.4 carrier fit                        PASS
-Handoff/Provider Return binding                 PASS static
-Human-facing Control Return binding             PASS static
-Next continuation semantics                     PASS static
-Persistence≠Promotion                           PASS static
-repository promotion eligibility                PASS
-behavioral reliability                          NOT ESTABLISHED
-```
-
-The observed conversation failure is retained only as evidence that the prior Runtime UX was insufficient; it is not counted as positive evidence for the new candidate.
+External save/readback remains **NOT PERFORMED**.
 
 ## 8. Claim boundary
 
-Repository promotion may establish:
+Repository promotion may establish only:
 
 ```text
-reviewed PR #13 Runtime deployment + interaction-control repair
-adopted on main as repository guidance/install candidate
+reviewed Runtime deployment + interaction-control repair package adopted on main
 ```
 
 It may not establish:
@@ -121,22 +127,34 @@ It may not establish:
 ```text
 external Global installation
 external Project installation
-exact saved/readback identity
-actual Human-facing Control Return activation
+saved/readback identity in ChatGPT settings
+Human-facing Control Return behavioral reliability
 Next behavioral fidelity
 Human Gate enforcement behavior
 cross-surface handoff fidelity
-professional quality / Quality-in-Use / outcomes
+professional quality
+Quality-in-Use
+outcome effectiveness
 ```
 
-## 9. Final disposition
+## 9. Final verdict
 
 ```text
-PR #13 package coherence                         PASS
-static architecture closed                       PASS
-current compiled/install identities coherent     PASS
-repository promotion eligibility                 PASS
-external/runtime evidence                        PENDING downstream
+Runtime repair scope integrity                 PASS
+static architecture remains closed             PASS
+canonical one-source compilation               PASS
+Global v0.5 carrier fit                        PASS
+Project v0.4 carrier fit                       PASS
+Method carrier bound                           PASS static
+Handoff / Provider Return bound                PASS static
+Human-facing Control Return bound              PASS static
+Next continuation semantics                    PASS static
+Persistence≠Promotion                          PASS static
+promotion-state handoff                        PASS
+installation bundle coherence                  PASS
+repository promotion eligibility               PASS
+external installation                          NOT PERFORMED
+behavioral reliability                         NOT ESTABLISHED
 ```
 
-**Recommended disposition:** stop at **PROMOTION GATE — HUMAN MERGE AUTHORITY**. Do not merge as part of this readback.
+**Promotion recommendation:** PR #13 may be Squash Merged after an immediate point-of-effect revalidation of current head, mergeability and open-PR/dependency state. After merge, read back `main/CURRENT.md` before any external installation action.
