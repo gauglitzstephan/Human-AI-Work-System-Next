@@ -1,9 +1,11 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 / ARCHITECTURE → RUNTIME / OPERATING REALIZATION  
+**Status:** CONTROL-STATE REPAIR CANDIDATE / PROPOSED POST-PR3 PROGRAM POINTER  
+**Factual architecture state:** PR #3 merged on 2026-08-19 as `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`; under ADR-0002 this accepts the conceptual baseline within its stated scope.  
+**Candidate program state:** ACCEPTED CONCEPTUAL ARCHITECTURE BASELINE v0.2 → ARCHITECTURE → RUNTIME / OPERATING REALIZATION  
 **Date:** 2026-08-20  
-**Acceptance event:** PR #3 merged on 2026-08-19 as `0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e`  
-**Authority boundary:** this file controls repository navigation and current program state. Normative architecture/requirement meaning remains in the accepted baseline documents referenced below.
+**Repair branch:** `repair/post-pr3-parent-program-state`  
+**Authority boundary:** on this repair branch, this file proposes the corrected repository navigation/program pointer. It does **not** become the controlling `main` pointer until the repair is legitimately accepted/merged. The PR #3 merge/acceptance event is factual independently of this repair.
 
 ## 1. Parent system and parent work
 
@@ -51,36 +53,33 @@ Behavioral + implementation evaluation
 Evidence-driven improvement / selective reopen
 ```
 
-Current state:
+Reconstructed factual state:
 
 ```text
 System / SoI foundation                         ESTABLISHED FOR CURRENT CLAIM BOUNDARY
 Reference + predecessor / real-use evidence     ESTABLISHED AS BASELINE EVIDENCE
 Concerns & Requirements v0.1                    ACCEPTED BASELINE VIA PR #3
 Target Architecture v0.2                        ACCEPTED BASELINE VIA PR #3
-Foundational architecture expansion             CLOSED BY DEFAULT
-Current program                                 ARCHITECTURE → RUNTIME / OPERATING REALIZATION
+Foundational architecture expansion             CLOSED BY DEFAULT UNDER ADR-0002
+Program consequence of acceptance               ARCHITECTURE → RUNTIME / OPERATING REALIZATION
 Behavioral superiority / runtime effectiveness  NOT ESTABLISHED
 ```
 
 ---
 
-## 3. Controlling baseline documents
+## 3. Baseline documents used by the repaired pointer
 
-Use these for current normative meaning:
-
-1. `CURRENT.md` — repository program/navigation state.
-2. `foundation/SYSTEM-OF-INTEREST.md` — parent problem / default claim-relative SoI and boundary semantics.
-3. `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` — 11 Concerns / 13 Core Requirements / 7 Conditional Requirements.
-4. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` — accepted conceptual architecture baseline.
-5. `decisions/ADR-0002-target-conceptual-baseline.md` — acceptance boundary, consequences and reopen triggers.
-6. `architecture/ARCHITECTURE-METHOD.md` — lineage/reopen/change discipline.
-7. `evaluation/EVALUATION-STRATEGY.md` — evaluation claim classes, baselines and promotion discipline.
-8. `evidence/EVIDENCE-MAP.md` plus predecessor/lineage artifacts — evidence/provenance, not independent current-program authority.
+1. `foundation/SYSTEM-OF-INTEREST.md` — parent problem / default claim-relative SoI and boundary semantics.
+2. `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` — 11 Concerns / 13 Core Requirements / 7 Conditional Requirements.
+3. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` — accepted conceptual architecture baseline via PR #3.
+4. `decisions/ADR-0002-target-conceptual-baseline.md` — acceptance boundary, consequences and reopen triggers.
+5. `architecture/ARCHITECTURE-METHOD.md` — lineage/reopen/change discipline.
+6. `evaluation/EVALUATION-STRATEGY.md` — evaluation claim classes, baselines and promotion discipline.
+7. `evidence/EVIDENCE-MAP.md` plus predecessor/lineage artifacts — evidence/provenance, not independent current-program authority.
 
 `Concerns & Requirements v0.1`, `Target Architecture v0.2` and ADR-0002 retain pre-merge `PROPOSED` metadata for provenance. Their containing PR #3 was explicitly merged; ADR-0002 defines that merge as the acceptance event. Do not reinterpret those files as unaccepted because their embedded pre-merge header was not rewritten.
 
-Historical bootstrap/reference/differential artifacts may retain old `Next`, `Current gate` or candidate language. Those statements are provenance unless explicitly promoted here.
+Historical bootstrap/reference/differential artifacts may retain old `Next`, `Current gate` or candidate language. Those statements are provenance unless explicitly promoted into the controlling program state.
 
 ---
 
@@ -117,15 +116,15 @@ Important retained boundaries include:
 
 ---
 
-## 5. Current program — Architecture → Runtime / Operating Realization
+## 5. Candidate repaired current program — Architecture → Runtime / Operating Realization
 
-The accepted baseline now has to be realized as an actual working system.
+ADR-0002 defines the post-acceptance program as Architecture → Runtime / Operating Realization. The accepted baseline now has to be realized as an actual working system.
 
 The realization problem is:
 
 > determine how the baseline's material semantics are carried by actual Humans, AI/models, Custom/Project Instructions, tools/apps, state stores, capabilities, Skills/workflows, Projects/contexts, permissions, authority, execution mechanisms and operating practices — while preserving qualified existing behavior and avoiding unnecessary implementation structure.
 
-### Current realization entry condition
+### Realization entry condition
 
 Before proposing a realization change:
 
@@ -136,9 +135,9 @@ Before proposing a realization change:
 5. compare the smallest credible realization alternatives against the incumbent;
 6. evaluate behavioral, state/authority, Human-burden, recipient/use and economics effects before promotion.
 
-The current program is therefore **whole-system realization**, not CI compression, Skill creation, agent topology, Project restructuring or any other carrier-specific optimization by default.
+The program is therefore **whole-system realization**, not CI compression, Skill creation, agent topology, Project restructuring or any other carrier-specific optimization by default.
 
-### Current gate
+### Proposed current gate after this control-state repair is promoted
 
 > **Establish the current whole-system realization baseline and its material coverage/gaps against the accepted Target Architecture before changing realization.**
 
@@ -190,10 +189,10 @@ For any state-changing repository work, proposal/decision/authorization/executio
 
 ---
 
-## 9. Next higher-level sequence
+## 9. Higher-level sequence proposed by this repair
 
 ```text
-CURRENT
+PR #3 acceptance consequence
 Architecture → Runtime / Operating Realization
 ↓
 whole-system realization baseline / coverage recovery
