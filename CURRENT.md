@@ -1,253 +1,141 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + STATIC-COMPLETE E2E WORK ARCHITECTURE CANDIDATE v0.1 + E2E OPERATING RUNTIME CONTRACT CANDIDATE v0.1  
+**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + STATIC-COMPLETE E2E WORK ARCHITECTURE CANDIDATE v0.1 + REVIEWED E2E RUNTIME MIGRATION PACKAGE v0.4  
 **Date:** 2026-08-20  
-**Accepted baseline:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` via merged PR #3  
-**Candidate branch:** `architecture/e2e-work-architecture-v0.1`  
-**Authority boundary:** This branch records a candidate promotion package. Main remains controlling until the containing PR is explicitly accepted/merged. Repository state does not establish external Runtime installation or behavioral effectiveness.
+**E2E static package:** promoted to `main` via merged PR #11  
+**Runtime package branch:** `runtime/e2e-migration-v0.1` / PR #12  
+**Authority boundary:** before PR #12 merge, current `main/CURRENT.md` remains controlling. On merge, this file becomes the controlling repository state for external installation/preflight. Repository promotion never establishes external ChatGPT installation or behavioral effectiveness.
 
-## 1. Accepted parent baseline
+## 1. Controlling program
 
-The accepted conceptual commitments remain:
+Static architecture work is closed by default at the current evidence/reference horizon.
 
-```text
-DISTINCT RESPONSIBILITIES
-Strategic / Operating / Work / Execution / Learning-Change
-
-DISTRIBUTED TYPED STATE
-authoritative state remains with legitimate owners/stores;
-working context is composed as needed
-
-ADAPTIVE WORK-SELECTION CONTRACT
-select the minimum justified next work from current reality,
-intended outcome, requirements, preserved state, dependencies,
-capability/authority/runtime reality, consequence, uncertainty
-and economics
-```
-
-The E2E candidate does **not** replace these commitments by default and does not introduce a mandatory stage machine, central state store, Solution subsystem, System Review subsystem, agent topology, Project topology, room topology, or fixed product-surface mapping.
-
-## 2. New End-to-End Work Architecture candidate
-
-Candidate:
-
-- `architecture/E2E-WORK-ARCHITECTURE-CANDIDATE-v0.1.md`
-
-Static closure review:
-
-- `reviews/E2E-STATIC-CLOSURE-REVIEW-v0.1.md`
-
-The candidate is a human-readable Work transformation/control projection that closes the previously observed gap between broad semantic coverage and an explicit End-to-End operating contract.
-
-Core projection:
+Program sequence:
 
 ```text
-REALITY / TRIGGER
-→ ADMIT + FRAME
-→ FORMATION WORKSPACE
-   Situation / Need / Value-Purpose / Goal-Outcome /
-   Requirements-Performance / Professional-Reference Intelligence /
-   Evidence-Futures-Uncertainty / Solution-Mechanism /
-   Outcome Mechanism / Feasibility / Trade-offs / Decision
-→ DECISION-READY CANDIDATE
-→ DECIDE + COMMIT AS NEEDED
-→ PROMOTION / STATE TRANSITION
-→ WORK / REALIZATION FORMATION
-→ EXECUTE + INTEGRATE
-→ REFINE / MATURE* + ASSURE / QUALIFY
-→ ACCEPT / AUTHORIZE / PROMOTE AS REQUIRED
-→ TRANSITION / ACTIVATE*
-→ USE / OPERATE*
-→ OBSERVE / OUTCOME-VALUE EVALUATION*
-→ LEARN
-→ CHANGE CANDIDATE
-→ DECIDE / PROMOTE
-→ KEEP / REPAIR / ADAPT / REOPEN / WAIT / HANDOFF / RETIRE
-→ CLOSE / CONTINUE
+STATIC E2E PACKAGE ON MAIN
+→ Runtime compilation
+→ exact rollback controls
+→ one real Project instantiation
+→ full static regression/readback
+→ repository promotion
+→ Human external installation/readback
+→ runtime conformance preflight
+→ first actual representative E2E work
+→ persistent real-use evidence
 ```
 
-`*` = conditional.
+Do not reopen static architecture absent a named material trigger.
 
-This is not a mandatory visible lifecycle. Bounded work may collapse to direct work + appropriate check + closure.
+## 2. Runtime compilation repair
 
-## 3. Bounded semantic repairs incorporated
+The Global v0.2 / Project v0.1 pair is superseded for installation because its flat control-catalog topology could over-activate conditional professional controls.
 
-### Commitment ≠ Promotion / State Transition
-
-Commitment remains a decision/optionality semantic:
+Current topology:
 
 ```text
-WAIT / PILOT / STAGED / REVERSIBLE / FULL COMMIT
+PERMANENT INVARIANTS
+        ↓
+WORK CONTROLLER / ORCHESTRATOR
+        ↓
+CONDITIONALLY ACTIVATED CAPABILITIES
 ```
 
-Promotion / State Transition is the generic control operation that changes semantic status or downstream control effect.
+This is a Runtime compilation repair, not a new architecture.
 
-Keep distinct:
+## 3. Current Global installation candidate
+
+- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.3.md`
+
+Identity:
 
 ```text
-proposal
-≠ recommendation
-≠ decision
-≠ acceptance
-≠ commitment
-≠ authorization
-≠ implementation
-≠ authoritative state write
+LF:       4,975
+CRLF:     4,980
+SHA-256:  108ff9ad1919779bd9e1fbf027d2c339f1cb2840c1c2447c624df0d23d3bd544
 ```
 
-Persistent promotion requires legitimate status/authority/write path and readback/reconciliation where material.
+Exact pre-E2E live Global rollback remains persisted under `realization/rollback/`.
 
-### Orchestrator is cross-cutting
+External Global installation: **NOT PERFORMED**.
 
-The Orchestrator / Semantic Compiler is not post-commit Realization machinery. It operates across the whole Work Architecture and selects the minimum sufficient admissible frontier from controlling state.
-
-It may select framing, retrieval, formation, research, Human contribution, decision work, work formation, execution, refinement, assurance, transition, observation, change, wait, stop, or no-action.
-
-It is a logical policy/function, not a required separate agent/service/module.
-
-## 4. Static closure result
-
-`reviews/E2E-STATIC-CLOSURE-REVIEW-v0.1.md` records:
+## 4. First Project installation candidate
 
 ```text
-CR-01–13                         PASS
-CCR-01–07                        PASS / conditional-owned
-Historical Failure Families      OWNED
-Spine transition contracts       COMPLETE
-Label-only critical mechanisms   NONE FOUND
-Boundary reification             NONE REQUIRED
-Unowned material transformation  NONE FOUND
+System Weiterentwicklung Projekt
+Repository: gauglitzstephan/Human-AI-Work-System-Next
+Pre-E2E Project Instructions: NONE
 ```
 
-Candidate claim:
+Current candidate:
 
-> **STATIC / ARCHITECTURAL COMPLETENESS CANDIDATE — PASS within the defined scope and current evidence/reference horizon.**
+- `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.2.md`
 
-This does **not** establish:
+Identity:
 
 ```text
-runtime implementation completeness
-behavioral reliability
-cross-surface enforcement effectiveness
-professional quality across domains
-Quality-in-Use
-real-world outcome effectiveness
-causal/value superiority
+LF:       4,983
+CRLF:     4,992
+SHA-256:  b71a091afe2fc50cbb8edb671446849acd18273d48305c5052d27a0d89c81cda
 ```
 
-## 5. Operating Runtime contract candidate
+Project v0.2 binds `main/CURRENT.md` as program authority and locally preserves material E2E controls because Project Instructions override Global Instructions.
 
-Candidate:
+External Project installation: **NOT PERFORMED**.
 
-- `realization/E2E-OPERATING-RUNTIME-CONTRACT-CANDIDATE-v0.1.md`
+## 5. Static Runtime verdict / readback
 
-Purpose:
+Reviews:
+
+- `reviews/E2E-RUNTIME-COMPILATION-FULL-STATIC-REGRESSION-v0.3.md`
+- `reviews/E2E-RUNTIME-COMPILATION-READBACK-v0.3.md`
+
+Result:
 
 ```text
-recover controlling work state
-→ select minimum legitimate next frontier
-→ execute through actual capability/authority
-→ integrate / qualify exact result
-→ enforce material transition conditions
-→ promote only through legitimate state transition
-→ persist/read back material state outside transient chat memory
+E2E architecture semantic coverage             PASS
+Exact-live Global material functions           PASS
+Historical protected functions                 PASS
+Permanent invariant / Controller / Capability  PASS
+Parent / Promotion continuity                  PASS
+Professional-method activation                 PASS
+Human Gate enforcement semantics               PASS
+Claim-bound + representative assurance         PASS
+Boundary integrity                             PASS
+Global 5k envelope                             PASS — 4,980 CRLF
+Project local-control coverage                 PASS — 4,992 CRLF
+Package/readback coherence                     PASS
+Unowned material static loss                   NONE FOUND
+External installation                          NOT PERFORMED
+Behavioral reliability                         NOT ESTABLISHED
 ```
 
-The Runtime contract requires mechanism evidence rather than label presence:
+## 6. Installation package
+
+Current:
+
+- `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.4.md`
+- `realization/E2E-INSTALLATION-BUNDLE-v0.2.md`
+- `realization/E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md`
+
+Superseded for installation: Global v0.1/v0.2, Project v0.1, migration manifests v0.1–v0.3, installation bundle v0.1.
+
+## 7. Gate
 
 ```text
-Human Gate policy
-≠ effective wait / transition enforcement
-
-professional method requirement
-≠ method found / accessible / applicable / applied
-
-promotion rule
-≠ legitimate write + readback + reconciliation
-
-assurance label
-≠ detection-capable assurance actually applied
+I0 static E2E architecture                    COMPLETE
+I1 rollback controls                          COMPLETE
+I2 first Project selection/pre-state          COMPLETE
+I3 Global v0.3 + Project v0.2 compilation     COMPLETE
+I4 full static regression                     PASS
+I5 readback / package coherence               PASS
+I6 PR #12 promotion                           READY / repository transition
+I7 external Global + Project installation     HUMAN ACTION AFTER MERGE
+I8 installation/readback conformance          PENDING
+I9 first actual E2E real-work case            PENDING
 ```
 
-## 6. Persistent validation state
+If this file is still on the candidate branch: **next transition = merge PR #12**.  
+If this file is on `main` after merge: **next transition = Human external installation/readback using `realization/E2E-INSTALLATION-BUNDLE-v0.2.md`**.
 
-Representative validation must not live only in chat history.
-
-Protocol:
-
-- `evaluation/E2E-REAL-USE-VALIDATION-PROTOCOL-v0.1.md`
-
-Per material case, persist evidence under:
-
-```text
-evaluation/e2e-real-use/<CASE-ID>.md
-```
-
-Minimum initial work classes:
-
-1. open consequential decision;
-2. existing-system repair/change;
-3. high-stakes professional recipient-facing Work Product;
-4. persistent multi-turn / multi-surface work program;
-5. delayed external outcome only when real work naturally supplies it.
-
-## 7. Existing Runtime / CI lineage
-
-The exact Human-supplied incumbent Global CI remains the externally live/rollback state unless the Human changes it.
-
-Prior solution-forming Runtime candidates remain historical/qualified evidence:
-
-- `realization/GLOBAL-CI-SOLUTION-FORMATION-CANDIDATE-v0.1.md` — superseded because it over-framed Solution Formation as a standalone owner;
-- `realization/GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md` — reviewed ownership-corrected candidate within its narrower scope.
-
-The new E2E Runtime contract is **not** an externally installed CI payload and does not claim to fit inside any current Custom Instructions envelope.
-
-A later concrete Runtime compilation must preserve all material E2E semantics and receive full historical regression/readback before promotion.
-
-## 8. Work-control continuity
-
-For any continuation:
-
-```text
-controlling parent Work Object / Intended Outcome
-+ current parent state / gate
-+ active child contribution
-+ allowed operation / mutation authority
-```
-
-A child/local reasoning trajectory, current chat topic, branch, artifact, or latest output must not silently become the root.
-
-Material candidate/accepted/authorized/controlling-state changes are Promotion / State-Transition events and require qualified delta, status, authority, legitimate write path, and readback where applicable.
-
-## 9. Current gate on this candidate branch
-
-**Mode:** STATIC ARCHITECTURE CLOSED → OPERATING REALIZATION + REPRESENTATIVE END-TO-END REAL-USE VALIDATION.
-
-Do not add further conceptual boxes by default.
-
-The next legitimate sequence is:
-
-```text
-Human reviews / accepts this candidate package via PR
-→ preserve static architecture as closed candidate
-→ realize the E2E operating contract in the smallest effective Runtime composition
-→ run actual heterogeneous real work
-→ persist material case evidence outside chat memory
-→ localize any failure at exact transformation / mechanism / runtime layer
-→ repair the lowest responsible layer
-→ reopen static architecture only for a named material trigger
-```
-
-Reopen static architecture only if real use shows, for example:
-
-1. an unowned material transformation;
-2. a required mechanism cannot be realized without semantic distortion;
-3. an unresolved ownership/authority contradiction;
-4. a materially simpler rival satisfies the same requirements with lower burden;
-5. a legitimate requirement/scope materially changes.
-
-## 10. Historical state
-
-Historical bootstrap `Δ4 / Δ5 / Δ6`, earlier architecture/runtime candidates, closed realization branches, and prior evaluation programs remain evidence/provenance unless explicitly promoted within their qualified scope.
-
-Do not infer current program state from historical `Next`, `Gate`, candidate, or acceptance language outside the controlling state path.
+No synthetic behavioral benchmark is required before the next genuine work case; installation/preflight must occur first.
