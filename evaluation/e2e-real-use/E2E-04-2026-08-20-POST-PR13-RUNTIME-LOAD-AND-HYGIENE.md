@@ -51,9 +51,7 @@ quality / outcome effectiveness                NOT ESTABLISHED
 
 This distinction prevents both underclaiming (`not installed` despite current effective load) and overclaiming (session content treated as independent persistent settings evidence).
 
-## 4. Repository hygiene defect observed after Promotion
-
-A bounded post-PR13 audit found:
+## 4. Repository hygiene defects observed after Promotion
 
 ### HYG-01 — stale root navigation
 
@@ -79,56 +77,80 @@ A bounded post-PR13 audit found:
 
 **Impact:** PR #13 could be correctly promoted while material entry points remained contradictory.
 
+### HYG-05 — current package metadata still carries pre-observation transition state
+
+The new Entry-Point Hygiene Scan found that the three **current** action-bearing artifacts still carry pre-current-session status wording:
+
+- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`: `not externally installed`;
+- `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`: `external save/readback not performed`;
+- `E2E-INSTALLATION-BUNDLE-v0.4.md`: `repository promotion candidate; external installation not performed`.
+
+These statements were valid before the current-session effective-load observation but now conflict with the more precise supported state: **effective load observed in this session; independent persistent UI save/readback not separately recorded**.
+
+**Impact:** full action-bearing entry-point coherence is not yet established.
+
+**Authority boundary:** repairing these three current-package files was not included in the Human-authorized points 1–6 for this branch. They were therefore **not modified** during this bounded implementation.
+
 ## 5. Localization
 
-The observed defect is localized to:
+The observed defects are localized to:
 
 > **repository state/navigation/supersession hygiene + Promotion/readback assurance coverage**.
 
 No evidence from this audit establishes a new static architecture gap. The accepted architecture therefore remains closed by default.
 
-## 6. Bounded candidate repair
+## 6. Bounded candidate repair implemented
 
 Authorized candidate scope on branch `repair/post-pr13-repo-hygiene-v0.1`:
 
-1. normalize branch-local `CURRENT.md` to the post-PR13 state;
-2. synchronize root `README.md` to Global v0.5 / Project v0.4 / Bundle v0.4;
-3. add `realization/README.md` current-vs-history navigation;
-4. tombstone Installation Bundles v0.1 and v0.2;
-5. extend the repository Promotion/Readback method with entry-point/supersession hygiene checks;
-6. persist this evidence record.
+1. normalize branch-local `CURRENT.md` to the post-PR13 state — **IMPLEMENTED**;
+2. synchronize root `README.md` to Global v0.5 / Project v0.4 / Bundle v0.4 — **IMPLEMENTED**;
+3. add `realization/README.md` current-vs-history navigation — **IMPLEMENTED**;
+4. tombstone Installation Bundles v0.1 and v0.2 — **IMPLEMENTED**;
+5. extend the repository Promotion/Readback method with entry-point/supersession hygiene checks — **IMPLEMENTED**;
+6. persist this evidence record — **IMPLEMENTED**.
 
-Out of scope:
+Readback confirmed the written branch artifacts. The new hygiene scan then exposed HYG-05 outside the authorized write scope.
+
+Out of scope and not performed:
 
 - architecture/requirements changes;
 - Runtime semantic recompilation;
 - external ChatGPT settings mutation;
 - behavioral acceptance;
 - branch deletion or repository-wide historical cleanup;
+- metadata reconciliation of current Global v0.5 / Project v0.4 / Bundle v0.4;
 - merge/Promotion of this hygiene candidate.
 
-## 7. Supported state after candidate implementation
-
-If branch readback confirms the bounded writes:
+## 7. Assurance verdict
 
 ```text
-post-PR13 root navigation coherence          CANDIDATE PASS
-current-vs-history realization navigation    CANDIDATE PASS
-obsolete Bundle v0.1/v0.2 action safety      CANDIDATE PASS
-promotion-method hygiene coverage             CANDIDATE PASS
-current-session v0.5/v0.4 effective load      OBSERVED BY CONTENT
-persistent UI settings readback               STILL NOT SEPARATELY RECORDED
-runtime behavioral conformance                STILL NOT ESTABLISHED
+points 1–6 implementation                       PASS
+written-file readback                            PASS
+post-PR13 root README coherence                  PASS within written scope
+current-vs-history realization navigation        PASS
+obsolete Bundle v0.1/v0.2 action safety          PASS
+promotion-method hygiene coverage                PASS
+current-session v0.5/v0.4 effective load         OBSERVED BY CONTENT
+full current-package entry-point coherence        FAIL / PENDING HYG-05
+persistent UI settings readback                   NOT SEPARATELY RECORDED
+runtime behavioral conformance                    NOT ESTABLISHED
 ```
+
+The branch is therefore a valid bounded implementation of the authorized points 1–6, but **not yet Promotion-ready as a complete repository-hygiene repair**.
 
 ## 8. Next legitimate transition
 
-After this hygiene candidate is independently read back and, only with separate Human authority, promoted:
+The minimum next frontier is a metadata-only extension of this hygiene candidate to reconcile the three current-package status surfaces with the supported Runtime transition state, without changing either compiled prompt payload.
+
+Required additional Human authorization:
 
 ```text
-record/complete persistent external-settings readback where required
-→ Runtime conformance preflight
-→ first genuine System Development real-work validation
+Allow metadata-only reconciliation of:
+- Global v0.5 current compiled-view status;
+- Project v0.4 current compiled-view status;
+- Installation Bundle v0.4 transition/status wording;
+with no payload recompile, no external settings change and no merge.
 ```
 
-This evidence record does not authorize that Promotion or any external settings change.
+Only after that extension is written and read back can this hygiene candidate return to a repository Promotion gate. Runtime conformance preflight remains downstream.
