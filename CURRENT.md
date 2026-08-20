@@ -1,200 +1,178 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** TARGET CONCEPTUAL BASELINE CANDIDATE v0.2 — PENDING PR ACCEPTANCE  
-**Date:** 2026-08-19  
-**Branch state:** `architecture/target-baseline-v0.2`  
-**Authority boundary:** On this branch, this file controls candidate navigation/state. `main` remains on the merged Bootstrap baseline until this candidate PR is accepted and merged.
+**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + WORKING-SOLUTION OPERATING MODE v0.1  
+**Date:** 2026-08-20  
+**Accepted baseline:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` via merged PR #3  
+**Authority boundary:** This file controls repository development/operating state. It does not claim behavioral superiority or external runtime deployment beyond explicitly observed state.
 
-## 1. Current candidate state
+## 1. Controlling state
 
-The reconstruction has completed the reference/requirements/necessity sequence far enough to propose a conceptual baseline without further architecture expansion.
+The conceptual reconstruction phase is closed by default.
 
-The controlling candidate is derived from:
-
-```text
-Reference Map / Q1–Q8
-+ Qualified Prior / real-use evidence
-→ 11 Concerns
-→ 13 Core Requirements
-→ 7 Conditional Requirements
-→ Requirements Quality Audit
-→ Qualified-architecture mapping
-→ Necessity & Scope Discrimination
-→ Minimal-Rival Discrimination
-→ Target Architecture v0.1
-→ adversarial semantic-regression audit
-→ bounded repairs
-→ Target Architecture v0.2
-```
-
-This is a requirements-derived baseline candidate, not a merge of predecessor architectures.
-
----
-
-## 2. Controlling candidate documents
-
-Use these for the proposed baseline meaning:
-
-1. `CURRENT.md` — candidate state/navigation pointer.
-2. `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` — solution-neutral 11 Concerns / 13 Core Requirements / 7 Conditional Requirements.
-3. `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` — proposed conceptual architecture baseline.
-4. `decisions/ADR-0002-target-conceptual-baseline.md` — exact acceptance/non-claim/reopen boundary.
-5. `architecture/ARCHITECTURE-METHOD.md` — lineage-aware reconstruction/reopen discipline.
-6. `evidence/EVIDENCE-MAP.md` and predecessor/lineage artifacts — evidence and Qualified-Prior status/provenance.
-
-Historical bootstrap/reference/differential artifacts remain evidence but do not override the controlling candidate files above on this branch.
-
----
-
-## 3. Proposed conceptual architecture
-
-Only three structural commitments are required:
+Accepted conceptual commitments:
 
 ```text
 A. DISTINCT RESPONSIBILITIES
    Strategic / Operating / Work / Execution / Learning-Change
-   responsibility distinctions, not mandatory runtime layers
 
 B. DISTRIBUTED TYPED STATE
    authoritative state remains with legitimate owners/stores;
-   working context is composed as needed;
-   integrated DWM-like projection is conditional
+   working context is composed as needed
 
 C. ADAPTIVE WORK-SELECTION CONTRACT
-   for admitted/triggered work only,
-   select the minimum justified next work while preserving
-   current reality, qualified state, requirements, dependency integrity,
-   professional quality, capability/authority/runtime reality,
-   assurance, uncertainty and net value
+   select the minimum justified next work from current reality,
+   intended outcome, requirements, preserved state, dependencies,
+   capability/authority/runtime reality, consequence, uncertainty
+   and economics
 ```
 
-`Responsibility ≠ Actor`: one Human may occupy all five responsibilities; larger systems may distribute them.
+These are responsibilities/contracts, not mandatory runtime layers, agents, stores or stage machines.
 
----
+## 2. Current working-solution strategy
 
-## 4. Required semantic boundaries
-
-The candidate explicitly preserves:
-
-- input/proposed means ≠ complete requirement/outcome;
-- claim-relative scope/boundary;
-- observation/fact ≠ inference/assumption/judgment/forecast/scenario;
-- current authoritative state before consequential redesign;
-- evidence-qualified reuse rather than acceptance/similarity transfer;
-- task-specific professional performance/method/reference;
-- comparative Human/AI/tool/expert/workflow allocation;
-- Human agency plus shared-state legibility where judgment/reliance/action depends on it;
-- capability ≠ access ≠ effective performance ≠ authority ≠ acceptance/accountability;
-- working/context state ≠ authoritative operational state ≠ reusable knowledge;
-- minimum sufficient work without unnecessary reopening;
-- minimum work ≠ material dependency/stage collapse;
-- Internal Gate ≠ Human Gate;
-- professional quality ≠ evidence/assurance about quality;
-- claim-matched, detection-capable assurance with increased real independence when correlated error matters;
-- Work Product ≠ transition ≠ use ≠ outcome ≠ causal effect ≠ value;
-- runtime-context applicability plus semantic preservation through implementation;
-- governed bounded learning/change without silent mutation authority;
-- process/coordination/persistence/optionality only when net value justifies burden.
-
----
-
-## 5. Conditional, not universal structure
-
-The following may be useful but are not mandatory Target-Core objects:
-
-- explicit Work Object;
-- Dynamic Work Model as integrated work-state projection;
-- Work Graph / Work Units for dependency-rich work;
-- B.6 `QUALIFY → DESIGN/COMPOSE → EXECUTE+INTEGRATE → TRANSITION* → CLOSE` as human-readable Professional Work projection;
-- `Semantic Compiler` as a label/implementation of the adaptive Work-Selection Contract;
-- PAOS Entry/Context/Execution/Return surface topology as a Personal-AI operating profile;
-- predecessor eight Views as an architecture-description scheme;
-- predecessor five Control Planes as one grouping of cross-cutting semantics.
-
-None is a required universal subsystem, lifecycle or ontology under this candidate.
-
----
-
-## 6. Qualified Prior status
-
-Qualified predecessors remain closed-but-reopenable evidence/design priors within their accepted scope:
-
-- `AI-native-Operating-Model` v0.2 — strongest accepted whole/persistent-system responsibility architecture and cross-cutting semantics;
-- `human-ai-work-architecture` v1.3.1 — strongest accepted personal-work architecture-description/runtime-context/assurance precision;
-- `PAOS` — minimum-complexity/native-surface counter-design and proportionality baseline;
-- `Human-AI-Work-System` later B.6/Core v0.5 line — strongest current Professional-Work/adaptive-decision/realization candidate plus real-use evidence, with mixed maturity by construct.
-
-The Target candidate retains necessary semantics from these sources without promoting every predecessor packaging choice.
-
----
-
-## 7. Bootstrap/delta sequence status
-
-If ADR-0002 is accepted/merged, the previous controlling sequence:
+For the current Human–AI Work System itself, the selected solution strategy is:
 
 ```text
-Δ4 Adaptive Work-Control
-Δ5 Architecture → runtime semantic compilation
-Δ6 Knowledge Capital ownership/promotion
+KEEP      Target Architecture v0.2
+KEEP      current incumbent Global-CI control until a better carrier is behaviorally proven
+KEEP      domain-owned authoritative state + current tools/connectors
+ADAPT     Work / DESIGN-COMPOSE with explicit Solution Formation
+COMPOSE   qualified reuse + decision/uncertainty + realization/assurance
+DO NOT    introduce a new Solution layer/engine/agent/store by default
 ```
 
-is superseded as the architecture-development program.
+The problem is not lack of architecture. The current operating objective is to turn the accepted control/state architecture into a reliable **problem → working solution** system with less meta-work.
 
-Those records remain historical evidence. This does not declare every individual finding false; it means the independent requirements-derived synthesis has replaced the old delta sequence as controlling state.
+## 3. Minimum operating setup
 
-The closed/unmerged PR #2 remains non-controlling and its retracted Δ4 framing is not a decision basis.
+A working instance requires only:
 
----
+```text
+Human
++ current Global Work-Control CI
++ active Chat / Project context as needed
++ authoritative sources/state when material
++ execution tools/connectors when material
++ readback / verification before strong completion/readiness claims
+```
 
-## 8. Explicit non-claims
+Projects, Skills, agents, Work Graphs, persistent stores and additional documents are conditional realizations. They must earn their burden through actual need/reuse/evidence.
 
-This candidate does **not** establish:
+## 4. Solution Formation — current working method
 
-- behavioral superiority / Human–AI synergy;
-- runtime installation, deployment or conformance;
-- cross-domain empirical generality;
-- a mandatory five-layer runtime;
-- one universal DWM, Work Graph, lifecycle or Semantic Compiler subsystem;
-- mandatory eight Views or Control-Plane modules;
-- a fixed Human-in-the-loop pattern;
-- any particular model/tool/agent/Skill/Project/state-store topology;
-- that architecture acceptance equals intended-use effectiveness, outcome or value.
+Within Work / `DESIGN-COMPOSE`, solution-building work uses this positive mechanism:
 
----
+```text
+1. SOLUTION INTENT
+   Establish what must work in reality, for whom, in which context,
+   with critical constraints and success/failure conditions.
 
-## 9. Acceptance and next gate
+2. RECOVER / RETRIEVE
+   Inspect the current system/solution first and retrieve relevant
+   cases, patterns, reference solutions, building blocks and failures.
 
-### Current gate
+3. CHOOSE SOLUTION STRATEGY
+   Prefer the shallowest viable route:
+   KEEP / USE / CONFIGURE / REUSE / INSTANTIATE / ADAPT /
+   COMPOSE / BUILD / INVENT.
 
-**Baseline formalization / Human acceptance.**
+4. SYNTHESIZE ONLY IF ROUTE IS OPEN
+   If no strong existing route is sufficient, form materially distinct
+   solution concepts by mechanism rather than cosmetic variants.
 
-Merging the candidate PR means only:
+5. ANALYZE + SELECT
+   Eliminate candidates that fail critical requirements or realization
+   feasibility; compare survivors on evidence, performance, cost,
+   complexity, Human burden, risk, uncertainty and commitment.
 
-> `Concerns & Requirements v0.1` plus `Target Architecture v0.2` become the conceptual baseline for subsequent realization work within their explicit scope/non-claims.
+6. DEFINE SUFFICIENTLY
+   Define the selected solution only to the fidelity required for the
+   next legitimate implementation/use step. Architecture/specification
+   are subordinate tools, not default end products.
 
-### Only after merge
+7. INSTANTIATE / BUILD
+   Once sufficiently defined, make a working slice rather than continue
+   meta-work.
 
-The next program is separate:
+8. READBACK / USE / LEARN
+   Verify the actual result in the receiving context where possible;
+   repair observed failure locally; retain reusable knowledge only when
+   future reuse justifies promotion.
+```
 
-> **Architecture → Runtime / Operating Realization**
+## 5. Golden Path
 
-Its task will be to allocate baseline semantics to actual Humans, AI, tools, instructions, state stores, capabilities, Skills/workflows, Projects/contexts and operating mechanisms while preserving semantics and minimizing implementation burden.
+For ordinary solution-building work in this repository:
 
-No runtime build or deployment is authorized by the baseline PR itself.
+```text
+RAW NEED
+→ qualify what must work
+→ recover current reality + existing solution
+→ select KEEP/USE/CONFIGURE/REUSE/ADAPT/COMPOSE/BUILD
+→ open alternatives only if genuinely necessary
+→ select preferred solution
+→ define only enough for implementation
+→ BUILD / CONFIGURE / INSTANTIATE
+→ READBACK / REPRESENTATIVE USE
+→ local repair
+→ retain pattern only when earned
+```
 
----
+Default anti-pattern:
 
-## 10. Reopen rule
+```text
+need
+→ requirements package
+→ architecture package
+→ specification package
+→ evaluation package
+→ eventual implementation
+```
 
-After acceptance, reopen foundational architecture only for a named material trigger:
+unless those artifacts are independently required by the actual solution, interface, risk, authority or assurance boundary.
 
-- changed SoI / intended claim;
-- new external evidence materially contradicting the baseline;
-- repeated/consequential real-use failure not cleanly representable or locally repairable;
-- materially simpler rival with equal requirement coverage and lower burden;
-- implementation/runtime impossibility or systematic semantic loss;
-- unowned requirement / semantic regression / hidden mandatory structure;
-- material responsibility/authority contradiction;
-- newly established legitimate concern/requirement.
+## 6. Work-control continuity
 
-Without a trigger: prefer bounded runtime/method/operating repair over architecture expansion.
+`Next` / continuation means advancing the controlling parent work program, not the newest local reasoning thread.
+
+Before material continuation, preserve enough of:
+
+```text
+parent outcome / Work Object
++ current parent state / gate
++ child contribution
++ allowed operation / authority
+```
+
+A child/local reasoning trajectory does not silently become the root.
+
+Changing accepted/candidate/controlling state or the next gate is a promotion transition and requires a qualified delta, lineage/status/authority and readback.
+
+## 7. Current implementation boundary
+
+The current solution does **not** require a new global runtime, Skill, Project topology or agent system merely to represent Solution Formation.
+
+The present implementation is intentionally conservative:
+
+```text
+accepted Target Architecture
++ incumbent Work-Control runtime
++ this repository's controlling operating state
++ Solution Formation as the active working method
+```
+
+Carrier changes are a separate realization decision and require behavioral transfer evidence.
+
+## 8. Current gate
+
+**Mode:** OPERATE / REALIZE, not standalone architecture exploration.
+
+The next legitimate work is the next real work problem itself. For system-building work, use the Golden Path above and observe whether it produces a usable working solution faster and with less meta-work while preserving state, authority, professional quality and assurance.
+
+Reopen foundational architecture only for a named material trigger from the accepted Target Architecture v0.2 reopen rules.
+
+## 9. Historical state
+
+The earlier bootstrap `Δ4 / Δ5 / Δ6` sequence and PR #2's A/B/C Δ4 attempt are historical/non-controlling. PR #4 realization work was closed unmerged; its incumbent-first audit remains useful evidence, but it does not override `main` by itself.
+
+Use Git history and the accepted Target Architecture/requirements/evidence records for lineage. Do not infer current program state from historical artifact `Next` sections.
