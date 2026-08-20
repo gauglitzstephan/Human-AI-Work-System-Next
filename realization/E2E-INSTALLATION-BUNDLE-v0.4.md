@@ -5,9 +5,18 @@
 
 ## 1. Promotion boundary
 
-Use this bundle only after PR #13 is explicitly reviewed and merged.
+Use this bundle only after PR #13 is explicitly reviewed and merged **and** post-merge readback of `main/CURRENT.md` shows:
 
-Repository promotion and external ChatGPT installation are separate transitions.
+```text
+PR #13 repository Promotion = COMPLETE
+external Global + Project installation/readback = NEXT HUMAN TRANSITION
+```
+
+Repository promotion and external ChatGPT installation are separate transitions. Squash Merge of PR #13 does **not** authorize or establish external settings changes.
+
+Promotion-state evidence:
+
+- `reviews/E2E-PROMOTION-STATE-HANDOFF-READBACK-v0.1.md`
 
 ## 2. Global Custom Instructions
 
@@ -106,7 +115,7 @@ At material interaction boundaries, the Human-facing Control Return must expose 
 
 ## 6. Human external installation sequence
 
-After repository promotion:
+Only after the promotion-state readback in §1 and a separate Human authorization for external installation:
 
 ```text
 A. replace live Global CI with exact Global v0.5 payload
