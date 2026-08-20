@@ -60,7 +60,12 @@ The persistent control state is represented by a machine-readable **Work-Control
 
 For a material continuation, the next-work selector receives the Work-Control Record plus freshly retrieved runtime state. It may select only work compatible with the current transaction status and `allowed_operation`.
 
-If the record conflicts with authoritative runtime state, the only admissible next work is conflict recovery. A plausible continuation is not admissible.
+If the record conflicts with authoritative runtime state, first determine whether the conflict is **material to the contemplated transition**.
+
+- If material: state-changing execution/promotion in the affected scope is blocked; conflict recovery or re-authorization is the admissible frontier.
+- If not material: explicitly bounded analysis, evidence gathering or isolated candidate work may proceed when it cannot mutate/promote the disputed state and has legitimate authorization.
+
+A plausible interpretation of the conflict is never a substitute for this discrimination.
 
 ---
 
@@ -121,7 +126,7 @@ Establish from authoritative sources:
 
 **Output state:** `RECOVERED` or `CONTROL_CONFLICT`.
 
-If evidence conflicts, do not pick the most plausible interpretation. Record the conflict and stop state-dependent design or execution until it is resolved.
+For each conflict, determine its affected scope. If it materially changes the legality, parent binding, authority, base state or success claim of the contemplated transition, block that transition until recovery/re-authorization. Unaffected isolated work may continue only when explicitly bounded and unable to promote/mutate the disputed state.
 
 ### T1 — PROPOSE
 
@@ -163,7 +168,7 @@ Execution must begin from the exact authorized base state.
 Rules:
 
 1. re-read the base ref immediately before mutation when drift is possible;
-2. if base SHA/state differs materially, return to `CONTROL_CONFLICT` or re-authorization;
+2. if base SHA/state differs materially for the authorized operation, return to `CONTROL_CONFLICT` or re-authorization;
 3. mutate only the authorized delta;
 4. do not perform opportunistic redesign/cleanup;
 5. preserve execution evidence and actual returned state.
@@ -212,7 +217,7 @@ After promotion:
 3. update the Work-Control Record parent state;
 4. close the transition or bind the next legitimate transition.
 
-If the pointer/document disagrees with the promotion event or actual system state, record `CONTROL_CONFLICT`; do not manufacture closure.
+If a pointer/document disagrees with the promotion event or actual system state, record `CONTROL_CONFLICT`; do not manufacture closure.
 
 ---
 
@@ -246,7 +251,7 @@ Useful, but **not hard enforcement**: the same model can fail to activate or fol
 
 ### L1 — Tool-backed read/write discipline
 
-Before state-dependent reasoning or mutation, the runtime retrieves the Work-Control Record plus actual system state through tools. Writes are permitted only when the record is `AUTHORIZED` and the requested operation is within scope.
+Before state-dependent reasoning or mutation, the runtime retrieves the Work-Control Record plus actual system state through tools. Writes are permitted only when the record and authoritative state support the operation and the requested operation is within authorized scope.
 
 This materially reduces reliance on conversational memory.
 
@@ -257,6 +262,7 @@ An external orchestrator/wrapper enforces:
 - mandatory state load;
 - base-version/SHA precondition;
 - status transition legality;
+- conflict-scope discrimination;
 - allowed-operation scope;
 - write authorization;
 - verification requirements;
@@ -315,7 +321,7 @@ This profile should not become controlling merely because it is conceptually nea
 Before promotion, establish at least:
 
 1. **Continuation test:** a stale/historical `next` instruction cannot override the bound parent/gate.
-2. **State-conflict test:** conflicting `CURRENT.md` versus actual acceptance/merge state yields `CONTROL_CONFLICT`, not a guessed state.
+2. **State-conflict test:** conflicting `CURRENT.md` versus actual acceptance/merge state yields a typed conflict and blocks only affected transitions rather than either guessing or freezing unrelated work.
 3. **Unauthorized-write test:** a proposed change cannot execute before explicit authorization.
 4. **Scope test:** execution cannot silently expand beyond the authorized delta.
 5. **Promotion test:** branch/file existence cannot become accepted state without the real promotion event.
