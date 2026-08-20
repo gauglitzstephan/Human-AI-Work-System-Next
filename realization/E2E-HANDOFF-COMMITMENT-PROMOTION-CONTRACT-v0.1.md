@@ -2,49 +2,39 @@
 
 **Status:** CANDIDATE — first-class Runtime control contract; no external installation.  
 **Date:** 2026-08-20  
-**Basis:** merged E2E architecture + E2E Operating Runtime Contract + qualified Orchestration Model v0.5 + Surface Allocation v0.1.
+**Basis:** merged E2E architecture + E2E Operating Runtime Contract + qualified Orchestration Model v0.5 + Surface Allocation v0.1 + observed Human-facing control-return failure.
 
 ## 1. Purpose
 
-Make four historically conflated controls executable and keep them distinct:
+Keep historically conflated controls executable and distinct:
 
 ```text
 Commitment
 ≠ Authorization
 ≠ Handoff
+≠ Provider Return / Rebind
+≠ Human-facing Control Return
 ≠ Promotion / State Transition
 ```
-
-A fifth mechanism, **Return / Rebind**, closes the responsibility/environment loop after a Handoff.
 
 These are Control Operators / Boundary Contracts. They are not Work Functions, professional Methods, provider Capabilities or product Surfaces.
 
 ## 2. Control sequence
 
-A consequential multi-surface route can require:
+A consequential route can require:
 
 ```text
 DECISION-READY CANDIDATE
-        ↓
-DECISION
-        ↓
-COMMITMENT
-        ↓
-SELECTED / COMMITTED WORK BASIS
-        ↓
-AUTHORIZATION
-        ↓
-HANDOFF / DISPATCH if responsibility or environment changes
-        ↓
-EXECUTION + INTEGRATION
-        ↓
-RETURN CONTRACT
-        ↓
-QUALIFIED RESULT / READINESS
-        ↓
-ACCEPT / AUTHORIZE / PROMOTE as applicable
-        ↓
-TRANSITION / USE
+→ DECISION
+→ COMMITMENT / WORK BASIS
+→ AUTHORIZATION
+→ HANDOFF if responsibility/environment changes
+→ EXECUTION + INTEGRATION
+→ PROVIDER RETURN
+→ PARENT REBIND / QUALIFICATION
+→ HUMAN-FACING CONTROL RETURN
+→ ACCEPT / AUTHORIZE / PROMOTE as applicable
+→ TRANSITION / USE
 ```
 
 Not every bounded task activates every control.
@@ -56,8 +46,6 @@ Not every bounded task activates every control.
 > How far are we choosing and activating this route now, given evidence, uncertainty, downside, information value and option value?
 
 ### 3.2 Commitment modes
-
-Local vocabulary may vary; preserve the semantic distinction among:
 
 ```text
 WAIT
@@ -124,13 +112,7 @@ Technical ability is not authorization.
 
 ### 5.1 Trigger
 
-Compile a Handoff Contract when **active responsibility or execution environment materially changes**, including dispatch to:
-
-- Work;
-- Codex;
-- Human/specialist;
-- external execution environment;
-- another agent/workflow where context is not safely implicit.
+Compile a Handoff Contract when **active responsibility or execution environment materially changes**, including dispatch to Work, Codex, Human/specialist, external execution environments, or another agent/workflow where context is not safely implicit.
 
 A trivial internal tool call inside an already-bounded frontier does not require ceremony if the necessary state remains intact.
 
@@ -166,11 +148,11 @@ Handoff ≠ promotion
 
 The receiving provider owns only the bounded frontier and authority explicitly transferred.
 
-## 6. Return Contract
+## 6. Provider Return Contract
 
-Every material Handoff must define how control returns.
+Every material Handoff must define how provider responsibility returns.
 
-Return:
+Provider Return:
 
 ```text
 Work actually performed
@@ -188,7 +170,7 @@ Human contribution / new authority required
 Recommended next frontier
 ```
 
-On return:
+On Provider Return:
 
 ```text
 RECEIVE
@@ -196,27 +178,58 @@ RECEIVE
 → REBIND parent Work Object/state/gate
 → INTEGRATE child result
 → QUALIFY exact parent state
-→ choose next frontier
+→ choose next legitimate frontier
 ```
 
 No child/provider result self-promotes to parent completion.
 
-## 7. Human Gate Contract
+## 7. Human-facing Control Return Contract
 
-### 7.1 Trigger
-
-A Human Gate exists only when a material transition cannot legitimately/effectively occur without Human-exclusive:
+Provider Return and Human-facing Control Return solve different boundaries:
 
 ```text
-truth / context
-values / judgment
-expertise
-authorship / learning
-acceptance / responsibility
-authority / commitment
+Provider Return
+= execution/responsibility state returned to Controller
+
+Human-facing Control Return
+= qualified controlling state returned to Human interaction
 ```
 
-### 7.2 Required Gate object
+At each material interaction boundary expose the minimum useful subset of:
+
+```text
+Achieved result / exact qualified state
+Persistence state / requirement
+Promotion state / requirement
+Next legitimate frontier
+Next actor
+Exact Human contribution, if any
+Disposition:
+  CLOSE
+  CONTINUE
+  HUMAN GATE
+  PROMOTION GATE
+  HANDOFF
+  WAIT
+  MONITOR
+```
+
+Rules:
+
+- if Human action is required, state the exact decision/acceptance/authorization/commitment/action and WAIT where it blocks downstream work;
+- if no Human action is required, do not manufacture a question;
+- persistence does not imply Promotion;
+- `Next` does not imply acceptance, Promotion, authorization, persistence, scope change or new commitment;
+- before `Next` crosses a material Work Unit/Gate/state/surface boundary, integrate and qualify the current delta first;
+- obvious one-shot answers may collapse to an implicit/brief CLOSE.
+
+## 8. Human Gate Contract
+
+### 8.1 Trigger
+
+A Human Gate exists only when a material transition cannot legitimately/effectively occur without Human-exclusive truth/context, values/judgment, expertise, authorship/learning, acceptance/responsibility, authority or commitment.
+
+### 8.2 Required Gate object
 
 ```text
 Blocked transition
@@ -231,13 +244,13 @@ Re-entry condition
 
 Human Gate is not a generic review request.
 
-## 8. Promotion / State-Transition Contract
+## 9. Promotion / State-Transition Contract
 
-### 8.1 Question
+### 9.1 Question
 
 > May this working/candidate state acquire a stronger semantic or controlling status?
 
-### 8.2 Required promotion state
+### 9.2 Required promotion state
 
 ```text
 Source / controlling baseline
@@ -262,70 +275,46 @@ Possible target status includes selected, accepted, authorized, controlling, rel
 
 Never default target status to generic `authoritative`.
 
-## 9. Interaction with Chat / Work / Codex
+## 10. Interaction with Chat / Work / Codex
 
 ### Chat
 
-Default control surface for:
-
-- Decision and Commitment discussion;
-- Human Gate;
-- Handoff compilation;
-- Return reconciliation;
-- acceptance/authorization/promotion interaction;
-- bounded execution where no handoff is needed.
+Default control surface for Decision/Commitment discussion, Human Gate, Handoff compilation, Provider Return reconciliation, Human-facing Control Return, acceptance/authorization/promotion interaction, and bounded execution where no Handoff is needed.
 
 ### Work
 
-Receives a bounded Handoff Contract for long multi-step frontiers.
-
-Work may internally perform research/analysis/creation/tool use within its authority, but must return/wait before crossing a blocked:
-
-```text
-new commitment boundary
-Human Gate
-new external action authorization
-acceptance/release boundary
-promotion / controlling-state write
-```
-
-unless that authority was explicitly delegated.
+Receives a bounded Handoff Contract for long multi-step frontiers. Work may internally perform research/analysis/creation/tool use within its authority, but must return/wait before crossing a blocked new commitment, Human Gate, external-action Authorization, acceptance/release boundary, or Promotion/controlling-state write unless that authority was explicitly delegated.
 
 ### Codex
 
-Same contract semantics, specialized for repository/software work.
+Same contract semantics, specialized for repository/software work. A Codex change/branch/commit does not imply acceptance/merge/promotion.
 
-A Codex change/branch/commit does not imply acceptance/merge/promotion.
-
-## 10. Example — System Development Runtime repair
+## 11. Example — System Development Runtime repair
 
 ```text
 Parent outcome:
 repair E2E Runtime deployment fidelity without reopening static architecture.
 
-Decision:
-separate Work Function / Method / Provider / Surface / Control Operator semantics.
-
 Commitment:
 STAGED — repair deployment model and compile candidate; do not externally install yet.
 
 Authorization:
-AI may create candidate branch/files/PR; may not merge or change external ChatGPT settings without Human authority.
+AI may update the authorized PR branch/package and verification records; may not merge or change external ChatGPT settings without Human authority.
 
-Handoff to Codex/Work if used:
-exact repo frontier + requirements + method + allowed writes + return condition.
-
-Return:
+Provider Return:
 files/commits + regression result + unresolved product constraints.
 
+Control Return:
+qualified PR state + remaining dependencies + exact next actor/action.
+
 Promotion:
-Human reviews candidate PR; merge promotes repo Runtime program only.
+Human-authorized merge promotes repository Runtime program only.
 
 External installation:
-separate Human-authorized transition after exact payload/readback.
+separate Human-authorized transition after merge.
 ```
 
-## 11. Failure modes this contract prevents
+## 12. Failure modes this contract prevents
 
 - **Handoff amnesia** — state/decision/authority lost between Chat/Work/Codex;
 - **Approval collapse** — Human review asked after downstream execution already crossed the gate;
@@ -333,10 +322,11 @@ separate Human-authorized transition after exact payload/readback.
 - **Promotion collapse** — generated artifact/branch/write treated as accepted/controlling;
 - **Authorization collapse** — technical capability mistaken for permission;
 - **Child-root drift** — receiving Work/Codex frontier silently becomes controlling parent;
-- **Return ambiguity** — plausible output returned without exact supported state/claim.
+- **Provider-return ambiguity** — plausible provider output returned without exact supported state/claim;
+- **Control-return ambiguity** — Human must reconstruct whether work is done, what is controlling, whether `Next` is safe, whether persistence/Promotion is intended, or what exact response is required.
 
-## 12. Deployment requirement
+## 13. Deployment requirement
 
-A new Global/Project Runtime compilation cannot receive deployment PASS unless its controller explicitly invokes these contracts when their triggers occur, or binds to an equally enforceable mechanism.
+A new Global/Project Runtime compilation cannot receive deployment PASS unless its controller invokes these contracts when their triggers occur, or binds to an equally enforceable mechanism.
 
 `Contract documented somewhere in repo` is not sufficient.
