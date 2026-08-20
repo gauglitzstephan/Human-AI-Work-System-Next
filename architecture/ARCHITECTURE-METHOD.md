@@ -1,6 +1,7 @@
 # Architecture Method v0.3
 
-**Status:** ACTIVE METHOD / POST-BASELINE REOPEN DISCIPLINE
+**Status:** POST-BASELINE REOPEN-DISCIPLINE REPAIR CANDIDATE  
+**Promotion boundary:** this v0.3 revision closure-syncs the method to the factual PR #3 acceptance state; it does not become the `main` method until this repair is legitimately accepted/merged.
 
 ## Purpose
 
@@ -268,11 +269,11 @@ B.6 macro projection                           OPTIONAL HUMAN-READABLE PROJECTIO
 
 ---
 
-## 11. Post-acceptance architecture gate
+## 11. Candidate post-acceptance architecture gate
 
-Target Architecture v0.2 was accepted through PR #3. The pre-acceptance architecture-freeze gate has therefore been passed for that baseline and is no longer the current development gate.
+If this method repair is promoted, the pre-acceptance architecture-freeze gate is recorded as passed for Target Architecture v0.2 and is no longer treated as the current development gate.
 
-Current rule:
+Post-acceptance rule:
 
 > **Do not reopen foundational architecture while Architecture → Runtime / Operating Realization can represent and repair the observed problem within the accepted semantics.**
 
