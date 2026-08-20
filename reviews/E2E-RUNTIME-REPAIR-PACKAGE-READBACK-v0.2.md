@@ -110,9 +110,11 @@ Current bundle:
 
 - `realization/E2E-INSTALLATION-BUNDLE-v0.4.md`
 
-It references only the current Global v0.5 / Project v0.4 pair plus current Method and boundary mechanisms. Earlier install bundles are superseded for installation.
+The bundle now explicitly requires post-merge `main/CURRENT.md` readback showing PR #13 Promotion COMPLETE before any external installation, and requires separate Human authority for external settings changes. It references only the current Global v0.5 / Project v0.4 pair plus current Method and boundary mechanisms. Earlier install bundles are superseded for installation.
 
 External save/readback remains **NOT PERFORMED**.
+
+**Verdict:** PASS for package coherence after the promotion-state repair.
 
 ## 8. Claim boundary
 
