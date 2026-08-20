@@ -1,0 +1,101 @@
+{
+  "control_version": "0.1",
+  "record_status": "CANDIDATE_NON_CONTROLLING",
+  "system": {
+    "repository": "gauglitzstephan/Human-AI-Work-System-Next",
+    "system_of_interest": "Human-AI Work System runtime/operating realization",
+    "record_purpose": "Persist the minimum control state required to bind consequential continuation and mutation to the correct parent, authority, base state, allowed delta, verification, and promotion event."
+  },
+  "runtime_readback": {
+    "default_branch": "main",
+    "main_head": "28466121d6efabbdd12726fd6d9e5d7802780ecc",
+    "observed_at": "2026-08-20T08:36:00+02:00",
+    "source": "GitHub connector readback"
+  },
+  "controlling_baseline": {
+    "candidate_files": [
+      "foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md",
+      "architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md",
+      "decisions/ADR-0002-target-conceptual-baseline.md"
+    ],
+    "acceptance_event": {
+      "type": "pull_request_merge",
+      "pull_request": 3,
+      "merged": true,
+      "merged_at": "2026-08-19T20:17:22Z",
+      "merge_commit_sha": "0b2dc8f3d369cc5d0e5c8ec502449ccf11c7464e"
+    },
+    "acceptance_semantics": "ADR-0002 and PR #3 define merge as acceptance of Requirements v0.1 and Target Architecture v0.2 within their explicit claim boundary.",
+    "current_pointer": {
+      "path": "CURRENT.md",
+      "blob_sha": "a37f70066db844095526a99c34ac67c91f36a62a",
+      "claim": "TARGET CONCEPTUAL BASELINE CANDIDATE v0.2 — PENDING PR ACCEPTANCE",
+      "consistency": "CONFLICT"
+    },
+    "control_status": "CONTROL_CONFLICT",
+    "conflict_rule": "Do not infer acceptance state from the stale pointer when the explicit acceptance event is observable; repair pointer consistency before any promotion that depends on CURRENT.md as controlling navigation."
+  },
+  "active_program": {
+    "name": "Architecture → Runtime / Operating Realization",
+    "basis": "ADR-0002 consequence after acceptance of Target Architecture v0.2",
+    "status": "PROGRAM_BASIS_SUPPORTED_BY_ACCEPTANCE_EVENT_POINTER_STALE",
+    "parent_outcome": "Realize accepted architecture semantics in actual Human/AI/tools/state/instructions/workflows without material semantic loss or unjustified complexity."
+  },
+  "active_transition": {
+    "id": "STC-001",
+    "name": "State-Transition Control realization candidate",
+    "status": "EXECUTED",
+    "parent_ref": "Target Architecture v0.2 → Architecture / Runtime / Operating Realization",
+    "parent_state": "Conceptual baseline accepted by PR #3 merge; repository navigation pointer currently inconsistent with that event.",
+    "next_claim_or_transition": "Determine whether a persistent transaction record plus runtime transition contract materially prevents continuation, state-authority, unauthorized-mutation, false-promotion, and stale-pointer failures at acceptable coordination cost.",
+    "allowed_operation": "Create isolated candidate realization artifacts on a dedicated branch. Do not mutate main, rewrite Custom Instructions, change Projects, install Skills/agents, alter deployment, merge, or promote controlling state.",
+    "proposed_delta": [
+      "realization/STATE-TRANSITION-CONTROL-PROFILE-v0.1.md",
+      "realization/WORK-CONTROL-RECORD-v0.1.json"
+    ],
+    "protected_state": [
+      "Target Architecture v0.2 conceptual semantics",
+      "ADR-0002 acceptance and reopen boundary",
+      "existing qualified runtime predecessor evidence",
+      "current Custom Instructions / runtime incumbent",
+      "main branch"
+    ],
+    "authority": {
+      "decision_owner": "Human repository owner",
+      "execution_authorization": "Explicit user instruction in the originating ChatGPT conversation to build this mechanism",
+      "authorization_persistence": "NOT_INDEPENDENTLY_RECORDED_OUTSIDE_ORIGINATING_CONVERSATION",
+      "promotion_authority": "Human repository owner"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "28466121d6efabbdd12726fd6d9e5d7802780ecc"
+    },
+    "working_branch": "realization/state-transition-control-v0.1",
+    "verification_required": [
+      "Read back both candidate artifacts from the working branch",
+      "Check that the profile adds no new top-level architecture object or mandatory universal lifecycle",
+      "Run the eight candidate acceptance tests defined in STATE-TRANSITION-CONTROL-PROFILE-v0.1.md",
+      "Check that simple non-mutating work collapses without transaction ceremony",
+      "Check that the mechanism reduces Human correction/recovery burden versus incumbent instruction-only behavior",
+      "Resolve or explicitly disposition the CURRENT.md / PR #3 acceptance conflict before any promotion"
+    ],
+    "promotion_event": null,
+    "promotion_blocked": true,
+    "promotion_block_reason": "Candidate is unverified and the repository controlling pointer conflicts with the explicit PR #3 acceptance event."
+  },
+  "conflicts": [
+    {
+      "id": "CF-001",
+      "type": "CONTROL_POINTER_VS_ACCEPTANCE_EVENT",
+      "observation": "PR #3 is merged, while CURRENT.md on main still states that the same baseline is pending PR acceptance.",
+      "impact": "Repository navigation/control state is internally inconsistent.",
+      "allowed_response": "Recover and repair/disposition the control-state inconsistency before promotion; do not use conversational plausibility to choose a state."
+    }
+  ],
+  "learning_refs": [
+    "reviews/DELTA-04-EVIDENCE-CORRECTION-v0.1.md on retracted PR #2 branch",
+    "closed/unmerged PR #4 realization failure evidence",
+    "Human-AI-Work-System/evaluation/s-payment-create-room-real-use-result-v0.1.md",
+    "Human-AI-Work-System/evaluation/architecture-falsification-audit-v0.1.md"
+  ]
+}
