@@ -6,21 +6,9 @@
 **Current candidate branch:** `runtime/e2e-migration-v0.1`  
 **Authority boundary:** `main` controls the accepted repository program. This branch contains the reviewed runtime-migration/install package only. External ChatGPT installation and behavioral effectiveness remain separate evidence.
 
-## 1. Controlling program
+## Controlling program
 
-Static architecture work is closed by default at the current evidence/reference horizon:
-
-```text
-CR-01–13                         PASS
-CCR-01–07                        PASS / conditional-owned
-Historical Failure Families      OWNED
-Spine transition contracts       COMPLETE
-Label-only critical mechanisms   NONE FOUND
-Boundary reification             NONE REQUIRED
-Unowned material transformation  NONE FOUND
-```
-
-Current program:
+Static architecture is closed by default. Current program:
 
 ```text
 STATIC E2E PACKAGE ON MAIN
@@ -34,46 +22,15 @@ STATIC E2E PACKAGE ON MAIN
 → persist evidence outside chat history
 ```
 
-Do not reopen static architecture absent a named material trigger.
+## Global rollback / candidate
 
-## 2. Exact current live Global CI — rollback control
+Exact pre-E2E live Global CI is persisted in `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT.txt` with metadata. Current installation candidate is `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.2.md`; v0.1 is superseded / do not install. External installation: **NOT PERFORMED**.
 
-Human-supplied pre-E2E Global Custom Instructions are persisted as:
+## First Project
 
-- `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT.txt`
-- `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT-METADATA.md`
+Selected: **System Weiterentwicklung Projekt** / `gauglitzstephan/Human-AI-Work-System-Next`.
 
-Identity:
-
-```text
-LF characters:     4,984
-CRLF characters:   4,997
-SHA-256 UTF-8 LF:  c45fe172cd39dfc4295042963e97bf1617244a206be1709839dbf5d11b1ac1bc
-```
-
-## 3. New Global E2E kernel
-
-Current installation candidate:
-
-- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.2.md`
-- `reviews/E2E-GLOBAL-KERNEL-STATIC-REGRESSION-REVIEW-v0.2.md`
-- `reviews/E2E-KERNEL-LIVE-CONTROL-AND-SIX-PRIMITIVE-REVIEW-v0.1.md`
-
-v0.1 is superseded / do not install.
-
-External installation: **NOT PERFORMED**.
-
-## 4. First real Project migration
-
-Selected:
-
-```text
-System Weiterentwicklung Projekt
-Authoritative repository/program source:
-https://github.com/gauglitzstephan/Human-AI-Work-System-Next
-```
-
-Pre-E2E ChatGPT Project Instructions were Human-confirmed:
+Human-confirmed pre-E2E Project Instructions:
 
 ```text
 NONE
@@ -83,31 +40,17 @@ Rollback:
 - `realization/rollback/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-PRE-E2E.txt`
 - `realization/rollback/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-PRE-E2E-METADATA.md`
 
-Current Project installation candidate:
+Project installation candidate:
 - `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.1.md`
-- static review: `reviews/E2E-FIRST-PROJECT-INSTRUCTIONS-STATIC-REVIEW-v0.1.md`
+- review: `reviews/E2E-FIRST-PROJECT-INSTRUCTIONS-STATIC-REVIEW-v0.1.md`
 
 External Project installation: **NOT PERFORMED**.
 
-## 5. Surface allocation
-
-- `realization/E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md`
-
-Defaults:
-
-```text
-Chat  → interactive control/decision + bounded work
-Work  → longer multi-step frontiers / finished deliverables
-Codex → software/repository technical work
-Apps/tools → authoritative retrieval / external execution / deterministic capability
-```
-
-These are runtime defaults, not architecture stages. Surface choice is recompiled per next legitimate frontier.
-
-## 6. Installation package
+## Installation package
 
 - `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.3.md`
 - `realization/E2E-INSTALLATION-BUNDLE-v0.1.md`
+- `realization/E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md`
 
 State:
 
@@ -124,11 +67,9 @@ I8 installation/readback conformance preflight     PENDING
 I9 first actual E2E real-work case                 PENDING
 ```
 
-## 7. Next legitimate gate
+## Next legitimate gate
 
 **Mode:** RUNTIME MIGRATION PACKAGE READY → HUMAN PROMOTION / INSTALLATION.
-
-Next legitimate sequence:
 
 ```text
 Human reviews/merges PR #12
