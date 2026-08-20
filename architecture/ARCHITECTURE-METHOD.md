@@ -1,14 +1,16 @@
-# Architecture Method v0.2
+# Architecture Method v0.3
 
-**Status:** BOOTSTRAP METHOD / LINEAGE-CORRECTED
+**Status:** ACTIVE METHOD / POST-BASELINE REOPEN DISCIPLINE
 
 ## Purpose
 
-Define how references, qualified prior designs and internal evidence become architecture without collapsing different architectural dimensions into one hierarchy or repeatedly rediscovering already-developed mechanisms.
+Define how references, qualified prior designs and internal evidence become architecture — and, after architecture acceptance, how architecture may be reopened without collapsing different architectural dimensions, rediscovering qualified prior mechanisms or confusing realization problems with architecture problems.
 
 ## Core rule
 
 > Architecture is derived from qualified concerns and requirements; it is not assembled by collecting attractive concepts or by forgetting prior qualified design work.
+
+After acceptance, architecture is **closed by default**. Runtime/operating failures are repaired at the narrowest supported level unless a named architecture reopen trigger is established.
 
 ---
 
@@ -25,15 +27,15 @@ Define how references, qualified prior designs and internal evidence become arch
 - **Mechanism:** a causal or functional means that may satisfy one or more requirements.
 - **Component / subsystem:** a structural realization decision, not a synonym for a capability or concern.
 - **Capability:** an ability required or available, independent of its eventual realization.
-- **Runtime realization:** concrete models, instructions, skills, tools, code, state, and interfaces.
-- **Evaluation / assurance:** evidence used to judge architecture or runtime claims.
+- **Runtime realization:** concrete models, instructions, skills, tools, code, state, actors and interfaces.
+- **Evaluation / assurance:** evidence used to judge architecture, realization or runtime claims.
 - **Qualified Prior Design:** a prior bounded architecture/design decision with explicit scope, reference basis, review/falsification and human acceptance sufficient to change the burden of proof for reopening.
 
 ---
 
-## 2. Derivation and reconciliation flow
+## 2. Derivation, realization and selective reopen flow
 
-The reconstruction is **not clean-room discovery**. It is lineage-aware reconstruction.
+The repository is **not clean-room discovery**. It is lineage-aware reconstruction followed by evidence-grounded realization.
 
 ```text
 Problem / mission / operational context
@@ -52,18 +54,24 @@ Problem / mission / operational context
                  ↓
      conceptual architecture alternatives
                  ↓
-       viewpoints and architecture views
+       cross-view / cross-concern integration
                  ↓
-          cross-view integration
-                 ↓
-         architecture decisions
+         architecture decision
                  ↓
        evaluation / falsification
                  ↓
-          runtime realization
+     accepted conceptual architecture
+                 ↓
+       runtime / operating realization
+                 ↓
+ behavioral + implementation evaluation
+                 ↓
+ local repair / capability or operating promotion
+                 ↓
+ architecture reopen only if a named trigger exists
 ```
 
-If no material reopen trigger exists for an accepted prior design, the default operation is **recover and provisionally retain**, not re-derive.
+If no material reopen trigger exists for an accepted prior or the accepted Target Architecture, the default operation is **recover and preserve**, not re-derive.
 
 ---
 
@@ -78,7 +86,7 @@ A prior design may be treated as a `Qualified Prior` when its evidence package i
 5. human acceptance / canonical or bounded accepted status;
 6. known limitations and reopen conditions.
 
-A Qualified Prior is **not external truth** and does not automatically transfer to a changed SoI. It creates a **burden-of-proof asymmetry**:
+A Qualified Prior is **not external truth** and does not automatically transfer to a changed SoI. It creates a burden-of-proof asymmetry:
 
 ```text
 accepted qualified prior
@@ -102,24 +110,30 @@ Reopen a qualified prior only when at least one applies:
 6. implementation/runtime reality makes the prior infeasible for intended use;
 7. audit shows the prior was not actually qualified for the claim being inherited.
 
-Every reopened question should record the trigger and the exact prior claim being challenged.
+For Target Architecture v0.2, use the explicit ADR-0002 reopen triggers. Every reopened architecture question should record the trigger and the exact accepted claim being challenged.
 
 ---
 
 ## 4. Reference-to-architecture rule
 
-A construct found in a standard, paper, framework, or production system is not promoted directly. For each candidate:
+A construct found in a standard, paper, framework, or production system is not promoted directly. For each architecture candidate:
 
 1. identify the concern it addresses;
 2. understand the proposed mechanism;
 3. record evidence and scope;
 4. test transferability to our operating context;
 5. identify competing or simpler mechanisms;
-6. check whether a qualified predecessor already resolved the same problem and why;
-7. decide whether it belongs in architecture, a capability, a method, runtime, evaluation, or knowledge only;
+6. check whether a qualified predecessor or accepted baseline already resolves the same problem and why;
+7. decide whether it belongs in architecture, a capability, a method, runtime/operating realization, evaluation, or knowledge only;
 8. require enough benefit to justify the complexity it introduces.
 
-Reference research should preferentially discriminate **open conflicts or reopen triggers**, not re-establish every already-supported premise.
+After Target Architecture acceptance, reference research should preferentially discriminate:
+
+- a named architecture reopen trigger;
+- a material realization alternative;
+- an implementation/evaluation uncertainty that can change the realization decision.
+
+Do not reopen architecture merely because a new framework or product feature exists.
 
 ---
 
@@ -138,11 +152,25 @@ raw observation
 ≠ external validation
 ```
 
+For post-acceptance failures, localize the first invalid transition or mechanism where possible:
+
+```text
+architecture requirement/semantic gap?
+runtime / operating realization gap?
+carrier / activation failure?
+execution / permission / state failure?
+professional-method / artifact-quality failure?
+assurance / evaluation failure?
+authority / promotion failure?
+```
+
+Only architecture-level evidence opens architecture-level work.
+
 ---
 
 ## 6. Viewpoint discipline
 
-Do not force different dimensions into one tree. Candidate viewpoints may eventually include:
+Do not force different dimensions into one tree. Useful architecture-description viewpoints may include:
 
 - context / boundary;
 - functional / control;
@@ -154,7 +182,7 @@ Do not force different dimensions into one tree. Candidate viewpoints may eventu
 - runtime / realization;
 - economics / resource allocation.
 
-This list is provisional. A viewpoint earns existence only if it addresses a material concern not adequately represented elsewhere.
+Target Architecture v0.2 does not require one mandatory final viewpoint set. A viewpoint earns use only if it addresses a material concern not adequately represented elsewhere.
 
 A single entity may appear in several views without becoming several entities. Identity and semantics must survive cross-view integration.
 
@@ -166,17 +194,17 @@ Before a material architectural commitment, compare credible alternatives where 
 
 But do not manufacture a new alternative space when prior work already compared and accepted alternatives. First recover the prior comparison and ask whether a reopen trigger exists.
 
-Examples of genuine live alternatives may include:
+Examples of alternatives that may be relevant at the appropriate level include:
 
-- broad sociotechnical SoI vs nested engineered SoI for a specific claim;
-- distinct Work Engine subsystem vs distributed work-control policy;
+- broad sociotechnical SoI vs narrower technical subsystem for a specific claim;
+- distributed adaptive work-selection policy vs an explicit controller implementation;
 - global persistent state vs domain-owned authoritative state plus derived working context;
 - one adaptive model vs orchestrated specialized agents;
 - global invariants vs capability-local methods;
-- explicit workflow states vs latent adaptive control;
-- accepted whole-system operating architecture vs a demonstrably simpler counter-design.
+- explicit workflow states vs latent/adaptive control;
+- current incumbent realization vs a materially simpler or more reliable carrier configuration.
 
-Compare alternatives on performance, complexity, transferability, observability, failure containment, maintainability, runtime feasibility and evidence status.
+Compare alternatives on performance, complexity, transferability, observability, failure containment, maintainability, runtime feasibility, Human burden/agency, economics and evidence status.
 
 ---
 
@@ -192,52 +220,81 @@ Lineage disposition for inherited design:
 
 `SUPPORTED` is not `TESTED`; `TESTED` is not universal validity; `ACCEPTED` is not permanent truth.
 
+For realization work, keep separate:
+
+```text
+candidate carrier / mechanism
+≠ implemented candidate
+≠ verified realization
+≠ accepted / promoted operating state
+≠ behavioral effectiveness
+```
+
+Promotion authority remains with the legitimate owner/write path for the affected state domain.
+
 ---
 
 ## 9. Complexity budget
 
-Every construct creates vocabulary, implementation, context, evaluation, interaction and maintenance cost. It should justify itself by preventing a material failure class, enabling a material capability, reducing downstream complexity through a real invariant, improving transfer, enabling necessary assurance, or materially improving work economics / human agency.
+Every construct creates vocabulary, implementation, context, evaluation, interaction and maintenance cost. It should justify itself by preventing a material failure class, enabling a material capability, reducing downstream complexity through a real invariant, improving transfer, enabling necessary assurance, or materially improving work economics / Human agency.
 
 Re-derivation itself also has a cost. Reopening an accepted question without new decision value is **architecture process waste**.
 
-If a mechanism can remain reference knowledge, a bridge reference, a conditional capability, an operating-model configuration or a qualified inherited design rather than new global architecture, that remains a live alternative.
+If a mechanism can remain reference knowledge, a conditional capability, a local method, an operating configuration or a qualified inherited design rather than new global architecture, that remains the preferred lower-burden alternative when performance is equivalent.
+
+Runtime realization is likewise not optimized for minimal artifact count or minimal instruction length in isolation; total-system performance and burden decide.
 
 ---
 
-## 10. Work Engine status
+## 10. Work-control / `Work Engine` disposition after Target Architecture v0.2
 
-`Work Engine` remains a **candidate abstraction**, not an accepted subsystem.
+The previous bootstrap treated `Work Engine` / Semantic Compiler placement as an open architecture delta.
 
-However, the predecessor lineage already contains mature work-control constructs, especially:
+PR #3 / Target Architecture v0.2 superseded that delta sequence and accepted a smaller semantic commitment:
 
-- Work Architecture / Work Units / Work Graph in `AI-native-Operating-Model`;
-- Work Object / Work Product / Working State / Work Episode semantics in `human-ai-work-architecture`;
-- Semantic Compiler / Minimum Sufficient Work in `Human-AI-Work-System`;
-- a deliberate counter-design in `PAOS` that rejects universal formal Work Objects for ordinary work.
+> **Adaptive Work-Selection Contract** — for admitted/triggered work, select the minimum justified next work from current reality, intended outcome/claim, requirements, preserved state, dependencies, capability/authority/runtime reality, consequence, uncertainty and economics.
 
-Therefore the Work Engine question must now be framed as a **reconciliation/selection problem among qualified priors**, not as blank-slate invention.
+Therefore:
 
-The remaining candidate function to explain is approximately:
+```text
+Adaptive Work-Selection semantic obligation    ACCEPTED
+peer `Work Engine` architecture subsystem      NOT REQUIRED / NOT ACCEPTED
+Semantic Compiler label/implementation          CONDITIONAL REALIZATION OPTION
+Work Graph / Work Units                         CONDITIONAL REPRESENTATION / MECHANISM
+B.6 macro projection                           OPTIONAL HUMAN-READABLE PROJECTION
+```
 
-> select and coordinate the minimum sufficient next work for a bounded work episode, while respecting parent purpose, current authoritative state, professional method, capability, evidence, authority and resource constraints.
-
-The open question is whether existing predecessor mechanisms already solve this adequately and, if not, what exact incremental role the term `Work Engine` adds.
+`Work Engine` is no longer a standing foundational architecture question. It reopens only if realization/evaluation evidence shows that the accepted semantic contract cannot be implemented, observed or preserved adequately without a distinct architectural object — which would need an ADR-0002 reopen trigger.
 
 ---
 
-## 11. Current architecture freeze gate
+## 11. Post-acceptance architecture gate
 
-Do not freeze a new conceptual architecture until:
+Target Architecture v0.2 was accepted through PR #3. The pre-acceptance architecture-freeze gate has therefore been passed for that baseline and is no longer the current development gate.
 
-- the SoI boundary is adequate for the intended claims;
-- predecessor lineage and qualified priors have been recovered;
-- every materially reopened prior question has an explicit trigger;
-- major concerns have reference coverage;
-- raw internal evidence has usable provenance;
-- qualified prior designs have explicit dispositions;
-- cross-view integration is coherent;
-- genuinely live alternatives were compared;
-- the performance model can discriminate the remaining alternatives;
-- material uncertainties plus evaluation plans are explicit.
+Current rule:
 
-The reconstruction succeeds not when it produces the newest architecture, but when it identifies **which prior knowledge still deserves to survive and exactly where new evidence requires change**.
+> **Do not reopen foundational architecture while Architecture → Runtime / Operating Realization can represent and repair the observed problem within the accepted semantics.**
+
+Before any architecture reopen:
+
+- name the exact ADR-0002 trigger;
+- identify the accepted claim/requirement that is insufficient, contradictory or unrealizable;
+- recover the evidence and affected scope;
+- show why a runtime/operating/method/capability repair is insufficient;
+- compare credible architecture alternatives and simpler non-architecture repairs;
+- define the claim-matched evaluation needed for promotion.
+
+Otherwise the correct path is:
+
+```text
+accepted architecture
+→ recover actual current realization
+→ map existing coverage
+→ identify material realization gap
+→ smallest adequate realization change
+→ behavioral / implementation evaluation
+→ promote or reject
+```
+
+The method succeeds not when it produces the newest architecture, but when it preserves qualified system knowledge, localizes failures correctly and changes only the level that evidence justifies.
