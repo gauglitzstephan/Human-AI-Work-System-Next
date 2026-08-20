@@ -1,83 +1,143 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + STATIC-COMPLETE E2E WORK ARCHITECTURE CANDIDATE v0.1 + E2E RUNTIME MIGRATION CANDIDATE v0.3  
+**Status:** ACCEPTED TARGET CONCEPTUAL BASELINE v0.2 + STATIC-COMPLETE E2E WORK ARCHITECTURE CANDIDATE v0.1 + E2E RUNTIME MIGRATION CANDIDATE v0.4  
 **Date:** 2026-08-20  
 **E2E static package:** promoted to `main` via merged PR #11  
 **Current candidate branch:** `runtime/e2e-migration-v0.1`  
-**Authority boundary:** `main` controls the accepted repository program. This branch contains the reviewed runtime-migration/install package only. External ChatGPT installation and behavioral effectiveness remain separate evidence.
+**Authority boundary:** `main` controls the accepted repository program until PR #12 is merged. This branch contains the reviewed Runtime migration/install package only. External ChatGPT installation and behavioral effectiveness remain separate evidence.
 
-## Controlling program
+## 1. Controlling program
 
-Static architecture is closed by default. Current program:
+Static architecture work is closed by default at the current evidence/reference horizon.
+
+Current program:
 
 ```text
 STATIC E2E PACKAGE ON MAIN
-→ concrete runtime carriers compiled/reviewed
-→ exact Global + Project rollback state preserved
-→ one real Project instantiated
-→ Human promotes migration package
-→ Human installs exact Global + Project configuration
+→ Runtime compilation
+→ exact rollback controls
+→ one real Project instantiation
+→ full static regression/readback
+→ repository promotion
+→ Human external installation/readback
 → runtime conformance preflight
-→ first actual representative E2E work case
-→ persist evidence outside chat history
+→ first actual representative E2E work
+→ persistent real-use evidence
 ```
 
-## Global rollback / candidate
+Do not reopen static architecture absent a named material trigger.
 
-Exact pre-E2E live Global CI is persisted in `realization/rollback/GLOBAL-CI-PRE-E2E-LIVE-SNAPSHOT.txt` with metadata. Current installation candidate is `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.2.md`; v0.1 is superseded / do not install. External installation: **NOT PERFORMED**.
+## 2. Runtime compilation repair
 
-## First Project
+The v0.2 Global / v0.1 Project pair is superseded for installation because its flat control-catalog topology could over-activate conditional professional controls.
 
-Selected: **System Weiterentwicklung Projekt** / `gauglitzstephan/Human-AI-Work-System-Next`.
-
-Human-confirmed pre-E2E Project Instructions:
+Current topology:
 
 ```text
-NONE
+PERMANENT INVARIANTS
+        ↓
+WORK CONTROLLER / ORCHESTRATOR
+        ↓
+CONDITIONALLY ACTIVATED CAPABILITIES
 ```
 
-Rollback:
-- `realization/rollback/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-PRE-E2E.txt`
-- `realization/rollback/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-PRE-E2E-METADATA.md`
+This is a Runtime compilation repair, not a new architecture.
 
-Project installation candidate:
-- `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.1.md`
-- review: `reviews/E2E-FIRST-PROJECT-INSTRUCTIONS-STATIC-REVIEW-v0.1.md`
+## 3. Current Global installation candidate
+
+- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.3.md`
+- full review: `reviews/E2E-RUNTIME-COMPILATION-FULL-STATIC-REGRESSION-v0.3.md`
+
+Identity:
+
+```text
+LF:       4,975
+CRLF:     4,980
+SHA-256:  108ff9ad1919779bd9e1fbf027d2c339f1cb2840c1c2447c624df0d23d3bd544
+```
+
+Exact pre-E2E live Global rollback remains persisted under `realization/rollback/`.
+
+External Global installation: **NOT PERFORMED**.
+
+## 4. First Project installation candidate
+
+Selected:
+
+```text
+System Weiterentwicklung Projekt
+Repository: gauglitzstephan/Human-AI-Work-System-Next
+```
+
+Pre-E2E Project Instructions: Human-confirmed `NONE`.
+
+Current candidate:
+
+- `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.2.md`
+
+Identity:
+
+```text
+LF:       4,983
+CRLF:     4,992
+SHA-256:  b71a091afe2fc50cbb8edb671446849acd18273d48305c5052d27a0d89c81cda
+```
+
+Project v0.2 binds `main/CURRENT.md` as program authority and locally preserves the material E2E controls because Project Instructions override Global Instructions.
 
 External Project installation: **NOT PERFORMED**.
 
-## Installation package
+## 5. Static Runtime verdict
 
-- `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.3.md`
-- `realization/E2E-INSTALLATION-BUNDLE-v0.1.md`
+`reviews/E2E-RUNTIME-COMPILATION-FULL-STATIC-REGRESSION-v0.3.md` records:
+
+```text
+E2E architecture semantic coverage             PASS
+Exact-live Global material functions           PASS
+Historical protected functions                 PASS
+Permanent invariant / Controller / Capability  PASS
+Parent / Promotion continuity                  PASS
+Professional-method activation                 PASS
+Human Gate enforcement semantics               PASS
+Claim-bound + representative assurance          PASS
+Boundary integrity                             PASS
+Global 5k envelope                             PASS — 4,980 CRLF
+Project local-control coverage                 PASS — 4,992 CRLF
+Unowned material static loss                   NONE FOUND
+External installation                          NOT PERFORMED
+Behavioral reliability                         NOT ESTABLISHED
+```
+
+## 6. Installation package
+
+Current:
+
+- `realization/E2E-RUNTIME-MIGRATION-MANIFEST-v0.4.md`
+- `realization/E2E-INSTALLATION-BUNDLE-v0.2.md`
 - `realization/E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md`
 
-State:
+Superseded for installation:
+
+- Global E2E v0.1/v0.2;
+- System Weiterentwicklung Project v0.1;
+- Migration Manifest v0.1–v0.3;
+- Installation Bundle v0.1.
+
+## 7. Current gate
 
 ```text
-I0 repository/static architecture                  COMPLETE
-I1 exact Global rollback capture                   COMPLETE
-I2 select first real Project                       COMPLETE
-I3 capture first Project Instructions              COMPLETE — NONE
-I4 instantiate/review Project E2E policy           COMPLETE
-I5 repository promotion of migration package       HUMAN PR/MERGE
-I6 install Global kernel v0.2                      HUMAN SETTINGS ACTION
-I7 install Project policy v0.1                     HUMAN PROJECT SETTINGS ACTION
-I8 installation/readback conformance preflight     PENDING
-I9 first actual E2E real-work case                 PENDING
+I0 static E2E architecture                    COMPLETE
+I1 rollback controls                          COMPLETE
+I2 first Project selection/pre-state          COMPLETE
+I3 Global v0.3 + Project v0.2 compilation     COMPLETE
+I4 full static regression                     PASS
+I5 readback / package coherence               CURRENT FINAL CHECK
+I6 PR #12 promotion                           NEXT AFTER READBACK
+I7 external Global + Project installation     HUMAN ACTION AFTER MERGE
+I8 installation/readback conformance          PENDING
+I9 first actual E2E real-work case            PENDING
 ```
 
-## Next legitimate gate
+**Mode:** RUNTIME COMPILATION → FINAL READBACK / PR #12 PROMOTION.
 
-**Mode:** RUNTIME MIGRATION PACKAGE READY → HUMAN PROMOTION / INSTALLATION.
-
-```text
-Human reviews/merges PR #12
-→ install exact Global kernel v0.2
-→ install exact System Weiterentwicklung Project policy v0.1
-→ read back both settings and persist installation evidence
-→ run runtime conformance preflight
-→ begin first actual E2E real-work case
-```
-
-Until installation/readback, do not attribute ordinary ChatGPT behavior to the new E2E Runtime.
+After successful readback, PR #12 may return to Ready and be merged. Merge does not establish external ChatGPT installation.
