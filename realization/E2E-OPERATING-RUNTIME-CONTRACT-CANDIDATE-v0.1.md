@@ -1,16 +1,17 @@
 # End-to-End Operating Runtime Contract Candidate v0.1
 
-**Status:** CANDIDATE — operational realization contract for `architecture/E2E-WORK-ARCHITECTURE-CANDIDATE-v0.1.md`; not externally installed or behaviorally accepted.  
-**Date:** 2026-08-20  
+**Status:** R20 BOUNDED REPAIR CANDIDATE — branch-only Runtime-realization delta; not promoted, installed or behaviorally accepted.  
+**Date:** 2026-08-21  
 **Purpose:** make the static-complete architecture executable without relying on chat memory or on a fixed product-surface topology.
+**Revision basis:** R20 Graphic-Novel Cold-Start failure localization; Static Architecture remains closed.
 
 ## 1. Runtime objective
 
-For each material continuation:
+For each material trigger or continuation:
 
-> Recover the controlling work state, select the minimum legitimate next frontier, execute only work capable of advancing that frontier, preserve typed state/authority, enforce material transition conditions, and write/read back persistent state only through legitimate paths.
+> Establish or recover the controlling work state, select the minimum legitimate next frontier, execute only work capable of advancing that frontier, preserve typed state/authority, enforce material upstream/downstream transition conditions, and write/read back persistent state only through legitimate paths.
 
-The Runtime must not require every architecture function to become a separate agent, room, Project, Skill, store, or visible stage.
+The Runtime must not require every architecture function to become a separate agent, room, Project, Skill, store, bootstrap stage or visible workflow.
 
 ## 2. Persistent controlling work state
 
@@ -47,16 +48,26 @@ Relevant reuse / Knowledge Capital pointers
 
 For bounded work, most fields remain implicit or absent.
 
+For genuinely new material work, the Runtime does not require this full state object before acting. It establishes only enough provisional Parent/Outcome/state to control the first legitimate frontier, then persists more only when continuity/divergence value justifies it.
+
 ## 3. Orchestrator / Semantic Compiler loop
 
-Before consequential continuation:
+Before consequential work:
 
 ```text
-1. REBIND
-   parent Work Object / outcome
-   + current state / gate
-   + child contribution
-   + allowed operation
+1. BIND / INITIALIZE
+   established work:
+     REBIND parent Work Object / outcome
+     + current state / gate
+     + child contribution
+     + allowed operation
+
+   genuinely new material work with no established parent:
+     establish only enough provisional
+     Parent Work Object / intended outcome / initial state
+     + allowed operation
+     to select the legitimate frontier
+     without creating a persistent boundary by default
 
 2. RECOVER REALITY
    authoritative + already-qualified state
@@ -69,8 +80,8 @@ Before consequential continuation:
    keep qualified/unaffected state closed
 
 5. FIND MATERIAL BLOCKERS
-   requirements / dependencies / uncertainty / authority /
-   capability / receiving context / assurance
+   requirements / upstream readiness / dependencies / uncertainty /
+   authority / capability / persistence / receiving context / assurance
 
 6. SELECT MINIMUM FRONTIER
    direct work / retrieve / form / decide / ask / execute /
@@ -89,7 +100,9 @@ Before consequential continuation:
     after material persistent promotion/write
 ```
 
-If parent state is materially ambiguous, the next frontier is recovery/reconciliation, not local continuation.
+If established parent state is materially ambiguous, the next frontier is recovery/reconciliation, not local continuation.
+
+If no parent exists because the work is genuinely new, the next frontier is initial Work-Object/Formation control only to the depth required to select legitimate substantive work.
 
 ## 4. Formation activation
 
@@ -118,14 +131,24 @@ Rules:
 - compare one decision question at one scope/type; normalize/split non-peer options;
 - include simpler/no-action where material;
 - forecast only when legitimately forecastable; otherwise use scenarios/robustness/signposts;
-- do not commit a route while a material upstream dependency that could flip it remains untreated unless the commitment is explicitly staged/provisional.
+- do not commit a route while a material upstream dependency that could flip it remains untreated unless the commitment is explicitly staged/provisional;
+- **Solution/Candidate Admission:** if unresolved upstream reality, outcome, requirements/performance, professional/reference intelligence, evidence/uncertainty, feasibility or persistence context could materially change the solution class, its evaluation or feasibility, keep Formation open;
+- early solutions may be used as information-generating probes/hypotheses, but `probe/hypothesis ≠ qualified solution Candidate ≠ selected route ≠ design basis`;
+- qualify a solution Candidate/design basis only after materially required upstream state is sufficiently ready for that exact next claim.
+
+This is an internal transition-integrity condition, not automatically a visible stage or Human Gate.
 
 ## 5. Professional method / craft activation
 
 For material professional work:
 
 ```text
-required professional outcome
+required professional outcome / performance bar
+→ is the performance bar itself materially open?
+→ could method/reference/craft intelligence change
+  what good looks like, the solution class or evaluation?
+      yes → resolve enough method/reference as Formation input
+            before Candidate qualification
 → substantive method/reference needed?
 → artifact/craft method needed?
 → validated reusable pack exists and is accessible?
@@ -136,6 +159,8 @@ required professional outcome
 ```
 
 `Method required` is not a runtime PASS. Accessibility, applicability, and actual application must be established where material.
+
+A missing prebuilt domain Method Pack is not itself a blocker when an adequate authoritative/task-local method/reference can be resolved.
 
 ## 6. Capability / teaming allocation
 
@@ -196,6 +221,8 @@ PROMOTE / WRITE
 ```
 
 No file, branch, artifact, recommendation, self-review, reversible write, or technical capability self-promotes into accepted/authorized/controlling/authoritative state.
+
+Likewise, `unpromoted` does not by itself establish that a generated solution is legitimately Candidate-ready.
 
 ## 9. Execution / integration
 
@@ -289,7 +316,7 @@ RETIRE
 
 Do not generate more work merely because more work is possible.
 
-## 14. Runtime carrier allocation
+## 14. Runtime carrier / persistence allocation
 
 This contract deliberately does not hard-map architecture functions to current ChatGPT surfaces.
 
@@ -307,6 +334,16 @@ feature/function exists
 ```
 
 Choose the shallowest viable composition and preserve semantics across handoffs.
+
+For newly admitted work, if material state is likely to persist or diverge across episodes, sessions, surfaces, Humans/agents or artifacts:
+
+```text
+identify the minimum legitimate state domain / owner / carrier
+→ establish version/freshness/reconciliation only as needed
+→ bind current work to it
+```
+
+A Project is one possible persistent initiative/context carrier. It is not a prerequisite for professional work and must earn its boundary/synchronization cost. Do not create persistent state machinery for bounded work where divergence is immaterial.
 
 ## 15. Evidence persistence for validation
 
@@ -332,6 +369,8 @@ Use repository records or another legitimate authoritative validation store.
 
 ## 16. Acceptance boundary
 
-This Runtime Contract is a candidate specification only.
+This Runtime Contract is a bounded R20 repair candidate only.
 
-Promotion requires representative End-to-End Real-Use Validation showing that the required controls actually activate and that no material regression in quality, state/authority integrity, Human agency, proportionality, transition/use handling, or closure is introduced.
+Promotion requires representative End-to-End Real-Use Validation showing that the repaired controls actually activate and that no material regression in quality, state/authority integrity, Human agency, proportionality, transition/use handling, or closure is introduced.
+
+Static Architecture remains closed unless subsequent evidence establishes a named reopen trigger.
