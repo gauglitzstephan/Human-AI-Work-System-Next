@@ -1,11 +1,11 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** POST-PR13 REPOSITORY HYGIENE / STATE RECONCILIATION — IMPLEMENTED + READ BACK; **PROMOTION-READY WITHIN BOUNDED HYGIENE CLAIM SUBJECT TO THE LATEST PR #14 REVIEW BEFORE MERGE / PROMOTION COMPLETE IF THIS EXACT STATE IS READ ON `main` AFTER PR #14 MERGE**.  
+**Status:** POST-PR13 REPOSITORY HYGIENE / STATE RECONCILIATION — **PROMOTED + POST-MERGE READBACK/RECONCILIATION COMPLETE WITHIN BOUNDED HYGIENE CLAIM**.  
 **Date:** 2026-08-21  
-**Controlling pre-PR14 baseline:** PR #13 repository Promotion **COMPLETE**.  
+**PR #14 repository Promotion:** **COMPLETE** — squash merge commit `375624d03670c369a6244826098392ed0b9c4b39`.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
-**Current Runtime repository package:** PR #13 / Global v0.5 + System Development Project v0.4 + Installation Bundle v0.4.  
-**Promotion-state boundary:** if this file is read on `repair/post-pr13-repo-hygiene-v0.1` or an unmerged PR #14, `main/CURRENT.md` remains repository authority and the hygiene delta remains Candidate at the Human Promotion Gate subject to the latest PR-level review of the current head. If this exact state is read on `main` after PR #14 merge, repository hygiene Promotion is **COMPLETE**, this file is the controlling post-promotion repository state, and the next parent frontier is external-settings readback reconciliation / Runtime conformance preflight. PR #14 merge would not authorize any external ChatGPT settings mutation.
+**Current Runtime repository package:** Global v0.5 + System Development Project v0.4 + Installation Bundle v0.4.  
+**Authority:** this `main/CURRENT.md` is the controlling repository state. PR #14 changed repository hygiene/state coherence only; it did not change accepted architecture or Runtime semantic payloads and did not authorize any external ChatGPT settings mutation.
 
 ## 1. Parent program and accepted state
 
@@ -13,13 +13,15 @@ Parent outcome:
 
 > Realize and validate the Human–AI Work System on genuine work without losing state, authority, professional quality, Human agency or proportionality.
 
-Current accepted / promoted state independent of PR #14:
+Current qualified state:
 
 ```text
 Target Architecture v0.2                         ACCEPTED
 Static E2E Work Architecture package             REPOSITORY-PROMOTED / CLOSED BY DEFAULT
 Runtime deployment + interaction-control repair  REPOSITORY-PROMOTED via PR #13
-External Runtime behavioral effectiveness         NOT ESTABLISHED
+Post-PR13 repository hygiene/state reconciliation REPOSITORY-PROMOTED via PR #14
+External Runtime persistent settings readback     NOT SEPARATELY RECORDED
+Runtime behavioral conformance                    NOT ESTABLISHED
 Real-use quality / outcomes                       NOT ESTABLISHED
 ```
 
@@ -27,7 +29,7 @@ The named Runtime reopen trigger addressed by PR #13 was:
 
 > **CR-13 Runtime / implementation fidelity failure — Runtime type-system collapse + carrier-binding omission**, including the Human-facing control-return defect observed on 2026-08-20.
 
-Static architecture completeness remains closed.
+PR #14 did not establish a new static-architecture trigger. Static architecture completeness remains closed.
 
 ## 2. Canonical Runtime source and current compiled views
 
@@ -35,7 +37,7 @@ Canonical semantic source:
 
 - `realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md`
 
-Current compiled installation views:
+Current compiled views / transition package:
 
 - `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`
 - `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`
@@ -59,7 +61,9 @@ SHA-256:  338a01576cfa3e330b0e120dba509ee447f516cd4675a212924efc91388dd69b
 Observed carrier capacity: 8,000 characters — PASS
 ```
 
-Older compiled views and bundles remain lineage only and must not be selected for installation. `realization/README.md` is the local realization navigation index in this hygiene package.
+PR #14 changed only status/transition metadata around the current compiled views; commit-diff review established that the exact Global v0.5 and Project v0.4 payload blocks were not modified.
+
+Older compiled views and bundles remain lineage only and must not be selected for installation. `realization/README.md` is the realization navigation index.
 
 ## 3. Runtime type and control boundaries
 
@@ -108,110 +112,77 @@ Human trigger
 
 At material interaction boundaries the Human must not have to infer disposition, `Next` safety, persistence/Promotion intent or the exact required action.
 
-## 5. Method carrier
+## 5. Repository hygiene package promoted by PR #14
 
-Registry:
-
-- `methods/METHOD-REGISTRY-v0.1.md`
-
-System Development packs remain under `methods/system-development/`.
-
-`methods/system-development/REPOSITORY-PROMOTION-READBACK-METHOD-v0.1.md` adds a post-promotion Entry-Point Hygiene Scan. On an unmerged PR #14 this revision remains Candidate with the hygiene delta; if this exact state is read on `main` after PR #14 merge, the revision is repository-promoted within the bounded hygiene scope.
-
-## 6. Repository promotion and external Runtime state
-
-Repository transition already established before PR #14:
+PR #14 promoted the bounded repair of:
 
 ```text
-R17  PR #13 repository Promotion                 COMPLETE
+HYG-01 stale root navigation                         PASS
+HYG-02 superseded executable-looking bundles        PASS
+HYG-03 realization version ambiguity                 PASS
+HYG-04 Promotion/Readback assurance coverage gap     PASS
+HYG-05 current-package transition metadata            PASS
+HYG-06 Promotion-State-Handoff safety                 PASS
+Global v0.5 / Project v0.4 payload preservation      PASS by diff
 ```
 
-External Runtime transition:
+Material artifacts include:
+
+- root `README.md`;
+- `realization/README.md`;
+- Bundle v0.1/v0.2 `SUPERSEDED / DO NOT INSTALL` tombstones;
+- current Bundle v0.4 transition metadata;
+- `methods/system-development/REPOSITORY-PROMOTION-READBACK-METHOD-v0.1.md` hygiene-scan revision;
+- `evaluation/e2e-real-use/E2E-04-2026-08-20-POST-PR13-RUNTIME-LOAD-AND-HYGIENE.md`.
+
+No architecture/requirements change, Runtime semantic recompile, external settings mutation or branch-history cleanup was part of PR #14.
+
+## 6. Post-merge readback / reconciliation
+
+PR #14 was merged from reviewed head `81804d6117c74753623ad25c2dd7249db8ae0646` into `main` as squash commit `375624d03670c369a6244826098392ed0b9c4b39`.
+
+Post-merge readback established:
 
 ```text
-R18a current-session effective Global v0.5 load  OBSERVED BY CONTENT
-R18a current-session effective Project v0.4 load OBSERVED BY CONTENT
-R18b persistent UI save/readback evidence         NOT SEPARATELY RECORDED
-R19  runtime conformance preflight                PENDING transition reconciliation
-R20  first genuine E2E real-work validation       BLOCKED until R19
+PR #14 repository Promotion                         COMPLETE
+root README promotion-state interpretation          PASS
+realization navigation / current-vs-history          PASS
+Bundle v0.4 current transition state                PASS
+Bundle v0.1/v0.2 supersession safety                PASS
+CURRENT post-merge factual closure-sync             PASS after this authorized sync
+E2E-04 post-merge evidence closure-sync             PASS after paired authorized sync/readback
+external settings mutation                          NOT PERFORMED
 ```
 
-The current System Development conversation context exposes Global and Project instruction content matching the promoted v0.5 / v0.4 payloads. This is evidence of **effective load in the current session**, not independent evidence of UI save/readback, persistence across future sessions, or behavioral conformance.
+The current System Development conversation exposes Global and Project instruction content matching the promoted v0.5 / v0.4 payloads. This remains evidence of **effective load in the current session**, not independent evidence of persistent UI save/readback, future-session persistence or behavioral conformance.
 
-Material evidence:
-
-- `evaluation/e2e-real-use/E2E-04-2026-08-20-POST-PR13-RUNTIME-LOAD-AND-HYGIENE.md`
-
-## 7. Post-PR13 hygiene implementation and readback
-
-Human-authorized bounded hygiene work on `repair/post-pr13-repo-hygiene-v0.1`:
+## 7. Current external Runtime state
 
 ```text
-1 CURRENT post-merge normalization                  IMPLEMENTED / READBACK PASS
-2 root README synchronization                       IMPLEMENTED / READBACK PASS
-3 realization/README current-vs-history navigation  IMPLEMENTED / READBACK PASS
-4 Bundle v0.1 + v0.2 tombstones                     IMPLEMENTED / READBACK PASS
-5 Promotion/Readback hygiene assurance extension    IMPLEMENTED / READBACK PASS
-6 material Runtime/hygiene evidence record          IMPLEMENTED / READBACK PASS
-HYG-05 current-package metadata reconciliation      IMPLEMENTED / READBACK PASS
-HYG-06 Promotion-State-Handoff repair               IMPLEMENTED / READBACK PASS
+R17  PR #13 Runtime repository Promotion             COMPLETE
+HYG   PR #14 repository hygiene Promotion            COMPLETE
+R18a current-session effective Global v0.5 load      OBSERVED BY CONTENT
+R18a current-session effective Project v0.4 load     OBSERVED BY CONTENT
+R18b persistent UI save/readback evidence             NOT SEPARATELY RECORDED
+R19  Runtime conformance preflight                    NEXT AFTER R18b RECONCILIATION AS REQUIRED
+R20  first genuine E2E real-work validation           BLOCKED until R19
 ```
 
-HYG-05 reconciled only status / transition metadata in:
+A missing independent UI readback keeps only that persistence/readback claim unverified; it does not erase the separately observed current-session effective load.
 
-- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`;
-- `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`;
-- `realization/E2E-INSTALLATION-BUNDLE-v0.4.md`.
+## 8. Current gate
 
-Commit-diff readback confirmed that the exact Global v0.5 and Project v0.4 payload blocks were not modified.
+The post-PR13 repository hygiene Work Unit is **CLOSED** within its bounded claim.
 
-HYG-06 made `CURRENT.md`, root `README.md`, `realization/README.md` and the E2E-04 record valid on both sides of the PR #14 merge boundary. Readback of all four repaired surfaces passed. The transient PR-level review verdict is intentionally carried by PR #14 rather than hard-coded into the repository artifacts, so a review does not make the reviewed state stale by itself.
-
-No architecture/requirements change, Runtime payload recompile, external settings mutation, branch cleanup or merge has been performed. PR #14 exists as a Draft for Promotion review.
-
-## 8. Bounded hygiene assurance state
+Next legitimate parent frontier:
 
 ```text
-authorized hygiene implementation                PASS
-written-file readback                             PASS
-root README / CURRENT coherence                   PASS
-current-vs-history realization navigation         PASS
-obsolete Bundle v0.1/v0.2 action safety           PASS
-promotion-method hygiene coverage                 PASS
-HYG-05 current-package metadata coherence          PASS
-HYG-06 promotion-state handoff implementation      PASS / READBACK
-Global v0.5 / Project v0.4 payload preservation    PASS by commit diff
-current-session v0.5/v0.4 effective load           OBSERVED BY CONTENT
-persistent UI settings readback                    NOT SEPARATELY RECORDED
-runtime behavioral conformance                     NOT ESTABLISHED
-real-use quality / outcomes                        NOT ESTABLISHED
-PR #14 Promotion verdict                           SEE LATEST REVIEW OF CURRENT PR HEAD
+complete/record persistent external-settings readback where required
+→ Runtime conformance preflight
+→ first genuine System Development real-work validation
+→ persist material validation evidence under evaluation/e2e-real-use/
 ```
 
-Supported bounded claim:
+No new architecture work is indicated by the hygiene closure.
 
-> **Before PR #14 merge:** the post-PR13 repository-hygiene candidate is Promotion-ready only if the latest PR-level review of the current head is PASS.  
-> **If this exact state is read on `main` after an authorized PR #14 merge:** the bounded repository-hygiene/state-reconciliation package is repository-promoted; this does not establish external Runtime persistence, behavioral conformance or outcome effectiveness.
-
-## 9. Promotion-state handoff / current gate
-
-```text
-IF this file is on unmerged PR #14 / its head branch:
-  H1 bounded hygiene implementation/readback       COMPLETE / PASS
-  H2 promotion-state handoff repair                 IMPLEMENTED / READBACK PASS
-  H3 PR-level Promotion verdict                     CHECK LATEST REVIEW OF CURRENT PR HEAD
-  H4 PR #14 repository Promotion                    HUMAN MERGE GATE — only after PASS
-
-IF this exact state is on main after PR #14 merge:
-  H1 bounded hygiene implementation/readback       COMPLETE / PASS
-  H2 promotion-state handoff                        COMPLETE
-  H3 PR #14 repository Promotion                    COMPLETE
-  H4 persistent external-settings readback          NEXT TRANSITION / NOT YET ESTABLISHED
-  R19 runtime conformance preflight                 BLOCKED until H4 is reconciled as required
-  R20 first genuine E2E real-work validation        BLOCKED until R19
-```
-
-A PR #14 merge would establish only the bounded repository-hygiene Promotion. It would not authorize or establish any external ChatGPT settings mutation, persistent UI readback, Runtime behavioral conformance or real-use outcome.
-
-**Disposition before merge:** PROMOTION GATE — latest PR #14 review controls readiness; Human merge authority remains separate.  
-**Disposition if read on `main` after an authorized PR #14 merge:** REPOSITORY HYGIENE PROMOTION COMPLETE → external-settings readback reconciliation / Runtime conformance preflight.
+**Current disposition:** CONTINUE — external-settings readback reconciliation / Runtime conformance preflight. No external settings mutation is authorized by this state.
