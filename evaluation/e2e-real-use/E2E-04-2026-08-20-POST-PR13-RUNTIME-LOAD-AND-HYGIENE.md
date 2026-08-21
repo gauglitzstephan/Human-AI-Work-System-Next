@@ -123,7 +123,7 @@ Implemented and read back:
 5. extend repository Promotion/Readback method with entry-point/supersession hygiene checks — **PASS**;
 6. persist this evidence record — **PASS**;
 7. reconcile HYG-05 current-package metadata/transition surfaces — **PASS**;
-8. closure-sync branch-local `CURRENT.md` and this evidence record — **PASS pending final readback of these two closure-sync writes**.
+8. closure-sync branch-local `CURRENT.md` and this evidence record — **PASS / FINAL READBACK PASS**.
 
 Out of scope and not performed:
 
@@ -137,11 +137,12 @@ Out of scope and not performed:
 
 ## 7. Assurance verdict
 
-Before final closure-sync readback:
+Final closure-sync readback:
 
 ```text
 bounded hygiene implementation                    PASS
 written-file readback for implementation           PASS
+closure-sync readback                              PASS
 post-PR13 root README coherence                    PASS
 current-vs-history realization navigation          PASS
 obsolete Bundle v0.1/v0.2 action safety            PASS
@@ -153,15 +154,15 @@ persistent UI settings readback                    NOT SEPARATELY RECORDED
 runtime behavioral conformance                     NOT ESTABLISHED
 ```
 
-Supported claim subject to final closure-sync readback:
+Supported claim:
 
 > **The post-PR13 repository-hygiene candidate is Promotion-ready within its bounded navigation, supersession, current-package metadata and promotion-readback-assurance scope.**
 
 This does **not** establish full repository cleanliness, external Runtime persistence, behavioral conformance or outcome effectiveness.
 
-## 8. Next legitimate transition
+## 8. Current gate
 
-After final readback confirms this closure-sync and branch-local `CURRENT.md`:
+Final readback confirms:
 
 ```text
 bounded hygiene candidate       PROMOTION-READY
