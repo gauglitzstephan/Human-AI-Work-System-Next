@@ -123,11 +123,11 @@ When in doubt:
 
 ## Promotion-state handoff / current transition
 
-The transient PR-level verdict is intentionally not hard-coded in this repository navigation; the latest review of the current PR #14 head controls readiness before merge.
+The Promotion-State-Handoff rewrite is persisted and read back across `CURRENT.md`, root `README.md`, this file and the E2E-04 record. The transient PR-level verdict is intentionally not hard-coded in repository navigation; the latest review of the current PR #14 head controls readiness before merge.
 
 ```text
 IF read on unmerged PR #14 / its head branch:
-  hygiene realization navigation                CANDIDATE / READBACK
+  hygiene realization navigation                CANDIDATE / READBACK PASS
   PR #14 Promotion verdict                       CHECK LATEST REVIEW OF CURRENT PR HEAD
   PR #14 repository Promotion                   HUMAN MERGE GATE — only after PASS
 
