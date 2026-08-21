@@ -101,6 +101,8 @@ def main() -> int:
                         "expect": expected,
                         "entry_decision": decision,
                         "dispatch_pass": dispatch_pass,
+                        "dispatch_meta": result["dispatch_meta"],
+                        "work_meta": result["work_meta"],
                         "answer": result["answer"],
                     }
                 )
