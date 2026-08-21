@@ -1,0 +1,93 @@
+{
+  "version": "r20-entry-gateway-eval-v0.1",
+  "cases": [
+    {
+      "id": "R20-G1-COLD-START",
+      "turns": [
+        {
+          "prompt": "Ich möchte ein Grafik Novel über die Geschichte des Bieres entwerfen",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "FORMATION"
+          }
+        }
+      ]
+    },
+    {
+      "id": "R20-G2-TRANSLATION",
+      "turns": [
+        {
+          "prompt": "Übersetze bitte ins Englische: Der Vertrag wird morgen unterschrieben.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "DIRECT"
+          }
+        }
+      ]
+    },
+    {
+      "id": "R20-G3-IDEATION",
+      "turns": [
+        {
+          "prompt": "Gib mir fünf verrückte Ideen für eine Graphic Novel über Bier.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "DIRECT"
+          }
+        }
+      ]
+    },
+    {
+      "id": "R20-G4-BOUND-CHANGE",
+      "turns": [
+        {
+          "prompt": "Schreib mir eine Produktbeschreibung mit ungefähr 100 Wörtern für eine handgefertigte Keramiktasse. Sie ist spülmaschinenfest, in Deutschland gefertigt und hat eine matte Oberfläche.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "DIRECT"
+          }
+        },
+        {
+          "prompt": "Kürzer, auf ungefähr 60 Wörter.",
+          "expect": {
+            "context_relation": "BOUND",
+            "admission": "NOT_APPLICABLE"
+          }
+        },
+        {
+          "prompt": "Änderung: Aus dieser Produktbeschreibung soll jetzt eine komplette Premium-Markenpositionierung für eine neue Keramikmarke werden.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "FORMATION"
+          }
+        }
+      ]
+    },
+    {
+      "id": "R20-G5-NESTED-CHILD",
+      "turns": [
+        {
+          "prompt": "Wir bauen einen kleinen Onlineshop für handgefertigte Keramik. Schreib bitte einen kurzen Versandhinweis: Versand innerhalb Deutschlands, 3–5 Werktage, 5,90 Euro.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "DIRECT"
+          }
+        },
+        {
+          "prompt": "Übersetze den Versandhinweis jetzt ins Englische.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "DIRECT"
+          }
+        },
+        {
+          "prompt": "Zusätzlich möchte ich für den Shop jetzt ein professionelles Loyalty-Programm entwickeln.",
+          "expect": {
+            "context_relation": "NEW_CHANGED",
+            "admission": "FORMATION"
+          }
+        }
+      ]
+    }
+  ]
+}
