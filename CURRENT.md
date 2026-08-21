@@ -1,7 +1,7 @@
 # CURRENT — Human–AI Work System Next
 
-**Branch-local status:** CANDIDATE POST-PR13 REPOSITORY HYGIENE / STATE RECONCILIATION — AUTHORIZED POINTS 1–6 IMPLEMENTED + READ BACK; FULL HYGIENE PROMOTION **PENDING HYG-05**.  
-**Date:** 2026-08-20  
+**Branch-local status:** CANDIDATE POST-PR13 REPOSITORY HYGIENE / STATE RECONCILIATION — IMPLEMENTED + READ BACK; **PROMOTION-READY WITHIN BOUNDED HYGIENE CLAIM**.  
+**Date:** 2026-08-21  
 **Controlling main baseline at branch creation:** PR #13 repository Promotion **COMPLETE**.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current Runtime repository package:** PR #13 / Global v0.5 + System Development Project v0.4 + Installation Bundle v0.4.  
@@ -116,7 +116,7 @@ Registry:
 
 System Development packs remain under `methods/system-development/`.
 
-The branch-local `methods/system-development/REPOSITORY-PROMOTION-READBACK-METHOD-v0.1.md` now adds a post-promotion Entry-Point Hygiene Scan. That method change remains Candidate with this branch.
+The branch-local `methods/system-development/REPOSITORY-PROMOTION-READBACK-METHOD-v0.1.md` adds a post-promotion Entry-Point Hygiene Scan. That method change remains Candidate with this branch.
 
 ## 6. Repository promotion and external Runtime state
 
@@ -142,9 +142,9 @@ Material evidence:
 
 - `evaluation/e2e-real-use/E2E-04-2026-08-20-POST-PR13-RUNTIME-LOAD-AND-HYGIENE.md`
 
-## 7. Authorized post-PR13 hygiene scope — implementation/readback
+## 7. Post-PR13 hygiene implementation and readback
 
-Human-authorized points 1–6 on `repair/post-pr13-repo-hygiene-v0.1`:
+Human-authorized bounded hygiene work on `repair/post-pr13-repo-hygiene-v0.1`:
 
 ```text
 1 CURRENT post-merge normalization                  IMPLEMENTED / READBACK PASS
@@ -153,50 +153,59 @@ Human-authorized points 1–6 on `repair/post-pr13-repo-hygiene-v0.1`:
 4 Bundle v0.1 + v0.2 tombstones                     IMPLEMENTED / READBACK PASS
 5 Promotion/Readback hygiene assurance extension    IMPLEMENTED / READBACK PASS
 6 material Runtime/hygiene evidence record          IMPLEMENTED / READBACK PASS
+HYG-05 current-package metadata reconciliation      IMPLEMENTED / READBACK PASS
 ```
+
+HYG-05 reconciled only status / transition metadata in:
+
+- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`;
+- `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`;
+- `realization/E2E-INSTALLATION-BUNDLE-v0.4.md`.
+
+Commit-diff readback confirmed that the exact Global v0.5 and Project v0.4 payload blocks were not modified.
 
 No architecture/requirements change, Runtime payload recompile, external settings mutation, branch cleanup, PR creation or merge was performed.
 
-## 8. Assurance finding HYG-05 — outside authorized write scope
-
-The newly added Entry-Point Hygiene Scan identified a remaining contradiction in three **current** package metadata/status surfaces:
-
-- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md` still says `not externally installed`;
-- `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md` still says `external save/readback not performed`;
-- `E2E-INSTALLATION-BUNDLE-v0.4.md` still says `repository promotion candidate; external installation not performed`.
-
-Those statements predate the current-session effective-load observation. The supported state is more precise:
-
-> **effective v0.5/v0.4 load observed by content in the current session; independent persistent UI save/readback not separately recorded.**
-
-Repairing these three files was **not** part of the authorized points 1–6, so no write was made to them.
-
-Assurance verdict:
+## 8. Bounded hygiene assurance verdict
 
 ```text
-authorized points 1–6                         PASS
-written-file readback                         PASS
-root navigation / old-bundle safety           PASS within scope
-full current-package entry-point coherence     FAIL / PENDING HYG-05
-repository hygiene Promotion readiness         NOT YET ESTABLISHED
+authorized hygiene implementation                PASS
+written-file readback                             PASS
+root README / CURRENT coherence                   PASS
+current-vs-history realization navigation         PASS
+obsolete Bundle v0.1/v0.2 action safety           PASS
+promotion-method hygiene coverage                 PASS
+HYG-05 current-package metadata coherence          PASS
+Global v0.5 / Project v0.4 payload preservation    PASS by commit diff
+current-session v0.5/v0.4 effective load           OBSERVED BY CONTENT
+persistent UI settings readback                    NOT SEPARATELY RECORDED
+runtime behavioral conformance                     NOT ESTABLISHED
+real-use quality / outcomes                        NOT ESTABLISHED
 ```
+
+Supported claim:
+
+> **The post-PR13 repository-hygiene candidate is Promotion-ready within its bounded navigation, supersession, current-package metadata and promotion-readback-assurance scope.**
+
+This does **not** establish full repository cleanliness, external Runtime persistence, behavioral conformance or outcome effectiveness.
 
 ## 9. Current gate
 
-This branch is not yet ready for a merge decision because HYG-05 is a detected, AI-resolvable defect outside the current write authorization.
-
-Minimum next frontier:
+The bounded hygiene candidate has completed implementation and readback. It remains Candidate because no repository Promotion has been authorized or performed.
 
 ```text
-metadata-only reconcile current Global v0.5 status
-+ metadata-only reconcile current Project v0.4 status
-+ metadata/transition reconcile Bundle v0.4
-→ readback current package
-→ re-run entry-point coherence check
-→ only then return to Human repository Promotion gate
+H1  bounded hygiene implementation/readback       COMPLETE / PASS
+H2  bounded hygiene Promotion readiness            PASS
+H3  repository Promotion                            HUMAN PROMOTION GATE — NOT AUTHORIZED
 ```
 
-No compiled payload text needs to change; no Runtime semantic recompile is indicated.
+If this hygiene candidate is later promoted and read back from `main`, the parent program resumes at:
 
-**Current disposition:** HUMAN GATE — WAIT.  
-**Exact Human authorization required:** allow metadata-only reconciliation of Global v0.5, Project v0.4 and Installation Bundle v0.4 on this existing hygiene branch, with **no payload recompile, no external settings change, no PR creation and no merge**.
+```text
+complete/record persistent external-settings readback where required
+→ R19 Runtime conformance preflight
+→ R20 first genuine System Development real-work validation
+```
+
+**Current disposition:** PROMOTION GATE — WAIT.  
+No PR creation or merge is authorized by this closure-sync.
