@@ -1,12 +1,12 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R20 REAL-USE VALIDATION — **GLOBAL-CI-ONLY ENTRY ENFORCEMENT FALSIFIED / NATIVE WORK-SKILL ENTRY CANDIDATE BEHAVIORALLY SUPPORTED / PRODUCT SEMANTICS RECONCILED / STATIC ARCHITECTURE KEEP CLOSED / REAL-USE PILOT NEXT**.  
+**Status:** R20 REAL-USE VALIDATION — **GLOBAL-CI-ONLY ENTRY ENFORCEMENT FALSIFIED / NATIVE WORK-SKILL ENTRY + REAL-USE PASS WITHIN TESTED FRONTIER / PRODUCT SEMANTICS RECONCILED / STATIC ARCHITECTURE KEEP CLOSED / ACTIVE R20 REPAIR CLOSED / MONITOR GENUINE USE**.  
 **Date:** 2026-08-21  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current active Runtime:** Global v0.5 restored and independently UI-read back; active System Development Project remains v0.4; Personal Skill `material-work-entry v0.2` is installed externally in ChatGPT Work and remains an unpromoted runtime candidate.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. Behavioral validation changes validation/repair readiness only; it does not itself promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
+**Authority:** this `main/CURRENT.md` is the controlling repository state. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
 
 ## 1. Parent program and qualified state
 
@@ -27,7 +27,7 @@ Active System Development Project v0.4            EFFECTIVE LOAD OBSERVED BY CON
 Project v0.4 independent persistent UI readback   NOT SEPARATELY RECORDED HERE
 
 R19 Runtime conformance — Chat + GitHub            PASS within prior scoped preflight
-R19x Work/Codex cross-surface conformance          PARTIALLY EXERCISED: Work Skill path now behaviorally tested; Codex still not exercised
+R19x Work/Codex cross-surface conformance          PARTIALLY EXERCISED: Work Skill path + first genuine Work continuation now behaviorally exercised; Codex still not exercised
 
 R20 Graphic-Novel Cold-Start case                  FAIL
 R20 initial failure localization                   COMPLETE
@@ -57,16 +57,25 @@ Material changed-claim re-admission                PASS
 Existing Parent + new professional Child           PASS
 Native Work-Skill Entry candidate                  BEHAVIORALLY SUPPORTED within tested scope
 
+Native Work real-use pilot                         PASS within bound Story-Assurance frontier
+Established professional continuation              PASS within tested frontier
+Existing-artifact audit + failure detection         PASS
+AI-resolvable structural repair                    PASS
+Claim-bound assurance / transition integrity        PASS
+Reader emotional effect                            UNVERIFIED — story-specific downstream claim
+Full-Arc story promotion                           BLOCKED / NOT GRANTED
+
 Documented ChatGPT Work/Chat/Project/Memory facts  RECOVERED FROM CURRENT OPENAI DOCS
 Synthetic testing of documented product basics     STOP
 Custom GPT                                         DEFERRED
 
 Current repair decision                            NATIVE WORK-SKILL = STRONGEST LOW-COMPLEXITY NATIVE CANDIDATE
-Next                                               NATIVE WORK-SKILL REAL-USE PILOT
-Real-use quality / outcomes                        NOT ESTABLISHED
+R20 active repair                                  CLOSED
+Next                                               MONITOR GENUINE USE; reopen only on material observed failure
+Real-use quality / outcomes                        PARTIALLY ESTABLISHED within tested frontier; broader system outcomes NOT ESTABLISHED
 ```
 
-No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist. The current change is a Runtime provider/surface/carrier realization result, not a static architecture change.
+No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist. The current result is a Runtime provider/surface/carrier realization result plus bounded real-use evidence, not a static architecture change.
 
 ## 2. Persistent R20 evidence
 
@@ -76,7 +85,8 @@ Material records on `main`:
 - `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-BEHAVIORAL-VALIDATION.md` — v0.6 carrier/readback/behavior/rollback/isolation evidence;
 - `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GLOBAL-V0.7-BEHAVIORAL-FAILURE.md` — exact v0.7 install/readback PASS, cold-start FAIL 2/2, downstream abort, exact v0.5 rollback PASS, bounded falsification of Global-CI-only enforcement;
 - `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-TWO-PASS-GATEWAY-LIVE-API-READINESS-BLOCKER.md` — live API validation authorized but blocked before first call because no authorized API credential was bound;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-NATIVE-WORK-SKILL-VALIDATION.md` — consolidated `material-work-entry v0.2` Work-surface validation plus reconciliation of documented ChatGPT Work/Chat/Project/Memory/Skill semantics.
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-NATIVE-WORK-SKILL-VALIDATION.md` — consolidated `material-work-entry v0.2` Work-surface validation plus reconciliation of documented ChatGPT Work/Chat/Project/Memory/Skill semantics;
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-NATIVE-WORK-SKILL-REAL-USE-PILOT.md` — first genuine Work pilot: existing 3-epoch beer-story artifact audited, repaired and qualified to structural PASS while reader emotional performance and Full-Arc readiness remain pending.
 
 Candidate/static assurance retained outside `main` Promotion state:
 
@@ -84,7 +94,7 @@ Candidate/static assurance retained outside `main` Promotion state:
 - `repair/r20-entry-dispatch-v0.2` → corrected Entry-Dispatch source/carriers + `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.4.md`;
 - `prototype/r20-two-pass-entry-gateway-v0.1` → executable gateway/schema/eval-harness prototype.
 
-Positive static branch traces and external Skill behavior do not independently promote repository Runtime state.
+Positive static branch traces, external Skill behavior and bounded real-use PASS do not independently promote repository Runtime state.
 
 ## 3. R20 actual case and original failure
 
@@ -173,6 +183,7 @@ persistent-state semantics                          EXISTS
 model/runtime can perform target behavior locally   SUPPORTED
 Global-CI-only permanent entry enforcement           FAIL / UNRELIABLE
 native Work-Skill trigger-local mechanism            BEHAVIORALLY SUPPORTED within tested scope
+native established-frontier Work continuation        PASS within first genuine pilot frontier
 ```
 
 Therefore:
@@ -353,7 +364,59 @@ CUSTOM GPT
 
 This is a Runtime provider/surface/carrier assignment, not a new architecture stage.
 
-## 12. Validation policy correction
+## 12. First genuine Native Work real-use pilot
+
+The pilot resumed the actual beer-Graphic-Novel Work Object at an established Story-Assurance frontier rather than using another fixture.
+
+The Work provider was asked to attack the existing 3-epoch prototype and determine whether `Choral Relationship Relay + Silent Hidden Partner` produces longitudinal emotional continuity or merely three thematically connected anthology episodes.
+
+Observed sequence:
+
+```text
+existing Working Artifact preserved
+→ professional narrative/sequential-art reference basis established
+→ original artifact fails the gate
+→ concrete structural + historical-semantic defects identified
+→ AI repairs those defects in Working Artifact v0.2
+→ failure-sensitive post-repair stress test
+→ exact structural claim qualified
+→ reader emotional performance remains UNVERIFIED
+→ Full Arc remains blocked
+```
+
+Material pilot properties:
+
+```text
+Parent/frontier continuity                     PASS
+Actual artifact before redesign                PASS
+Professional Method/Reference activation       PASS
+Failure detection                              PASS
+AI-resolvable refinement                       PASS
+Mechanism before polish                        PASS
+Claim-bound assurance                          PASS
+Transition integrity                           PASS
+Human burden within supplied return            PASS observed
+```
+
+Story-specific qualified state:
+
+```text
+3-epoch longitudinal mechanism                 STRUCTURAL PASS
+Actual reader emotional payoff                 UNVERIFIED
+Rendered sequential-page performance           UNVERIFIED
+Extension to additional epochs                 UNVERIFIED
+Full-Arc promotion                             NOT GRANTED
+```
+
+The pilot return itself does not independently prove Skill invocation on that established-frontier turn; no validation marker was present. That is not required for the exact pilot claim because prior Skill evidence already supports Entry/Re-admission, while this pilot evaluates downstream continuation/repair/assurance on an already bound legitimate frontier.
+
+Supported combined runtime claim:
+
+> **On the tested ChatGPT Work path, Entry/Re-admission is behaviorally supported by `material-work-entry v0.2`, and the first genuine established-frontier Work pilot demonstrated competent professional continuation, failure detection, AI-side repair and bounded assurance without reopening the original R20 failure class.**
+
+This does not establish universal system performance or downstream story outcome quality.
+
+## 13. Validation policy correction
 
 Do **not** spend Human time re-testing documented ChatGPT product basics unless a concrete discrepancy/bug is observed.
 
@@ -375,7 +438,7 @@ Reserve empirical testing for system-specific claims that documentation cannot e
 
 This correction removes unnecessary Human QA/product-discovery burden from the validation method.
 
-## 13. Promotion / persistence status
+## 14. Promotion / persistence status
 
 ```text
 Static Architecture                    KEEP CLOSED
@@ -383,7 +446,8 @@ Canonical Runtime on main              UNCHANGED
 Promoted Global Runtime                v0.5
 Active external Global                 v0.5 restored/readback PASS
 material-work-entry v0.2               EXTERNAL PERSONAL SKILL / CANDIDATE
-Native Work-Skill behavior             SUPPORTED within tested matrix
+Native Work-Skill Entry behavior       SUPPORTED within tested matrix
+Native Work real-use continuation      PASS within first bound frontier
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
 Custom GPT                              deferred
@@ -392,14 +456,52 @@ PR / Merge / Promotion                  NONE for current Skill candidate
 
 Persistence of validation evidence does not promote the Skill into authoritative Runtime state.
 
-## 14. Next legitimate frontier
+## 15. R20 closure / monitor decision
 
-**Native Work-Skill Real-Use Pilot.**
+The original R20 failure class now has a viable low-complexity native realization path:
 
-Use an actual new material Work Object rather than another synthetic fixture. Observe normal use rather than platform-function trivia. The pilot should test whether the current composition preserves Entry/Admission, professional quality, Parent/state/authority, proportional Human Gates and persistence decisions over real work.
+```text
+Global invariant kernel
++ ChatGPT Work for material professional work
++ material-work-entry v0.2 for Entry/Re-admission
++ Project only when persistence/continuity earns it
+```
 
-Only actual failures should trigger further repair. Persist evidence at the next material evidence/promotion boundary.
+The Skill matrix supports Entry, DIRECT proportionality, Formation, BOUND continuation, changed-claim re-admission and nested-child re-admission. The first genuine Work pilot adds positive evidence for established-frontier professional continuation, reference use, failure detection, AI-side repair, claim-bound assurance and transition integrity.
 
-No further Global-CI wording iteration, ordinary-Chat Skill fixture, Custom-GPT build or API validation is required before this pilot.
+No further active R20 repair is proportionate without new counterevidence.
 
-**Current disposition:** CONTINUE — NATIVE WORK-SKILL REAL-USE PILOT.
+Therefore:
+
+> **CLOSE the active R20 repair loop. MONITOR genuine use. Reopen only when a material observed failure establishes a new repair need.**
+
+Material reopen signals include, for example:
+
+- missed Entry/Re-admission on real work;
+- Parent/state/authority drift;
+- premature Candidate/route qualification;
+- disproportionate or avoidable Human Gates;
+- inadequate professional intended-use quality;
+- harmful Work→Project persistence behavior;
+- native surface limitations that materially block real work.
+
+Do not manufacture further synthetic fixtures merely because more testing is possible.
+
+## 16. Next legitimate frontier
+
+For the system-development program:
+
+```text
+R20 active repair        CLOSE
+Runtime disposition      MONITOR IN GENUINE USE
+Static Architecture      KEEP CLOSED
+Next system action       none required until material new evidence or another legitimate program frontier arises
+```
+
+For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
+
+> perform a sequential low-fidelity read sufficient to test whether the repaired 3-epoch artifact's intended cumulative emotional effect is actually perceived before any Full-Arc promotion.
+
+That story frontier may continue in its own Work context. It is not a reason to reopen R20.
+
+**Current disposition:** MONITOR — R20 ACTIVE REPAIR CLOSED; REOPEN ONLY ON MATERIAL OBSERVED FAILURE.
