@@ -35,7 +35,7 @@ Persistent UI save/readback evidence              NOT SEPARATELY RECORDED
 Runtime behavioral conformance                    NOT ESTABLISHED
 ```
 
-PR #14 changes only repository hygiene/state coherence. Before merge it is a reviewed Candidate; if this exact state is read on `main` after an authorized PR #14 merge, that bounded hygiene package is repository-promoted. Neither state changes the Runtime semantic payloads or the external-settings claim boundary.
+PR #14 changes only repository hygiene/state coherence. Before merge it is a reviewed Candidate whose final Promotion readiness is determined by the latest PR-level review of the current head; if this exact state is read on `main` after an authorized PR #14 merge, that bounded hygiene package is repository-promoted. Neither state changes the Runtime semantic payloads or the external-settings claim boundary.
 
 ## Accepted conceptual baseline
 
@@ -162,14 +162,14 @@ Evidence record:
 
 ## Promotion-state handoff / current gate
 
-The promotion-state handoff rewrite has been written and read back from the PR #14 head. Final PR-level Promotion review still determines whether the candidate is merge-ready.
+The promotion-state handoff rewrite is persisted on the PR #14 head. The transient PR-level verdict is intentionally not hard-coded here; the latest review of the current PR head controls Promotion readiness.
 
 ```text
 IF read on unmerged PR #14 / its head branch:
   bounded hygiene implementation/readback       COMPLETE / PASS
   promotion-state handoff repair                 IMPLEMENTED / READBACK PASS
-  PR #14 Promotion review                        REQUIRED
-  PR #14 repository Promotion                    HUMAN MERGE GATE — WAIT after PASS only
+  PR #14 Promotion verdict                       CHECK LATEST REVIEW OF CURRENT PR HEAD
+  PR #14 repository Promotion                    HUMAN MERGE GATE — only after PASS
 
 IF this exact state is read on main after PR #14 merge:
   bounded hygiene Promotion                      COMPLETE
