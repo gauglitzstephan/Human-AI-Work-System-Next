@@ -1,12 +1,12 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** RUNTIME TRANSITION — **R18 RECONCILED / R19 CONFORMANCE PREFLIGHT PASS FOR CURRENT ACCESSIBLE COMPOSITION / R20 FIRST GENUINE E2E REAL-WORK VALIDATION NEXT**.  
+**Status:** R20 REAL-USE VALIDATION — **GRAPHIC-NOVEL COLD-START FAILURE LOCALIZED / STATIC ARCHITECTURE KEEP CLOSED / BOUNDED RUNTIME REPAIR FORMATION NEXT**.  
 **Date:** 2026-08-21  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current Runtime repository package:** Global v0.5 + System Development Project v0.4 + Installation Bundle v0.4.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. No architecture, Runtime-payload or external-settings change is established by the R18/R19 transition recorded here.
+**Authority:** this `main/CURRENT.md` is the controlling repository state. R20 failure localization changes the qualified Runtime-validation state only; it does not itself modify architecture, Canonical Runtime semantics, compiled Runtime payloads or external settings.
 
 ## 1. Parent program and qualified state
 
@@ -17,8 +17,8 @@ Parent outcome:
 Current qualified state:
 
 ```text
-Target Architecture v0.2                          ACCEPTED
-Static E2E Work Architecture package              REPOSITORY-PROMOTED / CLOSED BY DEFAULT
+Target Architecture v0.2                          ACCEPTED / KEEP CLOSED
+Static E2E Work Architecture package              REPOSITORY-PROMOTED / KEEP CLOSED
 Runtime deployment + interaction-control repair   REPOSITORY-PROMOTED via PR #13
 Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
 Current-session Global v0.5 effective load        OBSERVED BY CONTENT
@@ -26,138 +26,143 @@ Current-session Project v0.4 effective load       OBSERVED BY CONTENT
 Persistent UI settings readback                   NOT AVAILABLE / NOT SEPARATELY RECORDED
 R19 Runtime conformance — Chat + GitHub            PASS
 Work/Codex cross-surface conformance               NOT YET EXERCISED
-Real-use quality / outcomes                        NOT ESTABLISHED
+R20 Graphic-Novel Cold-Start case                  FAIL / FAILURE LOCALIZED
+Runtime realization                               LOCALLY REOPENED FOR BOUNDED REPAIR FORMATION
+Repair decision                                   NOT YET MADE
+Real-use quality / outcomes                       NOT ESTABLISHED
 ```
 
-No new static-architecture reopen trigger is established. Static architecture remains closed by default.
+No Target-Architecture ownership gap is established by R20. The relevant architecture responsibilities/mechanisms already exist; the observed defect is localized first to Architecture→Runtime realization / compilation / activation.
 
-## 2. Canonical Runtime source and current compiled views
-
-Canonical semantic source:
-
-- `realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md`
-
-Current compiled views / transition package:
-
-- `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`
-- `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`
-- `realization/E2E-INSTALLATION-BUNDLE-v0.4.md`
-
-Global v0.5 identity:
-
-```text
-LF:       4,991
-CRLF:     4,997
-SHA-256:  865cc07b101a907b42adaa5506537f27db554d9195a70077ae7050d7cf84d72f
-Carrier:  <= 5,000 characters — PASS
-```
-
-Project v0.4 identity:
-
-```text
-LF:       5,172
-CRLF:     5,181
-SHA-256:  338a01576cfa3e330b0e120dba509ee447f516cd4675a212924efc91388dd69b
-Observed carrier capacity: 8,000 characters — PASS
-```
-
-The exact Global v0.5 and Project v0.4 payloads were not modified by PR #14 or by R18/R19 reconciliation.
-
-## 3. Runtime type and control boundaries
-
-Preserve:
-
-```text
-Work Function
-≠ Control Operator
-≠ Method
-≠ Capability Provider
-≠ Surface / Environment
-≠ State / Knowledge Carrier
-≠ Boundary Contract
-```
-
-and:
-
-```text
-Decision
-≠ Commitment
-≠ Authorization
-≠ Handoff
-≠ Execution
-≠ Provider Return
-≠ Human-facing Control Return
-≠ Promotion / State Transition
-```
-
-`Persistence ≠ Promotion`.
-
-`Next` means continue the currently bound legitimate frontier. It does **not** imply acceptance, Promotion, Authorization, persistence, scope change or a new commitment.
-
-## 4. R18 external-settings readback reconciliation
-
-Current-session observation:
-
-```text
-Global v0.5 effective load        OBSERVED BY CONTENT
-Project v0.4 effective load       OBSERVED BY CONTENT
-Persistent UI readback            NOT AVAILABLE / NOT SEPARATELY RECORDED
-Mismatch/truncation evidence      NONE OBSERVED
-External settings mutation        NOT PERFORMED
-```
-
-The available Runtime/tool surface does not independently expose the ChatGPT settings UI for persistent save/readback. Per Bundle v0.4, this keeps only the persistence/readback claim unverified; it does not erase the separately observed effective load and does not by itself require reinstalling the Runtime.
-
-**R18 reconciliation:** **PASS for transition reconciliation; persistent UI state remains explicitly unverified.**
-
-## 5. R19 Runtime conformance preflight
+## 2. R20 real-use case
 
 Persistent evidence:
 
-- `evaluation/e2e-real-use/E2E-04-R19-2026-08-21-RUNTIME-CONFORMANCE-PREFLIGHT.md`
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GRAPHIC-NOVEL-COLD-START-RCA.md`
 
-Preflight verdict:
+Actual case:
 
-```text
-Project Instructions effective availability       PASS
-main/CURRENT + Method Registry resolution          PASS
-actual provider/tool access discipline             PASS
-Chat→Work/Codex natural handoff                    NOT YET EXERCISED / DEFERRED
-Provider Return → parent rebind                     PASS
-Human-facing Control Return                        PASS
-safe Next / no implicit Gate crossing              PASS
-Human Gate / WAIT behavior                         PASS
-Persistence ≠ Promotion in behavior                PASS
-Repository write/Promotion/readback                PASS
-Bounded/proportional work                          PASS with observed correction
-Validation evidence persistence                    PASS
-```
+- genuine long-form historical Graphic-Novel initiative about the history of beer;
+- materially open narrative problem / solution class;
+- professional narrative/sequential-art/historical-storytelling method dependence;
+- likely persistent initiative/context need;
+- substantive solution/candidate work began before sufficient upstream professional Performance/Reference/Method basis was established.
 
-Qualified R19 claim:
+Observed Human burden included detection and redirection of an AI-resolvable upstream orchestration defect.
 
-> **Runtime Conformance Preflight PASS for the currently accessible and actually exercised Chat + GitHub composition. Persistent UI readback remains unverified. Work/Codex cross-surface behavior remains unexercised and must be tested only when a genuine future frontier naturally requires that transition.**
+## 3. R20 differential localization
 
-This is not a universal cross-surface reliability claim.
-
-## 6. Repository hygiene closure retained
-
-PR #14 repository hygiene/state reconciliation remains **COMPLETE / CLOSED** within its bounded claim:
+The failure was traced across:
 
 ```text
-HYG-01 stale root navigation                         PASS
-HYG-02 superseded executable-looking bundles        PASS
-HYG-03 realization version ambiguity                 PASS
-HYG-04 Promotion/Readback assurance coverage gap     PASS
-HYG-05 current-package transition metadata            PASS
-HYG-06 Promotion-State-Handoff safety                 PASS
-Global v0.5 / Project v0.4 payload preservation      PASS by diff
+Requirements baseline
+→ Target Architecture v0.2
+→ E2E Work Architecture v0.1
+→ E2E Operating Runtime Contract v0.1
+→ Canonical Runtime Semantic Source v0.1
+→ Global Runtime v0.5 compiled carrier
+→ observed Graphic-Novel behavior
 ```
 
-Material hygiene evidence remains:
+Qualified findings:
 
-- `evaluation/e2e-real-use/E2E-04-2026-08-20-POST-PR13-RUNTIME-LOAD-AND-HYGIENE.md`.
+### A. Cold-start Parent / Work-System composition
 
-No additional repository-hygiene or architecture work is indicated by R19.
+Architecture owns Admit/Frame/Formation and adaptive Work Selection. Runtime control is comparatively continuation-biased (`REBIND` / `Bind parent ... unclear→recover`) and does not equally explicitly operationalize the case where a new material Work Object has no established Parent/Work state yet.
+
+**Localization:** Runtime composition / activation gap.
+
+### B. Solution / Candidate Admission
+
+CR-10 and the E2E Work Architecture require sufficient upstream readiness before materially dependent downstream work. In Runtime realization the stronger explicit guard is mainly commitment-readiness; an equally explicit guard against premature **Solution/Candidate qualification** is not preserved.
+
+**Localization:** material Architecture→Runtime semantic-preservation gap in Candidate Admission.
+
+Key distinction:
+
+```text
+unpromoted
+≠ legitimately candidate-ready
+```
+
+### C. Professional / Reference Method Activation
+
+The Method mechanism exists in architecture, Operating Runtime, Canonical Runtime and Global v0.5, including task-local resolution when no reusable pack exists.
+
+Observed Graphic-Novel behavior did not activate a material narrative/sequential-art/historical-storytelling method/reference basis before substantive story-architecture work.
+
+**Localization:** behavioral Runtime non-conformance / Method-trigger failure.
+
+### D. Persistent initiative / context activation
+
+Persistent/divergent-state semantics and Project-as-conditional-context already exist. The cold-start decision that a new Work Object now requires continuity beyond transient chat is weakly composed with Admission/Formation.
+
+**Localization:** Runtime activation/composition gap. `Missing Project` is not Root Cause.
+
+### E. Human-facing Parent legibility
+
+Parent continuity/shared-state legibility exist, but Human-facing Control Return does not explicitly require the controlling Parent/bigger-picture outcome as a minimum visible field.
+
+**Localization:** separate Runtime Control-Return legibility gap; material but not the primary cause of premature substantive work.
+
+## 4. Root-cause hierarchy
+
+Strongest supported Root Cause:
+
+> **Cold-start Architecture→Runtime operationalization failure:** existing Admission, upstream transition-integrity, professional-sufficiency, adaptive-work-selection and conditional-persistence semantics are not composed/enforced strongly enough at the cold start of a new material professional Work Object. The most concrete semantic loss is insufficient Solution/Candidate-Admission control.
+
+Contributing failures:
+
+1. behavioral Professional/Reference Method Activation failure;
+2. persistent-initiative/context activation weakness;
+3. continuation-biased Parent/Rebind control for genuinely new Work Objects;
+4. separate Human-facing Parent/Bigger-Picture legibility weakness.
+
+Rejected Root-Cause candidates:
+
+- a Graphic-Novel Project had to exist before starting;
+- a complete domain Method Stack had to exist before starting;
+- Target Architecture lacks an owner for Formation/Professional Method/Persistence.
+
+## 5. Architecture-reopen decision
+
+R20 currently establishes:
+
+```text
+architecture owner / responsibility                 EXISTS
+upstream readiness / transition integrity           EXISTS
+professional method/reference obligation            EXISTS
+persistent-state semantics                          EXISTS
+runtime realization preserves/activates all fully   NO
+behavioral method activation                        NO
+```
+
+Therefore:
+
+> **STATIC ARCHITECTURE KEEP CLOSED.**
+
+No named static reopen trigger is established. Repair the lowest responsible Runtime layer first.
+
+## 6. R20 case verdict
+
+```text
+End-to-End completeness                FAIL
+Outcome / Work Product fidelity        PARTIAL
+Professional / Reference activation    FAIL / UNVERIFIED
+State integrity                        PARTIAL
+Decision / Promotion integrity         PARTIAL / PASS downstream
+Human agency / burden                  FAIL signal
+Orchestration                          FAIL
+Solution/Candidate admission           FAIL
+Persistent-state activation            FAIL / PARTIAL
+Parent legibility                      FAIL
+Assurance                              PARTIAL
+Learning / failure localization        PASS so far
+```
+
+Supported R20 claim:
+
+> **The Graphic-Novel Cold-Start case is a material R20 real-use failure. The strongest supported localization is an Architecture→Runtime cold-start operationalization / Solution-Candidate-Admission semantic-preservation failure plus behavioral Method-Activation failure. Static Architecture remains closed because the relevant responsibility/mechanism classes already exist.**
 
 ## 7. Current transition
 
@@ -167,23 +172,24 @@ HYG  repository hygiene Promotion via PR #14          COMPLETE
 R18  external-settings readback reconciliation        PASS / persistent UI claim UNVERIFIED
 R19  Runtime conformance preflight                    PASS — current Chat + GitHub composition
 R19x Work/Codex cross-surface conformance             DEFERRED UNTIL NATURALLY EXERCISED
-R20  first genuine E2E real-work validation           NEXT
+R20  Graphic-Novel Cold-Start real-use case           FAIL / FAILURE LOCALIZED
+ARCH  Static Architecture                             KEEP CLOSED
+RT-R  Runtime realization                             LOCALLY REOPENED FOR BOUNDED REPAIR FORMATION
+REPAIR Repair selection / authorization               NOT YET MADE
 ```
 
-R19x is not a blocking synthetic test. If R20 or a later genuine work frontier requires Work or Codex, that natural transition must carry the required Handoff/Return state and becomes evidence for the deferred claim.
+## 8. Next legitimate frontier
 
-## 8. Current gate
+**Bounded Runtime Repair Formation** only.
 
-The next legitimate parent frontier is **R20 — first genuine E2E real-work validation**.
+Decision question:
 
-Use:
+> What minimum change to Runtime semantics/compilation/activation restores cold-start Work-System composition, Solution/Candidate admission discipline and Method/Context activation without introducing a mandatory new stage, universal Project bootstrap or visible process bureaucracy?
 
-- `methods/system-development/REAL-USE-VALIDATION-METHOD-v0.1.md`;
-- `evaluation/E2E-REAL-USE-VALIDATION-PROTOCOL-v0.1.md`;
-- persistent material evidence under `evaluation/e2e-real-use/`.
+The Human-facing Parent-legibility issue remains a distinct second delta unless the same minimal mechanism cleanly resolves it.
 
-R20 should use the next genuine System Development work frontier rather than a synthetic test. Localize any failure to the lowest responsible layer; reopen static architecture only on a named material trigger.
+Before any Repair write/promotion, form and assure a bounded candidate against the R20 failure evidence and preserve unaffected qualified Runtime/architecture state.
 
-No external ChatGPT settings mutation is authorized by this state.
+No Canonical Runtime, compiled Runtime, Project Instructions, architecture or external ChatGPT settings change is authorized by this state.
 
-**Current disposition:** CONTINUE — R20 first genuine E2E real-work validation.
+**Current disposition:** CONTINUE — bounded Runtime Repair Formation.
