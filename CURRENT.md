@@ -165,7 +165,7 @@ HYG-05 reconciled only status / transition metadata in:
 
 Commit-diff readback confirmed that the exact Global v0.5 and Project v0.4 payload blocks were not modified.
 
-HYG-06 made `CURRENT.md`, root `README.md`, `realization/README.md` and the E2E-04 record valid on both sides of the PR #14 merge boundary. The transient PR-level review verdict is intentionally carried by PR #14 rather than hard-coded into the repository artifacts, so a review does not make the reviewed state stale by itself.
+HYG-06 made `CURRENT.md`, root `README.md`, `realization/README.md` and the E2E-04 record valid on both sides of the PR #14 merge boundary. Readback of all four repaired surfaces passed. The transient PR-level review verdict is intentionally carried by PR #14 rather than hard-coded into the repository artifacts, so a review does not make the reviewed state stale by itself.
 
 No architecture/requirements change, Runtime payload recompile, external settings mutation, branch cleanup or merge has been performed. PR #14 exists as a Draft for Promotion review.
 
