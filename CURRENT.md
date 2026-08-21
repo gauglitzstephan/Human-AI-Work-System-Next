@@ -1,13 +1,14 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** POST-PR13 REPOSITORY HYGIENE / STATE RECONCILIATION — **PROMOTED + POST-MERGE READBACK/RECONCILIATION COMPLETE WITHIN BOUNDED HYGIENE CLAIM**.  
+**Status:** RUNTIME TRANSITION — **R18 RECONCILED / R19 CONFORMANCE PREFLIGHT PASS FOR CURRENT ACCESSIBLE COMPOSITION / R20 FIRST GENUINE E2E REAL-WORK VALIDATION NEXT**.  
 **Date:** 2026-08-21  
-**PR #14 repository Promotion:** **COMPLETE** — squash merge commit `375624d03670c369a6244826098392ed0b9c4b39`.  
+**PR #13 Runtime repository Promotion:** **COMPLETE**.  
+**PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current Runtime repository package:** Global v0.5 + System Development Project v0.4 + Installation Bundle v0.4.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. PR #14 changed repository hygiene/state coherence only; it did not change accepted architecture or Runtime semantic payloads and did not authorize any external ChatGPT settings mutation.
+**Authority:** this `main/CURRENT.md` is the controlling repository state. No architecture, Runtime-payload or external-settings change is established by the R18/R19 transition recorded here.
 
-## 1. Parent program and accepted state
+## 1. Parent program and qualified state
 
 Parent outcome:
 
@@ -16,20 +17,19 @@ Parent outcome:
 Current qualified state:
 
 ```text
-Target Architecture v0.2                         ACCEPTED
-Static E2E Work Architecture package             REPOSITORY-PROMOTED / CLOSED BY DEFAULT
-Runtime deployment + interaction-control repair  REPOSITORY-PROMOTED via PR #13
-Post-PR13 repository hygiene/state reconciliation REPOSITORY-PROMOTED via PR #14
-External Runtime persistent settings readback     NOT SEPARATELY RECORDED
-Runtime behavioral conformance                    NOT ESTABLISHED
-Real-use quality / outcomes                       NOT ESTABLISHED
+Target Architecture v0.2                          ACCEPTED
+Static E2E Work Architecture package              REPOSITORY-PROMOTED / CLOSED BY DEFAULT
+Runtime deployment + interaction-control repair   REPOSITORY-PROMOTED via PR #13
+Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
+Current-session Global v0.5 effective load        OBSERVED BY CONTENT
+Current-session Project v0.4 effective load       OBSERVED BY CONTENT
+Persistent UI settings readback                   NOT AVAILABLE / NOT SEPARATELY RECORDED
+R19 Runtime conformance — Chat + GitHub            PASS
+Work/Codex cross-surface conformance               NOT YET EXERCISED
+Real-use quality / outcomes                        NOT ESTABLISHED
 ```
 
-The named Runtime reopen trigger addressed by PR #13 was:
-
-> **CR-13 Runtime / implementation fidelity failure — Runtime type-system collapse + carrier-binding omission**, including the Human-facing control-return defect observed on 2026-08-20.
-
-PR #14 did not establish a new static-architecture trigger. Static architecture completeness remains closed.
+No new static-architecture reopen trigger is established. Static architecture remains closed by default.
 
 ## 2. Canonical Runtime source and current compiled views
 
@@ -61,9 +61,7 @@ SHA-256:  338a01576cfa3e330b0e120dba509ee447f516cd4675a212924efc91388dd69b
 Observed carrier capacity: 8,000 characters — PASS
 ```
 
-PR #14 changed only status/transition metadata around the current compiled views; commit-diff review established that the exact Global v0.5 and Project v0.4 payload blocks were not modified.
-
-Older compiled views and bundles remain lineage only and must not be selected for installation. `realization/README.md` is the realization navigation index.
+The exact Global v0.5 and Project v0.4 payloads were not modified by PR #14 or by R18/R19 reconciliation.
 
 ## 3. Runtime type and control boundaries
 
@@ -96,25 +94,54 @@ Decision
 
 `Next` means continue the currently bound legitimate frontier. It does **not** imply acceptance, Promotion, Authorization, persistence, scope change or a new commitment.
 
-## 4. Current interaction chain
+## 4. R18 external-settings readback reconciliation
+
+Current-session observation:
 
 ```text
-Human trigger
-→ Controller / bound parent + frontier
-→ Handoff if responsibility/environment changes
-→ provider execution
-→ Provider Return
-→ readback / rebind / integrate / qualify parent
-→ Human-facing Control Return
-→ CLOSE / CONTINUE / HUMAN GATE / PROMOTION GATE /
-   HANDOFF / WAIT / MONITOR
+Global v0.5 effective load        OBSERVED BY CONTENT
+Project v0.4 effective load       OBSERVED BY CONTENT
+Persistent UI readback            NOT AVAILABLE / NOT SEPARATELY RECORDED
+Mismatch/truncation evidence      NONE OBSERVED
+External settings mutation        NOT PERFORMED
 ```
 
-At material interaction boundaries the Human must not have to infer disposition, `Next` safety, persistence/Promotion intent or the exact required action.
+The available Runtime/tool surface does not independently expose the ChatGPT settings UI for persistent save/readback. Per Bundle v0.4, this keeps only the persistence/readback claim unverified; it does not erase the separately observed effective load and does not by itself require reinstalling the Runtime.
 
-## 5. Repository hygiene package promoted by PR #14
+**R18 reconciliation:** **PASS for transition reconciliation; persistent UI state remains explicitly unverified.**
 
-PR #14 promoted the bounded repair of:
+## 5. R19 Runtime conformance preflight
+
+Persistent evidence:
+
+- `evaluation/e2e-real-use/E2E-04-R19-2026-08-21-RUNTIME-CONFORMANCE-PREFLIGHT.md`
+
+Preflight verdict:
+
+```text
+Project Instructions effective availability       PASS
+main/CURRENT + Method Registry resolution          PASS
+actual provider/tool access discipline             PASS
+Chat→Work/Codex natural handoff                    NOT YET EXERCISED / DEFERRED
+Provider Return → parent rebind                     PASS
+Human-facing Control Return                        PASS
+safe Next / no implicit Gate crossing              PASS
+Human Gate / WAIT behavior                         PASS
+Persistence ≠ Promotion in behavior                PASS
+Repository write/Promotion/readback                PASS
+Bounded/proportional work                          PASS with observed correction
+Validation evidence persistence                    PASS
+```
+
+Qualified R19 claim:
+
+> **Runtime Conformance Preflight PASS for the currently accessible and actually exercised Chat + GitHub composition. Persistent UI readback remains unverified. Work/Codex cross-surface behavior remains unexercised and must be tested only when a genuine future frontier naturally requires that transition.**
+
+This is not a universal cross-surface reliability claim.
+
+## 6. Repository hygiene closure retained
+
+PR #14 repository hygiene/state reconciliation remains **COMPLETE / CLOSED** within its bounded claim:
 
 ```text
 HYG-01 stale root navigation                         PASS
@@ -126,63 +153,37 @@ HYG-06 Promotion-State-Handoff safety                 PASS
 Global v0.5 / Project v0.4 payload preservation      PASS by diff
 ```
 
-Material artifacts include:
+Material hygiene evidence remains:
 
-- root `README.md`;
-- `realization/README.md`;
-- Bundle v0.1/v0.2 `SUPERSEDED / DO NOT INSTALL` tombstones;
-- current Bundle v0.4 transition metadata;
-- `methods/system-development/REPOSITORY-PROMOTION-READBACK-METHOD-v0.1.md` hygiene-scan revision;
 - `evaluation/e2e-real-use/E2E-04-2026-08-20-POST-PR13-RUNTIME-LOAD-AND-HYGIENE.md`.
 
-No architecture/requirements change, Runtime semantic recompile, external settings mutation or branch-history cleanup was part of PR #14.
+No additional repository-hygiene or architecture work is indicated by R19.
 
-## 6. Post-merge readback / reconciliation
-
-PR #14 was merged from reviewed head `81804d6117c74753623ad25c2dd7249db8ae0646` into `main` as squash commit `375624d03670c369a6244826098392ed0b9c4b39`.
-
-Post-merge readback established:
+## 7. Current transition
 
 ```text
-PR #14 repository Promotion                         COMPLETE
-root README promotion-state interpretation          PASS
-realization navigation / current-vs-history          PASS
-Bundle v0.4 current transition state                PASS
-Bundle v0.1/v0.2 supersession safety                PASS
-CURRENT post-merge factual closure-sync             PASS after this authorized sync
-E2E-04 post-merge evidence closure-sync             PASS after paired authorized sync/readback
-external settings mutation                          NOT PERFORMED
+R17  Runtime repository Promotion via PR #13          COMPLETE
+HYG  repository hygiene Promotion via PR #14          COMPLETE
+R18  external-settings readback reconciliation        PASS / persistent UI claim UNVERIFIED
+R19  Runtime conformance preflight                    PASS — current Chat + GitHub composition
+R19x Work/Codex cross-surface conformance             DEFERRED UNTIL NATURALLY EXERCISED
+R20  first genuine E2E real-work validation           NEXT
 ```
 
-The current System Development conversation exposes Global and Project instruction content matching the promoted v0.5 / v0.4 payloads. This remains evidence of **effective load in the current session**, not independent evidence of persistent UI save/readback, future-session persistence or behavioral conformance.
-
-## 7. Current external Runtime state
-
-```text
-R17  PR #13 Runtime repository Promotion             COMPLETE
-HYG   PR #14 repository hygiene Promotion            COMPLETE
-R18a current-session effective Global v0.5 load      OBSERVED BY CONTENT
-R18a current-session effective Project v0.4 load     OBSERVED BY CONTENT
-R18b persistent UI save/readback evidence             NOT SEPARATELY RECORDED
-R19  Runtime conformance preflight                    NEXT AFTER R18b RECONCILIATION AS REQUIRED
-R20  first genuine E2E real-work validation           BLOCKED until R19
-```
-
-A missing independent UI readback keeps only that persistence/readback claim unverified; it does not erase the separately observed current-session effective load.
+R19x is not a blocking synthetic test. If R20 or a later genuine work frontier requires Work or Codex, that natural transition must carry the required Handoff/Return state and becomes evidence for the deferred claim.
 
 ## 8. Current gate
 
-The post-PR13 repository hygiene Work Unit is **CLOSED** within its bounded claim.
+The next legitimate parent frontier is **R20 — first genuine E2E real-work validation**.
 
-Next legitimate parent frontier:
+Use:
 
-```text
-complete/record persistent external-settings readback where required
-→ Runtime conformance preflight
-→ first genuine System Development real-work validation
-→ persist material validation evidence under evaluation/e2e-real-use/
-```
+- `methods/system-development/REAL-USE-VALIDATION-METHOD-v0.1.md`;
+- `evaluation/E2E-REAL-USE-VALIDATION-PROTOCOL-v0.1.md`;
+- persistent material evidence under `evaluation/e2e-real-use/`.
 
-No new architecture work is indicated by the hygiene closure.
+R20 should use the next genuine System Development work frontier rather than a synthetic test. Localize any failure to the lowest responsible layer; reopen static architecture only on a named material trigger.
 
-**Current disposition:** CONTINUE — external-settings readback reconciliation / Runtime conformance preflight. No external settings mutation is authorized by this state.
+No external ChatGPT settings mutation is authorized by this state.
+
+**Current disposition:** CONTINUE — R20 first genuine E2E real-work validation.
