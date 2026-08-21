@@ -1,12 +1,12 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R20 REAL-USE VALIDATION — **GRAPHIC-NOVEL COLD-START FAILURE LOCALIZED / STATIC ARCHITECTURE KEEP CLOSED / BOUNDED RUNTIME REPAIR FORMATION NEXT**.  
+**Status:** R20 REAL-USE VALIDATION — **BEHAVIORAL RCA LOCALIZED / STATIC ARCHITECTURE KEEP CLOSED / GLOBAL v0.6 CANDIDATE BEHAVIORAL FAIL / ENTRY-ACTIVATION REPAIR FORMATION NEXT**.  
 **Date:** 2026-08-21  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
-**Current Runtime repository package:** Global v0.5 + System Development Project v0.4 + Installation Bundle v0.4.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. R20 failure localization changes the qualified Runtime-validation state only; it does not itself modify architecture, Canonical Runtime semantics, compiled Runtime payloads or external settings.
+**Current active Runtime:** Global v0.5 restored and independently UI-read back; active System Development Project remains v0.4.  
+**Authority:** this `main/CURRENT.md` is the controlling repository state. R20 behavioral validation changes validation/repair readiness only; it does not itself modify architecture, Canonical Runtime semantics, Operating Runtime, compiled Runtime candidates, branch state, PR/Promotion state or external settings beyond the completed temporary test-and-rollback sequence.
 
 ## 1. Parent program and qualified state
 
@@ -21,175 +21,292 @@ Target Architecture v0.2                          ACCEPTED / KEEP CLOSED
 Static E2E Work Architecture package              REPOSITORY-PROMOTED / KEEP CLOSED
 Runtime deployment + interaction-control repair   REPOSITORY-PROMOTED via PR #13
 Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
-Current-session Global v0.5 effective load        OBSERVED BY CONTENT
-Current-session Project v0.4 effective load       OBSERVED BY CONTENT
-Persistent UI settings readback                   NOT AVAILABLE / NOT SEPARATELY RECORDED
-R19 Runtime conformance — Chat + GitHub            PASS
-Work/Codex cross-surface conformance               NOT YET EXERCISED
-R20 Graphic-Novel Cold-Start case                  FAIL / FAILURE LOCALIZED
-Runtime realization                               LOCALLY REOPENED FOR BOUNDED REPAIR FORMATION
-Repair decision                                   NOT YET MADE
-Real-use quality / outcomes                       NOT ESTABLISHED
+
+Active Global v0.5                                RESTORED / PERSISTENT UI READBACK PASS
+Active System Development Project v0.4            EFFECTIVE LOAD OBSERVED BY CONTENT
+Project v0.4 independent persistent UI readback   NOT SEPARATELY RECORDED HERE
+
+R19 Runtime conformance — Chat + GitHub            PASS within prior scoped preflight
+R19x Work/Codex cross-surface conformance          NOT YET EXERCISED
+
+R20 Graphic-Novel Cold-Start case                  FAIL
+R20 initial failure localization                   COMPLETE
+R20 behavioral validation                         COMPLETE / TARGET BEHAVIOR FAIL
+Behavioral RCA                                     LOCALIZED ENOUGH FOR REPAIR FORMATION
+
+Static Architecture                               KEEP CLOSED
+Global v0.6 repair candidate                       STATIC/COUNTERFACTUAL PASS ON BRANCH
+Global v0.6 behavioral conformance                 FAIL — 2/2 cold-start runs
+Global v0.6 Promotion eligibility                  FAIL / NOT ELIGIBLE ON CURRENT EVIDENCE
+Project v0.5 disposable recovery regression        PASS — SCOPED, NOT COLD-START PROOF
+Local explicit Admission isolation                 PASS
+
+Current repair decision                            NOT YET MADE
+Next                                               ENTRY-ACTIVATION REPAIR FORMATION
+Real-use quality / outcomes                        NOT ESTABLISHED
 ```
 
-No Target-Architecture ownership gap is established by R20. The relevant architecture responsibilities/mechanisms already exist; the observed defect is localized first to Architecture→Runtime realization / compilation / activation.
+No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist.
 
-## 2. R20 real-use case
+## 2. Persistent R20 evidence
 
-Persistent evidence:
+Material records:
 
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GRAPHIC-NOVEL-COLD-START-RCA.md`
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GRAPHIC-NOVEL-COLD-START-RCA.md` — initial differential RCA;
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-BEHAVIORAL-VALIDATION.md` — actual carrier/readback/behavior/rollback/isolation evidence;
+- branch assurance: `repair/r20-cold-start-admission-v0.1` → `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.3.md` — static/counterfactual assurance only.
 
-Actual case:
+The positive branch trace must not be treated as Promotion evidence independently of the later behavioral failure record.
 
-- genuine long-form historical Graphic-Novel initiative about the history of beer;
-- materially open narrative problem / solution class;
-- professional narrative/sequential-art/historical-storytelling method dependence;
-- likely persistent initiative/context need;
-- substantive solution/candidate work began before sufficient upstream professional Performance/Reference/Method basis was established.
+## 3. R20 actual case and original failure
 
-Observed Human burden included detection and redirection of an AI-resolvable upstream orchestration defect.
+The genuine work case is development of a long-form historical Graphic Novel about the history of beer.
 
-## 3. R20 differential localization
+At cold start it was materially:
 
-The failure was traced across:
+- professionally/craft dependent;
+- open in narrative problem and solution class;
+- reference-sensitive;
+- plausibly persistent across work episodes;
+- capable of materially different story architectures depending on unresolved upstream Performance/Reference state.
+
+Observed failure in the original work:
+
+> substantive Story-Architecture solution/candidate work began before enough professional Performance/Reference/Method basis and persistence/context need had been formed.
+
+The Human had to detect and redirect this AI-resolvable upstream orchestration defect.
+
+## 4. Bounded repair branch retained as Candidate only
+
+Branch:
 
 ```text
-Requirements baseline
-→ Target Architecture v0.2
-→ E2E Work Architecture v0.1
-→ E2E Operating Runtime Contract v0.1
-→ Canonical Runtime Semantic Source v0.1
-→ Global Runtime v0.5 compiled carrier
-→ observed Graphic-Novel behavior
+repair/r20-cold-start-admission-v0.1
 ```
 
-Qualified findings:
+Branch artifacts include:
 
-### A. Cold-start Parent / Work-System composition
+- Operating Runtime cold-start/admission delta;
+- Canonical Runtime semantic delta;
+- Global v0.6 compiled candidate;
+- System Development Project v0.5 compiled candidate;
+- relation-level compiled semantic trace v0.3.
 
-Architecture owns Admit/Frame/Formation and adaptive Work Selection. Runtime control is comparatively continuation-biased (`REBIND` / `Bind parent ... unclear→recover`) and does not equally explicitly operationalize the case where a new material Work Object has no established Parent/Work state yet.
-
-**Localization:** Runtime composition / activation gap.
-
-### B. Solution / Candidate Admission
-
-CR-10 and the E2E Work Architecture require sufficient upstream readiness before materially dependent downstream work. In Runtime realization the stronger explicit guard is mainly commitment-readiness; an equally explicit guard against premature **Solution/Candidate qualification** is not preserved.
-
-**Localization:** material Architecture→Runtime semantic-preservation gap in Candidate Admission.
-
-Key distinction:
+Current candidate identities:
 
 ```text
-unpromoted
-≠ legitimately candidate-ready
+Global v0.6
+LF       4,994
+CRLF     5,000
+SHA-256  2b60f4d0390e4808fa1ce50d3609c0dec872b5eacd45973d069fa7c4a1b61fcf
+
+Project v0.5
+LF       6,143
+CRLF     6,152
+SHA-256  16b46d87d98926e3e676957782569061f84faa2f5060d9d6e590c6e98853842b
 ```
 
-### C. Professional / Reference Method Activation
+The branch remains Working/Candidate. No PR, merge or Promotion has been created from it.
 
-The Method mechanism exists in architecture, Operating Runtime, Canonical Runtime and Global v0.5, including task-local resolution when no reusable pack exists.
+## 5. Behavioral validation route and results
 
-Observed Graphic-Novel behavior did not activate a material narrative/sequential-art/historical-storytelling method/reference basis before substantive story-architecture work.
+### A. Disposable Project v0.5
 
-**Localization:** behavioral Runtime non-conformance / Method-trigger failure.
+Persistent Project UI readback matched Project v0.5 exactly.
 
-### D. Persistent initiative / context activation
+A recovery/predecessor test using an explicit known repository/branch and an explicit `Recover` instruction preserved:
 
-Persistent/divergent-state semantics and Project-as-conditional-context already exist. The cold-start decision that a new Work Object now requires continuity beyond transient chat is weakly composed with Admission/Formation.
+- `main/CURRENT.md` as authority;
+- branch as Candidate;
+- no write/PR/Promotion inference;
+- correct next Behavioral Validation frontier.
 
-**Localization:** Runtime activation/composition gap. `Missing Project` is not Root Cause.
+Verdict:
 
-### E. Human-facing Parent legibility
+```text
+Project v0.5 carrier readback             PASS
+Established-work recovery regression      PASS
+Cold-start Admission behavior             NOT TESTED BY THIS STAGE
+Project-vs-Global carrier superiority      UNVERIFIED
+```
 
-Parent continuity/shared-state legibility exist, but Human-facing Control Return does not explicitly require the controlling Parent/bigger-picture outcome as a minimum visible field.
+The Project PASS must not be used as evidence that Project Instructions solve the open cold-start failure class.
 
-**Localization:** separate Runtime Control-Return legibility gap; material but not the primary cause of premature substantive work.
+### B. Active Global v0.5 baseline
 
-## 4. Root-cause hierarchy
+Before temporary candidate installation, the Human copied the full saved Global Custom Instructions from the UI.
 
-Strongest supported Root Cause:
+Readback matched promoted Global v0.5 exactly:
 
-> **Cold-start Architecture→Runtime operationalization failure:** existing Admission, upstream transition-integrity, professional-sufficiency, adaptive-work-selection and conditional-persistence semantics are not composed/enforced strongly enough at the cold start of a new material professional Work Object. The most concrete semantic loss is insufficient Solution/Candidate-Admission control.
+```text
+LF       4,991
+CRLF     4,997
+SHA-256  865cc07b101a907b42adaa5506537f27db554d9195a70077ae7050d7cf84d72f
+```
 
-Contributing failures:
+This independently establishes persistent visible UI readback for the active Global v0.5 rollback target.
 
-1. behavioral Professional/Reference Method Activation failure;
-2. persistent-initiative/context activation weakness;
-3. continuation-biased Parent/Rebind control for genuinely new Work Objects;
-4. separate Human-facing Parent/Bigger-Picture legibility weakness.
+### C. Global v0.6 exact install/readback
 
-Rejected Root-Cause candidates:
+Global v0.6 was temporarily installed and visibly copied back from the UI before behavioral testing.
 
-- a Graphic-Novel Project had to exist before starting;
-- a complete domain Method Stack had to exist before starting;
-- Target Architecture lacks an owner for Formation/Professional Method/Persistence.
+```text
+exact candidate identity     PASS
+truncation/mismatch          NONE OBSERVED
+carrier installation/readback PASS
+```
 
-## 5. Architecture-reopen decision
+### D. G1a / G1b cold-start behavioral execution
 
-R20 currently establishes:
+Two independent fresh Temporary Chats used the same substantive prompt:
+
+```text
+Ich möchte ein Grafik Novel über die Geschichte des Bieres entwerfen
+```
+
+Both responses immediately generated and preferred substantive narrative mechanisms before adequate upstream professional/craft Formation.
+
+Representative counterevidence:
+
+```text
+G1a: "Mein Favorit wäre ... Die Hefe selbst ist die Hauptfigur."
+G1b: "Ein starkes Grundkonzept wäre: Eine einzelne 'wandernde' Hefekultur ..."
+```
+
+Both then elaborated chronology/dramaturgy/visual direction and downstream design work.
+
+Pre-registered result:
+
+```text
+Cold-start / provisional Parent                     FAIL 2/2
+Solution/Candidate Admission                        FAIL 2/2
+Professional Craft/Method Activation                FAIL 2/2
+Ideas bounded as probes before Candidate treatment  FAIL 2/2
+Persistence not unnecessarily forced                PASS
+Substantive help rather than pure process            PASS
+```
+
+**Global v0.6 behavioral verdict:** **CRITICAL FAIL — replicated 2/2.**
+
+G2–G4 anti-ceremony controls were aborted per the pre-registered stop rule.
+
+### E. Rollback
+
+Global v0.5 was immediately restored and visibly read back again.
+
+```text
+Global v0.5 restore/readback    PASS
+```
+
+The external test transition is therefore operationally closed; active Global state is again v0.5.
+
+### F. Local explicit Admission isolation
+
+After rollback, one fresh Temporary Chat used a local high-salience Admission/Formation guard immediately before the same Graphic-Novel task.
+
+Observed behavior:
+
+- provisional Parent/Outcome formed;
+- an existing closely matching beer-history Graphic Novel was identified as solution-class-changing reference evidence;
+- upstream positioning/audience/focus/fictionality uncertainties were surfaced;
+- professional comic-craft reference intelligence activated;
+- three alternatives were explicitly labeled `unqualifizierte Probes`;
+- none was treated as a preferred Candidate;
+- differentiation/narrative-thesis testing preceded chapter/design-basis work.
+
+**Isolation verdict:** **PASS.**
+
+This materially weakens the hypothesis that the observed model/runtime is fundamentally unable to execute the desired Admission behavior.
+
+## 6. Behavioral RCA
+
+### Failed claim
+
+> Global v0.6 should enforce Cold-Start Parent/Admission/Method readiness for a new materially open professional Work Object before preferred Solution/Candidate/design-basis treatment.
+
+### First divergence point
+
+```text
+new material professional trigger
+→ expected: detect material openness / upstream readiness
+→ observed: immediate preferred solution mechanism
+```
+
+Therefore the first responsible mechanism is currently:
+
+> **Work-Function / Solution-Admission entry activation and enforcement.**
+
+Method Activation is also behaviorally absent, but in this observed path it is downstream of the Admission predicate failing to activate effectively.
+
+### Strongest supported Root Cause
+
+> **Global Runtime entry-activation failure:** the required Cold-Start/Admission semantic exists, was compiled into the exact tested carrier, and can be realized under a local explicit guard, but does not reliably self-activate as generic permanent Global policy before ordinary generative solution behavior on an open professional cold start.
+
+Current supported chain:
+
+```text
+semantic owner exists
++ Canonical relation exists on repair branch
++ compiled Global relation exists
++ exact Global-v0.6 UI install/readback PASS
++ local explicit Admission isolation PASS
+≠ permanent Global conditional self-activation PASS
+```
+
+Open contributing mechanisms remain hypotheses until needed for repair selection:
+
+- activation-predicate / self-classification salience;
+- competition with direct Work Product / minimum-work / shallowest-adequate semantics;
+- carrier salience/precedence effects;
+- higher-priority product/model defaults not externally observable from current evidence.
+
+No one of those is independently proven by this case.
+
+## 7. Architecture-reopen decision
+
+Current evidence establishes:
 
 ```text
 architecture owner / responsibility                 EXISTS
 upstream readiness / transition integrity           EXISTS
 professional method/reference obligation            EXISTS
 persistent-state semantics                          EXISTS
-runtime realization preserves/activates all fully   NO
-behavioral method activation                        NO
+model/runtime can perform target behavior locally   SUPPORTED
+permanent Global entry activation                   FAIL / UNRELIABLE
 ```
 
 Therefore:
 
 > **STATIC ARCHITECTURE KEEP CLOSED.**
 
-No named static reopen trigger is established. Repair the lowest responsible Runtime layer first.
+No named architecture reopen trigger is established. Repair the lowest responsible Runtime realization/activation layer first.
 
-## 6. R20 case verdict
+## 8. Candidate status correction
 
-```text
-End-to-End completeness                FAIL
-Outcome / Work Product fidelity        PARTIAL
-Professional / Reference activation    FAIL / UNVERIFIED
-State integrity                        PARTIAL
-Decision / Promotion integrity         PARTIAL / PASS downstream
-Human agency / burden                  FAIL signal
-Orchestration                          FAIL
-Solution/Candidate admission           FAIL
-Persistent-state activation            FAIL / PARTIAL
-Parent legibility                      FAIL
-Assurance                              PARTIAL
-Learning / failure localization        PASS so far
-```
-
-Supported R20 claim:
-
-> **The Graphic-Novel Cold-Start case is a material R20 real-use failure. The strongest supported localization is an Architecture→Runtime cold-start operationalization / Solution-Candidate-Admission semantic-preservation failure plus behavioral Method-Activation failure. Static Architecture remains closed because the relevant responsibility/mechanism classes already exist.**
-
-## 7. Current transition
+The bounded branch candidate must now be interpreted as:
 
 ```text
-R17  Runtime repository Promotion via PR #13          COMPLETE
-HYG  repository hygiene Promotion via PR #14          COMPLETE
-R18  external-settings readback reconciliation        PASS / persistent UI claim UNVERIFIED
-R19  Runtime conformance preflight                    PASS — current Chat + GitHub composition
-R19x Work/Codex cross-surface conformance             DEFERRED UNTIL NATURALLY EXERCISED
-R20  Graphic-Novel Cold-Start real-use case           FAIL / FAILURE LOCALIZED
-ARCH  Static Architecture                             KEEP CLOSED
-RT-R  Runtime realization                             LOCALLY REOPENED FOR BOUNDED REPAIR FORMATION
-REPAIR Repair selection / authorization               NOT YET MADE
+Operating/Canonical repair instantiated     YES on branch
+Global v0.6 carrier fit                     PASS
+Project v0.5 carrier fit                    PASS
+relation-level static regression            PASS
+counterfactual shadow regression            PASS
+actual Global v0.6 behavior                 FAIL 2/2
+Promotion readiness                         FAIL / NOT ELIGIBLE
 ```
 
-## 8. Next legitimate frontier
+`STATIC PASS` does not offset `BEHAVIORAL FAIL`.
 
-**Bounded Runtime Repair Formation** only.
+## 9. Next legitimate frontier
+
+**Entry-Activation Repair Formation** only.
 
 Decision question:
 
-> What minimum change to Runtime semantics/compilation/activation restores cold-start Work-System composition, Solution/Candidate admission discipline and Method/Context activation without introducing a mandatory new stage, universal Project bootstrap or visible process bureaucracy?
+> What minimum Runtime realization makes Cold-Start Admission a reliable entry activation mechanism rather than a conditional policy whose own trigger depends on the same unbound generative behavior it is meant to control — while preserving direct/proportional behavior for bounded work?
 
-The Human-facing Parent-legibility issue remains a distinct second delta unless the same minimal mechanism cleanly resolves it.
+Repair Formation must not assume that making Global wording more forceful is sufficient; Global-v0.6 wording has already been behaviorally falsified for the tested case.
 
-Before any Repair write/promotion, form and assure a bounded candidate against the R20 failure evidence and preserve unaffected qualified Runtime/architecture state.
+No new Canonical Runtime, Operating Runtime, compiled carrier, branch, PR, Promotion, architecture or external-settings write is authorized by this state.
 
-No Canonical Runtime, compiled Runtime, Project Instructions, architecture or external ChatGPT settings change is authorized by this state.
-
-**Current disposition:** CONTINUE — bounded Runtime Repair Formation.
+**Current disposition:** CONTINUE — Entry-Activation Repair Formation.
