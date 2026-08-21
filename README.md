@@ -4,11 +4,22 @@
 
 ## Start here
 
-**[`CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point.**
+**[`CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point for the tree in which it is read.**
 
 Do not infer the current program from historical `Next` sections, newest-looking files, old installation bundles, or closed/unmerged branches.
 
-If this README is read on an unmerged repair branch, `main/CURRENT.md` remains repository authority until explicit Promotion.
+Promotion-state rule:
+
+```text
+if read on unmerged PR #14 / repair/post-pr13-repo-hygiene-v0.1
+→ main/CURRENT.md remains repository authority
+→ hygiene package remains Candidate at Human Promotion Gate
+
+if this exact state is read on main after PR #14 merge
+→ bounded hygiene Promotion is COMPLETE
+→ CURRENT.md in this tree is controlling
+→ next parent frontier is external-settings readback reconciliation / Runtime conformance preflight
+```
 
 ## Current status
 
@@ -23,6 +34,8 @@ Current-session effective v0.5/v0.4 load         OBSERVED BY CONTENT
 Persistent UI save/readback evidence              NOT SEPARATELY RECORDED
 Runtime behavioral conformance                    NOT ESTABLISHED
 ```
+
+PR #14 changes only repository hygiene/state coherence. Before merge it is a reviewed Candidate; if this exact state is read on `main` after an authorized PR #14 merge, that bounded hygiene package is repository-promoted. Neither state changes the Runtime semantic payloads or the external-settings claim boundary.
 
 ## Accepted conceptual baseline
 
@@ -130,7 +143,7 @@ A registry entry is not automatically applicable; provenance, fit and claim-spec
 
 PR #13 was repository Promotion only. It did not itself establish ChatGPT UI installation or behavioral acceptance.
 
-The current System Development session now exposes Global and Project instruction content matching the promoted v0.5 / v0.4 payloads. This establishes **current-session effective load by content observation**. It does not independently establish persistent UI save/readback, future-session persistence or behavioral conformance.
+The current System Development session exposes Global and Project instruction content matching the promoted v0.5 / v0.4 payloads. This establishes **current-session effective load by content observation**. It does not independently establish persistent UI save/readback, future-session persistence or behavioral conformance.
 
 Evidence record:
 
@@ -138,7 +151,7 @@ Evidence record:
 
 ## Key current documents
 
-- [`CURRENT.md`](CURRENT.md) — controlling program state
+- [`CURRENT.md`](CURRENT.md) — controlling program state for the current tree
 - [`foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md) — accepted concern/requirements basis
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) — accepted conceptual baseline
 - [`architecture/E2E-WORK-ARCHITECTURE-CANDIDATE-v0.1.md`](architecture/E2E-WORK-ARCHITECTURE-CANDIDATE-v0.1.md) — repository-promoted static E2E architecture package
@@ -147,16 +160,19 @@ Evidence record:
 - [`evaluation/E2E-REAL-USE-VALIDATION-PROTOCOL-v0.1.md`](evaluation/E2E-REAL-USE-VALIDATION-PROTOCOL-v0.1.md) — real-use validation protocol
 - [`realization/README.md`](realization/README.md) — realization navigation and supersession map
 
-## Current gate
-
-The repository Runtime repair is promoted. The next parent-program transition is not new architecture work.
+## Promotion-state handoff / current gate
 
 ```text
-record/complete persistent settings readback where required
-→ Runtime conformance preflight
-→ first genuine System Development real-work case
-→ persist material evidence under evaluation/e2e-real-use/
-→ accept / locally repair / rollback at the lowest responsible layer
+IF read on unmerged PR #14 / its head branch:
+  bounded hygiene implementation/readback       COMPLETE / PASS
+  promotion-state handoff repair                 IMPLEMENTED / REVIEW REQUIRED
+  PR #14 repository Promotion                    HUMAN MERGE GATE — WAIT
+
+IF this exact state is read on main after PR #14 merge:
+  bounded hygiene Promotion                      COMPLETE
+  persistent external-settings readback          NEXT TRANSITION / NOT YET ESTABLISHED
+  Runtime conformance preflight                  PENDING readback reconciliation as required
+  first genuine System Development real-work     BLOCKED until preflight
 ```
 
-If this README is read on the unmerged post-PR13 hygiene branch, the immediate local gate is only **candidate readback/coherence verification**. Merge remains a separate Human Promotion decision.
+A PR #14 merge would not authorize external ChatGPT settings mutation and would not establish persistent settings readback, Runtime behavioral conformance or outcome effectiveness.
