@@ -87,6 +87,14 @@ def _load_schema() -> dict[str, Any]:
     return json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
 
 
+def _function_parameters(schema: dict[str, Any]) -> dict[str, Any]:
+    """Return only the strict function-parameter schema used by the API."""
+    return {
+        key: schema[key]
+        for key in ("type", "properties", "required", "additionalProperties")
+    }
+
+
 def _post_json(payload: dict[str, Any], api_key: str, timeout: int = 120) -> dict[str, Any]:
     body = json.dumps(payload).encode("utf-8")
     request = urllib.request.Request(
@@ -194,6 +202,8 @@ class EntryGateway:
             "parent_summary": None,
             "frontier_summary": None,
         }
+        self.last_dispatch_meta: dict[str, Any] = {}
+        self.last_work_meta: dict[str, Any] = {}
 
     def _context_payload(self, user_text: str) -> str:
         return json.dumps(
@@ -210,7 +220,7 @@ class EntryGateway:
             "type": "function",
             "name": "route_entry",
             "description": "Return the mandatory EntryDecision for this trigger. Do not answer the task.",
-            "parameters": self.schema,
+            "parameters": _function_parameters(self.schema),
             "strict": True,
         }
         payload = {
@@ -225,6 +235,11 @@ class EntryGateway:
             "reasoning": {"effort": self.reasoning_effort},
         }
         response = _post_json(payload, self.api_key)
+        self.last_dispatch_meta = {
+            "response_id": response.get("id"),
+            "model": response.get("model"),
+            "usage": response.get("usage"),
+        }
         decision = _extract_function_args(response, "route_entry")
         validate_entry_decision(decision, self.schema)
         return decision
@@ -252,6 +267,11 @@ class EntryGateway:
             "reasoning": {"effort": self.reasoning_effort},
         }
         response = _post_json(payload, self.api_key)
+        self.last_work_meta = {
+            "response_id": response.get("id"),
+            "model": response.get("model"),
+            "usage": response.get("usage"),
+        }
         return _extract_text(response)
 
     def handle(self, user_text: str) -> dict[str, Any]:
@@ -268,7 +288,12 @@ class EntryGateway:
 
         self.transcript.append({"role": "user", "content": user_text})
         self.transcript.append({"role": "assistant", "content": answer})
-        return {"entry_decision": decision, "answer": answer}
+        return {
+            "entry_decision": decision,
+            "answer": answer,
+            "dispatch_meta": self.last_dispatch_meta,
+            "work_meta": self.last_work_meta,
+        }
 
 
 def main() -> int:
@@ -278,6 +303,7 @@ def main() -> int:
     parser.add_argument("--reasoning-effort", default="low",
                         choices=["none", "low", "medium", "high", "xhigh", "max"])
     parser.add_argument("--show-dispatch", action="store_true")
+    parser.add_argument("--show-meta", action="store_true")
     args = parser.parse_args()
 
     api_key = os.environ.get("OPENAI_API_KEY")
@@ -291,6 +317,16 @@ def main() -> int:
         result = gateway.handle(text)
         if args.show_dispatch:
             print(json.dumps(result["entry_decision"], ensure_ascii=False, indent=2))
+            print("---")
+        if args.show_meta:
+            print(json.dumps(
+                {
+                    "dispatch_meta": result["dispatch_meta"],
+                    "work_meta": result["work_meta"],
+                },
+                ensure_ascii=False,
+                indent=2,
+            ))
             print("---")
         print(result["answer"])
 
