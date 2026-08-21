@@ -1,8 +1,9 @@
 # E2E-04 — Post-PR13 Runtime Load and Repository Hygiene
 
-**Date:** 2026-08-20  
+**Observation date:** 2026-08-20  
+**Closure-sync date:** 2026-08-21  
 **Case class:** E2E-04 — persistent multi-turn / multi-surface work program  
-**Status:** MATERIAL OBSERVATION RECORD — candidate evidence on hygiene repair branch  
+**Status:** MATERIAL OBSERVATION + BOUNDED HYGIENE ASSURANCE RECORD — candidate evidence on hygiene repair branch; Promotion-ready within scoped hygiene claim  
 **Parent:** Human–AI Work System Runtime realization / validation program
 
 ## 1. Observation boundary
@@ -10,7 +11,7 @@
 This record captures two distinct facts after PR #13:
 
 1. the promoted Runtime payloads are effectively present in the current System Development Chat session;
-2. repository navigation/supersession remained partially stale after repository Promotion.
+2. repository navigation/supersession remained partially stale after repository Promotion and was repaired on a bounded hygiene branch.
 
 It does **not** claim persistent ChatGPT UI readback, cross-session persistence, behavioral conformance, professional-quality improvement or outcome effectiveness.
 
@@ -24,6 +25,8 @@ Repository state observed from `main`:
   - `realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`;
   - `realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`;
   - `realization/E2E-INSTALLATION-BUNDLE-v0.4.md`.
+
+The hygiene branch remains Candidate and does not replace `main` until separately promoted.
 
 ## 3. Current-session Runtime observation
 
@@ -59,11 +62,15 @@ This distinction prevents both underclaiming (`not installed` despite current ef
 
 **Impact:** a reader starting from the repository root could select a superseded Runtime package or infer the wrong current gate.
 
+**Candidate repair:** root README synchronized to the PR #13 package and current transition state.
+
 ### HYG-02 — superseded executable-looking bundles
 
 `realization/E2E-INSTALLATION-BUNDLE-v0.1.md` and `v0.2.md` still contained active-looking installation instructions whose historical merge preconditions had already become true.
 
 **Impact:** provenance artifacts could be misread as current executable guidance.
+
+**Candidate repair:** both files converted to explicit `SUPERSEDED / DO NOT INSTALL` tombstones while repository history preserves their original content.
 
 ### HYG-03 — realization version ambiguity
 
@@ -71,25 +78,29 @@ This distinction prevents both underclaiming (`not installed` despite current ef
 
 **Impact:** version number/file recency could be mistaken for authority.
 
+**Candidate repair:** `realization/README.md` added as current-package / history navigation.
+
 ### HYG-04 — promotion assurance coverage gap
 
 `methods/system-development/REPOSITORY-PROMOTION-READBACK-METHOD-v0.1.md` required `CURRENT.md` readback and parent reconciliation but did not explicitly require a post-promotion scan of root navigation, action-bearing package pointers and superseded executable-looking artifacts.
 
 **Impact:** PR #13 could be correctly promoted while material entry points remained contradictory.
 
-### HYG-05 — current package metadata still carries pre-observation transition state
+**Candidate repair:** method extended with Entry-Point Hygiene Scan and supersession-safety checks.
 
-The new Entry-Point Hygiene Scan found that the three **current** action-bearing artifacts still carry pre-current-session status wording:
+### HYG-05 — current package metadata carried pre-observation transition state
+
+The new Entry-Point Hygiene Scan found that the three **current** action-bearing artifacts still carried pre-current-session status wording:
 
 - `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`: `not externally installed`;
 - `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`: `external save/readback not performed`;
 - `E2E-INSTALLATION-BUNDLE-v0.4.md`: `repository promotion candidate; external installation not performed`.
 
-These statements were valid before the current-session effective-load observation but now conflict with the more precise supported state: **effective load observed in this session; independent persistent UI save/readback not separately recorded**.
+Those statements were valid before the current-session effective-load observation but conflicted with the more precise supported state: **effective load observed in this session; independent persistent UI save/readback not separately recorded**.
 
-**Impact:** full action-bearing entry-point coherence is not yet established.
+**Candidate repair:** Human-authorized metadata-only reconciliation of all three current-package status/transition surfaces. Global v0.5 and Project v0.4 exact payload blocks were not changed; commit-diff readback confirmed that only metadata/boundary text changed in those two compiled-view files.
 
-**Authority boundary:** repairing these three current-package files was not included in the Human-authorized points 1–6 for this branch. They were therefore **not modified** during this bounded implementation.
+**HYG-05 verdict:** **PASS after write + readback**.
 
 ## 5. Localization
 
@@ -101,16 +112,18 @@ No evidence from this audit establishes a new static architecture gap. The accep
 
 ## 6. Bounded candidate repair implemented
 
-Authorized candidate scope on branch `repair/post-pr13-repo-hygiene-v0.1`:
+Branch: `repair/post-pr13-repo-hygiene-v0.1`.
 
-1. normalize branch-local `CURRENT.md` to the post-PR13 state — **IMPLEMENTED**;
-2. synchronize root `README.md` to Global v0.5 / Project v0.4 / Bundle v0.4 — **IMPLEMENTED**;
-3. add `realization/README.md` current-vs-history navigation — **IMPLEMENTED**;
-4. tombstone Installation Bundles v0.1 and v0.2 — **IMPLEMENTED**;
-5. extend the repository Promotion/Readback method with entry-point/supersession hygiene checks — **IMPLEMENTED**;
-6. persist this evidence record — **IMPLEMENTED**.
+Implemented and read back:
 
-Readback confirmed the written branch artifacts. The new hygiene scan then exposed HYG-05 outside the authorized write scope.
+1. normalize branch-local `CURRENT.md` to the post-PR13 state — **PASS**;
+2. synchronize root `README.md` to Global v0.5 / Project v0.4 / Bundle v0.4 — **PASS**;
+3. add `realization/README.md` current-vs-history navigation — **PASS**;
+4. tombstone Installation Bundles v0.1 and v0.2 — **PASS**;
+5. extend repository Promotion/Readback method with entry-point/supersession hygiene checks — **PASS**;
+6. persist this evidence record — **PASS**;
+7. reconcile HYG-05 current-package metadata/transition surfaces — **PASS**;
+8. closure-sync branch-local `CURRENT.md` and this evidence record — **PASS pending final readback of these two closure-sync writes**.
 
 Out of scope and not performed:
 
@@ -119,38 +132,48 @@ Out of scope and not performed:
 - external ChatGPT settings mutation;
 - behavioral acceptance;
 - branch deletion or repository-wide historical cleanup;
-- metadata reconciliation of current Global v0.5 / Project v0.4 / Bundle v0.4;
+- PR creation;
 - merge/Promotion of this hygiene candidate.
 
 ## 7. Assurance verdict
 
+Before final closure-sync readback:
+
 ```text
-points 1–6 implementation                       PASS
-written-file readback                            PASS
-post-PR13 root README coherence                  PASS within written scope
-current-vs-history realization navigation        PASS
-obsolete Bundle v0.1/v0.2 action safety          PASS
-promotion-method hygiene coverage                PASS
-current-session v0.5/v0.4 effective load         OBSERVED BY CONTENT
-full current-package entry-point coherence        FAIL / PENDING HYG-05
-persistent UI settings readback                   NOT SEPARATELY RECORDED
-runtime behavioral conformance                    NOT ESTABLISHED
+bounded hygiene implementation                    PASS
+written-file readback for implementation           PASS
+post-PR13 root README coherence                    PASS
+current-vs-history realization navigation          PASS
+obsolete Bundle v0.1/v0.2 action safety            PASS
+promotion-method hygiene coverage                  PASS
+HYG-05 current-package metadata coherence           PASS
+Global v0.5 / Project v0.4 payload preservation    PASS by commit diff
+current-session v0.5/v0.4 effective load           OBSERVED BY CONTENT
+persistent UI settings readback                    NOT SEPARATELY RECORDED
+runtime behavioral conformance                     NOT ESTABLISHED
 ```
 
-The branch is therefore a valid bounded implementation of the authorized points 1–6, but **not yet Promotion-ready as a complete repository-hygiene repair**.
+Supported claim subject to final closure-sync readback:
+
+> **The post-PR13 repository-hygiene candidate is Promotion-ready within its bounded navigation, supersession, current-package metadata and promotion-readback-assurance scope.**
+
+This does **not** establish full repository cleanliness, external Runtime persistence, behavioral conformance or outcome effectiveness.
 
 ## 8. Next legitimate transition
 
-The minimum next frontier is a metadata-only extension of this hygiene candidate to reconcile the three current-package status surfaces with the supported Runtime transition state, without changing either compiled prompt payload.
-
-Required additional Human authorization:
+After final readback confirms this closure-sync and branch-local `CURRENT.md`:
 
 ```text
-Allow metadata-only reconciliation of:
-- Global v0.5 current compiled-view status;
-- Project v0.4 current compiled-view status;
-- Installation Bundle v0.4 transition/status wording;
-with no payload recompile, no external settings change and no merge.
+bounded hygiene candidate       PROMOTION-READY
+repository Promotion            HUMAN PROMOTION GATE — NOT AUTHORIZED
 ```
 
-Only after that extension is written and read back can this hygiene candidate return to a repository Promotion gate. Runtime conformance preflight remains downstream.
+No PR or merge is created by this closure-sync.
+
+If later separately promoted and read back from `main`, the parent program resumes at:
+
+```text
+complete/record persistent external-settings readback where required
+→ Runtime conformance preflight
+→ first genuine System Development real-work validation
+```
