@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EntryDecision",
+  "type": "object",
+  "properties": {
+    "context_relation": {
+      "type": "string",
+      "enum": [
+        "BOUND",
+        "NEW_CHANGED"
+      ]
+    },
+    "admission": {
+      "type": "string",
+      "enum": [
+        "NOT_APPLICABLE",
+        "DIRECT",
+        "FORMATION"
+      ]
+    },
+    "parent_mode": {
+      "type": "string",
+      "enum": [
+        "EXISTING",
+        "PROVISIONAL"
+      ]
+    },
+    "claim_summary": {
+      "type": "string"
+    },
+    "frontier_summary": {
+      "type": "string"
+    },
+    "material_triggers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "reality",
+          "outcome",
+          "requirements",
+          "performance",
+          "reference_method",
+          "evidence_uncertainty",
+          "persistence"
+        ]
+      }
+    },
+    "basis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "context_relation",
+    "admission",
+    "parent_mode",
+    "claim_summary",
+    "frontier_summary",
+    "material_triggers",
+    "basis"
+  ],
+  "additionalProperties": false
+}
