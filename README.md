@@ -162,11 +162,14 @@ Evidence record:
 
 ## Promotion-state handoff / current gate
 
+The promotion-state handoff rewrite has been written and read back from the PR #14 head. Final PR-level Promotion review still determines whether the candidate is merge-ready.
+
 ```text
 IF read on unmerged PR #14 / its head branch:
   bounded hygiene implementation/readback       COMPLETE / PASS
-  promotion-state handoff repair                 IMPLEMENTED / REVIEW REQUIRED
-  PR #14 repository Promotion                    HUMAN MERGE GATE — WAIT
+  promotion-state handoff repair                 IMPLEMENTED / READBACK PASS
+  PR #14 Promotion review                        REQUIRED
+  PR #14 repository Promotion                    HUMAN MERGE GATE — WAIT after PASS only
 
 IF this exact state is read on main after PR #14 merge:
   bounded hygiene Promotion                      COMPLETE
