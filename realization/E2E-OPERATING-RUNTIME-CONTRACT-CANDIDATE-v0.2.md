@@ -5,19 +5,19 @@
 **Branch:** `repair/r20-entry-dispatch-v0.2`  
 **Canonical source:** `realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.2.md`  
 **Interaction contract:** `realization/E2E-INTERACTION-FRONTIER-COMPILATION-CONTRACT-v0.2.md`  
-**Behavioral basis:** R20 Global-v0.6 exact-carrier behavioral FAIL 2/2 plus local explicit Admission isolation PASS.
+**Behavioral basis:** Global-v0.6 exact-carrier behavioral FAIL 2/2 + local explicit Admission isolation PASS + nested/new-child static defect discovered before v0.7 deployment.
 
 ## 1. Runtime objective
 
 For every Human trigger:
 
-> Enter Controller before substantive execution; establish/recover enough controlling state to select the exact legitimate next frontier; execute only work admissible for that frontier; preserve typed state/authority; enforce material upstream/downstream conditions; and write/read back persistent state only through legitimate paths.
+> Enter Controller before substantive execution; bind the legitimate controlling context; determine whether the trigger is a BOUND continuation or a NEW/CHANGED CLAIM; admit NEW/CHANGED claims through DIRECT vs FORMATION; then execute only work legitimate for that frontier while preserving typed state, authority, transition conditions and persistent-write discipline.
 
 The Runtime must not require every architecture function to become a separate agent, room, Project, Skill, store, bootstrap artifact or visible stage.
 
 ## 2. Controlling work state
 
-For multi-turn/material work, maintain enough of the following outside transient conversation memory when persistence matters:
+For multi-turn/material work, maintain enough of:
 
 ```text
 Parent Work Object / Intended Outcome
@@ -25,7 +25,7 @@ Current parent state / gate
 Active child contribution
 Allowed operation / mutation authority
 
-Frame / scope / decision object
+Current claim / decision object / admitted frontier
 Current reality / authoritative sources
 Requirements / Performance Model
 Selected route / solution status
@@ -45,7 +45,7 @@ Working vs accepted/authorized/controlling state
 Relevant Method / Knowledge pointers
 ```
 
-For bounded work most fields remain implicit/absent. For genuinely new work the Runtime does not materialize the full state object: it initializes only enough provisional Parent/outcome/allowed operation to dispatch the requested next claim.
+For bounded work most fields remain implicit/absent. For genuinely new work, initialize only enough provisional Parent/outcome/allowed operation to dispatch the requested next claim. For established work, Parent continuity does not automatically admit a new child claim.
 
 ## 3. Runtime control loop
 
@@ -54,44 +54,52 @@ Before substantive Work-Function execution:
 ```text
 0. ENTRY DISPATCH
 
-   A. ESTABLISHED vs NEW
+   A. BIND CONTEXT
 
-      ESTABLISHED:
+      existing legitimate Parent/frontier controls the request:
         bind/recover Parent Work Object / outcome
-        + current state/gate
-        + child contribution
+        + current state / gate
+        + active child contribution
         + allowed operation
 
-      NEW:
+      no established Parent controls the request:
         establish only enough provisional
         Parent Work Object / intended outcome / allowed operation
-        for the exact requested next claim
-        without creating a persistent boundary by default
+        for the requested next claim
+        without persistent boundary by default
 
-   B. If NEW: DIRECT vs FORMATION
+   B. RELATE TRIGGER TO BOUND WORK
+
+      BOUND CONTINUATION:
+        continues the already admitted current frontier
+        without material change to claim/scope/requirements/
+        means/decision object
+
+      NEW/CHANGED CLAIM:
+        new Work Object
+        OR new child claim under an existing Parent
+        OR material change to claim/scope/requirements/
+        means/decision object
+
+   C. ADMIT NEW/CHANGED CLAIM
 
       DIRECT iff unresolved upstream
         reality / outcome / requirements / performance /
-        professional-reference / evidence / persistence
-      cannot materially change:
-        - exact requested claim or Work-Product class;
-        - its evaluation;
-        - its feasibility.
+        professional-reference intelligence / evidence /
+        persistence context
+      cannot materially change that exact requested
+      claim/product class, evaluation or feasibility
 
-      otherwise:
-        FORMATION
+      otherwise → FORMATION
 
-   C. Explicitly requested exploration/ideas/options/scenes
-      may be DIRECT when exploration itself is the Work Product.
-      probe/exploration ≠ qualified Candidate ≠ selected route ≠ design basis.
+      explicit exploration may be DIRECT when exploration
+      itself is the requested Work Product;
+      probe/exploration ≠ qualified Candidate/route/design basis
 
-   D. ENTRY / Admission integrity precedes substantive
-      Work-Product fidelity and shallowest-route execution.
-
-1. RECOVER / BIND REALITY
+1. RECOVER / GROUND REALITY
    authoritative + already-qualified state
-   + runtime capability / authority
-   as required by the selected path
+   + actual capability / authority / runtime facts
+   as required by the admitted frontier
 
 2. IDENTIFY NEXT LEGITIMATE TRANSITION
    what exact claim/state/decision/action/outcome may validly change?
@@ -100,37 +108,121 @@ Before substantive Work-Function execution:
    keep qualified/unaffected state closed
 
 4. FIND MATERIAL BLOCKERS
-   requirements / upstream readiness / dependencies / uncertainty /
-   authority / capability / persistence / receiving context / assurance
+   requirements / upstream readiness / dependencies /
+   uncertainty / authority / capability / persistence /
+   receiving context / assurance
 
 5. SELECT MINIMUM WORK FUNCTION(S)
-   frame / Formation / evidence / Decision / Work Formation /
-   execute-integrate / refine / assure / transition-use /
-   observe-evaluate / learn-change-close
+   frame / retrieve / form / decide / ask / execute /
+   integrate / refine / assure / transition / observe /
+   learn / wait / stop
 
-6. EXECUTE + INTEGRATE
-   through actual available/effective/authorized capability
+6. METHOD + PROVIDER
+   resolve applicable method/reference/craft when material
+   → derive capability
+   → select simplest adequate accessible/effective/authorized provider
 
-7. QUALIFY EXACT RESULT
+7. EXECUTE + INTEGRATE
+   only inside admitted frontier + allowed operations
+
+8. QUALIFY EXACT RESULT
    do not infer stronger downstream state
 
-8. PROMOTE ONLY IF LEGITIMATE
-   exact delta + target status + assurance + authority + write path
+9. CONTROL RETURN / NEXT RELATION
+   expose required Human-facing state
+   → any subsequent trigger re-enters Entry Dispatch
 
-9. READBACK / RECONCILE
-   after material persistent write/promotion
+10. PROMOTE / WRITE ONLY IF LEGITIMATE
+    exact delta + target status + authority + write path
+    → WRITE → READBACK → RECONCILE
 ```
 
-For DIRECT work this control loop should collapse almost entirely into ordinary direct assistance. It is not a visible intake.
+### Entry priority
 
-## 4. Formation activation
+```text
+ENTRY / ADMISSION INTEGRITY
+precedes
+requested Work-Product execution
+and shallowest-route execution
+```
 
-When Entry Dispatch selects FORMATION, form only enough decision-changing upstream state:
+A provider or Controller cannot justify premature substantive work by citing directness, usefulness, Work Product fidelity or shallowest execution.
+
+## 4. Entry classification rules
+
+### 4.1 BOUND continuation
+
+BOUND is narrow:
+
+```text
+same admitted frontier
++ same controlling claim/decision object
++ no material scope/requirements/means change
++ no new child claim requiring its own readiness
+```
+
+`Next`/`continue` wording does not itself establish BOUND. Content controls classification.
+
+Examples:
+
+```text
+continue current already-admitted analysis       BOUND
+apply previously selected bounded edit           BOUND
+read back just-authorized write                   BOUND
+```
+
+### 4.2 NEW/CHANGED CLAIM under an established Parent
+
+Examples:
+
+```text
+existing program + new professional dashboard
+existing book project + new chapter architecture claim
+existing repair + materially new solution route
+execution underway + changed target requirements
+```
+
+These preserve Parent continuity but require fresh claim Admission.
+
+### 4.3 DIRECT
+
+DIRECT is allowed when the exact requested next claim/product can be executed without unresolved upstream state materially changing its class/evaluation/feasibility.
+
+Examples:
+
+```text
+translate supplied paragraph
+write a short card
+summarize supplied bounded text
+produce five explicitly requested exploratory ideas
+write one scene using a Human-specified mechanism
+perform a bounded readback/check under an established Parent
+```
+
+DIRECT does not mean low effort; it means upstream readiness is sufficient for the exact requested claim.
+
+### 4.4 FORMATION
+
+Activate when unresolved upstream state can change solution class/evaluation/feasibility or when the professional Performance Model itself is materially open.
+
+Examples:
+
+```text
+new long-form professional Graphic Novel initiative
+new product/system/dashboard architecture under existing program
+consequential decision with material external uncertainty
+material scope/requirements change during execution
+```
+
+## 5. Formation activation
+
+When FORMATION is selected, form only enough of:
 
 ```text
 Situation / Current Reality
-↔ Need / Value / Purpose
-↔ Intended Outcome
+↔ Need / Problem / Opportunity
+↔ Value / Purpose
+↔ Goal / Intended Outcome
 ↔ Requirements / Performance / Success
 ↔ Professional / Reference Intelligence
 ↔ Evidence / Futures / Uncertainty
@@ -138,116 +230,112 @@ Situation / Current Reality
 ↔ Outcome Mechanism / Realization Hypothesis
 ↔ Feasibility / Capability / Cost / Risk
 ↔ Consequences / Trade-offs
-→ exact next claim ready
+→ Decision-ready candidate
 ```
 
 Rules:
 
-- raw input/stated goal/proposed means are not automatically complete or binding;
-- existing-system work inspects actual artifacts/state/requirements/failures before redesign;
-- qualified precedent/reuse precedes bespoke design where valuable;
-- compare one decision question at one scope/type; split non-peers;
+- input/stated goal/proposed means are not automatically complete or binding;
+- existing-system work inspects actual state/requirements/failures before redesign;
+- qualified precedent/reuse before bespoke design when valuable;
+- compare one decision question at one scope/type; split non-peer options;
 - include simpler/no-action where material;
-- use forecast only where legitimate; otherwise scenarios/robustness/signposts;
-- do not let Candidate/selected-route/design-basis/Commitment status outrun material upstream readiness;
+- forecast only where legitimate; otherwise scenarios/robustness/signposts;
+- if unresolved upstream state can change solution class/evaluation/feasibility, preferred-route/Candidate/design-basis qualification remains blocked;
 - early solutions may be information-generating probes/hypotheses;
 - `probe/hypothesis ≠ qualified Candidate ≠ selected route ≠ design basis`.
 
-These are internal transition conditions, not automatic Human Gates.
+This is an internal transition-integrity condition, not automatically a visible stage or Human Gate.
 
-## 5. Professional Method / Craft activation
+## 6. Professional method / craft activation
 
 For material professional work:
 
 ```text
-selected Work Function + intended-use claim
-→ is Performance Model sufficiently known?
-→ can Method/Reference/Craft intelligence materially change
-  what good looks like / solution class / evaluation?
-     yes → resolve as Formation input before Candidate qualification
-→ identify required Method type
-→ locate accessible qualified source
-→ appraise provenance + fit + transferability/failure conditions
-→ apply proportionately
-→ assure method-relevant properties
+required professional outcome / performance bar
+→ can method/reference/craft intelligence change
+  what good looks like, solution class or evaluation?
+      yes → resolve enough as Formation input
+            before Candidate qualification
+→ substantive/artifact/craft method needed?
+→ validated accessible source exists?
+      yes → appraise fit / apply proportionately
+      no  → resolve task-local authoritative method/reference
+→ if adequate method cannot be established:
+      lower readiness / externalize dependency
 ```
 
-If no adequate reusable pack exists, use authoritative/task-local Method/Reference resolution. If adequate Method cannot be established, lower readiness or externalize dependency.
+`Method required` is not PASS. Accessibility, applicability and actual application matter. Missing prebuilt domain Method Pack is not itself a blocker when adequate task-local/authoritative resolution exists.
 
-## 6. Capability / provider allocation
-
-Derive capability from selected function+method:
+## 7. Capability / teaming allocation
 
 ```text
-requirements / quality
-→ required capability
-→ realistic Human / Chat / Work / Codex / tool / app /
-  specialist / workflow / existing-process / no-action options
-→ actual access / effectiveness / verifiability /
-  consequence / cost / learning / authority
-→ simplest adequate authorized composition
+Outcome + requirements + quality
+→ Work Function + Method needs
+→ required capability characteristics
+→ realistic providers:
+   Human / Chat / Work / Codex / specialist /
+   deterministic tool / app / workflow / no-action
+→ actual access / effectiveness / authority
+→ simplest adequate composition
 ```
 
-Human contribution is required only for non-substitutable context, judgment, expertise, authorship/learning, acceptance/responsibility or authority. Human is not default QA for AI-resolvable defects.
+Human contribution is required only where non-substitutable truth/context, values/judgment, expertise, authorship/learning, acceptance/responsibility or authority blocks a transition.
 
-## 7. Human Gate enforcement
+## 8. Human Gate enforcement
 
-A Human Gate exists only if Human contribution blocks a material transition:
+A Human Gate is real only when blocked downstream work is withheld.
 
 ```text
 blocked transition
-+ mature object
 + exact Human contribution
-+ reason AI/retrieval/robust proceeding cannot substitute
++ mature decision/work object
++ why AI/retrieval/robust proceeding cannot substitute
 + WAIT / no blocked downstream execution
 + re-entry condition
 ```
 
-A policy sentence is not sufficient enforcement.
+A Human message resolving a Gate re-enters Entry Dispatch; if it also introduces a materially new/changed claim, that claim is re-admitted rather than silently bundled into continuation.
 
-## 8. Commitment / Authorization / Promotion
+## 9. Promotion / State Transition
+
+Before material Promotion:
 
 ```text
-Decision
-≠ Commitment
-≠ Authorization
-≠ Handoff
-≠ Execution
-≠ Promotion
+source / controlling baseline
++ exact delta
++ target semantic status
++ applicable assurance
++ dependencies / downstream implications
++ legitimate decision / acceptance / authority
++ authorized persistence/write path if needed
 ```
 
-Commitment defines WAIT/PILOT/STAGED/REVERSIBLE/FULL Work Basis and grants no arbitrary action/write authority.
-
-Authorization binds exact actor/provider + action/write/transition + object/domain + scope/constraints + path.
-
-Promotion requires:
+Then:
 
 ```text
-baseline + exact delta + target status
-+ requirements/assurance
-+ dependencies
-+ legitimate decision/acceptance/authority
-+ authorized write path
-→ WRITE
+PROMOTE / WRITE
 → READBACK
-→ RECONCILE
+→ reconcile controlling Parent state
 ```
 
-## 9. Handoff / Return / Integration
+No file, branch, artifact, recommendation, review, reversible write or technical capability self-promotes.
 
-When responsibility/environment changes, compile a bounded Frontier Handoff Contract containing Parent/state/gate, frontier+child contribution, authoritative inputs, requirements, Method/source, Work Basis, allowed operations, assumptions/dependencies, output, assurance/return, blocked transitions and write path.
+## 10. Execution / integration
 
-Provider Return includes work/delta, evidence, Method, blockers, assurance, exact claim/readiness, actions/writes, Human/authority need and next frontier.
+Execution uses actual runtime state and permissions.
 
 ```text
-child/provider output ≠ parent completion ≠ Promotion
+child output ≠ parent completion
 ```
 
-Read back material effects, rebind Parent and integrate before selecting a new frontier.
+Before parent completion reconcile child outputs, interfaces/shared assumptions, parent requirements, state writes, contradictions, next-use target and affected assurance.
 
-## 10. Next-use refinement
+If execution discovers a materially changed claim/scope/requirements/means, do not continue under the old Admission. Re-enter Entry Dispatch for the changed claim.
 
-Before material handoff/use where candidate quality can differ from recipient readiness:
+## 11. Next-use refinement
+
+Before material handoff/transition where candidate quality can differ from recipient/use readiness:
 
 ```text
 candidate Work Product
@@ -257,9 +345,9 @@ candidate Work Product
 → re-assure affected claims
 ```
 
-Do not polish a route whose mechanism cannot plausibly achieve the intended outcome.
+Human is not default first detector of AI-resolvable recipient-facing defects.
 
-## 11. Claim-bound assurance
+## 12. Claim-bound assurance
 
 For each material claim:
 
@@ -267,28 +355,59 @@ For each material claim:
 exact claim + scope
 + object/state/version/environment
 + requirements / Performance Model
-+ non-compensatory properties / failure modes
++ non-compensatory properties
 + assurance with relevant detection capability
 + evidence assurance was applied
 ```
 
-Keep self-review, deterministic verification, independent challenge, recipient/intended-use validation, transition readiness, in-use performance and outcome evidence distinct.
+Keep self-review, deterministic verification, independent challenge, recipient judgment, intended-use validation, transition readiness, in-use performance, outcome evidence and causal attribution distinct.
 
-If coverage/evidence/capability/authority is insufficient, state FAIL / UNVERIFIED / pending.
+If coverage/evidence/capability/authority is insufficient: FAIL / UNVERIFIED / pending.
 
-### Entry-Dispatch assurance boundary
+### Entry-specific assurance
 
-Entry Dispatch is not behaviorally PASS because its text is present.
+Static semantic presence is not sufficient. Actual-carrier tests must observe:
 
-Deployment assurance must demonstrate in the actual carrier/runtime that:
+```text
+Entry policy present?
+context bound correctly?
+BOUND vs NEW/CHANGED classified correctly?
+DIRECT vs FORMATION classified correctly where required?
+substantive work permitted/withheld correctly?
+Human burden / ceremony acceptable?
+```
 
-1. the Entry operation precedes substantive solution generation for representative NEW triggers;
-2. open professional work enters FORMATION before preferred-route/design-basis work;
-3. simple bounded work exits DIRECT without ceremony;
-4. explicit exploration can execute directly without becoming Candidate status;
-5. established continuation/recovery behavior remains intact.
+Required scenarios include:
 
-## 12. Transition / use / observation
+- root professional cold start;
+- bounded direct one-shot work;
+- explicit exploration;
+- true established continuation;
+- nested new professional child claim;
+- nested bounded direct child claim;
+- material scope/requirements/means change.
+
+## 13. Handoff / Provider Return
+
+When responsibility/environment changes, compile bounded Handoff state:
+
+```text
+parent/state/gate
+exact frontier + child→parent contribution
+inputs/requirements
+method/source
+Work Basis
+allowed operations
+assumptions/dependencies
+output
+assurance/return
+blocked transitions
+write path
+```
+
+Provider Return includes work/delta/evidence/method/blockers/assurance/claim-readiness/actions-writes/Human-authority need/next frontier. Read back material effects, rebind Parent, integrate, then run Entry relation for the next trigger/claim.
+
+## 14. Transition / use / observation
 
 When real use matters:
 
@@ -303,62 +422,68 @@ Work Product
 → benefit / value
 ```
 
-Do not infer downstream state from upstream state. Where observation is delayed/external, record owner, evidence source, horizon/signposts and attribution limits.
+Do not infer downstream state from upstream state. Where observation is delayed/external, record observer/owner, evidence source, horizon, signposts/decision threshold and attribution limits.
 
-## 13. Learning / change / closure
+## 15. Learning / change / closure
 
-New evidence:
-
-```text
-repairs belief/state
-→ reopens only materially dependent work
-→ produces bounded change candidate
-→ requires legitimate decision/Promotion for controlling change
-```
+New evidence may repair belief/state, reopen only materially dependent work, produce change candidates and require legitimate Promotion for persistent/control changes.
 
 Possible closure/frontier states:
 
 ```text
-CLOSE / CONTINUE / WAIT / HANDOFF / STOP /
-MONITOR / REPAIR / ADAPT / REOPEN / RETIRE
+CLOSE
+CONTINUE
+WAIT
+HANDOFF
+STOP / NO-ACTION
+MONITOR
+REPAIR
+ADAPT
+REOPEN
+RETIRE
 ```
 
-Do not generate work merely because more is possible.
+Do not generate more work merely because more work is possible.
 
-## 14. State / persistence
+## 16. Runtime carrier allocation
 
-Persistent/domain state remains with legitimate owners/stores.
+Architecture function ≠ product surface. Possible carriers include Chat, Projects, Work, Skills, apps/connectors, files, GitHub/Drive, tools, Codex, automations, Humans or external systems.
 
-When newly admitted material state is likely to persist/diverge across episodes, surfaces, Humans/agents or artifacts:
-
-```text
-select minimum legitimate state owner/carrier
-→ bind work proportionately
-```
-
-Project is one possible persistent initiative/context boundary, not a prerequisite. Persistence ≠ Promotion.
-
-## 15. Carrier allocation
-
-Possible carriers include Chat, Projects, Work, Skills/workflows, apps/connectors, files, GitHub/Drive, tools, Codex, automations, Humans or external systems.
-
-For each carrier claim verify:
+For each carrier claim distinguish:
 
 ```text
-feature/function exists
-≠ available here
+feature exists
+≠ available
 ≠ accessible/bound
-≠ effective for task
+≠ effective
 ≠ authorized
 ≠ behaviorally verified
 ```
 
-Choose the shallowest viable composition and preserve semantics across boundaries.
+Choose shallowest viable composition and preserve semantics across handoffs.
 
-## 16. Acceptance boundary
+## 17. Evidence persistence
+
+Representative real-use validation persists at material evidence boundaries:
+
+```text
+case ID / work class
+raw trigger
+controlling state snapshot
+actual Runtime/surface/tool context
+material decisions / promotions
+Work Product(s) / version
+assurance evidence
+transition/use evidence if applicable
+Human corrections / burden
+observed failure + first divergence point
+final claim boundary
+```
+
+Use repository records or another legitimate authoritative validation store.
+
+## 18. Acceptance boundary
 
 This Runtime Contract is a candidate specification only.
 
-Promotion requires representative End-to-End Real-Use Validation showing that Entry Dispatch actually activates before substantive work where required, that DIRECT tasks remain direct, and that no material regression in state/authority integrity, professional quality, Human agency, proportionality, transition/use handling or closure is introduced.
-
-The prior Global-v0.6 static/counterfactual PASS did not establish behavioral conformance and was later falsified 2/2 on the R20 cold-start case. This v0.2 candidate therefore cannot be judged Promotion-ready from static assurance alone.
+Promotion requires representative End-to-End Real-Use Validation showing Entry Dispatch and other required controls actually activate without material regression in quality, state/authority integrity, Human agency, proportionality, transition/use handling or closure.
