@@ -4,7 +4,7 @@
 **Closure-sync date:** 2026-08-21  
 **Promotion-state-handoff repair date:** 2026-08-21  
 **Case class:** E2E-04 — persistent multi-turn / multi-surface work program  
-**Status:** MATERIAL OBSERVATION + BOUNDED HYGIENE ASSURANCE RECORD — **Promotion-ready evidence on unmerged PR #14; repository-promoted hygiene evidence if this exact state is read on `main` after PR #14 merge**.  
+**Status:** MATERIAL OBSERVATION + BOUNDED HYGIENE ASSURANCE RECORD — **Promotion-ready evidence on unmerged PR #14 only when the latest PR-level review of the current head is PASS; repository-promoted hygiene evidence if this exact state is read on `main` after PR #14 merge**.  
 **Parent:** Human–AI Work System Runtime realization / validation program
 
 ## 1. Observation boundary
@@ -32,7 +32,8 @@ Promotion-state interpretation for this record:
 
 ```text
 IF read on unmerged PR #14 / repair/post-pr13-repo-hygiene-v0.1:
-  this record + hygiene delta = CANDIDATE / PROMOTION-READY
+  this record + hygiene delta = CANDIDATE
+  Promotion readiness = latest PR-level review of current head must be PASS
   main remains repository authority
 
 IF this exact state is read on main after PR #14 merge:
@@ -76,7 +77,7 @@ This distinction prevents both underclaiming (`not installed` despite current ef
 
 **Impact:** a reader starting from the repository root could select a superseded Runtime package or infer the wrong current gate.
 
-**Candidate repair:** root README synchronized to the PR #13 package and current transition state.
+**Repair:** root README synchronized to the PR #13 package and current transition state.
 
 ### HYG-02 — superseded executable-looking bundles
 
@@ -84,7 +85,7 @@ This distinction prevents both underclaiming (`not installed` despite current ef
 
 **Impact:** provenance artifacts could be misread as current executable guidance.
 
-**Candidate repair:** both files converted to explicit `SUPERSEDED / DO NOT INSTALL` tombstones while repository history preserves their original content.
+**Repair:** both files converted to explicit `SUPERSEDED / DO NOT INSTALL` tombstones while repository history preserves their original content.
 
 ### HYG-03 — realization version ambiguity
 
@@ -92,7 +93,7 @@ This distinction prevents both underclaiming (`not installed` despite current ef
 
 **Impact:** version number/file recency could be mistaken for authority.
 
-**Candidate repair:** `realization/README.md` added as current-package / history navigation.
+**Repair:** `realization/README.md` added as current-package / history navigation.
 
 ### HYG-04 — promotion assurance coverage gap
 
@@ -100,7 +101,7 @@ This distinction prevents both underclaiming (`not installed` despite current ef
 
 **Impact:** PR #13 could be correctly promoted while material entry points remained contradictory.
 
-**Candidate repair:** method extended with Entry-Point Hygiene Scan and supersession-safety checks.
+**Repair:** method extended with Entry-Point Hygiene Scan and supersession-safety checks.
 
 ### HYG-05 — current package metadata carried pre-observation transition state
 
@@ -112,7 +113,7 @@ The new Entry-Point Hygiene Scan found that the three **current** action-bearing
 
 Those statements were valid before the current-session effective-load observation but conflicted with the more precise supported state: **effective load observed in this session; independent persistent UI save/readback not separately recorded**.
 
-**Candidate repair:** Human-authorized metadata-only reconciliation of all three current-package status/transition surfaces. Global v0.5 and Project v0.4 exact payload blocks were not changed; commit-diff readback confirmed that only metadata/boundary text changed in those two compiled-view files.
+**Repair:** Human-authorized metadata-only reconciliation of all three current-package status/transition surfaces. Global v0.5 and Project v0.4 exact payload blocks were not changed; commit-diff readback confirmed that only metadata/boundary text changed in those two compiled-view files.
 
 **HYG-05 verdict:** **PASS after write + readback**.
 
@@ -125,11 +126,13 @@ Promotion review of Draft PR #14 found that `CURRENT.md`, root `README.md`, `rea
 **Repair:** Human-authorized Promotion-State-Handoff rewrite of the four control/navigation/evidence surfaces so the same persisted text is valid on both sides of the merge boundary:
 
 ```text
-unmerged PR #14 → Candidate / Human Promotion Gate
+unmerged PR #14 → Candidate / latest PR-level review controls readiness / Human Promotion Gate
 main after PR #14 merge → bounded hygiene Promotion COMPLETE / next parent frontier
 ```
 
-**HYG-06 status:** implemented; final PR-level re-review required before Promotion readiness is re-established.
+The transient PR-level review verdict is intentionally carried by PR #14 rather than hard-coded into these repository artifacts; otherwise the next review would immediately make the reviewed head stale by requiring another status-only commit.
+
+**HYG-06 implementation/readback:** **PASS**. Final Promotion readiness remains a claim about the latest reviewed PR head.
 
 ## 5. Localization
 
@@ -143,7 +146,7 @@ No evidence from this audit establishes a new static architecture gap. The accep
 
 Branch: `repair/post-pr13-repo-hygiene-v0.1`; Draft PR: #14.
 
-Implemented and read back before the final PR-level re-review:
+Implemented and read back:
 
 1. normalize `CURRENT.md` to the post-PR13 state — **PASS**;
 2. synchronize root `README.md` to Global v0.5 / Project v0.4 / Bundle v0.4 — **PASS**;
@@ -154,7 +157,7 @@ Implemented and read back before the final PR-level re-review:
 7. reconcile HYG-05 current-package metadata/transition surfaces — **PASS**;
 8. closure-sync `CURRENT.md` and this evidence record — **PASS**;
 9. create Draft PR #14 for Promotion review — **COMPLETE**;
-10. repair HYG-06 Promotion-State-Handoff in `CURRENT.md`, root `README.md`, `realization/README.md` and this record — **IMPLEMENTED / PR-LEVEL RE-REVIEW REQUIRED**.
+10. repair HYG-06 Promotion-State-Handoff in `CURRENT.md`, root `README.md`, `realization/README.md` and this record — **PASS / READBACK**.
 
 Out of scope and not performed:
 
@@ -165,38 +168,34 @@ Out of scope and not performed:
 - branch deletion or repository-wide historical cleanup;
 - merge/Promotion of PR #14.
 
-## 7. Assurance state before final PR-level re-review
+## 7. Assurance state
 
 ```text
 bounded hygiene implementation                    PASS
-written-file readback for HYG-01–05               PASS
+written-file readback                             PASS
 HYG-05 current-package metadata coherence          PASS
+HYG-06 promotion-state handoff implementation      PASS / READBACK
 Global v0.5 / Project v0.4 payload preservation    PASS by commit diff
-HYG-06 promotion-state handoff implementation      IMPLEMENTED
-HYG-06 PR-level post-repair review                 PENDING
 current-session v0.5/v0.4 effective load           OBSERVED BY CONTENT
 persistent UI settings readback                    NOT SEPARATELY RECORDED
 runtime behavioral conformance                     NOT ESTABLISHED
 real-use quality / outcomes                        NOT ESTABLISHED
+PR #14 Promotion verdict                           SEE LATEST REVIEW OF CURRENT PR HEAD
 ```
 
-Supported claim before re-review:
+Supported bounded transition claim:
 
-> **The bounded hygiene implementation exists and the identified Promotion-State-Handoff defect has been repaired, but PR #14 Promotion readiness must be re-established by reviewing the repaired PR diff/state.**
-
-If final PR-level re-review passes, the supported transition claim becomes:
-
-> **Before merge:** PR #14 is Promotion-ready within the bounded hygiene scope.  
+> **Before merge:** PR #14 is Promotion-ready only if the latest PR-level review of the current head is PASS.  
 > **If this exact state is read on `main` after an authorized PR #14 merge:** bounded repository-hygiene Promotion is COMPLETE; external Runtime persistence, behavioral conformance and outcome effectiveness remain unestablished.
 
 ## 8. Promotion-state handoff / next transition
 
 ```text
 IF this record is on unmerged PR #14 / its head branch:
-  hygiene implementation/readback                COMPLETE
-  HYG-06 repair                                   IMPLEMENTED
-  PR-level Promotion re-review                    REQUIRED
-  repository Promotion                            HUMAN MERGE GATE — WAIT after PASS only
+  hygiene implementation/readback                COMPLETE / PASS
+  HYG-06 repair                                   PASS / READBACK
+  PR-level Promotion verdict                      CHECK LATEST REVIEW OF CURRENT PR HEAD
+  repository Promotion                            HUMAN MERGE GATE — only after PASS
 
 IF this exact state is on main after PR #14 merge:
   bounded hygiene Promotion                       COMPLETE
