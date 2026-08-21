@@ -132,7 +132,7 @@ main after PR #14 merge → bounded hygiene Promotion COMPLETE / next parent fro
 
 The transient PR-level review verdict is intentionally carried by PR #14 rather than hard-coded into these repository artifacts; otherwise the next review would immediately make the reviewed head stale by requiring another status-only commit.
 
-**HYG-06 implementation/readback:** **PASS**. Final Promotion readiness remains a claim about the latest reviewed PR head.
+**HYG-06 implementation/readback:** **PASS across all four repaired surfaces**. Final Promotion readiness remains a claim about the latest reviewed PR head.
 
 ## 5. Localization
 
