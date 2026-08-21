@@ -10,6 +10,7 @@ Promotion-state rule:
 if read on unmerged PR #14 / repair/post-pr13-repo-hygiene-v0.1
 → main/CURRENT.md remains repository authority
 → this realization-navigation delta remains Candidate
+→ latest PR-level review of current head controls Promotion readiness
 
 if this exact state is read on main after PR #14 merge
 → bounded hygiene Promotion is COMPLETE
@@ -122,10 +123,13 @@ When in doubt:
 
 ## Promotion-state handoff / current transition
 
+The transient PR-level verdict is intentionally not hard-coded in this repository navigation; the latest review of the current PR #14 head controls readiness before merge.
+
 ```text
 IF read on unmerged PR #14 / its head branch:
-  hygiene realization navigation                CANDIDATE / REVIEWED
-  PR #14 repository Promotion                   HUMAN MERGE GATE — WAIT
+  hygiene realization navigation                CANDIDATE / READBACK
+  PR #14 Promotion verdict                       CHECK LATEST REVIEW OF CURRENT PR HEAD
+  PR #14 repository Promotion                   HUMAN MERGE GATE — only after PASS
 
 IF this exact state is read on main after PR #14 merge:
   bounded hygiene Promotion                     COMPLETE
