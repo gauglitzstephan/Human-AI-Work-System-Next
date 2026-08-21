@@ -2,11 +2,23 @@
 
 This directory contains current Runtime realization artifacts **and** historical/superseded lineage. File recency, version number or the presence of executable-looking text does not by itself establish current authority.
 
-**Controlling program state:** `../CURRENT.md`.
+**Controlling program state:** `../CURRENT.md` in the authoritative repository tree.
+
+Promotion-state rule:
+
+```text
+if read on unmerged PR #14 / repair/post-pr13-repo-hygiene-v0.1
+→ main/CURRENT.md remains repository authority
+→ this realization-navigation delta remains Candidate
+
+if this exact state is read on main after PR #14 merge
+→ bounded hygiene Promotion is COMPLETE
+→ this file is the repository-promoted realization navigation
+```
 
 ## Current package
 
-Current repository-promoted Runtime semantics and compiled views after PR #13:
+Current repository-promoted Runtime semantics and compiled views from PR #13:
 
 | Role | Current artifact | Status / use |
 |---|---|---|
@@ -21,6 +33,8 @@ Current repository-promoted Runtime semantics and compiled views after PR #13:
 | Chat / Work surface allocation | `E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md` | current surface guidance |
 
 Method carrier: `../methods/METHOD-REGISTRY-v0.1.md` and referenced packs.
+
+PR #14 does not replace or recompile these Runtime semantics/payloads. It repairs repository navigation, supersession safety, current-package transition metadata and Promotion/readback assurance.
 
 ## Current installation identities
 
@@ -44,7 +58,7 @@ Do not paraphrase or select an older payload merely because it remains in reposi
 
 ## Superseded / history — do not install
 
-The following remain for provenance, regression comparison and recovery only unless `CURRENT.md` explicitly changes their status.
+The following remain for provenance, regression comparison and recovery only unless authoritative `CURRENT.md` explicitly changes their status.
 
 ### Earlier solution-forming Global experiments
 
@@ -83,7 +97,7 @@ All are superseded by Bundle v0.4.
 - `E2E-RUNTIME-MIGRATION-MANIFEST-v0.3.md`
 - `E2E-RUNTIME-MIGRATION-MANIFEST-v0.4.md`
 
-These document migration/compilation history. They do not override the post-PR13 `CURRENT.md` state or authorize installation of the versions they mention.
+These document migration/compilation history. They do not override authoritative `CURRENT.md` or authorize installation of the versions they mention.
 
 ## Rollback material
 
@@ -101,11 +115,24 @@ compiled view ≠ canonical Runtime semantic authority
 
 When in doubt:
 
-1. read `../CURRENT.md` from `main`;
+1. read authoritative `../CURRENT.md` from `main`;
 2. resolve the current package named there;
 3. confirm any material external transition/readback evidence;
 4. use historical files only for provenance, comparison, regression or rollback.
 
-## Current transition
+## Promotion-state handoff / current transition
 
-After the post-PR13 hygiene candidate is promoted and read back, the parent program resumes at persistent external-settings readback reconciliation where required, then Runtime conformance preflight and genuine E2E real-use validation.
+```text
+IF read on unmerged PR #14 / its head branch:
+  hygiene realization navigation                CANDIDATE / REVIEWED
+  PR #14 repository Promotion                   HUMAN MERGE GATE — WAIT
+
+IF this exact state is read on main after PR #14 merge:
+  bounded hygiene Promotion                     COMPLETE
+  this realization navigation                   REPOSITORY-PROMOTED
+  persistent external-settings readback         NEXT TRANSITION / NOT YET ESTABLISHED
+  Runtime conformance preflight                 PENDING readback reconciliation as required
+  genuine E2E real-use validation               BLOCKED until preflight
+```
+
+A PR #14 merge would not authorize any external ChatGPT settings mutation and would not establish persistent UI readback, behavioral conformance or outcome effectiveness.
