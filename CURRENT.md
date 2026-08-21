@@ -1,12 +1,12 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R20 REAL-USE VALIDATION — **BEHAVIORAL RCA LOCALIZED / STATIC ARCHITECTURE KEEP CLOSED / GLOBAL v0.6 CANDIDATE BEHAVIORAL FAIL / ENTRY-ACTIVATION REPAIR FORMATION NEXT**.  
+**Status:** R20 REAL-USE VALIDATION — **GLOBAL-CI-ONLY ENTRY ENFORCEMENT BEHAVIORALLY FALSIFIED / STATIC ARCHITECTURE KEEP CLOSED / TWO-PASS ENTRY GATEWAY PROTOTYPE INSTANTIATED / LIVE API VALIDATION NEXT**.  
 **Date:** 2026-08-21  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current active Runtime:** Global v0.5 restored and independently UI-read back; active System Development Project remains v0.4.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. R20 behavioral validation changes validation/repair readiness only; it does not itself modify architecture, Canonical Runtime semantics, Operating Runtime, compiled Runtime candidates, branch state, PR/Promotion state or external settings beyond the completed temporary test-and-rollback sequence.
+**Authority:** this `main/CURRENT.md` is the controlling repository state. R20 behavioral validation and prototype work change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches remain Working/Candidate state.
 
 ## 1. Parent program and qualified state
 
@@ -31,32 +31,45 @@ R19x Work/Codex cross-surface conformance          NOT YET EXERCISED
 
 R20 Graphic-Novel Cold-Start case                  FAIL
 R20 initial failure localization                   COMPLETE
-R20 behavioral validation                         COMPLETE / TARGET BEHAVIOR FAIL
-Behavioral RCA                                     LOCALIZED ENOUGH FOR REPAIR FORMATION
-
-Static Architecture                               KEEP CLOSED
-Global v0.6 repair candidate                       STATIC/COUNTERFACTUAL PASS ON BRANCH
-Global v0.6 behavioral conformance                 FAIL — 2/2 cold-start runs
-Global v0.6 Promotion eligibility                  FAIL / NOT ELIGIBLE ON CURRENT EVIDENCE
-Project v0.5 disposable recovery regression        PASS — SCOPED, NOT COLD-START PROOF
+R20 Global v0.6 behavioral validation              FAIL — 2/2 cold-start runs
+R20 Global v0.7 behavioral validation              FAIL — 2/2 cold-start runs
+Global-CI-only Entry enforcement family            FALSIFIED for tested R20 failure class
 Local explicit Admission isolation                 PASS
 
-Current repair decision                            NOT YET MADE
-Next                                               ENTRY-ACTIVATION REPAIR FORMATION
+Static Architecture                               KEEP CLOSED
+Global v0.6 repair candidate                       BEHAVIORAL FAIL / NOT PROMOTION-ELIGIBLE
+Global v0.7 repair candidate                       STATIC PASS ON BRANCH / BEHAVIORAL FAIL 2/2
+Project v0.5 disposable recovery regression        PASS — SCOPED, NOT COLD-START PROOF
+Project v0.6 behavioral status                     UNVERIFIED / NOT TESTED
+
+Two-Pass Entry Gateway prototype                   INSTANTIATED on prototype branch
+Prototype repository/static-offline assurance      PASS within implemented scope
+Live Responses API behavior                        UNVERIFIED
+Dispatch semantic accuracy                         UNVERIFIED
+Pass-2 Formation / DIRECT quality                   UNVERIFIED
+
+Current repair decision                            TWO-PASS ENTRY GATEWAY = STRONGEST PROTOTYPE CANDIDATE
+Next                                               LIVE API VALIDATION
 Real-use quality / outcomes                        NOT ESTABLISHED
 ```
 
-No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist.
+No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist. The current repair hypothesis concerns Runtime enforcement/realization, not new static architecture ownership.
 
 ## 2. Persistent R20 evidence
 
-Material records:
+Material records on `main`:
 
 - `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GRAPHIC-NOVEL-COLD-START-RCA.md` — initial differential RCA;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-BEHAVIORAL-VALIDATION.md` — actual carrier/readback/behavior/rollback/isolation evidence;
-- branch assurance: `repair/r20-cold-start-admission-v0.1` → `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.3.md` — static/counterfactual assurance only.
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-BEHAVIORAL-VALIDATION.md` — v0.6 carrier/readback/behavior/rollback/isolation evidence;
+- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GLOBAL-V0.7-BEHAVIORAL-FAILURE.md` — exact v0.7 install/readback PASS, cold-start FAIL 2/2, downstream abort, exact v0.5 rollback PASS, and bounded falsification of the Global-CI-only enforcement family.
 
-The positive branch trace must not be treated as Promotion evidence independently of the later behavioral failure record.
+Candidate/static assurance retained outside `main` Promotion state:
+
+- `repair/r20-cold-start-admission-v0.1` → `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.3.md`;
+- `repair/r20-entry-dispatch-v0.2` → corrected Entry-Dispatch source/carriers + `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.4.md`;
+- `prototype/r20-two-pass-entry-gateway-v0.1` → executable gateway/schema/eval-harness prototype.
+
+Positive static branch traces must not be treated as Promotion evidence independently of actual behavioral results.
 
 ## 3. R20 actual case and original failure
 
@@ -70,13 +83,13 @@ At cold start it was materially:
 - plausibly persistent across work episodes;
 - capable of materially different story architectures depending on unresolved upstream Performance/Reference state.
 
-Observed failure in the original work:
+Observed original failure:
 
 > substantive Story-Architecture solution/candidate work began before enough professional Performance/Reference/Method basis and persistence/context need had been formed.
 
 The Human had to detect and redirect this AI-resolvable upstream orchestration defect.
 
-## 4. Bounded repair branch retained as Candidate only
+## 4. First repair family — Global v0.6
 
 Branch:
 
@@ -84,15 +97,7 @@ Branch:
 repair/r20-cold-start-admission-v0.1
 ```
 
-Branch artifacts include:
-
-- Operating Runtime cold-start/admission delta;
-- Canonical Runtime semantic delta;
-- Global v0.6 compiled candidate;
-- System Development Project v0.5 compiled candidate;
-- relation-level compiled semantic trace v0.3.
-
-Current candidate identities:
+Candidate identities:
 
 ```text
 Global v0.6
@@ -106,161 +111,93 @@ CRLF     6,152
 SHA-256  16b46d87d98926e3e676957782569061f84faa2f5060d9d6e590c6e98853842b
 ```
 
-The branch remains Working/Candidate. No PR, merge or Promotion has been created from it.
-
-## 5. Behavioral validation route and results
-
-### A. Disposable Project v0.5
-
-Persistent Project UI readback matched Project v0.5 exactly.
-
-A recovery/predecessor test using an explicit known repository/branch and an explicit `Recover` instruction preserved:
-
-- `main/CURRENT.md` as authority;
-- branch as Candidate;
-- no write/PR/Promotion inference;
-- correct next Behavioral Validation frontier.
-
-Verdict:
+Qualified result:
 
 ```text
-Project v0.5 carrier readback             PASS
-Established-work recovery regression      PASS
-Cold-start Admission behavior             NOT TESTED BY THIS STAGE
-Project-vs-Global carrier superiority      UNVERIFIED
+Global v0.6 exact UI install/readback       PASS
+Cold-start behavioral result                FAIL 2/2
+Professional Method/Reference activation    FAIL 2/2
+Probe≠Candidate behavior                    FAIL 2/2
+Global v0.5 rollback/readback                PASS
+Local explicit Admission isolation           PASS
 ```
 
-The Project PASS must not be used as evidence that Project Instructions solve the open cold-start failure class.
+The branch remains Working/Candidate. No PR, merge or Promotion was created from it.
 
-### B. Active Global v0.5 baseline
+## 5. Second repair family iteration — corrected Entry Dispatch / Global v0.7
 
-Before temporary candidate installation, the Human copied the full saved Global Custom Instructions from the UI.
-
-Readback matched promoted Global v0.5 exactly:
+Branch:
 
 ```text
-LF       4,991
-CRLF     4,997
-SHA-256  865cc07b101a907b42adaa5506537f27db554d9195a70077ae7050d7cf84d72f
+repair/r20-entry-dispatch-v0.2
 ```
 
-This independently establishes persistent visible UI readback for the active Global v0.5 rollback target.
-
-### C. Global v0.6 exact install/readback
-
-Global v0.6 was temporarily installed and visibly copied back from the UI before behavioral testing.
+The corrected Runtime relation separated context binding from claim admission:
 
 ```text
-exact candidate identity     PASS
-truncation/mismatch          NONE OBSERVED
-carrier installation/readback PASS
+Human trigger
+→ BIND CONTEXT
+→ BOUND CONTINUATION vs NEW/CHANGED CLAIM
+→ if NEW/CHANGED: DIRECT vs FORMATION
+→ substantive work
 ```
 
-### D. G1a / G1b cold-start behavioral execution
-
-Two independent fresh Temporary Chats used the same substantive prompt:
+Static/relation-level coverage on the branch includes:
 
 ```text
-Ich möchte ein Grafik Novel über die Geschichte des Bieres entwerfen
+R-NESTED-01         existing Parent + open professional child → FORMATION
+R-NESTED-DIRECT-01  existing Parent + bounded child → DIRECT
+R-CHANGE-01         material claim/scope/requirements/means change → re-admit
 ```
 
-Both responses immediately generated and preferred substantive narrative mechanisms before adequate upstream professional/craft Formation.
-
-Representative counterevidence:
+Final tested Global v0.7 identity:
 
 ```text
-G1a: "Mein Favorit wäre ... Die Hefe selbst ist die Hauptfigur."
-G1b: "Ein starkes Grundkonzept wäre: Eine einzelne 'wandernde' Hefekultur ..."
+LF       4,992
+CRLF     4,999
+SHA-256  02d58d921b369525d5cdfc43f7a7755ef11876ab75bf12871d8dab2dd7c1cea1
 ```
 
-Both then elaborated chronology/dramaturgy/visual direction and downstream design work.
-
-Pre-registered result:
+Qualified behavioral result:
 
 ```text
-Cold-start / provisional Parent                     FAIL 2/2
-Solution/Candidate Admission                        FAIL 2/2
-Professional Craft/Method Activation                FAIL 2/2
-Ideas bounded as probes before Candidate treatment  FAIL 2/2
-Persistence not unnecessarily forced                PASS
-Substantive help rather than pure process            PASS
+Global v0.7 exact install/readback                   PASS
+G1a Entry/Formation before preferred route           FAIL
+G1b Entry/Formation before preferred route           FAIL
+Professional/Reference activation before Candidate  FAIL 2/2
+Probe≠Candidate behavior                             FAIL 2/2
+Substantive help                                     PASS 2/2
+G2 DIRECT / anti-ceremony                            ABORTED / NOT RUN
+G3 BOUND→changed claim                               ABORTED / NOT RUN
+G4 nested-child                                      ABORTED / NOT RUN
+Project v0.6                                         NOT RUN
+Global v0.5 rollback/readback                        PASS
 ```
 
-**Global v0.6 behavioral verdict:** **CRITICAL FAIL — replicated 2/2.**
+Therefore the second, materially stronger Global-CI-only repair also failed the same critical cold-start gate.
 
-G2–G4 anti-ceremony controls were aborted per the pre-registered stop rule.
+## 6. Behavioral RCA after v0.7
 
-### E. Rollback
-
-Global v0.5 was immediately restored and visibly read back again.
-
-```text
-Global v0.5 restore/readback    PASS
-```
-
-The external test transition is therefore operationally closed; active Global state is again v0.5.
-
-### F. Local explicit Admission isolation
-
-After rollback, one fresh Temporary Chat used a local high-salience Admission/Formation guard immediately before the same Graphic-Novel task.
-
-Observed behavior:
-
-- provisional Parent/Outcome formed;
-- an existing closely matching beer-history Graphic Novel was identified as solution-class-changing reference evidence;
-- upstream positioning/audience/focus/fictionality uncertainties were surfaced;
-- professional comic-craft reference intelligence activated;
-- three alternatives were explicitly labeled `unqualifizierte Probes`;
-- none was treated as a preferred Candidate;
-- differentiation/narrative-thesis testing preceded chapter/design-basis work.
-
-**Isolation verdict:** **PASS.**
-
-This materially weakens the hypothesis that the observed model/runtime is fundamentally unable to execute the desired Admission behavior.
-
-## 6. Behavioral RCA
-
-### Failed claim
-
-> Global v0.6 should enforce Cold-Start Parent/Admission/Method readiness for a new materially open professional Work Object before preferred Solution/Candidate/design-basis treatment.
-
-### First divergence point
-
-```text
-new material professional trigger
-→ expected: detect material openness / upstream readiness
-→ observed: immediate preferred solution mechanism
-```
-
-Therefore the first responsible mechanism is currently:
-
-> **Work-Function / Solution-Admission entry activation and enforcement.**
-
-Method Activation is also behaviorally absent, but in this observed path it is downstream of the Admission predicate failing to activate effectively.
-
-### Strongest supported Root Cause
-
-> **Global Runtime entry-activation failure:** the required Cold-Start/Admission semantic exists, was compiled into the exact tested carrier, and can be realized under a local explicit guard, but does not reliably self-activate as generic permanent Global policy before ordinary generative solution behavior on an open professional cold start.
-
-Current supported chain:
+The supported differential is now:
 
 ```text
 semantic owner exists
-+ Canonical relation exists on repair branch
-+ compiled Global relation exists
-+ exact Global-v0.6 UI install/readback PASS
-+ local explicit Admission isolation PASS
-≠ permanent Global conditional self-activation PASS
++ architecture Admission/Formation responsibility exists
++ exact repair carrier install/readback PASS
++ Global v0.6 Cold-Start FAIL 2/2
++ unconditional position-0 Global v0.7 Cold-Start FAIL 2/2
++ local explicit Admission guard PASS
 ```
 
-Open contributing mechanisms remain hypotheses until needed for repair selection:
+Strongest supported implication:
 
-- activation-predicate / self-classification salience;
-- competition with direct Work Product / minimum-work / shallowest-adequate semantics;
-- carrier salience/precedence effects;
-- higher-priority product/model defaults not externally observable from current evidence.
+> **For the tested ChatGPT runtime context, permanent Global Custom Instructions in this textual kernel form are not a reliable standalone enforcement mechanism for Cold-Start Entry/Admission, even when the guard is unconditional, first-position and explicitly prior to substantive work.**
 
-No one of those is independently proven by this case.
+This falsifies the tested **Global-CI-only Entry-enforcement family** for the R20 failure class. It does not establish that all Global-CI semantics are ineffective, nor that Project Instructions, Skills, dedicated GPTs, API developer/system messages, task-local contracts or host-enforced dispatchers fail.
+
+The local explicit-guard PASS supports the different hypothesis that trigger-local binding/enforcement can materially change behavior.
+
+Exact model/configuration metadata for the prior Temporary-Chat G1 runs was not captured; claims remain scoped accordingly.
 
 ## 7. Architecture-reopen decision
 
@@ -272,41 +209,155 @@ upstream readiness / transition integrity           EXISTS
 professional method/reference obligation            EXISTS
 persistent-state semantics                          EXISTS
 model/runtime can perform target behavior locally   SUPPORTED
-permanent Global entry activation                   FAIL / UNRELIABLE
+Global-CI-only permanent entry enforcement           FAIL / UNRELIABLE
 ```
 
 Therefore:
 
 > **STATIC ARCHITECTURE KEEP CLOSED.**
 
-No named architecture reopen trigger is established. Repair the lowest responsible Runtime realization/activation layer first.
+No named static architecture reopen trigger is established. The next repair remains at Runtime realization/enforcement level.
 
-## 8. Candidate status correction
+## 8. Alternative enforcement mechanism decision
 
-The bounded branch candidate must now be interpreted as:
+Repair Formation compared materially different mechanism classes after the Global-CI-only family failed.
+
+Strongest Candidate:
+
+> **Machine-enforced Two-Pass Entry Gateway.**
+
+Mechanism:
 
 ```text
-Operating/Canonical repair instantiated     YES on branch
-Global v0.6 carrier fit                     PASS
-Project v0.5 carrier fit                    PASS
-relation-level static regression            PASS
-counterfactual shadow regression            PASS
-actual Global v0.6 behavior                 FAIL 2/2
-Promotion readiness                         FAIL / NOT ELIGIBLE
+Human trigger
+→ Pass 1: forced EntryDecision function call
+→ host validates schema + cross-field invariants
+→ only after valid dispatch: Pass 2
+→ route-local BOUND / DIRECT / FORMATION contract
+→ substantive answer
 ```
 
-`STATIC PASS` does not offset `BEHAVIORAL FAIL`.
+This is materially different from another Global-CI wording iteration because Pass 1 and Pass 2 are separated by a host-controlled execution boundary. The EntryDecision is ephemeral Runtime working state; it does not itself imply persistence, Decision, Commitment, Authorization or Promotion.
 
-## 9. Next legitimate frontier
+## 9. Two-Pass Entry Gateway prototype state
 
-**Entry-Activation Repair Formation** only.
+Prototype branch:
+
+```text
+prototype/r20-two-pass-entry-gateway-v0.1
+```
+
+Created from `main` commit:
+
+```text
+2804084040d6fef990a0d7e0875d8c321420f812
+```
+
+At final prototype scope readback before this CURRENT sync:
+
+```text
+8 commits ahead / 0 behind that base
+net changed files: exactly 5
+```
+
+Files:
+
+```text
+prototypes/r20-entry-gateway/README.md
+prototypes/r20-entry-gateway/entry_decision.schema.json
+prototypes/r20-entry-gateway/gateway.py
+prototypes/r20-entry-gateway/r20_cases.json
+prototypes/r20-entry-gateway/run_evals.py
+```
+
+Implemented properties:
+
+- forced named `route_entry` function call for Pass 1;
+- strict `EntryDecision` schema;
+- host-side cross-field validation;
+- invalid dispatch blocks Pass 2;
+- route-local Pass-2 instructions for `BOUND`, `DIRECT`, `FORMATION`;
+- in-memory multi-turn state only;
+- R20 cold-start/direct/ideation/bound-change/nested-child eval matrix;
+- capture of API-reported model, response IDs and usage for both passes.
+
+Host-side invariant examples:
+
+```text
+BOUND + DIRECT/FORMATION       → reject
+BOUND + PROVISIONAL parent     → reject
+NEW_CHANGED + NOT_APPLICABLE   → reject
+FORMATION without trigger      → reject
+missing / extra schema fields  → reject
+```
+
+Offline/static assurance performed for the prototype:
+
+```text
+Python syntax                     PASS
+Entry schema JSON                 PASS
+R20 cases JSON                    PASS
+run_evals.py --validate-only      PASS — 5 cases
+host invalid-state rejection      PASS
+repository branch scope/readback  PASS
+```
+
+Claim boundary:
+
+```text
+Prototype repository instantiation     PASS
+Forced-dispatch mechanism implemented  PASS
+Host semantic enforcement implemented  PASS
+R20 eval matrix implemented            PASS
+Offline/static validation              PASS
+
+Live Responses API execution           UNVERIFIED
+Dispatch behavioral accuracy           UNVERIFIED
+Pass-2 Formation quality               UNVERIFIED
+DIRECT proportionality                 UNVERIFIED
+Cost / latency                         UNVERIFIED
+ChatGPT-UI equivalence                 NOT CLAIMED
+```
+
+The prototype branch remains Working/Candidate. It is not deployed, authoritative, promoted or merged.
+
+## 10. Promotion / persistence status
+
+```text
+Static Architecture                    KEEP CLOSED
+Canonical Runtime on main              UNCHANGED
+Promoted Global Runtime                v0.5
+Active external Global                 v0.5 restored/readback PASS
+Failed v0.6 branch                     retained as Candidate evidence
+Failed v0.7 branch                     retained as Candidate evidence
+Two-Pass prototype branch              Candidate / unmerged
+Prototype live behavior                UNVERIFIED
+PR                                     NONE for current prototype
+Promotion                              NONE for current prototype
+```
+
+Persistence of R20 evidence on `main` does not promote either repair candidate or the prototype.
+
+## 11. Next legitimate frontier
+
+**Two-Pass Entry Gateway Live API Validation.**
 
 Decision question:
 
-> What minimum Runtime realization makes Cold-Start Admission a reliable entry activation mechanism rather than a conditional policy whose own trigger depends on the same unbound generative behavior it is meant to control — while preserving direct/proportional behavior for bounded work?
+> Does the machine-enforced two-pass gateway correctly classify and enforce the R20 Entry relation on representative cold-start, direct, bound-continuation, changed-claim and nested-child cases, while preserving substantive professional Formation and proportional DIRECT behavior?
 
-Repair Formation must not assume that making Global wording more forceful is sufficient; Global-v0.6 wording has already been behaviorally falsified for the tested case.
+Required minimum validation chain:
 
-No new Canonical Runtime, Operating Runtime, compiled carrier, branch, PR, Promotion, architecture or external-settings write is authorized by this state.
+```text
+actual API execution
+→ record API-reported model + response IDs + usage
+→ deterministic dispatch comparison against R20 expected relation/admission
+→ behavioral review of Pass-2 answers
+→ distinguish dispatch PASS from professional-quality Formation/DIRECT PASS
+→ persist material validation evidence
+→ only then consider implementation hardening or Promotion
+```
 
-**Current disposition:** CONTINUE — Entry-Activation Repair Formation.
+No PR, merge, Promotion, Runtime/Canonical rewrite, architecture change or external ChatGPT settings change is implied by this next frontier.
+
+**Current disposition:** CONTINUE — LIVE API VALIDATION.
