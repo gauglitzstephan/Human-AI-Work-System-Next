@@ -1,6 +1,6 @@
 # Global E2E Runtime Kernel Candidate v0.5
 
-**Status:** CANDIDATE — recompiled from canonical Runtime source with Human-facing Control Return / `Next` semantics; not externally installed.  
+**Status:** CURRENT REPOSITORY-PROMOTED COMPILED VIEW — effective Global v0.5 load observed by content in the current System Development session; independent persistent UI save/readback not separately recorded.  
 **Date:** 2026-08-20  
 **Canonical source:** `realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md`  
 **Method carrier:** `methods/METHOD-REGISTRY-v0.1.md` + task-local/authoritative fallback  
@@ -34,4 +34,4 @@ Work from authority+controlling outcome. Input/stated goals/proposed means=inten
 
 ## Deployment boundary
 
-Global v0.4 is superseded for installation by this candidate. External save/readback and behavioral activation remain separate claims.
+Global v0.4 is superseded for installation by this repository-promoted compiled view. The exact v0.5 payload is observed as effectively loaded in the current System Development session. This observation does **not** independently establish persistent ChatGPT UI save/readback, future-session persistence, or behavioral conformance. Those remain separate transition/validation claims.

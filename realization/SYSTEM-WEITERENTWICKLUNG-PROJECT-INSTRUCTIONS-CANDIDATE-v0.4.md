@@ -1,6 +1,6 @@
 # System Weiterentwicklung Project Instructions Candidate v0.4
 
-**Status:** CANDIDATE COMPILED VIEW — carrier-size fit established; external save/readback not performed.  
+**Status:** CURRENT REPOSITORY-PROMOTED COMPILED VIEW — effective Project v0.4 load observed by content in the current System Development session; independent persistent UI save/readback not separately recorded.  
 **Date:** 2026-08-20  
 **Canonical source:** `realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md`  
 **Project delta:** SD-01–SD-07 in canonical source  
@@ -33,6 +33,6 @@ SHA-256 UTF-8 LF:   338a01576cfa3e330b0e120dba509ee447f516cd4675a212924efc91388d
 
 ## Carrier boundary
 
-Human-observed Project Instructions capacity in the selected Pro Project context is 8,000 characters. Static carrier-size fit: **PASS**. External installation/save/readback remains **NOT PERFORMED**.
+Human-observed Project Instructions capacity in the selected Pro Project context is 8,000 characters. Static carrier-size fit: **PASS**. The exact Project v0.4 payload is observed as effectively loaded in the current System Development session. Independent persistent ChatGPT UI save/readback and future-session persistence are **not separately recorded**, and behavioral conformance remains a downstream claim.
 
-Project v0.3 is superseded for installation by this candidate.
+Project v0.3 is superseded for installation by this repository-promoted compiled view.
