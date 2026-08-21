@@ -68,6 +68,7 @@ export OPENAI_MODEL="gpt-5.6"
 
 python prototypes/r20-entry-gateway/gateway.py \
   --show-dispatch \
+  --show-meta \
   "Ich möchte ein Grafik Novel über die Geschichte des Bieres entwerfen"
 ```
 
@@ -91,7 +92,7 @@ python prototypes/r20-entry-gateway/run_evals.py \
   --json-out /tmp/r20-entry-gateway-eval.json
 ```
 
-The harness starts a fresh in-memory gateway for each case and preserves state only within multi-turn cases.
+The harness starts a fresh in-memory gateway for each case and preserves state only within multi-turn cases. Each turn records the API-returned model, response IDs, and usage for both dispatch and work passes rather than relying only on the requested model alias.
 
 ## Required R20 dispatch behavior
 
