@@ -162,7 +162,7 @@ Evidence record:
 
 ## Promotion-state handoff / current gate
 
-The promotion-state handoff rewrite is persisted on the PR #14 head. The transient PR-level verdict is intentionally not hard-coded here; the latest review of the current PR head controls Promotion readiness.
+The Promotion-State-Handoff rewrite is persisted and read back across `CURRENT.md`, this root README, `realization/README.md` and the E2E-04 record. The transient PR-level verdict is intentionally not hard-coded here; the latest review of the current PR head controls Promotion readiness.
 
 ```text
 IF read on unmerged PR #14 / its head branch:
