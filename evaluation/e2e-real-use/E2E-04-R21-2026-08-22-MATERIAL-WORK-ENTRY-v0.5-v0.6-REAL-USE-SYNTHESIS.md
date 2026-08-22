@@ -1,8 +1,8 @@
 # E2E-04 R21 — material-work-entry v0.5/v0.6 Real-Use Reconciliation
 
 **Date:** 2026-08-22  
-**Status:** RECONCILIATION EVIDENCE / CANDIDATE — NO REPAIR, PROMOTION OR ARCHITECTURE CHANGE  
-**Branch:** `reconcile/r21-material-work-entry-v0.6-real-use`  
+**Status:** REPOSITORY-PROMOTED EVIDENCE VIA PR #16 / POST-MERGE READBACK PASS — NO RUNTIME OR SKILL REPAIR, PROMOTION OR ARCHITECTURE CHANGE  
+**Repository transition:** merged to `main` via PR #16; post-merge authority reconciliation recorded in `main/CURRENT.md`  
 **System of Interest:** Native ChatGPT work formation, bounded persistence and handoff behavior around the external Personal Skill `material-work-entry`
 
 ## 1. Purpose and authority boundary
@@ -22,7 +22,7 @@ It records observed behavior, version boundaries, evaluator corrections and the 
 - turn all three cases into v0.6 proof;
 - treat a conversation excerpt as the complete evidence universe.
 
-The controlling repository state remains `main/CURRENT.md` until a separately authorized promotion and merge. This synthesis is secondary to the three persistent case records below.
+The controlling repository state is `main/CURRENT.md`. This synthesis is repository-promoted evidence after PR #16, but remains secondary to the persistent primary case records below and does not itself control Runtime, Skill, UI or architecture state.
 
 ## 2. Evidence and version ledger
 
@@ -216,10 +216,10 @@ Target Architecture                       KEEP CLOSED
 Global Custom Instructions                NO NEW REPAIR
 material-work-entry v0.6-candidate        KEEP CANDIDATE
 Skill source/structure                    PREVIOUSLY VALIDATED
-Repository reconciliation                 CONVERGENCE PACKAGE BOUND TO PR #16
+Repository reconciliation                 COMPLETE via PR #16 / POST-MERGE READBACK PASS
 Skill repair                              NOT AUTHORIZED / NOT JUSTIFIED
-Runtime or UI promotion                   NONE IN PACKAGE
-Repository transition                     CONTROLLED THROUGH PR #16 + READBACK
+Runtime or UI promotion                   NONE
+Repository transition                     COMPLETE; any later state change requires separate authority
 ```
 
 The evidence supports the two v0.6 additions as necessary and promising:
@@ -243,6 +243,6 @@ The remaining probes are not to be manufactured as repository-convergence precon
 
 ## 9. Disposition
 
-> **TRANSITION CONTROL — bind the R21 reconciliation package to PR #16 and let GitHub state plus readback control repository authority. KEEP architecture closed. Keep `material-work-entry v0.6-candidate` unpromoted. No Skill/Runtime repair or UI change is justified by the reconciled evidence.**
+> **CLOSE R21 REPOSITORY CONVERGENCE — PR #16 is merged and post-merge authority readback passes. KEEP architecture closed. Keep `material-work-entry v0.6-candidate` unpromoted. Monitor the remaining provider-return/rebind and bounded-negative-control claims only in genuine use. No Skill/Runtime repair or UI change is justified by the reconciled evidence.**
 
 [material-work-entry v0.6-candidate]
