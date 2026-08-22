@@ -4,9 +4,9 @@
 
 ## Start here
 
-**[`CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point for the tree in which it is read.**
+**[`main/CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point.**
 
-Do not infer current program state from historical `Next` sections, newest-looking files, old installation bundles, chat history, or closed/unmerged branches.
+A `CURRENT.md` copy read on an unmerged branch is Candidate state. It becomes controlling only when that exact state is present on `main` after an authorized merge and readback. Do not infer current program state from historical `Next` sections, newest-looking files, old installation bundles, chat history, or closed/unmerged branches.
 
 ## Current status
 
@@ -24,7 +24,8 @@ Live Project payload                             v0.5 CANDIDATE / UI content rea
 material-work-entry                              v0.6-candidate / external Personal Skill / UNPROMOTED
 
 R20 active repair                                CLOSED
-R21 repository convergence                       COMPLETE
+R21 repository convergence                       COMPLETE via PR #16
+Post-R21 authority-state delta                    CANDIDATE off main / controlling only on main after merge + readback
 Next                                             MONITOR remaining claims in genuine use
 ```
 
