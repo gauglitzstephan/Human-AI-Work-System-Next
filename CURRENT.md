@@ -1,13 +1,13 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R21 REPOSITORY CONVERGENCE COMPLETE — **PR #16 MERGED / POST-MERGE AUTHORITY READBACK PASS / NATIVE PRODUCT-CARRIER MAPPING + VERSION-SCOPED REAL-USE EVIDENCE RECONCILED / LIVE PROJECT v0.5 CANDIDATE READBACK PASS / STATIC ARCHITECTURE KEEP CLOSED / NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION**.  
+**Status:** R21 REPOSITORY CONVERGENCE COMPLETE VIA PR #16 — **POST-R21 AUTHORITY-STATE DELTA IS CANDIDATE OFF `main` AND CONTROLLING ONLY IF THIS EXACT STATE IS READ ON `main` AFTER AN AUTHORIZED MERGE + READBACK / LIVE PROJECT v0.5 CANDIDATE READBACK PASS / STATIC ARCHITECTURE KEEP CLOSED / NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION**.  
 **Date:** 2026-08-22  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **PR #16 R21 repository convergence:** **COMPLETE** — merged; post-merge authority/readback reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current active Runtime:** Global v0.5 remains repository-promoted, restored and independently UI-read back; Project v0.4 remains the repository-promoted compiled baseline, while direct Human UI content readback identifies the live Project payload as the branch-only v0.5 Candidate; external Personal Skill `material-work-entry v0.6-candidate` is installed and source-validated with bounded real-use evidence, but remains unpromoted.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
+**Authority:** `main/CURRENT.md` is the controlling repository state. A copy of this file on an unmerged branch is Candidate state; only the exact state read from `main` after an authorized merge and readback becomes controlling. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
 
 ## 1. Parent program and qualified state
 
@@ -593,4 +593,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** MONITOR — R21 REPOSITORY CONVERGENCE COMPLETE VIA PR #16 WITH POST-MERGE AUTHORITY READBACK PASS; LIVE PROJECT IDENTITY RESOLVED; REMAINING BEHAVIORAL PROBES STAY IN GENUINE-USE MONITORING; NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION.
+**Current disposition:** R21 REPOSITORY CONVERGENCE COMPLETE VIA PR #16; LIVE PROJECT IDENTITY RESOLVED; REMAINING BEHAVIORAL PROBES STAY IN GENUINE-USE MONITORING. THIS POST-R21 AUTHORITY-STATE DELTA REMAINS CANDIDATE OFF `main` AND BECOMES CONTROLLING ONLY THROUGH A SEPARATELY AUTHORIZED MERGE + READBACK. NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION.
