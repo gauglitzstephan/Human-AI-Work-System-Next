@@ -1,11 +1,11 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R20 REAL-USE VALIDATION — **GLOBAL-CI-ONLY ENTRY ENFORCEMENT FALSIFIED / NATIVE WORK-SKILL ENTRY + REAL-USE PASS WITHIN TESTED FRONTIER / PRODUCT SEMANTICS RECONCILED / STATIC ARCHITECTURE KEEP CLOSED / ACTIVE R20 REPAIR CLOSED / MONITOR GENUINE USE**.  
-**Date:** 2026-08-21  
+**Status:** R21 REAL-USE RECONCILIATION — **v0.5/v0.6 CASE EVIDENCE INTEGRATED ON DRAFT BRANCH / EVALUATOR ERROR SEPARATED FROM SKILL DEFECT / STATIC ARCHITECTURE KEEP CLOSED / NO SKILL REPAIR, RUNTIME PROMOTION, PR OR MERGE**.  
+**Date:** 2026-08-22  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
-**Current active Runtime:** Global v0.5 restored and independently UI-read back; active System Development Project remains v0.4; Personal Skill `material-work-entry v0.2` is installed externally in ChatGPT Work and remains an unpromoted runtime candidate.  
+**Current active Runtime:** Global v0.5 remains restored and independently UI-read back; active System Development Project remains v0.4; external Personal Skill `material-work-entry v0.6-candidate` is installed and source-validated with bounded real-use evidence, but remains unpromoted.  
 **Authority:** this `main/CURRENT.md` is the controlling repository state. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
 
 ## 1. Parent program and qualified state
@@ -46,16 +46,15 @@ Two-Pass Entry Gateway prototype                   INSTANTIATED / STATIC-OFFLINE
 Live Responses API validation                      BLOCKED BEFORE FIRST CALL — no bound API credential
 API Gateway                                        DEFERRED optional hard-enforcement path
 
-material-work-entry v0.2 manual Work cold-start   PASS
-material-work-entry v0.2 auto Work activation     PASS
-Professional/reference Formation                  PASS
-Probe≠Candidate boundary                           PASS
-Simple bounded transformation routing              PASS — Skill stays inactive
-Explicit clean ideation routing                    PASS — Skill stays inactive
-BOUND continuation                                 PASS
-Material changed-claim re-admission                PASS
-Existing Parent + new professional Child           PASS
-Native Work-Skill Entry candidate                  BEHAVIORALLY SUPPORTED within tested scope
+material-work-entry v0.2 R20 validation matrix    HISTORICAL PASS within recorded scope
+material-work-entry v0.5 wedding concept case      PASS within concept-formation frontier
+material-work-entry v0.5 EV decision case          PARTIAL — closure PASS; assurance incomplete
+material-work-entry v0.6 source/structure           VALIDATED externally / CANDIDATE
+v0.6 System-Boundary Discovery                     PASS in personal-information-system case
+v0.6 minimal Parent-state bootstrap                PASS in personal-information-system case
+v0.6 provider return → Parent rebind                UNVERIFIED
+Evaluator missing-bootstrap claim                  RETRACTED — evidence-slice error
+Native Work-Skill candidate                        SUPPORTED only within versioned tested frontiers
 
 Native Work real-use pilot                         PASS within bound Story-Assurance frontier
 Established professional continuation              PASS within tested frontier
@@ -69,13 +68,36 @@ Documented ChatGPT Work/Chat/Project/Memory facts  RECOVERED FROM CURRENT OPENAI
 Synthetic testing of documented product basics     STOP
 Custom GPT                                         DEFERRED
 
-Current repair decision                            NATIVE WORK-SKILL = STRONGEST LOW-COMPLEXITY NATIVE CANDIDATE
+Current reconciliation decision                    RECORD / RECONCILE; NO REPAIR OR PROMOTION
 R20 active repair                                  CLOSED
-Next                                               MONITOR GENUINE USE; reopen only on material observed failure
-Real-use quality / outcomes                        PARTIALLY ESTABLISHED within tested frontier; broader system outcomes NOT ESTABLISHED
+R21 active work                                    BRANCH-ONLY EVIDENCE RECONCILIATION
+Next                                               PROVIDER RETURN/REBIND; v0.6 CONSEQUENTIAL DECISION; v0.6 NEGATIVE CONTROL
+Real-use quality / outcomes                        PARTIALLY ESTABLISHED within versioned frontiers; broader system outcomes NOT ESTABLISHED
 ```
 
 No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist. The current result is a Runtime provider/surface/carrier realization result plus bounded real-use evidence, not a static architecture change.
+
+## 1A. R21 real-use reconciliation
+
+Branch-local reconciliation record:
+
+- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md` — version-scoped synthesis of the wedding-dessert, electric-car and personal information-system cases; ChatGPT-native product reconciliation; evaluator correction; exact remaining qualification frontier.
+
+Qualified delta:
+
+```text
+Wedding concept formation — v0.5              PASS within concept frontier
+Electric-car WAIT decision — v0.5             PARTIAL — closure PASS; evidence assurance incomplete
+Personal-information boundary/bootstrap — v0.6 PASS within dispatch/bootstrap frontier
+Windows provider return → Parent rebind        UNVERIFIED
+Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
+Target Architecture                            KEEP CLOSED
+Skill repair / Runtime promotion / PR / merge  NONE
+```
+
+The current official ChatGPT-native model used here is conditional rather than a fixed surface pipeline: Chat for bounded work, Work for substantial multi-source/tool/step work, Projects for earned continuing context, Skills for focused reusable workflows, Memory as selective context rather than authority, and files/connectors/tools as bounded evidence/action providers. Historical R20 product statements remain evidence of that review date; the R21 report records the current reconciliation and source URLs.
+
+The three cases do not constitute a complete v0.6 promotion wave. The wedding and electric-car cases carry v0.5 markers; only the personal information-system case directly exercises the v0.6 System-Boundary Discovery and Persistence/Bootstrap additions.
 
 ## 2. Persistent R20 evidence
 
@@ -344,7 +366,7 @@ CHAT
 WORK
 → longer/material professional work
 → Personal Skill routing
-→ material-work-entry v0.2
+→ material-work-entry v0.6-candidate
 → DIRECT or FORMATION
 
 PROJECT
@@ -445,9 +467,11 @@ Static Architecture                    KEEP CLOSED
 Canonical Runtime on main              UNCHANGED
 Promoted Global Runtime                v0.5
 Active external Global                 v0.5 restored/readback PASS
-material-work-entry v0.2               EXTERNAL PERSONAL SKILL / CANDIDATE
-Native Work-Skill Entry behavior       SUPPORTED within tested matrix
-Native Work real-use continuation      PASS within first bound frontier
+material-work-entry v0.6-candidate     EXTERNAL PERSONAL SKILL / UNPROMOTED CANDIDATE
+v0.2 R20 Entry behavior                 HISTORICAL PASS within tested matrix
+v0.5 real-use evidence                  VERSION-SCOPED: concept PASS; decision PARTIAL
+v0.6 boundary/bootstrap behavior        PASS within tested dispatch frontier
+v0.6 provider return/rebind             UNVERIFIED
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
 Custom GPT                              deferred
@@ -492,10 +516,11 @@ Do not manufacture further synthetic fixtures merely because more testing is pos
 For the system-development program:
 
 ```text
-R20 active repair        CLOSE
-Runtime disposition      MONITOR IN GENUINE USE
+R20 active repair        CLOSED
+R21 reconciliation       RECORDED ON DRAFT BRANCH
+Runtime disposition      v0.6-candidate / UNPROMOTED
 Static Architecture      KEEP CLOSED
-Next system action       none required until material new evidence or another legitimate program frontier arises
+Next system action       provider return/rebind, one consequential v0.6 decision, one bounded negative control
 ```
 
 For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
@@ -504,4 +529,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** MONITOR — R20 ACTIVE REPAIR CLOSED; REOPEN ONLY ON MATERIAL OBSERVED FAILURE.
+**Current disposition:** CONTINUE QUALIFICATION — R21 RECONCILIATION RECORDED ON DRAFT BRANCH; REPAIR AND PROMOTION REMAIN LOCKED.
