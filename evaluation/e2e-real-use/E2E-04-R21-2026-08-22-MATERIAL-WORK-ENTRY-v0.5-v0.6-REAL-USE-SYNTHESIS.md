@@ -2,7 +2,7 @@
 
 **Date:** 2026-08-22  
 **Status:** REPOSITORY-PROMOTED EVIDENCE VIA PR #16 / POST-MERGE READBACK PASS — NO RUNTIME OR SKILL REPAIR, PROMOTION OR ARCHITECTURE CHANGE  
-**Repository transition:** merged to `main` via PR #16; post-merge authority reconciliation recorded in `main/CURRENT.md`  
+**Repository transition:** R21 evidence merged to `main` via PR #16; this post-R21 status delta is Candidate off `main` and controlling only if the exact state is later read from `main` after an authorized merge + readback  
 **System of Interest:** Native ChatGPT work formation, bounded persistence and handoff behavior around the external Personal Skill `material-work-entry`
 
 ## 1. Purpose and authority boundary
@@ -22,7 +22,7 @@ It records observed behavior, version boundaries, evaluator corrections and the 
 - turn all three cases into v0.6 proof;
 - treat a conversation excerpt as the complete evidence universe.
 
-The controlling repository state is `main/CURRENT.md`. This synthesis is repository-promoted evidence after PR #16, but remains secondary to the persistent primary case records below and does not itself control Runtime, Skill, UI or architecture state.
+The controlling repository state is `main/CURRENT.md`. The R21 synthesis became repository-promoted evidence through PR #16; edits to this record on an unmerged branch remain Candidate state. The synthesis remains secondary to the persistent primary case records below and does not itself control Runtime, Skill, UI or architecture state.
 
 ## 2. Evidence and version ledger
 
