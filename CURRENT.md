@@ -81,7 +81,7 @@ No Target-Architecture ownership gap is established. The relevant Admission/Form
 
 ## 1A. R21 real-use reconciliation
 
-Branch-local reconciliation record:
+R21 reconciliation package:
 
 Primary case records:
 
@@ -141,7 +141,7 @@ PR #15 merge as current solution    BLOCKED
 PR #15 close/comment mutation       NOT PERFORMED in this reconciliation delta
 ```
 
-The canonical Product/Carrier mapping on this branch is reconciled so that Skills are focused reusable workflows which may operationalize cross-domain Work Functions such as Entry/Formation control. They are not reduced to domain Method storage. Availability, installed distribution, configuration and surface behavior remain deployment facts that require bounded verification.
+The canonical Product/Carrier mapping in the R21 convergence package is reconciled so that Skills are focused reusable workflows which may operationalize cross-domain Work Functions such as Entry/Formation control. They are not reduced to domain Method storage. Availability, installed distribution, configuration and surface behavior remain deployment facts that require bounded verification.
 
 This is a Runtime/product-carrier reconciliation, not a new Target-Architecture responsibility. Textual overlap across Global, Project and Skill carriers remains an audit question; harmful duplication is not established.
 
@@ -514,7 +514,7 @@ This correction removes unnecessary Human QA/product-discovery burden from the v
 
 ```text
 Static Architecture                    KEEP CLOSED
-Canonical Runtime on main              UNCHANGED
+Promoted Runtime deployment             UNCHANGED
 R21 canonical Product/Carrier mapping  RECONCILIATION CANDIDATE IN PR #16 PACKAGE
 Promoted Global Runtime                v0.5
 Active external Global                 v0.5 restored/readback PASS
