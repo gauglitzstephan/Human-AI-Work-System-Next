@@ -50,6 +50,7 @@ material-work-entry v0.2 R20 validation matrix    HISTORICAL PASS within recorde
 material-work-entry v0.5 wedding concept case      PASS within concept-formation frontier
 material-work-entry v0.5 EV decision case          PARTIAL — closure PASS; assurance incomplete
 material-work-entry v0.6 source/structure           VALIDATED externally / CANDIDATE
+v0.6 SKILL.md identity                              SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
 v0.6 System-Boundary Discovery                     PASS in personal-information-system case
 v0.6 minimal Parent-state bootstrap                PASS in personal-information-system case
 v0.6 provider return → Parent rebind                UNVERIFIED
@@ -81,7 +82,15 @@ No Target-Architecture ownership gap is established. The relevant Admission/Form
 
 Branch-local reconciliation record:
 
-- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md` — version-scoped synthesis of the wedding-dessert, electric-car and personal information-system cases; ChatGPT-native product reconciliation; evaluator correction; exact remaining qualification frontier.
+Primary case records:
+
+- `evaluation/e2e-real-use/E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md`;
+- `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md`;
+- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`.
+
+Secondary synthesis:
+
+- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md` — version-scoped cross-case synthesis; ChatGPT-native product reconciliation; evaluator correction; exact remaining qualification frontier.
 
 Qualified delta:
 
@@ -260,13 +269,17 @@ A Project is an explicit persistent context carrier containing related chats, fi
 
 When enabled, saved Memory and chat-history reference can make relevant prior context available in later conversations. This is contextual retrieval and does not guarantee complete or authoritative transfer of prior work state. Project-only memory can deliberately isolate a Project from outside context; default Project memory can use broader context depending on plan/settings.
 
-### Personal Skills
+### Skills and plugins — R21 current reconciliation
 
-Current OpenAI Plugin documentation explicitly describes Personal Skills as available in Work on supported paid plans. Skills can be used automatically when helpful after installation. Availability/invocation depends on supported surface, plan, role and workspace settings.
+Current official OpenAI documentation distinguishes distribution and surface:
 
-Therefore the observed user UI — Skill selection/activation in Work rather than ordinary Chat — is consistent with documented product behavior. The earlier synthetic normal-Chat Skill activation experiment is not required to establish a product boundary and must not be overinterpreted as a general Chat failure.
+- standalone Skills are documented for the ChatGPT desktop app, Codex CLI and the IDE extension;
+- Skills bundled in plugins are documented for Chat and Work across ChatGPT web, desktop and mobile;
+- explicit or implicit invocation, plan/workspace settings and the installed distribution path can still affect observed availability.
 
-Authoritative source URLs are recorded in `E2E-04-R20-2026-08-21-NATIVE-WORK-SKILL-VALIDATION.md`.
+Therefore the earlier R20 observation proves only that this Skill was behaviorally exercised on the tested Work surface. It does not establish a universal Work-only boundary or universal availability on another surface.
+
+Current authoritative source URLs and the superseding interpretation are recorded in `E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md`. The R20 source record remains historical evidence of its review date.
 
 ## 8. Native Work Skill candidate
 
@@ -471,6 +484,7 @@ material-work-entry v0.6-candidate     EXTERNAL PERSONAL SKILL / UNPROMOTED CAND
 v0.2 R20 Entry behavior                 HISTORICAL PASS within tested matrix
 v0.5 real-use evidence                  VERSION-SCOPED: concept PASS; decision PARTIAL
 v0.6 boundary/bootstrap behavior        PASS within tested dispatch frontier
+v0.6 source identity                    SKILL.md SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
 v0.6 provider return/rebind             UNVERIFIED
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
