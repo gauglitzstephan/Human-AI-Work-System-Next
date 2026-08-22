@@ -1,11 +1,11 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R21 NATIVE-STATE/LINEAGE RECONCILIATION — **v0.5/v0.6 CASE EVIDENCE + NATIVE PRODUCT/CARRIER MAPPING INTEGRATED ON DRAFT BRANCH / v0.6 CONSEQUENTIAL DECISION QUALIFIED / PR #15 SUPERSESSION RELATION RECORDED / LIVE PROJECT IDENTITY UNRESOLVED / STATIC ARCHITECTURE KEEP CLOSED / NO REPAIR, PROMOTION, PR MUTATION OR MERGE**.  
+**Status:** R21 REPOSITORY CONVERGENCE PREP — **NATIVE PRODUCT/CARRIER MAPPING + VERSION-SCOPED REAL-USE EVIDENCE RECONCILED / LIVE PROJECT v0.5 CANDIDATE READBACK PASS / R21 DRAFT PR #16 OPEN / STATIC ARCHITECTURE KEEP CLOSED / NO UI CHANGE, SKILL OR RUNTIME REPAIR, PROMOTION OR MERGE**.  
 **Date:** 2026-08-22  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
-**Current active Runtime:** Global v0.5 remains repository-promoted, restored and independently UI-read back; Project v0.4 remains the repository-promoted compiled baseline while the exact live Project payload identity is unresolved; external Personal Skill `material-work-entry v0.6-candidate` is installed and source-validated with bounded real-use evidence, but remains unpromoted.  
+**Current active Runtime:** Global v0.5 remains repository-promoted, restored and independently UI-read back; Project v0.4 remains the repository-promoted compiled baseline, while direct Human UI content readback identifies the live Project payload as the branch-only v0.5 Candidate; external Personal Skill `material-work-entry v0.6-candidate` is installed and source-validated with bounded real-use evidence, but remains unpromoted.  
 **Authority:** this `main/CURRENT.md` is the controlling repository state. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
 
 ## 1. Parent program and qualified state
@@ -24,7 +24,7 @@ Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
 
 Active Global v0.5                                RESTORED / PERSISTENT UI READBACK PASS
 Repository Project compiled baseline              v0.4 / PROMOTED
-Exact live Project payload identity                UNRESOLVED / READBACK REQUIRED
+Exact live Project payload identity                v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 
 R19 Runtime conformance — Chat + GitHub            PASS within prior scoped preflight
 R19x Work/Codex cross-surface conformance          PARTIALLY EXERCISED: Work Skill path + first genuine Work continuation now behaviorally exercised; Codex still not exercised
@@ -72,8 +72,8 @@ Custom GPT                                         DEFERRED
 
 Current reconciliation decision                    NATIVE STATE/LINEAGE DELTA ON R21; NO REPAIR OR PROMOTION
 R20 active repair                                  CLOSED
-R21 active work                                    BRANCH-ONLY STATE/EVIDENCE RECONCILIATION
-Next                                               LIVE PROJECT IDENTITY READBACK; PROVIDER RETURN/REBIND; v0.6 NEGATIVE CONTROL; ACTIVE MONITORING ONLY IF SEPARATELY AUTHORIZED
+R21 active work                                    REPOSITORY CONVERGENCE PREP / DRAFT PR #16
+Next                                               REVIEW R21 DRAFT PR #16; PROVIDER RETURN/REBIND AND BOUNDED NEGATIVE CONTROL MONITORED IN GENUINE USE
 Real-use quality / outcomes                        PARTIALLY ESTABLISHED within versioned frontiers; broader system outcomes NOT ESTABLISHED
 ```
 
@@ -88,7 +88,8 @@ Primary case records:
 - `evaluation/e2e-real-use/E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md`;
 - `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md`;
 - `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.6.md` — current-evidence consequential-decision qualification; WAIT closure and bounded re-entry contract PASS; active monitoring not performed;
-- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`.
+- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`;
+- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-LIVE-PROJECT-IDENTITY-READBACK.md` — Human UI content readback resolves the live Project carrier as v0.5 Candidate while repository Promotion remains v0.4.
 
 Secondary synthesis:
 
@@ -101,15 +102,16 @@ Wedding concept formation — v0.5              PASS within concept frontier
 Electric-car WAIT decision — v0.5             PARTIAL — closure PASS; evidence assurance incomplete
 Electric-car WAIT decision — v0.6             PASS — current evidence, closure and re-entry contract within stated ranges; active monitoring unverified
 Personal-information boundary/bootstrap — v0.6 PASS within dispatch/bootstrap frontier
-Windows provider return → Parent rebind        UNVERIFIED
+Live Project payload identity                  PASS — v0.5 Candidate by Human UI content readback; repository baseline v0.4
+Windows provider return → Parent rebind        UNVERIFIED / MONITOR IN GENUINE USE
 Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
 Target Architecture                            KEEP CLOSED
-Skill repair / Runtime promotion / PR / merge  NONE
+Skill repair / Runtime promotion / merge       NONE; R21 DRAFT PR #16 OPEN
 ```
 
 The current official ChatGPT-native model used here is conditional rather than a fixed surface pipeline: Chat for bounded work, Work for substantial multi-source/tool/step work, Projects for earned continuing context, Skills for focused reusable workflows, Memory as selective context rather than authority, and files/connectors/tools as bounded evidence/action providers. Historical R20 product statements remain evidence of that review date; the R21 report records the current reconciliation and source URLs.
 
-The primary cases do not constitute a complete v0.6 promotion wave. The wedding and original electric-car records carry v0.5 markers. The personal information-system and current electric-car records directly exercise different v0.6 frontiers: System-Boundary Discovery/Persistence Bootstrap and consequential decision closure/re-entry design. Provider return/rebind, the bounded negative control and active monitoring execution remain unverified.
+The primary cases do not constitute a complete v0.6 promotion wave. The wedding and original electric-car records carry v0.5 markers. The personal information-system and current electric-car records directly exercise different v0.6 frontiers: System-Boundary Discovery/Persistence Bootstrap and consequential decision closure/re-entry design. Provider return/rebind, the bounded negative control and active monitoring execution remain unverified, but no longer block repository convergence; observe them in genuine use.
 
 ## 1B. Native-state and candidate-lineage reconciliation
 
@@ -118,7 +120,7 @@ The R21 evidence is now tied to one explicit branch-local Candidate composition:
 ```text
 Global v0.5                         REPOSITORY-PROMOTED invariant/fallback kernel
 Project v0.4                       REPOSITORY-PROMOTED project-local baseline
-Exact live Project payload         UNRESOLVED / readback required
+Exact live Project payload         v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 material-work-entry v0.6-candidate INSTALLED EXTERNAL trigger-local workflow controller / UNPROMOTED
 Domain methods/specialized Skills  selected per frontier; not replaced by Entry control
 Chat/Work/Codex/tools               conditional providers/surfaces, not architecture stages
@@ -127,6 +129,8 @@ Static Architecture                 KEEP CLOSED
 ```
 
 The current-turn supplied User Custom Instructions match the repository Global v0.5 payload by content. This is effective current-turn carrier evidence, not an independent persistent UI byte-identity check.
+
+The Human separately copied the full live System Development Project Instructions from the UI. After LF normalization, that payload matches `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.5.md` on `repair/r20-cold-start-admission-v0.1` (6,143 characters; SHA-256 `16b46d87d98926e3e676957782569061f84faa2f5060d9d6e590c6e98853842b`). This resolves the live carrier identity while leaving repository Promotion at v0.4.
 
 Draft PR #15 (`repair/r20-exploration-readiness-v0.3`) contains valid learning that exploration is a Work Function subject to readiness, Work Function differs from frontier readiness, AI-resolvable context precedes Human burden, professional performance/reference basis precedes route qualification, probes are not Candidates, and Decision does not itself make execution ready. Those semantics are incorporated and expanded in the installed v0.6 source. Therefore:
 
@@ -515,21 +519,23 @@ R21 canonical Product/Carrier mapping  BRANCH-LOCAL RECONCILIATION CANDIDATE
 Promoted Global Runtime                v0.5
 Active external Global                 v0.5 restored/readback PASS
 Repository Project compiled baseline   v0.4 / PROMOTED
-Exact live Project payload identity    UNRESOLVED / READBACK REQUIRED
+Exact live Project payload identity    v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 material-work-entry v0.6-candidate     EXTERNAL PERSONAL SKILL / UNPROMOTED CANDIDATE
 v0.2 R20 Entry behavior                HISTORICAL PASS within tested matrix
 PR #15 v0.3 solution artifact          SUPERSEDED; VALID LEARNING RETAINED; PR UNCHANGED
 v0.5 real-use evidence                 VERSION-SCOPED: concept PASS; decision PARTIAL
 v0.6 boundary/bootstrap behavior       PASS within tested dispatch frontier
 v0.6 source identity                   SKILL.md SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
-v0.6 provider return/rebind            UNVERIFIED
+v0.6 provider return/rebind            UNVERIFIED / MONITOR IN GENUINE USE
 v0.6 consequential decision            PASS — current evidence, closure and re-entry contract within stated ranges
 v0.6 monitoring design                 PASS; ACTIVE MONITORING NOT PERFORMED / NOT AUTHORIZED
-v0.6 bounded negative control          UNVERIFIED
+v0.6 bounded negative control          UNVERIFIED / MONITOR IN GENUINE USE
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
 Custom GPT                              deferred
-PR mutation / Merge / Promotion        NONE
+R21 Draft PR                           #16 OPEN / DRAFT / UNMERGED
+PR #15 mutation                         NONE
+Skill/Runtime repair / Merge / Promotion NONE
 ```
 
 Persistence of validation evidence does not promote the Skill into authoritative Runtime state.
@@ -574,9 +580,9 @@ For the system-development program:
 R20 active repair        CLOSED
 R21 reconciliation       NATIVE STATE/LINEAGE DELTA WRITTEN ON DRAFT BRANCH
 Runtime disposition      v0.6-candidate / UNPROMOTED
-Live Project identity    UNRESOLVED / exact payload readback required
+Live Project identity    v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 Static Architecture      KEEP CLOSED
-Next system action       live Project identity readback; provider return/rebind; one bounded negative control; active monitoring only if separately authorized
+Next system action       review R21 Draft PR #16; monitor provider return/rebind and bounded negative control in genuine use
 ```
 
 For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
@@ -585,4 +591,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** CONTINUE QUALIFICATION — v0.6 CONSEQUENTIAL DECISION EVIDENCE WRITTEN ON THE R21 DRAFT BRANCH; LIVE PROJECT IDENTITY, PROVIDER RETURN/REBIND AND THE BOUNDED NEGATIVE CONTROL REMAIN OPEN; ACTIVE MONITORING REQUIRES SEPARATE AUTHORIZATION; REPAIR AND PROMOTION REMAIN LOCKED.
+**Current disposition:** REVIEW — R21 REPOSITORY CONVERGENCE PREP COMPLETE IN DRAFT PR #16; LIVE PROJECT IDENTITY RESOLVED; REMAINING BEHAVIORAL PROBES MOVE TO GENUINE-USE MONITORING; NO UI CHANGE, SKILL OR RUNTIME REPAIR, PROMOTION OR MERGE.
