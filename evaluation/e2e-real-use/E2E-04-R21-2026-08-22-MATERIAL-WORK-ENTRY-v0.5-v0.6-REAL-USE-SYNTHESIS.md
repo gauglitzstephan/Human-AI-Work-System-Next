@@ -22,7 +22,7 @@ It records observed behavior, version boundaries, evaluator corrections and the 
 - turn all three cases into v0.6 proof;
 - treat a conversation excerpt as the complete evidence universe.
 
-The controlling repository state remains `main/CURRENT.md` until a separately authorized promotion and merge.
+The controlling repository state remains `main/CURRENT.md` until a separately authorized promotion and merge. This synthesis is secondary to the three persistent case records below.
 
 ## 2. Evidence and version ledger
 
@@ -33,6 +33,26 @@ The controlling repository state remains `main/CURRENT.md` until a separately au
 | Personal information system | initial v0.5 behavior, then `material-work-entry v0.6-candidate` | Cross-surface boundary discovery and controlling Current bootstrap | v0.5 failure localized; v0.6 boundary/bootstrap PASS; provider-return loop still open |
 
 The three cases are not a homogeneous v0.6 promotion wave. The first two are retained as v0.5 legacy evidence. Only the personal information-system case directly exercises the v0.6 additions.
+
+### Persistent primary case records
+
+- `E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md` — wedding concept Formation, Human taste contribution, vendor-handoff boundary.
+- `E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md` — WAIT decision, triggers, assurance limitation and monitoring gap.
+- `E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md` — v0.5 failure, v0.6 System-Boundary/Bootstrap evidence, Current identity and pending return/rebind.
+
+Each case record contains the Human-supplied ChatGPT share reference. Those share pages could not be independently fetched during reconciliation and are therefore identifiers, not independently read-back repository evidence. The personal Current was inspected from the attached file and is bound by name, size and SHA-256 without copying personal store descriptions into this repository.
+
+### Exact v0.6 source identity
+
+```text
+Installed Skill file                 material-work-entry/SKILL.md
+remote-skills repository HEAD        e6130078151be819c23f218af30619e0197c5ed2
+last commit touching Skill file      e1ae2f472cb9ac469657ad2b8d779882a66c201e
+SKILL.md size                        11,839 bytes
+SKILL.md SHA-256                     69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
+```
+
+This identity qualifies the source inspected during R21. It does not prove that every historical v0.6-marked run loaded exactly those bytes unless the run itself exposed a matching identity.
 
 ## 3. Case findings
 
