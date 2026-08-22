@@ -85,4 +85,6 @@ PASS for a coherent WAIT disposition, trigger design and optionality logic. PART
 
 Do not repair v0.6 from this v0.5 case. At the next vehicle decision, retrieve current authoritative program rules, actual tax assessments, market offers and a vehicle inspection/value basis.
 
+Record-production note: the terminal v0.6 marker identifies the controller used to compile this R21 reconciliation record. It does not change the originating case runtime, which remains `material-work-entry v0.5-candidate`.
+
 [material-work-entry v0.6-candidate]
