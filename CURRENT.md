@@ -207,7 +207,7 @@ professional method/reference obligation            EXISTS
 persistent-state semantics                          EXISTS
 model/runtime can perform target behavior locally   SUPPORTED
 Global-CI-only permanent entry enforcement           FAIL / UNRELIABLE
-native Work-Skill trigger-local mechanism            BEHAVIORALLY SUPPORTED within tested scope
+native Work-Skill v0.2 original-case behavior        PASS only for exact historical cases; general claim withdrawn
 native established-frontier Work continuation        PASS within first genuine pilot frontier
 ```
 
@@ -355,9 +355,9 @@ Memory / retrieved prior-chat context
 
 No Memory defect is established merely because relevant earlier information crossed into a new Work chat.
 
-## 11. Current native runtime composition candidate
+## 11. Current native runtime repair candidate
 
-The shallowest currently supported native composition is:
+The shallowest current candidate composition is:
 
 ```text
 GLOBAL CUSTOM INSTRUCTIONS
@@ -369,8 +369,8 @@ CHAT
 WORK
 → longer/material professional work
 → Personal Skill routing
-→ material-work-entry v0.2
-→ DIRECT or FORMATION
+→ active external material-work-entry v0.2: counterevidence / not generally supported
+→ repository v0.3 candidate: frontier readiness before Work Function execution
 
 PROJECT
 → persistent initiative/context carrier when continuity earns it
@@ -384,7 +384,7 @@ API TWO-PASS GATEWAY
 → deferred hard-enforcement option if native Work-Skill performance later proves insufficient or surface-independent automation becomes necessary
 
 CUSTOM GPT
-→ deferred; no current incremental-value case over the positively supported Work-Skill path
+→ deferred; no current evidence that it solves the readiness/enforcement defect better than the Skill candidate
 ```
 
 This is a Runtime provider/surface/carrier assignment, not a new architecture stage.
@@ -433,13 +433,13 @@ Extension to additional epochs                 UNVERIFIED
 Full-Arc promotion                             NOT GRANTED
 ```
 
-The pilot return itself does not independently prove Skill invocation on that established-frontier turn; no validation marker was present. That is not required for the exact pilot claim because prior Skill evidence already supports Entry/Re-admission, while this pilot evaluates downstream continuation/repair/assurance on an already bound legitimate frontier.
+The pilot return itself does not independently prove Skill invocation on that established-frontier turn; no validation marker was present. It remains positive evidence for downstream continuation/repair/assurance on that already bound frontier, not for general Entry routing.
 
-Supported combined runtime claim:
+Current combined runtime claim:
 
-> **On the tested ChatGPT Work path, Entry/Re-admission is behaviorally supported by `material-work-entry v0.2`, and the first genuine established-frontier Work pilot demonstrated competent professional continuation, failure detection, AI-side repair and bounded assurance without reopening the original R20 failure class.**
+> **The original v0.2 cases retain exact-case evidence, and the established-frontier pilot retains its bounded continuation evidence. The new exploration-readiness counterexample withdraws the broader Entry-controller claim and reopens Runtime repair.**
 
-This does not establish universal system performance or downstream story outcome quality.
+This does not establish v0.3 behavior, universal system performance, or downstream story outcome quality.
 
 ## 13. Validation policy correction
 
@@ -470,13 +470,14 @@ Static Architecture                    KEEP CLOSED
 Canonical Runtime on main              UNCHANGED
 Promoted Global Runtime                v0.5
 Active external Global                 v0.5 restored/readback PASS
-material-work-entry v0.2               EXTERNAL PERSONAL SKILL / CANDIDATE
-Native Work-Skill Entry behavior       SUPPORTED within tested matrix
+material-work-entry v0.2               EXTERNAL PERSONAL SKILL / COUNTEREVIDENCE
+Native Work-Skill v0.2 behavior        EXACT HISTORICAL CASES ONLY; GENERAL CLAIM WITHDRAWN
+material-work-entry v0.3               REPOSITORY CANDIDATE / STATIC-TRACE PASS / LIVE UNVERIFIED
 Native Work real-use continuation      PASS within first bound frontier
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
 Custom GPT                              deferred
-PR / Merge / Promotion                  NONE for current Skill candidate
+PR / Merge / Promotion                  NONE; repair branch remains Candidate
 ```
 
 Persistence of validation evidence does not promote the Skill into authoritative Runtime state.
@@ -492,7 +493,7 @@ Global invariant kernel
 + Project only when persistence/continuity earns it
 ```
 
-The Skill matrix supports Entry, DIRECT proportionality, Formation, BOUND continuation, changed-claim re-admission and nested-child re-admission. The first genuine Work pilot adds positive evidence for established-frontier professional continuation, reference use, failure detection, AI-side repair, claim-bound assurance and transition integrity.
+The original Skill matrix retains evidence for its exact cases, including bounded proportionality, Formation, continuation and changed-claim re-admission. It did not cover materially open exploration strategy. The first genuine Work pilot separately retains positive evidence for established-frontier professional continuation, reference use, failure detection, AI-side repair, claim-bound assurance and transition integrity.
 
 New counterevidence now exists. The closure decision is superseded by §0.
 
