@@ -1,7 +1,7 @@
 # E2E-04 R21 — Native-Platform Audit Basis Correction
 
 **Date:** 2026-08-22  
-**Status:** RECONCILIATION EVIDENCE / CANDIDATE — NO REPAIR, PR MUTATION, MERGE OR PROMOTION  
+**Status:** RECONCILIATION EVIDENCE / CANDIDATE — POINT-IN-TIME BASIS CORRECTION; LATER R21 RECORDS SUPERSEDE OPEN-STATE ITEMS; NO SKILL/RUNTIME REPAIR OR PROMOTION  
 **Branch:** `reconcile/r21-material-work-entry-v0.6-real-use`  
 **System of Interest:** native ChatGPT composition and carrier/state lineage for Global Custom Instructions, Project context/instructions, Chat/Work, `material-work-entry`, domain methods, Memory, files, tools and persistent Current state
 
@@ -10,6 +10,8 @@
 A prior System-as-a-Product audit treated Skills too superficially, carried forward the older canonical shorthand “optional Method/workflow carrier,” and inferred that Global Custom Instructions and `material-work-entry v0.6-candidate` were competing operating systems.
 
 That basis contradicted the later R20/R21 native-platform investigation which informed the Skill’s evolution. The resulting Route-D/product-boundary recommendation was therefore withdrawn and the audit basis reopened.
+
+Temporal scope: this record captures the audit-basis correction before the later R21 live-Project readback, v0.6 electric-car decision qualification and PR #16 preparation. The current state is controlled by those later records plus `CURRENT.md`; open-state claims below are reconciled to their subsequent outcome rather than left as current blockers.
 
 ## 2. Corrected evidence order
 
@@ -21,7 +23,7 @@ Native Work Skill validation                          scoped behavioral evidence
 R21 ChatGPT-native product reconciliation             later product-semantics evidence
 material-work-entry v0.6 source                       current installed Candidate source
 R21 genuine-use cases                                 latest bounded behavioral evidence
-live Project payload                                  exact identity unresolved
+live Project payload                                  resolved later: v0.5 Candidate content readback PASS
 ```
 
 Later product-semantics evidence must reconcile the older carrier mapping; an older canonical statement cannot silently override later observed and documented native product behavior.
@@ -84,9 +86,9 @@ Related semantics in Global and Skill carriers may be intentional layered salien
 |---|---|
 | main versus installed Skill/R21 state lag | ESTABLISHED state/release defect |
 | open PR #15 v0.3 versus later v0.6 lineage | ESTABLISHED supersession defect |
-| exact live Project payload identity | UNRESOLVED |
+| exact live Project payload identity | RESOLVED LATER — v0.5 Candidate content readback PASS |
 | provider return → Parent rebind → Current update | UNVERIFIED |
-| consequential v0.6 evidence-backed decision | UNVERIFIED |
+| consequential v0.6 evidence-backed decision | PASS LATER — current-evidence WAIT closure and re-entry contract within stated ranges |
 | bounded v0.6 negative control | UNVERIFIED |
 | harmful Global/Project/Skill duplication | NOT ESTABLISHED |
 | Static Architecture gap | NOT ESTABLISHED |
@@ -113,23 +115,25 @@ This identifies inspected source, not universal runtime invocation or historical
 Earlier Route-D/product-boundary recommendation WITHDRAWN
 Global v0.5                                  KEEP
 Repository Project v0.4 baseline            KEEP
-Exact live Project payload                  UNRESOLVED / READBACK REQUIRED
+Exact live Project payload                  v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 material-work-entry v0.6-candidate           KEEP / UNPROMOTED
 PR #15 v0.3 solution                         SUPERSEDED / LEARNING RETAINED
 Static Architecture                          KEEP CLOSED
 Skill/Global/Project repair                   NOT JUSTIFIED
-Merge/Promotion                              NONE
+Repository transition                       PR #16 PACKAGE; AUTHORITY FOLLOWS GITHUB STATE + READBACK
+Skill/Runtime/UI promotion                   NONE
 ```
 
 The current system is best described as a plausibly coherent native layered Candidate whose repository and carrier lineage lagged later Skill and platform learning—not as two proven competing operating systems.
 
-## 9. Remaining qualification frontier
+## 9. Subsequent reconciliation outcome
 
-1. capture and compare the exact live Project Instructions payload without changing it;
-2. complete provider return → Parent rebind → Current update;
-3. run one consequential v0.6 decision using current authoritative evidence and test closure plus persistence/monitoring;
-4. run one bounded negative control that must remain direct.
+1. exact live Project Instructions identity: **PASS** — v0.5 Candidate by Human UI content readback, with the normalized payload persisted in the dedicated evidence record;
+2. consequential v0.6 current-evidence decision: **PASS** within stated evidence, WAIT-closure and re-entry ranges;
+3. provider return → Parent rebind → Current update: **UNVERIFIED / MONITOR IN GENUINE USE**;
+4. bounded v0.6 negative control: **UNVERIFIED / MONITOR IN GENUINE USE**;
+5. active synthetic qualification loop: **STOPPED**.
 
-Only returned evidence may justify a later repair or Promotion decision.
+Only returned evidence may justify a later repair or Promotion decision. The two remaining behavioral probes are not repository-convergence blockers.
 
 [material-work-entry v0.6-candidate]
