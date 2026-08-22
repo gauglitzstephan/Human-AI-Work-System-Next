@@ -1,6 +1,7 @@
 # E2E Runtime Canonical Semantic Source v0.1
 
-**Status:** CANDIDATE CANONICAL SOURCE — contains the R21-reconciled native Product/Carrier mapping; not itself an installable prompt, and repository inclusion does not constitute Runtime or UI promotion.  
+**Status:** REPOSITORY-PERSISTED CANDIDATE CANONICAL SOURCE — contains the R21-reconciled native Product/Carrier mapping; repository persistence does not make it an installable prompt or constitute Runtime/UI promotion.  
+**Repository state:** R21 mapping persisted through PR #16; edits off `main` remain Candidate until separately authorized merge + readback.  
 **Date:** 2026-08-22  
 **Basis:** CR-01–13 / CCR-01–07, Target Architecture v0.2, merged E2E Work Architecture, E2E Operating Runtime Contract, qualified Orchestration Model v0.5 / DWM v0.5, Runtime Deployment Mapping RCA, observed Human-facing control-return failure on 2026-08-20, R20 native Work-Skill validation and R21 ChatGPT-native product/real-use reconciliation on 2026-08-22.
 
