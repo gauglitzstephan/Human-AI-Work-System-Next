@@ -1,12 +1,37 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R20 REAL-USE VALIDATION — **GLOBAL-CI-ONLY ENTRY ENFORCEMENT FALSIFIED / NATIVE WORK-SKILL ENTRY + REAL-USE PASS WITHIN TESTED FRONTIER / PRODUCT SEMANTICS RECONCILED / STATIC ARCHITECTURE KEEP CLOSED / ACTIVE R20 REPAIR CLOSED / MONITOR GENUINE USE**.  
-**Date:** 2026-08-21  
+**Status:** R20 REAL-USE VALIDATION — **GLOBAL-CI-ONLY ENTRY ENFORCEMENT FALSIFIED / v0.2 GENERAL ENTRY SUPPORT WITHDRAWN AFTER EXPLORATION-READINESS COUNTEREVIDENCE / R20 RUNTIME REPAIR REOPENED / v0.3 STATIC-TRACE CANDIDATE / LIVE WORK VALIDATION PENDING / STATIC ARCHITECTURE KEEP CLOSED PROVISIONALLY**.  
+**Date:** 2026-08-22  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
-**Current active Runtime:** Global v0.5 restored and independently UI-read back; active System Development Project remains v0.4; Personal Skill `material-work-entry v0.2` is installed externally in ChatGPT Work and remains an unpromoted runtime candidate.  
-**Authority:** this `main/CURRENT.md` is the controlling repository state. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
+**Current active Runtime:** Global v0.5 restored and independently UI-read back; active System Development Project remains v0.4; Personal Skill `material-work-entry v0.2` remains installed externally in ChatGPT Work but now carries material counterevidence and must not be treated as generally supported.  
+**Authority:** `main/CURRENT.md` remains repository authority until this repair is merged. On this unmerged branch, the v0.3 package is Candidate state only; it does not install, replace, accept, or promote a Skill.
+
+## 0. 2026-08-22 controlling reopen delta
+
+A genuine system-development continuation exposed a category error not covered by the prior v0.2 matrix:
+
+```text
+exploration is requested
+≠ exploration purpose/strategy/evidence/output/stop rule is sufficiently formed
+```
+
+The v0.2 exception allowing explicit exploration to route DIRECT based on requested product type conflates Work Function with readiness. The earlier mailbox-history ideation control established proportional direct ideation only for that bounded case; it did not establish general exploration readiness or general Entry-controller reliability.
+
+Controlling delta on this branch:
+
+```text
+v0.2 general-support claim                  WITHDRAWN
+R20 runtime repair                          REOPENED
+v0.3 semantic candidate                     STATIC-TRACE PASS
+v0.3 automatic/live Work behavior           UNVERIFIED
+active external v0.2 Skill                  UNCHANGED
+Static Architecture                         KEEP CLOSED provisionally
+next frontier                               clean live Work forward test
+```
+
+This section supersedes later closure/monitor language where inconsistent. Historical evidence remains valid only within its exact tested scope.
 
 ## 1. Parent program and qualified state
 
@@ -51,11 +76,11 @@ material-work-entry v0.2 auto Work activation     PASS
 Professional/reference Formation                  PASS
 Probe≠Candidate boundary                           PASS
 Simple bounded transformation routing              PASS — Skill stays inactive
-Explicit clean ideation routing                    PASS — Skill stays inactive
+Explicit clean ideation routing                    PASS — bounded low-stakes case only
 BOUND continuation                                 PASS
 Material changed-claim re-admission                PASS
 Existing Parent + new professional Child           PASS
-Native Work-Skill Entry candidate                  BEHAVIORALLY SUPPORTED within tested scope
+Native Work-Skill Entry general-support claim      WITHDRAWN after new real-use counterevidence
 
 Native Work real-use pilot                         PASS within bound Story-Assurance frontier
 Established professional continuation              PASS within tested frontier
@@ -69,13 +94,13 @@ Documented ChatGPT Work/Chat/Project/Memory facts  RECOVERED FROM CURRENT OPENAI
 Synthetic testing of documented product basics     STOP
 Custom GPT                                         DEFERRED
 
-Current repair decision                            NATIVE WORK-SKILL = STRONGEST LOW-COMPLEXITY NATIVE CANDIDATE
-R20 active repair                                  CLOSED
-Next                                               MONITOR GENUINE USE; reopen only on material observed failure
+Current repair decision                            v0.3 READINESS-BASED SKILL CANDIDATE
+R20 active repair                                  REOPENED
+Next                                               CLEAN LIVE WORK FORWARD TEST
 Real-use quality / outcomes                        PARTIALLY ESTABLISHED within tested frontier; broader system outcomes NOT ESTABLISHED
 ```
 
-No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist. The current result is a Runtime provider/surface/carrier realization result plus bounded real-use evidence, not a static architecture change.
+No Target-Architecture ownership gap is currently established. The architecture already distinguishes adaptive frontier selection from specific Work Functions. The observed defect localizes provisionally to Runtime semantic compilation plus insufficient validation coverage; static architecture remains closed unless live testing establishes non-realizability or an unowned transformation.
 
 ## 2. Persistent R20 evidence
 
@@ -310,11 +335,11 @@ existing shop Parent + new professional loyalty-program Child
 → FORMATION
 ```
 
-Supported narrow claim:
+Previously supported narrow claim, now superseded by §0:
 
-> **`material-work-entry v0.2` is behaviorally supported as an automatic native Entry/Admission controller on the tested ChatGPT Work surface.**
+> `material-work-entry v0.2` showed positive behavior on the original tested matrix.
 
-This remains scoped behavioral support, not universal reliability or Promotion.
+The new exploration-readiness counterexample prevents treating that matrix as support for the broader automatic Entry/Admission-controller claim. The individual historical observations remain evidence for their exact cases only.
 
 ## 10. Memory/context observation
 
@@ -458,7 +483,7 @@ Persistence of validation evidence does not promote the Skill into authoritative
 
 ## 15. R20 closure / monitor decision
 
-The original R20 failure class now has a viable low-complexity native realization path:
+The original R20 failure class had a viable low-complexity native realization candidate before the 2026-08-22 counterevidence:
 
 ```text
 Global invariant kernel
@@ -469,11 +494,11 @@ Global invariant kernel
 
 The Skill matrix supports Entry, DIRECT proportionality, Formation, BOUND continuation, changed-claim re-admission and nested-child re-admission. The first genuine Work pilot adds positive evidence for established-frontier professional continuation, reference use, failure detection, AI-side repair, claim-bound assurance and transition integrity.
 
-No further active R20 repair is proportionate without new counterevidence.
+New counterevidence now exists. The closure decision is superseded by §0.
 
 Therefore:
 
-> **CLOSE the active R20 repair loop. MONITOR genuine use. Reopen only when a material observed failure establishes a new repair need.**
+> **REOPEN the bounded R20 Runtime repair. Keep the static architecture closed provisionally. Validate the v0.3 readiness relation in clean live Work cases before replacement or Promotion.**
 
 Material reopen signals include, for example:
 
@@ -492,10 +517,10 @@ Do not manufacture further synthetic fixtures merely because more testing is pos
 For the system-development program:
 
 ```text
-R20 active repair        CLOSE
-Runtime disposition      MONITOR IN GENUINE USE
-Static Architecture      KEEP CLOSED
-Next system action       none required until material new evidence or another legitimate program frontier arises
+R20 active repair        REOPENED
+Runtime disposition      v0.2 COUNTEREVIDENCE / v0.3 CANDIDATE
+Static Architecture      KEEP CLOSED PROVISIONALLY
+Next system action       CLEAN LIVE WORK FORWARD TEST OF v0.3
 ```
 
 For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
@@ -504,4 +529,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** MONITOR — R20 ACTIVE REPAIR CLOSED; REOPEN ONLY ON MATERIAL OBSERVED FAILURE.
+**Current disposition:** CONTINUE — R20 RUNTIME REPAIR REOPENED; v0.3 STATIC-TRACE CANDIDATE; LIVE WORK VALIDATION PENDING.
