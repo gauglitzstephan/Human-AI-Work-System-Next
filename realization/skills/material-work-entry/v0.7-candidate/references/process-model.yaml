@@ -1,0 +1,110 @@
+schema_version: "0.1"
+start_state: "material input received"
+end_states: ["CONTINUE", "HUMAN GATE", "HANDOFF", "WAIT", "MONITOR", "CLOSE", "STOP"]
+steps:
+  - "Bind parent and classify BOUND versus NEW/CHANGED."
+  - "Discover the material System of Interest and qualify the coverage of accessible evidence slices."
+  - "Identify the next legitimate transition and Work Function."
+  - "Test only that frontier for readiness."
+  - "If unready, perform substantive Formation and acquire context by legitimate route."
+  - "Resolve method need before provider selection."
+  - "Orchestrate AI and Human contribution."
+  - "If continuity criteria are met, instantiate the shallowest adequate controlling bootstrap before accumulation or dispatch."
+  - "Select provider and surface."
+  - "Execute in place or compile a Gate, handoff, wait, monitor, close, or stop disposition."
+  - "Integrate returns and qualify only the exact supported result."
+decision_points:
+  - "Can missing state materially change the next frontier?"
+  - "Does the accessible evidence cover the material System of Interest or only a slice?"
+  - "Is the next frontier ready?"
+  - "Does professional performance depend on a specific method?"
+  - "Would Human contribution be non-substitutable or high-value enough to justify interruption?"
+  - "Does missing Human contribution block a material transition?"
+  - "Does responsibility or environment materially change?"
+  - "Does the Parent's next legitimate transition require a decision, commitment, acceptance, authorization, Promotion, or another control operator outside this Skill or current responsibility?"
+  - "Will the next frontier span sessions, accumulate state, cross surfaces, or expose risky or authority-sensitive state?"
+  - "Is further work justified?"
+mandatory_checks:
+  - "Parent continuity"
+  - "System boundary and evidence-slice coverage"
+  - "Professional method or explicit method gap"
+  - "Evidence and claim boundary"
+  - "Human contribution versus Gate distinction"
+  - "Execution versus planning"
+  - "Closure or handoff disposition"
+  - "Parent-relative external control-operator boundary and hand-back"
+  - "Persistence bootstrap before material cross-session or cross-surface dispatch"
+exceptions:
+  - "Bounded low-stakes one-shot tasks execute directly."
+  - "Pure low-stakes ideation may proceed without formal Formation."
+fallbacks:
+  - "Retain uncertainty when added research has lower value than its cost."
+  - "Externalize missing method, evidence, capability, authority, or observation."
+rules:
+  - id: "RULE-001"
+    condition: "Input is bounded and the next frontier is ready."
+    action: "Perform the requested Work Function directly and close proportionately."
+    exceptions: []
+    source_claim_ids: ["CLM-001", "CLM-008"]
+    implementation: "instruction"
+    test_case_ids: ["CASE-003", "CASE-004"]
+  - id: "RULE-002"
+    condition: "Existing work is being repaired, redesigned, extended, or migrated."
+    action: "Inspect actual artifacts, rules, workflow, history, failures, and outcomes before route selection."
+    exceptions: []
+    source_claim_ids: ["CLM-002"]
+    implementation: "instruction"
+    test_case_ids: ["CASE-001", "CASE-007"]
+  - id: "RULE-003"
+    condition: "Human-exclusive material can improve Formation but does not block safe progress."
+    action: "Prepare concrete stimuli, request a focused contribution, integrate it, and continue independent work."
+    exceptions: []
+    source_claim_ids: ["CLM-003", "CLM-004"]
+    implementation: "human"
+    test_case_ids: ["CASE-002", "CASE-006"]
+  - id: "RULE-004"
+    condition: "A non-substitutable Human contribution blocks a material transition."
+    action: "Compile a mature Human Gate and wait at the blocked boundary."
+    exceptions: []
+    source_claim_ids: ["CLM-004", "CLM-005"]
+    implementation: "human"
+    test_case_ids: ["CASE-008"]
+  - id: "RULE-005"
+    condition: "Active responsibility or execution environment materially changes or required state can be lost."
+    action: "Compile a Frontier Handoff; on return rebind and integrate before the next claim."
+    exceptions: ["Trivial internal tool or Skill use within one safely bound frontier."]
+    source_claim_ids: ["CLM-006"]
+    implementation: "instruction"
+    test_case_ids: ["CASE-009", "CASE-010"]
+  - id: "RULE-006"
+    condition: "The current frontier is complete or further work is not justified."
+    action: "Close or stop without manufacturing a next step; distinguish frontier closure from parent completion."
+    exceptions: []
+    source_claim_ids: ["CLM-007", "CLM-008"]
+    implementation: "instruction"
+    test_case_ids: ["CASE-003", "CASE-011"]
+  - id: "RULE-007"
+    condition: "An accessible connector, repository, folder, document set, or workflow covers only part of the material System of Interest."
+    action: "Qualify it as an Evidence Slice, discover material unobserved boundaries, and withhold whole-system claims or designs."
+    exceptions: ["The user explicitly and legitimately bounds the task to that source or surface."]
+    source_claim_ids: ["CLM-009"]
+    implementation: "instruction"
+    test_case_ids: ["CASE-012", "CASE-013"]
+  - id: "RULE-008"
+    condition: "The next frontier materially depends on cross-session, accumulating, cross-surface, risky, or authority-sensitive continuity."
+    action: "Instantiate the shallowest adequate Parent State, evidence binding, authority constraints, frontier, persistence location, and re-entry rule before accumulation or dispatch."
+    exceptions: ["An adequate controlling carrier and state already exist and can be rebound.", "The task remains a bounded one-shot transformation."]
+    source_claim_ids: ["CLM-010"]
+    implementation: "instruction"
+    test_case_ids: ["CASE-012", "CASE-013"]
+  - id: "RULE-009"
+    condition: "The current delta is qualified, but the Parent's next legitimate transition requires a control operator outside this Skill or current responsibility."
+    action: "Return control with the exact Parent transition, next actor, required operator or action, and blocked downstream work; WAIT where blocked and do not substitute unrelated unresolved work."
+    exceptions:
+      - "The required operator and authority were already explicitly delegated and remain valid at the point of effect."
+    source_claim_ids: ["CLM-008"]
+    implementation: "instruction"
+    test_case_ids: ["LONG-001"]
+unknowns:
+  - "Thresholds for sufficient Formation remain claim- and stakes-dependent."
+  - "The shallowest adequate persistence carrier depends on available product surfaces and authority."

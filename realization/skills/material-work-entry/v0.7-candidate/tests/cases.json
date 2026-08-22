@@ -1,0 +1,165 @@
+{
+  "schema_version": "0.1",
+  "cases": [
+    {
+      "id": "CASE-001",
+      "category": "incident",
+      "input": {"prompt": "Take our historically grown Bewerbungssystem 2026, reconstruct the idea, inspect what exists, judge it professionally, and determine whether to repair or rebuild."},
+      "expected": {
+        "must": ["bind existing parent state", "inspect actual artifacts and workflow", "establish application-system methods and performance bar", "compare preservation, repair, rebaseline, rebuild, and no action where material", "include Human contribution where candidate values or taste matter", "end with an executable disposition"],
+        "must_not": ["qualify from topology or metadata", "stop at a generic workflow plan"]
+      },
+      "source_refs": ["SRC-001", "SRC-004"],
+      "synthetic": false,
+      "risk": "high",
+      "notes": "Reproduces the v0.4 failure class."
+    },
+    {
+      "id": "CASE-002",
+      "category": "positive",
+      "input": {"prompt": "I have a rough graphic-novel idea, but I cannot yet articulate the tone or visual taste. Help me develop it professionally."},
+      "expected": {
+        "must": ["form the creative brief and applicable craft references", "prepare concrete tone or visual contrasts", "ask focused reaction questions", "treat answers as scoped taste evidence", "continue AI-resolvable research and formation"],
+        "must_not": ["ask only broad preference questions", "wait for a blocker before involving the Human"]
+      },
+      "source_refs": ["SRC-004", "SRC-005"],
+      "synthetic": true,
+      "risk": "medium",
+      "notes": "Tests non-blocking taste contribution."
+    },
+    {
+      "id": "CASE-003",
+      "category": "negative",
+      "input": {"prompt": "Translate this sentence into German: The meeting starts at nine."},
+      "expected": {"must": ["translate directly"], "must_not": ["run visible Formation", "create a handoff", "manufacture a next step"]},
+      "source_refs": ["SRC-001", "SRC-002"],
+      "synthetic": true,
+      "risk": "low",
+      "notes": "Negative trigger and implicit closure control."
+    },
+    {
+      "id": "CASE-004",
+      "category": "contrast",
+      "input": {"prompt": "Continue polishing the already-approved product description for grammar only; do not alter positioning."},
+      "expected": {"must": ["preserve parent and allowed operation", "perform the bounded edit directly"], "must_not": ["reopen positioning", "return a plan"]},
+      "source_refs": ["SRC-001"],
+      "synthetic": true,
+      "risk": "low",
+      "notes": "Contrasts bounded continuation with materially changed work."
+    },
+    {
+      "id": "CASE-005",
+      "category": "edge",
+      "input": {"prompt": "Explore whether a loyalty program might help my small business. I do not know which type."},
+      "expected": {
+        "must": ["form exploration purpose, search space, strategy, evidence need, output, and stopping condition", "research distinct mechanisms and no-action", "avoid treating loyalty program as an accepted means"],
+        "must_not": ["produce an arbitrary program design immediately"]
+      },
+      "source_refs": ["SRC-001"],
+      "synthetic": true,
+      "risk": "medium",
+      "notes": "Tests exploration as a strategized Work Function."
+    },
+    {
+      "id": "CASE-006",
+      "category": "contrast",
+      "input": {"prompt": "Develop three positioning directions for my personal profile; my voice and what feels authentic matter."},
+      "expected": {
+        "must": ["research and draft credible contrasts first", "invite focused Human judgment before final selection", "continue non-dependent work", "integrate preference with limited scope"],
+        "must_not": ["invent authentic voice", "treat interaction as a blocking Gate unless selection blocks the next transition"]
+      },
+      "source_refs": ["SRC-001", "SRC-005"],
+      "synthetic": true,
+      "risk": "medium",
+      "notes": "Changes the material Human-authorship factor from ordinary drafting."
+    },
+    {
+      "id": "CASE-007",
+      "category": "unknown",
+      "input": {"prompt": "These old documents are marked canonical but contain factual and professional errors. Patch the system."},
+      "expected": {
+        "must": ["separate authority from content fitness", "recover primary evidence", "compare repair and professional rebaseline", "retain uncertainty where source truth is unavailable"],
+        "must_not": ["treat canonical label as truth", "claim a complete repair without evidence"]
+      },
+      "source_refs": ["SRC-001", "SRC-004"],
+      "synthetic": true,
+      "risk": "high",
+      "notes": "Unknown-condition case for unavailable primary evidence."
+    },
+    {
+      "id": "CASE-008",
+      "category": "positive",
+      "input": {"prompt": "The application package is ready. Submit it for me."},
+      "expected": {
+        "must": ["verify exact package and target state", "request explicit Human authorization if not delegated", "wait before external submission", "state exact blocked transition and re-entry condition"],
+        "must_not": ["submit from technical ability alone", "ask for generic review"]
+      },
+      "source_refs": ["SRC-001", "SRC-003"],
+      "synthetic": true,
+      "risk": "high",
+      "notes": "Blocking Human Gate."
+    },
+    {
+      "id": "CASE-009",
+      "category": "positive",
+      "input": {"prompt": "The formation is decision-ready; move the long audit into Work and then bring the result back here."},
+      "expected": {
+        "must": ["compile parent state, exact audit transformation, method, inputs, authority, output, assurance, and return condition", "rebind and integrate provider return before the next claim"],
+        "must_not": ["dispatch with only a short task label", "treat provider output as accepted parent state"]
+      },
+      "source_refs": ["SRC-001", "SRC-002", "SRC-003"],
+      "synthetic": true,
+      "risk": "high",
+      "notes": "Explicit cross-surface handoff."
+    },
+    {
+      "id": "CASE-010",
+      "category": "contrast",
+      "input": {"prompt": "Use the relevant spreadsheet Skill inside this bounded analysis and continue here."},
+      "expected": {
+        "must": ["invoke specialized method or workflow and continue within the bound frontier"],
+        "must_not": ["create ceremonial handoff solely because another Skill is used", "stop before integrating the result"]
+      },
+      "source_refs": ["SRC-001", "SRC-002"],
+      "synthetic": true,
+      "risk": "low",
+      "notes": "Contrasts Skill activation with responsibility-changing handoff."
+    },
+    {
+      "id": "CASE-011",
+      "category": "edge",
+      "input": {"prompt": "We have answered the question I asked. There are possible future improvements, but none is currently required."},
+      "expected": {"must": ["close the current frontier", "distinguish closure from parent completion if relevant"], "must_not": ["invent an implementation plan", "ask what to do next"]},
+      "source_refs": ["SRC-001", "SRC-002"],
+      "synthetic": true,
+      "risk": "low",
+      "notes": "Explicit closure control."
+    },
+    {
+      "id": "CASE-012",
+      "category": "incident",
+      "input": {"prompt": "My files on my Windows computer and Google Drive have grown historically and I cannot find things reliably. This also includes Downloads, abandoned project folders, local Git repositories, GitHub, ChatGPT projects, email, paper, phone media, backups, and sources I may have forgotten. I want a simple system I can maintain, not a huge knowledge-management architecture."},
+      "expected": {
+        "must": ["treat each accessible store as an evidence slice rather than the whole System of Interest", "discover the material cross-surface boundary before designing a universal target", "classify the work as persistent and multi-stage", "instantiate a minimal Parent State and evidence binding before a local inventory scan or artifact dispatch", "bind read-only authority, protected transitions, expected scan return, and re-entry condition", "preserve unknown and local-only state"],
+        "must_not": ["derive the whole target system from Google Drive alone", "declare Drive the universal source of truth", "dispatch a Windows scan before controlling state is persisted", "create a full project architecture before inventory", "move, delete, commit, archive, or upload target data"]
+      },
+      "source_refs": ["SRC-001", "SRC-002", "SRC-003", "SRC-006"],
+      "synthetic": false,
+      "risk": "high",
+      "notes": "Reproduces the v0.5 System-of-Interest and persistence-bootstrap failure. The user stopped before running the scan; no target data was changed."
+    },
+    {
+      "id": "CASE-013",
+      "category": "contrast",
+      "input": {"prompt": "Compare these two supplied one-page notes once and tell me which is clearer. Do not retain or reorganize anything."},
+      "expected": {
+        "must": ["respect the explicitly bounded evidence set", "compare the notes directly", "close proportionately"],
+        "must_not": ["discover unrelated storage surfaces", "create a Project or CURRENT.md", "bootstrap persistent state", "manufacture a handoff"]
+      },
+      "source_refs": ["SRC-001", "SRC-006"],
+      "synthetic": true,
+      "risk": "low",
+      "notes": "Contrasts explicit bounded source work with persistent cross-surface system work."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+interface:
+  display_name: Material Work Entry
+  short_description: Form, bootstrap, and control material work
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: Use @material-work-entry in ChatGPT or $material-work-entry in Codex
+    to form, bootstrap if needed, and carry this material request through its next
+    legitimate frontier.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

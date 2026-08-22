@@ -1,0 +1,77 @@
+schema_version: "0.1"
+dimensions:
+  - id: "DIM-001"
+    name: "entry state"
+    values_or_range: ["bounded", "raw", "materially changed", "historical existing system"]
+    dependencies: []
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001", "SRC-004"]
+    production_relevance: "known"
+  - id: "DIM-002"
+    name: "professional method"
+    values_or_range: ["known", "retrievable", "requires research", "unavailable"]
+    dependencies: ["stakes", "intended-use performance"]
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001"]
+    production_relevance: "known"
+  - id: "DIM-003"
+    name: "Human contribution"
+    values_or_range: ["none", "optional high-value", "required non-blocking", "blocking Gate"]
+    dependencies: ["substitutability", "transition impact", "interruption cost"]
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001", "SRC-003", "SRC-004", "SRC-005"]
+    production_relevance: "known"
+  - id: "DIM-004"
+    name: "responsibility boundary"
+    values_or_range: ["same loop", "specialized Skill same loop", "new provider or surface", "external Human or authority"]
+    dependencies: ["state-loss risk", "authority", "return condition"]
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001", "SRC-002", "SRC-003"]
+    production_relevance: "known"
+  - id: "DIM-005"
+    name: "legitimate disposition"
+    values_or_range: ["CONTINUE", "HUMAN GATE", "HANDOFF", "WAIT", "MONITOR", "CLOSE", "STOP"]
+    dependencies: ["readiness", "authority", "external dependency", "further-work value"]
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001", "SRC-002", "SRC-003"]
+    production_relevance: "known"
+  - id: "DIM-006"
+    name: "system-boundary coverage"
+    values_or_range: ["explicitly bounded source", "representative slice", "materially incomplete slice", "unknown System of Interest"]
+    dependencies: ["user intent", "claim scope", "available sources and connectors"]
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001", "SRC-006"]
+    production_relevance: "known"
+  - id: "DIM-007"
+    name: "persistence need"
+    values_or_range: ["bounded one-shot", "multi-turn same session", "cross-session accumulation", "cross-surface handoff", "risky or authority-sensitive program"]
+    dependencies: ["state-loss cost", "evidence accumulation", "responsibility boundary", "re-entry need"]
+    forbidden_combinations: []
+    evidence_source_ids: ["SRC-001", "SRC-002", "SRC-003", "SRC-006"]
+    production_relevance: "known"
+generation_methods:
+  - "Real raw inputs from the user's application-system and creative-work contexts"
+  - "Contrast pairs varying one decision-relevant dimension"
+  - "Negative controls using bounded one-shot tasks"
+coverage_targets:
+  - "All Human contribution values"
+  - "All responsibility-boundary values"
+  - "At least one case for each disposition"
+  - "Repair versus rebaseline of historical work"
+  - "Missing professional method"
+  - "Incomplete evidence slice versus explicitly bounded source"
+  - "Bootstrap required versus bounded one-shot contrast"
+real_coverage:
+  - "Application-system v0.4 incident"
+  - "Wedding-cake v0.5 Formation and taste run"
+  - "Electric-vehicle timing v0.5 decision and WAIT run"
+  - "Personal information-system v0.5 boundary/bootstrap incident"
+synthetic_coverage:
+  - "Cases in tests/cases.json other than CASE-001 and CASE-012"
+coverage_gaps:
+  - "Real observed provider return across Chat to Work"
+  - "Real runtime negative-control triggering"
+  - "Real v0.6 bootstrap followed through inventory return and parent rebind"
+  - "Longitudinal same-surface control return at an action-specific authorization boundary"
+unknowns:
+  - "Whether implicit invocation differs materially across target surfaces."

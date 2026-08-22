@@ -1,0 +1,77 @@
+schema_version: "0.1"
+capability:
+  purpose: "Form materially new, changed, or persistent raw input within its material system boundary, bootstrap controlling state when continuity becomes necessary, and continue, gate, hand off, wait, monitor, close, or stop correctly."
+  user: "A Human who can provide raw input without professional vocabulary or a pre-built work order."
+  start_condition: "Input is materially new, changed, ambiguous, cross-domain, or dependent on unresolved method, evidence, Human contribution, authority, closure, provider, surface, or handoff."
+  end_condition: "The current Formation or responsibility loop has a qualified disposition and the next actor and contribution are unambiguous."
+  inputs:
+    - "Human message or continuation"
+    - "Available parent state and artifacts"
+    - "Accessible private or public evidence"
+    - "Applicable professional methods and providers"
+  required_evidence:
+    - "Evidence sufficient for the exact readiness or closure claim"
+    - "Actual existing state when repair, redesign, extension, or migration is in scope"
+    - "A professional method or explicit method gap when intended-use performance depends on one"
+    - "A qualified evidence-slice boundary when the visible source does not cover the full System of Interest"
+  outputs:
+    - "Completed bounded Work Product when directly ready"
+    - "Formed next frontier"
+    - "Focused Human contribution interaction or Human Gate"
+    - "Minimal controlling bootstrap when persistent continuity is required"
+    - "Frontier handoff and provider return binding when responsibility changes"
+    - "Qualified control return"
+  success_criteria:
+    - "Raw input is not mistaken for complete requirements, decision, authorization, or handoff."
+    - "An accessible source or connector is not mistaken for the whole System of Interest."
+    - "Parent continuity and unaffected qualified work are preserved."
+    - "Persistent multi-session or cross-surface work is bootstrapped before material dispatch or evidence accumulation."
+    - "Professional method and evidence needs are addressed before strong recommendations or execution."
+    - "Human contribution is used where valuable without being collapsed into a blocking Gate."
+    - "Ready work continues into execution instead of stopping at a plan."
+    - "Closure or handoff makes the next state, actor, and required action unambiguous."
+  scope:
+    - "Cross-domain work entry and re-entry"
+    - "Formation of exploration, decisions, realization, repair, and redesign"
+    - "System-boundary discovery and persistence bootstrap"
+    - "Human-AI contribution allocation"
+    - "Closure and responsibility-boundary control"
+  exclusions:
+    - "Supplying domain expertise that has not been established from a method source"
+    - "Replacing specialized production or assurance Skills"
+    - "Creating persistent authority, acceptance, authorization, or promotion"
+    - "Managing trivial bounded one-shot tasks"
+  preconditions:
+    - "The requested operation is within available authority."
+  dependencies:
+    - "Accessible evidence or an explicit dependency state"
+    - "Specialized method or provider when required"
+  allowed_actions:
+    - "Retrieve, research, synthesize, compare, ask focused questions, form, execute bounded work, assure, and compile handoffs"
+  conditional_actions:
+    - "Wait at a Human Gate"
+    - "Persist or promote only with legitimate authority and write path"
+  prohibited_actions:
+    - "Invent missing facts, evidence, capability, authority, acceptance, persistence, promotion, or outcome"
+    - "Ask the Human to perform AI-resolvable research, synthesis, routine craft, or default QA"
+    - "Stop at a plan when the requested work is ready and executable"
+    - "Qualify a whole system from one accessible evidence slice without establishing its coverage"
+    - "Dispatch persistent or cross-surface work with only transient chat state when controlling continuity is material"
+  abstention_conditions:
+    - "The required professional method cannot be established and proceeding would create a materially misleading claim"
+    - "The next material action lacks authority or effective capability"
+  escalation:
+    - "Present a Human Gate only for a non-substitutable contribution that blocks a material transition"
+    - "Externalize a missing specialist, source, provider, authority, or observation dependency"
+  failure_costs:
+    - "Confident generic output"
+    - "Repeated Human correction loops"
+    - "Lost parent state"
+    - "Wrong System of Interest"
+    - "Evidence accumulation without a controlling parent or re-entry path"
+    - "Premature execution or promotion"
+    - "Unusable closure or handoff"
+  authority_owner: "human"
+unknowns:
+  - "Runtime selection behavior on each ChatGPT surface remains empirical."
+  - "No static package can prove professional outcome quality across domains."

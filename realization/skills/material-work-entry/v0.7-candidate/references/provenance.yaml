@@ -1,0 +1,122 @@
+schema_version: "0.1"
+sources:
+  - id: "SRC-001"
+    evidence_class: "normative"
+    locator: "https://github.com/gauglitzstephan/Human-AI-Work-System-Next/blob/main/realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md"
+    authority: "Candidate canonical semantic source in the user's Next repository"
+    recency: "2026-08-20"
+    scope: "Runtime semantics, work functions, Human agency, closure, handoff, provider and carrier mapping"
+    notes: "Candidate source, not itself an installed Runtime."
+  - id: "SRC-002"
+    evidence_class: "normative"
+    locator: "https://github.com/gauglitzstephan/Human-AI-Work-System-Next/blob/main/realization/E2E-INTERACTION-FRONTIER-COMPILATION-CONTRACT-v0.1.md"
+    authority: "Candidate interaction boundary contract in the user's Next repository"
+    recency: "2026-08-20"
+    scope: "Human input, Chat control, handoff, provider return, control return, continuation"
+    notes: "Candidate source, no external installation."
+  - id: "SRC-003"
+    evidence_class: "normative"
+    locator: "https://github.com/gauglitzstephan/Human-AI-Work-System-Next/blob/main/realization/E2E-HANDOFF-COMMITMENT-PROMOTION-CONTRACT-v0.1.md"
+    authority: "Candidate control boundary contract in the user's Next repository"
+    recency: "2026-08-20"
+    scope: "Handoff, provider return, Human-facing control return, Human Gate"
+    notes: "Candidate source, no external installation."
+  - id: "SRC-004"
+    evidence_class: "incident"
+    locator: "Conversation test of material-work-entry v0.4 on Bewerbungssystem 2026"
+    authority: "Observed user evaluation"
+    recency: "2026-08-22"
+    scope: "Missing interactive Human contribution, unclear closure and handoff, workflow-heavy output"
+    notes: "Diagnostic evidence; not standalone proof of all causal claims."
+  - id: "SRC-005"
+    evidence_class: "normative"
+    locator: "https://github.com/gauglitzstephan/Human-AI-Work-System/blob/main/core/orchestration-model.md"
+    authority: "Earlier qualified Human-AI Work System source"
+    recency: "historical"
+    scope: "Human Contribution Classes, non-blocking contribution, Human Gate and handoff"
+    notes: "Historical source; use for preserved distinctions, not current deployment claims."
+  - id: "SRC-006"
+    evidence_class: "incident"
+    locator: "Conversation test of material-work-entry v0.5 on the user's personal information and project system"
+    authority: "Observed user evaluation"
+    recency: "2026-08-22"
+    scope: "Drive evidence-slice scope collapse and missing bootstrap before Windows inventory handoff"
+    notes: "The first response treated Drive as the system despite a broader request; after correction, a local scan was dispatched without persistent Parent State. No scan was run and no target data was changed."
+  - id: "SRC-007"
+    evidence_class: "incident"
+    locator: "Post-R21 repository-convergence divergence trace, 2026-08-22"
+    authority: "Observed user evaluation and reconstructed interaction trace"
+    recency: "2026-08-22"
+    scope: "A completed reconciliation child frontier was followed by unrelated Skill qualification work instead of an exact control hand-back for the authorization-bound Parent repository transition."
+    notes: "Diagnostic evidence for longitudinal regression coverage; it does not by itself prove the repair or establish runtime fitness."
+claims:
+  - id: "CLM-001"
+    statement: "A Human message is intent evidence and not automatically a complete work order, decision, authorization, or handoff."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-002"]
+    supports: ["RULE-001"]
+    contradicts: []
+    transfer_limits: ["Bounded direct requests may need no visible Formation."]
+  - id: "CLM-002"
+    statement: "Existing-system work must start from actual artifacts, state, workflow, failures, and outcomes, not topology or status labels alone."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-004"]
+    supports: ["RULE-002"]
+    contradicts: []
+    transfer_limits: ["Only evidence material to the next frontier is required."]
+  - id: "CLM-003"
+    statement: "Human contribution may be continuous and non-blocking; it is broader than Human Gate."
+    epistemic_status: "decision"
+    source_ids: ["SRC-005", "SRC-004"]
+    supports: ["RULE-003"]
+    contradicts: []
+    transfer_limits: ["The Next source names no separate control disposition for optional interaction; implement it inside CONTINUE."]
+  - id: "CLM-004"
+    statement: "Human contribution is required only where non-substitutable truth, values, expertise, authorship, acceptance, authority, or commitment materially matters."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-003", "SRC-005"]
+    supports: ["RULE-003", "RULE-004"]
+    contradicts: []
+    transfer_limits: ["AI must first perform AI-resolvable retrieval, synthesis, craft, and checks."]
+  - id: "CLM-005"
+    statement: "A Human Gate exists only when a non-substitutable Human contribution blocks a material transition."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-003"]
+    supports: ["RULE-004"]
+    contradicts: []
+    transfer_limits: []
+  - id: "CLM-006"
+    statement: "Handoff is required for material responsibility or environment changes and must return through parent rebind and integration."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-002", "SRC-003"]
+    supports: ["RULE-005"]
+    contradicts: []
+    transfer_limits: ["Trivial internal calls within a bounded frontier do not require ceremony."]
+  - id: "CLM-007"
+    statement: "Closure, wait, handoff, monitor, or stop are legitimate frontiers; work must not be created merely because more is possible."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001"]
+    supports: ["RULE-006"]
+    contradicts: []
+    transfer_limits: ["Closing the current frontier does not prove the parent outcome is complete."]
+  - id: "CLM-008"
+    statement: "Human-facing control return must expose exact achieved state, next frontier, next actor, and exact Human action when material."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-002", "SRC-003"]
+    supports: ["RULE-001", "RULE-006"]
+    contradicts: []
+    transfer_limits: ["Obvious one-shot answers may close implicitly."]
+  - id: "CLM-009"
+    statement: "An accessible source, connector, repository, or observed workflow is an evidence slice and must not silently define the material System of Interest."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-006"]
+    supports: ["RULE-007"]
+    contradicts: []
+    transfer_limits: ["A Human may explicitly and legitimately bound the task to one source or surface."]
+  - id: "CLM-010"
+    statement: "When work becomes materially cross-session, accumulating, cross-surface, risky, or authority-sensitive, minimal controlling state must be instantiated before material evidence accumulation or dispatch."
+    epistemic_status: "decision"
+    source_ids: ["SRC-001", "SRC-002", "SRC-003", "SRC-006"]
+    supports: ["RULE-008"]
+    contradicts: []
+    transfer_limits: ["Bootstrap must remain proportionate and does not require a new Project or CURRENT.md when an adequate carrier already exists."]

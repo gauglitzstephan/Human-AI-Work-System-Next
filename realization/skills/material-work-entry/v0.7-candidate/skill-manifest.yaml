@@ -1,0 +1,45 @@
+schema_version: "0.1"
+skill_id: "material-work-entry"
+status: "candidate-source"
+qualification_tier: "operational"
+authority_owner: "human"
+target_surfaces: ["chatgpt", "codex"]
+runtime_entry: "SKILL.md"
+capabilities:
+  - "material work entry and re-entry"
+  - "system-boundary discovery"
+  - "minimal persistence bootstrap"
+  - "substantive Formation"
+  - "Human contribution orchestration"
+  - "closure and handoff compilation"
+risks:
+  - "confident generic output"
+  - "accessible evidence slice mistaken for the whole system"
+  - "persistent work dispatched without controlling state"
+  - "Human contribution collapsed into Human Gate"
+  - "lost parent state or handoff context"
+  - "planning substituted for ready execution"
+writes:
+  default: "none"
+  conditional: "Only task-authorized writes through an applicable provider or specialized Skill."
+promotion_gate:
+  required: true
+  owner: "human"
+  rule: "Validation does not grant acceptance, runtime authority, persistence, or maturity."
+qualification:
+  contract: "tests/qualification.yaml"
+  cases: "tests/cases.json"
+  longitudinal_cases: "tests/longitudinal-cases.json"
+source_models:
+  - "references/capability-contract.yaml"
+  - "references/domain-model.yaml"
+  - "references/process-model.yaml"
+  - "references/provenance.yaml"
+  - "references/scenario-model.yaml"
+unknowns:
+  - "Implicit triggering precision has not been runtime-smoke-tested for v0.6."
+  - "System-boundary discovery and bootstrap have not been forward-tested after the v0.6 repair."
+  - "Cross-surface handoff preservation has not been demonstrated end to end for v0.6."
+platform_deviations:
+  - "The ChatGPT personal-skill installation directory is an opaque generated id rather than the frontmatter name."
+  - "Implicit invocation remains enabled because entry control is an intended capability, despite the companion validator's explicit-only default."
