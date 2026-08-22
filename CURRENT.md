@@ -1,6 +1,6 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R21 REPOSITORY CONVERGENCE PREP — **NATIVE PRODUCT/CARRIER MAPPING + VERSION-SCOPED REAL-USE EVIDENCE RECONCILED / LIVE PROJECT v0.5 CANDIDATE READBACK PASS / R21 DRAFT PR #16 OPEN / STATIC ARCHITECTURE KEEP CLOSED / NO UI CHANGE, SKILL OR RUNTIME REPAIR, PROMOTION OR MERGE**.  
+**Status:** R21 REPOSITORY CONVERGENCE CANDIDATE — **NATIVE PRODUCT/CARRIER MAPPING + VERSION-SCOPED REAL-USE EVIDENCE RECONCILED / LIVE PROJECT v0.5 CANDIDATE READBACK PASS / REPOSITORY TRANSITION VEHICLE PR #16 / STATIC ARCHITECTURE KEEP CLOSED / NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION IN THIS PACKAGE**.  
 **Date:** 2026-08-22  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
@@ -72,8 +72,8 @@ Custom GPT                                         DEFERRED
 
 Current reconciliation decision                    NATIVE STATE/LINEAGE DELTA ON R21; NO REPAIR OR PROMOTION
 R20 active repair                                  CLOSED
-R21 active work                                    REPOSITORY CONVERGENCE PREP / DRAFT PR #16
-Next                                               REVIEW R21 DRAFT PR #16; PROVIDER RETURN/REBIND AND BOUNDED NEGATIVE CONTROL MONITORED IN GENUINE USE
+R21 active work                                    REPOSITORY CONVERGENCE PACKAGE / TRANSITION VEHICLE PR #16
+Next                                               TRANSITION CONTROLLED BY GITHUB PR #16 STATE AND READBACK; PROVIDER RETURN/REBIND AND BOUNDED NEGATIVE CONTROL MONITORED IN GENUINE USE
 Real-use quality / outcomes                        PARTIALLY ESTABLISHED within versioned frontiers; broader system outcomes NOT ESTABLISHED
 ```
 
@@ -106,7 +106,7 @@ Live Project payload identity                  PASS — v0.5 Candidate by Human 
 Windows provider return → Parent rebind        UNVERIFIED / MONITOR IN GENUINE USE
 Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
 Target Architecture                            KEEP CLOSED
-Skill repair / Runtime promotion / merge       NONE; R21 DRAFT PR #16 OPEN
+Skill repair / Runtime promotion               NONE; repository transition vehicle PR #16
 ```
 
 The current official ChatGPT-native model used here is conditional rather than a fixed surface pipeline: Chat for bounded work, Work for substantial multi-source/tool/step work, Projects for earned continuing context, Skills for focused reusable workflows, Memory as selective context rather than authority, and files/connectors/tools as bounded evidence/action providers. Historical R20 product statements remain evidence of that review date; the R21 report records the current reconciliation and source URLs.
@@ -115,7 +115,7 @@ The primary cases do not constitute a complete v0.6 promotion wave. The wedding 
 
 ## 1B. Native-state and candidate-lineage reconciliation
 
-The R21 evidence is now tied to one explicit branch-local Candidate composition:
+The R21 evidence is tied to one explicit version-scoped Candidate composition:
 
 ```text
 Global v0.5                         REPOSITORY-PROMOTED invariant/fallback kernel
@@ -124,7 +124,7 @@ Exact live Project payload         v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PA
 material-work-entry v0.6-candidate INSTALLED EXTERNAL trigger-local workflow controller / UNPROMOTED
 Domain methods/specialized Skills  selected per frontier; not replaced by Entry control
 Chat/Work/Codex/tools               conditional providers/surfaces, not architecture stages
-R21 evidence                        BRANCH-LOCAL / version-scoped / partial
+R21 evidence                        REPOSITORY CONVERGENCE PACKAGE / version-scoped / partial
 Static Architecture                 KEEP CLOSED
 ```
 
@@ -515,7 +515,7 @@ This correction removes unnecessary Human QA/product-discovery burden from the v
 ```text
 Static Architecture                    KEEP CLOSED
 Canonical Runtime on main              UNCHANGED
-R21 canonical Product/Carrier mapping  BRANCH-LOCAL RECONCILIATION CANDIDATE
+R21 canonical Product/Carrier mapping  RECONCILIATION CANDIDATE IN PR #16 PACKAGE
 Promoted Global Runtime                v0.5
 Active external Global                 v0.5 restored/readback PASS
 Repository Project compiled baseline   v0.4 / PROMOTED
@@ -533,9 +533,9 @@ v0.6 bounded negative control          UNVERIFIED / MONITOR IN GENUINE USE
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
 Custom GPT                              deferred
-R21 Draft PR                           #16 OPEN / DRAFT / UNMERGED
+R21 repository transition              PR #16 / authoritative state follows GitHub merge + readback
 PR #15 mutation                         NONE
-Skill/Runtime repair / Merge / Promotion NONE
+Skill/Runtime repair or Promotion       NONE IN PACKAGE
 ```
 
 Persistence of validation evidence does not promote the Skill into authoritative Runtime state.
@@ -578,11 +578,11 @@ For the system-development program:
 
 ```text
 R20 active repair        CLOSED
-R21 reconciliation       NATIVE STATE/LINEAGE DELTA WRITTEN ON DRAFT BRANCH
+R21 reconciliation       CONVERGENCE PACKAGE BOUND TO PR #16
 Runtime disposition      v0.6-candidate / UNPROMOTED
 Live Project identity    v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 Static Architecture      KEEP CLOSED
-Next system action       review R21 Draft PR #16; monitor provider return/rebind and bounded negative control in genuine use
+Transition rule         GitHub PR #16 state + readback controls repository authority; monitor provider return/rebind and bounded negative control in genuine use
 ```
 
 For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
@@ -591,4 +591,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** REVIEW — R21 REPOSITORY CONVERGENCE PREP COMPLETE IN DRAFT PR #16; LIVE PROJECT IDENTITY RESOLVED; REMAINING BEHAVIORAL PROBES MOVE TO GENUINE-USE MONITORING; NO UI CHANGE, SKILL OR RUNTIME REPAIR, PROMOTION OR MERGE.
+**Current disposition:** TRANSITION CONTROL — R21 CONVERGENCE PACKAGE BOUND TO PR #16; REPOSITORY AUTHORITY FOLLOWS ACTUAL MERGE/READBACK STATE; LIVE PROJECT IDENTITY RESOLVED; REMAINING BEHAVIORAL PROBES MOVE TO GENUINE-USE MONITORING; NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION IN THE PACKAGE.
