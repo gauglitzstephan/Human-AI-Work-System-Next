@@ -19,3 +19,11 @@ Initial representative classes:
 - E2E-05 — delayed external outcome only when naturally available
 
 A class label does not require synthetic execution. Use actual work and persist only material evidence boundaries.
+
+## Recorded cases
+
+| Record | Runtime evidence | Status |
+|---|---|---|
+| [`E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md`](./E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md) | Three genuine-use cases across v0.5/v0.6; ChatGPT-native product reconciliation; evaluator correction | CANDIDATE reconciliation evidence; provider-return/rebind remains open; no repair or promotion |
+
+Version-scoped positive evidence must not be generalized into a later-version promotion claim. Record evaluator/evidence-slice errors separately from Skill or Runtime defects, and inspect available artifacts before inferring absence.
