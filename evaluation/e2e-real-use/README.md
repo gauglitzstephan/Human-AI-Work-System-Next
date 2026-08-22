@@ -24,6 +24,9 @@ A class label does not require synthetic execution. Use actual work and persist 
 
 | Record | Runtime evidence | Status |
 |---|---|---|
-| [`E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md`](./E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md) | Three genuine-use cases across v0.5/v0.6; ChatGPT-native product reconciliation; evaluator correction | CANDIDATE reconciliation evidence; provider-return/rebind remains open; no repair or promotion |
+| [`E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md`](./E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md) | Taste-led concept Formation and vendor-handoff boundary under v0.5 | COMPLETE within concept frontier; real-world outcome unverified |
+| [`E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md`](./E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md) | Consequential WAIT decision under v0.5 | Closure PASS; quantitative/current-evidence assurance PARTIAL |
+| [`E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`](./E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md) | v0.5 boundary failure and v0.6 bootstrap response | Boundary/bootstrap PASS; provider return/rebind UNVERIFIED |
+| [`E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md`](./E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md) | Cross-case lessons, ChatGPT-native product reconciliation and evaluator correction | SECONDARY SYNTHESIS; no repair or promotion |
 
 Version-scoped positive evidence must not be generalized into a later-version promotion claim. Record evaluator/evidence-slice errors separately from Skill or Runtime defects, and inspect available artifacts before inferring absence.
