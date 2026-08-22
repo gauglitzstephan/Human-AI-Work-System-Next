@@ -1,8 +1,8 @@
 # E2E Runtime Canonical Semantic Source v0.1
 
-**Status:** CANDIDATE CANONICAL SOURCE — source for target-specific Runtime compilation; not itself an installable prompt.  
-**Date:** 2026-08-20  
-**Basis:** CR-01–13 / CCR-01–07, Target Architecture v0.2, merged E2E Work Architecture, E2E Operating Runtime Contract, qualified Orchestration Model v0.5 / DWM v0.5, Runtime Deployment Mapping RCA, observed Human-facing control-return failure on 2026-08-20.
+**Status:** CANDIDATE CANONICAL SOURCE — contains the R21-reconciled native Product/Carrier mapping; not itself an installable prompt, and repository inclusion does not constitute Runtime or UI promotion.  
+**Date:** 2026-08-22  
+**Basis:** CR-01–13 / CCR-01–07, Target Architecture v0.2, merged E2E Work Architecture, E2E Operating Runtime Contract, qualified Orchestration Model v0.5 / DWM v0.5, Runtime Deployment Mapping RCA, observed Human-facing control-return failure on 2026-08-20, R20 native Work-Skill validation and R21 ChatGPT-native product/real-use reconciliation on 2026-08-22.
 
 ## 1. Purpose
 
@@ -150,12 +150,14 @@ Work Function
 ### L — Product / carrier mapping for current ChatGPT
 
 - **PROD-01 Global CI:** cross-context Runtime carrier where Global CI applies; current Pro deployment target supports up to 5,000 characters. It is not the domain Method library.
-- **PROD-02 Project:** persistent initiative/context boundary. Project Instructions apply only in that Project and override Global CI. Project view must be compiled from this canonical source + local bindings; it is not an independent policy.
+- **PROD-02 Project:** conditional persistent initiative/context boundary when continuing context is earned. Project Instructions apply only in that Project and override Global CI. Project view must be compiled from this canonical source + local bindings; it is not an independent policy, a mandatory container for every complex task or domain authority by itself.
 - **PROD-03 Chat:** default interactive control/state-rebind/Formation/Decision/Human-Gate/Provider-Return reconciliation/Human-facing Control Return surface; may execute bounded work.
-- **PROD-04 Work:** provider/environment for longer multi-step research/analysis/artifact frontiers under a bounded Handoff/Authorization; it is not the global Orchestrator.
+- **PROD-04 Work:** native provider/environment for substantial multi-source, tool, step or reviewable-deliverable frontiers under proportionate control and any required Handoff/Authorization; it is not the global Orchestrator and does not by itself guarantee professional Method or persistence. Skills may be available according to their installed distribution, settings and supported surface; no Work-only or universal surface claim is implied.
 - **PROD-05 Codex:** preferred specialized provider/environment for repository/software frontiers where effective; commit/branch/write ≠ merge/accept/promotion.
 - **PROD-06 Apps/tools/web:** providers for authoritative retrieval, deterministic compute/verification and external actions; evidence/runtime state ≠ authority unless delegated.
-- **PROD-07 Skills:** optional Method/workflow carrier when available; current Pro Runtime must not depend on Personal Skills availability.
+- **PROD-07 Skills:** focused reusable workflows containing instructions and optional resources, selected explicitly or implicitly when supported and matched. A Skill may operationalize a cross-domain Work Function such as Entry/Formation control; it is not limited to domain Method storage and does not replace required domain methods or specialized production Skills. Availability, installed distribution, settings and surface behavior are deployment facts that require bounded verification. Global/Project carriers retain applicable invariants, authority and safe fallback behavior; no universal Skill availability or reliability is assumed.
+
+There is no mandatory native product pipeline `Chat → Work → Project`. Routing depends on outcome, readiness, evidence, continuity, provider and authority needs. For persistent work, the invariant is qualified state continuity across the selected carriers and surfaces, not ritual use of every construct.
 
 ## 3. System Development Project delta
 
