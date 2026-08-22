@@ -1,8 +1,8 @@
 # E2E-04 R21 — Native-Platform Audit Basis Correction
 
 **Date:** 2026-08-22  
-**Status:** RECONCILIATION EVIDENCE / CANDIDATE — POINT-IN-TIME BASIS CORRECTION; LATER R21 RECORDS SUPERSEDE OPEN-STATE ITEMS; NO SKILL/RUNTIME REPAIR OR PROMOTION  
-**Branch:** `reconcile/r21-material-work-entry-v0.6-real-use`  
+**Status:** REPOSITORY-PERSISTED POINT-IN-TIME BASIS CORRECTION — LATER R21 RECORDS SUPERSEDE OPEN-STATE ITEMS; NO SKILL/RUNTIME REPAIR OR PROMOTION  
+**Repository state:** persisted through PR #16; edits off `main` remain Candidate until separately authorized merge + readback  
 **System of Interest:** native ChatGPT composition and carrier/state lineage for Global Custom Instructions, Project context/instructions, Chat/Work, `material-work-entry`, domain methods, Memory, files, tools and persistent Current state
 
 ## 1. Reopen trigger
@@ -120,7 +120,7 @@ material-work-entry v0.6-candidate           KEEP / UNPROMOTED
 PR #15 v0.3 solution                         SUPERSEDED / LEARNING RETAINED
 Static Architecture                          KEEP CLOSED
 Skill/Global/Project repair                   NOT JUSTIFIED
-Repository transition                       PR #16 PACKAGE; AUTHORITY FOLLOWS GITHUB STATE + READBACK
+Repository transition                       COMPLETE via PR #16; later amendments remain Candidate off `main`
 Skill/Runtime/UI promotion                   NONE
 ```
 
