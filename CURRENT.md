@@ -1,6 +1,6 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R21 NATIVE-STATE/LINEAGE RECONCILIATION — **v0.5/v0.6 CASE EVIDENCE + NATIVE PRODUCT/CARRIER MAPPING INTEGRATED ON DRAFT BRANCH / PR #15 SUPERSESSION RELATION RECORDED / LIVE PROJECT IDENTITY UNRESOLVED / STATIC ARCHITECTURE KEEP CLOSED / NO REPAIR, PROMOTION, PR MUTATION OR MERGE**.  
+**Status:** R21 NATIVE-STATE/LINEAGE RECONCILIATION — **v0.5/v0.6 CASE EVIDENCE + NATIVE PRODUCT/CARRIER MAPPING INTEGRATED ON DRAFT BRANCH / v0.6 CONSEQUENTIAL DECISION QUALIFIED / PR #15 SUPERSESSION RELATION RECORDED / LIVE PROJECT IDENTITY UNRESOLVED / STATIC ARCHITECTURE KEEP CLOSED / NO REPAIR, PROMOTION, PR MUTATION OR MERGE**.  
 **Date:** 2026-08-22  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
@@ -49,6 +49,7 @@ API Gateway                                        DEFERRED optional hard-enforc
 material-work-entry v0.2 R20 validation matrix    HISTORICAL PASS within recorded scope
 material-work-entry v0.5 wedding concept case      PASS within concept-formation frontier
 material-work-entry v0.5 EV decision case          PARTIAL — closure PASS; assurance incomplete
+material-work-entry v0.6 EV decision case          PASS — current evidence, closure and re-entry contract; active monitoring unverified
 material-work-entry v0.6 source/structure           VALIDATED externally / CANDIDATE
 v0.6 SKILL.md identity                              SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
 v0.6 System-Boundary Discovery                     PASS in personal-information-system case
@@ -72,7 +73,7 @@ Custom GPT                                         DEFERRED
 Current reconciliation decision                    NATIVE STATE/LINEAGE DELTA ON R21; NO REPAIR OR PROMOTION
 R20 active repair                                  CLOSED
 R21 active work                                    BRANCH-ONLY STATE/EVIDENCE RECONCILIATION
-Next                                               LIVE PROJECT IDENTITY READBACK; PROVIDER RETURN/REBIND; v0.6 CONSEQUENTIAL DECISION; v0.6 NEGATIVE CONTROL
+Next                                               LIVE PROJECT IDENTITY READBACK; PROVIDER RETURN/REBIND; v0.6 NEGATIVE CONTROL; ACTIVE MONITORING ONLY IF SEPARATELY AUTHORIZED
 Real-use quality / outcomes                        PARTIALLY ESTABLISHED within versioned frontiers; broader system outcomes NOT ESTABLISHED
 ```
 
@@ -86,6 +87,7 @@ Primary case records:
 
 - `evaluation/e2e-real-use/E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md`;
 - `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md`;
+- `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.6.md` — current-evidence consequential-decision qualification; WAIT closure and bounded re-entry contract PASS; active monitoring not performed;
 - `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`.
 
 Secondary synthesis:
@@ -97,6 +99,7 @@ Qualified delta:
 ```text
 Wedding concept formation — v0.5              PASS within concept frontier
 Electric-car WAIT decision — v0.5             PARTIAL — closure PASS; evidence assurance incomplete
+Electric-car WAIT decision — v0.6             PASS — current evidence, closure and re-entry contract within stated ranges; active monitoring unverified
 Personal-information boundary/bootstrap — v0.6 PASS within dispatch/bootstrap frontier
 Windows provider return → Parent rebind        UNVERIFIED
 Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
@@ -106,7 +109,7 @@ Skill repair / Runtime promotion / PR / merge  NONE
 
 The current official ChatGPT-native model used here is conditional rather than a fixed surface pipeline: Chat for bounded work, Work for substantial multi-source/tool/step work, Projects for earned continuing context, Skills for focused reusable workflows, Memory as selective context rather than authority, and files/connectors/tools as bounded evidence/action providers. Historical R20 product statements remain evidence of that review date; the R21 report records the current reconciliation and source URLs.
 
-The three cases do not constitute a complete v0.6 promotion wave. The wedding and electric-car cases carry v0.5 markers; only the personal information-system case directly exercises the v0.6 System-Boundary Discovery and Persistence/Bootstrap additions.
+The primary cases do not constitute a complete v0.6 promotion wave. The wedding and original electric-car records carry v0.5 markers. The personal information-system and current electric-car records directly exercise different v0.6 frontiers: System-Boundary Discovery/Persistence Bootstrap and consequential decision closure/re-entry design. Provider return/rebind, the bounded negative control and active monitoring execution remain unverified.
 
 ## 1B. Native-state and candidate-lineage reconciliation
 
@@ -520,7 +523,8 @@ v0.5 real-use evidence                 VERSION-SCOPED: concept PASS; decision PA
 v0.6 boundary/bootstrap behavior       PASS within tested dispatch frontier
 v0.6 source identity                   SKILL.md SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
 v0.6 provider return/rebind            UNVERIFIED
-v0.6 consequential decision            UNVERIFIED
+v0.6 consequential decision            PASS — current evidence, closure and re-entry contract within stated ranges
+v0.6 monitoring design                 PASS; ACTIVE MONITORING NOT PERFORMED / NOT AUTHORIZED
 v0.6 bounded negative control          UNVERIFIED
 Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
 Two-Pass prototype branch              Candidate / unmerged / deferred
@@ -572,7 +576,7 @@ R21 reconciliation       NATIVE STATE/LINEAGE DELTA WRITTEN ON DRAFT BRANCH
 Runtime disposition      v0.6-candidate / UNPROMOTED
 Live Project identity    UNRESOLVED / exact payload readback required
 Static Architecture      KEEP CLOSED
-Next system action       live Project identity readback; provider return/rebind; one consequential v0.6 decision; one bounded negative control
+Next system action       live Project identity readback; provider return/rebind; one bounded negative control; active monitoring only if separately authorized
 ```
 
 For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
@@ -581,4 +585,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** CONTINUE QUALIFICATION — R21 NATIVE STATE/LINEAGE RECONCILIATION WRITTEN ON DRAFT BRANCH; LIVE PROJECT IDENTITY AND THREE v0.6 QUALIFICATION CLAIMS REMAIN OPEN; REPAIR AND PROMOTION REMAIN LOCKED.
+**Current disposition:** CONTINUE QUALIFICATION — v0.6 CONSEQUENTIAL DECISION EVIDENCE WRITTEN ON THE R21 DRAFT BRANCH; LIVE PROJECT IDENTITY, PROVIDER RETURN/REBIND AND THE BOUNDED NEGATIVE CONTROL REMAIN OPEN; ACTIVE MONITORING REQUIRES SEPARATE AUTHORIZATION; REPAIR AND PROMOTION REMAIN LOCKED.
