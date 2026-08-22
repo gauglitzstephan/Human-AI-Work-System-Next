@@ -216,10 +216,10 @@ Target Architecture                       KEEP CLOSED
 Global Custom Instructions                NO NEW REPAIR
 material-work-entry v0.6-candidate        KEEP CANDIDATE
 Skill source/structure                    PREVIOUSLY VALIDATED
-Repository/runtime reconciliation         REQUIRED and performed only on this branch
+Repository reconciliation                 CONVERGENCE PACKAGE BOUND TO PR #16
 Skill repair                              NOT AUTHORIZED / NOT JUSTIFIED
-Runtime promotion                         NOT AUTHORIZED
-Merge / PR                                NOT AUTHORIZED
+Runtime or UI promotion                   NONE IN PACKAGE
+Repository transition                     CONTROLLED THROUGH PR #16 + READBACK
 ```
 
 The evidence supports the two v0.6 additions as necessary and promising:
@@ -229,18 +229,20 @@ The evidence supports the two v0.6 additions as necessary and promising:
 
 It does not yet establish full v0.6 end-to-end reliability.
 
-## 8. Remaining qualification frontier
+## 8. Qualification frontier state
 
-Before any repair or promotion decision, obtain the smallest missing evidence:
+```text
+Live Project identity                     PASS — v0.5 Candidate by Human UI content readback
+Consequential v0.6 decision               PASS — current evidence, WAIT closure and re-entry contract within stated ranges
+Provider return/rebind                    UNVERIFIED / MONITOR IN GENUINE USE
+Bounded negative control                  UNVERIFIED / MONITOR IN GENUINE USE
+Repository-convergence blocker            NONE from the two remaining behavioral probes
+```
 
-1. **Provider-return/rebind:** complete the read-only Windows inventory, return it to the personal information-system Parent, verify rebind and update the Current.
-2. **Consequential v0.6 decision:** run one real decision requiring current authoritative evidence and verify closure plus persistence/monitoring behavior.
-3. **Negative control:** run one tiny bounded request under v0.6 that must remain direct and must not create a Project, Current or unnecessary Formation.
-
-Success requires exact version attribution, artifact inspection before absence claims, claim-bounded evidence and no automatic promotion from a positive run.
+The remaining probes are not to be manufactured as repository-convergence preconditions. Observe them when genuine work naturally exercises those frontiers. Success still requires exact version attribution, artifact inspection before absence claims, claim-bounded evidence and no automatic promotion from a positive run.
 
 ## 9. Disposition
 
-> **CONTINUE — provider-return/rebind qualification. KEEP architecture closed. Keep `material-work-entry v0.6-candidate` unpromoted. No repair is justified by the reconciled evidence.**
+> **TRANSITION CONTROL — bind the R21 reconciliation package to PR #16 and let GitHub state plus readback control repository authority. KEEP architecture closed. Keep `material-work-entry v0.6-candidate` unpromoted. No Skill/Runtime repair or UI change is justified by the reconciled evidence.**
 
 [material-work-entry v0.6-candidate]
