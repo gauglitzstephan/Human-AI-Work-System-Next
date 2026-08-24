@@ -141,7 +141,7 @@ Wedding concept formation — v0.5              PASS within concept frontier
 Electric-car WAIT decision — v0.5             PARTIAL — closure PASS; evidence assurance incomplete
 Electric-car WAIT decision — v0.6             PASS — current evidence, closure and re-entry contract within stated ranges; active monitoring unverified
 Personal-information boundary/bootstrap — v0.6 PASS within dispatch/bootstrap frontier
-Live Project payload identity                  PASS — v0.5 Candidate by Human UI content readback PASS; repository baseline v0.4
+Live Project payload identity                  PASS — v0.5 Candidate by Human UI content readback; repository baseline v0.4
 Windows provider return → Parent rebind        UNVERIFIED / MONITOR IN GENUINE USE
 Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
 Target Architecture                            KEEP CLOSED
@@ -233,7 +233,7 @@ Qualified result:
 Global v0.6 exact UI install/readback       PASS
 Cold-start behavioral result                FAIL 2/2
 Professional Method/Reference activation    FAIL 2/2
-Probe≠Candidate behavior                             FAIL 2/2
+Probe≠Candidate behavior                    FAIL 2/2
 Global v0.5 rollback/readback                PASS
 Local explicit Admission isolation           PASS
 ```
