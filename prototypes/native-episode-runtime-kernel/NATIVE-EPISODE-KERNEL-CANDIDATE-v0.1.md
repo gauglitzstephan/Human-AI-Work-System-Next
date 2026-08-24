@@ -93,7 +93,7 @@ Native permission/sandbox settings remain an independent deployment control. Thi
 
 ## 6. Provider Return
 
-The provider returns `provider_return.schema.json` before any next frontier. The return records actual work, evidence, Method, assumptions, blockers, checks, operations, exact supported claim, authority need, and recommended next frontier.
+The provider returns `provider_return.schema.json` before any next frontier. The return records actual work; output or state delta; exact child-to-parent contribution; evidence and Method actually used; assumptions, uncertainty, dependencies, and blockers; checks and assurance limits; exact supported child claim or readiness; operations, writes, and external actions; Human or authority need; and recommended next frontier.
 
 Reject the return if it contains any write/external action, parent-status claim, Promotion claim, stale parent version, unbound Method, unexposed operation, or out-of-scope claim.
 
@@ -109,12 +109,15 @@ Qualification uses `qualification.schema.json` and must:
 
 - evaluate the Episode's exact intended claim;
 - use the bound assurance provider and declared assurance mode;
-- identify actual checks and failure evidence;
+- identify evidence, findings, actual checks, and failure evidence;
 - distinguish deterministic validation, separate-context review, independent challenge, and recipient/intended-use validation;
-- return `UNVERIFIED` when the method cannot detect the relevant failure;
+- return an explicit `PASS`, `FAIL`, or `UNVERIFIED` verdict;
+- return `UNVERIFIED` when evidence, Method, independence, or failure-detection capability is insufficient;
+- return the exact supported claim and qualification limits;
+- report operations, writes, and external actions actually performed;
 - make no parent-status or Promotion claim.
 
-The execution provider cannot self-issue a qualification `PASS`. Reviewer `FAIL` or `UNVERIFIED` demotes the claim and blocks dependent transitions; the controller must not average executor and reviewer outputs into `PASS` or permit a silent producer repair/self-pass loop.
+The execution provider cannot self-issue a qualification `PASS`. Reviewer `FAIL` or `UNVERIFIED` demotes the claim and blocks every dependent transition; the controller must not average executor and reviewer outputs into `PASS` or permit a silent producer repair/self-pass loop.
 
 ## 8. Control return
 
