@@ -1,9 +1,9 @@
 # Concerns & Requirements Baseline v0.2
 
-**Status:** CANDIDATE — Human-accepted Requirements Design Basis; becomes controlling only through an explicitly authorized repository merge and post-merge readback  
+**Status:** CONTROLLING — promoted via authorized PR #18 merge `b355ed63ad94d6456a6913cac079458238067921` and post-merge readback  
 **Date:** 2026-08-24  
 **Scope:** solution-neutral requirements for a general Human–AI Work System and its materially relevant operating/runtime context  
-**Supersession:** if promoted, supersedes `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` as the controlling Requirements baseline; v0.1 remains immutable historical Qualified Prior evidence  
+**Supersession:** supersedes `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` as the controlling Requirements baseline; v0.1 remains immutable historical Qualified Prior evidence  
 **Derivation basis:** Requirements v0.1 + accepted System of Interest and Target Architecture + qualified predecessor lineage + real-use/runtime evidence + bounded normalization and adversarial de-bias review
 
 ## 1. Purpose and boundary
@@ -496,7 +496,7 @@ local learning ≠ global rule
 
 # 6. Baseline claim and non-claims
 
-If promoted, this file is accepted only as:
+This file is accepted only as:
 
 > the best currently supported, solution-neutral Requirements Design Basis for the defined Human–AI Work System scope and current evidence horizon.
 
