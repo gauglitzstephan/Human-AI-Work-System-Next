@@ -1,10 +1,11 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** R21 REPOSITORY CONVERGENCE COMPLETE VIA PR #16 — **POST-R21 AUTHORITY-STATE DELTA IS CANDIDATE OFF `main` AND CONTROLLING ONLY IF THIS EXACT STATE IS READ ON `main` AFTER AN AUTHORIZED MERGE + READBACK / LIVE PROJECT v0.5 CANDIDATE READBACK PASS / STATIC ARCHITECTURE KEEP CLOSED / NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION**.  
-**Date:** 2026-08-22  
+**Status:** POST-R21 AUTHORITY-STATE RECONCILIATION COMPLETE VIA PR #17 — **NORMALIZED REQUIREMENTS v0.2 RECONCILIATION PACKAGE IS CANDIDATE OFF `main`; REQUIREMENTS v0.1 REMAINS CONTROLLING UNTIL AN AUTHORIZED MERGE + READBACK / TARGET ARCHITECTURE v0.2 KEEP CLOSED / NO UI, SKILL, RUNTIME OR SOLUTION CHANGE**.  
+**Date:** 2026-08-24  
 **PR #13 Runtime repository Promotion:** **COMPLETE**.  
 **PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
 **PR #16 R21 repository convergence:** **COMPLETE** — merged; post-merge authority/readback reconciliation complete.  
+**PR #17 post-R21 authority-state reconciliation:** **COMPLETE** — merged at `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`; readback PASS.  
 **Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
 **Current active Runtime:** Global v0.5 remains repository-promoted, restored and independently UI-read back; Project v0.4 remains the repository-promoted compiled baseline, while direct Human UI content readback identifies the live Project payload as the branch-origin v0.5 Candidate; external Personal Skill `material-work-entry v0.6-candidate` is installed and source-validated with bounded real-use evidence, but remains unpromoted.  
 **Authority:** `main/CURRENT.md` is the controlling repository state. A copy of this file on an unmerged branch is Candidate state; only the exact state read from `main` after an authorized merge and readback becomes controlling. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
@@ -23,6 +24,10 @@ Static E2E Work Architecture package              REPOSITORY-PROMOTED / KEEP CLO
 Runtime deployment + interaction-control repair   REPOSITORY-PROMOTED via PR #13
 Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
 R21 product/carrier + real-use reconciliation      REPOSITORY-PROMOTED EVIDENCE via PR #16 / READBACK PASS
+Post-R21 authority-state reconciliation           REPOSITORY-PROMOTED via PR #17 / READBACK PASS
+Requirements v0.1                                 CONTROLLING REPOSITORY BASELINE
+Requirements v0.2                                 HUMAN-ACCEPTED DESIGN BASIS / BRANCH CANDIDATE
+Requirements package                              SIX-FILE WRITE AUTHORIZED / DRAFT PR ONLY / NO PROMOTION
 
 Active Global v0.5                                RESTORED / PERSISTENT UI READBACK PASS
 Repository Project compiled baseline              v0.4 / PROMOTED
@@ -72,14 +77,46 @@ Documented ChatGPT Work/Chat/Project/Memory facts  RECOVERED FROM CURRENT OPENAI
 Synthetic testing of documented product basics     STOP
 Custom GPT                                         DEFERRED
 
-Current reconciliation decision                    R21 REPOSITORY CONVERGENCE COMPLETE; NO REPAIR OR RUNTIME/SKILL PROMOTION
+Current Requirements decision                      NORMALIZED v0.2 DESIGN BASIS HUMAN-ACCEPTED
+Requirements branch                                reconcile/vnext-requirements-v0.2 / CANDIDATE
+Requirements Promotion                             NOT GRANTED; v0.1 REMAINS CONTROLLING
 R20 active repair                                  CLOSED
-R21 active work                                    CLOSED — PR #16 MERGED / POST-MERGE AUTHORITY READBACK PASS
-Next                                               MONITOR PROVIDER RETURN/REBIND AND BOUNDED NEGATIVE CONTROL IN GENUINE USE
+R21 active work                                    CLOSED — PR #16 + PR #17 MERGED / READBACK PASS
+Next                                               EXACT-HEAD STATIC REVIEW + DRAFT PR; HUMAN MERGE GATE ONLY AFTER PASS
 Real-use quality / outcomes                        PARTIALLY ESTABLISHED within versioned frontiers; broader system outcomes NOT ESTABLISHED
 ```
 
-No Target-Architecture ownership gap is established. The relevant Admission/Formation, Professional Method/Reference, Adaptive Work Selection and conditional persistence semantics already exist. The current result is a Runtime provider/surface/carrier realization result plus bounded real-use evidence, not a static architecture change.
+No Target-Architecture ownership gap is established. The Requirements baseline has been reopened and normalized from real-use/Runtime learning, but the accepted Target Architecture already owns the resulting semantics and remains closed. This branch is a Requirements persistence/promotion Candidate, not a Runtime, Skill, UI, solution or architecture change.
+
+## 1R. Requirements v0.2 reconciliation Candidate
+
+```text
+Base main SHA                       5e3c84309b3c59da4ba8bde7748c66eaa41d802f
+Candidate branch                    reconcile/vnext-requirements-v0.2
+Requirements v0.1                  CONTROLLING ON main UNTIL LATER MERGE + READBACK
+Requirements v0.2                  HUMAN-ACCEPTED DESIGN BASIS / BRANCH CANDIDATE
+Reconciliation evidence            CANDIDATE
+ADR-0003                            PROPOSED
+Target Architecture v0.2           ACCEPTED / CLOSED / COMPATIBILITY REQUALIFIED IN CANDIDATE
+Runtime / Skill / Project UI        UNCHANGED
+Runtime Solution Formation          BLOCKED
+```
+
+Transition rule:
+
+```text
+branch write + Draft PR
+→ persistence/review only
+→ no Requirements Promotion
+
+exact-head review PASS
+→ Human merge gate only
+
+authorized merge + main readback
+→ v0.2 may become controlling
+→ v0.1 may become superseded only in its controlling role
+→ Runtime Solution Formation may become the next eligible frontier
+```
 
 ## 1A. R21 real-use reconciliation
 
@@ -516,6 +553,9 @@ This correction removes unnecessary Human QA/product-discovery burden from the v
 
 ```text
 Static Architecture                    KEEP CLOSED
+Requirements v0.1                       CONTROLLING ON main
+Requirements v0.2                       BRANCH CANDIDATE / NO PROMOTION
+ADR-0003                                PROPOSED
 Promoted Runtime deployment             UNCHANGED
 R21 canonical Product/Carrier mapping  REPOSITORY-PROMOTED via PR #16 / POST-MERGE READBACK PASS
 Promoted Global Runtime                v0.5
@@ -580,11 +620,13 @@ For the system-development program:
 
 ```text
 R20 active repair        CLOSED
-R21 reconciliation       COMPLETE via PR #16 / POST-MERGE AUTHORITY READBACK PASS
-Runtime disposition      v0.6-candidate / UNPROMOTED
+R21 reconciliation       COMPLETE via PR #16 + PR #17 / POST-MERGE READBACK PASS
+Requirements v0.1        CONTROLLING ON main
+Requirements v0.2        CANDIDATE on reconcile/vnext-requirements-v0.2
+Runtime disposition      v0.6-candidate / UNPROMOTED / UNCHANGED
 Live Project identity    v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
 Static Architecture      KEEP CLOSED
-Transition rule          MONITOR provider return/rebind and bounded negative control in genuine use; any later state change requires separate authority
+Transition rule          EXACT-HEAD REVIEW → DRAFT PR → separate Human merge gate; no Promotion before merge + readback
 ```
 
 For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
@@ -593,4 +635,4 @@ For the beer-Graphic-Novel Parent Work Object itself, the legitimate story front
 
 That story frontier may continue in its own Work context. It is not a reason to reopen R20.
 
-**Current disposition:** R21 REPOSITORY CONVERGENCE COMPLETE VIA PR #16; LIVE PROJECT IDENTITY RESOLVED; REMAINING BEHAVIORAL PROBES STAY IN GENUINE-USE MONITORING. THIS POST-R21 AUTHORITY-STATE DELTA REMAINS CANDIDATE OFF `main` AND BECOMES CONTROLLING ONLY THROUGH A SEPARATELY AUTHORIZED MERGE + READBACK. NO UI CHANGE, SKILL OR RUNTIME REPAIR OR PROMOTION.
+**Current disposition:** POST-R21 AUTHORITY STATE IS REPOSITORY-PROMOTED VIA PR #17. NORMALIZED REQUIREMENTS v0.2 IS A SIX-FILE BRANCH/DRAFT-PR CANDIDATE ONLY; v0.1 REMAINS CONTROLLING UNTIL A SEPARATELY AUTHORIZED MERGE + READBACK. TARGET ARCHITECTURE STAYS CLOSED. NO UI, SKILL, RUNTIME, SOLUTION OR REQUIREMENTS PROMOTION.

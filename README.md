@@ -25,11 +25,16 @@ material-work-entry                              v0.6-candidate / external Perso
 
 R20 active repair                                CLOSED
 R21 repository convergence                       COMPLETE via PR #16
-Post-R21 authority-state delta                    CANDIDATE off main / controlling only on main after merge + readback
-Next                                             MONITOR remaining claims in genuine use
+Post-R21 authority-state reconciliation           COMPLETE via PR #17 / READBACK PASS
+Requirements v0.1                               CONTROLLING ON main UNTIL LATER PROMOTION
+Requirements v0.2                               HUMAN-ACCEPTED DESIGN BASIS / BRANCH CANDIDATE
+Requirements package branch                     reconcile/vnext-requirements-v0.2
+Next                                             EXACT-HEAD REVIEW + DRAFT PR; NO MERGE/PROMOTION
 ```
 
 PR #16 reconciled native Product/Carrier mapping, version-scoped R21 real-use evidence, the live-versus-promoted Project-carrier distinction, and candidate lineage. It did **not** change the live Runtime, Project UI, installed Skill, static architecture, or any Runtime/Skill Promotion state.
+
+PR #17 subsequently reconciled the post-R21 repository authority surfaces on `main`. The current Requirements package starts from that exact merged/read-back state and changes no Runtime, Skill, Project UI or static architecture.
 
 ## Authority and transition rules
 
@@ -55,6 +60,30 @@ Next
 ```
 
 Any later status change requires its own evidence, decision/authority, write path, readback and reconciliation.
+
+## Requirements baseline transition
+
+The controlling Requirements baseline on `main` remains:
+
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md) — controlling until an explicitly authorized later merge and readback.
+
+This branch adds, as Candidate state only:
+
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) — Human-accepted normalized Requirements Design Basis;
+- [`evidence/REQUIREMENTS-v0.1-to-v0.2-RECONCILIATION-v0.1.md`](evidence/REQUIREMENTS-v0.1-to-v0.2-RECONCILIATION-v0.1.md) — lineage, de-bias, known-failure and architecture-compatibility evidence;
+- [`decisions/ADR-0003-vnext-requirements-baseline-v0.2.md`](decisions/ADR-0003-vnext-requirements-baseline-v0.2.md) — proposed authority/supersession transition.
+
+```text
+branch / Draft PR
+→ v0.2 remains Candidate; v0.1 remains controlling
+
+authorized merge + main readback
+→ v0.2 may become controlling
+→ v0.1 may become superseded only in its controlling role
+→ Target Architecture v0.2 remains accepted and closed
+```
+
+No branch content authorizes merge, Requirements Promotion, prior-baseline retirement, Runtime/Skill/UI change or Runtime Solution Formation.
 
 ## Accepted conceptual baseline
 
@@ -133,4 +162,4 @@ Observe, rather than manufacture, the remaining claims when genuine work natural
 - bounded negative control;
 - active monitoring execution where separately authorized.
 
-R20 repair and R21 repository convergence are closed. Reopen only on material counterevidence or a legitimate new requirement. No current UI action, Skill/Runtime repair, architecture change, Promotion or merge is implied.
+R20 repair and R21 repository convergence are closed. Their remaining genuine-use monitoring is non-blocking for this bounded Requirements Candidate. Reopen only on material counterevidence or a legitimate new requirement. This branch authorizes no UI action, Skill/Runtime repair, architecture change, merge or Promotion.
