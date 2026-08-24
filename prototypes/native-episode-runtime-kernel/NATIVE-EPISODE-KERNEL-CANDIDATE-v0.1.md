@@ -11,12 +11,13 @@ Project / controlling source = initiative context and authoritative pointers
 Chat                         = controller, interaction, rebind, control return
 Work                         = substantial bounded frontier provider
 Codex                        = repository/software frontier provider
+native subagent thread       = bounded execution or assurance provider
 Skill                        = focused reusable workflow, when installed and matched
 files/connectors/tools       = bounded evidence or action providers
 validator script             = deterministic packet check, not workflow authority
 ```
 
-No fixed Chat → Work → Codex pipeline exists. Select the smallest adequate native provider after Work Function and Method are bound.
+No fixed Chat → Work → Codex pipeline exists. Select the smallest adequate native provider after Work Function and Method are bound. A native subagent is a provider mechanism, not a new architecture stage.
 
 ## 2. Activation boundary
 
@@ -75,7 +76,9 @@ If the application/career Method remains unavailable, an application-production 
 
 ## 5. Native handoff and execution
 
-When dispatching to Work or Codex, pass only the validated Episode packet and the authoritative inputs it references. The provider owns the bounded transformation, not the parent outcome or its status.
+When an adequate native subagent is available and responsibility can return inside the current loop, the controller must actually spawn it with only the validated Episode packet and authoritative inputs it references. A displayed handoff packet is not execution. Use one execution subagent by default; parallelize only independent read-heavy frontiers and avoid parallel writes.
+
+When dispatching to Work, Codex, or another external provider, apply the same bounded contract. The provider owns the bounded transformation, not the parent outcome or its status. If no provider can run now, return an external `HANDOFF` with the actor and re-entry condition instead of simulating a completed dispatch.
 
 The provider must not:
 
@@ -98,7 +101,9 @@ Provider Return is not Qualification.
 
 ## 7. Parent rebind and qualification
 
-The Chat/controller reads the controlling parent again after return. If version, gate, or frontier changed, stop and reconcile before integration.
+The Chat/controller reads material effects and the controlling parent again after return. If version, gate, frontier, or authority changed, stop and reconcile before integration.
+
+When a material claim is vulnerable to correlated producer self-review, the controller then spawns a different assurance subagent with the rebound parent version, exact claim, actual output, requirements, authoritative sources, and failure-detecting Method. Do not give the reviewer the desired verdict or intended repair. The reviewer may qualify but must not repair the object, set parent status, or issue Promotion.
 
 Qualification uses `qualification.schema.json` and must:
 
@@ -109,7 +114,7 @@ Qualification uses `qualification.schema.json` and must:
 - return `UNVERIFIED` when the method cannot detect the relevant failure;
 - make no parent-status or Promotion claim.
 
-The execution provider cannot self-issue a qualification `PASS`.
+The execution provider cannot self-issue a qualification `PASS`. Reviewer `FAIL` or `UNVERIFIED` demotes the claim and blocks dependent transitions; the controller must not average executor and reviewer outputs into `PASS` or permit a silent producer repair/self-pass loop.
 
 ## 8. Control return
 
@@ -139,9 +144,10 @@ Static fixture PASS is necessary but insufficient. Before any broader runtime cl
 1. the kernel activates on a material boundary;
 2. `CONTINUE` does not create authority;
 3. missing Application Method stops production;
-4. Work/Codex receives a bounded packet;
+4. an actual Work/Codex/native-subagent provider receives a bounded packet rather than a narrated handoff;
 5. Provider Return occurs before further work;
 6. Chat rebinds the actual parent;
 7. Qualification remains claim-scoped and separate;
 8. no effect, write, application artifact, or Promotion occurs.
 
+The first real native subagent pilot on 2026-08-24 demonstrated bounded executor dispatch, Provider Return, Parent rebind, and a different reviewer thread. The control path worked; the reviewer correctly rejected the executor's overbroad/incomplete child claim. This is one effect-disabled behavioral trace, not automatic-activation or production evidence.
