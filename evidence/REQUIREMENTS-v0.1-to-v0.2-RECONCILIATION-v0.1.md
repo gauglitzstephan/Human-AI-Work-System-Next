@@ -255,7 +255,7 @@ It does not establish:
 - any solution topology;
 - merge authority beyond the explicit Human merge decision.
 
-## 9. Exact-head integrity failure and bounded repair
+## 9. Exact-head integrity failure, bounded repair and re-review
 
 The first persisted Candidate commit was:
 
@@ -285,11 +285,30 @@ Requirements semantics           NOT IMPUGNED by this failure
 Architecture compatibility       NOT IMPUGNED by this failure
 ```
 
-The bounded repair reset `reconcile/vnext-requirements-v0.2` to the last intact Candidate commit `242a8bd574e46ab9d180ef68b3a369369c43f47a`, thereby removing the destructive `CURRENT.md` commit from the active PR head lineage, and then updated only this Evidence Record to preserve the failure/recovery history.
+The bounded repair first reset `reconcile/vnext-requirements-v0.2` to the last intact Candidate commit `242a8bd574e46ab9d180ef68b3a369369c43f47a`, removing the destructive commit from the active branch. The Evidence Record was then updated at `592dd0ea8564e4fbdad02023f4876b1f153277de`.
 
-No Requirements, Architecture, Runtime, Skill, Project UI or solution semantics were changed by this repair.
+The new exact-head diff subsequently exposed four residual, unintended `CURRENT.md` deltas: one claim wording change, one typo and two formatting-only changes. These were repaired in two bounded `CURRENT.md` commits, ending at:
 
-A new exact-head readback/challenge is required after this Evidence-Record write. Only that new head may support a merge-readiness claim.
+```text
+7c208c961d22a81caca538c992366c2cb7561a97
+```
+
+The exact-head challenge at `7c208c961d22a81caca538c992366c2cb7561a97` found:
+
+```text
+CURRENT.md structural integrity              PASS
+unintended post-R21 CURRENT regressions       NONE FOUND
+changed-file scope                            EXACTLY SIX
+branch relation to authorized base            AHEAD 4 / BEHIND 0
+Requirements semantic candidate               PASS
+Target Architecture compatibility             PASS within bounded static claim
+authority/supersession semantics              PASS
+Runtime / Skill / UI / solution change        NONE
+```
+
+No Requirements, Architecture, Runtime, Skill, Project UI or solution semantics were changed by the repair itself.
+
+This status update changes only the Evidence Record. A final readback of the resulting Evidence-only head is sufficient to establish that the recorded PASS did not alter the reviewed normative/authority content.
 
 ## 10. Evidence-record status
 
@@ -300,10 +319,10 @@ known-failure coverage                     PASS within current evidence
 Target Architecture compatibility          PASS candidate
 repository Candidate persistence           COMPLETE
 prior exact-head challenge                  FAIL at 9ed57379afd3478fdc56a7fd4431ada9f74fed07
-bounded CURRENT.md repair                   COMPLETE by branch reset to 242a8bd574e46ab9d180ef68b3a369369c43f47a
-Evidence-Record reconciliation              COMPLETE in this write
-new exact-head static readback              PENDING
-new bounded PR-head challenge               PENDING
+bounded CURRENT.md repair                   PASS through 7c208c961d22a81caca538c992366c2cb7561a97
+exact-head static readback                  PASS at 7c208c961d22a81caca538c992366c2cb7561a97
+bounded PR-head challenge                   PASS at 7c208c961d22a81caca538c992366c2cb7561a97
+this Evidence-only status write             REQUIRES FINAL READBACK
 repository Promotion                        NONE
 ```
 
