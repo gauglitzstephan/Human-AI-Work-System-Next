@@ -1,8 +1,8 @@
-# System of Interest — Foundation v0.4
+# System of Interest — Foundation v0.5
 
-**Status:** CLOSURE-SYNCED FOUNDATION / POST-ARCHITECTURE  
+**Status:** CLOSURE-SYNCED FOUNDATION / REQUIREMENTS-v0.2 TRANSITION CANDIDATE  
 **Purpose:** Define the parent problem and claim-relative System-of-Interest boundary for the Human–AI Work System across architecture, realization and evaluation.  
-**Current basis:** predecessor lineage/reconciliation + Reference Map + Concerns & Requirements v0.1 + accepted Target Architecture v0.2 / ADR-0002.  
+**Current basis:** predecessor lineage/reconciliation + Reference Map + controlling Concerns & Requirements v0.1 + Human-accepted Requirements v0.2 Candidate / proposed ADR-0003 + accepted Target Architecture v0.2 / ADR-0002.  
 **Authority boundary:** `CURRENT.md` controls current repository development/operating state and next-work authority. This foundation document does not independently define the active gate.
 
 ---
@@ -253,6 +253,8 @@ This does not erase its findings. Relevant issues may reappear as realization qu
 
 Foundational architecture is closed by default under the accepted Target Architecture / ADR-0002 reopen discipline.
 
+The normalized Requirements v0.2 Candidate is a bounded Requirements-baseline transition, not an architecture reopen. On this branch it remains Candidate; Requirements v0.1 remains controlling on `main` until a separately authorized merge and readback activates ADR-0003. Target Architecture v0.2 remains accepted and closed in either state.
+
 ---
 
 # 13. Current open claims / non-claims
@@ -277,10 +279,12 @@ These are realization/evaluation questions unless a named architecture reopen tr
 
 ```text
 accepted Target Architecture v0.2
++ Requirements v0.1 controlling on main until any v0.2 Promotion
++ Requirements v0.2 Human-accepted / branch Candidate
 + incumbent Work-Control runtime
 + domain-owned authoritative state / current tools
 + Working-Solution Operating Mode
-+ Solution Formation as a working method inside Work / DESIGN-COMPOSE
++ Runtime Solution Formation blocked until Requirements Promotion/readback
 ```
 
 This does **not** create a new parent SoI, Solution layer, engine, agent, store or mandatory lifecycle.
@@ -292,11 +296,12 @@ Human–AI Work System                         PARENT SoI
 ↓
 problem / mission / performance concerns     FOUNDATION
 ↓
-Concerns & Requirements v0.1                 ACCEPTED BASELINE
+Concerns & Requirements v0.1                 CONTROLLING ON main BEFORE v0.2 PROMOTION
+Concerns & Requirements v0.2                 CANDIDATE ON BRANCH; CONTROLLING ONLY AFTER MERGE + READBACK
 ↓
-Target Architecture v0.2                     ACCEPTED CONCEPTUAL BASELINE
+Target Architecture v0.2                     ACCEPTED / CLOSED / COMPATIBILITY REQUALIFIED IN CANDIDATE
 ↓
-operating / runtime realization              CURRENTLY ACTIVE AT WORK-SYSTEM LEVEL
+operating / runtime realization              UNCHANGED BY REQUIREMENTS PACKAGE
 ↓
 real Work Episodes + readback/use            BEHAVIORAL EVIDENCE SOURCE
 ↓
