@@ -1,8 +1,8 @@
 # System of Interest — Foundation v0.5
 
-**Status:** CLOSURE-SYNCED FOUNDATION / REQUIREMENTS-v0.2 TRANSITION CANDIDATE  
+**Status:** CLOSURE-SYNCED FOUNDATION / REQUIREMENTS-v0.2 PROMOTED  
 **Purpose:** Define the parent problem and claim-relative System-of-Interest boundary for the Human–AI Work System across architecture, realization and evaluation.  
-**Current basis:** predecessor lineage/reconciliation + Reference Map + controlling Concerns & Requirements v0.1 + Human-accepted Requirements v0.2 Candidate / proposed ADR-0003 + accepted Target Architecture v0.2 / ADR-0002.  
+**Current basis:** predecessor lineage/reconciliation + Reference Map + controlling Concerns & Requirements v0.2 / active ADR-0003 + Requirements v0.1 historical Qualified Prior + accepted Target Architecture v0.2 / ADR-0002.  
 **Authority boundary:** `CURRENT.md` controls current repository development/operating state and next-work authority. This foundation document does not independently define the active gate.
 
 ---
@@ -237,7 +237,7 @@ The bootstrap differential records remain useful evidence; they do not independe
 
 # 12. Architecture status after PR #3
 
-PR #3 merged `Concerns & Requirements v0.1`, `Target Architecture v0.2` and ADR-0002. Under ADR-0002, that merge accepts the conceptual baseline within its explicit scope/non-claims.
+PR #3 merged `Concerns & Requirements v0.1`, `Target Architecture v0.2` and ADR-0002. Under ADR-0002, that merge accepted the conceptual baseline within its explicit scope/non-claims.
 
 The previously controlling bootstrap sequence:
 
@@ -253,7 +253,7 @@ This does not erase its findings. Relevant issues may reappear as realization qu
 
 Foundational architecture is closed by default under the accepted Target Architecture / ADR-0002 reopen discipline.
 
-The normalized Requirements v0.2 Candidate is a bounded Requirements-baseline transition, not an architecture reopen. On this branch it remains Candidate; Requirements v0.1 remains controlling on `main` until a separately authorized merge and readback activates ADR-0003. Target Architecture v0.2 remains accepted and closed in either state.
+Requirements v0.2 was promoted via authorized PR #18 merge `b355ed63ad94d6456a6913cac079458238067921` and post-merge readback. Requirements v0.1 remains historical Qualified Prior evidence only. Target Architecture v0.2 remains accepted and closed; the Requirements transition did not reopen architecture.
 
 ---
 
@@ -275,16 +275,16 @@ These are realization/evaluation questions unless a named architecture reopen tr
 
 # 14. Relationship to the current operating mode
 
-`CURRENT.md` controls the active repository state. At the time of this closure sync it records:
+`CURRENT.md` controls the active repository state. After Requirements v0.2 Promotion it records:
 
 ```text
 accepted Target Architecture v0.2
-+ Requirements v0.1 controlling on main until any v0.2 Promotion
-+ Requirements v0.2 Human-accepted / branch Candidate
++ Requirements v0.2 controlling on main
++ Requirements v0.1 retained historical Qualified Prior
 + incumbent Work-Control runtime
 + domain-owned authoritative state / current tools
 + Working-Solution Operating Mode
-+ Runtime Solution Formation blocked until Requirements Promotion/readback
++ Runtime Solution Formation eligible as next frontier
 ```
 
 This does **not** create a new parent SoI, Solution layer, engine, agent, store or mandatory lifecycle.
@@ -296,12 +296,12 @@ Human–AI Work System                         PARENT SoI
 ↓
 problem / mission / performance concerns     FOUNDATION
 ↓
-Concerns & Requirements v0.1                 CONTROLLING ON main BEFORE v0.2 PROMOTION
-Concerns & Requirements v0.2                 CANDIDATE ON BRANCH; CONTROLLING ONLY AFTER MERGE + READBACK
+Concerns & Requirements v0.2                 CONTROLLING ON main
+Concerns & Requirements v0.1                 HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
 ↓
-Target Architecture v0.2                     ACCEPTED / CLOSED / COMPATIBILITY REQUALIFIED IN CANDIDATE
+Target Architecture v0.2                     ACCEPTED / CLOSED / COMPATIBILITY REQUALIFIED
 ↓
-operating / runtime realization              UNCHANGED BY REQUIREMENTS PACKAGE
+operating / runtime realization              UNCHANGED BY REQUIREMENTS PROMOTION
 ↓
 real Work Episodes + readback/use            BEHAVIORAL EVIDENCE SOURCE
 ↓
