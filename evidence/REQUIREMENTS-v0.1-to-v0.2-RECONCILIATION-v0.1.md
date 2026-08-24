@@ -255,17 +255,56 @@ It does not establish:
 - any solution topology;
 - merge authority beyond the explicit Human merge decision.
 
-## 9. Evidence-record status
+## 9. Exact-head integrity failure and bounded repair
+
+The first persisted Candidate commit was:
+
+```text
+242a8bd574e46ab9d180ef68b3a369369c43f47a
+```
+
+A subsequent attempted `CURRENT.md` cleanup produced head:
+
+```text
+9ed57379afd3478fdc56a7fd4431ada9f74fed07
+```
+
+The exact-head challenge found that this second commit had replaced the entire repository `CURRENT.md` content with the literal local path:
+
+```text
+/mnt/data/req_work/CURRENT.corrected.md
+```
+
+Therefore:
+
+```text
+write action success              ≠ correct persisted state
+intended repair                   ≠ verified repair
+9ed57379... package integrity     FAIL
+Requirements semantics           NOT IMPUGNED by this failure
+Architecture compatibility       NOT IMPUGNED by this failure
+```
+
+The bounded repair reset `reconcile/vnext-requirements-v0.2` to the last intact Candidate commit `242a8bd574e46ab9d180ef68b3a369369c43f47a`, thereby removing the destructive `CURRENT.md` commit from the active PR head lineage, and then updated only this Evidence Record to preserve the failure/recovery history.
+
+No Requirements, Architecture, Runtime, Skill, Project UI or solution semantics were changed by this repair.
+
+A new exact-head readback/challenge is required after this Evidence-Record write. Only that new head may support a merge-readiness claim.
+
+## 10. Evidence-record status
 
 ```text
 semantic reconciliation                    PASS candidate
 de-bias review                             PASS candidate
 known-failure coverage                     PASS within current evidence
 Target Architecture compatibility          PASS candidate
-exact-branch static readback               PENDING
-independent bounded PR-head challenge       PENDING
-repository persistence                     NONE
-repository Promotion                       NONE
+repository Candidate persistence           COMPLETE
+prior exact-head challenge                  FAIL at 9ed57379afd3478fdc56a7fd4431ada9f74fed07
+bounded CURRENT.md repair                   COMPLETE by branch reset to 242a8bd574e46ab9d180ef68b3a369369c43f47a
+Evidence-Record reconciliation              COMPLETE in this write
+new exact-head static readback              PENDING
+new bounded PR-head challenge               PENDING
+repository Promotion                        NONE
 ```
 
 ---
