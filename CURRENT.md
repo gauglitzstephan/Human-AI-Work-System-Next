@@ -140,8 +140,8 @@ Qualified delta:
 Wedding concept formation — v0.5              PASS within concept frontier
 Electric-car WAIT decision — v0.5             PARTIAL — closure PASS; evidence assurance incomplete
 Electric-car WAIT decision — v0.6             PASS — current evidence, closure and re-entry contract within stated ranges; active monitoring unverified
-Personal-information boundary/bootstrap — v0.6 PASS within tested dispatch frontier
-Live Project payload identity                  PASS — v0.5 Candidate by Human UI content readback; repository baseline v0.4
+Personal-information boundary/bootstrap — v0.6 PASS within dispatch/bootstrap frontier
+Live Project payload identity                  PASS — v0.5 Candidate by Human UI content readback PASS; repository baseline v0.4
 Windows provider return → Parent rebind        UNVERIFIED / MONITOR IN GENUINE USE
 Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
 Target Architecture                            KEEP CLOSED
@@ -233,7 +233,7 @@ Qualified result:
 Global v0.6 exact UI install/readback       PASS
 Cold-start behavioral result                FAIL 2/2
 Professional Method/Reference activation    FAIL 2/2
-Probe≠Candidate behavior                    FAIL 2/2
+Probe≠Candidate behavior                             FAIL 2/2
 Global v0.5 rollback/readback                PASS
 Local explicit Admission isolation           PASS
 ```
@@ -267,7 +267,7 @@ Global v0.7 exact install/readback                   PASS
 G1a Entry/Formation before preferred route           FAIL
 G1b Entry/Formation before preferred route           FAIL
 Professional/Reference activation before Candidate  FAIL 2/2
-Probe≠Candidate behavior                          FAIL 2/2
+Probe≠Candidate behavior                             FAIL 2/2
 Substantive help                                     PASS 2/2
 Global v0.5 rollback/readback                        PASS
 ```
@@ -343,7 +343,7 @@ A Project is an explicit persistent context carrier containing related chats, fi
 
 ### Memory / chat history
 
-When enabled, saved Memory and chat-history reference can make relevant prior context available in later conversations. This is contexual retrieval and does not guarantee complete or authoritative transfer of prior work state. Project-only memory can deliberately isolate a Project from outside context; default Project memory can use broader context depending on plan/settings.
+When enabled, saved Memory and chat-history reference can make relevant prior context available in later conversations. This is contextual retrieval and does not guarantee complete or authoritative transfer of prior work state. Project-only memory can deliberately isolate a Project from outside context; default Project memory can use broader context depending on plan/settings.
 
 ### Skills and plugins — R21 current reconciliation
 
@@ -382,7 +382,7 @@ The activation description remained unchanged to preserve diagnostic attribution
 Manual fresh-work cold start                      PASS
 Automatic activation on fresh material work       PASS
 Single-Skill attribution after overlap removal    PASS
-Professional/reference Formation                   PASS
+Professional/reference Formation                  PASS
 Probe≠Candidate integrity                         PASS
 Simple translation                                PASS / Skill stays inactive
 Explicit ideation — clean unseen case              PASS / Skill stays inactive
