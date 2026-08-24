@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://haws.local/schemas/native-provider-return-v0.1.json",
+  "title": "Native Provider Return v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["episode_id", "parent_state_version_seen", "provider_id", "work_performed", "output", "child_to_parent_contribution", "evidence_used", "method_applied", "assumptions", "blockers", "assurance_applied", "supported_claim", "readiness", "operations_performed", "writes_performed", "external_actions_performed", "parent_status_claim", "promotion_claim", "human_or_authority_need", "recommended_frontier"],
+  "properties": {
+    "episode_id": {"type": "string", "minLength": 1},
+    "parent_state_version_seen": {"type": "string", "minLength": 1},
+    "provider_id": {"type": "string", "minLength": 1},
+    "work_performed": {"type": "string", "minLength": 1},
+    "output": {},
+    "child_to_parent_contribution": {"type": "string", "minLength": 1},
+    "evidence_used": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "method_applied": {"type": "string", "minLength": 1},
+    "assumptions": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "blockers": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "assurance_applied": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "supported_claim": {"type": "string", "minLength": 1},
+    "readiness": {"enum": ["COMPLETE_FOR_RETURN", "PARTIAL", "BLOCKED"]},
+    "operations_performed": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "writes_performed": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "external_actions_performed": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "parent_status_claim": {"type": ["string", "null"]},
+    "promotion_claim": {"const": false},
+    "human_or_authority_need": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "recommended_frontier": {"type": "string", "minLength": 1}
+  }
+}
+

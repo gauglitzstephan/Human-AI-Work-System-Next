@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://haws.local/schemas/native-episode-v0.1.json",
+  "title": "Native Episode Contract v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["episode_id", "parent", "trigger", "work_unit", "work_basis", "method", "provider", "assurance", "authorization", "inputs", "requirements", "output_contract", "return_condition", "claim", "effects"],
+  "properties": {
+    "episode_id": {"type": "string", "minLength": 1},
+    "parent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["work_object", "outcome", "controlling_source", "state_version", "gate", "active_frontier"],
+      "properties": {
+        "work_object": {"type": "string", "minLength": 1},
+        "outcome": {"type": "string", "minLength": 1},
+        "controlling_source": {"type": "string", "minLength": 1},
+        "state_version": {"type": "string", "minLength": 1},
+        "gate": {"type": "string", "minLength": 1},
+        "active_frontier": {"type": "string", "minLength": 1}
+      }
+    },
+    "trigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "summary", "continues_active_frontier"],
+      "properties": {
+        "kind": {"enum": ["REQUEST", "CONTINUATION", "AUTHORIZATION"]},
+        "summary": {"type": "string", "minLength": 1},
+        "continues_active_frontier": {"type": "boolean"}
+      }
+    },
+    "work_unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "work_function", "transformation", "child_to_parent_contribution"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "work_function": {"type": "string", "minLength": 1},
+        "transformation": {"type": "string", "minLength": 1},
+        "child_to_parent_contribution": {"type": "string", "minLength": 1}
+      }
+    },
+    "work_basis": {"enum": ["PILOT_TEST"]},
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "source", "status", "fit"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "source": {"type": "string", "minLength": 1},
+        "status": {"enum": ["QUALIFIED", "CANDIDATE", "PILOT_ONLY", "UNVERIFIED", "UNAVAILABLE"]},
+        "fit": {"enum": ["ESTABLISHED", "ESTABLISHED_FOR_PILOT", "UNVERIFIED", "NOT_APPLICABLE"]}
+      }
+    },
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "surface", "capability_status"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "surface": {"enum": ["CHAT", "WORK", "CODEX", "TOOL", "HUMAN"]},
+        "capability_status": {"enum": ["QUALIFIED", "PILOT_ONLY", "UNVERIFIED", "UNAVAILABLE"]}
+      }
+    },
+    "assurance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider_id", "mode", "capability_status"],
+      "properties": {
+        "provider_id": {"type": "string", "minLength": 1},
+        "mode": {"enum": ["DETERMINISTIC", "SEPARATE_CONTEXT", "INDEPENDENT", "RECIPIENT_USE"]},
+        "capability_status": {"enum": ["QUALIFIED", "PILOT_ONLY", "UNVERIFIED", "UNAVAILABLE"]}
+      }
+    },
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["basis", "actor", "allowed_operations", "write_path", "blocked_transitions"],
+      "properties": {
+        "basis": {"enum": ["EXPLICIT_ACTION_AUTHORIZATION", "PARENT_WORK_BASIS", "CONTINUATION_TRIGGER"]},
+        "actor": {"type": "string", "minLength": 1},
+        "allowed_operations": {"type": "array", "items": {"enum": ["READ", "ANALYZE", "DRAFT_EPHEMERAL", "VALIDATE", "RETURN", "PERSISTENT_WRITE", "EXTERNAL_ACTION", "PROMOTION"]}, "uniqueItems": true},
+        "write_path": {"type": ["string", "null"]},
+        "blocked_transitions": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      }
+    },
+    "inputs": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "requirements": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1},
+    "output_contract": {"type": "string", "minLength": 1},
+    "return_condition": {"type": "string", "minLength": 1},
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["intended", "allowed_return_claims"],
+      "properties": {
+        "intended": {"type": "string", "minLength": 1},
+        "allowed_return_claims": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true}
+      }
+    },
+    "effects": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "promotion_allowed"],
+      "properties": {
+        "mode": {"enum": ["DISABLED"]},
+        "promotion_allowed": {"const": false}
+      }
+    }
+  }
+}
+

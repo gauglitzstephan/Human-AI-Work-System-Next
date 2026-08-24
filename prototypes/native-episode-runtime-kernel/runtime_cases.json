@@ -1,0 +1,120 @@
+{
+  "version": "0.1",
+  "base_episode": {
+    "episode_id": "EP-NATIVE-001",
+    "parent": {
+      "work_object": "HAWS Operating Runtime Realization",
+      "outcome": "Realize and validate HAWS while preserving state, authority, quality, Human agency, and proportionality.",
+      "controlling_source": "main/CURRENT.md@b0c402d296dd368206572e5a839cc236156205d2",
+      "state_version": "b0c402d296dd368206572e5a839cc236156205d2",
+      "gate": "OPERATING_RUNTIME_REOPEN",
+      "active_frontier": "native-episode-kernel-pilot"
+    },
+    "trigger": {
+      "kind": "AUTHORIZATION",
+      "summary": "Implement the effect-disabled native Episode Runtime Kernel Candidate.",
+      "continues_active_frontier": true
+    },
+    "work_unit": {
+      "id": "native-episode-kernel-pilot",
+      "work_function": "Runtime realization and assurance",
+      "transformation": "Compile and validate the native Episode, Return, and Qualification contracts without effects.",
+      "child_to_parent_contribution": "Mechanism-level evidence for a native effect-disabled runtime candidate."
+    },
+    "work_basis": "PILOT_TEST",
+    "method": {
+      "id": "SD-M04",
+      "source": "methods/system-development/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD-v0.1.md",
+      "status": "CANDIDATE",
+      "fit": "ESTABLISHED_FOR_PILOT"
+    },
+    "provider": {
+      "id": "chatgpt-work-provider-1",
+      "surface": "WORK",
+      "capability_status": "PILOT_ONLY"
+    },
+    "assurance": {
+      "provider_id": "deterministic-packet-validator",
+      "mode": "DETERMINISTIC",
+      "capability_status": "PILOT_ONLY"
+    },
+    "authorization": {
+      "basis": "EXPLICIT_ACTION_AUTHORIZATION",
+      "actor": "chatgpt-work-provider-1",
+      "allowed_operations": ["READ", "ANALYZE", "DRAFT_EPHEMERAL", "VALIDATE", "RETURN"],
+      "write_path": null,
+      "blocked_transitions": ["PERSISTENT_WRITE", "EXTERNAL_ACTION", "APPLICATION_PRODUCTION", "SUBMISSION_OR_RELEASE", "PROMOTION"]
+    },
+    "inputs": ["main/CURRENT.md", "canonical runtime contracts", "application incident evidence"],
+    "requirements": ["ChatGPT-native", "effect-disabled", "fail closed", "no parent self-promotion"],
+    "output_contract": "provider_return.schema.json",
+    "return_condition": "Return before any new work unit, write, action, or promotion.",
+    "claim": {
+      "intended": "NATIVE_EPISODE_CONTRACT_INTEGRITY",
+      "allowed_return_claims": ["CANDIDATE_PACKET_CREATED", "NATIVE_EPISODE_CONTRACT_INTEGRITY"]
+    },
+    "effects": {
+      "mode": "DISABLED",
+      "promotion_allowed": false
+    }
+  },
+  "base_return": {
+    "episode_id": "EP-NATIVE-001",
+    "parent_state_version_seen": "b0c402d296dd368206572e5a839cc236156205d2",
+    "provider_id": "chatgpt-work-provider-1",
+    "work_performed": "Compiled an in-memory candidate packet and returned it for validation.",
+    "output": {"candidate": "bounded"},
+    "child_to_parent_contribution": "Candidate packet ready for deterministic validation.",
+    "evidence_used": ["canonical runtime contracts"],
+    "method_applied": "SD-M04",
+    "assumptions": [],
+    "blockers": [],
+    "assurance_applied": ["local completeness check"],
+    "supported_claim": "CANDIDATE_PACKET_CREATED",
+    "readiness": "COMPLETE_FOR_RETURN",
+    "operations_performed": ["READ", "ANALYZE", "DRAFT_EPHEMERAL", "RETURN"],
+    "writes_performed": [],
+    "external_actions_performed": [],
+    "parent_status_claim": null,
+    "promotion_claim": false,
+    "human_or_authority_need": [],
+    "recommended_frontier": "Deterministic packet qualification and parent rebind."
+  },
+  "base_qualification": {
+    "episode_id": "EP-NATIVE-001",
+    "parent_state_version_rebound": "b0c402d296dd368206572e5a839cc236156205d2",
+    "evaluator_id": "deterministic-packet-validator",
+    "mode": "DETERMINISTIC",
+    "claim_evaluated": "NATIVE_EPISODE_CONTRACT_INTEGRITY",
+    "evidence_used": ["episode packet", "provider return packet"],
+    "checks": ["exact fields", "effect-disabled invariants", "return lineage", "claim scope"],
+    "failures": [],
+    "verdict": "PASS",
+    "supported_claim": "NATIVE_EPISODE_CONTRACT_INTEGRITY",
+    "parent_status_claim": null,
+    "promotion_claim": false
+  },
+  "cases": [
+    {"id": "valid-episode", "kind": "episode", "mutations": [], "expect": {"status": "PASS"}},
+    {"id": "continue-is-not-authority", "kind": "episode", "mutations": [{"target": "episode", "path": "trigger.kind", "value": "CONTINUATION"}, {"target": "episode", "path": "authorization.basis", "value": "CONTINUATION_TRIGGER"}], "expect": {"status": "STOP", "reason": "CONTINUATION_NOT_AUTHORITY"}},
+    {"id": "continuation-frontier-drift", "kind": "episode", "mutations": [{"target": "episode", "path": "trigger.kind", "value": "CONTINUATION"}, {"target": "episode", "path": "trigger.continues_active_frontier", "value": false}], "expect": {"status": "STOP", "reason": "CONTINUATION_FRONTIER_DRIFT"}},
+    {"id": "application-method-unavailable", "kind": "episode", "mutations": [{"target": "episode", "path": "method.id", "value": "application-career-method"}, {"target": "episode", "path": "method.status", "value": "UNAVAILABLE"}, {"target": "episode", "path": "method.fit", "value": "UNVERIFIED"}], "expect": {"status": "STOP", "reason": "METHOD_UNAVAILABLE"}},
+    {"id": "provider-unverified", "kind": "episode", "mutations": [{"target": "episode", "path": "provider.capability_status", "value": "UNVERIFIED"}], "expect": {"status": "STOP", "reason": "PROVIDER_UNVERIFIED"}},
+    {"id": "assurance-not-separated", "kind": "episode", "mutations": [{"target": "episode", "path": "assurance.provider_id", "value": "chatgpt-work-provider-1"}], "expect": {"status": "STOP", "reason": "ASSURANCE_NOT_SEPARATED"}},
+    {"id": "write-operation-requested", "kind": "episode", "mutations": [{"target": "episode", "path": "authorization.allowed_operations", "value": ["READ", "PERSISTENT_WRITE"]}], "expect": {"status": "STOP", "reason": "EFFECT_OPERATION_REQUESTED"}},
+    {"id": "write-path-present", "kind": "episode", "mutations": [{"target": "episode", "path": "authorization.write_path", "value": "Drive/Application/CV.docx"}], "expect": {"status": "STOP", "reason": "WRITE_PATH_FORBIDDEN"}},
+    {"id": "effect-block-missing", "kind": "episode", "mutations": [{"target": "episode", "path": "authorization.blocked_transitions", "value": ["PERSISTENT_WRITE", "EXTERNAL_ACTION", "PROMOTION"]}], "expect": {"status": "STOP", "reason": "EFFECT_BLOCKS_INCOMPLETE"}},
+    {"id": "valid-provider-return", "kind": "return", "mutations": [], "expect": {"status": "PASS"}},
+    {"id": "provider-return-claims-write", "kind": "return", "mutations": [{"target": "return", "path": "writes_performed", "value": ["Created application CV"]}], "expect": {"status": "STOP", "reason": "RETURN_EFFECT_CLAIM"}},
+    {"id": "provider-return-self-promotes-parent", "kind": "return", "mutations": [{"target": "return", "path": "parent_status_claim", "value": "PASS"}], "expect": {"status": "STOP", "reason": "RETURN_PARENT_STATUS_CLAIM"}},
+    {"id": "provider-return-wrong-method", "kind": "return", "mutations": [{"target": "return", "path": "method_applied", "value": "invented-application-method"}], "expect": {"status": "STOP", "reason": "RETURN_METHOD_MISMATCH"}},
+    {"id": "provider-return-overclaims", "kind": "return", "mutations": [{"target": "return", "path": "supported_claim", "value": "APPLICATION_PROFESSIONAL_READINESS"}], "expect": {"status": "STOP", "reason": "RETURN_CLAIM_OUT_OF_SCOPE"}},
+    {"id": "valid-qualification", "kind": "qualification", "mutations": [], "expect": {"status": "PASS"}},
+    {"id": "executor-attempts-self-qualification", "kind": "qualification", "mutations": [{"target": "qualification", "path": "evaluator_id", "value": "chatgpt-work-provider-1"}], "expect": {"status": "STOP", "reason": "QUALIFICATION_PROVIDER_MISMATCH"}},
+    {"id": "qualification-stale-parent", "kind": "qualification", "mutations": [{"target": "qualification", "path": "parent_state_version_rebound", "value": "stale-version"}], "expect": {"status": "STOP", "reason": "QUALIFICATION_STALE_PARENT"}},
+    {"id": "qualification-claim-drift", "kind": "qualification", "mutations": [{"target": "qualification", "path": "claim_evaluated", "value": "APPLICATION_PROFESSIONAL_READINESS"}], "expect": {"status": "STOP", "reason": "QUALIFICATION_CLAIM_MISMATCH"}},
+    {"id": "qualification-pass-with-failures", "kind": "qualification", "mutations": [{"target": "qualification", "path": "failures", "value": ["missing Method"]}], "expect": {"status": "STOP", "reason": "QUALIFICATION_PASS_WITH_FAILURES"}},
+    {"id": "qualification-self-promotes-parent", "kind": "qualification", "mutations": [{"target": "qualification", "path": "parent_status_claim", "value": "READY"}], "expect": {"status": "STOP", "reason": "QUALIFICATION_PARENT_STATUS_CLAIM"}}
+  ]
+}
+
