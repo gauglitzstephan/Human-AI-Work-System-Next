@@ -1,8 +1,8 @@
 # Requirements v0.1 → v0.2 Reconciliation and Promotion Evidence v0.1
 
-**Status:** CANDIDATE EVIDENCE RECORD — supports a later repository-promotion decision; does not itself promote any state  
+**Status:** PROMOTION EVIDENCE RECORD — PR #18 merge/readback and bounded post-merge authority reconciliation complete  
 **Date:** 2026-08-24  
-**Claim boundary:** bounded semantic reconciliation, de-bias review and Target-Architecture compatibility assessment for the normalized Requirements v0.2 Candidate
+**Claim boundary:** bounded semantic reconciliation, de-bias review, Target-Architecture compatibility, exact-head assurance and repository-promotion readback for Requirements v0.2
 
 ## 1. Authoritative and qualified source basis
 
@@ -10,15 +10,16 @@ Repository sources inspected:
 
 | Source | Path | Version / SHA | Use |
 |---|---|---:|---|
-| Current Requirements baseline | `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` | `3ce54f737ff5c3f8dfdbe7edb2fe92c99d6a6ffb` | controlling prior Requirement semantics |
-| System of Interest | `foundation/SYSTEM-OF-INTEREST.md` | `31d05d6b410f181e335a9c9551865dee3de497e6` | parent problem, scope and performance concerns |
+| Prior Requirements baseline | `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` | `3ce54f737ff5c3f8dfdbe7edb2fe92c99d6a6ffb` | prior controlling Requirement semantics / historical Qualified Prior |
+| System of Interest | `foundation/SYSTEM-OF-INTEREST.md` | prior promotion-candidate source + post-merge reconciled main state | parent problem, scope and performance concerns |
 | Architecture Principles | `architecture/ARCHITECTURE-PRINCIPLES-v0.1.md` | `76b95269d45490eeb7c9608df675ed4eea167b4e` | de-bias, proportionality and type-correctness challenge |
 | Target Architecture | `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` | `75d2669a3bf2d55258ad4f6e171ae55139e1d2c8` | compatibility and ownership check |
-| Architecture decision | `decisions/ADR-0002-target-conceptual-baseline.md` | `6565fe47896168a43f054ebdb739e7f4d9b7c8b4` | current Requirements/Architecture authority transition |
+| Prior architecture decision | `decisions/ADR-0002-target-conceptual-baseline.md` | `6565fe47896168a43f054ebdb739e7f4d9b7c8b4` | prior Requirements/Architecture authority transition |
 | Architecture method | `architecture/ARCHITECTURE-METHOD.md` | `49d9e2be213d05eece012f70a08288993da1ee18` | qualified-prior and reopen discipline |
-| Current program authority | `CURRENT.md` | `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`; blob `e4f615b154e84352f36f13293a41d7f1f696a6d1` | active state and gate after PR #17 merge/readback |
-| Human decision | System Development conversation, 2026-08-24 | `ACCEPT` + bounded six-file branch/Draft-PR authorization | accepts normalized v0.2 as Requirements Design Basis and authorizes Candidate persistence/review only |
-| Candidate branch | `reconcile/vnext-requirements-v0.2` | base `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f` | exact authorized persistence and Draft-PR vehicle |
+| Pre-promotion program authority | `CURRENT.md` | `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`; blob `e4f615b154e84352f36f13293a41d7f1f696a6d1` | active state and gate after PR #17 merge/readback |
+| Human decisions | System Development conversation, 2026-08-24 | `ACCEPT` + bounded six-file write authorization + explicit PR #18 merge authorization | Requirements Design Basis acceptance, Candidate persistence/review and Promotion authority |
+| Candidate branch | `reconcile/vnext-requirements-v0.2` | base `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`; final reviewed head `e00fb7d2249e4bcd51f3ce50f32480edf039f1da` | exact Candidate persistence and review vehicle |
+| Promotion merge | PR #18 | merge `b355ed63ad94d6456a6913cac079458238067921` | Requirements v0.2 repository Promotion |
 
 Relevant internal evidence includes R20/R21 real-use/runtime records and the later observed high-latency/over-orchestration trigger. These records support Requirements formation and de-biasing; they do not by themselves promote the Requirement or reopen architecture.
 
@@ -201,11 +202,11 @@ Target Architecture semantic change      NONE REQUIRED
 architecture reopen trigger              NOT ESTABLISHED
 ```
 
-Therefore Target Architecture v0.2 may remain accepted and closed if the exact branch content passes the same compatibility check before merge.
+Target Architecture v0.2 remains accepted and closed. The exact-head compatibility review passed before PR #18 merge; the Requirements promotion introduced no architecture semantic change.
 
 This is a bounded compatibility finding, not a new architecture-acceptance claim.
 
-## 8. Promotion assurance candidate
+## 8. Promotion assurance
 
 ### Static content checks
 
@@ -225,18 +226,19 @@ This is a bounded compatibility finding, not a new architecture-acceptance claim
 ### Repository-state checks
 
 - PR #17 merged and read back on `main`;
-- exact authorized base is `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`;
-- Candidate branch is `reconcile/vnext-requirements-v0.2`;
-- changed-file set matches the authorized package;
-- `main/CURRENT.md` remains authority until merge and readback;
-- old v0.1 file remains unchanged and historically accessible;
-- ADR-0002 remains unchanged;
-- Target Architecture v0.2 remains unchanged;
-- no files under `realization/`, Runtime, Skills or external systems changed.
+- exact authorized PR #18 base was `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`;
+- Candidate branch was `reconcile/vnext-requirements-v0.2`;
+- changed-file set matched the authorized six-file package;
+- old v0.1 file remained unchanged and historically accessible;
+- ADR-0002 remained unchanged;
+- Target Architecture v0.2 remained unchanged;
+- no files under `realization/`, Runtime, Skills or external systems changed;
+- PR #18 was explicitly authorized and merged at `b355ed63ad94d6456a6913cac079458238067921`;
+- post-merge `main` readback confirmed Requirements v0.2 presence and exposed only stale pre-merge status wording, repaired by bounded authority reconciliation.
 
 ### Promotion claim boundary
 
-A successful merge may establish only:
+PR #18 merge + readback establishes only:
 
 ```text
 Requirements v0.2        controlling repository Requirements baseline
@@ -253,7 +255,7 @@ It does not establish:
 - behavioral effectiveness;
 - cross-domain empirical completeness;
 - any solution topology;
-- merge authority beyond the explicit Human merge decision.
+- any Runtime Solution Formation result.
 
 ## 9. Exact-head integrity failure, bounded repair and re-review
 
@@ -306,24 +308,27 @@ authority/supersession semantics              PASS
 Runtime / Skill / UI / solution change        NONE
 ```
 
+The final Candidate head was `e00fb7d2249e4bcd51f3ce50f32480edf039f1da`. GitHub later reported it mergeable with no observed commit-status blockers before the Human merge authorization.
+
 No Requirements, Architecture, Runtime, Skill, Project UI or solution semantics were changed by the repair itself.
 
-This status update changes only the Evidence Record. A final readback of the resulting Evidence-only head is sufficient to establish that the recorded PASS did not alter the reviewed normative/authority content.
-
-## 10. Evidence-record status
+## 10. Promotion and readback status
 
 ```text
-semantic reconciliation                    PASS candidate
-de-bias review                             PASS candidate
+semantic reconciliation                    PASS
+de-bias review                             PASS
 known-failure coverage                     PASS within current evidence
-Target Architecture compatibility          PASS candidate
+Target Architecture compatibility          PASS within bounded static claim
 repository Candidate persistence           COMPLETE
 prior exact-head challenge                  FAIL at 9ed57379afd3478fdc56a7fd4431ada9f74fed07
 bounded CURRENT.md repair                   PASS through 7c208c961d22a81caca538c992366c2cb7561a97
-exact-head static readback                  PASS at 7c208c961d22a81caca538c992366c2cb7561a97
-bounded PR-head challenge                   PASS at 7c208c961d22a81caca538c992366c2cb7561a97
-this Evidence-only status write             REQUIRES FINAL READBACK
-repository Promotion                        NONE
+final reviewed Candidate head               e00fb7d2249e4bcd51f3ce50f32480edf039f1da
+PR #18 merge                               PASS / b355ed63ad94d6456a6913cac079458238067921
+post-merge main readback                    PASS
+Requirements v0.2 Promotion                COMPLETE
+Requirements v0.1 controlling role         SUPERSEDED
+Target Architecture v0.2                    ACCEPTED / CLOSED / NOT REOPENED
+Runtime Solution Formation                  ELIGIBLE / NOT YET EXECUTED
 ```
 
 ---
