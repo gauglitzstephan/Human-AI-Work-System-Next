@@ -115,11 +115,45 @@ selected native provider
 
 This evidence justifies a bounded Candidate repair to `material-work-entry` and the native Episode Runtime Kernel. It does not authorize application production, main merge, Runtime Promotion, or static-architecture change.
 
-## 8. Disposition
+## 8. v0.8 repair forward smoke
+
+A second held-out, effect-disabled episode exercised the repaired Skill as an explicit controller-mediated route:
+
+```text
+Controller
+→ bounded cross-source execution subagent
+→ Provider Return: NATIVE_CONTROL_CHAIN_PARTIALLY_COHERENT
+→ Parent readback
+→ different assurance subagent
+→ PASS for the exact partial-coherence claim
+→ bounded source repair
+→ fresh independent post-repair reviewer
+→ PASS at static source-coherence scope
+```
+
+The first executor/reviewer pair detected, rather than concealed, remaining Candidate defects: `UNVERIFIED` did not carry an explicit demotion/block consequence in the native runtime reference, and the visible Kernel Return/Qualification summaries omitted material obligations. The controller repaired only those authorized Runtime-Candidate sources. A fresh reviewer then verified these exact properties:
+
+- `FAIL` and `UNVERIFIED` both demote the exact claim and block every dependent transition;
+- Provider Return exposes the material Skill/runtime-reference obligations;
+- Qualification exposes evidence, findings, checks, failures, verdict, `UNVERIFIED` conditions, supported claim and limits, operations/effects, and no parent-status or Promotion claim;
+- a selected `NATIVE_SUBAGENT` route requires an actual child thread and cannot silently downgrade to controller self-execution.
+
+Rebound post-repair source identities were:
+
+```text
+Material Work Entry SKILL.md             15a4f79faef52fc57d85984e721ef3d0b052b6028f87a7dbae3ba2358aa05e8c
+native-subagent-runtime.yaml             5377dc1380507204a9c478c1412d9f845acac6fcfd84f25e5c6c55a97d201745
+Native Episode Kernel Candidate          c0bc8a87809a0c4f8c76d64eb855a8a149a14c140f1f5a7d386fba182c7930a0
+```
+
+The exact qualified claim is limited to closure of the identified visible coherence gaps at static source scope. It does not qualify automatic/implicit activation, repeated reliability, mechanical tool isolation, application fitness, installation of the repository Kernel, Runtime Promotion, or production.
+
+## 9. Disposition
 
 ```text
 NATIVE CONTROL PATH PILOT       COMPLETE
 CHILD CLAIM                     FAIL / DEMOTED
+V0.8 SOURCE-COHERENCE REPAIR    PASS AT EXACT STATIC SCOPE
 SKILL/RUNTIME CANDIDATE REPAIR  AUTHORIZED SEPARATELY
 MAIN MERGE / RUNTIME PROMOTION  BLOCKED
 APPLICATION PRODUCTION          STOPPED
