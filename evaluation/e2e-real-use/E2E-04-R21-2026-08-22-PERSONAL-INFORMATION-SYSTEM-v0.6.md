@@ -1,7 +1,7 @@
 # E2E-04 R21 — Personal information-system boundary and bootstrap
 
-**Status:** ACTIVE / provider return pending  
-**Date / horizon:** 2026-08-22 / Windows inventory and parent rebind not yet completed  
+**Status:** CLOSED AT SYSTEM-BOUNDARY / BOOTSTRAP FRONTIER — PROVIDER RETURN/REBIND UNVERIFIED / MONITOR IN GENUINE USE  
+**Date / horizon:** 2026-08-22 / no active synthetic continuation; observe a future genuine Windows/provider return if naturally exercised  
 **Runtime contracts:** initial v0.5 behavior; repaired candidate `material-work-entry v0.6-candidate`  
 **Surface:** ChatGPT Work with Google Drive evidence slice and planned Windows return  
 **Primary run references:**  
@@ -50,7 +50,7 @@ Target structure / migration promotion     NONE
 
 - Formation/control: v0.6 System-Boundary Discovery and Persistence/Bootstrap Trigger.
 - Google Drive: bounded read-only evidence provider.
-- Windows script: bounded read-only inventory provider, pending execution/return.
+- Windows script: bounded read-only inventory provider defined at dispatch; execution/return not performed in this evidence record.
 - Current file: controlling Parent-state carrier.
 - Human: system-boundary correction, private/local access and later target acceptance authority.
 
@@ -68,11 +68,11 @@ Skill source identity used for the reconciliation: remote-skills repository comm
 
 ## Human contribution / Gate evidence
 
-The Human legitimately corrected the incomplete system boundary and supplied/attached the Current artifact. The earlier evaluator then incorrectly inferred that the Current did not exist because it had seen only a text excerpt. No Human judgment is required to repair that evaluator error. The pending Windows execution is a provider handoff, not a generic review gate.
+The Human legitimately corrected the incomplete system boundary and supplied/attached the Current artifact. The earlier evaluator then incorrectly inferred that the Current did not exist because it had seen only a text excerpt. No Human judgment is required to repair that evaluator error. The unperformed Windows execution remains a possible future provider handoff, not a generic review gate or active repository-convergence prerequisite.
 
 ## Transition / use evidence where applicable
 
-The next transition is Windows inventory execution and return, followed by readback, parent rebind and Current update. No migration work is permitted at this frontier.
+No active Windows execution is required to close this tested frontier. If genuine work later performs the inventory, the required return sequence is readback → Parent rebind → Current update. No migration work is authorized by this record.
 
 ## Outcome evidence / attribution limits where applicable
 
@@ -98,6 +98,6 @@ PASS for the v0.6 System-Boundary Discovery and minimal bootstrap at the tested 
 
 ## Local repair / reopen disposition
 
-The reconciled failures do not justify Skill repair or architecture reopen. Continue only with the read-only provider return and rebind test; repair the lowest responsible layer if new evidence fails.
+The reconciled failures do not justify Skill repair or architecture reopen. Close the active qualification loop and monitor provider return/rebind in genuine use; repair the lowest responsible layer only if returned evidence establishes a failure.
 
 [material-work-entry v0.6-candidate]

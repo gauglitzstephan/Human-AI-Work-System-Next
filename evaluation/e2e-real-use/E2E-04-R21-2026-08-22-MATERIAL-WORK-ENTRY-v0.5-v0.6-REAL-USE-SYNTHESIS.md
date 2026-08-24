@@ -1,44 +1,50 @@
 # E2E-04 R21 — material-work-entry v0.5/v0.6 Real-Use Reconciliation
 
 **Date:** 2026-08-22  
-**Status:** RECONCILIATION EVIDENCE / CANDIDATE — NO REPAIR, PROMOTION OR ARCHITECTURE CHANGE  
-**Branch:** `reconcile/r21-material-work-entry-v0.6-real-use`  
+**Status:** REPOSITORY-PROMOTED EVIDENCE VIA PR #16 / POST-MERGE READBACK PASS — NO RUNTIME OR SKILL REPAIR, PROMOTION OR ARCHITECTURE CHANGE  
+**Repository transition:** R21 evidence merged to `main` via PR #16; this post-R21 status delta is Candidate off `main` and controlling only if the exact state is later read from `main` after an authorized merge + readback  
 **System of Interest:** Native ChatGPT work formation, bounded persistence and handoff behavior around the external Personal Skill `material-work-entry`
 
 ## 1. Purpose and authority boundary
 
-This record reconciles three genuine-use cases after the R20 native Work-Skill validation:
+This record reconciles four version-scoped genuine-use frontiers plus one carrier-identity readback after the R20 native Work-Skill validation:
 
-1. wedding dessert / cake concept formation;
-2. Nissan Pulsar versus electric-car decision;
-3. personal information-system discovery and bootstrap.
+1. wedding dessert / cake concept formation under v0.5;
+2. the original Nissan Pulsar versus electric-car WAIT decision under v0.5;
+3. current-evidence requalification of that WAIT decision under v0.6;
+4. personal information-system discovery/bootstrap across the v0.5 failure and v0.6 response;
+5. non-behavioral Human UI readback of the live Project payload identity.
 
 It records observed behavior, version boundaries, evaluator corrections and the remaining qualification frontier. It does **not**:
 
 - repair the Skill;
 - change Target Architecture;
 - promote any Runtime, Canonical or Skill state;
-- merge this branch;
-- turn all three cases into v0.6 proof;
+- authorize merge or promotion of later amendments to this record;
+- turn the mixed-version evidence set into a homogeneous v0.6 proof wave;
 - treat a conversation excerpt as the complete evidence universe.
 
-The controlling repository state remains `main/CURRENT.md` until a separately authorized promotion and merge. This synthesis is secondary to the three persistent case records below.
+The controlling repository state is `main/CURRENT.md`. The R21 synthesis became repository-promoted evidence through PR #16; edits to this record on an unmerged branch remain Candidate state. The synthesis remains secondary to the persistent primary case records below and does not itself control Runtime, Skill, UI or architecture state.
 
 ## 2. Evidence and version ledger
 
-| Case | Runtime marker observed | Material frontier reached | Qualification |
-|---|---|---|---|
-| Wedding dessert | `material-work-entry v0.5-candidate` | Taste-led concept selection and vendor-ready direction | PASS within concept-formation frontier |
-| Electric-car decision | `material-work-entry v0.5-candidate` | WAIT decision with triggers and review timing | PARTIAL: decision closure passed; assurance basis incomplete |
-| Personal information system | initial v0.5 behavior, then `material-work-entry v0.6-candidate` | Cross-surface boundary discovery and controlling Current bootstrap | v0.5 failure localized; v0.6 boundary/bootstrap PASS; provider-return loop still open |
+| Evidence object | Originating runtime / evidence route | R21 record-production controller | Material frontier reached | Qualification |
+|---|---|---|---|---|
+| Wedding dessert | `material-work-entry v0.5-candidate` | `material-work-entry v0.6-candidate` | Taste-led concept selection and vendor-ready direction | PASS within concept-formation frontier |
+| Original electric-car decision | `material-work-entry v0.5-candidate` | `material-work-entry v0.6-candidate` | WAIT decision with triggers and review timing | PARTIAL: decision closure passed; assurance basis incomplete |
+| Current-evidence electric-car requalification | `material-work-entry v0.6-candidate` | same v0.6 run | Current-source decision assurance, WAIT closure and re-entry contract | PASS within stated evidence/range boundary; active monitoring unverified |
+| Personal information system | initial v0.5 failure, then `material-work-entry v0.6-candidate` response | `material-work-entry v0.6-candidate` | Cross-surface boundary discovery and controlling Current bootstrap | v0.5 failure localized; v0.6 boundary/bootstrap PASS; return/rebind unverified |
+| Live Project payload identity | Human UI payload readback + repository comparison; not a Skill-behavior run | R21 reconciliation under v0.6 controller | Persistent carrier identity | PASS by LF-normalized visible-content identity; no Runtime/Project promotion |
 
-The three cases are not a homogeneous v0.6 promotion wave. The first two are retained as v0.5 legacy evidence. Only the personal information-system case directly exercises the v0.6 additions.
+This is not a homogeneous v0.6 promotion wave. The wedding and original electric-car claims remain v0.5 evidence even though their repository records were compiled under the v0.6 controller. The later electric-car requalification and personal-information-system response directly exercise different v0.6 frontiers. The live-Project record is a deployment/carrier fact, not behavioral Skill evidence.
 
 ### Persistent primary case records
 
 - `E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md` — wedding concept Formation, Human taste contribution, vendor-handoff boundary.
-- `E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md` — WAIT decision, triggers, assurance limitation and monitoring gap.
-- `E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md` — v0.5 failure, v0.6 System-Boundary/Bootstrap evidence, Current identity and pending return/rebind.
+- `E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md` — originating v0.5 WAIT decision, triggers, assurance limitation and monitoring gap.
+- `E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.6.md` — v0.6 current-evidence requalification, WAIT closure and durable re-entry contract; active monitoring not performed.
+- `E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md` — v0.5 failure, v0.6 System-Boundary/Bootstrap evidence and Current identity; return/rebind unverified and moved to genuine-use monitoring.
+- `E2E-04-R21-2026-08-22-LIVE-PROJECT-IDENTITY-READBACK.md` — Human UI content readback, LF-normalized durable payload snapshot and live v0.5 Candidate identity versus repository-promoted v0.4 baseline.
 
 Each case record contains the Human-supplied ChatGPT share reference. Those share pages could not be independently fetched during reconciliation and are therefore identifiers, not independently read-back repository evidence. The personal Current was inspected from the attached file and is bound by name, size and SHA-256 without copying personal store descriptions into this repository.
 
@@ -102,6 +108,20 @@ Future monitoring/persistence             WEAK in v0.5 run
 
 The v0.5 run cannot be used to prove or disprove the later v0.6 persistence trigger. The useful lesson is narrower: “do nothing now” can be a completed professional decision when its assumptions, triggers and review point are explicit.
 
+### 3.2a Current-evidence electric-car requalification — v0.6
+
+A later v0.6 run preserved the existing WAIT decision, acquired current federal/ADAC evidence, separated assumptions from unresolved vehicle and taxable-income facts, and persisted a bounded re-entry contract.
+
+```text
+Current-evidence acquisition              PASS
+WAIT closure within stated ranges         PASS
+Persistent trigger/re-entry contract      PASS
+Active scheduled monitoring               NOT PERFORMED / NOT AUTHORIZED
+Universal v0.6 reliability                NOT CLAIMED
+```
+
+This later result strengthens the decision-assurance and persistence claim only for the v0.6 run. It does not retroactively upgrade the originating v0.5 case.
+
 ### 3.3 Personal information system — system boundary and bootstrap
 
 Initial v0.5 failure:
@@ -123,10 +143,24 @@ Qualified result:
 Reachable-slice ≠ whole-system correction PASS
 Minimal Parent-state bootstrap             PASS
 Cross-surface handoff contract             PASS at dispatch boundary
-Windows provider return                    PENDING
-Return → Parent rebind                      UNVERIFIED
+Windows provider return                    UNVERIFIED / MONITOR IN GENUINE USE
+Return → Parent rebind                      UNVERIFIED / MONITOR IN GENUINE USE
 Current update after return                UNVERIFIED
 Actual information-system migration        NOT STARTED
+```
+
+The bootstrap frontier is closed. Provider return/rebind is no longer an active repository-convergence prerequisite; it remains a genuine-use monitoring claim.
+
+### 3.4 Live Project payload identity — durable carrier evidence
+
+Direct Human UI content readback matched the branch-origin Project v0.5 Candidate after LF normalization. The dedicated record persists the complete normalized payload and SHA-256, so the claim does not depend on continued access to the historical source branch.
+
+```text
+Live Project payload identity              PASS — v0.5 Candidate
+Durable normalized payload snapshot        PASS
+Repository-promoted Project baseline       v0.4
+Runtime/Project promotion                   NONE
+General behavioral effectiveness           UNVERIFIED / NOT CLAIMED
 ```
 
 ## 4. Evaluator correction
@@ -216,10 +250,10 @@ Target Architecture                       KEEP CLOSED
 Global Custom Instructions                NO NEW REPAIR
 material-work-entry v0.6-candidate        KEEP CANDIDATE
 Skill source/structure                    PREVIOUSLY VALIDATED
-Repository reconciliation                 CONVERGENCE PACKAGE BOUND TO PR #16
+Repository reconciliation                 COMPLETE via PR #16 / POST-MERGE READBACK PASS
 Skill repair                              NOT AUTHORIZED / NOT JUSTIFIED
-Runtime or UI promotion                   NONE IN PACKAGE
-Repository transition                     CONTROLLED THROUGH PR #16 + READBACK
+Runtime or UI promotion                   NONE
+Repository transition                     COMPLETE; any later state change requires separate authority
 ```
 
 The evidence supports the two v0.6 additions as necessary and promising:
@@ -243,6 +277,6 @@ The remaining probes are not to be manufactured as repository-convergence precon
 
 ## 9. Disposition
 
-> **TRANSITION CONTROL — bind the R21 reconciliation package to PR #16 and let GitHub state plus readback control repository authority. KEEP architecture closed. Keep `material-work-entry v0.6-candidate` unpromoted. No Skill/Runtime repair or UI change is justified by the reconciled evidence.**
+> **CLOSE R21 REPOSITORY CONVERGENCE — PR #16 is merged and post-merge authority readback passes. KEEP architecture closed. Keep `material-work-entry v0.6-candidate` unpromoted. Monitor the remaining provider-return/rebind and bounded-negative-control claims only in genuine use. No Skill/Runtime repair or UI change is justified by the reconciled evidence.**
 
 [material-work-entry v0.6-candidate]

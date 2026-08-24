@@ -1,7 +1,7 @@
 # HAWS R21 — v0.6 Consequential Decision Qualification: EV Replacement Timing
 
 **Date:** 2026-08-22  
-**Status:** BEHAVIORAL QUALIFICATION RECORD / CANDIDATE — NO PURCHASE, ACTIVE MONITORING, REPAIR OR PROMOTION  
+**Status:** REPOSITORY-PERSISTED BEHAVIORAL QUALIFICATION EVIDENCE — NO PURCHASE, ACTIVE MONITORING, SKILL/RUNTIME REPAIR OR PROMOTION  
 **Parent:** Human–AI Work System Next, R21 remaining v0.6 qualification  
 **Decision object:** keep the existing Nissan Pulsar or replace it with an electric car in 2026  
 **Existing decision:** WAIT — keep the Pulsar; reconsider on a material trigger or in early 2027
@@ -152,7 +152,7 @@ Decision assurance                  PASS within stated ranges and current source
 Persistent decision record          COMPLETE
 Trigger/monitoring design            COMPLETE
 Active monitoring                    NOT AUTHORIZED / UNVERIFIED
-Repository evidence write            COMPLETE ON R21 DRAFT BRANCH
+Repository evidence persistence      COMPLETE IN THIS RECORD; authority follows containing ref and `main/CURRENT.md`
 Skill repair or Promotion             NOT JUSTIFIED
 ```
 
