@@ -65,11 +65,11 @@ A validator `PASS` establishes only that the supplied packet satisfies the encod
 - professional domain quality;
 - parent completion, acceptance, promotion, deployment, use, or outcome.
 
-Until native behavioral validation succeeds, tool isolation and automatic activation remain **UNVERIFIED**. Real effectful work remains blocked.
+The recorded pilots qualify only the exact observed control traces and repaired static source properties. Repeated implicit activation, mechanical tool isolation, and broader runtime reliability remain **UNVERIFIED**. Real effectful work remains blocked.
 
 ## Native pilot evidence
 
-The 2026-08-24 effect-disabled pilot used two real native subagent threads sequentially:
+The first 2026-08-24 effect-disabled pilot used two real native subagent threads sequentially:
 
 ```text
 controller admission
@@ -79,4 +79,6 @@ controller admission
 → reviewer FAIL and child-claim demotion
 ```
 
-This establishes one observed control trace. It does not establish repeated implicit activation, universal surface availability, mechanical per-child tool isolation, domain fitness, or production readiness. See `evaluation/e2e-real-use/E2E-04-2026-08-24-NATIVE-SUBAGENT-RUNTIME-PILOT.md`.
+The v0.8 repair forward smoke then ran another bounded executor/rebind/reviewer chain. It found remaining source gaps, kept the claim partial, and a fresh post-repair reviewer qualified only closure of those exact static coherence defects.
+
+Together these establish two observed effect-disabled control traces plus a bounded source-coherence repair. They do not establish repeated implicit activation, universal surface availability, mechanical per-child tool isolation, domain fitness, or production readiness. See `evaluation/e2e-real-use/E2E-04-2026-08-24-NATIVE-SUBAGENT-RUNTIME-PILOT.md`.
