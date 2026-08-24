@@ -1,12 +1,12 @@
 # ADR-0003 — Normalized vNext Requirements Baseline v0.2
 
-**Status:** PROPOSED — accepted only if the containing pull request is explicitly authorized, merged and read back on `main`  
+**Status:** ACCEPTED / ACTIVE — PR #18 authorized, merged at `b355ed63ad94d6456a6913cac079458238067921` and read back on `main`  
 **Date:** 2026-08-24  
 **Decision owner:** Human repository owner
 
 ## Context
 
-`foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` is the current controlling solution-neutral Requirements baseline adopted through ADR-0002.
+`foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` was the prior controlling solution-neutral Requirements baseline adopted through ADR-0002 and is now retained as historical Qualified Prior evidence.
 
 Subsequent real-use and Runtime evidence established a legitimate Requirements-reopen trigger without establishing a Target-Architecture gap:
 
@@ -29,11 +29,11 @@ A first R01–R30 formation candidate recovered the broader semantic space but m
 central non-equivalences
 ```
 
-The Human accepted that normalized Candidate as the Requirements Design Basis on 2026-08-24. The acceptance did not authorize repository write, Promotion, architecture change or Runtime Solution Formation.
+The Human accepted that normalized Candidate as the Requirements Design Basis on 2026-08-24. The acceptance did not itself authorize repository write, Promotion, architecture change or Runtime Solution Formation.
 
 ## Decision
 
-If this ADR and its containing package are explicitly authorized, merged and read back on `main`:
+PR #18 and its containing package were explicitly authorized, merged at `b355ed63ad94d6456a6913cac079458238067921` and read back on `main`. Therefore:
 
 1. adopt `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md` as the controlling solution-neutral Requirements baseline;
 2. classify `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md` as:
@@ -45,7 +45,7 @@ If this ADR and its containing package are explicitly authorized, merged and rea
 4. retain ADR-0002 as historical accepted decision:
    - its adoption of Requirements v0.1 is superseded by this ADR;
    - its adoption of Target Architecture v0.2 and its architecture reopen discipline remain in force;
-5. open Runtime Solution Formation only as the next eligible Work frontier after repository Promotion/readback;
+5. open Runtime Solution Formation as the next eligible Work frontier after this repository Promotion/readback reconciliation;
 6. accept no Runtime, Skill, Project, UI, Agent topology, provider allocation, implementation or external action.
 
 ## Supersession and retirement semantics
@@ -54,7 +54,7 @@ If this ADR and its containing package are explicitly authorized, merged and rea
 Requirements v0.1
   repository file                 RETAIN
   historical decision/evidence    RETAIN
-  controlling Requirements role   SUPERSEDE
+  controlling Requirements role   SUPERSEDED
 
 ADR-0002
   historical decision             RETAIN
@@ -64,7 +64,7 @@ ADR-0002
 
 Target Architecture v0.2
   controlling architecture        RETAIN
-  compatibility with v0.2 Req.    REQUALIFY / PASS if exact-branch review passes
+  compatibility with v0.2 Req.    REQUALIFIED / PASS
   architecture reopen             NO
 
 R01–R30 formation candidate
@@ -96,7 +96,7 @@ Acceptance does not mean:
 
 ## Consequences
 
-After an authorized merge and readback:
+Following the authorized merge and readback:
 
 1. Requirements v0.2 controls subsequent Architecture/Realization evaluation;
 2. Requirements v0.1 remains available for lineage and regression analysis;
@@ -107,7 +107,7 @@ After an authorized merge and readback:
 
 ## Pre-merge verification
 
-Before a merge decision:
+Before the merge decision, the package was checked to:
 
 - verify 5 IR / 14 CR / 7 CCR with unique IDs;
 - verify complete v0.1 treatment map;
@@ -125,14 +125,13 @@ Before a merge decision:
 
 ## Post-merge readback
 
-After merge:
+Completed after PR #18 merge:
 
-- read the exact `main` versions of all changed files;
-- record the merge SHA;
-- verify links, IDs and stale authority references;
-- confirm v0.2 is named controlling and v0.1 superseded only in its controlling role;
-- confirm Target Architecture v0.2 remains accepted/closed;
-- reconcile `CURRENT.md` to `PROMOTION COMPLETE`;
-- only then treat Runtime Solution Formation as the active next frontier.
+- merge SHA recorded as `b355ed63ad94d6456a6913cac079458238067921`;
+- exact `main` Requirements v0.2 readback PASS;
+- v0.2 is controlling and v0.1 is superseded only in its controlling role;
+- Target Architecture v0.2 remains accepted/closed;
+- this bounded authority reconciliation updates stale Candidate wording only;
+- Runtime Solution Formation becomes eligible after the corresponding `CURRENT.md` reconciliation is read back.
 
 ---
