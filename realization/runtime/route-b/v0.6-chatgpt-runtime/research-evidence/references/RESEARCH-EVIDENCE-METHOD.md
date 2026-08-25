@@ -1,146 +1,143 @@
-# Research & Evidence Method v0.1
+# Evidence Discipline and Research-Method Routing v0.2
+
+**Status:** cross-domain evidence discipline; not a universal professional research methodology.
 
 ## Purpose
 
-Produce an evidence basis sufficient for a bounded professional claim, decision, design or diagnosis without drowning the working context in irrelevant material.
+Produce an evidence basis sufficient for a bounded claim, decision, diagnosis or design while preserving provenance, freshness, conflicts, uncertainty and context economy.
 
-Research is justified only when missing evidence can materially change the supported frontier. It is not a mandatory preliminary phase.
+Use this method only when missing or uncertain evidence can materially change the supported frontier.
 
-## 1. Bind the research mission
+## 1. Bind the evidence need
 
-Establish only what is needed:
-- parent claim/decision/intended use;
-- exact research question(s);
-- current known state and uncertainty;
-- evidence type, freshness and coverage required;
+Establish:
+
+- the parent claim/decision/intended use;
+- the exact evidence question;
+- what evidence could materially change the conclusion, confidence, route or action;
+- required freshness/scope/coverage;
 - consequence of being wrong;
 - stop condition.
 
-Distinguish questions of fact, mechanism, magnitude, causality, forecast, preference/judgment and current provider/product state because they require different evidence.
+Distinguish factual/current-state, mechanism, magnitude, causal, forecast, preference/judgment and professional-method questions. They may require different research methods.
 
-## 2. Build an evidence strategy
+## 2. Decide whether a specialized research method is required
 
-Choose the smallest source set capable of answering the claim. Prefer, as applicable:
+This discipline does not itself supply every professional research method.
 
-1. direct authoritative state/readback for current system or account facts;
+Examples requiring specialized method selection may include:
+
+- systematic/scoping literature review;
+- causal inference or experimental analysis;
+- market sizing / market research;
+- legal research;
+- investment diligence;
+- UX/user research;
+- technical benchmarking;
+- scientific evidence appraisal.
+
+When the method affects validity, identify and use an adequate qualified method from an installed Skill/Method Pack, authoritative standard/reference, qualified project/repository source, transparent task-local method with limitations, or qualified specialist.
+
+If no adequate method can be established, weaken the claim or WAIT/HANDOFF/STOP as appropriate.
+
+## 3. Cross-domain source discipline
+
+Choose the smallest source set capable of supporting the claim. Prefer, as applicable:
+
+1. direct authoritative state/readback for current system facts;
 2. primary sources, official documentation, standards, filings, datasets or original research;
-3. high-quality independent synthesis or replication;
+3. high-quality independent synthesis/replication;
 4. qualified expert/practitioner evidence for tacit or operational knowledge;
-5. community/experience evidence where user experience, edge cases or sentiment matter;
-6. secondary summaries only when primary evidence is unavailable or unnecessary.
+5. community/experience evidence where lived use, edge cases or sentiment are themselves relevant;
+6. secondary summaries when primary evidence is unavailable or unnecessary.
 
-Use mechanism-distinct or independent sources when a single source class can share the same blind spot. Do not equate source count with diversity.
+The ordering is not universal authority ranking. Method fit and the claim determine what counts as strong evidence.
 
-For fast-changing claims, explicitly search for recent authoritative evidence and compare publication date with event/effective date. For historical or stable claims, prioritize authority and methodological fit over recency.
+## 4. Search progressively
 
-## 3. Search and retrieve progressively
-
-Start with high-signal queries tied to the question, then branch only when evidence reveals a material gap, contradiction or alternative hypothesis.
+Start with high-signal retrieval tied to the evidence question. Expand only when a material gap, contradiction, alternative hypothesis or method requirement appears.
 
 Use progressive disclosure:
-- inspect titles/snippets/metadata first;
-- open only promising sources;
-- retrieve the minimum relevant section;
-- expand when context is necessary to avoid misinterpretation.
 
-Do not load an entire corpus merely because it exists.
+- inspect metadata/snippets first where useful;
+- open promising sources;
+- retrieve only the relevant sections;
+- expand context when necessary to avoid misinterpretation.
 
-Actively seek:
-- counterevidence;
-- rival mechanisms;
-- boundary conditions;
-- known failures/limitations;
-- evidence that would falsify the current leading hypothesis.
+Actively seek material counterevidence, rival mechanisms, boundary conditions and known limitations when correlated blind spots are plausible.
 
-## 4. Qualify each material source
+## 5. Qualify material evidence
 
-For claims that matter, evaluate enough of:
-- authority / authorship;
-- provenance / original vs derived;
-- publication and effective date;
+For evidence that materially supports the claim, assess enough of:
+
+- authority/authorship;
+- provenance and original vs derived status;
+- publication/effective date;
 - scope/population/context;
-- methodology and measurement validity;
+- methodology/measurement validity where relevant;
 - incentives/conflicts of interest;
 - independence from other cited evidence;
 - applicability/transfer distance;
-- uncertainty and known limitations.
+- uncertainty and limitations.
 
-Provider documentation is authoritative for provider behavior but not automatically for independent performance claims. Company claims are primary evidence of what the company states, not independent proof of impact.
+Provider documentation is authoritative for what the provider documents, not automatically independent evidence of performance or benefit.
 
-## 5. Reconstruct current reality
+## 6. Reconstruct and synthesize reality
 
-When evidence conflicts, do not average it away. Determine whether the conflict is caused by:
-- different dates/versions;
-- different scopes/definitions;
-- different methods/populations;
-- stale vs current state;
-- measurement error;
-- genuine disagreement or uncertainty.
+When sources conflict, test whether the conflict comes from different dates/versions, scopes/definitions, methods/populations, stale/current state, measurement error, or genuine disagreement.
 
-Prefer direct current readback for current-state claims when available. Historical authoritative records remain historical unless evidence shows they are still current.
+Prefer direct current readback for current-state claims when available.
 
-## 6. Synthesize by claim, not by source
+Synthesize by claim, not source. Preserve distinctions among:
 
-Organize the result around the question/decision rather than summarizing sources one by one.
+- established fact/observation;
+- supported inference;
+- assumption/hypothesis;
+- judgment;
+- forecast/scenario;
+- unresolved conflict/unknown.
 
-Separate:
-- established facts/observations;
-- supported inferences;
-- assumptions/hypotheses;
-- judgments;
-- forecasts/scenarios;
-- unresolved conflicts/unknowns.
+Preserve the strongest counterevidence and material boundary conditions.
 
-Explain the mechanism connecting evidence to the conclusion where material. Preserve the strongest counterevidence and boundary conditions.
+## 7. Stop rule
 
-## 7. Calibrate confidence and decision relevance
+Stop when:
 
-Confidence depends on evidence quality, consistency, coverage, method fit and uncertainty—not writing fluency or source volume.
-
-State what the evidence supports, what it does not support, and whether additional information has meaningful decision value.
-
-If uncertainty remains but the decision is reversible/robust, prefer bounded action or scenario treatment over endless research. If a non-compensatory evidence floor is unmet, weaken the claim or WAIT/HANDOFF/STOP.
-
-## 8. Stop rule
-
-Stop when one of these applies:
 - the evidence basis is sufficient for the intended claim/decision;
-- new sources are no longer changing the conclusion or material uncertainty;
-- remaining uncertainty is better handled by robustness/scenarios/reversibility;
-- the evidence cannot be obtained with available capability/access;
-- information value is below research/delay cost.
+- additional evidence no longer changes material uncertainty;
+- remaining uncertainty is better handled by robustness, scenarios or reversibility;
+- the evidence cannot be obtained with available capability/access; or
+- expected information value is below research/delay cost.
 
-Do not continue research to create the appearance of thoroughness.
+Do not research for the appearance of thoroughness.
 
-## 9. Return contract
+## Return
 
-Return a compact evidence basis containing only material items:
+Return only what the parent work needs:
 
 ```yaml
-research_question: required
+question: required
 supported_findings: required
 key_evidence_and_provenance: required
 material_counterevidence_or_conflicts: optional
 uncertainty_and_limits: optional
 implication_for_parent_claim_or_decision: required
 remaining_high_value_evidence: optional
+specialized_method_used_or_needed: optional
 ```
 
-The return is evidence, not decision/authority.
+The return is evidence, not decision or authority.
 
-## Failure modes to detect
+## Failure modes
 
-- source selection driven by confirmation bias;
+- confirmation-driven source selection;
 - stale/current-state confusion;
-- secondary-source cascade with no primary grounding;
-- false diversity from many sources repeating one origin;
-- provider marketing treated as independent validation;
-- correlation or association promoted to causality;
+- secondary-source cascade without adequate grounding;
+- false diversity from many sources sharing one origin;
+- provider/company claims treated as independent validation;
+- correlation promoted to causality;
 - evidence-slice scope collapse;
 - contradictory evidence silently omitted;
-- excessive context/research that reduces reasoning quality;
-- research completion mistaken for decision readiness.
-
-## Method provenance
-
-Derived from Requirements v0.2 CR-03/04/05/10/11/13 and the Route-B Core Work Functions/Method Contract, informed by current OpenAI guidance favoring lean prompts and representative validation and current context-engineering practice emphasizing progressive disclosure and finite context. This method is a Candidate professional method until validated on representative research work.
+- excessive retrieval that degrades working context;
+- a generic evidence checklist substituted for a specialized professional research method;
+- research completion mistaken for decision/readiness.
