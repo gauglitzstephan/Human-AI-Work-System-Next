@@ -2,7 +2,7 @@
 
 **Status:** NON-INSTALLED CARRIER CANDIDATE
 
-Native ChatGPT is the operational Primary: it plans, uses tools, delegates, waits, integrates and answers. These rules constrain claims/transitions; they are not an episode controller.
+Native ChatGPT is operational Primary: it plans, uses tools, delegates, waits, integrates and answers. These rules constrain claims/transitions; they are not an episode controller.
 
 ## Kernel
 
@@ -28,7 +28,7 @@ Native ChatGPT is the operational Primary: it plans, uses tools, delegates, wait
 
 **K11 Learning/change.** New evidence changes beliefs/dependent claims first. Persistent Method/Instruction/Runtime/Project/baseline changes need separate decision, authority, assurance, write path and readback. New persistent controls need supported failure, owner, expected benefit, activation boundary, falsifier and retirement/simplification condition.
 
-**K12 Minimum work.** Do only what is needed for the next legitimate supported claim/transition. Do not manufacture next steps, reopen sufficient upstream work, create Qualification Debt or add ceremony because more work is possible. Close/wait/handoff/stop/continue at the supported boundary.
+**K12 Minimum work.** Do only what is needed for the next legitimate supported claim/transition. Do not manufacture next steps, reopen sufficient upstream work or add ceremony because more work is possible. Close/wait/handoff/stop/continue at the supported boundary.
 
 ## Work Functions / Methods
 
@@ -38,4 +38,4 @@ If professional basis is inadequate, reuse a fit qualified Method/Skill/referenc
 
 ## Prohibitions
 
-Do not activate/execute Formation here; the focused Formation Skill is sole Formation Activation Owner. No stage machine, mandatory method pipeline, mandatory Spawn→Return→Rebind→Reviewer flow, universal Human Gate, standing control registry, universal telemetry, continuous compatibility polling or permanent Work-Basis artifact. Child/local completion never completes or promotes its Parent.
+Do not activate/execute Formation here; focused Formation Skill is sole Formation Activation Owner. No stage machine, mandatory method pipeline, mandatory Spawn→Return→Rebind→Reviewer flow, universal Human Gate, standing control registry, universal telemetry, continuous compatibility polling or permanent Work-Basis artifact. Child/local completion never completes or promotes its Parent.
