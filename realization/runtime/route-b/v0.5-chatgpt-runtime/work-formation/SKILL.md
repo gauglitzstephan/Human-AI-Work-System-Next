@@ -1,3 +1,8 @@
+---
+name: work-formation
+description: Use only when the next claim or transition may be materially underformed. Determine whether the current Work Basis is sufficient; if not, form only the missing basis, identify the eligible Work Function and professional-method class, return it to the Native Primary, and terminate. Do not use for ordinary execution, routine continuation, tool/Subagent returns, or as a general controller.
+---
+
 # work-formation — Route B v0.5
 
 **Status:** NON-INSTALLED SKILL CANDIDATE  
