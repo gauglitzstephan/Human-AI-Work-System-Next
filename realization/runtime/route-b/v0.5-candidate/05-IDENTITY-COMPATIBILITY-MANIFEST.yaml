@@ -1,0 +1,205 @@
+manifest_schema: route-b-identity-compatibility-manifest/v0.5
+
+package:
+  candidate_id: route-b-runtime-candidate-v0.5
+  package_version: 0.5.0
+  predecessor_candidate: route-b-runtime-candidate-v0.4
+  predecessor_commit: eda334b5cfc5fa847b5b8e5b08c02f5ea8395c82
+  status: NON_INSTALLED_SOURCE_CANDIDATE
+  created_on: 2026-08-25
+  controlling_parent: External-Failure-Mode Closure Repair
+  controlling_baselines:
+    requirements: Requirements v0.2
+    target_architecture: Target Architecture v0.2
+    target_architecture_status: CLOSED
+  repair_scope:
+    - FD-01 positive failure-detection diversity for independent-assurance claims
+    - CD-01 source de-duplication and control-complexity reduction without semantic loss
+  repair_map: evidence/route-b/v0.4-to-v0.5-ASSURANCE-DIVERSITY-AND-SOURCE-COMPACTION-MAP.md
+  source_formation_readiness: PENDING_FAILURE_MODE_CLOSURE_REVIEW
+  promotion: NONE
+  repository_authority_changed: false
+
+authority_order:
+  - Requirements v0.2 and closed Target Architecture v0.2
+  - 01-CANDIDATE-CONTRACT.md
+  - 02-CANONICAL-KERNEL.md, 03-FORMATION-METHOD.md and 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+  - 04-CHATGPT-ADAPTER-COMPILATION.md
+  - project-local overlays and context
+
+artifacts:
+  - path: 01-CANDIDATE-CONTRACT.md
+    kind: candidate_contract
+    sha256: bb9e2c4be6ddea34d43bb41d0ed14275a5c0677c8f1a60b174e3e201cceef026
+  - path: 02-CANONICAL-KERNEL.md
+    kind: canonical_kernel_source
+    sha256: 75c869a6c1194bb3f20217df7ccfe3132c2f5ae3bd1c4634799ac805075633aa
+  - path: 03-FORMATION-METHOD.md
+    kind: terminating_formation_method_source
+    sha256: 824f725c058dd9b4dcce650f10af8084655e0433d86a05760b4d4740c44a0474
+  - path: 04-CHATGPT-ADAPTER-COMPILATION.md
+    kind: chatgpt_adapter_compilation_definition
+    sha256: 713fe919c7b0d3a7c3a80251957af84741e77e225cd0c2d15ae7fd9e04d4275e
+  - path: 05-IDENTITY-COMPATIBILITY-MANIFEST.yaml
+    kind: identity_compatibility_manifest
+    sha256: NOT_EMBEDDED_SELF_REFERENTIAL
+  - path: 06-CONDITIONAL-STATE-CARD-SCHEMA.yaml
+    kind: conditional_state_card_schema
+    sha256: d1f0fbd0790c282de88762875ffd555e0f7b024968798513b572d9b3e18f90a3
+  - path: 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+    kind: provider_neutral_core_method_layer
+    sha256: f4fa1728f357a3c0805511779182b6ba77dd84ac8111926632e67ee8efa044c3
+
+source_topology:
+  candidate_contract: 01-CANDIDATE-CONTRACT.md
+  canonical_kernel:
+    count: 1
+    source: 02-CANONICAL-KERNEL.md
+  formation_activation:
+    owner_count: 1
+    owner: focused Formation Skill compiled from 03-FORMATION-METHOD.md
+  operational_owner:
+    count: 1
+    owner: Native Primary
+  core_method_layer:
+    source: 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+    work_functions_are_stages: false
+    mandatory_method_pipeline: false
+    operational_composition_owner: Native Primary
+  assurance_independence:
+    canonical_source: 01-CANDIDATE-CONTRACT.md#direct-delegated-and-assurance-composition
+    activation: ONLY_WHEN_INDEPENDENT_ASSURANCE_IS_CLAIMED
+    thread_or_agent_identity_is_sufficient: false
+    failure_relevant_diversity_basis_required: true
+    reviewer_or_second_agent_mandatory: false
+  persistence: CONDITIONAL
+
+preserved_external_safeguards:
+  SR-01: 03_FORMATION_NAMED_ACTIVATION_AND_NO_SELF_REACTIVATION
+  SR-02: 01_AND_04_ONE_EFFECTIVE_INSTRUCTION_OWNER
+  SR-03: 01_AND_04_MINIMUM_CONTEXT_TOOLS_ACTUAL_PERMISSION_AND_AUTHORITY
+  SR-04: 01_AND_02_SEMANTIC_STALE_WORLD_RECONCILIATION
+  SR-05: 01_04_07_JIT_SCOPED_METHOD_NO_CONTROL_OR_AUTHORITY
+  SR-06: 01_AND_02_HUMAN_OPERATING_LEARNING_CAPABILITY_ALLOCATION
+  SR-07: 01_AND_04_EXECUTION_FACTS_AND_OPERATING_COMPATIBILITY_LIFECYCLE
+  SR-08: 01_AND_02_POST_DELIVERY_OWNER_NO_FORMATION_MONITOR_OR_UNIVERSAL_TELEMETRY
+  SR-09: 01_AND_02_EVIDENCE_BENEFIT_ACTIVATION_NON_UNIVERSALIZATION_AND_RETIREMENT
+  SR-10: 01_POSITIVE_FAILURE_DETECTION_DIVERSITY
+
+anti_universalization:
+  episode_controller: false
+  instruction_precedence_engine: false
+  method_registry_gateway: false
+  mandatory_multi_agent_choreography: false
+  mandatory_reviewer: false
+  universal_return_or_rebind_package: false
+  per_episode_human_capability_score: false
+  universal_outcome_telemetry: false
+  standing_control_registry: false
+  continuous_provider_polling: false
+
+chatgpt_adapter:
+  source_compatibility: CANDIDATE
+  provider_scope: [ChatGPT Chat, ChatGPT Work]
+  codex_adapter: OUT_OF_INITIAL_CLAIM
+  one_effective_kernel_per_path: REQUIRED
+  formation_skill:
+    sole_activation_owner: true
+    core_method_reference: 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+    executes_professional_method: false
+    cross_surface_sync_assumed: false
+  native_mechanisms_rebuilt: false
+  platform_compatibility:
+    current_fact_owner: Execution
+    persistent_lifecycle_owner: Operating
+    recheck: BEFORE_DEPENDENT_COMPILE_INSTALL_READBACK_OR_NAMED_INVALIDATING_DELTA
+    continuous_polling: false
+  surface_identity:
+    cross_surface_inference: PROHIBITED
+    required_fields:
+      - account_or_workspace
+      - app_surface_and_build
+      - agent_surface
+      - project_or_non_project_identity
+      - effective_kernel_payload_identity
+      - formation_skill_id_version_hash
+      - permission_mode_and_tool_authority
+      - compatibility_evidence_owner_timestamp_recheck_retirement
+      - installation_readback_evidence
+      - runtime_claim
+    records: []
+
+current_runtime:
+  runtime: material-work-entry v0.8-candidate
+  status: INSTALLED_PER_CONTROLLING_RUNTIME_EVIDENCE
+  exact_identity_source: external_runtime_readback_evidence_not_embedded
+  preserve_unchanged: true
+  disable_authorized: false
+  migration_authorized: false
+  cutover_authorized: false
+
+route_b_claims:
+  source: SOURCE_CANDIDATE
+  carrier_fidelity: UNVERIFIED
+  installation: NONE
+  runtime_behavior: UNVERIFIED
+  intended_use: UNVERIFIED
+  promotion: NONE
+
+source_build_assurance:
+  scope: STATIC_SOURCE_ONLY
+  performed_on: 2026-08-25
+  result: PENDING__SEPARATE_FAILURE_MODE_CLOSURE_REVIEW
+  evidence_reference: reviews/route-b/ROUTE-B-v0.5-FAILURE-MODE-CLOSURE-REVIEW.md
+  required_checks:
+    - exact seven-artifact set, YAML parse and non-self hashes
+    - K-01 through K-12 and all Formation dispositions
+    - all ten external failure modes remain distinct
+    - all nine pre-installation safeguards plus positive assurance diversity
+    - v0.4 safeguards and four v0.3 closures preserved
+    - semantic core and whole package are smaller than v0.4
+    - semantic core remains below twenty-percent growth versus v0.3
+    - no Carrier, installation, Runtime, intended-use or Promotion claim
+  does_not_establish:
+    - carrier fidelity
+    - installability
+    - surface availability
+    - Runtime behavior
+    - intended-use fitness
+    - Promotion
+
+forbidden_in_this_package:
+  - Carrier or Skill build
+  - Global or Project Instructions mutation
+  - installation, Runtime test, cutover or state migration
+  - v0.8 change
+  - main mutation, merge or Promotion
+
+pre_installation_requirements:
+  PID-01: FREEZE_AND_RECONCILE_SOURCE_AND_LATER_COMPILED_IDENTITIES
+  PID-02: COMPILE_KERNEL_AND_CORE_HOOK_WITHOUT_DRIFT__NOT_EXECUTED
+  PID-03: COMPILE_FORMATION_WITHOUT_CONTROLLER_OR_METHOD_EXECUTION__NOT_EXECUTED
+  PID-04: SELECT_EXACT_ACCOUNT_SURFACES_PATHS_AND_PROJECTS__UNDECIDED
+  PID-05: ESTABLISH_SURFACE_SKILL_INSTALL_AND_READBACK__UNVERIFIED
+  PID-06: INSPECT_PROJECT_OVERLAYS_FOR_KERNEL_CONFLICT__NOT_EXECUTED
+  PID-07: READ_BACK_AND_PRESERVE_CURRENT_V08_ROLLBACK_SOURCE__DEFERRED
+  PID-08: FORM_BOUNDED_MIXED_RUNTIME_SAFE_CUTOVER__NOT_AUTHORIZED
+  PID-09: OBTAIN_INSTALLATION_AND_CUTOVER_AUTHORIZATION__NOT_AUTHORIZED
+  PID-10: RECONCILE_EFFECTIVE_INSTRUCTION_STACK_PER_PATH__NOT_EXECUTED
+  PID-11: ESTABLISH_ACTUAL_PERMISSIONS_TOOLS_AND_LEAST_PRIVILEGE_FALLBACK__UNVERIFIED
+  PID-12: DATE_AND_ASSIGN_PLATFORM_COMPATIBILITY_EVIDENCE__NOT_EXECUTED
+  PID-13: ASSIGN_REPRESENTATIVE_POST_DELIVERY_EVIDENCE__DEFERRED_TO_RUNTIME_AND_OPERATING
+
+post_implementation_evidence:
+  scope: REPRESENTATIVE_CUSTOM_DELTA_ONLY
+  process_compliance_is_success: false
+  universal_telemetry: false
+  targets:
+    - time_to_useful_outcome
+    - intended_use_quality
+    - Human correction and rework
+    - actual use or decision effect
+    - Human capability effect where material
+    - Whole-System Economics where material
+  owner: RECIPIENT_OPERATING_OR_LEARNING_AS_ALLOCATED_IN_01
+  promotion_requires_separate_decision: true
