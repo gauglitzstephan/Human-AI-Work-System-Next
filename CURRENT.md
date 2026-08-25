@@ -1,5 +1,6 @@
 # CURRENT — Human–AI Work System Next
 
+**Status:** PR #24 package is Candidate when read from its branch; after the exact PR #24 merge and `main` readback, its Professional-Work repair is a repository-promoted implementation Candidate. Requirements v0.2 remains controlling; Requirements v0.3 and Runtime behavior remain unpromoted.  
 **Date:** 2026-08-25  
 **Authority:** `main/CURRENT.md` controls when read from `main`; branch copies remain Candidate until merged and read back.
 
@@ -20,7 +21,7 @@ Route B v0.5 semantic Source basis        ACCEPTED / KEEP AS DESIGN EVIDENCE
 PR #20/#21 runtime                        HISTORICAL FAILED IMPLEMENTATION / DO NOT INSTALL
 PR #22 realization rebaseline             MERGED
 PR #23 v0.6 runtime package               MERGED TO main
-PR #24 Professional-Work repair           CANDIDATE UNTIL MERGE/READBACK
+PR #24 Professional-Work repair           BRANCH CANDIDATE; REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE ONLY AFTER EXACT MERGE + main READBACK
 
 Global v0.6 Custom Instructions           HUMAN-REPORTED UPDATED IN CHATGPT / KEEP
 System Development Project Instructions   HUMAN-REPORTED UPDATED IN CHATGPT / KEEP
@@ -50,11 +51,11 @@ The v0.3 Candidate simplifies the controlling v0.2 packaging from 5 Interpretati
 
 ## Professional Work Baseline
 
-The active runtime-quality basis for the PR #24 Candidate is:
+The quality basis for the PR #24 package is:
 
 `realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md`
 
-Its governing criterion is professionally usable work, not process compliance or component activation.
+It is Candidate state on the PR branch and becomes repository-promoted implementation-Candidate state only after the exact PR #24 merge and `main` readback. Its governing criterion is professionally usable work, not process compliance or component activation.
 
 Core operating principles:
 
@@ -148,4 +149,4 @@ Runtime behavior                NOT PROMOTED
 
 ## Current disposition
 
-**PROMOTION GATE — PR #24 IS A COHERENT CANDIDATE PACKAGE AFTER THE v0.3 RECONCILIATION. MERGE OF PR #24 ALONE DOES NOT PROMOTE REQUIREMENTS v0.3 OR RUNTIME BEHAVIOR.**
+**If this file is read from the PR branch: PR #24 is the current merge-decision object. If it is read from `main` after the exact PR #24 merge/readback: continue genuine work with the repository-promoted Professional-Work implementation Candidate; Requirements v0.2 remains controlling, Requirements v0.3 remains unpromoted, and Runtime behavior remains unpromoted.**
