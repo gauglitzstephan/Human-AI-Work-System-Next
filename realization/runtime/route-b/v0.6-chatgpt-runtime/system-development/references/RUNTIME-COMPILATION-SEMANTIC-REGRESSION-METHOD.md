@@ -25,7 +25,7 @@ Prove that a target-specific Runtime view preserves all material semantics throu
    - Decision→Commitment→Work Basis→Authorization→Handoff→Return;
    - candidate→assurance/authority→Promotion/write→readback;
    - Human Gate→WAIT→re-entry.
-7. Regression-test all controlling requirements and historical protected functions relevant to the claim.
+7. Regression-test all CR-01–13, CCR-01–07, historical protected functions and exact-live predecessor controls relevant to the claim.
 8. Check envelope/count/hash for exact installable text.
 9. Read back the actual deployed carrier before claiming installation/conformance.
 

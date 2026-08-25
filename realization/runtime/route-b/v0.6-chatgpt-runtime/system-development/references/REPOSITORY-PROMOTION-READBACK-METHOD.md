@@ -1,11 +1,12 @@
 # Repository Promotion / Readback Method v0.1
 
 **Status:** CANDIDATE METHOD PACK  
-**Use when:** a candidate repository change may alter accepted/controlling program state, runtime guidance, architecture, policy, decision or validation evidence.
+**Use when:** a candidate repository change may alter accepted/controlling program state, runtime guidance, architecture, policy, decision or validation evidence.  
+**Revision note:** post-promotion repository-hygiene coverage added in the post-PR13 repair candidate; this remains the same v0.1 candidate method line until separately promoted.
 
 ## Method objective
 
-Keep technical write capability distinct from legitimate semantic promotion and preserve parent/program continuity across all material repository entry points.
+Keep technical write capability distinct from legitimate semantic promotion and preserve parent/program continuity **across all material repository entry points**, not only the controlling state file.
 
 ## Procedure
 
@@ -50,7 +51,16 @@ The hygiene scan is assurance for the promoted claim. It does **not** authorize 
 
 ## Minimum post-promotion claim
 
-A successful repository Promotion may claim only what the readback supports. Where current-state guidance is distributed across multiple entry points, Promotion is not fully reconciled until controlling state, root navigation, current action-bearing package pointers and supersession safety are mutually coherent for the promoted scope.
+A successful repository Promotion may claim only what the readback supports. Where current-state guidance is distributed across multiple entry points, Promotion is not fully reconciled until:
+
+```text
+controlling state
++ root navigation
++ current action-bearing package pointers
++ supersession safety
+```
+
+are mutually coherent for the promoted scope.
 
 ## Failure modes
 
