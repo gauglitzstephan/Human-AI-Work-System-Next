@@ -16,7 +16,7 @@ package:
     - FD-01 positive failure-detection diversity for independent-assurance claims
     - CD-01 source de-duplication and control-complexity reduction without semantic loss
   repair_map: evidence/route-b/v0.4-to-v0.5-ASSURANCE-DIVERSITY-AND-SOURCE-COMPACTION-MAP.md
-  source_formation_readiness: PENDING_FAILURE_MODE_CLOSURE_REVIEW
+  source_formation_readiness: PASS_WITHIN_EXTERNAL_FAILURE_MODE_SOURCE_SCOPE
   promotion: NONE
   repository_authority_changed: false
 
@@ -149,7 +149,7 @@ route_b_claims:
 source_build_assurance:
   scope: STATIC_SOURCE_ONLY
   performed_on: 2026-08-25
-  result: PENDING__SEPARATE_FAILURE_MODE_CLOSURE_REVIEW
+  result: PASS__SEPARATE_STATIC_FAILURE_MODE_CLOSURE
   evidence_reference: reviews/route-b/ROUTE-B-v0.5-FAILURE-MODE-CLOSURE-REVIEW.md
   required_checks:
     - exact seven-artifact set, YAML parse and non-self hashes
