@@ -1,0 +1,37 @@
+version: route-b-v0.5
+purpose: optional_structured_return
+mandatory: false
+fields:
+  activation_delta:
+    required: false
+    note: required only for re-entry after prior sufficiency
+  parent_outcome:
+    required: false
+  next_claim_or_transition:
+    required: true
+  system_scope:
+    required: false
+  current_reality_and_evidence:
+    required: false
+  performance_floor_and_method_need:
+    required: false
+  work_function_intended_use_domain_evidence_need:
+    required: false
+  eligible_professional_method_class:
+    required: false
+  probe_candidate_qualification_basis:
+    required: false
+  competing_initiatives_and_strategic_resources:
+    required: false
+  human_capability_and_future_autonomy:
+    required: false
+  constraints_risk_authority:
+    required: false
+  continuity_assurance_transition:
+    required: false
+  disposition:
+    required: true
+    enum: [READY, WEAKER_CLAIM, WAIT, HANDOFF, STOP, NO_ACTION]
+  material_unknowns:
+    required: false
+usage_rule: Include only fields material to the current frontier. Do not persist or render this structure unless it improves handoff, continuity, verification, or machine-readable checking.
