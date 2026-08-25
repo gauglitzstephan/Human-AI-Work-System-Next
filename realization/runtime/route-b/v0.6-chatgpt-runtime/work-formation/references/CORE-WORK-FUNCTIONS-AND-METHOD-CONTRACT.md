@@ -121,7 +121,7 @@ Do not infer a universal sequence such as Explore→Research→Analyze→Decide�
 
 Information/Evidence is foundational and cross-cutting. It supports every Work Function to the depth required by consequence, uncertainty, reversibility and intended use.
 
-It covers every Work Function to the depth required by consequence, uncertainty, reversibility and intended use.
+It covers:
 
 ### Retrieval and inspection
 
