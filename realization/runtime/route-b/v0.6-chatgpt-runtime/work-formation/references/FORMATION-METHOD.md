@@ -1,5 +1,14 @@
 # Route B Terminating Formation Method v0.5
 
+## Source identity
+
+- Source kind: `PROVIDER-NEUTRAL METHOD SOURCE`
+- Intended carrier: focused Formation Skill or equivalent supported method carrier
+- Candidate status: `NON-INSTALLED SOURCE`
+- Activation ownership: sole semantic Formation Activation Owner
+
+This source defines Formation. It is not an installable Skill package and performs no installation or Runtime mutation.
+
 ## Purpose
 
 Determine whether the current Work Basis is sufficient for the next Claim or transition. If not, form only the missing material basis, return it to the Native Primary and terminate.
@@ -40,14 +49,20 @@ Those remain with the Native Primary, qualified methods/providers and legitimate
 
 The Formation carrier is the only Formation Activation Owner.
 
-Every substantive activation names the material delta or missing basis that can change the next Claim or transition. Initial entry may name the unresolved basis; re-entry must name new evidence or a changed Claim, scope, requirement, authority or intended transition that invalidates prior sufficiency.
+Provider metadata may make the carrier available or relevant. Inside that same carrier, this method decides whether substantive Formation is necessary. Kernel instructions must not issue an independent Formation start.
+
+Every substantive activation names the material delta or missing basis that can change the next Claim or transition. Initial entry may name the unresolved basis; re-entry must name new evidence or a changed Claim, scope, requirement, authority or intended transition that invalidates prior sufficiency. The activation claim is semantic and need not create a persistent artifact.
+
+### Positive rule
 
 Perform Formation only when both conditions hold:
 
 1. the current Work Basis is insufficient for the next Claim or transition; and
 2. the gap can materially change the eligible Work Function, Claim or Candidate status, route class, performance floor, professional-method need, authority/risk, continuity, intended transition/use, Outcome, strategic-resource allocation, Human capability/future autonomy or Whole-System Economics.
 
-Do not activate merely because:
+### Negative controls
+
+Do not activate Formation merely because:
 
 - the work is material or complex;
 - a new turn began;
@@ -61,6 +76,22 @@ Do not reopen already sufficient Formation unless a named new evidence or change
 
 Formation output, its own termination, ordinary execution progress, Tool/Subagent return, elapsed time or the availability of further analysis must not self-reactivate Formation.
 
+## Inputs
+
+Use only what is relevant to the next frontier:
+
+- current user intent as evidence, not automatic authority;
+- controlling Parent and Outcome when available;
+- current qualified state, gate and unresolved conflict;
+- authoritative inputs and scoped evidence;
+- professional method or reference basis;
+- constraints, risk and authority;
+- competing initiatives, scarce strategic resources and legitimate strategic owner when material;
+- Human learning, skill formation, retained judgment, future autonomy and dependency horizon when material;
+- continuity and intended-use requirements.
+
+Recover missing Parent or state only when the absence can change the next legitimate frontier.
+
 ## Method
 
 ### 1. Bind the active frontier
@@ -68,18 +99,20 @@ Formation output, its own termination, ordinary execution progress, Tool/Subagen
 Identify the controlling Parent, intended Outcome, current supported state and the next possible change in Claim, state, decision, action or Outcome.
 
 Classify the input as:
+
 - `BOUND`: it continues the admitted Work Unit without materially changing Claim, scope, method, requirements, authority or transition; or
 - `NEW/CHANGED`: reopen only affected state.
 
 ### 2. Test next-claim sufficiency
 
 Test only whether an unresolved issue can materially change:
+
 - which Work Function is next;
 - whether one or multiple composable Work Functions are required;
 - its legitimate scope or professional method;
 - its quality or stopping rule;
 - the supported Claim or transition;
-- required authority, persistence or assurance;
+- required authority, persistence or assurance.
 - whether an early Probe has the Performance Floor, Method and Evidence/comparison basis required for Candidate eligibility;
 - whether competing initiatives or Human-capability effects materially constrain the frontier.
 
@@ -88,6 +121,7 @@ Do not require complete initiative specification.
 ### 3. Form only material gaps
 
 When a gap is material, form only the unresolved portions of:
+
 - Parent and intended Outcome;
 - next Claim or transition;
 - relevant System of Interest and scope;
@@ -115,7 +149,7 @@ Work Function
 → eligible Professional Method(s)
 ```
 
-Work Functions are composable and must not be treated as mandatory stages.
+Use the provider-neutral Work-Function vocabulary in `07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md`. Work Functions are composable and must not be treated as mandatory stages.
 
 State the eligible method class, specialization, independence, effect handling or Human contribution only to the depth needed for the Native Primary to compose execution.
 
@@ -143,7 +177,7 @@ Formation must not continue to improve its own artifact after sufficiency.
 The Work Basis is transient by default. Include only material resolved or unresolved fields:
 
 ```yaml
-activation_delta: optional
+activation_delta: optional  # required only to justify re-entry after prior sufficiency
 parent_outcome: optional
 next_claim_or_transition: required
 system_scope: optional
@@ -165,21 +199,29 @@ This is not a mandatory form and does not require persistence.
 ## Conditional mechanisms
 
 ### Native Subagents
+
 Formation may identify a specialization, parallelism, context-isolation or independence need. The Native Primary decides whether to compose one or multiple Subagents and owns dispatch, waiting and integration.
 
 ### Human contribution and Gate
+
 Formation may identify a non-substitutable Human contribution. Create a Gate only when it blocks the transition; otherwise allow safe work to continue and obtain the contribution at decision-relevant granularity.
 
+When provider composition can materially affect Human learning, skill formation, retained judgment, future autonomy or dependency risk, include that outcome or constraint in the Work Basis. Do not retain Human ownership by default when qualified delegation better satisfies the complete outcome.
+
 ### Competing initiatives and strategic resources
+
 When multiple initiatives materially compete for scarce strategic resources, form only the decision-relevant options, owner, priority, capacity/WIP constraint, opportunity cost, dependency/resource conflict and `Pause / Continue / Scale / Stop` alternatives. Formation does not make the strategic allocation decision without legitimate authority and does not create a recurring portfolio stage.
 
 ### Persistence
+
 Recommend a State Card only when later work materially depends on cross-boundary continuity, conflict handling, authoritative recovery or effect reconciliation.
 
 ### Handoff
+
 Require a handoff only when responsibility or environment changes and material Parent, method, evidence, authority, output or return state could be lost.
 
 ### Assurance
+
 Identify the property that must be assured and a failure-detecting assurance class. Independent review is conditional on material correlated-error risk.
 
 ## Re-entry
@@ -191,6 +233,7 @@ Do not re-enter for ordinary execution progress, Formation output or termination
 ## Prohibitions
 
 Formation must not:
+
 - become a universal Material-Work controller;
 - create a Work-Function stage machine;
 - treat the Core Work Functions as a mandatory sequence or method pipeline;
@@ -200,6 +243,7 @@ Formation must not:
 - execute or orchestrate the selected Professional Method;
 - duplicate native planning or orchestration;
 - require mandatory Subagents or reviewers;
+- marginalize Subagents in favor of Primary self-execution;
 - create Qualification Debt;
 - manufacture a next step;
 - treat its Work Basis as authoritative or persistent by default;
