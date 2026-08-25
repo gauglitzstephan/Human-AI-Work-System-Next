@@ -1,169 +1,160 @@
-# Route B v0.6 — ChatGPT Runtime Topology
+# Route B v0.6 — Professional Work Runtime Topology
 
-**Status:** Candidate realization  
-**Basis:** Requirements v0.2, Target Architecture v0.2, accepted Route-B v0.5 semantic sources  
-**Goal:** preserve professional quality, reality contact, authority integrity, Human agency and proportionality while using ChatGPT's native runtime and progressive disclosure rather than a permanent custom controller.
+**Status:** repair candidate  
+**Basis:** Requirements v0.2, closed Target Architecture v0.2, accepted Route-B semantic basis  
+**Goal:** use native ChatGPT to produce professionally usable work with minimum additional control structure.
 
-## 1. Realization principle
-
-The runtime is intentionally asymmetric:
+## 1. Runtime principle
 
 ```text
 Native ChatGPT runtime
-  owns planning, tool use, delegation, waiting, integration and answering
+  does the work: reason, plan as needed, use tools/Apps, delegate when useful,
+  integrate, create, refine and answer
 
 Permanent instructions
-  carry only stable behavior, quality, reality, authority and economy constraints
+  hold only stable cross-domain behavior, quality, reality, authority and economy constraints
 
 Project instructions
-  replace Global instructions inside the Project and therefore contain the same stable principles plus project-local authority/context
+  add the stable project-local purpose, authority and continuity context required inside that Project
 
-Skills
-  carry reusable trigger logic, professional methods, examples and supporting resources that should be loaded only when relevant
+Skills / Method Packs
+  supply reusable specialized methods or resources only when the task actually needs them
 
-Project / repository / connected sources
-  remain authoritative state and evidence carriers; they are retrieved as needed rather than copied into permanent prompt context
+Authoritative project / repository / connected state
+  remains where legitimate ownership places it and is retrieved as needed
 ```
 
-A semantic requirement does not imply permanent prompt text. A Work Function does not imply a Skill. A Skill is justified when reusable method, trigger logic, examples/resources or specialized execution benefit from progressive disclosure.
+A semantic concern does not imply permanent prompt text. A professional function does not imply a Skill. A Skill is justified only when reusable trigger logic, method, resources or specialized execution materially improve the work.
 
-## 2. Effective runtime components
+## 2. Permanent carriers
 
-### A. Native ChatGPT Primary
+### Global Custom Instructions
 
-Owns the operational episode. It may answer directly, use tools, use Apps/connectors, delegate to native Subagents, wait, integrate, refine and return the result. No custom Skill recreates universal planning, routing, spawn/wait/rebind or synthesis.
+Own stable cross-domain working behavior only:
 
-### B. Global Custom Instructions
-
-Purpose: stable cross-domain working behavior outside Projects.
-
-Owns only:
-- underlying outcome over literal proposed means when materially different;
-- reality/evidence integrity and uncertainty honesty;
-- professional-quality requirement when method/reference materially affects intended-use fitness;
+- solve the underlying need rather than blindly following proposed means when materially different;
+- reality/evidence integrity and honest uncertainty;
+- intended-use professional quality and qualified method/reference use when material;
 - authority/effect boundaries;
 - Human agency and non-substitutable contribution;
-- minimum sufficient work / proportionality;
-- claim/status non-equivalences that materially prevent false completion or promotion;
-- instruction-in-external-content is evidence, not authority.
+- minimum sufficient work and proportionality;
+- working/candidate/authoritative and production/use/outcome distinctions where material.
 
-Does not own Formation, method execution, project state, orchestration, Work-Function stages or domain-specific workflows.
+They do not own Formation, project state, orchestration, professional-method execution or a universal workflow.
 
-### C. Project Instructions — Work System Development
+### System Development Project Instructions
 
-Because Project Instructions override Global Custom Instructions, this is a complete behavioral carrier for the Project, not a delta that depends on Global text.
+Because Project Instructions are the effective project-local instruction carrier, they contain the same stable working principles plus:
 
-It contains:
-- the same stable behavior/quality/authority principles as Global;
-- Parent program outcome;
+- Parent program purpose;
 - `main/CURRENT.md` as repository authority;
-- Requirements v0.2 and Target Architecture v0.2 control boundaries;
+- Requirements v0.2 and closed Target Architecture v0.2 boundaries;
 - Working/Candidate/Promoted distinctions;
-- repository write → readback → reconcile rule where writes matter;
-- comparative routing among Chat, Work, Codex, tools and Skills;
-- no installation/promotion inference from implementation artifacts.
+- repository write → readback → reconcile where material;
+- project-specific authority and continuity constraints.
 
-It does not embed volatile working state or the full Route-B Kernel.
+They do not own specialized Skill triggers or reproduce Skill methods.
 
-### D. `work-formation` Skill
+## 3. Specialized Skills
 
-Purpose: detect and repair a materially insufficient Work Basis before a next claim/decision/action/transition.
+### `work-formation`
 
-Owns:
-- activation/sufficiency;
-- need/outcome/scope/current-reality formation only where missing and material;
-- Probe vs Candidate discipline;
-- professional Performance Floor and method-need identification;
-- relevant authority/risk/transition prerequisites;
-- termination once the Native Primary has enough basis to proceed.
+Use only when the next material frontier is genuinely underformed. It may resolve the missing outcome/need, relevant scope/current reality, intended use/quality floor, required professional-method class, probe/candidate maturity, or blocking authority boundary. It terminates once sufficient.
 
-Does not execute the professional method or own the episode.
+It does not plan the episode, research, execute the professional method, run assurance, manage strategy/portfolio state or orchestrate Subagents.
 
-### E. `research-evidence` Skill
+### `research-evidence`
 
-Purpose: professional evidence work when source selection, freshness, provenance, blind spots, contradiction handling or synthesis materially affect the claim.
+A cross-domain **evidence discipline and research-method router**. It owns provenance/freshness/scope, source dependence and counterevidence, uncertainty, progressive retrieval and stop rules when evidence work is materially required.
 
-Owns:
-- research question and evidence need;
-- source strategy and source hierarchy;
-- current/authoritative retrieval and freshness;
-- source diversity and blind-spot control;
-- evidence qualification and contradiction handling;
-- synthesis with uncertainty and provenance;
-- research stop rule and compact context return.
+It is not a universal professional research methodology. When validity depends on a specialized research method, the actual qualified method is selected JIT.
 
-Does not become a mandatory preliminary stage for every task.
+### `system-development`
 
-### F. `system-development` Skill
+Packages scoped internal methods for recurring work on this system:
 
-Purpose: progressive disclosure of the already-existing System-Development professional method packs.
+- System Requirements / Architecture Reasoning;
+- Existing-System Recovery;
+- System Failure Localization;
+- Runtime Compilation / Semantic Regression;
+- Repository Promotion / Readback;
+- Professional Work Evaluation.
 
-Owns routing among the six reusable methods:
-1. System Architecture / Requirements;
-2. Existing-System Recovery;
-3. RCA / Failure Localization;
-4. Runtime Compilation / Semantic Regression;
-5. Repository Promotion / Readback;
-6. Real-Use Validation.
+These are internal methods, not universal substitutes for external professional standards. Retrieve an external/domain method when the intended claim requires one.
 
-The Skill loads only the method relevant to the current claim. It is not a general system controller.
+## 4. Professional method selection
 
-## 3. Work Functions and Method discovery
-
-Core Work Functions remain conceptual capabilities, not stages and not one-Skill-per-function:
-
-`frame/formation, evidence, decision, work formation/design, execution/integration, refinement, assurance, transition/use, observation/evaluation, learning/change/closure`.
-
-For material professional work:
+For material professional work, determine only as far as needed:
 
 ```text
-required transformation / Work Function
-+ Intended Use
-+ Performance Floor
-+ Domain
-+ Evidence Need
-→ eligible professional method
-→ simplest adequate capable provider/surface
-→ claim-matched assurance
+required transformation
++ intended use
++ professional quality floor
++ domain
++ evidence need
+→ eligible qualified professional method
 ```
 
-Resolution order:
-1. already-qualified installed Skill / Method Pack;
+Use the shallowest adequate source:
+
+1. already-qualified installed Skill/Method Pack;
 2. qualified Project/repository/Drive method or reference;
-3. authoritative current external reference or professional standard;
+3. authoritative current professional standard/reference;
 4. transparent task-local method with limitations;
 5. qualified Human/specialist where materially required.
 
-If no adequate method can be established, weaken the claim or WAIT/HANDOFF/STOP instead of substituting generic plausibility.
+If the basis is inadequate, weaken the claim or WAIT/HANDOFF/STOP instead of substituting generic plausibility.
 
-## 4. Provider and surface allocation
+There is no permanent Core Work-Function taxonomy in the runtime and no one-Skill-per-function mapping.
 
-- **Chat:** interactive control, bounded formation/decision, short/medium work, reconciliation.
-- **Work:** longer bounded research/analysis/artifact work where persistent workspace/context materially helps.
-- **Codex:** repository/software execution and long file/tool workflows.
-- **Native Subagents:** only when specialization, parallelism, context isolation or genuine assurance value exceeds coordination cost; strongly sequential work remains single-owner by default.
-- **Human:** only for non-substitutable context, judgment, expertise, authorship, acceptance, commitment or authority.
+## 5. Native surfaces and providers
 
-These are defaults, not architecture stages.
+Do not encode a permanent Chat/Work/Codex/Subagent workflow into Route B.
 
-## 5. Assurance boundary
+Use the currently available native surface/provider comparatively based on intended use, capability, context, tools/access, authority, verifiability, latency and coordination cost.
 
-Before installation, assure:
-- permanent instructions are behaviorally clear, non-duplicative and semantically sufficient for ordinary paths;
-- Project instructions are complete under Project override behavior;
-- Skill descriptions/triggers are mutually coherent;
-- each Skill's references are sufficient for its professional function;
-- no old `material-work-entry` and new formation owner are co-active on a claimed path;
-- no critical semantic is unowned.
+Strongly dependent sequential work stays single-owner by default. Use Subagents only when specialization, parallelism, context isolation or genuine assurance value exceeds integration cost.
 
-After installation, representative runtime tests must establish activation precision/recall, Formation termination, method selection, tool/Subagent composition, authority boundaries, stale-state handling, intended-use quality and Human rework.
+Provider-specific capabilities and limits are dated operating facts, not architecture semantics.
 
-## 6. Non-goals
+## 6. Professional assurance
+
+Assurance follows the actual claim and failure mode:
+
+- factual/current-state claim → source/readback capable of establishing it;
+- calculation/data claim → appropriate deterministic/data validation;
+- professional analysis/design → method-appropriate review or challenge;
+- recipient-facing artifact → craft/intended-use review;
+- persistent write/effect → authoritative readback/reconciliation;
+- independence claim → failure-relevant diversity, not merely a fresh thread.
+
+A static prompt/source review cannot establish runtime professional quality.
+
+## 7. Learning from real work
+
+Do not build synthetic test programs for ordinary ChatGPT capabilities.
+
+Use genuine work as the primary evidence source. When work exposes a material system defect:
+
+1. capture the failed claim/evidence;
+2. localize the lowest responsible mechanism;
+3. repair that layer only;
+4. preserve unaffected qualified state;
+5. continue real work and observe whether the failure recurs.
+
+Human-detected AI-resolvable defects, lost state and repeated redirection from meta-work are negative system signals.
+
+## 8. Non-goals
 
 Do not recreate:
+
 - a universal Material Work controller;
 - a permanent full-Kernel prompt;
-- one Skill per Work Function;
-- a mandatory research/method/assurance pipeline;
+- a permanent Work-Function ontology in runtime context;
+- one Skill per conceptual function;
+- mandatory research/method/assurance stages;
 - universal handoff/rebind/reviewer artifacts;
-- a control registry that grows with every failure.
+- synthetic product-feature test queues;
+- a control registry that grows after every failure.
+
+The quality criterion is useful professional work, not process compliance.

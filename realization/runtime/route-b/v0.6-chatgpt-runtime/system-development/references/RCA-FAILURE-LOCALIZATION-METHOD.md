@@ -1,48 +1,53 @@
-# RCA / Failure Localization Method v0.1
+# System Failure Localization Method v0.2
 
-**Status:** CANDIDATE METHOD PACK  
-**Use when:** observed behavior, artifact quality, runtime control, state continuity or outcome evidence contradicts the expected claim.
+**Status:** scoped internal diagnostic method.  
+**Use when:** observed behavior, artifact quality, runtime control, state continuity or outcome evidence in this system contradicts the expected claim.
 
-## Method objective
+This is not a universal causal root-cause-analysis methodology. Use an appropriate external/domain RCA method when the claim requires broader causal diagnosis.
 
-Localize the lowest responsible failure mechanism before changing architecture or broad runtime policy.
+## Objective
 
-## Procedure
+Locate the lowest responsible failure mechanism before changing broader architecture, policy or controls.
 
-1. State the failed claim and the exact observed counterevidence.
-2. Recover the actual object/version/environment/instructions/provider/state/authority involved.
-3. Locate the first transition where expected state diverged from observed state.
-4. Classify the failure layer:
-   - requirement/frame;
+## Method
+
+1. **State the failed claim and observed counterevidence.** Keep object/version/environment explicit.
+2. **Recover the actual runtime/state involved.** Inspect effective instructions, provider/surface, authoritative state, method/tool used and relevant authority boundary rather than reconstructing from memory.
+3. **Find the first material divergence.** Identify where expected state/behavior first differs from observed state/behavior.
+4. **Classify the responsible layer provisionally:**
+   - frame/requirement;
    - authoritative-state recovery;
-   - Work Function activation;
-   - professional Method/source/application;
-   - capability/provider access/effectiveness;
+   - formation/sufficiency;
+   - professional method/source/application;
+   - provider/tool/capability;
    - surface/environment;
-   - Handoff/Return/state continuity;
-   - Commitment/Authorization/Human Gate/Promotion control;
+   - handoff/context/return integration;
+   - authority/commitment/promotion control;
    - execution/integration;
-   - refinement/assurance;
-   - transition/use/outcome mechanism;
-   - architecture unowned transformation only if lower layers cannot represent the failure.
-5. Test plausible competing causes; do not select the first narrative merely because it fits.
-6. Preserve unaffected qualified state; define the smallest repair capable of preventing/detecting recurrence.
-7. Re-test only the affected claim/mechanism plus material regressions.
-8. Escalate to architecture reopen only on a named trigger supported by evidence.
+   - artifact/craft/refinement;
+   - assurance;
+   - transition/use/outcome;
+   - architecture only if lower layers cannot represent or own the failure.
+5. **Test plausible competing causes** when they would change the repair. Do not stop at the first coherent story.
+6. **Preserve unaffected qualified state.** Define the smallest repair capable of fixing or detecting the responsible mechanism.
+7. **Recheck the affected claim and material regressions.** Do not launch a new system redesign by default.
+8. **Escalate only on evidence.** Architecture reopen requires a named failure that cannot be represented or repaired cleanly at lower layers.
 
-## Outputs
+## Output
 
 - failed claim + evidence;
 - first divergence point;
-- responsible layer/mechanism;
-- ruled-out alternatives where material;
+- most supported responsible mechanism/layer;
+- material competing causes still open or ruled out;
 - bounded repair;
-- regression/reopen implications.
+- exact claim to recheck;
+- broader reopen implication only if genuinely established.
 
 ## Failure modes
 
-- treating a visible symptom as root cause;
-- changing Global CI for a domain-method defect;
-- adding process/agents/rooms to compensate for a provider/tool defect;
-- blaming Human behavior when the Runtime failed to supply a mature object or enforce a gate;
-- declaring architecture failure before checking runtime carrier fidelity.
+- symptom relabeled as root cause;
+- Global/Project instructions changed for a domain-method or craft defect;
+- process/agents added to compensate for a provider/tool problem;
+- Human blamed for detecting an AI-resolvable defect;
+- architecture reopened before runtime/method/state recovery;
+- internal layer taxonomy mistaken for a general causal RCA method.
