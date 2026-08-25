@@ -1,23 +1,23 @@
 # PR #24 — Requirements / Professional-Work Consistency Review
 
-**Status:** CANDIDATE REVIEW EVIDENCE  
+**Status:** REVIEW COMPLETE — COHERENT CANDIDATE PACKAGE  
 **Date:** 2026-08-25  
-**PR:** #24 `Repair v0.6 around professional work quality`  
-**Reviewed head before state repair:** `9b92f99d2f5ed6e8e7e897a20beac426ee50e3cb`
+**PR:** #24 `Repair v0.6 around professional work quality + Requirements v0.3 candidate`  
+**Initial reviewed head:** `9b92f99d2f5ed6e8e7e897a20beac426ee50e3cb`
 
 ## Verdict
 
-**CONTENT COHERENT / AUTHORITY-STATE REPAIR REQUIRED BEFORE MERGE DECISION.**
+**PASS AS A COHERENT CANDIDATE PACKAGE.**
 
 The bounded v0.6 Professional-Work repair is substantively consistent with the Requirements v0.3 Candidate and Target Architecture v0.2. No new architecture or Runtime version is required.
 
-However, after adding the v0.3 Candidate, three PR/state surfaces became stale:
+The three authority/state defects found during the first pass have been repaired:
 
-1. PR #24 body still says `No Requirements change`;
-2. branch `CURRENT.md` does not yet record the v0.3 Candidate and compatibility result;
-3. `PROFESSIONAL-WORK-BASELINE.md` says only that it is subordinate to Requirements v0.2, without distinguishing controlling v0.2 from the compatible unpromoted v0.3 Candidate.
+1. PR #24 body now records the Requirements v0.3 Candidate and explicitly blocks implicit Promotion;
+2. branch `CURRENT.md` records v0.3 Candidate state, v0.2 controlling status and Target-Architecture compatibility;
+3. `PROFESSIONAL-WORK-BASELINE.md` now distinguishes controlling Requirements v0.2 from the compatible unpromoted v0.3 Candidate.
 
-Those are repository-state/claim defects, not substantive design failures.
+README navigation was also updated so the Candidate, reconciliation and compatibility evidence are discoverable without making them controlling.
 
 ## 1. Requirements ↔ runtime-repair fit
 
@@ -79,29 +79,35 @@ The new file:
 
 is Candidate state only.
 
-This review and a PR #24 merge must **not** be interpreted as Requirements v0.3 Promotion unless the Human separately accepts that exact baseline for controlling status and the PR is explicitly changed to carry that authority transition.
-
-Therefore the coherent PR #24 state is presently:
+The PR body and `CURRENT.md` now state the same transition semantics:
 
 ```text
-Requirements v0.2                         CONTROLLING
-Requirements v0.3                         CANDIDATE / PERSISTENCE PROPOSED
-Target Architecture v0.2                  COMPATIBLE / KEEP CLOSED
-v0.6 Professional-Work repair             CANDIDATE
-Requirements Promotion                    NONE
-Runtime Promotion                         NONE
+before PR #24 merge/readback
+  Requirements v0.2              CONTROLLING
+  Requirements v0.3              CANDIDATE
+  Professional-Work repair        CANDIDATE
+  Requirements Promotion          NONE
+  Runtime Promotion               NONE
+
+if PR #24 merges without a separate v0.3 Promotion decision
+  Requirements v0.2              REMAINS CONTROLLING
+  Requirements v0.3              PERSISTED CANDIDATE / UNPROMOTED
+  Professional-Work repair        REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE
+  Runtime behavior                NOT PROMOTED
 ```
 
-## 5. Required bounded state repair
+This prevents repository persistence from silently becoming Requirements authority.
 
-Before PR #24 is represented as review-ready:
+## 5. Scope integrity
 
-1. update `CURRENT.md` to record the v0.3 Candidate and compatibility PASS while retaining v0.2 as controlling;
-2. update the Professional Work Baseline header to refer to the controlling Requirements baseline generically and record v0.3 compatibility without Promotion;
-3. update PR #24 body so it no longer claims `No Requirements change` and explicitly states that v0.3 remains Candidate/unpromoted;
-4. keep Target Architecture source unchanged; use the compatibility review as the current trace;
-5. do not create a new Runtime version or rewrite Global/Project Instructions.
+- Target Architecture source: **UNCHANGED**.
+- Global Custom Instructions: **UNCHANGED**.
+- System Development Project Instructions: **UNCHANGED**.
+- No UI mutation or Skill installation performed by PR #24.
+- No synthetic ChatGPT/product-feature test program added.
+- No Runtime PASS/Promotion claim added.
+- Requirements v0.2 source remains unchanged.
 
 ## Final claim
 
-> After the bounded state repair above, PR #24 is a coherent combined Candidate package: it persists a simplified Requirements v0.3 Candidate and a v0.6 Professional-Work runtime repair that is compatible with both controlling v0.2 and the v0.3 Candidate. It does not by itself promote Requirements v0.3 or Runtime behavior.
+> PR #24 is now a coherent combined Candidate package. It persists a simplified Requirements v0.3 Candidate and a v0.6 Professional-Work runtime repair that is compatible with both controlling v0.2 and the v0.3 Candidate. It does not by itself promote Requirements v0.3 or Runtime behavior.
