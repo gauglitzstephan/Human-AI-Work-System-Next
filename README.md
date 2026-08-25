@@ -1,166 +1,118 @@
 # Human–AI Work System Next
 
-> Build a Human–AI Work System that turns real needs into intended-use-sufficient working solutions with strong reality, state, authority, quality and Human-agency control — without unnecessary meta-work.
+> Build a Human–AI Work System that turns real needs into intended-use-sufficient working solutions with strong reality, state, authority, professional quality and Human agency — without unnecessary meta-work.
 
 ## Start here
 
 **[`main/CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point.**
 
-A `CURRENT.md` copy read on an unmerged branch is Candidate state. It becomes controlling only when that exact state is present on `main` after an authorized merge and readback. Do not infer current program state from historical `Next` sections, newest-looking files, old installation bundles, chat history, or closed/unmerged branches.
+A `CURRENT.md` copy on an unmerged branch is Candidate state. It becomes controlling only after the exact commit is authorized, merged to `main`, read back and reconciled.
 
-## Current status
-
-```text
-Target Architecture v0.2                         ACCEPTED / KEEP CLOSED
-Static E2E Work Architecture                     REPOSITORY-PROMOTED / KEEP CLOSED
-Runtime deployment + interaction-control repair  REPOSITORY-PROMOTED via PR #13
-Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
-R21 product/carrier + real-use reconciliation     REPOSITORY-PROMOTED EVIDENCE via PR #16 / READBACK PASS
-
-Promoted Global Runtime                          v0.5
-Active external Global                           v0.5 / persistent UI readback PASS
-Repository-promoted Project baseline             v0.4
-Live Project payload                             v0.5 CANDIDATE / UI content readback PASS / UNPROMOTED
-material-work-entry                              v0.6-candidate / external Personal Skill / UNPROMOTED
-
-R20 active repair                                CLOSED
-R21 repository convergence                       COMPLETE via PR #16
-Post-R21 authority-state reconciliation           COMPLETE via PR #17 / READBACK PASS
-Requirements v0.2                               CONTROLLING ON main / PROMOTED via PR #18
-Requirements v0.1                               HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
-ADR-0003                                        ACTIVE
-Requirements promotion                          COMPLETE / POST-MERGE READBACK PASS
-Next                                             RUNTIME SOLUTION FORMATION ELIGIBLE
-```
-
-PR #16 reconciled native Product/Carrier mapping, version-scoped R21 real-use evidence, the live-versus-promoted Project-carrier distinction, and candidate lineage. It did **not** change the live Runtime, Project UI, installed Skill, static architecture, or any Runtime/Skill Promotion state.
-
-PR #17 subsequently reconciled the post-R21 repository authority surfaces on `main`.
-
-PR #18 promoted the normalized Requirements v0.2 baseline after exact-head review, merge and post-merge readback. It did not change Runtime, Skill, Project UI or static architecture.
-
-## Authority and transition rules
+## Current program state
 
 ```text
-main/CURRENT.md
-= controlling repository program state
-
-Repository evidence persisted on main
-≠ Runtime behavior
-≠ UI installation
-≠ Skill or Runtime Promotion
-≠ architecture acceptance/change
-
-Unmerged branch / PR / external Skill candidate
-= Working or Candidate state
-
-Persistence
-≠ Promotion
-
-Next
-= continue only the currently bound legitimate frontier
-≠ acceptance, authorization, merge, promotion, scope change or new commitment
+Requirements v0.2                    CONTROLLING ON main
+Target Architecture v0.2             ACCEPTED / KEEP CLOSED
+Route B Runtime Source v0.5           HUMAN-ACCEPTED / FROZEN DESIGN BASIS
+Source closure                        PASS WITHIN SOURCE SCOPE
+Complete ChatGPT Runtime carriers     NOT YET BUILT
+Current ChatGPT UI Runtime            UNCHANGED
+Exact current UI stack identity       UNRECONCILED PENDING DIRECT READBACK
+Runtime installation / behavior       UNVERIFIED
+Runtime Promotion                     NONE
 ```
 
-Any later status change requires its own evidence, decision/authority, write path, readback and reconciliation.
+Accepted Source identity:
 
-## Requirements baseline
+- Source commit: `9a7aa240deda2e95806f915e99b62936cd82a7a1`
+- Closure-review branch head: `135511fdf941e43dc6585322b65855d3d27c09e5`
+- Source package: [`realization/runtime/route-b/v0.5-candidate/`](realization/runtime/route-b/v0.5-candidate/)
+- Closure review: [`reviews/route-b/ROUTE-B-v0.5-FAILURE-MODE-CLOSURE-REVIEW.md`](reviews/route-b/ROUTE-B-v0.5-FAILURE-MODE-CLOSURE-REVIEW.md)
+- External challenge: [`reviews/route-b/ROUTE-B-EXTERNAL-ARCHITECTURE-CHALLENGE.md`](reviews/route-b/ROUTE-B-EXTERNAL-ARCHITECTURE-CHALLENGE.md)
 
-The controlling Requirements baseline on `main` is now:
+Source acceptance means Route B v0.5 is the frozen implementation basis. It does **not** mean carrier fidelity, installation, Runtime PASS, intended-use fitness, cutover or Promotion.
 
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) — controlling normalized Requirements Design Basis, promoted via PR #18 and post-merge readback.
+## Runtime design basis
 
-Retained lineage:
-
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md) — immutable historical Qualified Prior; superseded only in its controlling role;
-- [`evidence/REQUIREMENTS-v0.1-to-v0.2-RECONCILIATION-v0.1.md`](evidence/REQUIREMENTS-v0.1-to-v0.2-RECONCILIATION-v0.1.md) — lineage, de-bias, known-failure, architecture-compatibility and promotion evidence;
-- [`decisions/ADR-0003-vnext-requirements-baseline-v0.2.md`](decisions/ADR-0003-vnext-requirements-baseline-v0.2.md) — active Requirements authority/supersession decision.
+Route B realizes the closed architecture through distinct responsibilities rather than a mandatory workflow:
 
 ```text
-PR #18 merge + main readback
-→ Requirements v0.2 controlling
-→ Requirements v0.1 superseded only in its controlling role
-→ Target Architecture v0.2 remains accepted and closed
-→ Runtime Solution Formation becomes eligible as the next frontier
+Canonical Kernel
++ terminating Formation Method
++ complete Core Work Function / Method Discovery contract
++ qualified Domain Methods loaded just in time
++ Native Primary as the sole operational episode owner
 ```
 
-The Requirements promotion does not authorize any Runtime/Skill/UI change or select a solution topology.
+The source explicitly rejects:
 
-## Accepted conceptual baseline
+- a universal Material-Work controller;
+- Work Functions as mandatory stages;
+- a Method gateway or monolithic Method Skill;
+- mandatory Subagents, reviewers, Return/Rebind packages or Human Gates;
+- duplicated native planning, Tool routing, delegation, waiting or synthesis;
+- automatic installation, migration or Promotion.
 
-[`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) retains three structural commitments:
+## Professional quality and Methods
+
+The complete provider-neutral Work Function and Method Discovery contract is:
+
+- [`realization/runtime/route-b/v0.5-candidate/07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md`](realization/runtime/route-b/v0.5-candidate/07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md)
+
+The repository Method Registry is:
+
+- [`methods/METHOD-REGISTRY-v0.1.md`](methods/METHOD-REGISTRY-v0.1.md)
+
+The current registry contains six Candidate System-Development method packs. It is **not** a complete universal method library. The Runtime implementation must preserve professional quality by selecting and qualifying methods from:
+
+1. adequate existing repository method packs;
+2. relevant installed Domain Skills or deterministic tools;
+3. authoritative connected or external references;
+4. qualified specialist or Human sources where necessary;
+5. an explicitly weaker/provisional claim when no adequate method exists.
+
+The focused Formation carrier forms missing Work Basis only. It does not replace, execute or own the complete Professional Method layer.
+
+## Next implementation
+
+The next repository frontier is one complete ChatGPT Runtime implementation, not another Source redesign. It must produce:
+
+- new Global Custom Instructions;
+- new System Development Project Instructions;
+- a focused Formation Skill with the complete Core Work Function/Method Discovery resources;
+- explicit Method-access and coverage realization;
+- effective-stack and identity manifest;
+- current-runtime readback and rollback package;
+- installation/cutover instructions;
+- carrier assurance and Runtime-validation assets.
+
+The implementation remains Candidate until separate UI installation, readback, representative Runtime validation and a later Promotion decision.
+
+## Authority rules
 
 ```text
-DISTINCT RESPONSIBILITIES
-DISTRIBUTED TYPED STATE
-ADAPTIVE WORK SELECTION
+repository persistence ≠ Runtime installation
+Source acceptance ≠ Runtime acceptance
+working branch / PR ≠ controlling main
+proposal ≠ decision
+Decision ≠ Commitment
+Commitment ≠ Authorization
+installation ≠ verified behavior
+verification ≠ Promotion
+artifact completion ≠ use or outcome
 ```
 
-These are responsibilities/contracts, not mandatory runtime layers, agents, stores, ontologies or stage machines. Static architecture stays closed unless a named Runtime/real-use trigger or legitimate requirement/scope change establishes a reason to reopen it.
+No ChatGPT UI mutation, Skill installation, Runtime cutover, migration, merge or Promotion follows automatically from repository work.
 
-## Current Runtime realization
+## Repository map
 
-Canonical semantic source:
+- [`CURRENT.md`](CURRENT.md) — controlling state after merge/readback
+- [`foundation/`](foundation/) — concerns and Requirements
+- [`architecture/`](architecture/) — accepted conceptual architecture
+- [`realization/runtime/route-b/`](realization/runtime/route-b/) — Route B source lineage
+- [`methods/`](methods/) — reusable Method Registry and method packs
+- [`reviews/route-b/`](reviews/route-b/) — source and architecture challenge evidence
+- [`evaluation/e2e-real-use/`](evaluation/e2e-real-use/) — version-scoped Runtime and real-use evidence
+- [`decisions/`](decisions/) — accepted decision records
 
-- [`realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md`](realization/E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md)
-
-Repository-promoted compiled views:
-
-- [`realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`](realization/GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md) — Global Custom Instructions view
-- [`realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`](realization/SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md) — System Development Project baseline
-- [`realization/E2E-INSTALLATION-BUNDLE-v0.4.md`](realization/E2E-INSTALLATION-BUNDLE-v0.4.md) — repository-promoted external-transition bundle
-- [`realization/README.md`](realization/README.md) — realization navigation and lineage
-
-The live System Development Project contains the branch-origin v0.5 Candidate payload by Human UI content readback. That deployment fact is recorded truthfully while the repository-promoted Project baseline remains v0.4. No rollback, UI edit or Promotion follows from the divergence alone.
-
-Do **not** select earlier Global, Project or Installation-Bundle versions for installation unless `CURRENT.md` explicitly re-promotes them.
-
-## Runtime control model
-
-Keep distinct:
-
-```text
-Work Function
-≠ Control Operator
-≠ Method
-≠ Provider
-≠ Surface / Environment
-≠ State / Knowledge Carrier
-≠ Boundary Contract
-```
-
-and:
-
-```text
-Decision
-≠ Commitment
-≠ Authorization
-≠ Handoff
-≠ Execution
-≠ Provider Return
-≠ Human-facing Control Return
-≠ Promotion / State Transition
-```
-
-## R21 evidence
-
-Primary and secondary records are indexed in [`evaluation/e2e-real-use/README.md`](evaluation/e2e-real-use/README.md).
-
-Key reconciliation records:
-
-- [`evaluation/e2e-real-use/E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md`](evaluation/e2e-real-use/E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md) — version-scoped synthesis and bounded disposition
-- [`evaluation/e2e-real-use/E2E-04-R21-2026-08-22-LIVE-PROJECT-IDENTITY-READBACK.md`](evaluation/e2e-real-use/E2E-04-R21-2026-08-22-LIVE-PROJECT-IDENTITY-READBACK.md) — live v0.5 Candidate carrier identity versus promoted v0.4 baseline
-- [`evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.6.md`](evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.6.md) — current-evidence WAIT decision and bounded re-entry contract
-- [`evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`](evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md) — System-Boundary Discovery and bootstrap evidence
-
-Positive records remain claim- and version-scoped. They do not constitute complete v0.6 qualification or establish broader real-use outcomes.
-
-## Current monitoring frontier
-
-Observe, rather than manufacture, the remaining claims when genuine work naturally exercises them:
-
-- provider return → Parent rebind;
-- bounded negative control;
-- active monitoring execution where separately authorized.
-
-R20 repair and R21 repository convergence are closed. Their remaining genuine-use monitoring is non-blocking for the now-promoted Requirements v0.2 baseline. Reopen only on material counterevidence or a legitimate new requirement. The Requirements promotion authorizes no UI action, Skill/Runtime repair or architecture change.
+Historical artifacts remain evidence and lineage. `CURRENT.md`, not recency or file count, determines the active program frontier.

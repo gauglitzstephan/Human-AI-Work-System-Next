@@ -1,0 +1,354 @@
+manifest_schema: route-b-identity-compatibility-manifest/v0.4
+
+package:
+  candidate_id: route-b-runtime-candidate-v0.4
+  package_version: 0.4.0
+  predecessor_candidate: route-b-runtime-candidate-v0.3
+  predecessor_commit: 2c4c5fc8a3dfc3195f7c49530bbf71d6855dd9bd
+  status: NON_INSTALLED_SOURCE_CANDIDATE
+  created_on: 2026-08-25
+  controlling_parent: Reconciled Non-Installed Candidate Source Formation
+  repair_basis:
+    - SR-01 named Formation activation and delta-bound re-entry without self-reactivation
+    - SR-02 effective instruction and constraint owner integrity across all provider layers
+    - SR-03 minimum-sufficient Subagent context, Tools, actual permissions and authority
+    - SR-04 semantic stale-world reconciliation of evidence, assumptions, caveats and dependencies
+    - SR-05 just-in-time scoped Method and Reference loading without Control or Authority ownership
+    - SR-06 longitudinal Human capability trajectory ownership without quotas or per-episode scores
+    - SR-07 dated platform compatibility evidence with recheck and retirement logic
+    - SR-08 post-delivery intended-use and Whole-System-Economics ownership without universal telemetry
+    - SR-09 evidence-bound persistent-control admission and retirement or simplification
+  controlling_baselines:
+    requirements: Requirements v0.2
+    target_architecture: Target Architecture v0.2
+    target_architecture_status: CLOSED
+  source_formation_readiness: PASS_WITHIN_BOUNDED_REPAIR_SCOPE
+  promotion: NONE
+  repository_authority_changed: false
+
+authority_order:
+  - Requirements v0.2 and closed Target Architecture v0.2
+  - Route B Candidate Contract
+  - Canonical Kernel, Formation Method and Core Method Layer sources
+  - Provider adapter compilations
+  - Project-local overlays and context
+
+artifacts:
+  - path: 01-CANDIDATE-CONTRACT.md
+    kind: candidate_contract
+    sha256: 40fd1c32ab669a89e0e955ff3e4b43d79cb80187929054c2cc60bd878b933230
+  - path: 02-CANONICAL-KERNEL.md
+    kind: canonical_kernel_source
+    sha256: 55b423ca06dbf94f2c18bda004d2a4ac575b781a9c3b334f99b57fe6b860c24f
+  - path: 03-FORMATION-METHOD.md
+    kind: terminating_formation_method_source
+    sha256: ae39bc6f9449e84c7839244b765372755c53fac449ed664181c34f108d827ee3
+  - path: 04-CHATGPT-ADAPTER-COMPILATION.md
+    kind: chatgpt_adapter_compilation_definition
+    sha256: 7e79a43302f8a97e5e53e52e31a5846993f7964e61a6a0b6fc621e85ef7adcea
+  - path: 05-IDENTITY-COMPATIBILITY-MANIFEST.yaml
+    kind: identity_compatibility_manifest
+    sha256: NOT_EMBEDDED_SELF_REFERENTIAL
+  - path: 06-CONDITIONAL-STATE-CARD-SCHEMA.yaml
+    kind: conditional_state_card_schema
+    sha256: d1f0fbd0790c282de88762875ffd555e0f7b024968798513b572d9b3e18f90a3
+  - path: 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+    kind: provider_neutral_core_method_layer
+    sha256: 2cef87e995b21e55c47d0310023411d88db8b6dd623266c3935b243c38f0c471
+
+source_semantics:
+  canonical_kernel_count: 1
+  kernel_source: 02-CANONICAL-KERNEL.md
+  formation_activation_owner_count: 1
+  formation_activation_owner: focused Formation Skill compiled from 03-FORMATION-METHOD.md
+  operational_owner_count: 1
+  operational_owner: Native Primary
+  native_subagents: FIRST_CLASS_CONDITIONAL_COMPOSITION
+  independent_review: CONDITIONAL_ON_MATERIAL_CORRELATED_ERROR_RISK
+  professional_methods: SEPARATE
+  core_method_layer:
+    source: 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+    status: EXPLICIT_PROVIDER_NEUTRAL_SOURCE
+    work_functions_are_stages: false
+    mandatory_method_pipeline: false
+    information_evidence: FOUNDATIONAL_CROSS_CUTTING_CAPABILITY
+    method_discovery_contract: >-
+      Work Function + Intended Use + Performance Floor + Domain + Evidence Need
+      -> eligible Professional Method(s)
+    operational_method_composition_owner: Native Primary
+  persistent_state: CONDITIONAL
+  instruction_constraint_stack:
+    layers:
+      - provider_system_runtime
+      - global_instructions
+      - project_instructions
+      - skills_and_methods
+      - subagent_task_instructions
+      - tool_connector_constraints
+    one_effective_owner_per_responsibility: REQUIRED
+    unresolved_material_conflict: BLOCKED_OR_OUT_OF_RUNTIME_CLAIM
+    universal_precedence_engine: false
+    full_instruction_registry: false
+  delegation_authority:
+    activation: CONDITIONAL_ON_MATERIAL_DISPATCH
+    context: MINIMUM_SUFFICIENT_FOR_BOUNDED_CLAIM
+    tools: MINIMUM_SUFFICIENT
+    actual_permission_mode_bound: true
+    instructions_assumed_to_remove_inherited_access: false
+    least_privilege_fallback: SAFEST_SUPPORTED_SURFACE_AND_SEMANTIC_CONSTRAINT
+  divergent_world_state:
+    semantic_dependencies:
+      - evidence
+      - assumptions
+      - caveats
+      - dependencies
+      - bounded_conclusion
+    invalid_dependency_disposition:
+      - REJECT
+      - REDO
+      - WEAKER_CLAIM
+    universal_return_package: false
+  method_reference_scope:
+    loading: JUST_IN_TIME_AND_BOUNDED
+    control_owner: false
+    authority_owner: false
+    full_registry_gateway: false
+  longitudinal_owners:
+    human_capability_trajectory: HUMAN_PLUS_OPERATING_LEARNING
+    platform_compatibility: OPERATING_EXECUTION
+    post_delivery_outcome_and_economics: RECIPIENT_OR_OPERATING_LEARNING
+    formation_monitoring_owner: false
+    universal_telemetry: false
+  persistent_control_lifecycle:
+    admission_requires:
+      - supported_failure_mechanism
+      - owning_requirement
+      - expected_benefit
+      - lowest_responsible_layer
+      - activation_condition
+      - negative_constraint_against_universalization
+      - evaluation_or_falsifier
+      - retirement_or_simplification_condition
+    standing_control_registry_required: false
+  four_blocking_repairs:
+    ccr_06_competing_initiatives:
+      activation: CONDITIONAL_ON_MATERIAL_SCARCE_RESOURCE_COMPETITION
+      strategic_decision_owner: LEGITIMATE_STRATEGIC_OWNER
+      universal_portfolio_stage: false
+    ccr_07_human_capability:
+      activation: CONDITIONAL_ON_MATERIAL_CAPABILITY_OR_AUTONOMY_EFFECT
+      human_owned_by_default: false
+    probe_candidate_boundary:
+      probe_status: PROVISIONAL
+      candidate_requires:
+        - professional_performance_floor
+        - method_basis
+        - evidence_or_comparison_basis
+      universal_qualification_stage: false
+    stale_return_reconciliation:
+      activation: CONDITIONAL_ON_DELAY_PARALLELISM_OR_POTENTIAL_STATE_DIVERGENCE
+      integration_owner: Native Primary
+      universal_return_package: false
+      universal_rebind: false
+      mandatory_reviewer: false
+
+chatgpt_adapter:
+  source_compatibility: CANDIDATE
+  initial_provider_scope:
+    - ChatGPT Chat
+    - ChatGPT Work
+  codex_adapter: OUT_OF_INITIAL_CLAIM
+  global_custom_instructions:
+    applicable_capacity_characters: 5000
+    capacity_status: CURRENT_IMPLEMENTATION_CONTEXT
+    false_1500_constraint_present: false
+    target_paths:
+      - non_project_chat
+      - non_project_work
+  project_instructions:
+    precedence_over_global_custom_instructions: true
+    required_content:
+      - canonical_kernel_semantics
+      - core_method_hook
+      - project_local_overlay
+    target_paths:
+      - project_chat
+      - project_work
+  one_effective_kernel_per_path: REQUIRED
+  formation_skill:
+    sole_formation_activation_owner: true
+    core_method_reference: 07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md
+    executes_or_orchestrates_professional_method: false
+    automatic_cross_surface_sync_assumed: false
+    carrier_distribution: UNRESOLVED_IMPLEMENTATION_FACT
+  native_return_integration:
+    stale_or_divergent_reconciliation: CONDITIONAL
+    semantic_dependency_reconciliation: REQUIRED_WHERE_MATERIAL
+    integration_owner: Native Primary
+    mandatory_return_package: false
+    universal_rebind: false
+
+surface_skill_identity_matrix:
+  claim_rule: >-
+    Create one record for every exact account/workspace, app surface,
+    Chat-or-Work mode, Project-or-Non-Project path and Project identity claimed.
+    Do not infer installation or identity across desktop and web/mobile surfaces.
+  required_fields:
+    - surface_record_id
+    - account_or_workspace
+    - app_surface
+    - app_build_or_browser
+    - agent_surface
+    - context_path
+    - project_id
+    - effective_kernel_carrier
+    - kernel_source_version
+    - installed_kernel_output_hash
+    - formation_skill_id
+    - formation_skill_version
+    - formation_skill_hash
+    - skill_installation_status
+    - readback_timestamp
+    - compatibility_evidence_timestamp
+    - compatibility_evidence_owner
+    - compatibility_recheck_trigger
+    - obsolete_assumption_retirement_condition
+    - evidence_reference
+    - runtime_claim
+  records: []
+
+current_runtime:
+  runtime: material-work-entry v0.8-candidate
+  status: INSTALLED_PER_CONTROLLING_RUNTIME_EVIDENCE
+  exact_identity_source: external_runtime_readback_evidence_not_embedded
+  preserve_unchanged: true
+  rollback_evidence: PRESERVE
+  disable_authorized: false
+  migration_authorized: false
+  cutover_authorized: false
+
+route_b_runtime_claims:
+  source: SOURCE_CANDIDATE
+  installation: NONE
+  installed_surfaces: []
+  runtime_behavior: UNVERIFIED
+  intended_use: UNVERIFIED
+  promotion: NONE
+
+source_build_assurance:
+  scope: STATIC_SOURCE_ONLY
+  performed_on: 2026-08-25
+  result: PASS__NON_INDEPENDENT_STATIC_RECONCILIATION
+  checks:
+    - exactly seven required source artifacts present
+    - YAML sources parse successfully
+    - non-self artifact hashes match the manifest
+    - canonical Kernel contains K-01 through K-12
+    - Formation contains all terminating dispositions
+    - Native Primary, native Subagents and v0.8 preservation are explicit
+    - one effective Kernel and sole Formation Activation Owner are explicit
+    - all primary and supporting Core Work Functions are present
+    - Information/Evidence is foundational and cross-cutting
+    - Method Discovery contract and Native Primary composition ownership are explicit
+    - Core Work Functions are not stages and no mandatory method pipeline exists
+    - v0.1 State Card remains byte-identical
+    - CCR-06 conditional strategic-resource semantics are explicit
+    - CCR-07 conditional Human-capability and future-autonomy semantics are explicit
+    - Probe not equal Candidate qualification boundary is explicit
+    - stale-return reconciliation is conditional and Primary-owned
+    - named Formation activation delta and no self-reactivation are explicit
+    - Native Primary remains sole episode, composition and final-answer owner
+    - native Spawn, Wait, Permission and Synthesis mechanisms are not duplicated
+    - Method and Reference loading is JIT and scoped without Control or Authority ownership
+    - Subagent use requires decomposition, context-isolation, parallelism, specialization or assurance value
+    - genuine assurance diversity remains property-specific rather than thread-based
+    - minimum context, Tools, actual permission mode, permitted operations and action authority are bound where material
+    - semantic stale-world reconciliation preserves evidence, assumptions, caveats and dependencies
+    - longitudinal Human-capability, platform-compatibility and post-delivery outcome owners are explicit
+    - persistent controls require evidence, benefit, activation, non-universalization and retirement or simplification logic
+    - no portfolio stage, Human-ownership default, universal qualification flow, Return package, Rebind or mandatory Reviewer was introduced
+    - installation, Runtime behavior and Promotion claims remain blocked
+  does_not_establish:
+    - compiled carrier fidelity
+    - installability
+    - surface availability
+    - Runtime behavior
+    - intended-use fitness
+    - Promotion
+
+forbidden_in_this_package:
+  - Skill installation or update
+  - Carrier build
+  - Global Custom Instructions mutation
+  - Project Instructions mutation
+  - v0.8 disablement or repair
+  - Runtime cutover
+  - State migration
+  - Runtime test execution
+  - Repository authority change
+  - Promotion
+
+pre_installation_decision_requirements:
+  - id: PID-01
+    requirement: Freeze and statically reconcile exact candidate source identities and compiled-output identities.
+    status: SOURCE_IDENTITIES_FROZEN__COMPILED_OUTPUTS_PENDING
+  - id: PID-02
+    requirement: Compile the canonical Kernel and Core Method hook into the target Global-CI payload and each in-scope Project payload without semantic drift.
+    status: NOT_EXECUTED
+  - id: PID-03
+    requirement: Compile the Formation Method with the canonical Core Method reference into the supported focused Skill carrier without adding an episode controller, duplicate Kernel or method-execution owner.
+    status: NOT_EXECUTED
+  - id: PID-04
+    requirement: Select the exact account/workspace, desktop and web/mobile surfaces, Chat/Work paths and Projects proposed for installation.
+    status: UNDECIDED
+  - id: PID-05
+    requirement: Establish the exact surface-specific Formation Skill installation and readback route for every claimed path.
+    status: UNVERIFIED_IMPLEMENTATION_FACT
+  - id: PID-06
+    requirement: Generate and statically inspect each Project overlay for conflict with the canonical Kernel.
+    status: NOT_EXECUTED
+  - id: PID-07
+    requirement: Read back the then-current v0.8 identity and preserve an exact rollback source before cutover authorization.
+    status: DEFERRED_TO_CUTOVER_FORMATION
+  - id: PID-08
+    requirement: Form one bounded cutover plan that prevents work during mixed-runtime state and identifies exact writes, readbacks, reconciliation and rollback.
+    status: NOT_AUTHORIZED
+  - id: PID-09
+    requirement: Obtain an explicit installation/cutover decision and action-specific authorization.
+    status: NOT_AUTHORIZED
+  - id: PID-10
+    requirement: Reconcile the exact effective instruction and constraint stack for every claimed path and block unresolved semantic-owner conflicts.
+    status: NOT_EXECUTED
+  - id: PID-11
+    requirement: Establish actual permission mode, minimum Tool set and enforceable least-privilege fallback for each materially delegated or effect-capable carrier path.
+    status: UNVERIFIED_IMPLEMENTATION_FACT
+  - id: PID-12
+    requirement: Date provider and surface compatibility evidence, assign its Operating/Execution owner and define recheck and obsolete-assumption retirement triggers.
+    status: NOT_EXECUTED
+  - id: PID-13
+    requirement: Assign representative post-delivery outcome and Whole-System-Economics evidence to the recipient or legitimate Operating/Learning owner without making Formation the monitor.
+    status: DEFERRED_TO_RUNTIME_AND_OPERATING_EVIDENCE
+
+post_implementation_evidence_plan:
+  scope: CUSTOM_DELTA_ONLY
+  broad_synthetic_program: false
+  native_capability_testing: false
+  comparator_program: false
+  representative_real_use_cases:
+    - non_project_direct_case_with_correct_non_activation
+    - project_case_with_single_terminating_formation
+    - real_authority_continuity_or_external_effect_boundary
+    - delayed_or_compressed_return_with_changed_dependency_state
+    - repeated_delegation_case_with_human_capability_effect
+    - recipient_use_case_with_human_correction_or_rework
+  evaluation_targets:
+    - time_to_useful_outcome
+    - intended_use_quality
+    - human_correction_and_rework
+    - actual_use_or_decision_effect
+    - human_capability_effect_where_material
+    - whole_system_economics_where_material
+  process_compliance_is_outcome_success: false
+  universal_telemetry_required: false
+  evidence_owner: RECIPIENT_OR_LEGITIMATE_OPERATING_LEARNING_OWNER
+  promotion_requires_separate_decision: true

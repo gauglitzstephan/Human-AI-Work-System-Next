@@ -1,638 +1,147 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** REQUIREMENTS v0.2 PROMOTION COMPLETE VIA PR #18 — **REQUIREMENTS v0.2 CONTROLS ON `main`; v0.1 IS HISTORICAL QUALIFIED PRIOR / TARGET ARCHITECTURE v0.2 KEEP CLOSED / RUNTIME SOLUTION FORMATION IS NOW THE NEXT ELIGIBLE FRONTIER / NO UI, SKILL OR RUNTIME CHANGE**.  
-**Date:** 2026-08-24  
-**PR #13 Runtime repository Promotion:** **COMPLETE**.  
-**PR #14 repository-hygiene Promotion:** **COMPLETE** — post-merge readback/reconciliation complete.  
-**PR #16 R21 repository convergence:** **COMPLETE** — merged; post-merge authority/readback reconciliation complete.  
-**PR #17 post-R21 authority-state reconciliation:** **COMPLETE** — merged at `main@5e3c84309b3c59da4ba8bde7748c66eaa41d802f`; readback PASS.  
-**PR #18 Requirements v0.2 Promotion:** **COMPLETE** — merged at `b355ed63ad94d6456a6913cac079458238067921`; post-merge readback and bounded authority reconciliation PASS.  
-**Static E2E package:** promoted via PR #11 — **KEEP CLOSED** absent a named static reopen trigger.  
-**Current active Runtime:** Global v0.5 remains repository-promoted, restored and independently UI-read back; Project v0.4 remains the repository-promoted compiled baseline, while direct Human UI content readback identifies the live Project payload as the branch-origin v0.5 Candidate; external Personal Skill `material-work-entry v0.6-candidate` is installed and source-validated with bounded real-use evidence, but remains unpromoted.  
-**Authority:** `main/CURRENT.md` is the controlling repository state. A copy of this file on an unmerged branch is Candidate state; only the exact state read from `main` after an authorized merge and readback becomes controlling. Behavioral validation and real-use evidence change validation/repair readiness only; they do not themselves promote Runtime/Canonical/architecture state. Unmerged repair/prototype branches and external Skill candidates remain Working/Candidate state.
+**Status:** ROUTE B v0.5 SOURCE DESIGN BASIS HUMAN-ACCEPTED — REPOSITORY PROMOTION PENDING THIS BRANCH/PR; COMPLETE CHATGPT RUNTIME IMPLEMENTATION IS THE ACTIVE NEXT FRONTIER; CURRENT UI RUNTIME REMAINS UNCHANGED.  
+**Date:** 2026-08-25  
+**Authority:** `main/CURRENT.md` is the controlling repository state. This branch copy is Candidate state until the exact commit is merged to `main` and read back.  
 
-## 1. Parent program and qualified state
-
-Parent outcome:
+## 1. Parent program
 
 > Realize and validate the Human–AI Work System on genuine work without losing state, authority, professional quality, Human agency or proportionality.
 
-Current qualified state:
+## 2. Controlling and accepted state
 
 ```text
-Target Architecture v0.2                          ACCEPTED / KEEP CLOSED
-Static E2E Work Architecture package              REPOSITORY-PROMOTED / KEEP CLOSED
-Runtime deployment + interaction-control repair   REPOSITORY-PROMOTED via PR #13
-Repository hygiene/state reconciliation           REPOSITORY-PROMOTED via PR #14
-R21 product/carrier + real-use reconciliation      REPOSITORY-PROMOTED EVIDENCE via PR #16 / READBACK PASS
-Post-R21 authority-state reconciliation           REPOSITORY-PROMOTED via PR #17 / READBACK PASS
-Requirements v0.2                                 CONTROLLING REPOSITORY BASELINE / PROMOTED via PR #18
-Requirements v0.1                                 HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
-ADR-0003                                          ACTIVE
-Requirements Promotion                            COMPLETE / POST-MERGE READBACK PASS
+Requirements v0.2                         CONTROLLING ON main / PROMOTED via PR #18
+Requirements v0.1                         HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
+Target Architecture v0.2                  ACCEPTED / KEEP CLOSED
+Static E2E architecture package           REPOSITORY-PROMOTED / KEEP CLOSED
 
-Active Global v0.5                                RESTORED / PERSISTENT UI READBACK PASS
-Repository Project compiled baseline              v0.4 / PROMOTED
-Exact live Project payload identity                v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
+Route B Runtime Source Candidate          v0.5
+Route B Source identity                   9a7aa240deda2e95806f915e99b62936cd82a7a1
+Route B closure-review branch head        135511fdf941e43dc6585322b65855d3d27c09e5
+Route B Source decision                   HUMAN-ACCEPTED / FROZEN DESIGN BASIS
+Source external-failure-mode closure      PASS WITHIN SOURCE SCOPE
+Carrier / implementation                  NOT YET BUILT
+Installation / Runtime behavior           UNVERIFIED
+Runtime Promotion                         NONE
 
-R19 Runtime conformance — Chat + GitHub            PASS within prior scoped preflight
-R19x Work/Codex cross-surface conformance          PARTIALLY EXERCISED: Work Skill path + first genuine Work continuation now behaviorally exercised; Codex still not exercised
-
-R20 Graphic-Novel Cold-Start case                  FAIL
-R20 initial failure localization                   COMPLETE
-R20 Global v0.6 behavioral validation              FAIL — 2/2 cold-start runs
-R20 Global v0.7 behavioral validation              FAIL — 2/2 cold-start runs
-Global-CI-only Entry enforcement family            FALSIFIED for tested R20 failure class
-Local explicit Admission isolation                 PASS
-
-Static Architecture                               KEEP CLOSED
-Global v0.6 repair candidate                       BEHAVIORAL FAIL / NOT PROMOTION-ELIGIBLE
-Global v0.7 repair candidate                       STATIC PASS ON BRANCH / BEHAVIORAL FAIL 2/2
-Project v0.5 disposable recovery regression        PASS — SCOPED, NOT COLD-START PROOF
-Project v0.6 behavioral status                     UNVERIFIED / NOT TESTED
-
-Two-Pass Entry Gateway prototype                   INSTANTIATED / STATIC-OFFLINE PASS
-Live Responses API validation                      BLOCKED BEFORE FIRST CALL — no bound API credential
-API Gateway                                        DEFERRED optional hard-enforcement path
-
-material-work-entry v0.2 R20 validation matrix    HISTORICAL PASS within recorded scope
-material-work-entry v0.5 wedding concept case      PASS within concept-formation frontier
-material-work-entry v0.5 EV decision case          PARTIAL — closure PASS; assurance incomplete
-material-work-entry v0.6 EV decision case          PASS — current evidence, closure and re-entry contract; active monitoring unverified
-material-work-entry v0.6 source/structure           VALIDATED externally / CANDIDATE
-v0.6 SKILL.md identity                              SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
-v0.6 System-Boundary Discovery                     PASS in personal-information-system case
-v0.6 minimal Parent-state bootstrap                PASS in personal-information-system case
-v0.6 provider return → Parent rebind                UNVERIFIED
-Evaluator missing-bootstrap claim                  RETRACTED — evidence-slice error
-Native Work-Skill candidate                        SUPPORTED only within versioned tested frontiers
-
-Native Work real-use pilot                         PASS within bound Story-Assurance frontier
-Established professional continuation              PASS within tested frontier
-Existing-artifact audit + failure detection         PASS
-AI-resolvable structural repair                    PASS
-Claim-bound assurance / transition integrity        PASS
-Reader emotional effect                            UNVERIFIED — story-specific downstream claim
-Full-Arc story promotion                           BLOCKED / NOT GRANTED
-
-Documented ChatGPT Work/Chat/Project/Memory facts  RECOVERED FROM CURRENT OPENAI DOCS
-Synthetic testing of documented product basics     STOP
-Custom GPT                                         DEFERRED
-
-Current Requirements decision                      v0.2 PROMOTION COMPLETE / ADR-0003 ACTIVE
-Requirements Promotion                             COMPLETE via PR #18 + main readback
-R20 active repair                                  CLOSED
-R21 active work                                    CLOSED — PR #16 + PR #17 MERGED / READBACK PASS
-Next                                               RUNTIME SOLUTION FORMATION — FORM ONLY; NO BUILD/PROMOTION IMPLIED
-Real-use quality / outcomes                        PARTIALLY ESTABLISHED within versioned frontiers; broader system outcomes NOT ESTABLISHED
+Current ChatGPT UI Runtime                UNCHANGED
+Exact current Global/Project/Skill stack  UNRECONCILED PENDING DIRECT UI READBACK
+Repository `main` mutation                PENDING PR / NOT YET CONTROLLING
 ```
 
-No Target-Architecture ownership gap is established. Requirements v0.2 is now the controlling Requirements baseline; the accepted Target Architecture already owns its semantics and remains closed. Requirements Promotion changed repository Requirements authority only, not Runtime, Skill, UI, solution or architecture state.
+The accepted Source basis is subordinate to Requirements v0.2 and the closed Target Architecture v0.2. Source acceptance authorizes implementation from the frozen semantics; it does not establish carrier fidelity, installation, Runtime behavior, intended-use fitness, cutover or Promotion.
 
-## 1R. Requirements v0.2 promotion complete
+## 3. Frozen Route B v0.5 Source Design Basis
+
+Canonical package:
+
+- `realization/runtime/route-b/v0.5-candidate/01-CANDIDATE-CONTRACT.md`
+- `realization/runtime/route-b/v0.5-candidate/02-CANONICAL-KERNEL.md`
+- `realization/runtime/route-b/v0.5-candidate/03-FORMATION-METHOD.md`
+- `realization/runtime/route-b/v0.5-candidate/04-CHATGPT-ADAPTER-COMPILATION.md`
+- `realization/runtime/route-b/v0.5-candidate/05-IDENTITY-COMPATIBILITY-MANIFEST.yaml`
+- `realization/runtime/route-b/v0.5-candidate/06-CONDITIONAL-STATE-CARD-SCHEMA.yaml`
+- `realization/runtime/route-b/v0.5-candidate/07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md`
+
+Acceptance evidence:
+
+- `evidence/route-b/v0.4-to-v0.5-ASSURANCE-DIVERSITY-AND-SOURCE-COMPACTION-MAP.md`
+- `reviews/route-b/ROUTE-B-v0.5-FAILURE-MODE-CLOSURE-REVIEW.md`
+- `reviews/route-b/ROUTE-B-EXTERNAL-ARCHITECTURE-CHALLENGE.md`
+
+The Source is frozen for implementation. Do not patch it for unobserved carrier or Runtime questions. Reopen only on a named Source or Architecture trigger supported by implementation or real-use evidence.
+
+## 4. Quality and Method basis
+
+Route B does **not** equate a Formation Skill with professional quality.
+
+The complete provider-neutral Work Function and Method Discovery semantics are owned by:
+
+- `realization/runtime/route-b/v0.5-candidate/07-CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md`.
+
+Professional quality remains claim-, domain- and intended-use-relative. The implementation must preserve this chain:
 
 ```text
-PR #18 base                         5e3c84309b3c59da4ba8bde7748c66eaa41d802f
-Final reviewed Candidate head      e00fb7d2249e4bcd51f3ce50f32480edf039f1da
-PR #18 merge SHA                   b355ed63ad94d6456a6913cac079458238067921
-Requirements v0.2                  CONTROLLING ON main
-Requirements v0.1                  HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
-Reconciliation evidence            PROMOTION EVIDENCE / PASS
-ADR-0003                            ACTIVE
-Target Architecture v0.2           ACCEPTED / CLOSED / COMPATIBILITY REQUALIFIED
-Runtime / Skill / Project UI        UNCHANGED
-Runtime Solution Formation          ELIGIBLE / NOT YET EXECUTED
+Work Function
++ Intended Use
++ Performance Floor
++ Domain
++ Evidence Need
+→ eligible qualified Professional Method(s)
+→ capable provider / surface / tool / Human composition
+→ method-relevant assurance
 ```
 
-Completed transition:
+Current repository method assets are **not a complete general method library**. `methods/METHOD-REGISTRY-v0.1.md` currently indexes six Candidate System-Development method packs only. Therefore the Runtime implementation must:
+
+1. make the complete Core Work Function library available;
+2. provide just-in-time access to the repository Method Registry and relevant packs;
+3. retrieve and qualify authoritative external or connected methods when the registry does not cover the claim;
+4. keep the claim weaker, provisional or blocked when no adequate method can be established;
+5. keep Domain Methods separate from Formation and from Kernel/Control ownership;
+6. never claim that the Formation carrier alone supplies professional method coverage.
+
+This is an implementation requirement, not a reason to reopen or enlarge the accepted Source.
+
+## 5. Current Runtime and rollback boundary
+
+The last repository-qualified Runtime lineage remains historical evidence:
 
 ```text
-Human-accepted v0.2 Design Basis
-→ bounded Candidate persistence / exact-head review
-→ Human merge authorization
-→ PR #18 merge
+Global Custom Instructions               v0.5 repository-promoted / prior UI readback PASS
+Project compiled baseline                v0.4 repository-promoted
+Last directly read live Project payload  v0.5 Candidate / unpromoted
+External Personal Skill                  material-work-entry candidate lineage / unpromoted
+```
+
+The actual current Global, Project and installed Skill identities must be read directly from the relevant ChatGPT UI surfaces before installation or cutover. Do not infer them from Source manifests, old chats or historical files.
+
+Until a separately authorized installation:
+
+- preserve the current UI Runtime unchanged;
+- preserve exact rollback payloads after direct readback;
+- prevent old and new Formation owners from being co-active on a claimed Route B path;
+- perform no migration, cutover or retirement.
+
+## 6. Active implementation frontier
+
+Create one complete implementation branch and one stacked implementation PR for the ChatGPT Runtime. The implementation must produce and assure:
+
+1. **Global Custom Instructions candidate** — complete Kernel semantics and minimum Core Method hook within the current carrier limit;
+2. **System Development Project Instructions candidate** — same Kernel/Core hook plus stable project-local overlay;
+3. **focused Formation Skill candidate** — terminating Formation Method plus supporting Core Work Function/Method Discovery resources, without owning the episode or executing Domain Methods;
+4. **Method-access and coverage realization** — complete Work Function library, current System-Development method packs, qualified JIT fallback and explicit coverage limits;
+5. **effective-stack and identity manifest** — one semantic owner per responsibility and one effective Kernel per path;
+6. **current-runtime readback and rollback package**;
+7. **installation/cutover instructions and mixed-runtime prevention**;
+8. **claim-bound carrier assurance and Runtime validation package**.
+
+The implementation branch may repair implementation defects. It must not modify the frozen Route B v0.5 Source, reopen Target Architecture v0.2, mutate ChatGPT UI state, install a Skill, disable the current Runtime, merge, migrate or claim Runtime PASS.
+
+## 7. Repository transition
+
+```text
+PR 1 — this branch
+Route B v0.5 Source package + acceptance/state reconciliation
+→ Human merge decision
+→ merge to main
 → main readback
-→ bounded post-merge authority reconciliation
-→ Requirements v0.2 controlling
-→ Requirements v0.1 superseded only in controlling role
-→ Runtime Solution Formation becomes eligible
+
+PR 2 — complete Route B ChatGPT Runtime implementation
+stacked on PR 1 until PR 1 merges
+→ carrier and method-access build
+→ static/independent implementation assurance
+→ installation decision
+→ separate UI authorization and readback
+→ bounded Runtime validation
+→ later Promotion decision only if evidence supports it
 ```
 
-## 1A. R21 real-use reconciliation
+Historical R20/R21 evidence remains in `evaluation/e2e-real-use/`, prior realization artifacts remain in `realization/`, and repository history preserves the previous expanded `CURRENT.md`. They are evidence and lineage, not the active frontier.
 
-R21 reconciled evidence set (repository-promoted via PR #16):
+## 8. Current disposition
 
-Primary case records:
+**CONTINUE — PR 1 SOURCE-BASIS PROMOTION PREPARATION AND PR 2 COMPLETE CHATGPT RUNTIME IMPLEMENTATION.**
 
-- `evaluation/e2e-real-use/E2E-03-R21-2026-08-22-WEDDING-DESSERT-v0.5.md`;
-- `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.5.md`;
-- `evaluation/e2e-real-use/E2E-01-R21-2026-08-22-EV-WAIT-DECISION-v0.6.md` — current-evidence consequential-decision qualification; WAIT closure and bounded re-entry contract PASS; active monitoring not performed;
-- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-PERSONAL-INFORMATION-SYSTEM-v0.6.md`;
-- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-LIVE-PROJECT-IDENTITY-READBACK.md` — Human UI content readback resolves the live Project carrier as v0.5 Candidate while repository Promotion remains v0.4.
-
-Secondary synthesis:
-
-- `evaluation/e2e-real-use/E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md` — version-scoped cross-case synthesis; ChatGPT-native product reconciliation; evaluator correction; exact remaining qualification frontier.
-
-Qualified delta:
-
-```text
-Wedding concept formation — v0.5              PASS within concept frontier
-Electric-car WAIT decision — v0.5             PARTIAL — closure PASS; evidence assurance incomplete
-Electric-car WAIT decision — v0.6             PASS — current evidence, closure and re-entry contract within stated ranges; active monitoring unverified
-Personal-information boundary/bootstrap — v0.6 PASS within dispatch/bootstrap frontier
-Live Project payload identity                  PASS — v0.5 Candidate by Human UI content readback; repository baseline v0.4
-Windows provider return → Parent rebind        UNVERIFIED / MONITOR IN GENUINE USE
-Evaluator claim of missing Current             RETRACTED — attached artifact proves bootstrap
-Target Architecture                            KEEP CLOSED
-Skill repair / Runtime promotion               NONE; PR #16 changed repository evidence/state documentation only
-```
-
-The current official ChatGPT-native model used here is conditional rather than a fixed surface pipeline: Chat for bounded work, Work for substantial multi-source/tool/step work, Projects for earned continuing context, Skills for focused reusable workflows, Memory as selective context rather than authority, and files/connectors/tools as bounded evidence/action providers. Historical R20 product statements remain evidence of that review date; the R21 report records the current reconciliation and source URLs.
-
-The primary cases do not constitute a complete v0.6 promotion wave. The wedding and original electric-car records carry v0.5 markers. The personal information-system and current electric-car records directly exercise different v0.6 frontiers: System-Boundary Discovery/Persistence Bootstrap and consequential decision closure/re-entry design. Provider return/rebind, the bounded negative control and active monitoring execution remain unverified, but no longer block repository convergence; observe them in genuine use.
-
-## 1B. Native-state and candidate-lineage reconciliation
-
-The R21 evidence is tied to one explicit version-scoped Candidate composition:
-
-```text
-Global v0.5                         REPOSITORY-PROMOTED invariant/fallback kernel
-Project v0.4                       REPOSITORY-PROMOTED project-local baseline
-Exact live Project payload         v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
-material-work-entry v0.6-candidate INSTALLED EXTERNAL trigger-local workflow controller / UNPROMOTED
-Domain methods/specialized Skills  selected per frontier; not replaced by Entry control
-Chat/Work/Codex/tools               conditional providers/surfaces, not architecture stages
-R21 evidence                        REPOSITORY-PROMOTED via PR #16 / version-scoped / partial
-Static Architecture                 KEEP CLOSED
-```
-
-The current-turn supplied User Custom Instructions match the repository Global v0.5 payload by content. This is effective current-turn carrier evidence, not an independent persistent UI byte-identity check.
-
-The Human separately copied the full live System Development Project Instructions from the UI. After LF normalization, that payload matches `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.5.md` on `repair/r20-cold-start-admission-v0.1` (6,143 characters; SHA-256 `16b46d87d98926e3e676957782569061f84faa2f5060d9d6e590c6e98853842b`). This resolves the live carrier identity while leaving repository Promotion at v0.4.
-
-Draft PR #15 (`repair/r20-exploration-readiness-v0.3`) contains valid learning that exploration is a Work Function subject to readiness, Work Function differs from frontier readiness, AI-resolvable context precedes Human burden, professional performance/reference basis precedes route qualification, probes are not Candidates, and Decision does not itself make execution ready. Those semantics are incorporated and expanded in the installed v0.6 source. Therefore:
-
-```text
-PR #15 v0.3 solution artifact       SUPERSEDED BY v0.6 SOURCE LINEAGE
-PR #15 readiness/exploration lesson RETAINED
-PR #15 merge as current solution    BLOCKED
-PR #15 close/comment mutation       NOT PERFORMED in this reconciliation delta
-```
-
-The canonical Product/Carrier mapping in the R21 convergence package is reconciled so that Skills are focused reusable workflows which may operationalize cross-domain Work Functions such as Entry/Formation control. They are not reduced to domain Method storage. Availability, installed distribution, configuration and surface behavior remain deployment facts that require bounded verification.
-
-This is a Runtime/product-carrier reconciliation, not a new Target-Architecture responsibility. Textual overlap across Global, Project and Skill carriers remains an audit question; harmful duplication is not established.
-
-## 2. Persistent R20 evidence
-
-Material records on `main`:
-
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GRAPHIC-NOVEL-COLD-START-RCA.md` — initial differential RCA;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-BEHAVIORAL-VALIDATION.md` — v0.6 carrier/readback/behavior/rollback/isolation evidence;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-GLOBAL-V0.7-BEHAVIORAL-FAILURE.md` — exact v0.7 install/readback PASS, cold-start FAIL 2/2, downstream abort, exact v0.5 rollback PASS, bounded falsification of Global-CI-only enforcement;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-TWO-PASS-GATEWAY-LIVE-API-READINESS-BLOCKER.md` — live API validation authorized but blocked before first call because no authorized API credential was bound;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-NATIVE-WORK-SKILL-VALIDATION.md` — consolidated `material-work-entry v0.2` Work-surface validation plus reconciliation of documented ChatGPT Work/Chat/Project/Memory/Skill semantics;
-- `evaluation/e2e-real-use/E2E-04-R20-2026-08-21-NATIVE-WORK-SKILL-REAL-USE-PILOT.md` — first genuine Work pilot: existing 3-epoch beer-story artifact audited, repaired and qualified to structural PASS while reader emotional performance and Full-Arc readiness remain pending.
-
-Candidate/static assurance retained outside `main` Promotion state:
-
-- `repair/r20-cold-start-admission-v0.1` → `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.3.md`;
-- `repair/r20-entry-dispatch-v0.2` → corrected Entry-Dispatch source/carriers + `reviews/E2E-RUNTIME-COMPILED-SEMANTIC-TRACE-v0.4.md`;
-- `prototype/r20-two-pass-entry-gateway-v0.1` → executable gateway/schema/eval-harness prototype.
-
-Positive static branch traces, external Skill behavior and bounded real-use PASS do not independently promote repository Runtime state.
-
-## 3. R20 actual case and original failure
-
-The genuine work case is development of a long-form historical Graphic Novel about the history of beer.
-
-At cold start it was materially:
-
-- professionally/craft dependent;
-- open in narrative problem and solution class;
-- reference-sensitive;
-- plausibly persistent across work episodes;
-- capable of materially different story architectures depending on unresolved upstream Performance/Reference state.
-
-Observed original failure:
-
-> substantive Story-Architecture solution/candidate work began before enough professional Performance/Reference/Method basis and persistence/context need had been formed.
-
-The Human had to detect and redirect this AI-resolvable upstream orchestration defect.
-
-## 4. Failed Global-CI-only repair family
-
-### Global v0.6
-
-Branch: `repair/r20-cold-start-admission-v0.1`.
-
-Qualified result:
-
-```text
-Global v0.6 exact UI install/readback       PASS
-Cold-start behavioral result                FAIL 2/2
-Professional Method/Reference activation    FAIL 2/2
-Probe≠Candidate behavior                    FAIL 2/2
-Global v0.5 rollback/readback                PASS
-Local explicit Admission isolation           PASS
-```
-
-### Global v0.7 / corrected Entry Dispatch
-
-Branch: `repair/r20-entry-dispatch-v0.2`.
-
-Corrected relation:
-
-```text
-Human trigger
-→ BIND CONTEXT
-→ BOUND CONTINUATION vs NEW/CHANGED CLAIM
-→ if NEW/CHANGED: DIRECT vs FORMATION
-→ substantive work
-```
-
-Static coverage included nested/direct/change regressions. Final tested Global v0.7 identity:
-
-```text
-LF       4,992
-CRLF     4,999
-SHA-256  02d58d921b369525d5cdfc43f7a7755ef11876ab75bf12871d8dab2dd7c1cea1
-```
-
-Behavioral result:
-
-```text
-Global v0.7 exact install/readback                   PASS
-G1a Entry/Formation before preferred route           FAIL
-G1b Entry/Formation before preferred route           FAIL
-Professional/Reference activation before Candidate  FAIL 2/2
-Probe≠Candidate behavior                             FAIL 2/2
-Substantive help                                     PASS 2/2
-Global v0.5 rollback/readback                        PASS
-```
-
-Strongest supported implication:
-
-> **Permanent Global Custom Instructions in the tested textual-kernel form are not a reliable standalone enforcement mechanism for R20 Cold-Start Entry/Admission.**
-
-This does not imply that Global CI is useless as a permanent invariant kernel.
-
-## 5. Architecture-reopen decision
-
-Current evidence establishes:
-
-```text
-architecture owner / responsibility                 EXISTS
-upstream readiness / transition integrity           EXISTS
-professional method/reference obligation            EXISTS
-persistent-state semantics                          EXISTS
-model/runtime can perform target behavior locally   SUPPORTED
-Global-CI-only permanent entry enforcement           FAIL / UNRELIABLE
-native Work-Skill trigger-local mechanism            BEHAVIORALLY SUPPORTED within tested scope
-native established-frontier Work continuation        PASS within first genuine pilot frontier
-```
-
-Therefore:
-
-> **STATIC ARCHITECTURE KEEP CLOSED.**
-
-No named static architecture reopen trigger is established.
-
-## 6. Deferred hard-enforcement path — Two-Pass API Gateway
-
-After Global-CI-only failure, a materially different enforcement class was formed and instantiated:
-
-```text
-Human trigger
-→ Pass 1: forced EntryDecision function call
-→ host validates schema + cross-field invariants
-→ only after valid dispatch: Pass 2
-→ route-local BOUND / DIRECT / FORMATION contract
-→ substantive answer
-```
-
-Prototype branch: `prototype/r20-two-pass-entry-gateway-v0.1`.
-
-Offline/static assurance:
-
-```text
-Prototype repository instantiation     PASS
-Forced-dispatch mechanism implemented  PASS
-Host semantic enforcement implemented  PASS
-R20 eval matrix implemented            PASS
-Offline/static validation              PASS
-Live Responses API execution           UNVERIFIED
-```
-
-Live validation was authorized but no API call occurred because the execution environment had no bound `OPENAI_API_KEY` and no equivalent connected provider. No behavioral inference about the gateway follows from that readiness blocker.
-
-The Human later decided that an API gateway is acceptable as a future option but should not be the active frontier until simpler native ChatGPT mechanisms are exhausted. That decision preserves Optionality and avoids premature billing/infrastructure complexity.
-
-## 7. Product-semantics reconciliation — Chat, Work, Projects, Memory, Skills
-
-Current OpenAI documentation was recovered instead of continuing to ask the Human to re-discover product behavior empirically.
-
-### Work / Chat
-
-ChatGPT Work is a ChatGPT mode/agent for longer, demanding work. Chat and Work chats appear together under Recents; cloud Work chats sync across supported ChatGPT surfaces.
-
-### Projects
-
-A Project is an explicit persistent context carrier containing related chats, files and instructions. Inside a Project, the Human can start either Chat or Work; Work uses the Project context.
-
-### Memory / chat history
-
-When enabled, saved Memory and chat-history reference can make relevant prior context available in later conversations. This is contextual retrieval and does not guarantee complete or authoritative transfer of prior work state. Project-only memory can deliberately isolate a Project from outside context; default Project memory can use broader context depending on plan/settings.
-
-### Skills and plugins — R21 current reconciliation
-
-Current official OpenAI documentation distinguishes distribution and surface:
-
-- standalone Skills are documented for the ChatGPT desktop app, Codex CLI and the IDE extension;
-- Skills bundled in plugins are documented for Chat and Work across ChatGPT web, desktop and mobile;
-- explicit or implicit invocation, plan/workspace settings and the installed distribution path can still affect observed availability.
-
-Therefore the earlier R20 observation proves only that this Skill was behaviorally exercised on the tested Work surface. It does not establish a universal Work-only boundary or universal availability on another surface.
-
-Current authoritative source URLs and the superseding interpretation are recorded in `E2E-04-R21-2026-08-22-MATERIAL-WORK-ENTRY-v0.5-v0.6-REAL-USE-SYNTHESIS.md`. The R20 source record remains historical evidence of its review date.
-
-## 8. Native Work Skill candidate
-
-Skill: `material-work-entry`.
-
-### v0.1
-
-Manual Work invocation and fresh-work detection succeeded, but the Skill still formed and then prematurely ranked a strongest story architecture. Professional/reference basis and probe→Candidate integrity were insufficient.
-
-### v0.2 repair
-
-v0.2 strengthened only the Skill body:
-
-- professional Performance/Reference/Method basis before route qualification when material;
-- explicit prohibition on strongest/best/preferred route during open Formation unless earned or explicitly requested provisionally;
-- probe→Candidate boundary;
-- self-qualification caution.
-
-The activation description remained unchanged to preserve diagnostic attribution.
-
-## 9. `material-work-entry v0.2` behavioral matrix on Work
-
-```text
-Manual fresh-work cold start                      PASS
-Automatic activation on fresh material work       PASS
-Single-Skill attribution after overlap removal    PASS
-Professional/reference Formation                  PASS
-Probe≠Candidate integrity                         PASS
-Simple translation                                PASS / Skill stays inactive
-Explicit ideation — clean unseen case              PASS / Skill stays inactive
-BOUND continuation                                PASS
-Material changed claim                            PASS / Skill re-activates
-Existing Parent + new professional Child           PASS / Skill re-activates
-```
-
-Representative validated transitions:
-
-```text
-new historical Graphic-Novel work
-→ Skill activates
-→ FORMATION
-→ professional/reference basis
-→ unqualified probes
-→ no premature route selection
-
-simple translation
-→ Skill stays inactive
-→ DIRECT
-
-explicit ideation as requested product
-→ Skill stays inactive in clean case
-→ DIRECT exploration
-
-same product-copy claim + "shorter"
-→ BOUND / direct continuation
-
-same chat + material expansion to full brand positioning
-→ Skill re-activates
-→ FORMATION
-
-existing shop Parent + new professional loyalty-program Child
-→ Skill re-activates
-→ FORMATION
-```
-
-Supported narrow claim:
-
-> **`material-work-entry v0.2` is behaviorally supported as an automatic native Entry/Admission controller on the tested ChatGPT Work surface.**
-
-This remains scoped behavioral support, not universal reliability or Promotion.
-
-## 10. Memory/context observation
-
-One ideation run activated both the Skill and Memory and reused earlier beer-story state. A clean unseen-topic ideation control then correctly left the Skill inactive.
-
-This is consistent with documented Memory/chat-history behavior. The required type boundary remains:
-
-```text
-Memory / retrieved prior-chat context
-= contextual evidence
-≠ automatically authoritative Parent/state/decision
-```
-
-No Memory defect is established merely because relevant earlier information crossed into a new Work chat.
-
-## 11. Current native runtime composition candidate
-
-The shallowest currently supported native composition is:
-
-```text
-GLOBAL CUSTOM INSTRUCTIONS
-→ permanent invariants / authority / state / Human-agency rules
-
-CHAT
-→ ordinary conversation, bounded questions, quick/direct work
-
-WORK
-→ longer/material professional work
-→ Personal Skill routing
-→ material-work-entry v0.6-candidate
-→ DIRECT or FORMATION
-
-PROJECT
-→ persistent initiative/context carrier when continuity earns it
-→ can host Chat or Work using Project context
-
-MEMORY / CHAT HISTORY
-→ optional contextual retrieval under user settings
-→ evidence/context, not automatic authority
-
-API TWO-PASS GATEWAY
-→ deferred hard-enforcement option if native Work-Skill performance later proves insufficient or surface-independent automation becomes necessary
-
-CUSTOM GPT
-→ deferred; no current incremental-value case over the positively supported Work-Skill path
-```
-
-This is a Runtime provider/surface/carrier assignment, not a new architecture stage.
-
-## 12. First genuine Native Work real-use pilot
-
-The pilot resumed the actual beer-Graphic-Novel Work Object at an established Story-Assurance frontier rather than using another fixture.
-
-The Work provider was asked to attack the existing 3-epoch prototype and determine whether `Choral Relationship Relay + Silent Hidden Partner` produces longitudinal emotional continuity or merely three thematically connected anthology episodes.
-
-Observed sequence:
-
-```text
-existing Working Artifact preserved
-→ professional narrative/sequential-art reference basis established
-→ original artifact fails the gate
-→ concrete structural + historical-semantic defects identified
-→ AI repairs those defects in Working Artifact v0.2
-→ failure-sensitive post-repair stress test
-→ exact structural claim qualified
-→ reader emotional performance remains UNVERIFIED
-→ Full Arc remains blocked
-```
-
-Material pilot properties:
-
-```text
-Parent/frontier continuity                     PASS
-Actual artifact before redesign                PASS
-Professional Method/Reference activation       PASS
-Failure detection                              PASS
-AI-resolvable refinement                       PASS
-Mechanism before polish                        PASS
-Claim-bound assurance                          PASS
-Transition integrity                           PASS
-Human burden within supplied return            PASS observed
-```
-
-Story-specific qualified state:
-
-```text
-3-epoch longitudinal mechanism                 STRUCTURAL PASS
-Actual reader emotional payoff                 UNVERIFIED
-Rendered sequential-page performance           UNVERIFIED
-Extension to additional epochs                 UNVERIFIED
-Full-Arc promotion                             NOT GRANTED
-```
-
-The pilot return itself does not independently prove Skill invocation on that established-frontier turn; no validation marker was present. That is not required for the exact pilot claim because prior Skill evidence already supports Entry/Re-admission, while this pilot evaluates downstream continuation/repair/assurance on an already bound legitimate frontier.
-
-Supported combined runtime claim:
-
-> **On the tested ChatGPT Work path, Entry/Re-admission is behaviorally supported by `material-work-entry v0.2`, and the first genuine established-frontier Work pilot demonstrated competent professional continuation, failure detection, AI-side repair and bounded assurance without reopening the original R20 failure class.**
-
-This does not establish universal system performance or downstream story outcome quality.
-
-## 13. Validation policy correction
-
-Do **not** spend Human time re-testing documented ChatGPT product basics unless a concrete discrepancy/bug is observed.
-
-Recover current authoritative product documentation first for questions such as:
-
-- Chat vs Work availability and intended role;
-- Project context/memory behavior;
-- Work use of Project context;
-- Personal Skill availability by supported surface;
-- Memory/chat-history semantics.
-
-Reserve empirical testing for system-specific claims that documentation cannot establish, including:
-
-- whether this custom Skill routes correctly on actual material work;
-- whether realistic Memory/Project context causes Parent/state/authority drift;
-- whether re-admission and Human Gates remain proportionate;
-- whether professional intended-use quality is achieved;
-- whether Work→Project persistence transition is actually useful in real use.
-
-This correction removes unnecessary Human QA/product-discovery burden from the validation method.
-
-## 14. Promotion / persistence status
-
-```text
-Static Architecture                    KEEP CLOSED
-Requirements v0.2                       CONTROLLING ON main / PROMOTED via PR #18
-Requirements v0.1                       HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
-ADR-0003                                ACTIVE
-Promoted Runtime deployment             UNCHANGED
-R21 canonical Product/Carrier mapping  REPOSITORY-PROMOTED via PR #16 / POST-MERGE READBACK PASS
-Promoted Global Runtime                v0.5
-Active external Global                 v0.5 restored/readback PASS
-Repository Project compiled baseline   v0.4 / PROMOTED
-Exact live Project payload identity    v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
-material-work-entry v0.6-candidate     EXTERNAL PERSONAL SKILL / UNPROMOTED CANDIDATE
-v0.2 R20 Entry behavior                HISTORICAL PASS within tested matrix
-PR #15 v0.3 solution artifact          SUPERSEDED; VALID LEARNING RETAINED; PR UNCHANGED
-v0.5 real-use evidence                 VERSION-SCOPED: concept PASS; decision PARTIAL
-v0.6 boundary/bootstrap behavior       PASS within tested dispatch frontier
-v0.6 source identity                   SKILL.md SHA-256 69203eb3a3c14506bd7a38289627b366ec5859a6eebc08bc5f8a30d7211cb295
-v0.6 provider return/rebind            UNVERIFIED / MONITOR IN GENUINE USE
-v0.6 consequential decision            PASS — current evidence, closure and re-entry contract within stated ranges
-v0.6 monitoring design                 PASS; ACTIVE MONITORING NOT PERFORMED / NOT AUTHORIZED
-v0.6 bounded negative control          UNVERIFIED / MONITOR IN GENUINE USE
-Old overlapping discover/form Skill    REMOVED by Human before single-Skill validation
-Two-Pass prototype branch              Candidate / unmerged / deferred
-Custom GPT                              deferred
-R21 repository transition              COMPLETE via PR #16 / post-merge authority readback PASS
-PR #15 mutation                         NONE
-Skill/Runtime repair or Promotion       NONE IN REQUIREMENTS PROMOTION
-```
-
-Persistence of validation evidence does not promote the Skill into authoritative Runtime state.
-
-## 15. R20 closure / monitor decision
-
-The original R20 failure class now has a viable low-complexity native realization path:
-
-```text
-Global invariant/fallback kernel
-+ ChatGPT Work for substantial professional work where it is the simplest adequate surface
-+ material-work-entry v0.2 historical Entry evidence
-+ material-work-entry v0.6-candidate as the current installed trigger-local workflow controller
-+ Project only when persistence/continuity earns it
-```
-
-The historical v0.2 Skill matrix supports Entry, DIRECT proportionality, Formation, BOUND continuation, changed-claim re-admission and nested-child re-admission. The first genuine Work pilot adds positive evidence for established-frontier professional continuation, reference use, failure detection, AI-side repair, claim-bound assurance and transition integrity. Later v0.5/v0.6 evidence and source changes must remain version-scoped; they do not retroactively turn the R20 matrix into full v0.6 qualification.
-
-No further active R20 repair is proportionate without new counterevidence.
-
-Therefore:
-
-> **CLOSE the active R20 repair loop. MONITOR genuine use. Reopen only when a material observed failure establishes a new repair need.**
-
-Material reopen signals include, for example:
-
-- missed Entry/Re-admission on real work;
-- Parent/state/authority drift;
-- premature Candidate/route qualification;
-- disproportionate or avoidable Human Gates;
-- inadequate professional intended-use quality;
-- harmful Work→Project persistence behavior;
-- native surface limitations that materially block real work.
-
-Do not manufacture further synthetic fixtures merely because more testing is possible.
-
-## 16. Next legitimate frontier
-
-For the system-development program:
-
-```text
-R20 active repair        CLOSED
-R21 reconciliation       COMPLETE via PR #16 + PR #17 / POST-MERGE READBACK PASS
-Requirements v0.2        CONTROLLING ON main / PROMOTED via PR #18
-Requirements v0.1        HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
-Runtime disposition      v0.6-candidate / UNPROMOTED / UNCHANGED
-Live Project identity    v0.5 CANDIDATE / HUMAN UI CONTENT READBACK PASS / UNPROMOTED
-Static Architecture      KEEP CLOSED
-Next frontier            RUNTIME SOLUTION FORMATION — ELIGIBLE / NOT YET EXECUTED
-```
-
-For the beer-Graphic-Novel Parent Work Object itself, the legitimate story frontier remains separate from R20 system repair:
-
-> perform a sequential low-fidelity read sufficient to test whether the repaired 3-epoch artifact's intended cumulative emotional effect is actually perceived before any Full-Arc promotion.
-
-That story frontier may continue in its own Work context. It is not a reason to reopen R20.
-
-**Current disposition:** REQUIREMENTS v0.2 PROMOTION COMPLETE VIA PR #18 + POST-MERGE READBACK. v0.2 CONTROLS ON `main`; v0.1 IS RETAINED AS HISTORICAL QUALIFIED PRIOR. TARGET ARCHITECTURE v0.2 STAYS ACCEPTED/CLOSED. RUNTIME, SKILL, PROJECT UI AND SOLUTION STATE ARE UNCHANGED. RUNTIME SOLUTION FORMATION IS NOW THE NEXT ELIGIBLE FRONTIER.
+No Human action is required until the two PRs and the exact implementation/assurance return are ready. No UI, installation, cutover, migration, merge or Promotion is authorized by this file.

@@ -1,0 +1,206 @@
+schema: route-b-conditional-state-card/v0.1
+status: NON_INSTALLED_SOURCE_CANDIDATE
+
+purpose: >-
+  Preserve only the typed state needed across a real continuity, responsibility,
+  conflict, external-effect or recovery boundary. A State Card is not a universal
+  Work Basis, controller, stage record, acceptance record or promotion mechanism.
+
+activation:
+  default: DO_NOT_INSTANTIATE
+  instantiate_only_if_any:
+    - later work materially depends on continuity beyond the current bounded interaction
+    - responsibility, provider, device, account, Project or repository boundary can lose material state
+    - conflicting episodes or sources require an explicit owner and recovery rule
+    - an external effect or authority-sensitive state requires durable readback and reconciliation
+    - authoritative recovery would be unreliable from transient conversation context
+  do_not_instantiate_for:
+    - complexity alone
+    - materiality alone
+    - ordinary Tool or Subagent returns
+    - a transient sufficient Work Basis
+    - generic progress reporting
+    - Qualification Debt
+    - manufactured future work
+
+card:
+  required:
+    - card_id
+    - state_type
+    - owner
+    - scope
+    - status
+    - version
+    - provenance
+    - authority
+    - conflict_and_recovery
+    - next_legitimate_use
+
+  fields:
+    card_id:
+      type: string
+      rule: Stable identifier unique within the named state carrier.
+
+    state_type:
+      type: string
+      allowed_examples:
+        - work_state
+        - evidence_state
+        - decision_state
+        - commitment_state
+        - authority_state
+        - handoff_state
+        - external_effect_state
+        - learning_or_change_state
+      rule: Use the narrowest type that represents the persisted claim.
+
+    owner:
+      type: object
+      required:
+        - state_owner
+      fields:
+        state_owner:
+          type: string
+        responsible_actor:
+          type: string_or_null
+        receiving_actor:
+          type: string_or_null
+
+    scope:
+      type: object
+      required:
+        - parent_work_object
+        - bounded_object
+      fields:
+        parent_work_object:
+          type: string
+        bounded_object:
+          type: string
+        system_of_interest:
+          type: string_or_null
+        explicitly_unobserved_scope:
+          type: array_of_strings
+        environment_or_surface:
+          type: string_or_null
+
+    status:
+      type: object
+      required:
+        - status_label
+        - supported_claim
+      fields:
+        status_label:
+          type: string
+        supported_claim:
+          type: string
+        unsupported_or_blocked_claims:
+          type: array_of_strings
+        disposition:
+          type: string_or_null
+          allowed_examples:
+            - continue
+            - wait
+            - handoff
+            - stop
+            - no_action
+
+    version:
+      type: object
+      required:
+        - version_id
+        - recorded_at
+      fields:
+        version_id:
+          type: string
+        prior_version_id:
+          type: string_or_null
+        recorded_at:
+          type: datetime
+        supersedes:
+          type: array_of_strings
+
+    provenance:
+      type: object
+      required:
+        - authoritative_inputs
+      fields:
+        authoritative_inputs:
+          type: array
+          item_fields:
+            - source
+            - scope
+            - freshness
+            - authority_basis
+        supporting_evidence:
+          type: array
+        assumptions:
+          type: array_of_strings
+        material_unknowns:
+          type: array_of_strings
+
+    authority:
+      type: object
+      required:
+        - write_authority
+        - decision_authority
+        - promotion_authority
+      fields:
+        write_authority:
+          type: string_or_null
+        decision_authority:
+          type: string_or_null
+        action_authority:
+          type: string_or_null
+        acceptance_authority:
+          type: string_or_null
+        promotion_authority:
+          type: string_or_null
+      invariant: Null or missing authority blocks that operation; it is not inherited from capability.
+
+    conflict_and_recovery:
+      type: object
+      required:
+        - conflict_rule
+        - authoritative_recovery_source
+      fields:
+        conflict_rule:
+          type: string
+        authoritative_recovery_source:
+          type: string
+        readback_rule:
+          type: string_or_null
+        rollback_or_repair_rule:
+          type: string_or_null
+
+    next_legitimate_use:
+      type: object
+      required:
+        - permitted_use
+      fields:
+        permitted_use:
+          type: string
+        blocked_transitions:
+          type: array_of_strings
+        re_entry_condition:
+          type: string_or_null
+        intended_recipient_or_context:
+          type: string_or_null
+
+    history:
+      type: array
+      required: false
+      rule: Include only when prior versions materially affect recovery, authority or interpretation.
+
+invariants:
+  - The card records a bounded state claim; it does not create truth or authority.
+  - Proposal, decision, commitment, authorization, execution, verification and promotion remain distinct.
+  - A child or provider may update only fields within delegated write authority.
+  - A Tool or Subagent return cannot promote the Parent or this card.
+  - Material writes or external effects require readback and reconciliation.
+  - New evidence changes dependent claims first and reopens only affected state.
+  - Retire or supersede the card when its continuity purpose ends; do not preserve stale control artifacts indefinitely.
+
+example: null
+example_policy: >-
+  No mandatory example is embedded. Instantiate from actual boundary state only;
+  do not copy a generic example as if it were authoritative project state.
