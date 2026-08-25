@@ -1,6 +1,6 @@
 ---
 name: work-formation
-description: Use only when the next claim or transition may be materially underformed. Determine whether the current Work Basis is sufficient; if not, form only the missing basis, identify the eligible Work Function and professional-method class, return it to the Native Primary, and terminate. Do not use for ordinary execution, routine continuation, tool/Subagent returns, or as a general controller.
+description: Use when ChatGPT may be about to do the wrong kind of work because material basis is missing—for example the real outcome/scope is unclear, a consequential probe is being treated as a candidate, the professional quality/method basis is unresolved, authority or transition conditions are unclear, or competing constraints could change the route. Determine whether the next claim or transition is sufficiently formed; if not, form only the missing basis and terminate. Do not use for ordinary execution, routine continuation, cosmetic refinement, or merely because work is complex or a tool/Subagent returned.
 ---
 
 # work-formation — Route B v0.5
@@ -15,12 +15,31 @@ Use this Skill only to determine whether the current Work Basis is sufficient fo
 
 This Skill is not a Material-Work controller, planning layer, method registry, orchestration workflow or domain-execution Skill.
 
+## Progressive disclosure
+
+Always read and apply `references/FORMATION-METHOD-v0.5.md` when substantive Formation is activated.
+
+Read `references/ACTIVATION-BOUNDARY-EXAMPLES-v0.5.md` when activation is ambiguous, when distinguishing a Probe from Candidate-ready work, or when deciding whether a continuation/tool/Subagent return should reopen Formation.
+
+Read `references/CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT-v0.5.md` when the eligible Work Function, intended use, performance floor, domain, evidence need or professional-method class is materially unresolved.
+
+Use `references/SPARSE-WORK-BASIS-SCHEMA-v0.5.yaml` only when a structured return materially helps handoff, continuity or verification. Do not turn the schema into a mandatory form.
+
 ## Activation
 
 Activate substantive Formation only when both are true:
 
 1. the current Work Basis is insufficient for the next claim or transition; and
 2. the gap can materially change the Work Function, claim/Candidate status, route class, performance floor, Professional Method need, authority/risk, continuity, intended use/transition, Outcome, strategic-resource allocation, Human capability/future autonomy or Whole-System Economics.
+
+Typical positive triggers include:
+
+- the requested output is plausible but its real intended use or non-compensatory quality floor is unresolved;
+- an early idea/probe is about to be treated as a selected route or Candidate without sufficient method/evidence/comparison basis;
+- the apparent task may be a symptom and unresolved Current Reality could change the solution class;
+- material authority, effect, transition or receiving-context conditions are unclear;
+- professional method choice could materially change what good looks like and no adequate basis is available;
+- competing initiatives, scarce resources or Human-capability effects could materially change whether/how to proceed.
 
 Do not activate merely because work is material/complex, a new turn began, a tool/Subagent returned, uncertainty exists, more analysis is possible or the wider initiative is incompletely specified.
 

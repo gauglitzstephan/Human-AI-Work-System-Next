@@ -1,0 +1,95 @@
+runtime_candidate: route-b-v0.5-chatgpt-runtime
+status: NON_INSTALLED_CANDIDATE
+source_design_basis:
+  route_b_source_commit: 9a7aa240deda2e95806f915e99b62936cd82a7a1
+  formation_method_blob: 0dbcf8c160250e5df6457f7a0d2ef5e1c1ae4a24
+  core_method_blob: 754175b424c525636a9dba9db6bdce23dd3d0896
+operational_owner: Native ChatGPT Primary
+formation_activation_owner: work-formation
+
+carriers:
+  global_custom_instructions:
+    path: realization/runtime/route-b/v0.5-chatgpt-runtime/GLOBAL-CUSTOM-INSTRUCTIONS-CANDIDATE.md
+    effective_on: [non_project_chat, non_project_work]
+    install_status: NONE
+    readback_status: NONE
+  system_development_project_instructions:
+    path: realization/runtime/route-b/v0.5-chatgpt-runtime/SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS-CANDIDATE.md
+    effective_on: [system_development_project_chat, system_development_project_work]
+    install_status: NONE
+    readback_status: NONE
+  work_formation_skill:
+    path: realization/runtime/route-b/v0.5-chatgpt-runtime/work-formation/SKILL.md
+    resources:
+      - realization/runtime/route-b/v0.5-chatgpt-runtime/work-formation/references/FORMATION-METHOD-v0.5.md
+      - realization/runtime/route-b/v0.5-chatgpt-runtime/work-formation/references/CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT-v0.5.md
+      - realization/runtime/route-b/v0.5-chatgpt-runtime/work-formation/references/ACTIVATION-BOUNDARY-EXAMPLES-v0.5.md
+      - realization/runtime/route-b/v0.5-chatgpt-runtime/work-formation/references/SPARSE-WORK-BASIS-SCHEMA-v0.5.yaml
+    install_status: NONE
+    readback_status: NONE
+
+paths:
+  non_project_chat:
+    kernel_owner: global_custom_instructions
+    method_hook_owner: global_custom_instructions
+    formation_owner: work_formation_skill
+    primary_owner: Native ChatGPT Primary
+    runtime_claim: OUT_OF_RUNTIME_CLAIM_UNTIL_INSTALL_READBACK
+  non_project_work:
+    kernel_owner: global_custom_instructions
+    method_hook_owner: global_custom_instructions
+    formation_owner: work_formation_skill
+    primary_owner: Native ChatGPT Primary
+    runtime_claim: OUT_OF_RUNTIME_CLAIM_UNTIL_INSTALL_READBACK
+  system_development_project_chat:
+    kernel_owner: system_development_project_instructions
+    method_hook_owner: system_development_project_instructions
+    formation_owner: work_formation_skill
+    primary_owner: Native ChatGPT Primary
+    runtime_claim: OUT_OF_RUNTIME_CLAIM_UNTIL_INSTALL_READBACK
+  system_development_project_work:
+    kernel_owner: system_development_project_instructions
+    method_hook_owner: system_development_project_instructions
+    formation_owner: work_formation_skill
+    primary_owner: Native ChatGPT Primary
+    runtime_claim: OUT_OF_RUNTIME_CLAIM_UNTIL_INSTALL_READBACK
+
+method_realization:
+  eligibility: Work Function + Intended Use + Performance Floor + Domain + Evidence Need
+  resolution_order:
+    - already_qualified_domain_skill_or_method_pack
+    - fit_repository_method_registry_pack
+    - other_qualified_project_drive_repository_source
+    - current_authoritative_external_method_or_standard
+    - transparent_task_local_method_with_limitations
+    - qualified_human_or_specialist
+  inadequate_basis: weaken_claim_or_wait_handoff_stop
+  registry_gateway: false
+
+mixed_runtime_rule:
+  requirement: exactly_one_formation_activation_owner_per_claimed_path
+  legacy_material_work_entry_and_work_formation_coactive: PROHIBITED
+  cutover_minimum: before enabling a claimed Route-B path, disable/remove the legacy Formation owner on that same target surface and confirm work-formation is available there
+  rollback_minimum: retain the immediately replaced UI text/skill identity only as needed to restore the actual pre-cutover state; no separate historical reconstruction program
+
+platform_facts:
+  evidence_date: 2026-08-25
+  owner: runtime_operating
+  facts:
+    - Project Instructions override Global Custom Instructions inside the Project
+    - Personal Skills must be added separately on desktop and web/mobile and do not automatically sync across those surfaces
+    - Skills may contain instructions, examples, supporting resources and optional code; executable scripts are not mandatory
+  recheck_trigger:
+    - material ChatGPT surface/build change
+    - changed Project instruction precedence
+    - changed Skill installation/synchronization behavior
+    - changed target carrier capacity
+  retirement_condition: replace this fact set when newer direct UI or official provider evidence supersedes it
+
+installation_gate:
+  static_functional_assurance: PENDING
+  target_surface_skill_availability: PENDING_DIRECT_UI
+  project_instruction_capacity: PENDING_DIRECT_UI
+  runtime_behavior: UNVERIFIED
+  intended_use_fitness: UNVERIFIED
+  promotion: NONE
