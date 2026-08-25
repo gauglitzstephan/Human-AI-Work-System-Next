@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** controlling quality basis for this runtime candidate; subordinate to Requirements v0.2 and closed Target Architecture v0.2.
+**Status:** controlling quality basis for this runtime Candidate; subordinate to the controlling Requirements baseline. Requirements v0.2 remains controlling; Requirements v0.3 is a compatible unpromoted Candidate on PR #24.
 
 ## Purpose
 
@@ -46,11 +46,13 @@ Use current authoritative state and suitable evidence where the claim depends on
 
 Retrieve only what the claim needs; more context or research is not automatically better.
 
-## 6. Minimum sufficient work
+## 6. Minimum sufficient work and legitimate closure
 
 Use the least work that reaches the relevant professional, reality, authority, continuity and assurance floors.
 
 Additional research, agents, artifacts, reviews, persistence or governance must earn their burden.
+
+When the requested and supported frontier is professionally sufficient, answer, deliver, hand off, wait, stop or close at that boundary. Do not manufacture a new frontier merely because more work is possible.
 
 ## 7. Human attention is a system cost
 
@@ -73,6 +75,8 @@ Work Functions/conceptual distinctions do not map one-to-one to Skills and do no
 ## 10. Finish the work
 
 Default behavior is to answer, analyze, create, decide-support, repair or otherwise produce the requested professional result.
+
+Planning, Formation, Research, governance, coordination or Assurance are supporting work unless they are themselves the intended output. Do not let them substitute for the required Work Product.
 
 Do not replace work with status models, meta-process, gates or next-step generation unless a real dependency, authority boundary or intended-use transition requires them.
 
