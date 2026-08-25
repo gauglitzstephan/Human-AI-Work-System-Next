@@ -1,28 +1,52 @@
 ---
 name: work-formation
-description: Use when the next material claim, decision, action or transition may be underformed and the missing basis could change route, readiness, method, authority, continuity or intended use. Form only the missing Work Basis, identify the required Work Function/method class, then terminate. Do not use for routine continuation, ordinary execution, tool returns or as a general controller.
+description: Use only when missing basis could materially change the next claim, decision, action or transition — for example the real outcome, relevant scope/current reality, intended use/quality floor, required professional method class, or a blocking authority boundary. Form only that missing basis, then terminate. Do not use for routine continuation, ordinary execution, tool returns, research itself, method execution, or as a general controller.
 ---
 
 # Work Formation
 
-Use this Skill only when the next material frontier may be insufficiently formed. The Native ChatGPT Primary remains owner of the episode, planning, tools, delegation, integration and final answer.
+Purpose: prevent materially wrong work from starting because the next frontier is underformed.
 
-## Activation
+The Native ChatGPT runtime owns planning, tools, delegation, integration and the final answer. This Skill owns only the minimum missing basis needed before that work can proceed professionally.
 
-Before substantive Formation, name the missing basis or new delta that could materially change the next claim/transition. Do not activate merely because work is complex, uncertain, new, long, or because a tool/Subagent returned.
+## Activate only when material
 
-Re-entry after prior sufficiency requires named new evidence or a changed claim, scope, requirement, authority or intended transition that invalidates prior sufficiency.
+Activate only when an unresolved gap can plausibly change the next supported claim or route. Typical material gaps are:
+
+- the underlying need/outcome is materially different from the proposed means;
+- the relevant system/scope or current reality is unclear enough to change the work;
+- intended use or the professional quality floor is unresolved;
+- the required professional method class is unresolved;
+- an early probe/idea risks being treated as a mature candidate without the needed basis;
+- a real authority/effect boundary blocks the transition.
+
+Do not activate merely because work is complex, uncertain, important, new, long, or because a tool/Subagent returned.
+
+Re-entry after prior sufficiency requires a named new fact or changed claim, scope, requirement, authority or intended use that invalidates the prior basis.
 
 ## Method
 
-Read `references/FORMATION-METHOD.md` when substantive Formation is required. Load `references/CORE-WORK-FUNCTIONS-AND-METHOD-CONTRACT.md` only if Work Function, intended use, Performance Floor, domain, evidence need or eligible professional-method class is materially unresolved.
+Read `references/FORMATION-METHOD.md` only for substantive Formation.
 
-Form only the minimum missing basis. Preserve already-qualified state. Early probes/routes/examples remain provisional unless the necessary Performance Floor, Method basis and Evidence/comparison basis support Candidate eligibility.
+Form the smallest missing basis needed for the next frontier. Preserve already-qualified state. Do not perform the professional method itself.
 
-## Return and termination
+If the needed professional method is materially unclear, identify only the eligible method class from:
 
-Terminate as soon as one disposition is supported: `READY`, `WEAKER_CLAIM`, `WAIT`, `HANDOFF`, `STOP`, `NO_ACTION`.
+`required transformation + intended use + quality floor + domain + evidence need`.
 
-Return only what the Native Primary needs to proceed safely: next claim/transition, material missing/resolved basis, eligible Work Function/method class when needed, authority/continuity/assurance constraints, and material unknowns.
+The Native Primary then selects or retrieves the actual qualified method/provider.
 
-Do not execute the professional method, plan the operational episode, select tool order/Subagent topology, manufacture Human gates, persist a Work Basis by default, or claim wider completion/promotion.
+## Termination
+
+Terminate as soon as one disposition is supported:
+
+- `READY` — enough basis exists to proceed;
+- `WEAKER_CLAIM` — proceed only with a narrower claim;
+- `WAIT` — an external dependency controls continuation;
+- `HANDOFF` — responsibility/environment must change;
+- `STOP` — continuation is unjustified or unauthorized;
+- `NO_ACTION` — no material transition is warranted.
+
+Return only what the Native Primary needs: the next claim/transition, the material resolved or unresolved basis, any needed method class, blocking authority boundary, and material unknowns.
+
+Do not create a persistent Work Basis by default, prescribe tool/Subagent topology, manufacture Human gates, expand into strategy/portfolio management, run assurance, or claim wider completion/promotion.
