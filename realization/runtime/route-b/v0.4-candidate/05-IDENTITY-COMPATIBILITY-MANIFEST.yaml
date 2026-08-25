@@ -22,7 +22,7 @@ package:
     requirements: Requirements v0.2
     target_architecture: Target Architecture v0.2
     target_architecture_status: CLOSED
-  source_formation_readiness: PENDING_STATIC_RECONCILIATION
+  source_formation_readiness: PASS_WITHIN_BOUNDED_REPAIR_SCOPE
   promotion: NONE
   repository_authority_changed: false
 
@@ -238,7 +238,7 @@ route_b_runtime_claims:
 source_build_assurance:
   scope: STATIC_SOURCE_ONLY
   performed_on: 2026-08-25
-  result: PENDING__NON_INDEPENDENT_STATIC_RECONCILIATION
+  result: PASS__NON_INDEPENDENT_STATIC_RECONCILIATION
   checks:
     - exactly seven required source artifacts present
     - YAML sources parse successfully
