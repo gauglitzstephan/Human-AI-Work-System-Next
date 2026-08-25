@@ -6,12 +6,15 @@
 
 **[`main/CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point.**
 
-Do not infer the active Runtime, installation state, next frontier or promotion status from version numbers, historical folders, old PRs or this README. A `CURRENT.md` copy on an unmerged branch is Candidate state; only the version read from `main` after legitimate merge/readback controls.
+Do not infer active Runtime, installation state, next frontier or promotion status from version numbers, historical folders, old PRs or this README. A `CURRENT.md` copy on an unmerged branch is Candidate state; only the version read from `main` after legitimate merge/readback controls.
 
 ## Stable design basis
 
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) — controlling Requirements baseline.
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) — controlling Requirements baseline until explicitly superseded.
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md) — bounded simplified Candidate on PR #24; not controlling unless separately promoted.
+- [`evidence/REQUIREMENTS-v0.2-to-v0.3-RECONCILIATION-v0.1.md`](evidence/REQUIREMENTS-v0.2-to-v0.3-RECONCILIATION-v0.1.md) — v0.2→v0.3 treatment and non-regression evidence.
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) — accepted conceptual architecture; keep closed absent a named reopen trigger.
+- [`reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md`](reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md) — current Candidate compatibility trace; no architecture reopen.
 - [`realization/runtime/route-b/v0.5-candidate/`](realization/runtime/route-b/v0.5-candidate/) — accepted Route-B semantic design evidence and lineage, not an installable current Runtime.
 
 ## Current Runtime package
@@ -32,38 +35,41 @@ Always use `CURRENT.md` for the exact qualified/installed/promotion state; repos
 
 ## Stable operating principles
 
-The system is intentionally not a universal workflow engine:
-
-- native ChatGPT performs the work by default;
-- permanent instructions hold only stable working principles and project-local authority/context;
-- Skills/Method Packs provide specialized reusable methods/resources only when the work needs them;
-- professional validity may require external/domain methods or standards beyond repository methods;
-- Work Functions/conceptual distinctions are not mandatory stages or one-Skill-per-function mappings;
-- Human contribution is used where context, judgment, expertise, values, authorship, acceptance, commitment or authority is genuinely non-substitutable;
-- additional research, agents, process, persistence and assurance must earn their burden;
-- source/prompt/repository correctness does not by itself prove runtime professional quality;
-- genuine work is the primary learning surface; repair the lowest responsible layer when evidence warrants change.
-
-## Authority rules
+The system is designed around a few durable distinctions:
 
 ```text
-repository persistence ≠ Runtime installation
-source/design acceptance ≠ Runtime acceptance
-working branch / PR ≠ controlling main
-proposal ≠ decision ≠ commitment ≠ authorization ≠ execution
-installation ≠ verified behavior ≠ promotion
-artifact completion ≠ use ≠ outcome
+need / outcome ≠ proposed means
+working context ≠ authoritative state ≠ reusable knowledge
+professional method ≠ provider capability
+capability / access ≠ authority
+proposal ≠ decision ≠ commitment ≠ authorization ≠ execution ≠ outcome
+production ≠ use ≠ outcome ≠ value
 ```
+
+Native ChatGPT performs ordinary planning, tool use, delegation and integration. Custom Instructions supply stable working principles. Skills/Method Packs supply specialized reusable methods only when relevant. The repository and connected sources remain authoritative where legitimate ownership places state/evidence.
+
+## Professional quality
+
+For material professional work:
+
+1. determine what professional result is actually required;
+2. use an adequate qualified method/reference when validity materially depends on it;
+3. do the actual work rather than substituting meta-process;
+4. judge the resulting Work Product against its intended use;
+5. use only assurance capable of detecting the claimed failure;
+6. close when the supported frontier is complete.
+
+Do not treat process compliance, Skill activation, agent count, repository persistence or a PASS label as professional quality by themselves.
 
 ## Repository map
 
-- [`CURRENT.md`](CURRENT.md) — controlling program state after merge/readback
-- [`foundation/`](foundation/) — Requirements and concerns
+- [`CURRENT.md`](CURRENT.md) — controlling state after merge/readback
+- [`foundation/`](foundation/) — System of Interest and Requirements
 - [`architecture/`](architecture/) — accepted conceptual architecture
-- [`realization/runtime/route-b/`](realization/runtime/route-b/) — Route-B source and Runtime lineage
-- [`methods/`](methods/) — reusable method sources and historical method registry
-- [`reviews/route-b/`](reviews/route-b/) — bounded reviews and challenge evidence
-- [`evaluation/`](evaluation/) — historical/version-scoped evaluation evidence
+- [`realization/runtime/route-b/`](realization/runtime/route-b/) — Route-B source/runtime lineage
+- [`methods/`](methods/) — reusable method lineage
+- [`reviews/`](reviews/) — bounded review and compatibility evidence
+- [`evaluation/`](evaluation/) — version-scoped real-use evidence
 - [`decisions/`](decisions/) — accepted decision records
 
-Historical artifacts remain evidence and lineage. They do not become current because they are newer-looking or more detailed.
+Historical artifacts remain evidence and lineage. `CURRENT.md`, not recency or file count, determines active authority.
