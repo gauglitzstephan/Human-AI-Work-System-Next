@@ -4,7 +4,7 @@
 
 `skills/` is the single active repository source for reusable skill packages. This registry reports lifecycle evidence without duplicating each skill's invocation contract or method.
 
-Discovery and deployment mechanics are defined in `skills/DEPLOYMENT-CONTRACT.md`. `.agents/skills/*` and `.codex-plugin/plugin.json` expose the canonical packages without becoming independent sources.
+Discovery and deployment mechanics are defined in `skills/DEPLOYMENT-CONTRACT.md`. Personal Skill deployments, `.agents/skills/*`, and the optional plugin package expose the canonical packages without becoming independent sources.
 
 Repository promotion, installed-content identity, runtime activation, runtime fitness, and outcome quality are separate states.
 
@@ -12,12 +12,12 @@ Repository promotion, installed-content identity, runtime activation, runtime fi
 
 | Skill | Canonical package | Repository source | Installed-content readback | Runtime evidence |
 |---|---|---|---|---|
-| `adaptive-exploration` | `skills/adaptive-exploration/` | promoted repaired source | not deployed or read back | unverified |
-| `work-formation` | `skills/work-formation/` | promoted repaired source | predecessor installation matched prior source; update/readback required | not established by identity alone |
-| `research-evidence` | `skills/research-evidence/` | promoted repaired source | predecessor installation matched prior source; update/readback required | not established by identity alone |
-| `system-development` | `skills/system-development/` | promoted repaired source | predecessor installation matched prior source; update/readback required | not established by identity alone |
-| `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | predecessor installation matched prior source; update/readback required | one bounded predecessor-use PASS; repaired implicit discovery and general fitness remain unverified |
-| `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | predecessor installation matched prior source; update/readback required | forward runtime validation not started |
+| `adaptive-exploration` | `skills/adaptive-exploration/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | unverified |
+| `work-formation` | `skills/work-formation/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
+| `research-evidence` | `skills/research-evidence/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
+| `system-development` | `skills/system-development/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
+| `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | one bounded predecessor-use PASS; repaired implicit discovery and general fitness remain unverified |
+| `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | forward runtime validation not started |
 
 ## Portfolio boundaries
 
