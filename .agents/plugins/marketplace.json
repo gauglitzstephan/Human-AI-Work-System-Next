@@ -1,0 +1,21 @@
+{
+  "name": "human-ai-work-system-next",
+  "interface": {
+    "displayName": "Human-AI Work System"
+  },
+  "plugins": [
+    {
+      "name": "human-ai-work-system-next",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gauglitzstephan/Human-AI-Work-System-Next.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
