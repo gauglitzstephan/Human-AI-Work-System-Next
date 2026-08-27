@@ -1,6 +1,6 @@
 ---
 name: work-formation
-description: Use only when missing basis could materially change the next claim, decision, action or transition — for example the real outcome, relevant scope/current reality, intended use/quality floor, required professional method class, or a blocking authority boundary. Form only that missing basis, then terminate. Do not use for routine continuation, ordinary execution, tool returns, research itself, method execution, or as a general controller.
+description: Form the minimum missing basis when it could materially change the next claim, route, decision, action, or authorized transition—for example outcome, scope/current reality, intended use/quality floor, required method class, candidate maturity, or authority boundary. Do not use for ordinary complexity, continuation, planning, research, method execution, tool returns, or general orchestration.
 ---
 
 # Work Formation

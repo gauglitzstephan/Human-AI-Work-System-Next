@@ -1,6 +1,6 @@
 ---
 name: system-development
-description: Use for professional work on this Human–AI Work System or a comparable existing system when the task is current-state recovery, system failure localization, runtime semantic compilation, repository promotion/readback, requirements/architecture work, or real-use evaluation. Load only the method relevant to the current claim. These are scoped internal System-Development methods, not universal substitutes for external professional standards.
+description: Recover, diagnose, compile, promote, or validate this Human–AI Work System or a comparable AI-work runtime when the task concerns current state, system failure, requirements/architecture, runtime semantic preservation, repository promotion/readback, or genuine-use evaluation. Load only the relevant scoped method; do not use as a universal systems, RCA, or validation method.
 ---
 
 # System Development

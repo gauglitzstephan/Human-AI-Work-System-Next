@@ -1,6 +1,6 @@
 # Runtime Compilation / Semantic Regression Method v0.1
 
-**Status:** CANDIDATE METHOD PACK  
+**Status:** promoted scoped internal System-Development method.  
 **Use when:** compiling architecture/runtime semantics into actual instructions, Project policy, Handoff contracts, tool/provider mappings or other deployment carriers.
 
 ## Method objective

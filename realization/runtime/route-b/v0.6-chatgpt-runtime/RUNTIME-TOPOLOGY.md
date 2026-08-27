@@ -15,10 +15,13 @@ The runtime is adaptive. It is not a fixed sequence of meta-skills.
 | controlling architecture | `/architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` |
 | reusable skill packages | `/skills/` |
 | portfolio status | `/skills/REGISTRY.md` |
+| source/deployment lifecycle | `/skills/DEPLOYMENT-CONTRACT.md` |
+| installable plugin view | `/.codex-plugin/plugin.json` → `/skills/` |
+| repository-local Codex discovery | `/.agents/skills/*` → canonical `/skills/*` packages |
 | runtime instruction carriers | this directory |
 | runtime and outcome evidence | `/evaluation/` |
 
-A copied or installed skill is not a new source of truth. Installation must be checked back against the promoted repository package.
+A discovery link, plugin package, copied Skill, or installed Skill is not a new source of truth. Installation must be checked back against the promoted repository package. Runtime evidence returns through controlled repair/promotion; it does not synchronize automatically into source.
 
 ## 3. Selective skill portfolio
 

@@ -1,0 +1,31 @@
+{
+  "name": "human-ai-work-system-next",
+  "version": "0.1.0",
+  "description": "Six selective professional methods for adaptive Human-AI work",
+  "author": {
+    "name": "Stephan Gauglitz",
+    "url": "https://github.com/gauglitzstephan"
+  },
+  "repository": "https://github.com/gauglitzstephan/Human-AI-Work-System-Next",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Human-AI Work System",
+    "shortDescription": "Six adaptive work methods",
+    "longDescription": "A skills-only portfolio for open exploration, work formation, evidence discipline, decision analysis, work-product evaluation, and development of the Human-AI Work System. Skills activate selectively; Native ChatGPT remains the work-episode owner.",
+    "developerName": "Stephan Gauglitz",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Explore this open problem without collapsing too early.",
+      "Analyze this bounded decision and recommend a responsible option.",
+      "Evaluate whether this work product is fit for its intended use."
+    ],
+    "capabilities": [
+      "Explore open problem and solution spaces",
+      "Form blocking missing work basis",
+      "Acquire and qualify evidence",
+      "Analyze bounded material decisions",
+      "Evaluate existing work products",
+      "Recover and improve AI-work systems"
+    ]
+  }
+}
