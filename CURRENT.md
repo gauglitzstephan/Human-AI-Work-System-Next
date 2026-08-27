@@ -1,7 +1,7 @@
 # CURRENT — Human–AI Work System Next
 
-**Status:** PR #24 package is Candidate when read from its branch; after the exact PR #24 merge and `main` readback, its Professional-Work repair is a repository-promoted implementation Candidate. Requirements v0.2 remains controlling; Requirements v0.3 and Runtime behavior remain unpromoted.  
-**Date:** 2026-08-25  
+**Status:** PR #24 Professional-Work repair is a repository-promoted implementation Candidate on `main`. PR #25 Runtime Transition Integrity repair is Candidate on its branch and becomes a repository-promoted implementation Candidate only after exact merge plus `main` readback. Requirements v0.2 remains controlling; Requirements v0.3 and Runtime behavior remain unpromoted.  
+**Date:** 2026-08-27  
 **Authority:** `main/CURRENT.md` controls when read from `main`; branch copies remain Candidate until merged and read back.
 
 ## Parent program
@@ -12,8 +12,8 @@
 
 ```text
 Requirements v0.2                         CONTROLLING ON main
-Requirements v0.3 Candidate               BUILT ON PR #24 / NOT PROMOTED
-v0.2→v0.3 reconciliation                  COMPLETE ON PR #24
+Requirements v0.3 Candidate               PERSISTED ON main VIA PR #24 / NOT PROMOTED
+v0.2→v0.3 reconciliation                  PERSISTED ON main VIA PR #24
 Target Architecture v0.2 compatibility    PASS / NO REOPEN TRIGGER
 Target Architecture v0.2                  ACCEPTED / KEEP CLOSED
 
@@ -21,10 +21,11 @@ Route B v0.5 semantic Source basis        ACCEPTED / KEEP AS DESIGN EVIDENCE
 PR #20/#21 runtime                        HISTORICAL FAILED IMPLEMENTATION / DO NOT INSTALL
 PR #22 realization rebaseline             MERGED
 PR #23 v0.6 runtime package               MERGED TO main
-PR #24 Professional-Work repair           BRANCH CANDIDATE; REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE ONLY AFTER EXACT MERGE + main READBACK
+PR #24 Professional-Work repair           MERGED TO main / REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE
+PR #25 Runtime Transition Integrity        BRANCH CANDIDATE; REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE ONLY AFTER EXACT MERGE + main READBACK
 
-Global v0.6 Custom Instructions           HUMAN-REPORTED UPDATED IN CHATGPT / KEEP
-System Development Project Instructions   HUMAN-REPORTED UPDATED IN CHATGPT / KEEP
+Global v0.6 Custom Instructions           HUMAN-REPORTED INSTALLED PREDECESSOR; PR #25 DELTA NOT INSTALLED
+System Development Project Instructions   HUMAN-REPORTED INSTALLED PREDECESSOR; PR #25 DELTA NOT INSTALLED
 Exact UI byte identity/readback            NOT INDEPENDENTLY ESTABLISHED HERE
 v0.6 Skill installation/effective identity UNVERIFIED / NO CLAIM
 Runtime behavior / professional fitness   WORKING / NOT PROMOTED
@@ -55,7 +56,7 @@ The quality basis for the PR #24 package is:
 
 `realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md`
 
-It is Candidate state on the PR branch and becomes repository-promoted implementation-Candidate state only after the exact PR #24 merge and `main` readback. Its governing criterion is professionally usable work, not process compliance or component activation.
+The PR #24 quality basis is a repository-promoted implementation Candidate on `main`. PR #25 adds only the bounded Runtime Transition Integrity repair; that delta remains Candidate on its branch until exact merge and `main` readback. Its governing criterion remains professionally usable work, not process compliance or component activation.
 
 Core operating principles:
 
@@ -67,14 +68,14 @@ Core operating principles:
 - Human attention is a system cost, not default QA;
 - assurance must be capable of detecting the claimed failure;
 - Skills are specialized method carriers, not architecture stages;
-- genuine work, not synthetic product-feature testing, is the primary learning surface.
+- genuine work, not synthetic product-feature testing, is the primary learning surface;
+- the active work object, supported claim and Candidate maturity persist across turns and local implementation proposals.
 
-## v0.6 Professional-Work repair disposition
+## PR #24 Professional-Work repair disposition — merged
 
 ### KEEP
 
-- `GLOBAL-CUSTOM-INSTRUCTIONS.md` — unchanged by this repair;
-- `SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md` — unchanged by this repair;
+- `GLOBAL-CUSTOM-INSTRUCTIONS.md` and `SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md` were unchanged by PR #24; PR #25 changes only their transition-integrity compilation;
 - native ChatGPT operational ownership;
 - focused Skill layer as a mechanism for progressive disclosure.
 
@@ -126,27 +127,31 @@ Do not create a new version, control, Skill, reviewer or test program merely bec
 
 Human-detected AI-resolvable defects, lost state and repeated redirection from meta-work are negative system evidence.
 
-## PR #24 transition semantics
+## PR #25 transition semantics
 
-Before merge/readback:
+Before PR #25 merge/readback:
 
 ```text
-Requirements v0.2              CONTROLLING
-Requirements v0.3              CANDIDATE
-Professional-Work repair        CANDIDATE
-Requirements Promotion          NONE
-Runtime Promotion               NONE
+Requirements v0.2                    CONTROLLING
+Requirements v0.3                    PERSISTED CANDIDATE / UNPROMOTED
+PR #24 Professional-Work repair      REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE
+PR #25 Transition Integrity repair   CANDIDATE
+Repository instruction sources       v0.6 PREDECESSOR ON main
+External ChatGPT instructions         HUMAN-REPORTED PREDECESSOR / PR #25 NOT INSTALLED
+Runtime behavior                      NOT PROMOTED
 ```
 
-If the exact PR #24 package is merged and read back **without a separate Requirements-v0.3 promotion decision**:
+If the exact PR #25 package is merged and read back:
 
 ```text
-Requirements v0.2              REMAINS CONTROLLING
-Requirements v0.3              PERSISTED CANDIDATE / UNPROMOTED
-Professional-Work repair        REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE
-Runtime behavior                NOT PROMOTED
+Requirements v0.2                    REMAINS CONTROLLING
+Requirements v0.3                    REMAINS PERSISTED CANDIDATE / UNPROMOTED
+Professional-Work + Transition repair REPOSITORY-PROMOTED IMPLEMENTATION CANDIDATE
+Repository instruction sources       UPDATED ON main
+External ChatGPT instructions         NOT CHANGED BY REPOSITORY MERGE
+Runtime behavior                      NOT PROMOTED
 ```
 
 ## Current disposition
 
-**If this file is read from the PR branch: PR #24 is the current merge-decision object. If it is read from `main` after the exact PR #24 merge/readback: continue genuine work with the repository-promoted Professional-Work implementation Candidate; Requirements v0.2 remains controlling, Requirements v0.3 remains unpromoted, and Runtime behavior remains unpromoted.**
+**When read from the PR #25 branch, PR #25 is the current bounded merge-decision object. After exact merge and `main` readback, continue with the repository-promoted Runtime Transition Integrity implementation Candidate; separately decide any external instruction installation and later Runtime validation. Requirements v0.2 remains controlling, Requirements v0.3 remains unpromoted, and no Skill Candidate is changed or promoted by PR #25.**

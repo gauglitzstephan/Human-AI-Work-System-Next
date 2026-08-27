@@ -11,7 +11,7 @@ Do not infer active Runtime, installation state, next frontier or promotion stat
 ## Stable design basis
 
 - [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) — controlling Requirements baseline until explicitly superseded.
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md) — bounded simplified Candidate on PR #24; not controlling unless separately promoted.
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md) — bounded simplified Candidate persisted on `main` through PR #24; not controlling unless separately promoted.
 - [`evidence/REQUIREMENTS-v0.2-to-v0.3-RECONCILIATION-v0.1.md`](evidence/REQUIREMENTS-v0.2-to-v0.3-RECONCILIATION-v0.1.md) — v0.2→v0.3 treatment and non-regression evidence.
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) — accepted conceptual architecture; keep closed absent a named reopen trigger.
 - [`reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md`](reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md) — current Candidate compatibility trace; no architecture reopen.
@@ -39,6 +39,7 @@ The system is designed around a few durable distinctions:
 
 ```text
 need / outcome ≠ proposed means
+active parent work object ≠ local tool / cadence / implementation detail
 working context ≠ authoritative state ≠ reusable knowledge
 professional method ≠ provider capability
 capability / access ≠ authority
