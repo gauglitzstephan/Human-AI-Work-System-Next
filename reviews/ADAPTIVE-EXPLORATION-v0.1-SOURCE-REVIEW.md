@@ -42,7 +42,14 @@ The candidate realizes an already-controlling CCR-01 capability. It adds no new 
 
 ## Static validation
 
-The package passes the canonical Skill Creator `quick_validate.py` frontmatter and structure validator under the provided primary runtime Python. Repository path and link integrity must be checked again from the candidate branch and from `main` after merge.
+The package passes the canonical Skill Creator `quick_validate.py` frontmatter and structure validator under the provided primary runtime Python.
+
+Candidate-branch readback passes for all eight changed artifacts. The canonical source blobs are:
+
+- `SKILL.md`: `a7f1399d74cc1f5bc1f7f41a59311043f4107ff5`
+- `references/ADAPTIVE-EXPLORATION-METHOD.md`: `12fde1b420490f2e44771490ca1b18b08e137b4b`
+
+The corrected controlling-requirements and architecture paths both resolve on the candidate branch. A final `main` readback remains required after merge.
 
 ## Residual risk
 
