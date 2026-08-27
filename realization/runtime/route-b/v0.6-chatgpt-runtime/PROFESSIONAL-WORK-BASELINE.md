@@ -86,7 +86,7 @@ Keep the parent outcome, intended claim and candidate maturity stable across con
 
 A proposed tool, cadence, provider, implementation detail or local continuation is input to the active work; it does not replace the parent work object or outcome, or establish readiness or authorization.
 
-Before a material transition that would change the supported claim, route, action or external effect, reconcile it with the active work object:
+Before a transition that would materially change the supported claim or route, take a material action, or create an external effect, reconcile the proposed transition with the active work object:
 
 - if it is the next qualified and authorized transition, execute it;
 - if missing basis could materially change the transition, use the existing `work-formation` Skill to form only that missing basis;
