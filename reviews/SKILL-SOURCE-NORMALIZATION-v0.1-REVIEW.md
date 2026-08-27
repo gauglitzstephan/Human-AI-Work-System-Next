@@ -2,7 +2,9 @@
 
 ## Decision
 
-**PASS FOR REPOSITORY PROMOTION**, subject to pull-request merge and `main` readback.
+**PASS — REPOSITORY PROMOTED.**
+
+PR #26 merged as `8b9646a2ac1982e5df838ad074e728c45c4a92b3`. `main` readback confirmed the five canonical source blobs, the repaired registries, and absence of the former runtime-package copies.
 
 ## Scope
 

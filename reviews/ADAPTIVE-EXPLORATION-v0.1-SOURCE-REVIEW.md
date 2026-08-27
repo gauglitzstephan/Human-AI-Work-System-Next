@@ -2,7 +2,9 @@
 
 ## Decision
 
-**PASS FOR REPOSITORY PROMOTION**, subject to pull-request merge and `main` readback.
+**PASS — REPOSITORY PROMOTED.**
+
+PR #27 merged as `02bce932555da704022ab7337b0bbcac73e92520`. `main` readback confirmed all eight changed artifacts, both canonical Skill source blobs, and both controlling authority paths.
 
 Personal Skill deployment, automatic invocation, method execution in the installed runtime, and outcome quality remain **UNVERIFIED**.
 
@@ -49,7 +51,7 @@ Candidate-branch readback passes for all eight changed artifacts. The canonical 
 - `SKILL.md`: `a7f1399d74cc1f5bc1f7f41a59311043f4107ff5`
 - `references/ADAPTIVE-EXPLORATION-METHOD.md`: `12fde1b420490f2e44771490ca1b18b08e137b4b`
 
-The corrected controlling-requirements and architecture paths both resolve on the candidate branch. A final `main` readback remains required after merge.
+The corrected controlling-requirements and architecture paths resolve on `main` after merge.
 
 ## Residual risk
 

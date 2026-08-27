@@ -29,6 +29,12 @@ The six reusable skill packages have one active repository source under `skills/
 
 `skills/REGISTRY.md` is the portfolio registry. It keeps repository promotion, installed-content readback, runtime behavior, and outcome evidence separate.
 
+## Candidate branch disposition
+
+The original `candidate/evaluate-work-product-v0.2.1-test-carrier` and `candidate/decision-analysis-v0.1.2-test-carrier` branches are **SUPERSEDED HISTORICAL TEST CARRIERS**. Their skill packages and bounded evidence were promoted into `main` through PR #26 by preserved blob identity.
+
+They are intentionally retained to preserve candidate lineage. They are not active source authority, deployment sources, or pending merge objects. New work starts from `main` and the canonical packages under `skills/`.
+
 ## CCR-01 disposition
 
 CCR-01 open framing and exploration now has an explicit repository realization in `adaptive-exploration`. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. This closes the repository-source realization gap only; runtime discoverability and fitness remain unpromoted.
@@ -42,4 +48,4 @@ CCR-01 open framing and exploration now has an explicit repository realization i
 
 ## Superseded declarations
 
-Any older repository artifact that calls PR #25 unmerged, treats former runtime-package directories as the canonical reusable-skill source, treats `methods/METHOD-REGISTRY-v0.1.md` as active, or calls CCR-01 unrealized at repository-source level is historical rather than current authority.
+Any older repository artifact that calls PR #25 unmerged, treats former runtime-package directories or superseded candidate branches as the canonical reusable-skill source, treats `methods/METHOD-REGISTRY-v0.1.md` as active, or calls CCR-01 unrealized at repository-source level is historical rather than current authority.
