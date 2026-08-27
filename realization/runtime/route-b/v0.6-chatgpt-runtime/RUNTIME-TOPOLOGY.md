@@ -33,6 +33,7 @@ A semantic concern does not imply permanent prompt text. A professional function
 Own stable cross-domain working behavior only:
 
 - solve the underlying need rather than blindly following proposed means when materially different;
+- preserve the active work object, intended claim and candidate maturity across turns and reconcile material actions with the next qualified and authorized transition;
 - reality/evidence integrity and honest uncertainty;
 - intended-use professional quality and qualified method/reference use when material;
 - authority/effect boundaries;
