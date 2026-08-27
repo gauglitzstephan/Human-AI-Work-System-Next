@@ -11,8 +11,8 @@
 real_work_context: Design a native ChatGPT feedback loop that learns from failures across the Human–AI Work System.
 failed_or_supported_claim: The created daily Scheduled Task was treated as a professionally formed system-learning mechanism.
 human_burden_or_correction: The Human had to point out that a local scheduled prompt did not constitute the closed system feedback loop being designed.
-responsible_mechanism: The active parent work object, intended claim and candidate maturity were not preserved when a proposed daily cadence became locally salient; the runtime transitioned from system design to implementation without Formation, professional-method resolution or effect readiness.
-bounded_change_implication: Bind active-work-object and transition reconciliation at material action/effect boundaries in permanent runtime carriers; keep Work Formation unchanged.
+responsible_mechanism: The active parent work object, intended claim and candidate maturity were not preserved when a proposed daily cadence became locally salient; the runtime transitioned from system design to implementation before the existing `work-formation` owner, professional-method resolution or effect readiness was bound.
+bounded_change_implication: Bind active-work-object and transition reconciliation at material claim/route/action/effect boundaries in permanent runtime carriers; keep Work Formation unchanged.
 claim_limit: One clear real-use failure supports this local runtime-carrier repair, not a new architecture, controller or universal workflow.
 ```
 
@@ -42,10 +42,10 @@ The defect is therefore a Runtime-compilation gap, not an Architecture reopen tr
 ## Candidate delta
 
 - Professional Work Baseline compiles the existing normative transition semantics into the runtime quality basis.
-- Global Custom Instructions compile it for cross-domain runtime behavior.
+- Global Custom Instructions compile it for cross-domain runtime behavior and bind the existing `work-formation` owner at material claim/route/action/effect transitions.
 - System Development Project Instructions compile the same wording for the effective project-local carrier.
-- Runtime Topology records the carrier responsibility.
-- `work-formation` remains unchanged because its trigger already covers outcome/means divergence, unresolved method class and premature Probe-to-Candidate movement.
+- Runtime Topology records the carrier responsibility and the bounded Skill-binding rule.
+- `work-formation` remains unchanged because its detailed trigger already covers outcome/means divergence, unresolved method class and premature Probe-to-Candidate movement.
 
 ## Semantic compilation
 
@@ -53,9 +53,9 @@ The defect is therefore a Runtime-compilation gap, not an Architecture reopen tr
 |---|---|
 | Preserve parent outcome, intended claim and maturity across turns | EMBEDDED in Baseline and both permanent runtime carriers |
 | Local tool/cadence/provider proposal remains input, not replacement outcome | EMBEDDED |
-| Material action/effect must be next qualified and authorized transition | EMBEDDED |
-| Underformation routes to minimum missing-basis Formation | DELEGATED + BOUND to existing `work-formation` trigger |
-| Required professional method must be resolved before dependent effect | EMBEDDED + delegated to native method selection |
+| Material claim/route/action/effect change must be the next qualified and authorized transition | EMBEDDED |
+| Underformation routes to minimum missing-basis Formation | DELEGATED + BOUND in Candidate source to existing `work-formation`; effective external activation remains UNVERIFIED |
+| Required professional method must be resolved before a dependent transition | EMBEDDED + delegated to native method selection; Runtime application remains UNVERIFIED |
 | No universal controller or persistent Work Basis | EMBEDDED |
 | Runtime behavioral reliability | UNVERIFIED pending later installation and genuine work |
 
@@ -63,12 +63,12 @@ The defect is therefore a Runtime-compilation gap, not an Architecture reopen tr
 
 ### R1 — Feedback-loop automation failure
 
-**Expected with Candidate:** Daily cadence remains a design input. The runtime must first form the closed-loop intended use, professional method and Candidate maturity. No Scheduled Task is created until the task is a qualified and authorized next transition.  
+**Expected with Candidate:** Daily cadence remains a design input. At the attempted route/action transition, the Runtime binds `work-formation` to form the closed-loop intended use and method need. No Scheduled Task is created until it is the qualified and authorized next transition.  
 **Static result:** PASS.
 
 ### R2 — Logo / creative-design work
 
-**Expected with Candidate:** A request to continue with a preferred visual direction remains within the active creative brief and current Candidate maturity. It does not silently replace unresolved design requirements or authorize a broader production/persistence transition.  
+**Expected with Candidate:** An initial logo-redesign request or later style preference remains within the active professional design object and its current maturity. A local visual direction does not replace unresolved brief/method requirements or establish a production-ready logo.  
 **Static result:** PASS.
 
 ### R3 — Application-package evaluation
@@ -78,7 +78,7 @@ The defect is therefore a Runtime-compilation gap, not an Architecture reopen tr
 
 ## Negative control
 
-A fully formed, explicit and authorized one-step request—such as creating a simple reminder at a stated time—still executes directly. The Candidate activates no standing workflow and requires no persistent Work Basis.  
+A fully formed and authorized one-step request—such as creating a simple reminder at a stated time—still executes directly. The Candidate activates no standing workflow; `work-formation` is bound only when missing basis could materially change the transition.  
 **Static result:** PASS.
 
 ## Disposition
