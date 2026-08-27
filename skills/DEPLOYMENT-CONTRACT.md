@@ -12,6 +12,7 @@ The following are views or deployment copies, not independent sources:
 
 - `.codex-plugin/plugin.json` packages the same `skills/` directory for plugin installation;
 - `.agents/skills/*` points to the same package directories for repository-local Codex discovery;
+- each standalone Personal Skill is a separately installed deployment copy;
 - an installed ChatGPT or Codex copy is a deployment state that must be compared back with `main`.
 
 Do not hand-edit a deployment copy and treat it as accepted source.
@@ -22,7 +23,7 @@ Do not hand-edit a deployment copy and treat it as accepted source.
 controlling Requirements / architecture
 → portfolio responsibility and boundary
 → canonical package under skills/
-→ native discovery or plugin packaging
+→ native discovery, standalone Personal Skill deployment, or plugin packaging
 → explicit install/update transition
 → installed-content readback
 → genuine-use evidence
@@ -59,9 +60,11 @@ Codex discovers repository-scoped Skills under `.agents/skills`. Each entry in t
 
 ### ChatGPT and cross-surface distribution
 
-The repository root is a skills-only plugin package through `.codex-plugin/plugin.json`. The manifest points directly to `./skills/`.
+The six packages may be installed as separate Personal Skills. This is the current ChatGPT deployment route. Each installed package must be read back separately against `main/skills/`.
 
-Plugin packaging is the distribution mechanism. A supported installation surface, explicit install/update action, and installed-content readback remain separate requirements.
+The repository root also remains a skills-only plugin package through `.codex-plugin/plugin.json`, with `.agents/plugins/marketplace.json` as its repository marketplace carrier. The manifest points directly to `./skills/`. This bundled route is optional rather than required.
+
+For either route, a supported installation surface, explicit install/update action, and installed-content readback remain separate requirements. Standalone deployment trades bundled updates for surface compatibility; it does not change Skill semantics or source authority.
 
 ## Version and change rules
 
