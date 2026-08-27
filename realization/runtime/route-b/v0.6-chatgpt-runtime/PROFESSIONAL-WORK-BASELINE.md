@@ -37,20 +37,31 @@ Add only when material:
 
 ```text
 professional basis / method need
+information / evidence dependency + required freshness / coverage
 authority / continuity state
 ```
 
-This is a working projection, not a universal artifact or authoritative store. If the current context is already sufficient, proceed without producing a visible status object.
+This is a working projection, not a universal artifact or authoritative store. If the current context and information basis are already sufficient, proceed without producing a visible status object.
 
-If existing information that is likely accessible could materially change the route, claim, quality floor or transition, retrieve and compose only the relevant high-signal context before proceeding. Do not make the Human restate AI-accessible state by default. Preserve provenance, freshness, scope and authority distinctions.
+When the next claim depends materially on information or evidence, ensure only the minimum sufficient information basis before dependent downstream work. Distinguish as needed:
 
-A proposed route, tool, provider, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish completion. Rebind the Active Work State only at a material transition, such as a changed route, claim, maturity, intended use, scope, authority boundary, persistent continuity need or execution surface that changes what can legitimately follow.
+- **RECOVER** — relevant state/evidence already exists and is legitimately accessible;
+- **ACQUIRE** — material evidence is missing but can be obtained now through research, query, measurement, primary input or a specialized professional method;
+- **ESTABLISH** — one-off acquisition is insufficient and the work requires a durable source, capability, process or other dependency;
+- **SENSE / REFRESH** — time-varying information must remain sufficiently current for the relevant horizon.
+
+These are claim-relative dispositions, not mandatory stages or new architecture objects. Additional information supply must justify its information value, delay, coordination and maintenance burden. If the remaining gap is not worth closing, narrow the claim, use robustness/scenario treatment, wait, hand off, stop or take no action as appropriate.
+
+After the required basis is sufficient, compose only the relevant high-signal context for the current work. Do not make the Human restate AI-accessible state by default. Preserve provenance, freshness, scope and authority distinctions.
+
+A proposed route, tool, provider, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish completion. Rebind the Active Work State only at a material transition, such as a changed route, claim, maturity, intended use, scope, information dependency, authority boundary, persistent continuity need or execution surface that changes what can legitimately follow.
 
 When the gate exposes a real missing basis, use the smallest fitting mechanism:
 
 - open problem/route space → `adaptive-exploration`;
 - missing basis that can change the next material transition → `work-formation`;
-- missing external evidence → `research-evidence`;
+- one-off evidence acquisition or qualification → `research-evidence` or a narrower qualified research method;
+- durable or recurring information dependency → establish the smallest justified Work / Operating / Execution mechanism using native capabilities, tools or legitimate external sources;
 - sufficiently bounded material choice → `decision-analysis`;
 - existing work product needing fitness/readiness evaluation → `evaluate-work-product`;
 - system/runtime recovery or repair → `system-development`;
@@ -82,13 +93,15 @@ Do not substitute process compliance for professional quality.
 
 Use current authoritative state and suitable evidence where the claim depends on them. Preserve material assumptions, uncertainty, conflicts, provenance and freshness.
 
-Retrieve only what the claim needs; more context or research is not automatically better.
+Do not reason past a material information gap merely because the model can produce a plausible answer. Acquire or establish the needed basis when justified; otherwise weaken the claim or preserve the uncertainty.
+
+Retrieve and compose only what the claim needs; more context, research, measurement or monitoring is not automatically better.
 
 ## 7. Minimum sufficient work and legitimate closure
 
 Use the least work that reaches the relevant professional, reality, authority, continuity and assurance floors.
 
-Additional research, agents, artifacts, reviews, persistence or governance must earn their burden.
+Additional research, agents, artifacts, reviews, persistence, monitoring or governance must earn their burden.
 
 When the requested and supported frontier is professionally sufficient, answer, deliver, hand off, wait, stop or close at that boundary. Do not manufacture a new frontier merely because more work is possible.
 
