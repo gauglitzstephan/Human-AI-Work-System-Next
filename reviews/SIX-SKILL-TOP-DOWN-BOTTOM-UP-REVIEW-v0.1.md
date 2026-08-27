@@ -6,11 +6,11 @@ Whether the six canonical Skill packages on `main` form a coherent, technically 
 
 ## Decision
 
-**FIT FOR REPOSITORY PROMOTION WITH BOUNDED REPAIRS.**
+**PASS — REPOSITORY PROMOTED WITH BOUNDED REPAIRS.**
 
 The six responsibilities are coherent and collectively sufficient for the intended selective-method layer. No seventh controller, calibration, planning, execution, state, or assurance Skill is justified.
 
-The current package semantics are preserved. Required repairs are discovery metadata, entrypoint compaction, stale method-status labels, and native packaging/discovery mechanics.
+The current package semantics are preserved. The completed repairs cover discovery metadata, entrypoint compaction, stale method-status labels, and native packaging/discovery mechanics. PR #29 was merged to `main` as `15f3f3b0e72f33ea45d4800d1b520649ca119f59`.
 
 Installation, implicit activation, runtime execution quality, and outcome quality remain separate and unverified for the repaired package until deployment/readback and genuine use.
 
@@ -92,7 +92,7 @@ Architecture remains closed: the repair realizes existing semantics and adds no 
 | 24 portfolio activation/boundary cases | PASS at static semantic level |
 | `.agents/skills` symbolic-link identity | PASS — six mode-`120000` Git entries; every target blob resolves to the intended canonical package path |
 | candidate-branch readback | PASS — all 17 text artifacts match their created Git blob identities |
-| post-merge `main` readback | pending promotion |
+| post-merge `main` readback | PASS — PR #29 is merged; all 17 text artifacts retain their candidate blob identities on `main`, and the six mode-`120000` discovery links retain their validated targets |
 
 ## Claim boundary
 
