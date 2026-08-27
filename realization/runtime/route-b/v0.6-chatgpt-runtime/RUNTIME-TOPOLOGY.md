@@ -33,7 +33,7 @@ A semantic concern does not imply permanent prompt text. A professional function
 Own stable cross-domain working behavior only:
 
 - solve the underlying need rather than blindly following proposed means when materially different;
-- preserve the active work object, intended claim and candidate maturity across turns and reconcile material actions with the next qualified and authorized transition;
+- preserve the active work object, intended claim and candidate maturity across turns and reconcile material claim, route, action or effect transitions;
 - reality/evidence integrity and honest uncertainty;
 - intended-use professional quality and qualified method/reference use when material;
 - authority/effect boundaries;
@@ -54,7 +54,7 @@ Because Project Instructions are the effective project-local instruction carrier
 - repository write → readback → reconcile where material;
 - project-specific authority and continuity constraints.
 
-They do not own specialized Skill triggers or reproduce Skill methods.
+They do not own detailed Skill trigger or method semantics or reproduce Skill methods. They may bind an existing Skill by name where a stable Runtime semantic depends on its activation at a material boundary.
 
 ## 3. Specialized Skills
 
