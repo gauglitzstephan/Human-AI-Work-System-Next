@@ -14,7 +14,7 @@ Before substantive **material work**, Native ChatGPT binds the minimum Active Wo
 parent outcome
 current frontier / next supported claim
 route or candidate + maturity
-critical relevant state
+critical relevant state / scope / constraints
 ```
 
 Only when material, add:
@@ -28,7 +28,7 @@ The Active Work State is a transient working projection, not a universal state o
 
 If likely accessible prior information could materially change the route, claim, Performance Floor or transition, Native ChatGPT retrieves and composes only the relevant high-signal context before proceeding. It should not ask the Human to restate AI-accessible state by default.
 
-A proposed route, tool, provider, surface, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish wider completion. A material transition requires rebind; ordinary continuation does not.
+A proposed route, tool, provider, surface, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish wider completion. A material transition, including a material scope change, requires rebind; ordinary continuation does not.
 
 ## 3. Context composition and state roles
 
@@ -56,7 +56,7 @@ Surface choice follows the bound work state rather than acting as the work defin
 - **Work**, where available and suitable, is used for longer already-bound agentic execution, multi-source analysis or substantial artifact production.
 - **Codex** or other specialized execution surfaces are used when their concrete capability materially improves the task.
 
-Moving to another surface is not completion or promotion. If the move materially changes context access, capability, authority, route or claim, rebind before dependent work.
+Moving to another surface is not completion or promotion. If the move materially changes context access, capability, authority, route, scope or claim, rebind before dependent work.
 
 ## 5. Authority and source boundaries
 
@@ -103,6 +103,8 @@ Persist a compact Work-State snapshot only when continuity, divergence or recove
 4. The selected work executes and returns a bounded result.
 5. Native ChatGPT integrates the result without silently promoting wider state.
 6. If a material transition is proposed, rebind; otherwise continue directly or close.
+
+A local result or produced artifact does not by itself establish transition/use, performance, outcome or realized value.
 
 Skills and surfaces may be composed, but composition is demand-driven rather than a predetermined chain.
 
