@@ -11,7 +11,8 @@ The runtime is adaptive. It is not a fixed sequence of meta-skills.
 | Concern | Active source |
 |---|---|
 | current promoted state | `/CURRENT.md` |
-| controlling requirements and architecture | `/architecture/REQUIREMENTS-v0.2.md` and `/architecture/TARGET-ARCHITECTURE-v0.2.md` |
+| controlling requirements | `/foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md` |
+| controlling architecture | `/architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` |
 | reusable skill packages | `/skills/` |
 | portfolio status | `/skills/REGISTRY.md` |
 | runtime instruction carriers | this directory |
@@ -23,14 +24,13 @@ A copied or installed skill is not a new source of truth. Installation must be c
 
 | Trigger class | Owner | Boundary |
 |---|---|---|
+| a problem frame, opportunity, solution class, route, concept, or creative direction is materially open | `adaptive-exploration` | maps or forms candidates; does not become a mandatory pre-formation stage, choose, research, or execute |
 | a blocking basis is missing for the next material transition | `work-formation` | forms only the missing basis; does not run every episode |
 | a material claim depends on missing or uncertain evidence | `research-evidence` | qualifies evidence; does not own the parent decision or product |
 | a sufficiently bounded material choice needs analysis | `decision-analysis` | compares and recommends; does not explore an unformed space |
 | an identifiable existing work product needs evaluation | `evaluate-work-product` | evaluates fitness; does not create or execute the product |
 | the Human–AI Work System or a comparable existing system needs recovery, repair, or promotion | `system-development` | owns system-work method, not arbitrary domain delivery |
 | no reusable skill trigger materially applies | native ChatGPT or a narrower professional method | ordinary work stays native |
-
-Open exploration is a recognized requirements capability, but it has no promoted reusable skill in this topology snapshot. It must not be silently folded into `work-formation` or `decision-analysis`.
 
 ## 4. Runtime transitions
 
