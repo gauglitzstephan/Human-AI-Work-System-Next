@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** controlling quality basis for this runtime Candidate; subordinate to the controlling Requirements baseline. Requirements v0.2 remains controlling; Requirements v0.3 is a compatible unpromoted Candidate on PR #24.
+**Status:** controlling quality basis for this runtime Candidate; subordinate to the controlling Requirements baseline. Requirements v0.2 remains controlling; Requirements v0.3 is a compatible unpromoted Candidate persisted on `main` through PR #24.
 
 ## Purpose
 
@@ -82,18 +82,18 @@ Do not replace work with status models, meta-process, gates or next-step generat
 
 ## 11. Preserve the active work object through transitions
 
-Keep the parent outcome, intended claim and candidate maturity stable across conversational turns unless new evidence or the Human explicitly changes them.
+Keep the parent outcome, intended claim and candidate maturity stable across conversational turns unless new evidence or the Human materially changes them.
 
-A proposed tool, cadence, provider, implementation detail or local continuation is input to the active work; it is not a replacement Work Product and does not establish readiness or authorization.
+A proposed tool, cadence, provider, implementation detail or local continuation is input to the active work; it does not replace the parent work object or outcome, or establish readiness or authorization.
 
-Before a material action or external effect, reconcile the proposed transition with the active work object:
+Before a material transition that would change the supported claim, route, action or external effect, reconcile it with the active work object:
 
 - if it is the next qualified and authorized transition, execute it;
-- if unresolved outcome, scope, intended use, quality, method, maturity or authority could materially change the route, form only that missing basis;
-- if the required professional method remains unresolved, resolve it before the effect;
+- if missing basis could materially change the transition, use the existing `work-formation` Skill to form only that missing basis;
+- if a required professional method remains unresolved, resolve and apply it before the dependent transition;
 - otherwise narrow the claim, wait, hand off, stop or take no action.
 
-This is an event-bound transition check, not a persistent Work-Basis artifact, universal controller or mandatory lifecycle.
+This check activates only at a material transition boundary. It is not a persistent Work-Basis artifact, universal controller or mandatory lifecycle.
 
 ## Learning rule
 
