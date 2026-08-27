@@ -1,161 +1,58 @@
-# Route B v0.6 — Professional Work Runtime Topology
+# Runtime Topology — Route B v0.6
 
-**Status:** repair candidate  
-**Basis:** Requirements v0.2, closed Target Architecture v0.2, accepted Route-B semantic basis  
-**Goal:** use native ChatGPT to produce professionally usable work with minimum additional control structure.
+## 1. Runtime owner
 
-## 1. Runtime principle
+Native ChatGPT owns each work episode. It interprets the request, maintains local coherence, selects tools and applicable skills, produces the work, and communicates transitions to the Human.
 
-```text
-Native ChatGPT runtime
-  does the work: reason, plan as needed, use tools/Apps, delegate when useful,
-  integrate, create, refine and answer
+The runtime is adaptive. It is not a fixed sequence of meta-skills.
 
-Permanent instructions
-  hold only stable cross-domain behavior, quality, reality, authority and economy constraints
+## 2. Authority and source boundaries
 
-Project instructions
-  add the stable project-local purpose, authority and continuity context required inside that Project
+| Concern | Active source |
+|---|---|
+| current promoted state | `/CURRENT.md` |
+| controlling requirements and architecture | `/architecture/REQUIREMENTS-v0.2.md` and `/architecture/TARGET-ARCHITECTURE-v0.2.md` |
+| reusable skill packages | `/skills/` |
+| portfolio status | `/skills/REGISTRY.md` |
+| runtime instruction carriers | this directory |
+| runtime and outcome evidence | `/evaluation/` |
 
-Skills / Method Packs
-  supply reusable specialized methods or resources only when the task actually needs them
+A copied or installed skill is not a new source of truth. Installation must be checked back against the promoted repository package.
 
-Authoritative project / repository / connected state
-  remains where legitimate ownership places it and is retrieved as needed
-```
+## 3. Selective skill portfolio
 
-A semantic concern does not imply permanent prompt text. A professional function does not imply a Skill. A Skill is justified only when reusable trigger logic, method, resources or specialized execution materially improve the work.
+| Trigger class | Owner | Boundary |
+|---|---|---|
+| a blocking basis is missing for the next material transition | `work-formation` | forms only the missing basis; does not run every episode |
+| a material claim depends on missing or uncertain evidence | `research-evidence` | qualifies evidence; does not own the parent decision or product |
+| a sufficiently bounded material choice needs analysis | `decision-analysis` | compares and recommends; does not explore an unformed space |
+| an identifiable existing work product needs evaluation | `evaluate-work-product` | evaluates fitness; does not create or execute the product |
+| the Human–AI Work System or a comparable existing system needs recovery, repair, or promotion | `system-development` | owns system-work method, not arbitrary domain delivery |
+| no reusable skill trigger materially applies | native ChatGPT or a narrower professional method | ordinary work stays native |
 
-## 2. Permanent carriers
+Open exploration is a recognized requirements capability, but it has no promoted reusable skill in this topology snapshot. It must not be silently folded into `work-formation` or `decision-analysis`.
 
-### Global Custom Instructions
+## 4. Runtime transitions
 
-Own stable cross-domain working behavior only:
+1. Native ChatGPT identifies the next material transition.
+2. It invokes a skill only when that skill's trigger and boundary fit.
+3. The skill returns its bounded result to the parent work episode.
+4. Native ChatGPT integrates the result and continues, routes to another explicit method, or stops for Human input.
 
-- solve the underlying need rather than blindly following proposed means when materially different;
-- preserve the active work object, intended claim and candidate maturity across turns and reconcile material claim, route, action or effect transitions;
-- reality/evidence integrity and honest uncertainty;
-- intended-use professional quality and qualified method/reference use when material;
-- authority/effect boundaries;
-- Human agency and non-substitutable contribution;
-- minimum sufficient work and proportionality;
-- working/candidate/authoritative and production/use/outcome distinctions where material.
+Skills may be composed, but composition is demand-driven rather than a predetermined chain.
 
-They do not own Formation, project state, orchestration, professional-method execution or a universal workflow.
+## 5. Human control
 
-### System Development Project Instructions
+The Human retains non-substitutable authority over goals, values, taste, identity, risk acceptance, commitments, and irreversible actions. The runtime must surface those points instead of manufacturing consent or preference.
 
-Because Project Instructions are the effective project-local instruction carrier, they contain the same stable working principles plus:
+## 6. Evidence rules
 
-- Parent program purpose;
-- `main/CURRENT.md` as repository authority;
-- Requirements v0.2 and closed Target Architecture v0.2 boundaries;
-- Working/Candidate/Promoted distinctions;
-- repository write → readback → reconcile where material;
-- project-specific authority and continuity constraints.
+The repository distinguishes:
 
-They do not own detailed Skill trigger or method semantics or reproduce Skill methods. They may bind an existing Skill by name where a stable Runtime semantic depends on its activation at a material boundary.
+- source promotion,
+- installed-content identity,
+- runtime discoverability and activation,
+- method execution quality,
+- work-product or outcome quality.
 
-## 3. Specialized Skills
-
-### `work-formation`
-
-Use only when the next material frontier is genuinely underformed. It may resolve the missing outcome/need, relevant scope/current reality, intended use/quality floor, required professional-method class, probe/candidate maturity, or blocking authority boundary. It terminates once sufficient.
-
-It does not plan the episode, research, execute the professional method, run assurance, manage strategy/portfolio state or orchestrate Subagents.
-
-### `research-evidence`
-
-A cross-domain **evidence discipline and research-method router**. It owns provenance/freshness/scope, source dependence and counterevidence, uncertainty, progressive retrieval and stop rules when evidence work is materially required.
-
-It is not a universal professional research methodology. When validity depends on a specialized research method, the actual qualified method is selected JIT.
-
-### `system-development`
-
-Packages scoped internal methods for recurring work on this system:
-
-- System Requirements / Architecture Reasoning;
-- Existing-System Recovery;
-- System Failure Localization;
-- Runtime Compilation / Semantic Regression;
-- Repository Promotion / Readback;
-- Professional Work Evaluation.
-
-These are internal methods, not universal substitutes for external professional standards. Retrieve an external/domain method when the intended claim requires one.
-
-## 4. Professional method selection
-
-For material professional work, determine only as far as needed:
-
-```text
-required transformation
-+ intended use
-+ professional quality floor
-+ domain
-+ evidence need
-→ eligible qualified professional method
-```
-
-Use the shallowest adequate source:
-
-1. already-qualified installed Skill/Method Pack;
-2. qualified Project/repository/Drive method or reference;
-3. authoritative current professional standard/reference;
-4. transparent task-local method with limitations;
-5. qualified Human/specialist where materially required.
-
-If the basis is inadequate, weaken the claim or WAIT/HANDOFF/STOP instead of substituting generic plausibility.
-
-There is no permanent Core Work-Function taxonomy in the runtime and no one-Skill-per-function mapping.
-
-## 5. Native surfaces and providers
-
-Do not encode a permanent Chat/Work/Codex/Subagent workflow into Route B.
-
-Use the currently available native surface/provider comparatively based on intended use, capability, context, tools/access, authority, verifiability, latency and coordination cost.
-
-Strongly dependent sequential work stays single-owner by default. Use Subagents only when specialization, parallelism, context isolation or genuine assurance value exceeds integration cost.
-
-Provider-specific capabilities and limits are dated operating facts, not architecture semantics.
-
-## 6. Professional assurance
-
-Assurance follows the actual claim and failure mode:
-
-- factual/current-state claim → source/readback capable of establishing it;
-- calculation/data claim → appropriate deterministic/data validation;
-- professional analysis/design → method-appropriate review or challenge;
-- recipient-facing artifact → craft/intended-use review;
-- persistent write/effect → authoritative readback/reconciliation;
-- independence claim → failure-relevant diversity, not merely a fresh thread.
-
-A static prompt/source review cannot establish runtime professional quality.
-
-## 7. Learning from real work
-
-Do not build synthetic test programs for ordinary ChatGPT capabilities.
-
-Use genuine work as the primary evidence source. When work exposes a material system defect:
-
-1. capture the failed claim/evidence;
-2. localize the lowest responsible mechanism;
-3. repair that layer only;
-4. preserve unaffected qualified state;
-5. continue real work and observe whether the failure recurs.
-
-Human-detected AI-resolvable defects, lost state and repeated redirection from meta-work are negative system signals.
-
-## 8. Non-goals
-
-Do not recreate:
-
-- a universal Material Work controller;
-- a permanent full-Kernel prompt;
-- a permanent Work-Function ontology in runtime context;
-- one Skill per conceptual function;
-- mandatory research/method/assurance stages;
-- universal handoff/rebind/reviewer artifacts;
-- synthetic product-feature test queues;
-- a control registry that grows after every failure.
-
-The quality criterion is useful professional work, not process compliance.
+No evidence at one layer automatically proves another.

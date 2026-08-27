@@ -1,76 +1,45 @@
 # Human–AI Work System Next
 
-> Build a Human–AI Work System that turns real needs into intended-use-sufficient working solutions with strong reality, state, authority, professional quality and Human agency — without unnecessary meta-work.
+A requirements-led Human–AI work system for preserving context, choosing fit-for-purpose methods, executing real work, and improving from evidence without collapsing architecture, runtime behavior, and outcomes into one claim.
 
-## Start here
+## Authority
 
-**[`main/CURRENT.md`](CURRENT.md) is the controlling repository state and operating entry point.**
+Start with [`CURRENT.md`](CURRENT.md). It declares the current promoted state and the next valid transitions.
 
-Do not infer active Runtime, installation state, next frontier or promotion status from version numbers, historical folders, old PRs or this README. A `CURRENT.md` copy on an unmerged branch is Candidate state; only the version read from `main` after legitimate merge/readback controls.
+The controlling system basis is:
 
-## Stable design basis
+- [`architecture/REQUIREMENTS-v0.2.md`](architecture/REQUIREMENTS-v0.2.md)
+- [`architecture/TARGET-ARCHITECTURE-v0.2.md`](architecture/TARGET-ARCHITECTURE-v0.2.md)
 
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) — controlling Requirements baseline until explicitly superseded.
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md) — bounded simplified Candidate persisted on `main` through PR #24; not controlling unless separately promoted.
-- [`evidence/REQUIREMENTS-v0.2-to-v0.3-RECONCILIATION-v0.1.md`](evidence/REQUIREMENTS-v0.2-to-v0.3-RECONCILIATION-v0.1.md) — v0.2→v0.3 treatment and non-regression evidence.
-- [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md) — accepted conceptual architecture; keep closed absent a named reopen trigger.
-- [`reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md`](reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md) — current Candidate compatibility trace; no architecture reopen.
-- [`realization/runtime/route-b/v0.5-candidate/`](realization/runtime/route-b/v0.5-candidate/) — accepted Route-B semantic design evidence and lineage, not an installable current Runtime.
-
-## Current Runtime package
-
-The current repository Runtime package is under:
-
-- [`realization/runtime/route-b/v0.6-chatgpt-runtime/`](realization/runtime/route-b/v0.6-chatgpt-runtime/)
-
-Its quality basis is:
-
-- [`PROFESSIONAL-WORK-BASELINE.md`](realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md)
-
-Its current topology is:
-
-- [`RUNTIME-TOPOLOGY.md`](realization/runtime/route-b/v0.6-chatgpt-runtime/RUNTIME-TOPOLOGY.md)
-
-Always use `CURRENT.md` for the exact qualified/installed/promotion state; repository presence alone does not establish effective ChatGPT Runtime state.
-
-## Stable operating principles
-
-The system is designed around a few durable distinctions:
-
-```text
-need / outcome ≠ proposed means
-active parent work object ≠ local tool / cadence / implementation detail
-working context ≠ authoritative state ≠ reusable knowledge
-professional method ≠ provider capability
-capability / access ≠ authority
-proposal ≠ decision ≠ commitment ≠ authorization ≠ execution ≠ outcome
-production ≠ use ≠ outcome ≠ value
-```
-
-Native ChatGPT performs ordinary planning, tool use, delegation and integration. Custom Instructions supply stable working principles. Skills/Method Packs supply specialized reusable methods only when relevant. The repository and connected sources remain authoritative where legitimate ownership places state/evidence.
-
-## Professional quality
-
-For material professional work:
-
-1. determine what professional result is actually required;
-2. use an adequate qualified method/reference when validity materially depends on it;
-3. do the actual work rather than substituting meta-process;
-4. judge the resulting Work Product against its intended use;
-5. use only assurance capable of detecting the claimed failure;
-6. close when the supported frontier is complete.
-
-Do not treat process compliance, Skill activation, agent count, repository persistence or a PASS label as professional quality by themselves.
+The architecture is closed unless a documented reopening trigger occurs. Runtime repairs and new skill realizations do not reopen it by default.
 
 ## Repository map
 
-- [`CURRENT.md`](CURRENT.md) — controlling state after merge/readback
-- [`foundation/`](foundation/) — System of Interest and Requirements
-- [`architecture/`](architecture/) — accepted conceptual architecture
-- [`realization/runtime/route-b/`](realization/runtime/route-b/) — Route-B source/runtime lineage
-- [`methods/`](methods/) — reusable method lineage
-- [`reviews/`](reviews/) — bounded review and compatibility evidence
-- [`evaluation/`](evaluation/) — version-scoped real-use evidence
-- [`decisions/`](decisions/) — accepted decision records
+| Area | Purpose |
+|---|---|
+| `architecture/` | controlling requirements, target architecture, decisions, traceability, and guardrails |
+| `skills/` | canonical source for reusable skill packages plus portfolio registry |
+| `realization/runtime/route-b/v0.6-chatgpt-runtime/` | native ChatGPT runtime instruction carriers and topology; not a second skill source |
+| `methods/` | historical or supporting method artifacts; active skill methods live with their skill package |
+| `evaluation/` | case cards, real-use evidence, test designs, and results |
+| `reviews/` | bounded source and promotion reviews |
+| `archive/` | superseded artifacts retained for history where needed |
 
-Historical artifacts remain evidence and lineage. `CURRENT.md`, not recency or file count, determines active authority.
+## Native runtime model
+
+Native ChatGPT owns the work episode: understanding the request, planning, tool use, production, integration, and communication. Reusable skills are selectively invoked professional methods, not a mandatory universal pipeline.
+
+The active portfolio is indexed in [`skills/REGISTRY.md`](skills/REGISTRY.md). Its boundaries are intentional:
+
+- blocking missing basis → `work-formation`
+- missing or uncertain evidence → `research-evidence`
+- bounded material choice → `decision-analysis`
+- identifiable existing work product → `evaluate-work-product`
+- work on this system or a comparable existing system → `system-development`
+- ordinary planning, production, integration, and execution → native ChatGPT or a narrower domain method
+
+Skill source identity, Personal Skill installation, runtime activation, runtime fitness, and outcome quality are separate claims and require separate evidence.
+
+## Change discipline
+
+Repository changes move through explicit candidate, review, merge, and `main` readback transitions. A branch, pull request, installed copy, or successful isolated test is not promoted authority merely because it exists.
