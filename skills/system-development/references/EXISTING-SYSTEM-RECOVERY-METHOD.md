@@ -1,6 +1,6 @@
 # Existing-System Recovery Method v0.1
 
-**Status:** CANDIDATE METHOD PACK  
+**Status:** promoted scoped internal System-Development method.  
 **Use when:** repairing, redesigning, extending, migrating, auditing or replacing an existing material system/process/artifact.
 
 ## Method objective

@@ -20,6 +20,8 @@ The architecture is closed unless a documented reopening trigger occurs. Runtime
 | `foundation/` | controlling concerns, requirements, and System of Interest |
 | `architecture/` | target architecture, decisions, traceability, and guardrails |
 | `skills/` | canonical source for reusable skill packages plus portfolio registry |
+| `.codex-plugin/plugin.json` | installable skills-only plugin view over the canonical `skills/` directory |
+| `.agents/skills/` | repository-local Codex discovery links to the canonical packages |
 | `realization/runtime/route-b/v0.6-chatgpt-runtime/` | native ChatGPT runtime instruction carriers and topology; not a second skill source |
 | `methods/` | historical or supporting method artifacts; active skill methods live with their skill package |
 | `evaluation/` | case cards, real-use evidence, test designs, and results |
@@ -41,6 +43,8 @@ The active portfolio is indexed in [`skills/REGISTRY.md`](skills/REGISTRY.md). I
 - ordinary planning, production, integration, and execution → native ChatGPT or a narrower domain method
 
 Skill source identity, Personal Skill installation, runtime activation, runtime fitness, and outcome quality are separate claims and require separate evidence.
+
+The source/deployment lifecycle is defined in [`skills/DEPLOYMENT-CONTRACT.md`](skills/DEPLOYMENT-CONTRACT.md). The repository does not use automatic two-way synchronization: runtime observations can justify a bounded source repair, but only the authorized repository path can promote it; installed copies change only through a separate install/update and readback transition.
 
 ## Change discipline
 

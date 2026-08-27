@@ -1,6 +1,6 @@
 ---
 name: research-evidence
-description: Use when a material claim depends on acquiring or qualifying evidence that is not already adequate — for example current external facts, conflicting sources, provenance/freshness, blind spots, or evidence-backed context. Apply the cross-domain evidence discipline, and when the research question requires a specialized professional research method, identify and use that method rather than treating this Skill as a universal research methodology. Do not use when available evidence is already sufficient or more research cannot change the claim or decision.
+description: Acquire or qualify evidence when a material claim or decision lacks an adequate basis—for example current external facts, provenance/freshness, conflicting sources, blind spots, or uncertainty. Apply cross-domain evidence discipline and route to a specialized research method when validity depends on one. Do not use when existing evidence is sufficient or further research cannot change the frontier.
 ---
 
 # Research & Evidence

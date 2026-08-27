@@ -1,8 +1,8 @@
 # Repository Promotion / Readback Method v0.1
 
-**Status:** CANDIDATE METHOD PACK  
+**Status:** promoted scoped internal System-Development method.  
 **Use when:** a candidate repository change may alter accepted/controlling program state, runtime guidance, architecture, policy, decision or validation evidence.  
-**Revision note:** post-promotion repository-hygiene coverage added in the post-PR13 repair candidate; this remains the same v0.1 candidate method line until separately promoted.
+**Revision note:** includes post-promotion repository-entry-point hygiene and supersession safety.
 
 ## Method objective
 

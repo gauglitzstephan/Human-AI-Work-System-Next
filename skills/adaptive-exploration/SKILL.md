@@ -1,6 +1,6 @@
 ---
 name: adaptive-exploration
-description: Explore an open problem frame, opportunity space, solution class, route, concept, or creative direction when the primary need is to discover, reframe, or contrast possibilities before a bounded choice or committed production route exists. Generate mechanism-distinct directions, expose assumptions, include credible simpler or no-action alternatives, and use low-resolution contrastive probes when they materially improve understanding or Human calibration. Do not use to resolve a blocking missing basis (work-formation), acquire evidence (research-evidence), choose among bounded options (decision-analysis), evaluate an existing product (evaluate-work-product), or execute a selected route.
+description: Explore a materially open problem frame, opportunity, solution class, route, concept, or creative direction before a bounded decision or production route exists. Use for reframing, mechanism-distinct alternatives, counterhypotheses, or contrastive Human calibration. Do not use for missing-basis formation, evidence acquisition, bounded choice, product evaluation, or execution.
 ---
 
 # Adaptive Exploration
