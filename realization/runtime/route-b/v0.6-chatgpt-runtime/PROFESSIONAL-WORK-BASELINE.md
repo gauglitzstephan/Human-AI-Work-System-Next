@@ -30,7 +30,7 @@ The minimum projection is:
 parent outcome
 current frontier / next supported claim
 route or candidate + maturity
-critical relevant state
+critical relevant state / scope / constraints
 ```
 
 Add only when material:
@@ -44,7 +44,7 @@ This is a working projection, not a universal artifact or authoritative store. I
 
 If existing information that is likely accessible could materially change the route, claim, quality floor or transition, retrieve and compose only the relevant high-signal context before proceeding. Do not make the Human restate AI-accessible state by default. Preserve provenance, freshness, scope and authority distinctions.
 
-A proposed route, tool, provider, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish completion. Rebind the Active Work State only at a material transition, such as a changed route, claim, maturity, intended use, authority boundary, persistent continuity need or execution surface that changes what can legitimately follow.
+A proposed route, tool, provider, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish completion. Rebind the Active Work State only at a material transition, such as a changed route, claim, maturity, intended use, scope, authority boundary, persistent continuity need or execution surface that changes what can legitimately follow.
 
 When the gate exposes a real missing basis, use the smallest fitting mechanism:
 
@@ -117,6 +117,8 @@ Default behavior is to answer, analyze, create, decide-support, repair or otherw
 Planning, Formation, Research, governance, coordination or Assurance are supporting work unless they are themselves the intended output. Do not let them substitute for the required Work Product.
 
 Do not replace work with status models, meta-process, gates or next-step generation unless a real dependency, authority boundary or intended-use transition requires them.
+
+When success depends on more than production, preserve the relevant distinction among delivery/transition, use/action, performance, outcome and realized value. A produced or merged artifact does not by itself establish any of those later states.
 
 ## Learning rule
 
