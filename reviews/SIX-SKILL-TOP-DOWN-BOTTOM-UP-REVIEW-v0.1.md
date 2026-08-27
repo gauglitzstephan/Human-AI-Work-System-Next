@@ -90,8 +90,9 @@ Architecture remains closed: the repair realizes existing semantics and adds no 
 | progressive disclosure | PASS — Decision entrypoint reduced from 8,833 to 3,476 bytes; Evaluation entrypoint from 5,089 to 3,302 bytes; substantive methods remain in references |
 | `SKILL.md` reference resolution | PASS |
 | 24 portfolio activation/boundary cases | PASS at static semantic level |
-| `.agents/skills` symbolic-link identity | pending candidate-branch readback |
-| candidate-branch and post-merge `main` readback | pending |
+| `.agents/skills` symbolic-link identity | PASS — six mode-`120000` Git entries; every target blob resolves to the intended canonical package path |
+| candidate-branch readback | PASS — all 17 text artifacts match their created Git blob identities |
+| post-merge `main` readback | pending promotion |
 
 ## Claim boundary
 
