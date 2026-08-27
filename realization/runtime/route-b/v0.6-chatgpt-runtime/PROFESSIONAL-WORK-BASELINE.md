@@ -80,6 +80,21 @@ Planning, Formation, Research, governance, coordination or Assurance are support
 
 Do not replace work with status models, meta-process, gates or next-step generation unless a real dependency, authority boundary or intended-use transition requires them.
 
+## 11. Preserve the active work object through transitions
+
+Keep the parent outcome, intended claim and candidate maturity stable across conversational turns unless new evidence or the Human explicitly changes them.
+
+A proposed tool, cadence, provider, implementation detail or local continuation is input to the active work; it is not a replacement Work Product and does not establish readiness or authorization.
+
+Before a material action or external effect, reconcile the proposed transition with the active work object:
+
+- if it is the next qualified and authorized transition, execute it;
+- if unresolved outcome, scope, intended use, quality, method, maturity or authority could materially change the route, form only that missing basis;
+- if the required professional method remains unresolved, resolve it before the effect;
+- otherwise narrow the claim, wait, hand off, stop or take no action.
+
+This is an event-bound transition check, not a persistent Work-Basis artifact, universal controller or mandatory lifecycle.
+
 ## Learning rule
 
 Learn from genuine work. When a material defect occurs, localize and repair the lowest responsible layer while preserving unaffected qualified state.
