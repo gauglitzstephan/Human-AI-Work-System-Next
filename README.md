@@ -8,8 +8,8 @@ Start with [`CURRENT.md`](CURRENT.md). It declares the current promoted state an
 
 The controlling system basis is:
 
-- [`architecture/REQUIREMENTS-v0.2.md`](architecture/REQUIREMENTS-v0.2.md)
-- [`architecture/TARGET-ARCHITECTURE-v0.2.md`](architecture/TARGET-ARCHITECTURE-v0.2.md)
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md)
+- [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md)
 
 The architecture is closed unless a documented reopening trigger occurs. Runtime repairs and new skill realizations do not reopen it by default.
 
@@ -17,7 +17,8 @@ The architecture is closed unless a documented reopening trigger occurs. Runtime
 
 | Area | Purpose |
 |---|---|
-| `architecture/` | controlling requirements, target architecture, decisions, traceability, and guardrails |
+| `foundation/` | controlling concerns, requirements, and System of Interest |
+| `architecture/` | target architecture, decisions, traceability, and guardrails |
 | `skills/` | canonical source for reusable skill packages plus portfolio registry |
 | `realization/runtime/route-b/v0.6-chatgpt-runtime/` | native ChatGPT runtime instruction carriers and topology; not a second skill source |
 | `methods/` | historical or supporting method artifacts; active skill methods live with their skill package |
@@ -31,6 +32,7 @@ Native ChatGPT owns the work episode: understanding the request, planning, tool 
 
 The active portfolio is indexed in [`skills/REGISTRY.md`](skills/REGISTRY.md). Its boundaries are intentional:
 
+- materially open frame, opportunity, route, concept, or direction → `adaptive-exploration`
 - blocking missing basis → `work-formation`
 - missing or uncertain evidence → `research-evidence`
 - bounded material choice → `decision-analysis`
