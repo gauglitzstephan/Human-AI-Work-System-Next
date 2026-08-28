@@ -22,15 +22,18 @@ Do not build custom layers to reproduce ordinary product capabilities. Add a Ski
 
 ## 3. Active Work State and Context Gate
 
+This section is the canonical semantic owner for the Active Work State & Context Gate. Runtime topology and instruction carriers compile this contract for their respective roles/surfaces.
+
 For **material work**, bind enough Active Work State before substantive downstream work to avoid working on the wrong object or with the wrong basis.
 
 The minimum projection is:
 
 ```text
-parent outcome
-current frontier / next supported claim
-route or candidate + maturity
-critical relevant state / scope / constraints
+current Work Object / active boundary
+controlling parent outcome
+current frontier / next legitimate result, claim or transition
+selected route or candidate + current maturity
+critical preserved state / scope / constraints
 ```
 
 Add only when material:
@@ -41,9 +44,13 @@ information / evidence dependency + required freshness / coverage
 authority / continuity state
 ```
 
-This is a working projection, not a universal artifact or authoritative store. If the current context and information basis are already sufficient, proceed without producing a visible status object.
+Bind the Work Object from the underlying need and intended outcome, not automatically from proposed means. When that distinction could materially change the work, treat the request as evidence of intent rather than a complete specification.
 
-When the next claim depends materially on information or evidence, ensure only the minimum sufficient information basis before dependent downstream work. Distinguish as needed:
+Preserve the bound Work Object, controlling parent outcome, frontier, selected route and candidate maturity across turns. New evidence or Human direction first updates the narrowest dependent state. Rebind wider state only when the next legitimate result, claim, route, scope, maturity, information dependency or authority boundary materially changes.
+
+This is a working projection, not a universal artifact or authoritative store. If the current context and information basis are sufficient, proceed without producing a visible status object.
+
+When the next result or claim depends materially on information or evidence, ensure only the minimum sufficient information basis before dependent work. Distinguish as needed:
 
 - **RECOVER** — relevant state/evidence already exists and is legitimately accessible;
 - **ACQUIRE** — material evidence is missing but can be obtained now through research, query, measurement, primary input or a specialized professional method;
@@ -54,14 +61,16 @@ These are claim-relative dispositions, not mandatory stages or new architecture 
 
 After the required basis is sufficient, compose only the relevant high-signal context for the current work. Do not make the Human restate AI-accessible state by default. Preserve provenance, freshness, scope and authority distinctions.
 
-A proposed route, tool, provider, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish completion. Rebind the Active Work State only at a material transition, such as a changed route, claim, maturity, intended use, scope, information dependency, authority boundary, persistent continuity need or execution surface that changes what can legitimately follow.
+At a material transition, reconcile the proposed next work against the Work Object, controlling parent outcome, preserved qualified state, unresolved dependencies, intended-use Performance Floor, current maturity and relevant authority/effect boundaries. Proceed only when it is the next qualified and authorized transition. Otherwise form the missing basis, narrow the claim, wait, hand off, stop or take no action.
+
+A proposed route, tool, provider, surface, Skill, artifact, local result or continuation does not replace the Work Object or controlling parent outcome, promote candidate maturity, authorize a new effect or establish wider completion. `Continue`, `next` or similar continuation language continues only within the already-bound Work Object, scope and authority; it does not authorize a new external effect, write, installation, migration, merge or promotion.
 
 When the gate exposes a real missing basis, use the smallest fitting mechanism:
 
 - open problem/route space → `adaptive-exploration`;
 - missing basis that can change the next material transition → `work-formation`;
 - one-off evidence acquisition or qualification → `research-evidence` or a narrower qualified research method;
-- durable or recurring information dependency → establish the smallest justified Work / Operating / Execution mechanism using native capabilities, tools or legitimate external sources;
+- durable or recurring information dependency → use the shallowest justified native, tool-based or external mechanism under its legitimate operating/execution owner;
 - sufficiently bounded material choice → `decision-analysis`;
 - existing work product needing fitness/readiness evaluation → `evaluate-work-product`;
 - system/runtime recovery or repair → `system-development`;
