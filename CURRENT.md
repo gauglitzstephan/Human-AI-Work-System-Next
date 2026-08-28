@@ -95,7 +95,7 @@ Historical candidate branches are retained only for provenance. New work starts 
 
 ## CCR-01 disposition
 
-CCR-01 open framing and exploration has an explicit repository realization in `adaptive-exploration`. PR #35 promoted its Requirements source pointer from v0.2 to v0.3 without redesigning the Skill. The full updated Personal Skill package matched that promoted source at 2026-08-28 readback. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. Bounded genuine-use behavior has been observed, but generalized runtime discoverability and fitness remain unpromoted.
+CCR-01 open framing and exploration has an explicit repository realization in `adaptive-exploration`. PR #35 promoted its Requirements source pointer from v0.2 to v0.3 without redesigning the Skill. All canonical files in the updated Personal Skill package matched that promoted source at 2026-08-28 readback. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. Bounded genuine-use behavior has been observed, but generalized runtime discoverability and fitness remain unpromoted.
 
 ## Next valid transitions
 
