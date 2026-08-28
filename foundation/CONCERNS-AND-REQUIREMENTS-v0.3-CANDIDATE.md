@@ -1,12 +1,12 @@
 # Concerns & Requirements Baseline v0.3 — Candidate
 
-**Status:** CANDIDATE — does not control until separately accepted, promoted, merged to `main` and read back  
+**Status:** ACCEPTED CANDIDATE LINEAGE — Human Acceptance applies to the promoted form; this lineage file remains non-controlling  
 **Date:** 2026-08-25  
 **Interaction repair:** 2026-08-28 — bounded Candidate source repair; no Promotion or architecture change  
-**Promotion-package relation:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` is the proposed promoted form prepared from this Candidate; neither file controls until explicit Human Acceptance, authorized merge and `main` readback  
+**Promotion-package relation:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` is the accepted Promotion object prepared from this Candidate; it becomes controlling only after separately authorized merge and successful `main` readback  
 **Scope:** solution-neutral requirements for a general Human–AI Work System and its materially relevant operating/runtime context  
-**Current controlling baseline:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`  
-**Supersession:** if later promoted, supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
+**Authority:** non-controlling Candidate lineage; see authoritative `main/CURRENT.md`. Requirements v0.2 controls only until separately authorized v0.3 merge and successful `main` readback  
+**Supersession:** after authorized merge and `main` readback, v0.3 supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
 **Derivation basis:** controlling Requirements v0.2 + Requirements v0.1 / R01–R30 lineage + accepted System of Interest and Target Architecture v0.2 + Professional Work review and observed Route-B/runtime-development failures + bounded Human–AI interaction gap challenge and qualified HAI/HCI evidence
 
 ## 1. Purpose and boundary
@@ -367,7 +367,7 @@ closure ≠ manufactured next frontier
 
 # 6. Baseline claim and non-claims
 
-If later promoted, this file would be accepted only as:
+The accepted promoted form preserves this Candidate lineage only as:
 
 > the best currently supported, solution-neutral Requirements Design Basis for the defined Human–AI Work System scope and current evidence horizon.
 
