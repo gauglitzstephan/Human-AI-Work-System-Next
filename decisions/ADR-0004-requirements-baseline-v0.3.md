@@ -1,9 +1,10 @@
-# ADR-0004 — Requirements Baseline v0.3 Promotion Candidate
+# ADR-0004 — Requirements Baseline v0.3
 
-**Status:** PROPOSED — source formed for Human acceptance review; no Acceptance, Promotion or merge authorized by this record  
+**Status:** ACCEPTED FOR PROMOTION — Human Acceptance granted 2026-08-28; merge and controlling Promotion remain unexecuted  
 **Date:** 2026-08-28  
+**Acceptance date:** 2026-08-28  
 **Decision owner:** Human repository owner  
-**Current authority:** ADR-0003 and Requirements v0.2 remain controlling until an explicit later decision, authorized merge and `main` readback
+**Current authority:** ADR-0003 and Requirements v0.2 remain controlling on `main` until a separately authorized merge and successful `main` readback
 
 ## Context
 
@@ -26,9 +27,9 @@ Qualified Candidate evidence includes:
 
 The Runtime trace establishes that promoted Route-B v0.6 source preserves most v0.3 semantics but is not fully compiled against the repaired Candidate. This does not invalidate the Requirements design; it requires an explicitly separate Runtime-Compilation repair and prevents any Runtime-conformance claim from being inferred from Requirements Promotion.
 
-## Proposed decision
+## Accepted decision
 
-If the Human later accepts the mature promotion object and separately authorizes the final promotion write/merge, the proposed decision is to:
+The Human repository owner accepts the mature Requirements v0.3 promotion object. If a separate merge authorization is later granted, the decision to execute through PR #34 is to:
 
 1. adopt `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` as the controlling solution-neutral Requirements baseline;
 2. retain Requirements v0.2 immutably as historical Qualified Prior and supersede it only in the controlling role;
@@ -39,7 +40,7 @@ If the Human later accepts the mature promotion object and separately authorizes
 5. declare promoted Runtime v0.6 only partially compiled against Requirements v0.3 until a separate Runtime-Compilation PR, source readback, deployment update and installed-carrier readback establish narrower claims;
 6. authorize no Runtime/UI installation, external action, architecture change or outcome claim through the Requirements decision itself.
 
-## Proposed accepted baseline
+## Accepted baseline
 
 ```text
 3 Interpretation Rules
@@ -52,11 +53,11 @@ The v0.3 packaging has 23 top-level normative elements versus 26 in v0.2. The re
 
 ## Acceptance boundary
 
-Acceptance would mean only:
+Acceptance means only:
 
 > Requirements v0.3 is sufficiently coherent, solution-neutral, lineage-reconciled, externally challenged and compatible with Target Architecture v0.2 to serve as the next controlling Requirements Design Basis.
 
-Acceptance would not establish:
+Acceptance does not establish:
 
 - Runtime-v0.6 conformance to v0.3;
 - installed Global or Project carrier identity;
@@ -75,14 +76,15 @@ Before a merge decision, the promotion package must:
 4. state the Runtime-v0.6 partial-compilation gap without treating it as a Requirements blocker;
 5. repair action-bearing version/count references that would otherwise remain stale after Promotion;
 6. present the exact final `CURRENT.md`, README/navigation and supersession state;
-7. receive explicit Human Acceptance and separate merge authorization;
-8. after merge, read back `main` and reconcile all material entry points.
+7. preserve the Human Acceptance recorded on 2026-08-28 and receive separate merge authorization;
+8. after any authorized merge, read back `main` and reconcile all material entry points.
 
 ## Current disposition
 
 ```text
-semantic Candidate maturity       READY_FOR_HUMAN_ACCEPTANCE
-Requirements Promotion            NOT AUTHORIZED
+semantic Candidate maturity       ACCEPTED_FOR_PROMOTION
+Requirements decision             ACCEPTED
+Requirements Promotion            AUTHORIZED IN SEMANTICS / NOT EXECUTED
 repository merge                  NOT AUTHORIZED
 Target Architecture reopen        NOT TRIGGERED
 Runtime v0.6 conformance           NOT ESTABLISHED
@@ -90,4 +92,4 @@ Runtime-Compilation repair         REQUIRED AS SEPARATE PACKAGE
 UI/installed-carrier update        NOT AUTHORIZED
 ```
 
-This ADR remains `PROPOSED` until the legitimate decision owner explicitly accepts the decision and authorizes the corresponding promotion path.
+This ADR records Human Acceptance of Requirements v0.3 and authorizes the semantic Promotion target. It does not authorize or execute repository merge. Requirements v0.3 becomes controlling only after a separately authorized merge to `main` and successful authoritative readback.
