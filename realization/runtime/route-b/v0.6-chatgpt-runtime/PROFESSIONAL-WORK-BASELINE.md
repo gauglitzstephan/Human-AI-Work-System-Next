@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** controlling quality basis for this runtime Candidate; subordinate to the controlling Requirements baseline. Requirements v0.2 remains controlling; Target Architecture v0.2 remains closed unless a named reopen trigger is established.
+**Status:** controlling quality basis for the promoted Route-B v0.6 runtime source; subordinate to the controlling Requirements baseline. Requirements v0.2 remains controlling; Target Architecture v0.2 remains closed unless a named reopen trigger is established.
 
 ## Purpose
 
