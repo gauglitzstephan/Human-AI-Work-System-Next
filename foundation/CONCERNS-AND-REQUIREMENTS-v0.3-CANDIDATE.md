@@ -3,6 +3,7 @@
 **Status:** CANDIDATE — does not control until separately accepted, promoted, merged to `main` and read back  
 **Date:** 2026-08-25  
 **Interaction repair:** 2026-08-28 — bounded Candidate source repair; no Promotion or architecture change  
+**Promotion-package relation:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` is the proposed promoted form prepared from this Candidate; neither file controls until explicit Human Acceptance, authorized merge and `main` readback  
 **Scope:** solution-neutral requirements for a general Human–AI Work System and its materially relevant operating/runtime context  
 **Current controlling baseline:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`  
 **Supersession:** if later promoted, supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
