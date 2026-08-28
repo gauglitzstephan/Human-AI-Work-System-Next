@@ -10,6 +10,19 @@ This file is the current repository state declaration. It reports promotion stat
 - Canonical reusable-skill source: `skills/`
 - Runtime instruction carriers and topology: `realization/runtime/route-b/v0.6-chatgpt-runtime/`
 
+## Requirements v0.3 promotion candidate — branch-local
+
+`candidate/requirements-v0.3-interaction-repair-v0.1` contains a formed, non-controlling Requirements-v0.3 promotion package for review:
+
+- proposed baseline: `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`;
+- proposed decision: `decisions/ADR-0004-requirements-baseline-v0.3.md`;
+- interaction-gap evidence and architecture compatibility addendum;
+- Runtime-v0.6 semantic trace and promotion-readiness review.
+
+This branch state does not alter `main` authority. Requirements v0.2 remains controlling until explicit Human Acceptance, separate merge authorization, authorized merge and `main` readback. Target Architecture v0.2 remains closed.
+
+The trace classifies promoted Runtime v0.6 as only partially compiled against repaired Requirements v0.3. No Runtime carrier, installed ChatGPT configuration, Skill deployment or Runtime-conformance claim changes through this source formation.
+
 ## Repository state
 
 PR #33 was merged into `main` as merge commit `2c030a2413a85d945783743dca812b56124fe7ab`. It promotes the bounded Route-B v0.6 runtime-source repair across exactly four active runtime files:
