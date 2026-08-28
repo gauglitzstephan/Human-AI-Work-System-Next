@@ -371,4 +371,4 @@ The accepted promoted form preserves this Candidate lineage only as:
 
 > the best currently supported, solution-neutral Requirements Design Basis for the defined Human–AI Work System scope and current evidence horizon.
 
-Acceptance would not establish cross-domain empirical completeness, architectural optimality, Runtime effectiveness, Human–AI synergy, any provider/product/Skill/Agent/state topology, concrete resource budgets, any Runtime/UI/external action, or realization/outcome effectiveness.
+Acceptance does not establish cross-domain empirical completeness, architectural optimality, Runtime effectiveness, Human–AI synergy, any provider/product/Skill/Agent/state topology, concrete resource budgets, any Runtime/UI/external action, or realization/outcome effectiveness.
