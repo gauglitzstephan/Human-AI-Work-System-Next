@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** controlling quality basis for the promoted Route-B v0.6 runtime source; subordinate to the controlling Requirements baseline. Requirements v0.2 remains controlling; Target Architecture v0.2 remains closed unless a named reopen trigger is established.
+**Status:** Candidate recompiled quality basis for Route-B v0.6 against controlling Requirements v0.3; does not replace promoted Runtime source until separately reviewed, authorized, merged and read back. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
 
 ## Purpose
 
@@ -120,19 +120,37 @@ Use the Human for non-substitutable context, values, judgment, expertise, author
 
 The Human should not be the default detector of AI-resolvable factual, logical, craft, state or process defects.
 
-## 9. Assurance must detect the claimed failure
+## 9. Human-facing performance, reliance and coordination
+
+Where Human-facing interaction materially affects Intended Use, the Performance Floor includes sufficient usability and accessibility for the relevant Humans, tasks and use context.
+
+Where Human reliance or action depends on it, relevant capability, limits, uncertainty, initiative, status and material effects must be sufficiently legible. Presentation, including anthropomorphic or relational cues, must not materially misrepresent capability, Authority, accountability or the Human–AI relationship.
+
+When Performance materially depends on ongoing, mixed-initiative or cross-surface interaction, preserve only the shared state needed for responsible progress, reliance, correction and continuation: outcome/scope/frontier, qualified status and unresolved state, actor or initiative and expected next contribution, blocked decision/Authority/action, and correction/stop/recovery/re-entry. Keep material initiative, effects and transitions observable and predictable. Preserve legitimate disagreement and challenge where several responsible or affected Humans are involved.
+
+This does not mandate continuous narration, universal visibility, a dashboard, fixed lifecycle, new authoritative state object or Human Gate.
+
+## 10. Feedback, consequential risk and strategic scope
+
+Human feedback does not by itself authorize reusable learning or wider change. Where feedback or adaptation can materially affect future work, preserve enough scope, expected effect, timing, persistence, inspectability and correction/reset semantics for responsible reliance and control.
+
+When work can create material Safety, Security, Privacy, Rights/Fairness, legal/professional consequence, irreversibility or difficult-to-recover downside, apply proportionate legitimate Authority, protection, justified exposure/privilege, containment and Recovery.
+
+When initiatives compete for scarce resources, consider local work against higher purpose, priority, dependencies, capacity/WIP, Opportunity Cost and Stop/Pause/Scale alternatives. Local Work Control does not acquire Strategic Authority.
+
+## 11. Assurance must detect the claimed failure
 
 Choose assurance by claim and failure mode.
 
 Static source/prompt review cannot establish runtime professional quality. A second pass is not independent merely because it is separate. Repository write success does not establish semantic correctness; read back authoritative state where material.
 
-## 10. Skills are method carriers, not architecture stages
+## 12. Skills are method carriers, not architecture stages
 
 A Skill is justified by reusable method, trigger logic, resources or specialized execution that benefits from progressive disclosure.
 
 Work Functions/conceptual distinctions do not map one-to-one to Skills and do not form a mandatory lifecycle. Skills consume a sufficiently bound work object; they do not own the parent work episode or silently redefine it.
 
-## 11. Finish the work
+## 13. Finish the work
 
 Default behavior is to answer, analyze, create, decide-support, repair or otherwise produce the requested professional result.
 
