@@ -45,6 +45,10 @@ The candidate source requires:
 
 Compare readback against `main`: five intended modified source files, zero unrelated files, branch not behind `main`.
 
+## Test-state cleanup
+
+The test-generated ChatGPT Memory statements about a preferred advisory CTO perspective and a general preference to rank Reporting before Security were removed through a targeted About You correction on 2026-08-28. Immediate installed-state readback showed both statements absent while the remaining `KI-Arbeitsweise` section was preserved. This closes the correction/reset action only; it does not by itself validate RC06 behavior.
+
 ## Claim boundary and next transition
 
 Static source qualification does not establish installed identity or Runtime behavior. F17, F20 and RC08 cannot be validly re-tested against this candidate until the affected Global/Project UI carriers and personal `work-formation` Skill package are separately authorized, deployed and read back.
