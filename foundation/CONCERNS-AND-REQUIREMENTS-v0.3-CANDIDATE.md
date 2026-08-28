@@ -2,10 +2,11 @@
 
 **Status:** CANDIDATE — does not control until separately accepted, promoted, merged to `main` and read back  
 **Date:** 2026-08-25  
+**Interaction repair:** 2026-08-28 — bounded Candidate source repair; no Promotion or architecture change  
 **Scope:** solution-neutral requirements for a general Human–AI Work System and its materially relevant operating/runtime context  
 **Current controlling baseline:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`  
 **Supersession:** if later promoted, supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
-**Derivation basis:** controlling Requirements v0.2 + Requirements v0.1 / R01–R30 lineage + accepted System of Interest and Target Architecture v0.2 + Professional Work review and observed Route-B/runtime-development failures
+**Derivation basis:** controlling Requirements v0.2 + Requirements v0.1 / R01–R30 lineage + accepted System of Interest and Target Architecture v0.2 + Professional Work review and observed Route-B/runtime-development failures + bounded Human–AI interaction gap challenge and qualified HAI/HCI evidence
 
 ## 1. Purpose and boundary
 
@@ -121,6 +122,8 @@ Existing methods, patterns, decisions, artifacts or knowledge shall be reused on
 
 Where recipient/use transformation is materially required for intended-use sufficiency, perform that transformation before claiming readiness. Additional QA does not substitute for missing Product transformation.
 
+Where Human-facing interaction materially affects intended-use Performance, the applicable Performance Floor includes sufficient usability and accessibility for the relevant Humans, tasks and use context.
+
 Professional quality shall not be reduced to a universal checklist where expertise, craft, tacit judgment or representative use is material.
 
 ## CR-06 — Comparative work composition
@@ -139,7 +142,9 @@ Human Attention, interruption, review, correction, re-grounding and coordination
 
 Where Human learning, retained judgment, authorship or future autonomy is materially affected by the Human–AI allocation, treat that capability effect as part of the intended outcome or constraint over the relevant horizon.
 
-The system shall remain sufficiently correctable, stoppable and legible for responsible Human reliance and action.
+The system shall remain sufficiently correctable, stoppable and legible for responsible Human reliance and action. Where such reliance or action materially depends on it, relevant capability, limits, uncertainty, initiative, status and material effects shall not be hidden or misleading.
+
+Presentation, including anthropomorphic or relational cues, shall not materially misrepresent capability, Authority, accountability or the Human–AI relationship.
 
 ## CR-08 — Capability, status and authority integrity
 
@@ -268,6 +273,10 @@ A reusable capability, Requirement, Operating rule or Runtime rule acquires stro
 
 Repair begins at the lowest responsible layer and reopens only dependent state unless evidence establishes a broader gap.
 
+Where Human feedback or system adaptation can materially affect future work, preserve enough of its scope, expected effect, timing, persistence, inspectability and correction or reset semantics for responsible reliance and control.
+
+Human feedback does not by itself authorize reusable learning or wider change.
+
 ## CR-15 — Work execution and Work-Product fidelity
 
 For admitted work with a sufficient basis, perform the actual transformation required by the intended outcome and produce, repair or integrate the required Work Product to the applicable intended-use Performance Floor.
@@ -305,6 +314,26 @@ Acquire additional information only when expected decision value justifies Acqui
 When multiple material initiatives compete for scarce resources, consider local work sufficiently against higher purpose, priority, dependencies, capacity/WIP, Opportunity Cost and Stop/Pause/Scale alternatives.
 
 Local Work Control does not thereby acquire Strategic Authority.
+
+## CCR-05 — Human–AI interaction and coordination integrity
+
+When intended Performance materially depends on ongoing, iterative, mixed-initiative or cross-Human, Agent or surface interaction, preserve enough shared interaction state and coordination legibility for responsible progress, reliance, correction and continuation.
+
+Where material, the relevant Human shall be able to determine sufficiently:
+
+- the current intended outcome, relevant scope and next legitimate frontier;
+- the qualified status and material unresolved state;
+- the active actor or initiative and expected next contribution;
+- any blocked decision, Authority or action; and
+- the available correction, stop, recovery and re-entry path.
+
+Material initiative, effects and transitions shall be sufficiently observable and predictable for the relevant Human reliance or action.
+
+Where several responsible or materially affected Humans are involved, legitimate disagreement and challenge shall remain possible.
+
+Surface only interaction state that can materially change judgment, reliance, action, Authority or Continuity.
+
+This Requirement does not mandate continuous narration, universal visibility, a dashboard, fixed stage model, new authoritative state object or Human gate.
 
 ---
 
