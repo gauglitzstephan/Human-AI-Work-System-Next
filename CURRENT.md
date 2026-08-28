@@ -2,26 +2,30 @@
 
 ## Authority snapshot
 
-This file is the current repository state declaration. It reports promotion state; it does not by itself establish Personal Skill installation, runtime activation, runtime fitness, or outcome quality.
+This file is the accepted Requirements-v0.3 Promotion target state carried by PR #34. This branch copy is non-authoritative until a separately authorized merge to `main` and successful `main` readback. Until that transition completes, the existing `main/CURRENT.md` and Requirements v0.2 remain controlling.
 
-- Controlling requirements: `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`
+- Target controlling requirements after authorized merge/readback: `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`
+- Current controlling requirements before that transition: `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`
 - Controlling architecture: `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`
 - Architecture state: **CLOSED**, unless a documented reopening trigger occurs.
 - Canonical reusable-skill source: `skills/`
 - Runtime instruction carriers and topology: `realization/runtime/route-b/v0.6-chatgpt-runtime/`
 
-## Requirements v0.3 promotion candidate — branch-local
+## Requirements v0.3 acceptance and Promotion target
 
-`candidate/requirements-v0.3-interaction-repair-v0.1` contains a formed, non-controlling Requirements-v0.3 promotion package for review:
+Human Acceptance was granted by the Human repository owner on 2026-08-28 and is recorded in `decisions/ADR-0004-requirements-baseline-v0.3.md`.
 
-- proposed baseline: `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`;
-- proposed decision: `decisions/ADR-0004-requirements-baseline-v0.3.md`;
-- interaction-gap evidence and architecture compatibility addendum;
-- Runtime-v0.6 semantic trace and promotion-readiness review.
+The accepted package contains:
 
-This branch state does not alter `main` authority. Requirements v0.2 remains controlling until explicit Human Acceptance, separate merge authorization, authorized merge and `main` readback. Target Architecture v0.2 remains closed.
+- accepted Promotion baseline: `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`;
+- accepted decision: `decisions/ADR-0004-requirements-baseline-v0.3.md`;
+- v0.2→v0.3 reconciliation and bounded Interaction Gap Challenge;
+- Target-Architecture-v0.2 compatibility review and interaction-repair addendum;
+- Runtime-v0.6 semantic trace and Promotion-readiness review.
 
-The trace classifies promoted Runtime v0.6 as only partially compiled against repaired Requirements v0.3. No Runtime carrier, installed ChatGPT configuration, Skill deployment or Runtime-conformance claim changes through this source formation.
+The semantic Promotion target is accepted. Repository merge remains **NOT AUTHORIZED** and Requirements v0.3 does not control before authorized merge and `main` readback.
+
+Target Architecture v0.2 remains controlling and closed. Runtime v0.6 remains only partially compiled against Requirements v0.3. No Runtime carrier, installed ChatGPT configuration, Skill deployment or Runtime-conformance claim changes through this Requirements Promotion package.
 
 ## Repository state
 
@@ -34,7 +38,7 @@ PR #33 was merged into `main` as merge commit `2c030a2413a85d945783743dca812b561
 
 The promoted repair adds the Native Active Work State & Context Gate, including explicit current Work Object / active boundary, controlling parent outcome, frontier, route/candidate maturity, narrowest-dependent-state updates, qualified/authorized transition checks, claim-relative information-supply dispositions (`RECOVER`, `ACQUIRE`, `ESTABLISH`, `SENSE / REFRESH`) and the separation of information supply from context composition.
 
-Requirements v0.2 remain controlling and Target Architecture v0.2 remains closed. PR #33 changes no Requirement, architecture, Skill package, plugin package, deployment manifest or canonical skill source.
+PR #33 itself changed no Requirement, architecture, Skill package, plugin package, deployment manifest or canonical skill source. Requirements v0.3 is now Human-accepted through ADR-0004, but remains non-controlling until PR #34 receives separate merge authorization, is merged and passes `main` readback. Target Architecture v0.2 remains closed.
 
 PR #25 and the skill-source normalization repair also remain promoted in `main`. The six reusable skill packages have one active repository source under `skills/`. Earlier copies under `realization/runtime/route-b/v0.6-chatgpt-runtime/` remain absent from the active tree; Git history is the historical record.
 
@@ -77,6 +81,8 @@ There is no automatic two-way synchronization. Repository merge does not update 
 
 ## Candidate branch disposition
 
+`candidate/requirements-v0.3-interaction-repair-v0.1` is the **ACCEPTED PROMOTION CANDIDATE** carried by PR #34. Before authorized merge/readback it remains non-authoritative; after a successful Promotion it becomes historical Candidate lineage rather than a second controlling source.
+
 `candidate/native-work-state-context-gate-v0.1` is a **MERGED HISTORICAL CANDIDATE**. Its bounded runtime repair was promoted through PR #33. The branch may remain for lineage, but it is no longer active source authority, a deployment source or a pending merge object.
 
 The original `candidate/evaluate-work-product-v0.2.1-test-carrier` and `candidate/decision-analysis-v0.1.2-test-carrier` branches are **SUPERSEDED HISTORICAL TEST CARRIERS**. Their skill packages and bounded evidence were promoted into `main` through PR #26 by preserved blob identity.
@@ -89,12 +95,14 @@ CCR-01 open framing and exploration has an explicit repository realization and c
 
 ## Next valid transitions
 
-1. Update the ChatGPT Global Custom Instructions and this Project's Instructions from the final promoted files on `main`, then read back installed content against the repository source.
-2. Refresh or open new conversations as needed so the promoted instruction carriers and six current Personal Skills can enter the active Runtime context.
-3. Continue genuine work and observe only material discovery, state, evidence, method, execution, quality, burden, authority or boundary failures.
-4. Keep runtime claims bounded to the exact installed carrier/version/surface and evidence; repair the lowest responsible mechanism if a material defect appears.
-5. Do not reopen Target Architecture v0.2 or add persistent mechanisms without a documented trigger and sufficient evidence.
+1. Before Requirements Promotion: review the accepted target state in PR #34 and obtain separate repository-merge authorization.
+2. On authorization only: merge PR #34, read back `main`, and reconcile `CURRENT.md`, README/navigation, ADR-0004, the v0.3 baseline and Candidate supersession.
+3. After successful Requirements Promotion readback: form the separate Runtime-Compilation PR for the exact four active Runtime carriers plus regression evidence. Do not infer Runtime-v0.6 conformance from Requirements Promotion.
+4. Only after Runtime source repair, deployment authorization and installed-carrier readback may updated Global or Project carrier identity/conformance be claimed.
+5. Keep Target Architecture v0.2 closed unless a documented reopening trigger occurs.
 
 ## Superseded declarations
 
 Any older repository artifact that calls PR #33 unmerged, treats `candidate/native-work-state-context-gate-v0.1` as active authority or a pending merge object, calls PR #25 unmerged, treats former runtime-package directories or superseded candidate branches as the canonical reusable-skill source, treats `methods/METHOD-REGISTRY-v0.1.md` as active, or calls CCR-01 unrealized at repository-source level is historical rather than current authority.
+
+After authorized PR #34 merge and successful `main` readback, any general declaration that Requirements v0.2 remains controlling is historical. Explicit Runtime-v0.6 references to v0.2 remain evidence of the declared compilation gap until the separate Runtime-Compilation package is promoted; they do not override Requirements authority.
