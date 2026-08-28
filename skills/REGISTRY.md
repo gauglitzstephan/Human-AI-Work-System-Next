@@ -12,10 +12,10 @@ Repository promotion, installed-content identity, runtime activation, runtime fi
 
 | Skill | Canonical package | Repository source | Installed-content readback | Runtime evidence |
 |---|---|---|---|---|
-| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | 2026-08-27 readback predates the v0.3 pointer change; updated installed identity unverified | unverified |
+| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | all canonical package files matched promoted source at 2026-08-28 readback | bounded genuine-use behavior observed; generalized discoverability and fitness unverified |
 | `work-formation` | `skills/work-formation/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
 | `research-evidence` | `skills/research-evidence/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
-| `system-development` | `skills/system-development/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
+| `system-development` | `skills/system-development/` | promoted repaired source | all canonical package files matched promoted source at 2026-08-28 readback | not established by identity alone |
 | `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | one bounded predecessor-use PASS; repaired implicit discovery and general fitness remain unverified |
 | `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | forward runtime validation not started |
 
