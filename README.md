@@ -4,22 +4,18 @@ A requirements-led Human–AI work system for preserving context, choosing fit-f
 
 ## Authority
 
-Start with [`CURRENT.md`](CURRENT.md). It declares the current promoted state and the next valid transitions.
+Start with [`CURRENT.md`](CURRENT.md) on authoritative `main`. It declares the promoted state and the next valid transitions; a candidate-branch copy remains only a target state until merge and `main` readback.
 
-The controlling system basis is:
+The accepted Requirements Promotion target and continuing architecture basis are:
 
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md)
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md)
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md)
 
-A non-controlling Requirements-v0.3 promotion package is formed for review on `candidate/requirements-v0.3-interaction-repair-v0.1`:
+Human Acceptance of Requirements v0.3 was granted on 2026-08-28 and is recorded in [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md). The supporting [Runtime-v0.6 semantic trace](reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md) declares the exact downstream compilation gap.
 
-- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md) — proposed promoted baseline;
-- [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md) — proposed decision;
-- [`reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md`](reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md) — Runtime trace and readiness evidence.
+This content is the PR #34 target state. It becomes controlling only after separately authorized merge to `main` and successful `main` readback. Until then, the existing `main` state and [Requirements v0.2](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) remain authoritative. Requirements v0.2 remains immutable historical Qualified Prior evidence after Promotion.
 
-These Candidate artifacts do not change the controlling basis without explicit Human Acceptance, authorized merge and `main` readback.
-
-The architecture is closed unless a documented reopening trigger occurs. Runtime repairs and new skill realizations do not reopen it by default.
+Runtime v0.6 is only partially compiled against Requirements v0.3. Requirements Promotion does not establish Runtime conformance, installed-carrier identity or deployment. The architecture remains closed unless a documented reopening trigger occurs.
 
 ## Repository map
 
