@@ -23,7 +23,9 @@ Human Acceptance and repository merge were separately authorized by the Human re
 
 Requirements v0.3 now supersedes v0.2 only in the controlling Requirements role. The v0.3 Candidate file remains non-controlling historical lineage, and v0.2 remains immutable historical Qualified Prior evidence.
 
-Target Architecture v0.2 remains controlling and closed. Runtime v0.6 remains only partially compiled against Requirements v0.3. No Runtime carrier, installed ChatGPT configuration, Skill deployment or Runtime-conformance claim changes through Requirements Promotion.
+Target Architecture v0.2 remains controlling and closed. Human Acceptance for the repaired Runtime-v0.6 compilation source was granted on 2026-08-28 for semantic source head `7beaf27194de5726ae7b8659fded9d2f11ab280f`. PR #35 promotes that accepted package only through a successful merge and authoritative `main` readback.
+
+On authoritative `main` after that readback, Runtime v0.6 is compiled against Requirements v0.3 at repository-source level across the four active Runtime carriers, with the bounded Adaptive-Exploration CCR-01 source-pointer correction. This source status does not establish installed ChatGPT carrier identity, installed Skill identity, behavioral Runtime conformance, outcome effectiveness or value.
 
 ## Repository state
 
@@ -38,13 +40,15 @@ The promoted repair adds the Native Active Work State & Context Gate, including 
 
 PR #33 itself changed no Requirement, architecture, Skill package, plugin package, deployment manifest or canonical skill source. PR #34 later promotes Requirements v0.3 through ADR-0004 while retaining Target Architecture v0.2 as controlling and closed.
 
+PR #35 promotes the Human-accepted Runtime-v0.6 ↔ Requirements-v0.3 compilation package after successful merge and `main` readback: the four active Runtime carriers, static semantic-regression evidence, the bounded `adaptive-exploration` Requirements pointer, and the activation-hygiene updates in this file, README, the Skill registry and plugin manifest. The supporting evidence is `reviews/RUNTIME-v0.6-REQUIREMENTS-v0.3-COMPILATION-SEMANTIC-REGRESSION-v0.1.md`. Global/Project installation and Skill deployment remain separate transitions.
+
 PR #25 and the skill-source normalization repair also remain promoted in `main`. The six reusable skill packages have one active repository source under `skills/`. Earlier copies under `realization/runtime/route-b/v0.6-chatgpt-runtime/` remain absent from the active tree; Git history is the historical record.
 
 The repository is also an installable skills-only plugin through `.codex-plugin/plugin.json`, with a repository marketplace carrier under `.agents/plugins/marketplace.json`. Repository-local Codex discovery uses symbolic links under `.agents/skills/` that resolve to the same canonical packages. These are optional deployment/discovery views, not duplicate sources.
 
 ## Runtime carrier state
 
-`realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md`, Section 3, is the canonical semantic owner for the promoted Active Work State & Context Gate. `RUNTIME-TOPOLOGY.md` allocates that semantic to Native ChatGPT, surfaces, state roles and selective Skills. Global and System-Development Project instructions are compiled deployment carriers.
+`realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md` is the canonical semantic owner for the Human-accepted Runtime-v0.6 compilation against Requirements v0.3. `RUNTIME-TOPOLOGY.md` allocates those semantics to Native ChatGPT, surfaces, state roles and selective Skills. Global and System-Development Project instructions are compiled deployment carriers. Their repository-source promotion through PR #35 does not install them in ChatGPT.
 
 Bounded genuine-use and collision-sensitive evidence informed the promotion, including business-opportunity exploration, creative exploration, continuation/authority, narrow state update, a genuine property-decision case and a Project forward review. That evidence supports only the bounded source repair and observed candidate-era behaviors. It does not establish generalized cross-domain reliability, deterministic Skill activation, runtime installation identity, outcome effectiveness or that the wider Human–AI Work System is generally fixed.
 
@@ -59,7 +63,7 @@ Repository promotion does not update ChatGPT UI carriers automatically. The exac
 | `system-development` | `skills/system-development/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | not generalized from source identity |
 | `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | one bounded predecessor-use result; repaired discovery remains unverified |
 | `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | forward runtime validation not started |
-| `adaptive-exploration` | `skills/adaptive-exploration/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | bounded genuine-use behavior observed; generalized discoverability/fitness unpromoted |
+| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | 2026-08-27 readback predates the v0.3 pointer change; updated installed identity unverified | bounded genuine-use behavior observed; generalized discoverability/fitness unpromoted |
 
 `skills/REGISTRY.md` is the portfolio registry. It keeps repository promotion, installed-content readback, runtime behavior, and outcome evidence separate.
 
@@ -71,7 +75,7 @@ The top-down semantic portfolio and bottom-up technical packaging are reconciled
 - detailed methods remain progressively disclosed under each package's `references/`;
 - `.agents/skills/*` supplies repository-local Codex discovery without source duplication;
 - six standalone Personal Skills are the current ChatGPT Skill deployment;
-- `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` retain an optional bundled distribution route;
+- `.codex-plugin/plugin.json` at source package version `0.1.1` and `.agents/plugins/marketplace.json` retain an optional bundled distribution route;
 - `skills/DEPLOYMENT-CONTRACT.md` defines controlled source→deployment→readback and runtime-evidence→repair→promotion flows;
 - the promoted Global and Project runtime carriers under `realization/runtime/route-b/v0.6-chatgpt-runtime/` require separate UI update/readback before installed identity can be claimed.
 
@@ -83,24 +87,28 @@ There is no automatic two-way synchronization. Repository merge does not update 
 
 `candidate/native-work-state-context-gate-v0.1` is a **MERGED HISTORICAL CANDIDATE**. Its bounded runtime repair was promoted through PR #33. The branch may remain for lineage, but it is no longer active source authority, a deployment source or a pending merge object.
 
+`candidate/runtime-v0.6-requirements-v0.3-compilation-v0.1` becomes a **MERGED HISTORICAL CANDIDATE** only after successful PR #35 merge and authoritative `main` readback. Its accepted semantic source head is `7beaf27194de5726ae7b8659fded9d2f11ab280f`; the later activation head changes status and entry-point carriers only.
+
 The original `candidate/evaluate-work-product-v0.2.1-test-carrier` and `candidate/decision-analysis-v0.1.2-test-carrier` branches are **SUPERSEDED HISTORICAL TEST CARRIERS**. Their skill packages and bounded evidence were promoted into `main` through PR #26 by preserved blob identity.
 
 Historical candidate branches are retained only for provenance. New work starts from `main`, the active runtime carriers and the canonical packages under `skills/`.
 
 ## CCR-01 disposition
 
-CCR-01 open framing and exploration has an explicit repository realization and content-matched Personal Skill deployment in `adaptive-exploration`. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. Bounded genuine-use behavior has been observed, but generalized runtime discoverability and fitness remain unpromoted.
+CCR-01 open framing and exploration has an explicit repository realization in `adaptive-exploration`. PR #35 promotes its Requirements source pointer from v0.2 to v0.3 without redesigning the Skill. The 2026-08-27 Personal Skill readback predates that pointer change, so updated installed identity remains unverified until a separate Skill update and readback. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. Bounded genuine-use behavior has been observed, but generalized runtime discoverability and fitness remain unpromoted.
 
 ## Next valid transitions
 
-1. Form the separate Runtime-Compilation Candidate from the exact accepted Requirements-v0.3 ↔ Runtime-v0.6 carrier delta.
-2. Recompile the four active Runtime carriers together, preserve protected predecessor semantics and add claim-matched regression evidence; do not append independently to envelope-constrained instruction carriers.
-3. Keep Runtime source repair, repository Promotion, installed ChatGPT carrier update and installed-carrier readback as separate authority/evidence transitions.
-4. Claim Runtime-v0.6 conformance only to the exact source and installed state established by subsequent readback.
+1. Separately authorize and perform the Global Custom Instructions and System-Development Project Instructions UI deployment from the exact promoted PR #35 blobs, then read back installed identity.
+2. Separately authorize and perform the `adaptive-exploration` Personal Skill update from the exact promoted package, then read back installed identity.
+3. Run protected F01–F20 plus RC01–RC10 behavioral regression on the exact claimed surfaces before any Runtime-conformance claim.
+4. Keep repository source, installation, behavioral conformance, Performance, outcome and value as separate claims.
 5. Keep Target Architecture v0.2 closed unless a documented reopening trigger occurs.
 
 ## Superseded declarations
 
 Any older repository artifact that calls PR #33 unmerged, treats `candidate/native-work-state-context-gate-v0.1` as active authority or a pending merge object, calls PR #25 unmerged, treats former runtime-package directories or superseded candidate branches as the canonical reusable-skill source, treats `methods/METHOD-REGISTRY-v0.1.md` as active, or calls CCR-01 unrealized at repository-source level is historical rather than current authority.
 
-Any declaration that PR #34 is unmerged, that Requirements v0.3 is only a pending Promotion Candidate, or that Requirements v0.2 remains controlling is historical. Explicit Runtime-v0.6 references to v0.2 remain evidence of the declared compilation gap until the separate Runtime-Compilation package is promoted; they do not override Requirements authority.
+Any declaration that PR #34 is unmerged, that Requirements v0.3 is only a pending Promotion Candidate, or that Requirements v0.2 remains controlling is historical.
+
+After successful PR #35 merge and authoritative `main` readback, any declaration that PR #35 is unmerged, that Runtime v0.6 remains only partially compiled against Requirements v0.3 at repository-source level, or that the `adaptive-exploration` repository pointer still targets Requirements v0.2 is historical. Such promotion does not establish installation, behavioral conformance, Performance, outcome or value.

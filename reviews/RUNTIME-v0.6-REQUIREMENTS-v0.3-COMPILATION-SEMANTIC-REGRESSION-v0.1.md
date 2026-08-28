@@ -1,8 +1,10 @@
 # Runtime v0.6 ↔ Requirements v0.3 Compilation and Semantic Regression v0.1
 
-**Status:** CANDIDATE SOURCE EVIDENCE — static repository-source compilation/readback only; no Runtime Promotion, merge, installation or behavioral conformance  
+**Status:** HUMAN-ACCEPTED CANDIDATE SOURCE EVIDENCE — activation prepared; no Runtime Promotion, merge, installation or behavioral conformance  
 **Date:** 2026-08-28  
 **Branch:** `candidate/runtime-v0.6-requirements-v0.3-compilation-v0.1`  
+**Human Acceptance:** granted on 2026-08-28 for repaired semantic source head `7beaf27194de5726ae7b8659fded9d2f11ab280f`  
+**Activation state:** this atomic activation commit must be read back before any separate merge authorization  
 **Base:** `main` merge commit `af69d566feae81b295879683d378ceb904124d78`  
 **Controlling semantic source:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`, blob `70f76ca5d3a7f5f562924e00894cc81e75c77c3c`  
 **Compilation method:** `skills/system-development/references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md`, blob `9ce6e6c048c5e7324ea11f30f4f6d52f5273a4b0`  
@@ -27,8 +29,8 @@ The bounded review of the first Candidate head found material losses in CR-07 ca
 
 | Object | Promoted/predecessor blob | Candidate blob | Characters |
 |---|---:|---:|---:|
-| `PROFESSIONAL-WORK-BASELINE.md` | `03234e13e5b17c1947849f99505173181479f487` | `d5cfbcbe555f8bbb1ab396174dd210615084def9` | 12,551 |
-| `RUNTIME-TOPOLOGY.md` | `ea56da1e64d5308e151be698fe019562200afecf` | `a3bab823a3cb013c07e526aaf68b70cdb8b84430` | 14,028 |
+| `PROFESSIONAL-WORK-BASELINE.md` | `03234e13e5b17c1947849f99505173181479f487` | `2d4c68d9cb33d56529ab6548b8a42228d3d4c6a2` | 12,618 |
+| `RUNTIME-TOPOLOGY.md` | `ea56da1e64d5308e151be698fe019562200afecf` | `af21a8af18975e2bb3e2e2990166134720943519` | 14,119 |
 | `GLOBAL-CUSTOM-INSTRUCTIONS.md` | `8a8e521fee21d96a1fd281f1ffba7033bf31b9b9` | `848585b6327f198c8ba5585fbf400b708ca620ee` | 4,989 |
 | `SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md` | `19548e687739b224966e73596114c9d16d1b6561` | `68fc860fbe8645b3835b5164d869e3d2a22907dd` | 7,542 |
 | `ADAPTIVE-EXPLORATION-METHOD.md` | `12fde1b420490f2e44771490ca1b18b08e137b4b` | `e460cf2e2b9bfe87b5ac3007c8a4cfb6e3d43544` | 7,392 |
@@ -47,7 +49,7 @@ The Adaptive-Exploration file changes only the CCR-01 Requirements source pointe
 | Installed Global/Project content identity | `UNVERIFIED` |
 | Effective Global↔Project precedence in every target surface | `UNVERIFIED` |
 | Provider/tool/Work/Codex availability and permissions | context-dependent / `UNVERIFIED` until target use |
-| Repository write path | Candidate branch only; no merge authorized by this record |
+| Repository write path | Human-accepted Candidate branch; atomic activation commit authorized, merge not authorized |
 
 Non-growth is a conservative source constraint, not proof that installation will succeed.
 
@@ -137,6 +139,7 @@ Global non-growth envelope                        PASS — 4,989 ≤ 4,998
 Project non-growth envelope                       PASS — 7,542 ≤ 7,765
 Adaptive-Exploration pointer hygiene              PASS
 Target Architecture reopen                        NOT TRIGGERED
+activation commit                                AUTHORIZED / PREPARED
 repository Promotion / merge                      NOT AUTHORIZED
 installed Global/Project identity                 UNVERIFIED
 installed Skill identity                          UNVERIFIED
@@ -144,13 +147,13 @@ behavioral Runtime conformance                    UNVERIFIED
 outcome effectiveness                             UNVERIFIED
 ```
 
-**Candidate disposition:** `SOURCE_REPAIRED — READY_FOR_BOUNDED RE-REVIEW; NOT PROMOTED, NOT INSTALLED`.
+**Candidate disposition:** `HUMAN ACCEPTED — ACTIVATION PREPARED; AWAITING SEPARATE MERGE AUTHORIZATION; NOT PROMOTED, NOT INSTALLED`.
 
 ## 10. Next legitimate gates
 
-1. review the exact six-file Candidate delta and this evidence;
-2. if accepted, authorize a separate Runtime-source Promotion path;
-3. after any authorized merge, read back `main` and reconcile `CURRENT.md`/navigation;
-4. separately authorize and perform Global/Project plus affected Skill deployment/update;
+1. read back the exact ten-file PR delta, final activation head and updated PR description;
+2. if that activation readback passes, obtain separate merge authorization;
+3. after any authorized merge, read back authoritative `main` and confirm the prepared status, `CURRENT.md`, README, registry and plugin-manifest state;
+4. separately authorize and perform Global/Project UI deployment plus the affected `adaptive-exploration` Skill update;
 5. read back installed content identity;
 6. run protected F01–F20 plus RC01–RC10 behavioral regression on the exact claimed surfaces before any Runtime-conformance claim.

@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** Candidate recompiled quality basis for Route-B v0.6 against controlling Requirements v0.3; does not replace promoted Runtime source until separately reviewed, authorized, merged and read back. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
+**Status:** Human-accepted Runtime-v0.6 source compiled against controlling Requirements v0.3. It becomes promoted repository source only after successful PR #35 merge and authoritative `main` readback; installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
 
 ## Purpose
 

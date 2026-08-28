@@ -13,7 +13,7 @@ The controlling system basis is:
 
 Human Acceptance and repository Promotion of Requirements v0.3 were separately authorized on 2026-08-28 and are recorded in [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md) and PR #34. [Requirements v0.2](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) remains immutable historical Qualified Prior evidence.
 
-The supporting [Runtime-v0.6 semantic trace](reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md) establishes that Runtime v0.6 is only partially compiled against Requirements v0.3. Requirements Promotion does not establish Runtime conformance, installed-carrier identity or deployment. The architecture remains closed unless a documented reopening trigger occurs.
+Human Acceptance for the repaired Runtime-v0.6 compilation source was granted on 2026-08-28 for semantic source head `7beaf27194de5726ae7b8659fded9d2f11ab280f`. After successful PR #35 merge and authoritative `main` readback, Runtime v0.6 is compiled against Requirements v0.3 at repository-source level. The [compilation and semantic-regression evidence](reviews/RUNTIME-v0.6-REQUIREMENTS-v0.3-COMPILATION-SEMANTIC-REGRESSION-v0.1.md) binds the exact source claim. Repository promotion does not establish installed-carrier identity, installed Skill identity, behavioral Runtime conformance, outcome effectiveness or deployment. The architecture remains closed unless a documented reopening trigger occurs.
 
 ## Repository map
 

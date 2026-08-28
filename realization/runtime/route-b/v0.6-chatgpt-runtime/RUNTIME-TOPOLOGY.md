@@ -1,6 +1,6 @@
 # Runtime Topology — Route B v0.6
 
-**Status:** Candidate recompiled topology against controlling Requirements v0.3; does not replace promoted Runtime source until separately reviewed, authorized, merged and read back. Target Architecture v0.2 remains controlling and closed.
+**Status:** Human-accepted Runtime-v0.6 topology compiled against controlling Requirements v0.3. It becomes promoted repository source only after successful PR #35 merge and authoritative `main` readback; installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed.
 
 ## 1. Runtime owner
 
