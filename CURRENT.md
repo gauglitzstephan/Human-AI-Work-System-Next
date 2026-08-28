@@ -12,11 +12,28 @@ This file is the current repository state declaration. It reports promotion stat
 
 ## Repository state
 
-PR #25 and the skill-source normalization repair are merged into `main`. Their repository changes are promoted. External ChatGPT installation or runtime behavior does not change merely because repository source is merged.
+PR #33 was merged into `main` as merge commit `2c030a2413a85d945783743dca812b56124fe7ab`. It promotes the bounded Route-B v0.6 runtime-source repair across exactly four active runtime files:
 
-The six reusable skill packages have one active repository source under `skills/`. Earlier copies under `realization/runtime/route-b/v0.6-chatgpt-runtime/` remain absent from the active tree; Git history is the historical record.
+- `PROFESSIONAL-WORK-BASELINE.md`
+- `RUNTIME-TOPOLOGY.md`
+- `GLOBAL-CUSTOM-INSTRUCTIONS.md`
+- `SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md`
+
+The promoted repair adds the Native Active Work State & Context Gate, including explicit current Work Object / active boundary, controlling parent outcome, frontier, route/candidate maturity, narrowest-dependent-state updates, qualified/authorized transition checks, claim-relative information-supply dispositions (`RECOVER`, `ACQUIRE`, `ESTABLISH`, `SENSE / REFRESH`) and the separation of information supply from context composition.
+
+Requirements v0.2 remain controlling and Target Architecture v0.2 remains closed. PR #33 changes no Requirement, architecture, Skill package, plugin package, deployment manifest or canonical skill source.
+
+PR #25 and the skill-source normalization repair also remain promoted in `main`. The six reusable skill packages have one active repository source under `skills/`. Earlier copies under `realization/runtime/route-b/v0.6-chatgpt-runtime/` remain absent from the active tree; Git history is the historical record.
 
 The repository is also an installable skills-only plugin through `.codex-plugin/plugin.json`, with a repository marketplace carrier under `.agents/plugins/marketplace.json`. Repository-local Codex discovery uses symbolic links under `.agents/skills/` that resolve to the same canonical packages. These are optional deployment/discovery views, not duplicate sources.
+
+## Runtime carrier state
+
+`realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md`, Section 3, is the canonical semantic owner for the promoted Active Work State & Context Gate. `RUNTIME-TOPOLOGY.md` allocates that semantic to Native ChatGPT, surfaces, state roles and selective Skills. Global and System-Development Project instructions are compiled deployment carriers.
+
+Bounded genuine-use and collision-sensitive evidence informed the promotion, including business-opportunity exploration, creative exploration, continuation/authority, narrow state update, a genuine property-decision case and a Project forward review. That evidence supports only the bounded source repair and observed candidate-era behaviors. It does not establish generalized cross-domain reliability, deterministic Skill activation, runtime installation identity, outcome effectiveness or that the wider Human–AI Work System is generally fixed.
+
+Repository promotion does not update ChatGPT UI carriers automatically. The exact post-merge installed identity of Global Custom Instructions and System-Development Project Instructions against final `main` remains unverified until a separate deployment update and readback.
 
 ## Skill state
 
@@ -27,7 +44,7 @@ The repository is also an installable skills-only plugin through `.codex-plugin/
 | `system-development` | `skills/system-development/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | not generalized from source identity |
 | `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | one bounded predecessor-use result; repaired discovery remains unverified |
 | `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | forward runtime validation not started |
-| `adaptive-exploration` | `skills/adaptive-exploration/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | unverified |
+| `adaptive-exploration` | `skills/adaptive-exploration/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | bounded genuine-use behavior observed; generalized discoverability/fitness unpromoted |
 
 `skills/REGISTRY.md` is the portfolio registry. It keeps repository promotion, installed-content readback, runtime behavior, and outcome evidence separate.
 
@@ -38,29 +55,33 @@ The top-down semantic portfolio and bottom-up technical packaging are reconciled
 - concise trigger-first descriptions support progressive discovery;
 - detailed methods remain progressively disclosed under each package's `references/`;
 - `.agents/skills/*` supplies repository-local Codex discovery without source duplication;
-- six standalone Personal Skills are the current ChatGPT deployment;
+- six standalone Personal Skills are the current ChatGPT Skill deployment;
 - `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` retain an optional bundled distribution route;
-- `skills/DEPLOYMENT-CONTRACT.md` defines controlled source→deployment→readback and runtime-evidence→repair→promotion flows.
+- `skills/DEPLOYMENT-CONTRACT.md` defines controlled source→deployment→readback and runtime-evidence→repair→promotion flows;
+- the promoted Global and Project runtime carriers under `realization/runtime/route-b/v0.6-chatgpt-runtime/` require separate UI update/readback before installed identity can be claimed.
 
 There is no automatic two-way synchronization. Repository merge does not update installed copies, and runtime evidence cannot silently modify or promote source.
 
 ## Candidate branch disposition
 
+`candidate/native-work-state-context-gate-v0.1` is a **MERGED HISTORICAL CANDIDATE**. Its bounded runtime repair was promoted through PR #33. The branch may remain for lineage, but it is no longer active source authority, a deployment source or a pending merge object.
+
 The original `candidate/evaluate-work-product-v0.2.1-test-carrier` and `candidate/decision-analysis-v0.1.2-test-carrier` branches are **SUPERSEDED HISTORICAL TEST CARRIERS**. Their skill packages and bounded evidence were promoted into `main` through PR #26 by preserved blob identity.
 
-They are intentionally retained to preserve candidate lineage. They are not active source authority, deployment sources, or pending merge objects. New work starts from `main` and the canonical packages under `skills/`.
+Historical candidate branches are retained only for provenance. New work starts from `main`, the active runtime carriers and the canonical packages under `skills/`.
 
 ## CCR-01 disposition
 
-CCR-01 open framing and exploration now has an explicit repository realization and content-matched Personal Skill deployment in `adaptive-exploration`. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. Runtime discoverability and fitness remain unpromoted.
+CCR-01 open framing and exploration has an explicit repository realization and content-matched Personal Skill deployment in `adaptive-exploration`. The Skill is orthogonal to `work-formation`, not a mandatory predecessor. Bounded genuine-use behavior has been observed, but generalized runtime discoverability and fitness remain unpromoted.
 
 ## Next valid transitions
 
-1. Refresh or open a new conversation so the six current Personal Skills can enter discovery.
-2. Run bounded direct and collision-sensitive activation checks without treating them as general runtime proof.
-3. Continue genuine work and observe only material discovery, execution, quality, burden, or boundary failures.
-4. Promote runtime claims only from bounded evidence; repair the lowest responsible mechanism if a material defect appears.
+1. Update the ChatGPT Global Custom Instructions and this Project's Instructions from the final promoted files on `main`, then read back installed content against the repository source.
+2. Refresh or open new conversations as needed so the promoted instruction carriers and six current Personal Skills can enter the active Runtime context.
+3. Continue genuine work and observe only material discovery, state, evidence, method, execution, quality, burden, authority or boundary failures.
+4. Keep runtime claims bounded to the exact installed carrier/version/surface and evidence; repair the lowest responsible mechanism if a material defect appears.
+5. Do not reopen Target Architecture v0.2 or add persistent mechanisms without a documented trigger and sufficient evidence.
 
 ## Superseded declarations
 
-Any older repository artifact that calls PR #25 unmerged, treats former runtime-package directories or superseded candidate branches as the canonical reusable-skill source, treats `methods/METHOD-REGISTRY-v0.1.md` as active, or calls CCR-01 unrealized at repository-source level is historical rather than current authority.
+Any older repository artifact that calls PR #33 unmerged, treats `candidate/native-work-state-context-gate-v0.1` as active authority or a pending merge object, calls PR #25 unmerged, treats former runtime-package directories or superseded candidate branches as the canonical reusable-skill source, treats `methods/METHOD-REGISTRY-v0.1.md` as active, or calls CCR-01 unrealized at repository-source level is historical rather than current authority.
