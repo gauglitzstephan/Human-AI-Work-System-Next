@@ -1,10 +1,10 @@
 # ADR-0004 — Requirements Baseline v0.3
 
-**Status:** ACCEPTED FOR PROMOTION — Human Acceptance granted 2026-08-28; merge and controlling Promotion remain unexecuted  
+**Status:** ACCEPTED AND PROMOTED — Human Acceptance and repository merge authorized 2026-08-28; controlling effect established by successful PR #34 merge and `main` readback  
 **Date:** 2026-08-28  
 **Acceptance date:** 2026-08-28  
 **Decision owner:** Human repository owner  
-**Current authority:** ADR-0003 and Requirements v0.2 remain controlling on `main` until a separately authorized merge and successful `main` readback
+**Authority:** ADR-0004 and Requirements v0.3 control on authoritative `main` after successful PR #34 merge/readback; ADR-0003 and Requirements v0.2 remain immutable historical Qualified Prior evidence
 
 ## Context
 
@@ -29,7 +29,7 @@ The Runtime trace establishes that promoted Route-B v0.6 source preserves most v
 
 ## Accepted decision
 
-The Human repository owner accepts the mature Requirements v0.3 promotion object. If a separate merge authorization is later granted, the decision to execute through PR #34 is to:
+The Human repository owner accepts the mature Requirements v0.3 promotion object and separately authorized repository merge on 2026-08-28. The decision executed through PR #34 is to:
 
 1. adopt `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` as the controlling solution-neutral Requirements baseline;
 2. retain Requirements v0.2 immutably as historical Qualified Prior and supersede it only in the controlling role;
@@ -76,20 +76,20 @@ Before a merge decision, the promotion package must:
 4. state the Runtime-v0.6 partial-compilation gap without treating it as a Requirements blocker;
 5. repair action-bearing version/count references that would otherwise remain stale after Promotion;
 6. present the exact final `CURRENT.md`, README/navigation and supersession state;
-7. preserve the Human Acceptance recorded on 2026-08-28 and receive separate merge authorization;
-8. after any authorized merge, read back `main` and reconcile all material entry points.
+7. preserve the Human Acceptance and separate merge authorization recorded on 2026-08-28;
+8. after merge, read back `main` and reconcile all material entry points.
 
 ## Current disposition
 
 ```text
-semantic Candidate maturity       ACCEPTED_FOR_PROMOTION
+semantic Candidate maturity       PROMOTED LINEAGE
 Requirements decision             ACCEPTED
-Requirements Promotion            AUTHORIZED IN SEMANTICS / NOT EXECUTED
-repository merge                  NOT AUTHORIZED
+Requirements Promotion            EXECUTED THROUGH PR #34
+repository merge                  AUTHORIZED / EXECUTED THROUGH PR #34
 Target Architecture reopen        NOT TRIGGERED
 Runtime v0.6 conformance           NOT ESTABLISHED
 Runtime-Compilation repair         REQUIRED AS SEPARATE PACKAGE
 UI/installed-carrier update        NOT AUTHORIZED
 ```
 
-This ADR records Human Acceptance of Requirements v0.3 and authorizes the semantic Promotion target. It does not authorize or execute repository merge. Requirements v0.3 becomes controlling only after a separately authorized merge to `main` and successful authoritative readback.
+This ADR records Human Acceptance and the separately authorized Promotion of Requirements v0.3 through PR #34. Controlling authority is established only by successful merge and authoritative `main` readback. This decision does not establish Runtime conformance, deployment, installed-carrier identity, architecture change or outcome effectiveness.
