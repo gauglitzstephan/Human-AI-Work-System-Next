@@ -1,12 +1,10 @@
-# Concerns & Requirements Baseline v0.3 — Candidate
+# Concerns & Requirements Baseline v0.3
 
-**Status:** PROMOTED CANDIDATE LINEAGE — non-controlling historical lineage of the Requirements v0.3 baseline  
-**Date:** 2026-08-25  
-**Interaction repair:** 2026-08-28 — bounded Candidate source repair later accepted and promoted through ADR-0004 / PR #34; no architecture change  
-**Promotion-package relation:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` is the controlling promoted form on authoritative `main`; this Candidate file does not control  
+**Status:** ACCEPTED AND PROMOTED — controlling Requirements baseline on authoritative `main` after PR #34 merge/readback  
+**Date:** 2026-08-28  
 **Scope:** solution-neutral requirements for a general Human–AI Work System and its materially relevant operating/runtime context  
-**Authority:** non-controlling Candidate lineage; see authoritative `main/CURRENT.md` and the promoted v0.3 baseline  
-**Supersession:** v0.3 supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
+**Authority:** controlling Requirements baseline on authoritative `main`; promoted through ADR-0004 and PR #34  
+**Supersession:** supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
 **Derivation basis:** controlling Requirements v0.2 + Requirements v0.1 / R01–R30 lineage + accepted System of Interest and Target Architecture v0.2 + Professional Work review and observed Route-B/runtime-development failures + bounded Human–AI interaction gap challenge and qualified HAI/HCI evidence
 
 ## 1. Purpose and boundary
@@ -367,7 +365,7 @@ closure ≠ manufactured next frontier
 
 # 6. Baseline claim and non-claims
 
-The promoted baseline preserves this Candidate lineage only as:
+This file is accepted and promoted only as:
 
 > the best currently supported, solution-neutral Requirements Design Basis for the defined Human–AI Work System scope and current evidence horizon.
 
