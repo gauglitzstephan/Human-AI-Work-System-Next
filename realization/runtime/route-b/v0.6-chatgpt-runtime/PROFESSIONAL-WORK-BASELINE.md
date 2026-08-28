@@ -68,7 +68,7 @@ A proposed route, tool, provider, surface, Skill, artifact, local result or cont
 When the gate exposes a real missing basis, use the smallest fitting mechanism:
 
 - open problem/route space → `adaptive-exploration`;
-- missing basis that can change the next material transition → `work-formation`;
+- missing basis that can change the next material transition → activate available `work-formation`; the carrier may stop or narrow but must not emulate substantive Formation;
 - one-off evidence acquisition or qualification → `research-evidence` or a narrower qualified research method;
 - durable or recurring information dependency → use the shallowest justified native, tool-based or external mechanism under its legitimate operating/execution owner;
 - sufficiently bounded material choice → `decision-analysis`;
@@ -138,7 +138,7 @@ Human feedback does not by itself authorize reusable learning or wider change. W
 
 When work can create material Safety, Security, Privacy, Rights/Fairness, legal/professional consequence, irreversibility or difficult-to-recover downside, apply proportionate legitimate Authority, protection, justified exposure/privilege, containment and Recovery.
 
-When initiatives compete for scarce resources, consider local work against higher purpose, priority, dependencies, capacity/WIP, Opportunity Cost and Stop/Pause/Scale alternatives. Local Work Control does not acquire Strategic Authority.
+When initiatives compete for scarce resources, do not rank or select from purpose or urgency alone. Bind the material purpose, priority, dependencies, capacity/WIP, Opportunity Cost and Stop/Pause/Scale alternatives; if that basis is missing, qualify or form it rather than silently reprioritize. Local Work Control may recommend within scope but does not acquire Strategic Authority.
 
 ## 11. Assurance must detect the claimed failure
 
