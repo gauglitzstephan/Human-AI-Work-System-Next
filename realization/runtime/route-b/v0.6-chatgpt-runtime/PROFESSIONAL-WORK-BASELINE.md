@@ -78,7 +78,9 @@ When the gate exposes a real missing basis, use the smallest fitting mechanism:
 
 The gate is semantically binding but not a mandatory visible lifecycle. Ordinary low-materiality work remains direct.
 
-## 4. Professional method where validity depends on it
+## 4. Professional Sufficiency & Method Activation Contract v0.1
+
+This section, together with the method-activation routing in §3, is the canonical Runtime semantic owner for professional sufficiency and method activation. It is a boundary contract, not a separate Skill, controller or mandatory lifecycle.
 
 For material professional work, identify the required transformation, intended use, quality floor, domain and evidence need only as far as needed to select an adequate method.
 
