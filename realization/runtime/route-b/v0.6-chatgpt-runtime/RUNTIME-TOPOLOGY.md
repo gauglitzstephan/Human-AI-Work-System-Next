@@ -2,19 +2,20 @@
 
 ## 1. Runtime owner
 
-Native ChatGPT owns each work episode. It binds the current work sufficiently, ensures the required information basis, composes relevant context, chooses tools/surfaces and applicable skills, integrates results, and communicates only material transitions to the Human.
+Native ChatGPT owns each work episode. It binds the current Work Object and Active Work State sufficiently, ensures the required information basis, composes relevant context, chooses tools/surfaces and applicable skills, integrates results, and communicates only material transitions to the Human.
 
 The runtime is adaptive. It is not a fixed sequence of meta-skills.
 
 ## 2. Native Active Work State & Context Gate
 
-Before substantive **material work**, Native ChatGPT binds the minimum Active Work State needed for the next supported claim or transition:
+Before substantive **material work**, Native ChatGPT binds the minimum Active Work State needed for the next legitimate result, claim or transition:
 
 ```text
-parent outcome
-current frontier / next supported claim
-route or candidate + maturity
-critical relevant state / scope / constraints
+current Work Object / active boundary
+controlling parent outcome
+current frontier / next legitimate result, claim or transition
+selected route or candidate + current maturity
+critical preserved state / scope / constraints
 ```
 
 Only when material, add:
@@ -25,9 +26,13 @@ information / evidence dependency + required freshness / coverage
 authority / continuity state
 ```
 
+Bind the Work Object from the underlying need and intended outcome, not automatically from proposed means. When that distinction could materially change the work, treat the request as evidence of intent rather than a complete specification.
+
+Preserve the bound Work Object, controlling parent outcome, frontier, selected route and candidate maturity across turns. New evidence or Human direction first updates the narrowest dependent state. Rebind wider state only when the next legitimate result, claim, route, scope, maturity, information dependency or authority boundary materially changes.
+
 The Active Work State is a transient working projection, not a universal state object or authority source. If the current context and information basis are sufficient, no visible state artifact or READY step is required.
 
-When the next claim depends materially on information or evidence, Native ChatGPT ensures only the minimum sufficient information basis before dependent work. Use these dispositions only when relevant:
+When the next result or claim depends materially on information or evidence, Native ChatGPT ensures only the minimum sufficient information basis before dependent work. Use these dispositions only when relevant:
 
 - **RECOVER** — relevant state/evidence already exists and is legitimately accessible;
 - **ACQUIRE** — material evidence is missing but can be obtained now through research, query, measurement, primary input or a specialized professional method;
@@ -38,13 +43,15 @@ These dispositions do not form a lifecycle or new subsystem. Additional informat
 
 After the required basis is sufficient, Native ChatGPT composes only the relevant high-signal context for the current work. It should not ask the Human to restate AI-accessible state by default.
 
-A proposed route, tool, provider, surface, artifact, local result or continuation does not replace the parent outcome, promote candidate maturity or establish wider completion. A material transition, including a material scope or information-dependency change, requires rebind; ordinary continuation does not.
+At a material transition, Native ChatGPT reconciles the proposed next work against the Work Object, controlling parent outcome, preserved qualified state, unresolved dependencies, intended-use Performance Floor, current maturity and relevant authority/effect boundaries. It proceeds only when that work is the next qualified and authorized transition; otherwise it forms the missing basis, narrows the claim, waits, hands off, stops or takes no action.
+
+A proposed route, tool, provider, surface, Skill, artifact, local result or continuation does not replace the Work Object or controlling parent outcome, promote candidate maturity, authorize a new effect or establish wider completion. `Continue`, `next` or similar continuation language continues only within the already-bound Work Object, scope and authority.
 
 ## 3. Information supply, context composition and state roles
 
 Information supply and context composition are distinct:
 
-- information supply determines whether the next claim has a sufficient reality/evidence basis;
+- information supply determines whether the next result/claim has a sufficient reality/evidence basis;
 - context composition selects the subset of that basis needed in the current inference/work context.
 
 Context is composed by relevance and authority, not by maximum volume or fixed source order.
@@ -68,14 +75,14 @@ Route only the information dependency that the parent claim actually requires:
 
 - **RECOVER** uses available context/retrieval against the legitimate state owner or source.
 - **ACQUIRE** uses `research-evidence` when cross-domain evidence acquisition/qualification fits, a narrower professional research method when validity depends on it, or direct query/measurement/primary input when that is the appropriate work.
-- **ESTABLISH** is not owned by `research-evidence`: if the parent work genuinely requires a durable information source/capability/process, route that dependency through the existing Work / Operating / Execution responsibilities and select the shallowest justified native/tool/external mechanism.
-- **SENSE / REFRESH** similarly uses an existing operating/execution mechanism only when recurring freshness materially affects future work and its value justifies maintenance burden.
+- **ESTABLISH** is not owned by `research-evidence`: if the work genuinely requires a durable information source/capability/process, route that dependency to its legitimate operating or execution owner and use the shallowest justified native, tool-based or external mechanism.
+- **SENSE / REFRESH** similarly uses a legitimate operating/execution mechanism only when recurring freshness materially affects future work and its value justifies maintenance burden.
 
 A connector, synced source, automation, task, feed, dataset, panel or pipeline is a possible provider/mechanism, not a new Work-System semantic or default requirement.
 
 ## 5. Surface selection
 
-Surface choice follows the bound work state and information dependency rather than acting as the work definition.
+Surface choice follows the bound Work Object, Active Work State and information dependency rather than acting as the work definition.
 
 - **Chat** is the default for interaction, exploration, Human calibration, bounded reasoning and ordinary integrated work.
 - **Project** is preferred when the same Work Object needs durable context across episodes or multiple related chats/files.
@@ -83,7 +90,7 @@ Surface choice follows the bound work state and information dependency rather th
 - **Codex** or other specialized execution surfaces are used when their concrete capability materially improves the task.
 - Recurring or monitoring mechanisms are used only when `SENSE / REFRESH` is an established dependency and their whole-system economics are justified.
 
-Moving to another surface is not completion or promotion. If the move materially changes context access, capability, authority, route, scope, information dependency or claim, rebind before dependent work.
+Moving to another surface is not completion or promotion. If the move materially changes context access, capability, authority, route, scope, information dependency or claim, reconcile/rebind before dependent work.
 
 ## 6. Authority and source boundaries
 
@@ -126,13 +133,14 @@ Establish a durable information source/capability or recurring refresh mechanism
 
 ## 9. Runtime transitions
 
-1. Native ChatGPT binds the minimum Active Work State for material work.
+1. Native ChatGPT binds the current Work Object and minimum Active Work State for material work.
 2. It ensures only the claim-relative information basis that is not already sufficient: recover, acquire, establish or sense/refresh as needed.
 3. It composes only the high-signal context needed for the current work.
 4. It selects the smallest fitting native surface, professional method/Skill and tools.
 5. The selected work executes and returns a bounded result.
 6. Native ChatGPT integrates the result without silently promoting wider state.
-7. If a material transition is proposed, rebind; otherwise continue directly or close.
+7. At a material transition, it reconciles the proposed next work against Work Object, parent outcome, qualified state, dependencies, Performance Floor, maturity and authority; only qualified and authorized transitions proceed.
+8. If wider state materially changes, rebind; otherwise continue directly or close.
 
 This numbered projection is explanatory, not a mandatory visible stage machine; steps collapse or remain implicit when the basis is already sufficient.
 
