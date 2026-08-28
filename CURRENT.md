@@ -60,10 +60,10 @@ Repository promotion does not update ChatGPT UI carriers automatically. Separate
 |---|---|---|---|---|
 | `work-formation` | `skills/work-formation/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | not generalized from source identity |
 | `research-evidence` | `skills/research-evidence/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | not generalized from source identity |
-| `system-development` | `skills/system-development/` | promoted repaired source | full personal Skill package matched promoted source at 2026-08-28 readback | not generalized from source identity |
+| `system-development` | `skills/system-development/` | promoted repaired source | all canonical package files matched promoted source at 2026-08-28 readback | not generalized from source identity |
 | `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | one bounded predecessor-use result; repaired discovery remains unverified |
 | `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | forward runtime validation not started |
-| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | full personal Skill package matched promoted source at 2026-08-28 readback | bounded genuine-use behavior observed; generalized discoverability/fitness unpromoted |
+| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | all canonical package files matched promoted source at 2026-08-28 readback | bounded genuine-use behavior observed; generalized discoverability/fitness unpromoted |
 
 `skills/REGISTRY.md` is the portfolio registry. It keeps repository promotion, installed-content readback, runtime behavior, and outcome evidence separate.
 
