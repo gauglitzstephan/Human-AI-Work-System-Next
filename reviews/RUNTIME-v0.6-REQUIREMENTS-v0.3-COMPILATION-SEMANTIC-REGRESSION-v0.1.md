@@ -21,14 +21,16 @@ It supports only a static source claim. It does not establish:
 - cross-domain professional Performance, outcome or value;
 - Target-Architecture change or reopen.
 
+The bounded review of the first Candidate head found material losses in CR-07 capability/future-autonomy allocation, authoritative-state typing, qualified-and-authorized transition semantics, evidence provenance/capability integrity, write/effect readback and predecessor Whole-System-Economics/Assurance controls. This repaired record claims closure only after exact branch readback and the static checks below.
+
 ## 2. Fixed source and target identities
 
 | Object | Promoted/predecessor blob | Candidate blob | Characters |
 |---|---:|---:|---:|
-| `PROFESSIONAL-WORK-BASELINE.md` | `03234e13e5b17c1947849f99505173181479f487` | `8dd3bb3f55f9a386381fa551119ba15f99e839fe` | 12,321 |
+| `PROFESSIONAL-WORK-BASELINE.md` | `03234e13e5b17c1947849f99505173181479f487` | `d5cfbcbe555f8bbb1ab396174dd210615084def9` | 12,551 |
 | `RUNTIME-TOPOLOGY.md` | `ea56da1e64d5308e151be698fe019562200afecf` | `a3bab823a3cb013c07e526aaf68b70cdb8b84430` | 14,028 |
-| `GLOBAL-CUSTOM-INSTRUCTIONS.md` | `8a8e521fee21d96a1fd281f1ffba7033bf31b9b9` | `a05ce474d66f2e905b4d3d089af2002768babf24` | 4,996 |
-| `SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md` | `19548e687739b224966e73596114c9d16d1b6561` | `c31aa054c7ce80ed8497a9ba7157a7ca4221430b` | 7,409 |
+| `GLOBAL-CUSTOM-INSTRUCTIONS.md` | `8a8e521fee21d96a1fd281f1ffba7033bf31b9b9` | `848585b6327f198c8ba5585fbf400b708ca620ee` | 4,989 |
+| `SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md` | `19548e687739b224966e73596114c9d16d1b6561` | `68fc860fbe8645b3835b5164d869e3d2a22907dd` | 7,542 |
 | `ADAPTIVE-EXPLORATION-METHOD.md` | `12fde1b420490f2e44771490ca1b18b08e137b4b` | `e460cf2e2b9bfe87b5ac3007c8a4cfb6e3d43544` | 7,392 |
 
 The Adaptive-Exploration file changes only the CCR-01 Requirements source pointer from v0.2 to v0.3. It is source hygiene, not Runtime-carrier semantics or Skill redesign.
@@ -38,9 +40,9 @@ The Adaptive-Exploration file changes only the CCR-01 Requirements source pointe
 | Fact | Disposition |
 |---|---|
 | Global repository predecessor length | 4,998 characters |
-| Global Candidate length | 4,996 characters — `PASS / NON-GROWTH` |
+| Global Candidate length | 4,989 characters — `PASS / NON-GROWTH` |
 | Project repository predecessor length | 7,765 characters |
-| Project Candidate length | 7,409 characters — `PASS / NON-GROWTH` |
+| Project Candidate length | 7,542 characters — `PASS / NON-GROWTH` |
 | Actual current ChatGPT field envelopes | `UNVERIFIED` |
 | Installed Global/Project content identity | `UNVERIFIED` |
 | Effective Global↔Project precedence in every target surface | `UNVERIFIED` |
@@ -67,13 +69,13 @@ Non-growth is a conservative source constraint, not proof that installation will
 | CR-01–04 | `EMBEDDED` | outcome/object/scope, contribution integrity, reality typing and actual-state-before-change remain protected |
 | CR-05 | `EMBEDDED` | intended-use Performance Floor, professional basis and Human-facing usability/accessibility are compiled |
 | CR-06 | `EMBEDDED` | smallest fitting Human/AI/tool/surface/method composition remains protected |
-| CR-07 | `EMBEDDED` | Human agency/attention plus capability-limit-uncertainty-initiative-status-effect legibility and non-misleading presentation are compiled |
+| CR-07 | `EMBEDDED` | Human agency/attention, Human learning/retained judgment/authorship/future autonomy allocation effects, capability-limit-uncertainty-initiative-status-effect legibility and non-misleading presentation are compiled |
 | CR-08–13 | `EMBEDDED` | capability/access/Authority, typed state, Whole-System Economics, Assurance, transition/use/outcome and Runtime/source distinctions remain protected; topology points to v0.3 |
 | CR-14 | `EMBEDDED` | feedback does not authorize learning/change; scope/effect/timing/persistence/inspectability/correction-reset are compiled |
 | CR-15 | `EMBEDDED` | supporting/meta-work cannot replace the required Work Product; legitimate work must finish |
 | CCR-01 | `DELEGATED + BOUND` | adaptive-exploration remains the conditional method and its canonical source pointer is repaired to v0.3 |
 | CCR-02 | `EMBEDDED` | conditional Safety, Security, Privacy, Rights/Fairness, consequence, exposure/privilege, containment and Recovery are compiled |
-| CCR-03 | `EMBEDDED` | uncertainty, information value, robustness/staging/WAIT and commitment semantics remain protected |
+| CCR-03 | `EMBEDDED / DELEGATED + BOUND` | uncertainty, information value, robustness, WAIT and commitment semantics are embedded; staged/reversible choice treatment is conditionally bound to `decision-analysis` |
 | CCR-04 | `EMBEDDED` | purpose, priority, dependencies, capacity/WIP, Opportunity Cost and Strategic-Authority boundary are compiled |
 | CCR-05 | `EMBEDDED` | shared interaction state, actor/initiative, next contribution, blocked Authority/action, correction/stop/recovery/re-entry, observability/predictability and legitimate disagreement are compiled |
 
@@ -90,7 +92,7 @@ For the bounded repository-source claim, no material Requirement remains `UNVERI
 | smallest-fitting native/Skill/provider composition | `PASS` |
 | reality/evidence typing and no invented state/effects | `PASS` |
 | intended-use Performance Floor and qualified professional method | `PASS` |
-| Human agency/attention and no AI-resolvable Human burden | `PASS` |
+| Human agency/attention/capability/future autonomy and no AI-resolvable Human burden | `PASS` |
 | capability/access/Authority and write/readback distinctions | `PASS` |
 | actual Work-Product execution and legitimate closure | `PASS` |
 | claim-matched Assurance and failure-relevant diversity | `PASS` |
@@ -131,8 +133,8 @@ controlling Requirements source identity         PASS
 four-carrier Candidate source readback            PASS
 Requirements v0.3 source semantic completeness    PASS
 protected v0.6 predecessor functions              PASS
-Global non-growth envelope                        PASS — 4,996 ≤ 4,998
-Project non-growth envelope                       PASS — 7,409 ≤ 7,765
+Global non-growth envelope                        PASS — 4,989 ≤ 4,998
+Project non-growth envelope                       PASS — 7,542 ≤ 7,765
 Adaptive-Exploration pointer hygiene              PASS
 Target Architecture reopen                        NOT TRIGGERED
 repository Promotion / merge                      NOT AUTHORIZED
@@ -142,7 +144,7 @@ behavioral Runtime conformance                    UNVERIFIED
 outcome effectiveness                             UNVERIFIED
 ```
 
-**Candidate disposition:** `SOURCE_FORMED — READY_FOR_BOUNDED_REVIEW; NOT PROMOTED, NOT INSTALLED`.
+**Candidate disposition:** `SOURCE_REPAIRED — READY_FOR_BOUNDED RE-REVIEW; NOT PROMOTED, NOT INSTALLED`.
 
 ## 10. Next legitimate gates
 
