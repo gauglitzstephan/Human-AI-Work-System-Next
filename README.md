@@ -11,6 +11,14 @@ The controlling system basis is:
 - [`foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md)
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md)
 
+A non-controlling Requirements-v0.3 promotion package is formed for review on `candidate/requirements-v0.3-interaction-repair-v0.1`:
+
+- [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md) — proposed promoted baseline;
+- [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md) — proposed decision;
+- [`reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md`](reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md) — Runtime trace and readiness evidence.
+
+These Candidate artifacts do not change the controlling basis without explicit Human Acceptance, authorized merge and `main` readback.
+
 The architecture is closed unless a documented reopening trigger occurs. Runtime repairs and new skill realizations do not reopen it by default.
 
 ## Repository map
