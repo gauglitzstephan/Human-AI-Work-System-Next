@@ -4,18 +4,16 @@ A requirements-led Human–AI work system for preserving context, choosing fit-f
 
 ## Authority
 
-Start with [`CURRENT.md`](CURRENT.md) on authoritative `main`. It declares the promoted state and the next valid transitions; a candidate-branch copy remains only a target state until merge and `main` readback.
+Start with [`CURRENT.md`](CURRENT.md) on authoritative `main`. It declares the promoted state and the next valid transitions.
 
-The accepted Requirements Promotion target and continuing architecture basis are:
+The controlling system basis is:
 
 - [`foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`](foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md)
 - [`architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`](architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md)
 
-Human Acceptance of Requirements v0.3 was granted on 2026-08-28 and is recorded in [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md). The supporting [Runtime-v0.6 semantic trace](reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md) declares the exact downstream compilation gap.
+Human Acceptance and repository Promotion of Requirements v0.3 were separately authorized on 2026-08-28 and are recorded in [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md) and PR #34. [Requirements v0.2](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) remains immutable historical Qualified Prior evidence.
 
-This content is the PR #34 target state. It becomes controlling only after separately authorized merge to `main` and successful `main` readback. Until then, the existing `main` state and [Requirements v0.2](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) remain authoritative. Requirements v0.2 remains immutable historical Qualified Prior evidence after Promotion.
-
-Runtime v0.6 is only partially compiled against Requirements v0.3. Requirements Promotion does not establish Runtime conformance, installed-carrier identity or deployment. The architecture remains closed unless a documented reopening trigger occurs.
+The supporting [Runtime-v0.6 semantic trace](reviews/REQUIREMENTS-v0.3-RUNTIME-v0.6-SEMANTIC-TRACE-AND-PROMOTION-READINESS-v0.1.md) establishes that Runtime v0.6 is only partially compiled against Requirements v0.3. Requirements Promotion does not establish Runtime conformance, installed-carrier identity or deployment. The architecture remains closed unless a documented reopening trigger occurs.
 
 ## Repository map
 
