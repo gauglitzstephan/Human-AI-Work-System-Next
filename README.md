@@ -15,6 +15,8 @@ Human Acceptance and repository Promotion of Requirements v0.3 were separately a
 
 Human Acceptance for the repaired Runtime-v0.6 compilation source was granted on 2026-08-28 for semantic source head `7beaf27194de5726ae7b8659fded9d2f11ab280f`. After successful PR #35 merge and authoritative `main` readback, Runtime v0.6 is compiled against Requirements v0.3 at repository-source level. The [compilation and semantic-regression evidence](reviews/RUNTIME-v0.6-REQUIREMENTS-v0.3-COMPILATION-SEMANTIC-REGRESSION-v0.1.md) binds the exact source claim. Repository promotion does not establish installed-carrier identity, installed Skill identity, behavioral Runtime conformance, outcome effectiveness or deployment. The architecture remains closed unless a documented reopening trigger occurs.
 
+PR #37 promotes a bounded behavioral-regression repair for strategic-resource completeness and binding `work-formation` activation. The Global and Project carrier blobs plus the canonical `work-formation` files were installed and read back before Promotion; the five failed or unverified obligations then passed targeted tests. The [behavioral repair evidence](evaluation/e2e-real-use/E2E-04-2026-08-28-RUNTIME-v0.6-BEHAVIORAL-REPAIR-v0.1.md) preserves the exact identities and limits: the 25 predecessor PASS cases were not rerun on the exact candidate, so this is not a fresh 30/30 or generalized Runtime-reliability claim. Target Architecture v0.2 remains closed.
+
 ## Repository map
 
 | Area | Purpose |

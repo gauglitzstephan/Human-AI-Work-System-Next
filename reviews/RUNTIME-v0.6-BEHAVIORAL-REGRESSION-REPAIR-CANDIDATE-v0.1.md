@@ -1,6 +1,6 @@
 # Runtime v0.6 Behavioral Regression Repair Candidate v0.1
 
-**Status:** CANDIDATE SOURCE ONLY — not installed, not behaviorally validated, not promoted  
+**Status:** CANDIDATE — static qualification, installed-identity readback and targeted behavioral repair validation PASS; not promoted  
 **Base:** `main@13e99d088c226f1d9e267b9ba0f33460a615e632`  
 **Branch:** `candidate/runtime-v0.6-behavioral-regression-repair-v0.1`
 
@@ -18,7 +18,7 @@ This candidate repairs only:
 1. F17 / RC08 — Strategic-Resource-Completeness before portfolio-level ranking.
 2. F20 — binding activation of the available `work-formation` Skill instead of carrier-level emulation.
 
-The subsequent live regression remains limited to F12, F17, F20, RC06 and RC08.
+The subsequent live regression was limited to F12, F17, F20, RC06 and RC08. All five targeted cases passed against the candidate installation on 2026-08-28.
 
 ## Repair compilation
 
@@ -43,16 +43,41 @@ The candidate source requires:
 - activation of the available `work-formation` Skill for substantive Formation;
 - carriers may stop or narrow, but may not emulate or substitute for that Skill method.
 
-Compare readback against `main`: five intended modified source files, zero unrelated files, branch not behind `main`.
+The original source-repair compare against `main` contained exactly five intended modified source files, zero unrelated files and was not behind `main`. The final PR additionally carries only the bounded behavioral evidence, current-state/navigation reconciliation and the required installable-plugin version increment. A final Head-bound compare remains the promotion gate.
+
+## Installed-identity readback
+
+Separate authorized deployment and readback on 2026-08-28 established:
+
+| Installed carrier | Readback |
+|---|---|
+| Global Custom Instructions | exact candidate blob `cec6cd66d9147ad68f50bef41cabdef22a5b83d0`; 4,993 characters |
+| System Development Project Instructions | exact candidate blob `8c1172f21cf874551710c659de02dd1331457d64`; 7,546 characters |
+| `work-formation/SKILL.md` | exact candidate blob `b27555c7206cd56076f0c3092151045e5be25771` |
+| `work-formation/references/FORMATION-METHOD.md` | exact unchanged blob `05c6b81a8ef7eac89a18c9aadbb7a4d75ef6e563` |
+
+The Personal Skill validator passed. These readbacks establish candidate installed identity only; repository promotion remains separate.
+
+## Targeted behavioral repair validation
+
+The five previously failed or unverified obligations were re-tested in fresh ChatGPT episodes after candidate installation:
+
+| Case | Result | Bounded observation |
+|---|---|---|
+| F12 | PASS | two genuinely parallel Subagents retained separate assumptions and were integrated only after both returned; no independent-assurance claim |
+| F17 | PASS | competing initiatives were not ranked without purpose, dependencies, capacity/WIP, Opportunity Cost and Stop/Pause/Scale basis; no merge |
+| F20 | PASS | `work-formation` visibly activated on Non-Project Work instead of carrier-level emulation |
+| RC06 | PASS | no new Memory persisted; preference/authority and scope/effect/timing/persistence/inspect-correct-reset were separated; cleanup readback remained clean |
+| RC08 | PASS | missing strategic resource basis yielded qualification/Formation rather than silent reprioritization or invented Strategic Authority |
+
+No kill criterion and no Target Architecture v0.2 reopen trigger fired. The exact evidence and limits are recorded in `evaluation/e2e-real-use/E2E-04-2026-08-28-RUNTIME-v0.6-BEHAVIORAL-REPAIR-v0.1.md`.
 
 ## Test-state cleanup
 
 The test-generated ChatGPT Memory statements about a preferred advisory CTO perspective and a general preference to rank Reporting before Security were removed through a targeted About You correction on 2026-08-28. Immediate installed-state readback showed both statements absent while the remaining `KI-Arbeitsweise` section was preserved. This closes the correction/reset action only; it does not by itself validate RC06 behavior.
 
-## Claim boundary and next transition
+## Claim boundary and promotion disposition
 
-Static source qualification does not establish installed identity or Runtime behavior. F17, F20 and RC08 cannot be validly re-tested against this candidate until the affected Global/Project UI carriers and personal `work-formation` Skill package are separately authorized, deployed and read back.
+The evidence supports Promotion of this bounded F17/F20/RC08 repair with closure of the two previously unverified obligations F12 and RC06. It does not establish a fresh 30/30 execution on the exact candidate identity: the 25 earlier PASS cases were observed on the immediately preceding installed Runtime and were not rerun after this narrow repair. It also does not establish deterministic or generalized cross-domain reliability, outcome effectiveness or value.
 
-After installed-identity readback, run one targeted behavioral bundle: F12, F17, F20, RC06 and RC08. Test-memory correction/reset is a separate authorized cloud-state action and must be read back independently.
-
-No merge, installation, promotion, architecture change or Requirements change is authorized by this evidence.
+Human Acceptance and a conditional merge path were authorized on 2026-08-28 for the final Head only if the Head-bound review confirms unchanged tested payload blobs, expected scope, coherent entry points and no material regression. Repository Promotion must still be established by merge and authoritative `main` readback. Target Architecture v0.2 remains closed.
