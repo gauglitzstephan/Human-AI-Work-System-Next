@@ -1,6 +1,6 @@
 ---
 name: work-formation
-description: Form the minimum missing basis when it could materially change the next claim, route, decision, action, or authorized transition—for example outcome, scope/current reality, intended use/quality floor, required method class, candidate maturity, or authority boundary. Do not use for ordinary complexity, continuation, planning, research, method execution, tool returns, or general orchestration.
+description: Form the minimum missing basis when it could materially change the next claim, route, decision, action, or authorized transition. Use especially when requested execution/deployment lacks material outcome, scope/current reality, intended use/quality floor, candidate maturity, or blocking authority. Do not let carrier instructions substitute for substantive Formation; exclude ordinary complexity, continuation, planning, research, method execution, tool returns, and orchestration.
 ---
 
 # Work Formation
