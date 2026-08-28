@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** CANDIDATE DELTA on the Human-accepted and promoted Runtime-v0.6 source compiled against controlling Requirements v0.3. The existing promoted baseline remains authoritative on `main`; this branch's Professional Sufficiency & Method Activation repair is unaccepted and unpromoted. Installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
+**Status:** HUMAN-ACCEPTED BOUNDED SOURCE for the Professional Sufficiency & Method Activation repair, accepted at Candidate head `6e7f83c7f086a036e55c85a4298acc710c9b7bb0` on 2026-08-28 and compiled against controlling Requirements v0.3. This status-only reconciliation changes no accepted contract or carrier semantics. Repository Promotion is branch-relative: on a Candidate branch or PR this file remains unpromoted; only a separately authorized merge and authoritative `main` readback make this accepted payload promoted repository source. Installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
 
 ## Purpose
 
