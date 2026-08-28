@@ -110,7 +110,7 @@ Where reliance/action depends on it, make material capability, limits, uncertain
 
 Feedback/adaptation remains owned by Learning/Change plus legitimate typed state: feedback does not authorize wider learning; material scope, effect, timing, persistence, inspectability and correction/reset must remain controllable.
 
-Consequential protection/recovery and competing-initiative/Strategic-Authority semantics activate conditionally under their legitimate Work, Operating or Strategic owner. No new interaction store, controller, dashboard, fixed lifecycle, continuous narration or universal Human Gate is created.
+Consequential protection/recovery activates conditionally under its legitimate owner. For competing initiatives, Native Primary binds material purpose, priority, dependencies, capacity/WIP, Opportunity Cost and Stop/Pause/Scale before portfolio-level ranking; absent basis yields a qualified recommendation or Formation, never silent reprioritization. Local Work Control has no Strategic Authority. No new interaction store, controller, dashboard, lifecycle, narration or universal Human Gate is created.
 
 ## 7. Authority and source boundaries
 
@@ -134,7 +134,7 @@ A discovery link, plugin package, copied Skill, installed Skill, Project source,
 | Trigger class | Owner | Boundary |
 |---|---|---|
 | a problem frame, opportunity, solution class, route, concept or creative direction is materially open | `adaptive-exploration` | maps/forms candidates; does not choose, research or execute |
-| a blocking basis is missing for the next material transition | `work-formation` | forms only the missing basis; does not run every episode |
+| a blocking basis is missing for the next material transition | `work-formation` | when available, activate it for substantive Formation; carriers may stop/narrow but do not emulate its method |
 | a material claim depends on missing or uncertain evidence | `research-evidence` | acquires/qualifies bounded evidence; does not own durable information infrastructure or the parent decision/product |
 | a sufficiently bounded material choice needs analysis | `decision-analysis` | compares/recommends; does not explore an unformed space |
 | an identifiable existing work product needs evaluation | `evaluate-work-product` | evaluates fitness; does not create or execute the product |
