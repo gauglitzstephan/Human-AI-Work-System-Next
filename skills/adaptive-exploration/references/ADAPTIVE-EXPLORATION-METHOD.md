@@ -172,7 +172,7 @@ Do not continue into research, decision, detailed production, evaluation, author
 
 ## Method basis
 
-This method operationalizes CCR-01 in `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md`. Its adaptive divergence–convergence logic is consistent with the Design Council's Double Diamond account of iterative exploration and with Stanford d.school's emphasis on adaptive design abilities rather than one universal fixed process:
+This method operationalizes CCR-01 in `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`. Its adaptive divergence–convergence logic is consistent with the Design Council's Double Diamond account of iterative exploration and with Stanford d.school's emphasis on adaptive design abilities rather than one universal fixed process:
 
 - https://www.designcouncil.org.uk/our-resources/the-double-diamond/
 - https://dschool.stanford.edu/stories/lets-stop-talking-about-the-design-process

@@ -1,5 +1,7 @@
 # Runtime Topology — Route B v0.6
 
+**Status:** Human-accepted Runtime-v0.6 topology compiled against controlling Requirements v0.3. It becomes promoted repository source only after successful PR #35 merge and authoritative `main` readback; installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed.
+
 ## 1. Runtime owner
 
 Native ChatGPT owns each work episode. It binds the current Work Object and Active Work State sufficiently, ensures the required information basis, composes relevant context, chooses tools/surfaces and applicable skills, integrates results, and communicates only material transitions to the Human.
@@ -92,12 +94,30 @@ Surface choice follows the bound Work Object, Active Work State and information 
 
 Moving to another surface is not completion or promotion. If the move materially changes context access, capability, authority, route, scope, information dependency or claim, reconcile/rebind before dependent work.
 
-## 6. Authority and source boundaries
+## 6. Human–AI interaction, change and conditional-risk allocation
+
+Native ChatGPT owns material interaction-state compilation and integration. Chat is the default Human-facing interaction carrier. Project supplies durable scoped context where used; Work, Codex, tools, Apps and Skills remain bounded providers/methods rather than Authority, parent-state owners or mandatory architecture stages.
+
+When intended Performance materially depends on ongoing, mixed-initiative or cross-surface interaction, preserve across relevant transitions only enough shared state for responsible progress, reliance, correction and continuation:
+
+- intended outcome, scope and next legitimate frontier;
+- qualified status and material unresolved state;
+- actor or initiative and expected next contribution;
+- blocked decision, Authority or action;
+- correction, stop, recovery and re-entry path.
+
+Where reliance/action depends on it, make material capability, limits, uncertainty, initiative, status and effects sufficiently legible and non-misleading. Human-facing interaction must meet applicable usability/accessibility needs. Preserve legitimate disagreement/challenge where several responsible or affected Humans are involved.
+
+Feedback/adaptation remains owned by Learning/Change plus legitimate typed state: feedback does not authorize wider learning; material scope, effect, timing, persistence, inspectability and correction/reset must remain controllable.
+
+Consequential protection/recovery and competing-initiative/Strategic-Authority semantics activate conditionally under their legitimate Work, Operating or Strategic owner. No new interaction store, controller, dashboard, fixed lifecycle, continuous narration or universal Human Gate is created.
+
+## 7. Authority and source boundaries
 
 | Concern | Active source |
 |---|---|
 | current promoted state | `/CURRENT.md` |
-| controlling requirements | `/foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md` |
+| controlling requirements | `/foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md` |
 | controlling architecture | `/architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md` |
 | reusable skill packages | `/skills/` |
 | portfolio status | `/skills/REGISTRY.md` |
@@ -109,7 +129,7 @@ Moving to another surface is not completion or promotion. If the move materially
 
 A discovery link, plugin package, copied Skill, installed Skill, Project source, Memory item or automated data source is not a new source of truth merely because it is available in context.
 
-## 7. Selective skill portfolio
+## 8. Selective skill portfolio
 
 | Trigger class | Owner | Boundary |
 |---|---|---|
@@ -123,7 +143,7 @@ A discovery link, plugin package, copied Skill, installed Skill, Project source,
 
 Skills consume the sufficiently bound work object. Skill discovery or return does not itself alter Parent state or candidate maturity.
 
-## 8. Conditional persistence
+## 9. Conditional persistence
 
 Do not create a persistent state or information-supply carrier for ordinary bounded work.
 
@@ -131,7 +151,7 @@ Persist a compact Work-State snapshot only when continuity, divergence or recove
 
 Establish a durable information source/capability or recurring refresh mechanism only when the parent work genuinely depends on it and one-off acquisition is insufficient. Use the shallowest adequate legitimate carrier/mechanism and keep authoritative source, operating mechanism and working projection distinct.
 
-## 9. Runtime transitions
+## 10. Runtime transitions
 
 1. Native ChatGPT binds the current Work Object and minimum Active Work State for material work.
 2. It ensures only the claim-relative information basis that is not already sufficient: recover, acquire, establish or sense/refresh as needed.
@@ -148,7 +168,7 @@ A local result or produced artifact does not by itself establish transition/use,
 
 Skills and surfaces may be composed, but composition is demand-driven rather than a predetermined chain.
 
-## 10. Human control and evidence
+## 11. Human control and evidence
 
 The Human retains non-substitutable authority over goals, values, taste, identity, risk acceptance, commitments and irreversible actions. The runtime surfaces those points without manufacturing consent or preference and does not transfer AI-resolvable state recovery or QA to the Human by default.
 

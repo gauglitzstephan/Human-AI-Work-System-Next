@@ -12,7 +12,7 @@ Repository promotion, installed-content identity, runtime activation, runtime fi
 
 | Skill | Canonical package | Repository source | Installed-content readback | Runtime evidence |
 |---|---|---|---|---|
-| `adaptive-exploration` | `skills/adaptive-exploration/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | unverified |
+| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | 2026-08-27 readback predates the v0.3 pointer change; updated installed identity unverified | unverified |
 | `work-formation` | `skills/work-formation/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
 | `research-evidence` | `skills/research-evidence/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
 | `system-development` | `skills/system-development/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
