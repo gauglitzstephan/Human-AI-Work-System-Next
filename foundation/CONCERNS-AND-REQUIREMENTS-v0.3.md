@@ -1,10 +1,10 @@
 # Concerns & Requirements Baseline v0.3
 
-**Status:** ACCEPTED FOR PROMOTION — Human Acceptance granted 2026-08-28; does not control until separately authorized merge to `main` and successful readback  
+**Status:** ACCEPTED AND PROMOTED — controlling Requirements baseline on authoritative `main` after PR #34 merge/readback  
 **Date:** 2026-08-28  
 **Scope:** solution-neutral requirements for a general Human–AI Work System and its materially relevant operating/runtime context  
-**Current controlling baseline:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md` on `main` until separately authorized merge and successful `main` readback  
-**Target supersession:** if promoted, supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
+**Authority:** controlling Requirements baseline on authoritative `main`; promoted through ADR-0004 and PR #34  
+**Supersession:** supersedes v0.2 only in the controlling Requirements role; v0.2 remains immutable historical Qualified Prior evidence  
 **Derivation basis:** controlling Requirements v0.2 + Requirements v0.1 / R01–R30 lineage + accepted System of Interest and Target Architecture v0.2 + Professional Work review and observed Route-B/runtime-development failures + bounded Human–AI interaction gap challenge and qualified HAI/HCI evidence
 
 ## 1. Purpose and boundary
@@ -365,7 +365,7 @@ closure ≠ manufactured next frontier
 
 # 6. Baseline claim and non-claims
 
-This file is accepted for Promotion only as:
+This file is accepted and promoted only as:
 
 > the best currently supported, solution-neutral Requirements Design Basis for the defined Human–AI Work System scope and current evidence horizon.
 
