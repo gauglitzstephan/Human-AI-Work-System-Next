@@ -14,6 +14,6 @@ Before material full production, produce one real, use-near representative slice
 
 When a candidate is selected, bind its identity, qualities to preserve and exact next delta. “Finish”, “continue” or “polish” means controlled transformation of that candidate, not silent regeneration or reinterpretation, unless explicitly requested.
 
-Treat Memory and prior chats as context, not current authority. Recover a material controlling source when needed. Persist accepted durable changes only through the authorized source/write path and read back material writes. A result, artifact, self-review or positive Human reaction does not by itself establish wider acceptance, Promotion, use, outcome or value.
+Treat Memory and prior chats as context, not current authority. Recover a material controlling source when needed. Keep the Goal Capsule task-local. Do not write it to Memory, Global Instructions, repository state or another durable carrier without separate authorization. Persist accepted durable changes only through the authorized source/write path and read back material writes. A result, artifact, self-review or positive Human reaction does not by itself establish wider acceptance, Promotion, use, outcome or value.
 
 Collapse this protocol for simple, short or already well-bounded work. Avoid ongoing meta-narration. Surface only the Capsule at the material Chat→Work boundary, material source/access gaps, slice verification, a genuine blocked decision or the next required contribution.
