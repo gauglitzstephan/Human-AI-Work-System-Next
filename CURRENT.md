@@ -28,6 +28,8 @@ Target Architecture v0.2 remains controlling and closed. Human Acceptance for th
 
 On authoritative `main` after that readback, Runtime v0.6 is compiled against Requirements v0.3 at repository-source level across the four active Runtime carriers, with the bounded Adaptive-Exploration CCR-01 source-pointer correction. Separate installed-content readbacks on 2026-08-28 establish the promoted Global and System-Development Project instruction blobs in their ChatGPT UI carriers and the refreshed `adaptive-exploration` and `system-development` Personal Skill packages against the then-current promoted predecessor source, including `system-development` semantic-regression method v0.1. PR #37 later promotes a bounded behavioral-regression repair after exact candidate installation/readback and a 5/5 targeted PASS for the previously failed or unverified obligations. That evidence remains version- and case-bounded; it does not establish a fresh exact-candidate 30/30 run, generalized Skill or Runtime fitness, outcome effectiveness or value.
 
+A separate Personal Skill update and readback on 2026-08-29 establishes the exact current-`main` `system-development` V0.2 package against source commit `bc56545a2b3730a2b1c89e4d281d875349ad7a52`: all seven canonical package files matched by Git blob identity, including semantic-regression method blob `f2b911486603afd14a54a3e51afcd06491ed752d`. This is an installed-content identity claim only; it does not establish activation, behavioral conformance, Runtime fitness, Performance, outcome effectiveness or value.
+
 ## Repository state
 
 PR #33 was merged into `main` as merge commit `2c030a2413a85d945783743dca812b56124fe7ab`. It promotes the bounded Route-B v0.6 runtime-source repair across exactly four active runtime files:
@@ -67,7 +69,7 @@ Repository promotion does not update ChatGPT UI carriers automatically. The PR #
 |---|---|---|---|---|
 | `work-formation` | `skills/work-formation/` | PR #37 activation/discovery repair promoted | all canonical candidate package files matched at 2026-08-28 readback; `SKILL.md` blob `b27555c7206cd56076f0c3092151045e5be25771`, unchanged method blob `05c6b81a8ef7eac89a18c9aadbb7a4d75ef6e563` | F20 targeted activation PASS on Non-Project Work; generalized fitness unverified |
 | `research-evidence` | `skills/research-evidence/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | not generalized from source identity |
-| `system-development` | `skills/system-development/` | semantic-regression method v0.2 in this package; Candidate off `main`, controlling only after authorized merge/readback | 2026-08-28 readback matched the predecessor v0.1 package; v0.2 is not installed/read back | not generalized from source identity |
+| `system-development` | `skills/system-development/` | semantic-regression method v0.2 promoted on authoritative `main` through PR #39; source commit `bc56545a2b3730a2b1c89e4d281d875349ad7a52` | 2026-08-29 readback matched all seven canonical package files against that source; method blob `f2b911486603afd14a54a3e51afcd06491ed752d` | installed identity only; activation, behavioral conformance and generalized fitness unverified |
 | `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | one bounded predecessor-use result; repaired discovery remains unverified |
 | `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill package matched promoted source at 2026-08-27 readback | forward runtime validation not started |
 | `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | all canonical package files matched promoted source at 2026-08-28 readback | bounded genuine-use behavior observed; generalized discoverability/fitness unpromoted |
@@ -114,10 +116,9 @@ This file is authoritative only when read from `main`. On a branch or pull reque
 
 1. Continue genuine work and record only material findings that could change a repair, reliance or reopen decision.
 2. If reliance on the PR-#38 carrier changes is required, install and read back the exact current-`main` Global and Project identities before making an installed-identity claim; then run only claim-matched behavioral tests.
-3. After repository-source promotion of semantic-regression method v0.2, update and read back the exact installed `system-development` package before making an installed-method claim.
-4. Test trace-marked salience hypotheses only where intended use makes them material.
-5. Run F01–F20 plus RC01–RC10 on one exact installed identity only if a stronger exact-runtime conformance claim becomes necessary.
-6. Keep repository source, installation, bounded behavior, generalized conformance, Performance, outcome and value separate. Keep Target Architecture v0.2 closed unless a documented reopen trigger occurs.
+3. Use the installed `system-development` V0.2 method in genuine work; execute salience or behavioral tests only where a material reliance claim requires them.
+4. Run F01–F20 plus RC01–RC10 on one exact installed identity only if a stronger exact-runtime conformance claim becomes necessary.
+5. Keep repository source, installation, bounded behavior, generalized conformance, Performance, outcome and value separate. Keep Target Architecture v0.2 closed unless a documented reopen trigger occurs.
 
 ## Superseded declarations
 
