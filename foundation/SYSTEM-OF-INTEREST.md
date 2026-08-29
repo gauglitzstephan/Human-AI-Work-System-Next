@@ -1,8 +1,8 @@
 # System of Interest — Foundation v0.5
 
-**Status:** CLOSURE-SYNCED FOUNDATION / REQUIREMENTS-v0.2 PROMOTED  
+**Status:** CLOSURE-SYNCED FOUNDATION / REQUIREMENTS-v0.3 PROMOTED / TARGET ARCHITECTURE-v0.2 ACCEPTED AND CLOSED  
 **Purpose:** Define the parent problem and claim-relative System-of-Interest boundary for the Human–AI Work System across architecture, realization and evaluation.  
-**Current basis:** predecessor lineage/reconciliation + Reference Map + controlling Concerns & Requirements v0.2 / active ADR-0003 + Requirements v0.1 historical Qualified Prior + accepted Target Architecture v0.2 / ADR-0002.  
+**Current basis:** predecessor lineage/reconciliation + Reference Map + controlling Concerns & Requirements v0.3 / ADR-0004 + Requirements v0.2 historical Qualified Prior + accepted Target Architecture v0.2 / ADR-0002 + current non-normative integrated trace.  
 **Authority boundary:** `CURRENT.md` controls current repository development/operating state and next-work authority. This foundation document does not independently define the active gate.
 
 ---
@@ -253,7 +253,9 @@ This does not erase its findings. Relevant issues may reappear as realization qu
 
 Foundational architecture is closed by default under the accepted Target Architecture / ADR-0002 reopen discipline.
 
-Requirements v0.2 was promoted via authorized PR #18 merge `b355ed63ad94d6456a6913cac079458238067921` and post-merge readback. Requirements v0.1 remains historical Qualified Prior evidence only. Target Architecture v0.2 remains accepted and closed; the Requirements transition did not reopen architecture.
+Requirements v0.2 was promoted via authorized PR #18 merge `b355ed63ad94d6456a6913cac079458238067921` and post-merge readback. At that transition, Requirements v0.1 became historical Qualified Prior evidence. Target Architecture v0.2 remained accepted and closed; the Requirements transition did not reopen architecture.
+
+Requirements v0.3 was later promoted through ADR-0004 and PR #34 and now controls on authoritative `main`. Requirements v0.2 remains immutable historical Qualified Prior evidence. The transition did not reopen Target Architecture v0.2; current cross-level compatibility and realization navigation is provided by `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`.
 
 ---
 
@@ -275,37 +277,38 @@ These are realization/evaluation questions unless a named architecture reopen tr
 
 # 14. Relationship to the current operating mode
 
-`CURRENT.md` controls the active repository state. After Requirements v0.2 Promotion it records:
+`CURRENT.md` controls the active repository state. The current relationship is:
 
 ```text
 accepted Target Architecture v0.2
-+ Requirements v0.2 controlling on main
-+ Requirements v0.1 retained historical Qualified Prior
-+ incumbent Work-Control runtime
++ Requirements v0.3 controlling on main
++ Requirements v0.2 retained as historical Qualified Prior
++ Route-B v0.6 repository-source Runtime carriers
++ installed identity and behavior qualified only by separate readback/evidence
 + domain-owned authoritative state / current tools
-+ Working-Solution Operating Mode
-+ Runtime Solution Formation eligible as next frontier
 ```
 
-This does **not** create a new parent SoI, Solution layer, engine, agent, store or mandatory lifecycle.
+This does **not** create a new parent SoI, Solution layer, engine, Agent, store or mandatory lifecycle.
 
 Parent continuity remains:
 
 ```text
-Human–AI Work System                         PARENT SoI
+Human–AI Work System                                      PARENT SoI
 ↓
-problem / mission / performance concerns     FOUNDATION
+problem / mission / performance concerns                  FOUNDATION
 ↓
-Concerns & Requirements v0.2                 CONTROLLING ON main
-Concerns & Requirements v0.1                 HISTORICAL QUALIFIED PRIOR / NON-CONTROLLING
+Concerns & Requirements v0.3                              CONTROLLING ON main
+Concerns & Requirements v0.2                              HISTORICAL QUALIFIED PRIOR
+Requirements v0.1                                         EARLIER HISTORICAL LINEAGE
 ↓
-Target Architecture v0.2                     ACCEPTED / CLOSED / COMPATIBILITY REQUALIFIED
+Target Architecture v0.2                                  ACCEPTED / CLOSED
+integrated Architecture/View/Interaction/Runtime trace     CURRENT NON-NORMATIVE DESCRIPTION
 ↓
-operating / runtime realization              UNCHANGED BY REQUIREMENTS PROMOTION
+Route-B v0.6 operating / Runtime realization              REPOSITORY SOURCE; INSTALLATION AND BEHAVIOR SEPARATE
 ↓
-real Work Episodes + readback/use            BEHAVIORAL EVIDENCE SOURCE
+real Work Episodes + readback/use                         BEHAVIORAL EVIDENCE SOURCE
 ↓
-evidence-driven improvement                  LOCAL BY DEFAULT; ARCHITECTURE REOPEN ONLY BY TRIGGER
+evidence-driven improvement                               LOCAL BY DEFAULT; ARCHITECTURE REOPEN ONLY BY TRIGGER
 ```
 
 The current next gate is intentionally **not** restated here. Use `CURRENT.md` so this foundation artifact cannot silently become a competing program pointer.

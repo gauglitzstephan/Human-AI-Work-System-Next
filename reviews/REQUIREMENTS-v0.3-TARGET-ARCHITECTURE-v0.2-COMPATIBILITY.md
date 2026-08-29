@@ -1,10 +1,13 @@
 # Requirements v0.3 Candidate ↔ Target Architecture v0.2 Compatibility Review
 
-**Status:** CANDIDATE COMPATIBILITY EVIDENCE  
+**Original status (2026-08-25):** CANDIDATE COMPATIBILITY EVIDENCE  
+**Current repository disposition (2026-08-29):** the underlying Candidate evidence was accepted into the Requirements-v0.3 promotion through ADR-0004 / PR #34 and is historical compatibility evidence; this later annotation is not the exact PR-#34 blob, whose identity remains in Git history. Current cross-level navigation is superseded by the integrated trace.  
 **Date:** 2026-08-25  
-**Reviewed Requirements:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md`  
-**Architecture:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`  
-**Claim boundary:** semantic compatibility and reopen-trigger check only; no architecture change or Requirements Promotion
+**Originally reviewed Requirements:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md`  
+**Promoted equivalent:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`  
+**Architecture:** accepted and closed `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`  
+**Current trace:** `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`  
+**Claim boundary:** semantic compatibility and reopen-trigger evidence only; no architecture change or Runtime-conformance claim
 
 ## Verdict
 
@@ -94,17 +97,17 @@ new legitimate concern without owner                     NO
 
 **Architecture reopen: NOT TRIGGERED.**
 
-## 6. Existing referential drift in the frozen architecture document
+## 6. Decision-time referential drift in the frozen architecture document
 
-The accepted Target Architecture file still contains historical references that predate later Requirements promotion:
+At the 2026-08-25 review, the accepted Target Architecture file contained historical references that predated later Requirements promotion:
 
-- header still names Requirements v0.1;
+- its header named Requirements v0.1;
 - the embedded Requirements trace covers CR-01–13 and does not include v0.2 CR-14;
 - section 7 describes seven items as "Conditional Requirements" because that was the then-current packaging.
 
-These are **referential trace/documentation drift**, not evidence that the conceptual architecture lacks ownership. This review provides the current compatibility trace without editing the closed Target Architecture source.
+These were **referential trace/documentation drift**, not evidence that the conceptual architecture lacked ownership. This 2026-08-29 Candidate repairs current header/status/navigation metadata and labels the embedded trace as acceptance-time historical while leaving conceptual commitments/body intact. At Requirements-v0.3 Promotion, this review and its interaction addendum supplied the accepted compatibility evidence without editing or reopening that conceptual body.
 
-If Requirements v0.3 is later promoted, the compatibility record should be treated as the current Requirements↔Architecture trace. Updating the frozen architecture baseline itself is not necessary to establish semantic compatibility and is not authorized by this review.
+Requirements v0.3 was subsequently promoted through ADR-0004 and PR #34. This review remains historical compatibility evidence; `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md` is the current integrated companion trace. No Target-Architecture reopen follows from that navigation update.
 
 ## 7. Supported claim
 

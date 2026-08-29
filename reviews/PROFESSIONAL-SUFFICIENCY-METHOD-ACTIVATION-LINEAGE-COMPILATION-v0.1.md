@@ -6,6 +6,8 @@
 **Candidate branch:** `candidate/professional-sufficiency-method-activation-contract-v0.1`  
 **Target claim:** bind the exact reviewed Source-Contract input and preserve its minimum protected Runtime semantics in the canonical Professional Work Baseline, Global Custom Instructions and System-Development Project carrier without adding a Skill, controller, lifecycle or architecture component.
 
+**Current repository disposition (2026-08-29):** PR #38 was merged into authoritative `main` as `2693ac4427cf5f4406ca1e42212a6530a1028a90`, promoting the bounded repository-source payload recorded here. The PR #38 Global and System-Development Project source identities have not been established as installed carrier identities, and behavioral conformance on those exact identities remains `UNVERIFIED`. The original Candidate-era evidence and claim boundary below are retained unchanged.
+
 ## 1. Authority, source identity and lineage
 
 The upstream controlling basis remains:
