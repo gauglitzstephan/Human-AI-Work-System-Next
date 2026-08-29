@@ -3,7 +3,7 @@
 **Status:** `WORKING / UNPROMOTED PILOT CANDIDATE`  
 **Source branch:** `candidate/native-work-pilot-v0.1`  
 **Controlling repository state:** `main/CURRENT.md` remains authoritative.  
-**Claim boundary:** this Candidate defines a bounded native-working hypothesis and exact Project carrier. It does not change controlling Requirements or Architecture, modify an installed ChatGPT carrier, create or promote a Skill, establish Runtime fitness, or authorize merge/promotion.
+**Claim boundary:** this Candidate defines a bounded native-working hypothesis and exact Project carrier. It does not change controlling Requirements or Architecture, modify an installed ChatGPT carrier, create or promote a Skill, establish Runtime fitness, or authorize merge/promotion. The controlling Requirements v0.3, Target Architecture v0.2 and Runtime-v0.6 repository source remain unchanged. Architecture remains closed unless a named reopen trigger is separately established.
 
 ## 1. Purpose and hypothesis
 
@@ -79,7 +79,7 @@ An episode must make the following failure-capable evidence observable where app
 
 An episode is a bounded failure if the wrong provider route requires Human correction, full production starts before the required slice, a quality/fitness claim is made without inspecting the relevant artifact, or a selected candidate is silently replaced.
 
-Reject or simplify this route rather than adding another layer if, in at least two of three episodes, the Human must reconstruct state or catch material AI-resolvable defects, or the Capsule adds ceremony without changing a material decision, method, provider, artifact or outcome. Promote only the smallest carrier/mechanism that evidence shows to have helped. Any merge, installation beyond the pilot Project, Global-CI replacement, Architecture reopen or Skill creation requires a separate decision and Authority.
+This Candidate has no self-promotion path. Reject or simplify this route rather than adding another layer if, in at least two of three episodes, the Human must reconstruct state or catch material AI-resolvable defects, or the Capsule adds ceremony without changing a material decision, method, provider, artifact or outcome. Promote only the smallest carrier/mechanism that evidence shows to have helped. Any merge, installation beyond the pilot Project, Global-CI replacement, Architecture reopen or Skill creation requires a separate decision and Authority.
 
 ## 7. Rollback
 
