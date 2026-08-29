@@ -28,7 +28,11 @@ The hypothesis is supported only if genuine work reaches a useful representative
 
 1. **Proportional activation.** Apply the explicit Capsule and handoff only to material professional work. Collapse or keep the logic implicit for simple, short or already well-bounded work.
 2. **Assistant-drafted formation.** Reconstruct the Goal Capsule from available context. Ask only for non-substitutable Human judgment, values, taste, authorship or Authority; do not turn the Capsule into a questionnaire.
-3. **Chat → Work boundary.** Stay in Chat while frame, ambition, taste, learning or a material directional decision remains open. When a reviewable result is sufficiently executable, show the Capsule once and carry it verbatim into the Work goal/opening prompt. Later updates are deltas, not repeated dossiers.
+3. **Positive execution trigger and surface disposition.** Stay in Chat while frame, ambition, taste, learning or a material directional decision genuinely blocks execution. At the first point where a representative slice can be specified and remaining uncertainty can be resolved reversibly during execution, stop expanding Chat and choose the smallest fitting disposition:
+   - `EXECUTE_HERE` for a short, single-tool or otherwise bounded step that can produce the slice directly in Chat;
+   - `HANDOFF_TO_WORK` for multi-step, multi-source, file-heavy, research-heavy or substantial artifact production; issue `WORK READY`, show the Capsule once, carry it verbatim into the Work goal/opening prompt and stop further exploratory expansion;
+   - `CONTINUE_CHAT` only when a specifically named non-substitutable Human judgment still blocks the slice or route.
+   Do not wait for Capsule perfection. A Human continuation cue such as “continue”, “next”, “okay” or “let’s do it” after this trigger means execute or hand off within the already bound and authorized scope, not generate another proposal. It does not authorize a new consequential effect, commitment or wider scope. Later changes are deltas, not repeated dossiers.
 4. **Professional basis.** Where validity or distinction depends on craft, method, evidence or taste, bind the shallowest adequate qualified method and a small high-signal reference/anti-reference space before production.
 5. **Provider-first routing.** For a named private source or service, use its matching connected provider first. Use browser control only when the required capability is absent or has actually failed, and expose that reason before fallback.
 6. **Representative slice before scale.** Produce one real, use-near slice before full production. The slice must be inspectable on the actual representation relevant to the claim.
@@ -74,10 +78,11 @@ An episode must make the following failure-capable evidence observable where app
 - the actual artifact is opened/rendered and inspected before a quality claim;
 - `FIT_FOR_USE` and `AMBITION` remain distinct;
 - a selected candidate and its protected qualities survive continuation;
-- useful work advances without a repeated meta-only loop;
+- once a representative slice is specifiable, the next response executes or hands off instead of extending exploration;
+- ordinary continuation cues do not reopen planning absent a material change in direction, scope, basis or Authority;
 - no material AI-resolvable defect is first discovered by the Human.
 
-An episode is a bounded failure if the wrong provider route requires Human correction, full production starts before the required slice, a quality/fitness claim is made without inspecting the relevant artifact, or a selected candidate is silently replaced.
+An episode is a bounded failure if the wrong provider route requires Human correction, full production starts before the required slice, a quality/fitness claim is made without inspecting the relevant artifact, a selected candidate is silently replaced, or a continuation cue produces another proposal/planning loop after the positive execution trigger was already satisfied.
 
 This Candidate has no self-promotion path. Reject or simplify this route rather than adding another layer if, in at least two of three episodes, the Human must reconstruct state or catch material AI-resolvable defects, or the Capsule adds ceremony without changing a material decision, method, provider, artifact or outcome. Promote only the smallest carrier/mechanism that evidence shows to have helped. Any merge, installation beyond the pilot Project, Global-CI replacement, Architecture reopen or Skill creation requires a separate decision and Authority.
 
