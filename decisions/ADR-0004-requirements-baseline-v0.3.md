@@ -4,7 +4,8 @@
 **Date:** 2026-08-28  
 **Acceptance date:** 2026-08-28  
 **Decision owner:** Human repository owner  
-**Authority:** ADR-0004 and Requirements v0.3 control on authoritative `main` after successful PR #34 merge/readback; ADR-0003 and Requirements v0.2 remain immutable historical Qualified Prior evidence
+**Authority:** ADR-0004 and Requirements v0.3 control on authoritative `main` after successful PR #34 merge/readback; ADR-0003 and Requirements v0.2 remain immutable historical Qualified Prior evidence  
+**Current status/navigation note:** The decision body preserves its PR-#34 decision-time state. The base compatibility review and interaction addendum remain accepted historical promotion evidence; `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md` is the current non-normative cross-level companion. Later Runtime-source, installation and behavioral state is controlled by `CURRENT.md`.
 
 ## Context
 
@@ -79,7 +80,7 @@ Before a merge decision, the promotion package must:
 7. preserve the Human Acceptance and separate merge authorization recorded on 2026-08-28;
 8. after merge, read back `main` and reconcile all material entry points.
 
-## Current disposition
+## Decision-time disposition at PR #34
 
 ```text
 semantic Candidate maturity       PROMOTED LINEAGE
@@ -91,5 +92,7 @@ Runtime v0.6 conformance           NOT ESTABLISHED
 Runtime-Compilation repair         REQUIRED AS SEPARATE PACKAGE
 UI/installed-carrier update        NOT AUTHORIZED
 ```
+
+Subsequent Runtime-compilation, source-promotion, installation and behavioral-evidence transitions do not amend this Requirements decision and are tracked in `CURRENT.md`.
 
 This ADR records Human Acceptance and the separately authorized Promotion of Requirements v0.3 through PR #34. Controlling authority is established only by successful merge and authoritative `main` readback. This decision does not establish Runtime conformance, deployment, installed-carrier identity, architecture change or outcome effectiveness.

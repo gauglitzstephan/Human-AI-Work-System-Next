@@ -1,8 +1,11 @@
 # ADR-0002 — Target Conceptual Architecture Baseline v0.2
 
-**Status:** PROPOSED — acceptance occurs only if the containing PR is explicitly accepted and merged  
+**Status:** ACCEPTED — Human Acceptance and repository merge executed through PR #3; Target Architecture v0.2 remains controlling and closed by default  
 **Date:** 2026-08-19  
-**Decision owner:** Human repository owner
+**Decision owner:** Human repository owner  
+**Current relation:** Requirements v0.3 controls through ADR-0004 without reopening this architecture; current non-normative trace: `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`
+
+**Record-integrity note:** The decision body below preserves its proposal/acceptance-time wording, original Requirements-v0.1 driver and then-current Requirement counts as historical decision provenance. Those statements are not current Requirements or repository-status declarations.
 
 ## Context
 

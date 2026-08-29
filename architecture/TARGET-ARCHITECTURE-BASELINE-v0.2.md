@@ -1,8 +1,10 @@
 # Target Architecture Baseline v0.2
 
-**Status:** PROPOSED CONCEPTUAL BASELINE — becomes controlling only if the containing PR is accepted and merged  
+**Status:** ACCEPTED CONTROLLING CONCEPTUAL BASELINE / CLOSED BY DEFAULT — accepted through ADR-0002 and PR #3; reopen only under the named triggers in §11  
 **Date:** 2026-08-19  
-**Requirements baseline:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`  
+**Original acceptance driver:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.1.md`  
+**Current controlling Requirements:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`  
+**Current non-normative cross-level trace:** `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`  
 **Claim boundary:** conceptual Human–AI Work System architecture only; runtime/operating realization and behavioral effectiveness remain separate.
 
 ## 1. Baseline claim
@@ -242,6 +244,8 @@ The baseline does not require a Runtime Adapter object, V8 view, instruction for
 
 # 9. Requirements trace
 
+The table below preserves the Requirements-v0.1 acceptance-time trace and is retained as architecture-decision provenance. It is not the current Requirements-conformance map. Requirements v0.3, the inherited descriptive Views, interaction semantics and Runtime-source realization are traced in `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`.
+
 | Requirement | Primary owner/mechanism |
 |---|---|
 | CR-01 Outcome before means | Strategic/Work Responsibility + Work Selection |
@@ -258,7 +262,7 @@ The baseline does not require a Runtime Adapter object, V8 view, instruction for
 | CR-12 Realization/outcome integrity | Work/Operating/Learning boundaries + Realization invariant |
 | CR-13 Runtime/implementation fidelity | Runtime boundary + semantic-preservation rule |
 
-All seven Conditional Requirements are owned by their corresponding conditional behaviors; none requires a permanent architecture object.
+At acceptance time, all seven then-packaged Conditional Requirements were owned by their corresponding conditional behaviors; none required a permanent architecture object.
 
 ---
 
@@ -299,8 +303,8 @@ Without a trigger, prefer local method/runtime repair over foundational architec
 
 # 12. Architecture-description and realization boundary
 
-This file is the proposed **conceptual architecture baseline**, not the complete architecture description for every stakeholder and not an implementation specification.
+This file is the accepted **conceptual architecture baseline**, not the complete architecture description for every stakeholder and not an implementation specification.
 
-After acceptance, the next program is a separate `Architecture → Runtime / Operating Realization` problem: determine how the baseline's material semantics are allocated to actual Humans, AI, tools, state stores, instructions, Skills/workflows, projects/contexts and operating mechanisms without copying the whole architecture or losing required semantics.
+Following acceptance, the subsequent program was framed as a separate `Architecture → Runtime / Operating Realization` problem: determine how the baseline's material semantics are allocated to actual Humans, AI, tools, state stores, instructions, Skills/workflows, projects/contexts and operating mechanisms without copying the whole architecture or losing required semantics. Current realization state and next valid transitions are tracked in `../CURRENT.md` and the integrated Requirements/Architecture/View/Interaction/Runtime trace named there.
 
-That realization work is not authorized or decided by this baseline file.
+That realization work was not authorized or decided by this baseline file.

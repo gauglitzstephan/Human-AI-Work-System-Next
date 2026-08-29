@@ -1,11 +1,14 @@
 # Requirements v0.3 Interaction Repair ↔ Target Architecture v0.2 Addendum v0.1
 
-**Status:** CANDIDATE COMPATIBILITY EVIDENCE — bounded addendum; no architecture change or Requirements Promotion  
+**Original status (2026-08-28):** CANDIDATE COMPATIBILITY EVIDENCE — bounded addendum; no architecture change or Requirements Promotion  
+**Current repository disposition (2026-08-29):** the underlying Candidate evidence was accepted into the Requirements-v0.3 promotion through ADR-0004 / PR #34 and is historical compatibility evidence; this later annotation is not the exact PR-#34 blob, whose identity remains in Git history. Current cross-level navigation is superseded by the integrated trace.  
 **Date:** 2026-08-28  
-**Reviewed Requirements:** repaired `foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md` on `candidate/requirements-v0.3-interaction-repair-v0.1`  
+**Originally reviewed Requirements:** repaired `foundation/CONCERNS-AND-REQUIREMENTS-v0.3-CANDIDATE.md` on `candidate/requirements-v0.3-interaction-repair-v0.1`  
+**Promoted equivalent:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`  
 **Base review:** `reviews/REQUIREMENTS-v0.3-TARGET-ARCHITECTURE-v0.2-COMPATIBILITY.md`  
-**Architecture:** accepted closed `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`  
-**Claim boundary:** compatibility of the interaction repair and architecture reopen-trigger check only
+**Architecture:** accepted and closed `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`  
+**Current trace:** `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`  
+**Claim boundary:** compatibility and architecture-reopen evidence only
 
 ## Verdict
 
@@ -79,4 +82,4 @@ new legitimate concern without owner                     NO
 
 > The bounded Requirements v0.3 interaction repair is semantically compatible with Target Architecture v0.2. Its strengthened Core Requirements and new conditional coordination Requirement are owned by existing responsibilities and invariants; no Target-Architecture reopen is justified.
 
-This addendum does not accept or promote Requirements v0.3, change the Target Architecture, establish Runtime conformance, require a UI/carrier, or establish interaction/outcome effectiveness.
+This addendum did not itself accept or promote Requirements v0.3; that transition later occurred through ADR-0004 and PR #34. It still does not change Target Architecture v0.2, establish Runtime conformance, require a UI/carrier, or establish interaction/outcome effectiveness.
