@@ -272,10 +272,10 @@ The phrase can nevertheless be misread in isolation as requiring an additional a
    - protected historical relations and salience guards; and
    - explicit retired guards whose semantic/salience remains under review.
 6. The recovered repository/navigation baseline was stale in several places, and this Candidate repairs those entry points:
-   - Target Architecture header still says `PROPOSED` and points to Requirements v0.1;
-   - its embedded trace ends at CR-13 and seven old CCRs;
-   - compatibility/addendum records retain Candidate-era statuses; and
-   - `CURRENT.md` still contains pre-merge PR38 status/transition language despite main HEAD being the PR38 merge.
+   - the Target Architecture header had still said `PROPOSED` and pointed to Requirements v0.1;
+   - its embedded trace had ended at CR-13 and seven old CCRs;
+   - compatibility/addendum records had retained Candidate-era statuses; and
+   - `CURRENT.md` had still contained pre-merge PR38 status/transition language despite main HEAD being the PR38 merge.
 
 These are documentation/authority-navigation repairs, not conceptual architecture changes.
 

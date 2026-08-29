@@ -35,7 +35,6 @@ PR #38 later promoted the bounded repository-source realization of the Professio
 | `methods/` | historical or supporting method artifacts; active skill methods live with their skill package |
 | `evaluation/` | case cards, real-use evidence, test designs, and results |
 | `reviews/` | bounded source and promotion reviews |
-| `archive/` | superseded artifacts retained for history where needed |
 
 ## Native runtime model
 
