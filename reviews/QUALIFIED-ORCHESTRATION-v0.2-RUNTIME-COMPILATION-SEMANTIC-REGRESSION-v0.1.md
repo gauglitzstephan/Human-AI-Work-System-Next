@@ -1,11 +1,16 @@
 # Qualified Orchestration v0.2 — Runtime Compilation / Semantic Regression v0.1
 
-**Status:** CANDIDATE STATIC REPOSITORY-SOURCE ASSURANCE EVIDENCE — NON-NORMATIVE; STATIC SOURCE REGRESSION PASS; NOT ACCEPTED, MERGED, INSTALLED OR PROMOTED  
+**Status:** HUMAN-ACCEPTED CANDIDATE STATIC REPOSITORY-SOURCE ASSURANCE EVIDENCE — NON-NORMATIVE; STATIC SOURCE REGRESSION PASS; UNMERGED, UNPROMOTED AND NOT INSTALLED  
 **Date:** 2026-08-30  
 **Implementation Candidate:** IC-QOC-v0.1 only  
-**Authoritative pre-change baseline:** `main@e507fd49dc51d598db82473aa19e7c7a73306a68`, freshly compared to `main` as identical before the first write  
+**Authoritative pre-change baseline:** `main@e507fd49dc51d598db82473aa19e7c7a73306a68`, freshly compared to `main` as identical before the first semantic write  
 **Candidate branch:** `candidate/qualified-orchestration-contract-v0.2`  
-**Payload readback head:** `66221b7fe1a77236ec6a8a6f99d1357986b6acae`  
+**Accepted semantic Candidate head:** `47cfebea529660671c3a12fe2a20246b33c76c42`  
+**Human Acceptance:** 2026-08-30; exact bounded repository-source semantic Candidate only  
+**Accepted Candidate blobs:** PWB `58358d8d019926da9ec13c077d68783a2acf750e`; Topology `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`; Global `3f7a65c5f3fe667762c252d0f6cdf974f21759bc`; Project `3077c0c8504f7bcf95914018dd0bf56daf407b8c`; this review `52f86158d20fedc9fc85e92d056a38ad201e6865`  
+**Pre-acceptance payload readback head:** `66221b7fe1a77236ec6a8a6f99d1357986b6acae`  
+**Status-reconciliation scope:** PWB/Topology status headers, this evidence lineage/status, `CURRENT.md` and `README.md` only; no accepted contract-semantic change  
+**Status-reconciled branch head:** post-commit readback gate; not recursively embeddable in this evidence file  
 **Controlling Requirements:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`, blob `70f76ca5d3a7f5f562924e00894cc81e75c77c3c`  
 **Controlling Architecture:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`, blob `d9fb723db3a3fc469ad9934712476ce028312b52`, CLOSED  
 **Immediate protected Runtime prior:** four pre-change payload blobs in §3  
@@ -16,9 +21,9 @@
 
 This file records Assurance Evidence for the exact repository-source Candidate. It is not a fifth semantic owner and establishes no Runtime rule. If this review conflicts with the Candidate Professional Work Baseline, the Baseline controls the Candidate semantics.
 
-Supported claim: the branch contains the accepted PWB owner delta, its unchanged Topology allocation and repaired target-specific Global/Project compilations. The exact repository-source payload statically preserves the fixed Requirements, Architecture, Professional Sufficiency, Skill and historical regression semantics inventoried below.
+Supported claim: exact semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42` contains the Human-accepted PWB owner delta, Topology allocation, target-specific Global/Project compilations and this evidence. Static Source Regression passed for that exact bounded repository-source Candidate, preserving the fixed Requirements, Architecture, Professional Sufficiency, Skill and historical regression semantics inventoried below. The later status-only reconciliation changes neither that accepted contract nor the supported semantic claim.
 
-Not supported: Human Acceptance, merge, authoritative `main` Promotion, installed carrier identity, activation, behavioral conformance, generalized professional fitness, Performance, outcome or value. The evidence file cannot recursively embed its own final commit SHA; final branch-head, changed-path and evidence-blob readback are post-commit gates.
+Not supported: merge, authoritative `main` Promotion, installed carrier identity, activation, behavioral conformance, generalized professional fitness, Performance, outcome or value. Human Acceptance authorizes only the recorded Candidate status; it does not authorize any of those transitions or claims. The evidence file cannot recursively embed its own status-reconciliation commit SHA; final branch-head, changed-path and blob readback remain post-commit gates.
 
 E1 = exact UTF-8 branch readback of the four payload blobs listed in §3 at payload head `66221b7fe1a77236ec6a8a6f99d1357986b6acae`. E1 proves repository-source identity and static wording only; it proves neither installation nor activation, behavioral conformance, Work-Product quality, Performance, outcome or value.
 
@@ -36,16 +41,18 @@ E1 = exact UTF-8 branch readback of the four payload blobs listed in §3 at payl
 
 Target Architecture v0.2 receives no new responsibility, layer, component, state store, lifecycle or mandatory stage. No named architecture-reopen trigger is established.
 
-## 3. Exact source → carrier identities and envelopes
+## 3. Exact accepted source → carrier identities and envelopes
 
-| Path | Role | Pre-change blob | Candidate blob | Characters | UTF-8 bytes | Line endings | Trailing LF | Readback |
+| Path | Role | Pre-change blob | Accepted semantic Candidate blob | Characters | UTF-8 bytes | Line endings | Trailing LF | Readback |
 |---|---|---|---|---|---|---|---|---|
-| realization/runtime/route-b/v0.6-chatgpt-runtime/GLOBAL-CUSTOM-INSTRUCTIONS.md | compiled Global carrier | 8fc25d99f3ffa66abe917e4a256a4701c929cffa | 3f7a65c5f3fe667762c252d0f6cdf974f21759bc | 4977 | 5085 | 9 LF / 0 CRLF | no | exact readback PASS |
-| realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md | sole semantic owner | e25f22f77b9665b4dca2531ea8d03b3cd53cbb7f | 58358d8d019926da9ec13c077d68783a2acf750e | 20765 | 20849 | 240 LF / 0 CRLF | yes | exact readback PASS |
-| realization/runtime/route-b/v0.6-chatgpt-runtime/RUNTIME-TOPOLOGY.md | derived allocation | f1f104d032e297483ef1c0cfa0d9ea089a01076b | c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0 | 15766 | 15792 | 189 LF / 0 CRLF | yes | exact readback PASS |
-| realization/runtime/route-b/v0.6-chatgpt-runtime/SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md | compiled Project carrier | e8ddb7b4db27804667500beb41b206c5a5adfeff | 3077c0c8504f7bcf95914018dd0bf56daf407b8c | 7537 | 7663 | 14 LF / 0 CRLF | no | exact readback PASS |
+| realization/runtime/route-b/v0.6-chatgpt-runtime/GLOBAL-CUSTOM-INSTRUCTIONS.md | compiled Global carrier | 8fc25d99f3ffa66abe917e4a256a4701c929cffa | 3f7a65c5f3fe667762c252d0f6cdf974f21759bc | 4977 | 5085 | 9 LF / 0 CRLF | no | accepted-head exact readback PASS |
+| realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md | sole semantic owner | e25f22f77b9665b4dca2531ea8d03b3cd53cbb7f | 58358d8d019926da9ec13c077d68783a2acf750e | 20765 | 20849 | 240 LF / 0 CRLF | yes | accepted-head exact readback PASS |
+| realization/runtime/route-b/v0.6-chatgpt-runtime/RUNTIME-TOPOLOGY.md | derived allocation | f1f104d032e297483ef1c0cfa0d9ea089a01076b | c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0 | 15766 | 15792 | 189 LF / 0 CRLF | yes | accepted-head exact readback PASS |
+| realization/runtime/route-b/v0.6-chatgpt-runtime/SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md | compiled Project carrier | e8ddb7b4db27804667500beb41b206c5a5adfeff | 3077c0c8504f7bcf95914018dd0bf56daf407b8c | 7537 | 7663 | 14 LF / 0 CRLF | no | accepted-head exact readback PASS |
 
 Envelope result: Global is **4,977 ≤ 4,999 characters** and Project is **7,537 ≤ 7,561 characters** in the intended UTF-8/LF source representation. Explicit CRLF serialization checks are also within the same limits: Global **4,986**, Project **7,551**. All four payloads contain zero stored CRLF sequences; existing trailing-newline conventions are preserved. Deployment may use LF or CRLF only if the exact read-back character count remains within these verified identities; no further text or Unicode normalization is covered.
+
+The PWB and Topology full-file blobs change in the authorized descendant only because their status headers are reconciled; their accepted semantic loci §3A and §2A must remain textually exact. Global and Project must retain the accepted blobs above. Resulting status-only file blobs and final branch head are external post-commit readback facts, not recursively embeddable here.
 
 Compilation rule: PWB §3A is the sole primary semantic owner. Topology §2A is a derived allocation. Global and Project are constrained deployment compilations. The Project reuses the Global QOC kernel and adds only its pre-existing Project/system source, write, readback and Human-boundary controls.
 
@@ -161,25 +168,25 @@ PWB §3A contains QOC-01–QOC-14 and Topology preserves the non-owning allocati
 
 | Protected path | Candidate blob | Disposition |
 |---|---|---|
-| skills/adaptive-exploration/SKILL.md | 461e5c9f483573d1c3dd7a09d95abbc1093bff6d | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/work-formation/SKILL.md | b27555c7206cd56076f0c3092151045e5be25771 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/work-formation/references/FORMATION-METHOD.md | 05c6b81a8ef7eac89a18c9aadbb7a4d75ef6e563 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/research-evidence/SKILL.md | e58fb322ada87131ce50feaa6c2298e35d93fbc7 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/decision-analysis/SKILL.md | b2efbf0dcdd0b6f265f76b52c1b6d4b69b51a941 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/evaluate-work-product/SKILL.md | 5b0c4cd98de7575ff848796c2a215eacfbb61b13 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/system-development/SKILL.md | 9ce6f21c3db6e4eb5802e41b97c0c4011e9d42df | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/REGISTRY.md | 2b308cbad2c32e1fa7ad1cff66f6c90762fd73c6 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| skills/DEPLOYMENT-CONTRACT.md | e74326e7bb364a76be12005b52eead80867130a8 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| .codex-plugin/plugin.json | 494622f02391e31a7646935bd10f57b7ef628e99 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| .agents/plugins/marketplace.json | 81193b68fc0095596b6cc43b88bc10bd501bf44e | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| realization/pilots/native-work-pilot-v0.1/NATIVE-WORK-PILOT-v0.1.md | 4026bfb609cb9acb24bf4d1420bca8a9334e6f23 | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
-| realization/pilots/native-work-pilot-v0.1/PROJECT-INSTRUCTIONS.md | c1eafeff66d021097c31f3c7ae54db12eda41f4e | unchanged by base→Candidate tree inheritance; final diff gate pending evidence commit |
+| skills/adaptive-exploration/SKILL.md | 461e5c9f483573d1c3dd7a09d95abbc1093bff6d | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/work-formation/SKILL.md | b27555c7206cd56076f0c3092151045e5be25771 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/work-formation/references/FORMATION-METHOD.md | 05c6b81a8ef7eac89a18c9aadbb7a4d75ef6e563 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/research-evidence/SKILL.md | e58fb322ada87131ce50feaa6c2298e35d93fbc7 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/decision-analysis/SKILL.md | b2efbf0dcdd0b6f265f76b52c1b6d4b69b51a941 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/evaluate-work-product/SKILL.md | 5b0c4cd98de7575ff848796c2a215eacfbb61b13 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/system-development/SKILL.md | 9ce6f21c3db6e4eb5802e41b97c0c4011e9d42df | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/REGISTRY.md | 2b308cbad2c32e1fa7ad1cff66f6c90762fd73c6 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/DEPLOYMENT-CONTRACT.md | e74326e7bb364a76be12005b52eead80867130a8 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| .codex-plugin/plugin.json | 494622f02391e31a7646935bd10f57b7ef628e99 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| .agents/plugins/marketplace.json | 81193b68fc0095596b6cc43b88bc10bd501bf44e | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| realization/pilots/native-work-pilot-v0.1/NATIVE-WORK-PILOT-v0.1.md | 4026bfb609cb9acb24bf4d1420bca8a9334e6f23 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| realization/pilots/native-work-pilot-v0.1/PROJECT-INSTRUCTIONS.md | c1eafeff66d021097c31f3c7ae54db12eda41f4e | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
 
-Because the Candidate tree starts from the exact baseline and only the final allowlist may differ, a final base→branch compare is the controlling unchanged-blob check for all other Skill/package/pilot files. No registry status, plugin version or deployment contract changes are required.
+At the accepted semantic head, the exact base→branch compare was the controlling unchanged-blob check for all Skill/package/pilot files outside the original allowlist. For the status reconciliation, accepted-head→branch compare controls the authorized five-path status delta and base→branch compare confirms that protected Skill/package/pilot identities remain unchanged. No registry status, plugin version or deployment contract change is required.
 
-## 10. Changed-path allowlist and mechanical gates
+## 10. Changed-path allowlists and mechanical gates
 
-Allowed final paths:
+Original IC-QOC semantic-Candidate allowlist through accepted head `47cfebea529660671c3a12fe2a20246b33c76c42`:
 
 1. `realization/runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md`
 2. `realization/runtime/route-b/v0.6-chatgpt-runtime/RUNTIME-TOPOLOGY.md`
@@ -187,13 +194,25 @@ Allowed final paths:
 4. `realization/runtime/route-b/v0.6-chatgpt-runtime/SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md`
 5. `reviews/QUALIFIED-ORCHESTRATION-v0.2-RUNTIME-COMPILATION-SEMANTIC-REGRESSION-v0.1.md`
 
-Required post-evidence-commit gates:
+Human Acceptance followed successful readback of that exact five-path Candidate: the base→accepted-head compare contained only those paths; all five accepted blobs matched §3 and the metadata above; protected files remained unchanged; no merge, PR, installation or Promotion occurred.
 
-- final base→branch compare reports exactly those five paths;
-- final branch fetch returns the four Candidate blobs in §3 and the new evidence blob;
-- `CURRENT.md`, `README.md`, Requirements, Architecture, all Skills, Registry/Deployment Contract, plugin/marketplace files, Native Work Pilot and installed Runtime remain unchanged;
-- branch head is descended only from `e507fd49dc51d598db82473aa19e7c7a73306a68`;
-- no merge, PR, installation or Promotion occurs.
+Authorized post-acceptance status-reconciliation paths relative to accepted head:
+
+1. PWB status header only;
+2. Topology status header only;
+3. this review's status, lineage and gate reporting only;
+4. `CURRENT.md` status/lineage/next-gate reporting only;
+5. `README.md` entry-point reporting only.
+
+Required post-reconciliation gates:
+
+- accepted-head→branch compare reports exactly those five status/entry-point paths;
+- PWB §3A and Topology §2A match the accepted-head text exactly;
+- Global remains exact blob `3f7a65c5f3fe667762c252d0f6cdf974f21759bc`;
+- Project remains exact blob `3077c0c8504f7bcf95914018dd0bf56daf407b8c`;
+- Requirements, Architecture, all Skills, Registry/Deployment Contract, plugin/marketplace files and Native Work Pilot remain unchanged;
+- all five changed files are read back from the resulting branch;
+- the Candidate remains unmerged and unpromoted; installed identity and behavior remain unverified.
 
 ## 11. Bounded carrier-repair disposition
 
@@ -211,6 +230,8 @@ Global is a complete target carrier within its envelope. Project repeats the ful
 
 ## 12. Static disposition
 
-**STATIC SOURCE REGRESSION: PASS at exact payload head `66221b7fe1a77236ec6a8a6f99d1357986b6acae`.**
+**STATIC SOURCE REGRESSION: PASS for exact Human-accepted semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42`.**
 
-The Candidate is fit only for Human Candidate Acceptance review. It is not accepted, promoted, installed or behaviorally validated. Target Architecture v0.2 remains CLOSED.
+Human Acceptance was granted on 2026-08-30 for the bounded repository-source semantic Candidate only. This status-only reconciliation changes no accepted contract semantics and does not extend the static claim. The repository Candidate remains unmerged and unpromoted; installed identity, activation, behavioral conformance, generalized professional fitness, Performance, outcome and value remain unverified. Target Architecture v0.2 remains CLOSED.
+
+After the post-reconciliation gates in §10 pass, the exact next transition is a separate Human merge-authorization decision.
