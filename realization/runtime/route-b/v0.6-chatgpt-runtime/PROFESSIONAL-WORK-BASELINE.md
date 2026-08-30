@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** SOURCE-LEVEL IMPLEMENTATION CANDIDATE — preserves the Human-accepted Professional Work Baseline on authoritative pre-change `main` blob `e25f22f77b9665b4dca2531ea8d03b3cd53cbb7f` and adds the Qualified Orchestration Contract v0.2 from an accepted design input. Existing promoted semantics remain Qualified Prior; the new source delta is unaccepted and unpromoted until separate Human approval, merge and authoritative `main` readback. Installation, behavioral conformance, Work-Product quality and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
+**Status:** HUMAN-ACCEPTED SOURCE-LEVEL SEMANTIC CANDIDATE — Human Acceptance applies to the exact IC-QOC-v0.1 semantic Candidate at head `47cfebea529660671c3a12fe2a20246b33c76c42` and accepted Baseline blob `58358d8d019926da9ec13c077d68783a2acf750e`. This status-only reconciliation changes no accepted contract semantics, including §3A. The Candidate remains unmerged and unpromoted; merge and authoritative `main` readback require separate authorization. Installation, installed identity, activation, behavioral conformance, Work-Product quality, Performance, outcome and value remain unverified. Target Architecture v0.2 remains controlling and CLOSED.
 
 ## Purpose
 
