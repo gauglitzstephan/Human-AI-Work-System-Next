@@ -2,14 +2,14 @@
 
 **Status:** CANDIDATE STATIC SOURCE REGRESSION PASS — repository branch only; awaiting Human Candidate Acceptance  
 **Date:** 2026-08-30  
-**Implementation Candidate:** IC-QOC-CR-v0.1 only  
+**Implementation Candidate:** IC-QOC-CR-v0.2 only  
 **Branch:** candidate/qoc-carrier-recompilation-v0.1  
 **Controlling base:** main@fa536d914eede2ba005b5a3b1297c22110a7f34f  
 **Claim boundary:** exact repository-source carrier candidate and static semantic regression only; no installation, activation, behavioral conformance, Professional Fitness, Performance, outcome or value claim
 
 ## 1. Repair claim and evidence boundary
 
-This Candidate repairs only the observed Global/Project carrier-compilation defect. The controlling semantic sources remain byte-identical:
+This Candidate repairs only the observed Global/Project surface-routing and Joint-Intelligence carrier-compilation defects. The controlling semantic sources remain byte-identical:
 
 - Requirements v0.3: 70f76ca5d3a7f5f562924e00894cc81e75c77c3c
 - Target Architecture v0.2: d9fb723db3a3fc469ad9934712476ce028312b52
@@ -33,7 +33,7 @@ The bounded 2026-08-30 product verification established only:
 - the installed Project was finally restored/read back as 4,453 characters with raw SHA-256 2b533a652e618516ccb646ac25130f563a7fd8184ce7937ff22af1f225c9f4d3, while a separate 6,809-character Native Work Pilot representation also appeared during settings readback;
 - repository main carried a different 7,537-character Project source.
 
-This evidence localizes a carrier salience/composition defect and an installed-Project identity divergence. It does not transfer Behavioral PASS to this Candidate.
+This evidence localizes a carrier salience/composition defect and an installed-Project identity divergence. A later bounded Project-instruction test found the recompiled carrier technically coherent but behaviorally non-conversational: it reasoned and returned output without material questions, taste/identity calibration, concrete alternatives, Decision UX, challenge or ambition-raising interaction. That observation localizes a second behavioral-salience gap in G2; it is failure evidence, not a generalized Runtime claim. Neither evidence set transfers Behavioral PASS to this Candidate.
 
 ## 3. Exact Candidate delta and identities
 
@@ -45,15 +45,15 @@ Changed-path allowlist:
 
 | Carrier | Pre-change blob | Candidate blob | LF code points | UTF-8 bytes | LF / CR | Trailing LF | Raw SHA-256 |
 |---|---|---|---:|---:|---|---|---|
-| Global | 3f7a65c5f3fe667762c252d0f6cdf974f21759bc | 5029225777dc07e8146795a92edf35e084ba7850 | 3379 | 3457 | 8 / 0 | no | f7a78c79a7acac29bc67fa08719b8dc27675f69706eaa93a300887be52cc6dd7 |
-| Project | 3077c0c8504f7bcf95914018dd0bf56daf407b8c | 6eba19c1c723ef6c0bc58d8918816e339744d41b | 2342 | 2360 | 7 / 0 | no | bc6f03bf78194e0683da6a3b1cad82776b994073422bf21849ef301774359a6c |
+| Global | 5029225777dc07e8146795a92edf35e084ba7850 | 0831406de5817cfc7c1ae6b07cca036900fe2f17 | 4927 | 5021 | 11 / 0 | no | aee3d328844f59c105926e75e9f5ec5687cfbd03044defefddbf0770abfff281 |
+| Project | 6eba19c1c723ef6c0bc58d8918816e339744d41b | 124e0aa785564e1ed271799afb57160446c7199d | 2883 | 2903 | 8 / 0 | no | d187ed353d76e8a0473c0543e4def7417e19a66b72415bcdb71794bf6765c69e |
 
 Both payloads are UTF-8, NFC, contain no BOM and use LF source representation. CRLF projections remain within the product envelopes:
 
-- Global: 3,387 characters and 3,465 UTF-8 bytes; limit 4,999 characters.
-- Project: 2,349 characters and 2,367 UTF-8 bytes; limit 7,561 characters.
+- Global: 4,938 characters and 5,032 UTF-8 bytes; limit 4,999 characters.
+- Project: 2,891 characters and 2,911 UTF-8 bytes; limit 7,561 characters.
 
-The first 853 code points are byte-identical in Global and Project. The shared unit requires one WORK READY handoff and stop in Chat and explicitly prohibits Work self-handoff. Its duplication is salience reinforcement of one compiled unit, not an independently authored policy.
+The first 1,353 code points are byte-identical in Global and Project: the Surface Router plus the exact Joint Intelligence Gate. The shared units require one WORK READY handoff and stop in Chat, explicitly prohibit Work self-handoff, and require a smallest high-value interaction before execution or handoff when unresolved Human judgment, taste, ambition, meaning, learning intent or route choice could materially change the outcome. Their duplication is salience reinforcement of one compiled source view, not independently authored policy.
 
 The pair is indivisible for Project deployment. Any change to either accepted payload invalidates the installed-pair claim and requires a new composition review.
 
@@ -80,7 +80,7 @@ Paragraph loci used below:
 - G7 Authority
 - G8 Re-entry
 - G9 Claims
-- P1 byte-identical Surface Router
+- P1 byte-identical Surface Router + Joint Intelligence Gate
 - P2 overlay identity/precedence
 - P3 controlling source and recovery
 - P4 system-development and Skill boundary
@@ -177,7 +177,7 @@ For DELEGATED + BOUND units, the target is discoverable through P3 and authorita
 | Unit | Accepted obligation | Candidate locus | Class | Static disposition / limit |
 |---|---|---|---|---|
 | QOC-01 | One semantic owner; carriers compile only | PWB §3A; P2,P6 | EMBEDDED | owner unchanged |
-| QOC-02 | Adaptive Joint Intelligence without lifecycle/questionnaire | G2 | EMBEDDED | behavioral adaptivity U |
+| QOC-02 | Adaptive Joint Intelligence without lifecycle/questionnaire | G2 | EMBEDDED | exact Human-judgment gate plus interaction/ambition/Decision UX candidate; behavior U |
 | QOC-03 | Preliminary Capture ≠ QWS ≠ WORK_CONTRACT_READY ≠ Authorization | G1,G3,G5 | EMBEDDED | exact chain preserved |
 | QOC-04 | Recommendation/Human Decision/Commitment/Authorization distinct | G2,G7 | EMBEDDED | AI decision bounded |
 | QOC-05 | Formation conditional Work Unit, not architecture | G3 | EMBEDDED | no layer/controller/lifecycle |
@@ -222,9 +222,9 @@ Static PASS requires and this Candidate records:
 - Requirements, Architecture, PWB and Topology byte-identical to base;
 - no new Responsibility, stage, layer, controller, state store or Skill;
 - Global and Project compile one semantic owner;
-- shared 853-code-point router exact in both carriers;
+- shared 1,353-code-point Surface Router + Joint Intelligence Gate exact in both carriers;
 - Project remainder is system-development overlay only;
-- Global includes direct Work entry, conditional Formation, QWS proportionality, generic Skill boundary, Human contribution, Authority, four re-entry classes and claim boundaries;
+- Global includes direct Work entry; exact Joint Intelligence Gate; adaptive questions, examples/contrasts, mechanism-distinct options, challenge and recommendation; ambition/taste/learning/Decision UX; conditional Formation; QWS proportionality; all-six-Skill routing; Human contribution; Authority; four re-entry classes; and claim boundaries;
 - exact LF counts, envelope projections, raw hashes and Git blobs;
 - protected Skill, registry, plugin, marketplace and Native Work Pilot blobs unchanged;
 - branch readback and changed-path comparison required after this evidence file is committed.
@@ -243,7 +243,8 @@ Before installation:
 
 Behavioral Conformance then requires fresh contexts and zero critical failures for:
 
-- open Joint Intelligence;
+- two mechanism-distinct open Joint Intelligence cases, each with unresolved Human taste, ambition, meaning, learning intent or route choice;
+- one clear/direct countercase in which no forced dialogue occurs;
 - short direct Chat work;
 - explicit Chat reservation;
 - exact failed Graphic-Novel replay twice;
@@ -256,7 +257,9 @@ Behavioral Conformance then requires fresh contexts and zero critical failures f
 - product/specification/Human-judgment/new-reality re-entry;
 - claim-matched Assurance and Authority.
 
-Critical route behavior: WORK READY is the first substantive output; no research, tools, Formation or Production in Chat; exactly one proportional Work opening; stop; Human starts Work; Work never self-handoffs. Proposed latency floor to visible WORK READY is 30 seconds on the bound model/mode.
+Critical Joint-Intelligence behavior: before answer, production or handoff, a material unresolved Human-reserved variable produces a smallest high-value interaction rather than silent decision/production; across the two open cases the observed interaction must include decision-relevant questions plus at least two of concrete examples/contrasts, mechanism-distinct options, challenge/counterframe, ambition-raising perspective or reasoned recommendation. No questionnaire, performative challenge, generic brainstorming, forced dialogue or AI-resolvable-question offload.
+
+Critical route behavior remains unchanged: WORK READY is the first substantive output for Work-suited Execution; no research, tools, Formation or Production in Chat; exactly one proportional Work opening; stop; Human starts Work; Work never self-handoffs. Proposed latency floor to visible WORK READY is 30 seconds on the bound model/mode.
 
 ## 13. Static disposition
 
@@ -264,10 +267,10 @@ Critical route behavior: WORK READY is the first substantive output; no research
 
 This PASS establishes only:
 
-- the exact two-carrier repository-source Candidate;
+- the exact IC-QOC-CR-v0.2 two-carrier repository-source Candidate;
 - complete 77-unit static semantic disposition;
 - unchanged controlling sources and protected packages;
-- exact carrier identity/envelope/prefix equality;
+- exact carrier identity/envelope and 1,353-code-point shared-prefix equality;
 - no new architecture or Skill object.
 
 It does not establish:
@@ -283,4 +286,4 @@ It does not establish:
 
 Required next repository gate after final branch readback:
 
-HUMAN SOURCE CANDIDATE ACCEPTANCE — IC-QOC-CR-v0.1
+HUMAN SOURCE CANDIDATE ACCEPTANCE — IC-QOC-CR-v0.2
