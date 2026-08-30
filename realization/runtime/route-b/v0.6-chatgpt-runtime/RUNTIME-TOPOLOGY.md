@@ -1,6 +1,6 @@
 # Runtime Topology — Route B v0.6
 
-**Status:** SOURCE-LEVEL IMPLEMENTATION CANDIDATE — preserves the Human-accepted Runtime-v0.6 topology on authoritative pre-change `main` blob `f1f104d032e297483ef1c0cfa0d9ea089a01076b` and adds only a derived allocation compiled from the Qualified Orchestration Contract v0.2 in the Professional Work Baseline Candidate. Existing promoted semantics remain Qualified Prior; the new allocation is unaccepted and unpromoted until separate Human approval, merge and authoritative `main` readback. Installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed.
+**Status:** HUMAN-ACCEPTED SOURCE-LEVEL ALLOCATION CANDIDATE — Human Acceptance applies to the exact IC-QOC-v0.1 semantic Candidate at head `47cfebea529660671c3a12fe2a20246b33c76c42` and accepted Topology blob `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`. This status-only reconciliation changes no accepted allocation semantics, including §2A. The Candidate remains unmerged and unpromoted; merge and authoritative `main` readback require separate authorization. Installation, installed identity, activation, behavioral conformance, Performance, outcome and value remain unverified. Target Architecture v0.2 remains controlling and CLOSED.
 
 ## 1. Runtime owner
 
