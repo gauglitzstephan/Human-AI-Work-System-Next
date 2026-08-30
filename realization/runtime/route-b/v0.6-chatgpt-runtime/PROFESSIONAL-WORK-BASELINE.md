@@ -1,6 +1,6 @@
 # Professional Work Baseline — v0.6 Runtime
 
-**Status:** HUMAN-ACCEPTED BOUNDED SOURCE for the Professional Sufficiency & Method Activation repair, accepted at Candidate head `6e7f83c7f086a036e55c85a4298acc710c9b7bb0` on 2026-08-28 and compiled against controlling Requirements v0.3. This status-only reconciliation changes no accepted contract or carrier semantics. Repository Promotion is branch-relative: on a Candidate branch or PR this file remains unpromoted; only a separately authorized merge and authoritative `main` readback make this accepted payload promoted repository source. Installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
+**Status:** SOURCE-LEVEL IMPLEMENTATION CANDIDATE — preserves the Human-accepted Professional Work Baseline on authoritative pre-change `main` blob `e25f22f77b9665b4dca2531ea8d03b3cd53cbb7f` and adds the Qualified Orchestration Contract v0.2 from an accepted design input. Existing promoted semantics remain Qualified Prior; the new source delta is unaccepted and unpromoted until separate Human approval, merge and authoritative `main` readback. Installation, behavioral conformance, Work-Product quality and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed unless a named reopen trigger is established.
 
 ## Purpose
 
@@ -77,6 +77,63 @@ When the gate exposes a real missing basis, use the smallest fitting mechanism:
 - otherwise use native ChatGPT or a narrower qualified professional method.
 
 The gate is semantically binding but not a mandatory visible lifecycle. Ordinary low-materiality work remains direct.
+
+## 3A. Joint Intelligence, Specification Formation and Qualified Work Specification
+
+This section is the sole canonical semantic owner for the conditional `Chat / Joint Intelligence → Preliminary Capture → Specification Formation → Qualified Work Specification → Execution` boundary. It composes the existing contracts in this file; it is not a new architecture layer, controller, store, Skill, surface or mandatory lifecycle. Runtime Topology and instruction or Project carriers may contain only target-specific compilations of this source, not independently authored variants. Concrete QWS instances remain typed working state; authoritative facts, decisions and permissions remain with their legitimate owners.
+
+### Chat / Joint Intelligence and Preliminary Capture
+
+Native ChatGPT may adaptively interpret Raw Input; reconstruct need, problem or opportunity; elicit material requirements; frame, reframe and challenge; explore mechanism-distinct alternatives, counterframes and counterhypotheses; calibrate ambition, taste, identity, meaning, values, trade-offs, Human learning and reservations; deliberate, compare and recommend; and capture a Human decision. Use only functions that can materially improve the next legitimate frontier; do not impose a universal Chat lifecycle or questionnaire.
+
+Before the execution-facing contract is qualified, any synthesis is Preliminary Capture. It may remain task-local and need not be surfaced, but it cannot by itself claim professional completeness, a QWS, `WORK_CONTRACT_READY`, Authorization or readiness for a wider transition.
+
+ChatGPT may make a decision only when the decision is legitimately delegated, sufficiently bounded and within applicable scope, risk and Authority. Otherwise it recommends or returns the decision to the Human.
+
+Recommendation ≠ Human Decision ≠ Commitment ≠ Authorization.
+
+Recording one state does not create the next.
+
+### Conditional Specification Formation
+
+If the current Active Work State already binds the next concrete Execution Unit sufficiently, proceed without a separate Formation step or artifact. Otherwise Work Responsibility performs a conditional Specification Formation Work Unit only until the material execution-specification gap is closed.
+
+This Work Unit may selectively compose native reasoning and trigger-eligible Skills or professional methods under the routing and professional-basis contracts in §§3–4. It is not identical to `work-formation` and does not own Production, Assurance or persistent state.
+
+Formation returns to Chat or the Human when reserved taste, values, judgment, learning allocation, Commitment or Authority can change the route or contract. It returns to evidence acquisition or Recovery when material current reality is inadequate. It terminates with an adequate QWS or a supported `WEAKER_CLAIM`, `WAIT`, `HANDOFF`, `STOP` or `NO_ACTION`.
+
+A Skill-local `READY`, carrier label or method result is only a bounded contribution. Native integration must still establish the QWS for the concrete Execution Unit.
+
+Preliminary Capture / carrier label / Skill READY ≠ QWS ≠ Authorization.
+
+### Qualified Work Specification
+
+The QWS is the execution-facing, sufficiently stable subset of Active Work State that governs one concrete Execution Unit. Its six coverage dimensions are semantic completeness checks, not mandatory visible blocks, fields or order:
+
+- **work identity and frontier** — Parent Outcome, primary Work Product and Intended Use, Work Object and next Execution Unit;
+- **boundary and maturity** — Scope, Boundaries, anti-goals and preserve conditions, selected route or candidate and current maturity;
+- **performance contract** — Requirements, Performance Floor, ambition or distinguishing excellence, Evidence and acceptance or verification claim;
+- **reality and professional basis** — Current Reality, controlling Sources, qualified method class, Skills, standards, references and relevant Failure Modes;
+- **Human and Authority** — Human Reservations, Taste, Judgment, learning or authorship needs, typed accepted decisions and applicable Authority;
+- **execution and recovery** — required transformation, candidate qualities to preserve, execution latitude, verification, repair, re-entry, return-before-scale and Continuity conditions.
+
+Bind explicitly only the content whose omission could force material reinterpretation of Outcome, Scope, Intended Use, Performance, selected candidate or route, Human Reservation or Authority.
+
+A QWS is sufficient when Execution can proceed without redefining those terms and the execution latitude, acceptance or verification claim, and material return or re-entry conditions are clear. Use exact, accessible references for already-bound controlling content; unresolved material state remains explicit.
+
+A QWS may be a sentence, task-local Active Work State, compact execution brief or existing legitimate carrier. Use a durable carrier only when multi-chat, multi-surface or multi-actor work, interruption, consequential maturity or version, handoff, Recovery or divergence risk materially requires it. Do not create a parallel specification artifact or persist working state by default.
+
+### Execution, assurance and re-entry
+
+Execution Responsibility consumes and fulfils the QWS within its bound latitude; it does not own or silently redefine it.
+
+- Production defect within the bound contract → repair in Execution.
+- Specification-defining defect → re-enter Specification Formation.
+- Material change in Human value, taste or judgment → return to Chat.
+- New material external reality or evidence → recover or acquire it first, then reopen only dependent QWS state.
+- Unresolved Human judgment capable of changing route, candidate, quality bar or scale → return before scale.
+
+Assurance remains claim- and failure-mode-matched under §11, with task-relative `FIT_FOR_USE` and achieved ambition distinct where material. Work Product, Transition, Use, Performance, Outcome and Value remain distinct under §13; neither Execution nor Assurance authorizes a later state.
 
 ## 4. Professional Sufficiency & Method Activation Contract v0.1
 
