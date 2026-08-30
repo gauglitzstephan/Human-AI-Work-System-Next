@@ -21,6 +21,8 @@ PR #37 promotes a bounded behavioral-regression repair for strategic-resource co
 
 PR #38 later promoted the bounded repository-source realization of the Professional Sufficiency & Method Activation Contract. Current `main` contains Global blob `8fc25d99f3ffa66abe917e4a256a4701c929cffa` and Project blob `e8ddb7b4db27804667500beb41b206c5a5adfeff`; the last installed-carrier readback still identifies the earlier PR #37 blobs. PR #38 therefore establishes repository source, not exact installed identity or behavioral conformance.
 
+On 2026-08-30 the Human repository owner accepted IC-QOC-v0.1 at exact semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42` on `candidate/qualified-orchestration-contract-v0.2`. The [QOC static regression review](reviews/QUALIFIED-ORCHESTRATION-v0.2-RUNTIME-COMPILATION-SEMANTIC-REGRESSION-v0.1.md) records the accepted blobs and bounded Static Source Regression PASS. The branch's later status-only reconciliation changes no accepted contract semantics. The Candidate remains unmerged and unpromoted; authoritative `main` and installed Runtime identity/behavior remain unchanged or unverified as stated in `CURRENT.md`. Its exact next gate is a separate Human merge-authorization decision; acceptance authorizes no merge, installation, deployment or Promotion.
+
 ## Repository map
 
 | Area | Purpose |

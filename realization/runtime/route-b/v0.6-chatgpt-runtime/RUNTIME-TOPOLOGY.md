@@ -1,6 +1,6 @@
 # Runtime Topology — Route B v0.6
 
-**Status:** Human-accepted Runtime-v0.6 topology compiled against controlling Requirements v0.3. It becomes promoted repository source only after successful PR #35 merge and authoritative `main` readback; installation, behavioral conformance and outcomes remain unverified. Target Architecture v0.2 remains controlling and closed.
+**Status:** HUMAN-ACCEPTED SOURCE-LEVEL ALLOCATION CANDIDATE — Human Acceptance applies to the exact IC-QOC-v0.1 semantic Candidate at head `47cfebea529660671c3a12fe2a20246b33c76c42` and accepted Topology blob `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`. This status-only reconciliation changes no accepted allocation semantics, including §2A. The Candidate remains unmerged and unpromoted; merge and authoritative `main` readback require separate authorization. Installation, installed identity, activation, behavioral conformance, Performance, outcome and value remain unverified. Target Architecture v0.2 remains controlling and CLOSED.
 
 ## 1. Runtime owner
 
@@ -48,6 +48,20 @@ After the required basis is sufficient, Native ChatGPT composes only the relevan
 At a material transition, Native ChatGPT reconciles the proposed next work against the Work Object, controlling parent outcome, preserved qualified state, unresolved dependencies, intended-use Performance Floor, current maturity and relevant authority/effect boundaries. It proceeds only when that work is the next qualified and authorized transition; otherwise it forms the missing basis, narrows the claim, waits, hands off, stops or takes no action.
 
 A proposed route, tool, provider, surface, Skill, artifact, local result or continuation does not replace the Work Object or controlling parent outcome, promote candidate maturity, authorize a new effect or establish wider completion. `Continue`, `next` or similar continuation language continues only within the already-bound Work Object, scope and authority.
+
+## 2A. Conditional Specification Formation and QWS allocation
+
+Native ChatGPT owns adaptive Chat / Joint Intelligence, Preliminary Capture, conditional Specification Formation and QWS synthesis within Work Responsibility.
+
+Formation activates only where the next Execution Unit would otherwise materially reinterpret outcome, scope, Intended Use, Performance, candidate, Human reservation or Authority. It is not a layer, controller, Skill or store.
+
+QWS is a proportional boundary contract and working-state projection, not a required form. Execution consumes it without redefining it. A Skill-local return, including `work-formation` `READY`, is not an integrated QWS, `WORK_CONTRACT_READY` or Authorization.
+
+ChatGPT decides only where legitimately delegated, sufficiently bound and within Authority:
+
+Recommendation ≠ Human Decision ≠ Commitment ≠ Authorization.
+
+In-spec defects remain in Execution; specification-defining defects re-enter Formation; changed Human judgment returns to Chat; new material reality is recovered or acquired and re-enters Formation only when the QWS changes.
 
 ## 3. Information supply, context composition and state roles
 
