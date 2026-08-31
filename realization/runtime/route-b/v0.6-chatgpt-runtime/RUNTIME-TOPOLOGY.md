@@ -1,6 +1,6 @@
 # Runtime Topology — Route B v0.6
 
-**Status:** HUMAN-ACCEPTED SOURCE-LEVEL ALLOCATION CANDIDATE — Human Acceptance applies to the exact IC-QOC-v0.1 semantic Candidate at head `47cfebea529660671c3a12fe2a20246b33c76c42` and accepted Topology blob `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`. This status-only reconciliation changes no accepted allocation semantics, including §2A. The Candidate remains unmerged and unpromoted; merge and authoritative `main` readback require separate authorization. Installation, installed identity, activation, behavioral conformance, Performance, outcome and value remain unverified. Target Architecture v0.2 remains controlling and CLOSED.
+**Status:** REPOSITORY-PROMOTED RUNTIME-v0.6 ALLOCATION SOURCE on authoritative `main`; CANDIDATE on any branch or PR until Human Acceptance, separate merge authorization, merge and authoritative `main` readback. Human Acceptance remains bound to the exact IC-QOC-v0.1 semantic Candidate at head `47cfebea529660671c3a12fe2a20246b33c76c42` and accepted Topology blob `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`; PR #43 merged its status-reconciled descendant `af752f0c9583b223d84aa40a03b4e8f79bd17bfc` as `fa536d914eede2ba005b5a3b1297c22110a7f34f`. This status reconciliation changes no accepted allocation semantics, including §2A. Installation, installed identity, activation, behavioral conformance, Performance, outcome and value remain unverified. Target Architecture v0.2 remains controlling and CLOSED. `CURRENT.md` controls current repository state.
 
 ## 1. Runtime owner
 

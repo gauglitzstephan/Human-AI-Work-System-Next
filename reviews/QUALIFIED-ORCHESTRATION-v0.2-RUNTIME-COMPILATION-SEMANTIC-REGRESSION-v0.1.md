@@ -1,29 +1,29 @@
 # Qualified Orchestration v0.2 — Runtime Compilation / Semantic Regression v0.1
 
-**Status:** HUMAN-ACCEPTED CANDIDATE STATIC REPOSITORY-SOURCE ASSURANCE EVIDENCE — NON-NORMATIVE; STATIC SOURCE REGRESSION PASS; UNMERGED, UNPROMOTED AND NOT INSTALLED  
-**Date:** 2026-08-30  
-**Implementation Candidate:** IC-QOC-v0.1 only  
+**Status:** HUMAN-ACCEPTED STATIC REPOSITORY-SOURCE ASSURANCE EVIDENCE — NON-NORMATIVE; STATIC SOURCE REGRESSION PASS remains bound to accepted semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42`; PR #43 merged its status-reconciled descendant into authoritative `main`; this reporting repair remains CANDIDATE on its branch/PR; NOT INSTALLED  
+**Date:** 2026-08-30 assurance; 2026-08-31 post-merge reporting reconciliation  
+**Implementation object:** IC-QOC-v0.1 accepted semantics and their repository-source Promotion lineage only  
 **Authoritative pre-change baseline:** `main@e507fd49dc51d598db82473aa19e7c7a73306a68`, freshly compared to `main` as identical before the first semantic write  
 **Candidate branch:** `candidate/qualified-orchestration-contract-v0.2`  
 **Accepted semantic Candidate head:** `47cfebea529660671c3a12fe2a20246b33c76c42`  
 **Human Acceptance:** 2026-08-30; exact bounded repository-source semantic Candidate only  
 **Accepted Candidate blobs:** PWB `58358d8d019926da9ec13c077d68783a2acf750e`; Topology `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`; Global `3f7a65c5f3fe667762c252d0f6cdf974f21759bc`; Project `3077c0c8504f7bcf95914018dd0bf56daf407b8c`; this review `52f86158d20fedc9fc85e92d056a38ad201e6865`  
 **Pre-acceptance payload readback head:** `66221b7fe1a77236ec6a8a6f99d1357986b6acae`  
-**Status-reconciliation scope:** PWB/Topology status headers, this evidence lineage/status, `CURRENT.md` and `README.md` only; no accepted contract-semantic change  
-**Status-reconciled branch head:** post-commit readback gate; not recursively embeddable in this evidence file  
+**Original status-reconciliation scope:** PWB/Topology status headers, this evidence lineage/status, `CURRENT.md` and `README.md` only; no accepted contract-semantic change  
+**Status-reconciled branch head / PR #43 merge:** `af752f0c9583b223d84aa40a03b4e8f79bd17bfc` / `fa536d914eede2ba005b5a3b1297c22110a7f34f`  
 **Controlling Requirements:** `foundation/CONCERNS-AND-REQUIREMENTS-v0.3.md`, blob `70f76ca5d3a7f5f562924e00894cc81e75c77c3c`  
 **Controlling Architecture:** `architecture/TARGET-ARCHITECTURE-BASELINE-v0.2.md`, blob `d9fb723db3a3fc469ad9934712476ce028312b52`, CLOSED  
 **Immediate protected Runtime prior:** four pre-change payload blobs in §3  
-**Lineage inventory source:** `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`, blob `2c1b4a1d9a66f57cfc5ffd1d1b1135ef087c402d`  
+**Lineage inventory source at assurance time:** `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`, blob `2c1b4a1d9a66f57cfc5ffd1d1b1135ef087c402d`; the current derived Trace is selected through `CURRENT.md`  
 **Professional-sufficiency lineage source:** `reviews/PROFESSIONAL-SUFFICIENCY-METHOD-ACTIVATION-LINEAGE-COMPILATION-v0.1.md`, blob `a4cac1dd78ad56869e227185b0f3f4ed0e77ba78`
 
 ## 1. Claim and authority boundary
 
-This file records Assurance Evidence for the exact repository-source Candidate. It is not a fifth semantic owner and establishes no Runtime rule. If this review conflicts with the Candidate Professional Work Baseline, the Baseline controls the Candidate semantics.
+This file records Assurance Evidence for the exact accepted repository-source Candidate and its separately authorized PR-#43 Promotion/readback lineage. It is not a fifth semantic owner and establishes no Runtime rule. If this review conflicts with the Professional Work Baseline, the Baseline controls the Runtime semantics.
 
-Supported claim: exact semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42` contains the Human-accepted PWB owner delta, Topology allocation, target-specific Global/Project compilations and this evidence. Static Source Regression passed for that exact bounded repository-source Candidate, preserving the fixed Requirements, Architecture, Professional Sufficiency, Skill and historical regression semantics inventoried below. The later status-only reconciliation changes neither that accepted contract nor the supported semantic claim.
+Supported claim: exact semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42` contains the Human-accepted PWB owner delta, Topology allocation, target-specific Global/Project compilations and this evidence. Static Source Regression passed for that exact bounded repository-source Candidate, preserving the fixed Requirements, Architecture, Professional Sufficiency, Skill and historical regression semantics inventoried below. The later status-only descendant and PR-#43 merge change neither that accepted contract nor the supported semantic claim; authoritative `main@fa536d914eede2ba005b5a3b1297c22110a7f34f` contains the promoted repository-source descendant.
 
-Not supported: merge, authoritative `main` Promotion, installed carrier identity, activation, behavioral conformance, generalized professional fitness, Performance, outcome or value. Human Acceptance authorizes only the recorded Candidate status; it does not authorize any of those transitions or claims. The evidence file cannot recursively embed its own status-reconciliation commit SHA; final branch-head, changed-path and blob readback remain post-commit gates.
+Not supported: installed carrier identity, session-effective load, activation, behavioral conformance, generalized professional fitness, Performance, outcome or value. Human Acceptance did not by itself authorize merge or Promotion; those repository transitions occurred only through the separately authorized PR #43 and authoritative `main` readback. This evidence file cannot recursively embed its own resulting whole-file blob or a future branch head; those remain external readback facts.
 
 E1 = exact UTF-8 branch readback of the four payload blobs listed in §3 at payload head `66221b7fe1a77236ec6a8a6f99d1357986b6acae`. E1 proves repository-source identity and static wording only; it proves neither installation nor activation, behavioral conformance, Work-Product quality, Performance, outcome or value.
 
@@ -52,7 +52,7 @@ Target Architecture v0.2 receives no new responsibility, layer, component, state
 
 Envelope result: Global is **4,977 ≤ 4,999 characters** and Project is **7,537 ≤ 7,561 characters** in the intended UTF-8/LF source representation. Explicit CRLF serialization checks are also within the same limits: Global **4,986**, Project **7,551**. All four payloads contain zero stored CRLF sequences; existing trailing-newline conventions are preserved. Deployment may use LF or CRLF only if the exact read-back character count remains within these verified identities; no further text or Unicode normalization is covered.
 
-The PWB and Topology full-file blobs change in the authorized descendant only because their status headers are reconciled; their accepted semantic loci §3A and §2A must remain textually exact. Global and Project must retain the accepted blobs above. Resulting status-only file blobs and final branch head are external post-commit readback facts, not recursively embeddable here.
+The PWB and Topology full-file blobs changed in the PR-#43 descendant only because their status headers were reconciled; their accepted semantic loci §3A and §2A remained textually exact, while Global and Project retained the accepted blobs above. The pre-repair `main@fa536d9…` full-file identities were PWB `b1a7fba90714c4eda1d42257358ca054342cf627` and Topology `95d350ae3ea62b38cf940fa859e5003705b4db16`. This post-merge reporting repair changes those status lines only, producing branch blobs PWB `84ff5653daf258bce03fbda11030bd6606cf62a7` and Topology `bb4b759eaaa6c0807d178faec32601bcca1c3887`; §3A/§2A remain exact. This review's own resulting blob and the final branch head remain external readback facts.
 
 Compilation rule: PWB §3A is the sole primary semantic owner. Topology §2A is a derived allocation. Global and Project are constrained deployment compilations. The Project reuses the Global QOC kernel and adds only its pre-existing Project/system source, write, readback and Human-boundary controls.
 
@@ -168,21 +168,21 @@ PWB §3A contains QOC-01–QOC-14 and Topology preserves the non-owning allocati
 
 | Protected path | Candidate blob | Disposition |
 |---|---|---|
-| skills/adaptive-exploration/SKILL.md | 461e5c9f483573d1c3dd7a09d95abbc1093bff6d | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/work-formation/SKILL.md | b27555c7206cd56076f0c3092151045e5be25771 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/work-formation/references/FORMATION-METHOD.md | 05c6b81a8ef7eac89a18c9aadbb7a4d75ef6e563 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/research-evidence/SKILL.md | e58fb322ada87131ce50feaa6c2298e35d93fbc7 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/decision-analysis/SKILL.md | b2efbf0dcdd0b6f265f76b52c1b6d4b69b51a941 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/evaluate-work-product/SKILL.md | 5b0c4cd98de7575ff848796c2a215eacfbb61b13 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/system-development/SKILL.md | 9ce6f21c3db6e4eb5802e41b97c0c4011e9d42df | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/REGISTRY.md | 2b308cbad2c32e1fa7ad1cff66f6c90762fd73c6 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| skills/DEPLOYMENT-CONTRACT.md | e74326e7bb364a76be12005b52eead80867130a8 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| .codex-plugin/plugin.json | 494622f02391e31a7646935bd10f57b7ef628e99 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| .agents/plugins/marketplace.json | 81193b68fc0095596b6cc43b88bc10bd501bf44e | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| realization/pilots/native-work-pilot-v0.1/NATIVE-WORK-PILOT-v0.1.md | 4026bfb609cb9acb24bf4d1420bca8a9334e6f23 | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
-| realization/pilots/native-work-pilot-v0.1/PROJECT-INSTRUCTIONS.md | c1eafeff66d021097c31f3c7ae54db12eda41f4e | unchanged at accepted semantic head; post-acceptance status gate requires unchanged |
+| skills/adaptive-exploration/SKILL.md | 461e5c9f483573d1c3dd7a09d95abbc1093bff6d | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/work-formation/SKILL.md | b27555c7206cd56076f0c3092151045e5be25771 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/work-formation/references/FORMATION-METHOD.md | 05c6b81a8ef7eac89a18c9aadbb7a4d75ef6e563 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/research-evidence/SKILL.md | e58fb322ada87131ce50feaa6c2298e35d93fbc7 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/decision-analysis/SKILL.md | b2efbf0dcdd0b6f265f76b52c1b6d4b69b51a941 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/evaluate-work-product/SKILL.md | 5b0c4cd98de7575ff848796c2a215eacfbb61b13 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/system-development/SKILL.md | 9ce6f21c3db6e4eb5802e41b97c0c4011e9d42df | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/REGISTRY.md | 2b308cbad2c32e1fa7ad1cff66f6c90762fd73c6 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| skills/DEPLOYMENT-CONTRACT.md | e74326e7bb364a76be12005b52eead80867130a8 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| .codex-plugin/plugin.json | 494622f02391e31a7646935bd10f57b7ef628e99 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| .agents/plugins/marketplace.json | 81193b68fc0095596b6cc43b88bc10bd501bf44e | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| realization/pilots/native-work-pilot-v0.1/NATIVE-WORK-PILOT-v0.1.md | 4026bfb609cb9acb24bf4d1420bca8a9334e6f23 | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
+| realization/pilots/native-work-pilot-v0.1/PROJECT-INSTRUCTIONS.md | c1eafeff66d021097c31f3c7ae54db12eda41f4e | unchanged at accepted semantic head and verified unchanged through PR #43 merge/readback |
 
-At the accepted semantic head, the exact base→branch compare was the controlling unchanged-blob check for all Skill/package/pilot files outside the original allowlist. For the status reconciliation, accepted-head→branch compare controls the authorized five-path status delta and base→branch compare confirms that protected Skill/package/pilot identities remain unchanged. No registry status, plugin version or deployment contract change is required.
+At the accepted semantic head, the exact base→branch compare was the controlling unchanged-blob check for all Skill/package/pilot files outside the original allowlist. For PR #43, accepted-head→status-head compare confirmed the authorized five-path status delta and base→status-head compare confirmed that protected Skill/package/pilot identities remained unchanged. Authoritative `main` readback preserved those identities. No registry status, plugin version or deployment-contract change is required by this reporting repair.
 
 ## 10. Changed-path allowlists and mechanical gates
 
@@ -196,7 +196,7 @@ Original IC-QOC semantic-Candidate allowlist through accepted head `47cfebea5296
 
 Human Acceptance followed successful readback of that exact five-path Candidate: the base→accepted-head compare contained only those paths; all five accepted blobs matched §3 and the metadata above; protected files remained unchanged; no merge, PR, installation or Promotion occurred.
 
-Authorized post-acceptance status-reconciliation paths relative to accepted head:
+PR-#43 post-acceptance status-reconciliation paths relative to accepted head:
 
 1. PWB status header only;
 2. Topology status header only;
@@ -204,15 +204,17 @@ Authorized post-acceptance status-reconciliation paths relative to accepted head
 4. `CURRENT.md` status/lineage/next-gate reporting only;
 5. `README.md` entry-point reporting only.
 
-Required post-reconciliation gates:
+Verified PR-#43 post-reconciliation gates:
 
-- accepted-head→branch compare reports exactly those five status/entry-point paths;
-- PWB §3A and Topology §2A match the accepted-head text exactly;
+- accepted-head→status-head compare reported exactly those five status/entry-point paths;
+- PWB §3A and Topology §2A matched the accepted-head text exactly and remain protected in this repair;
 - Global remains exact blob `3f7a65c5f3fe667762c252d0f6cdf974f21759bc`;
 - Project remains exact blob `3077c0c8504f7bcf95914018dd0bf56daf407b8c`;
 - Requirements, Architecture, all Skills, Registry/Deployment Contract, plugin/marketplace files and Native Work Pilot remain unchanged;
-- all five changed files are read back from the resulting branch;
-- the Candidate remains unmerged and unpromoted; installed identity and behavior remain unverified.
+- all five changed files were read back from status head `af752f0c9583b223d84aa40a03b4e8f79bd17bfc`, and PR #43 was read back on authoritative `main` as `fa536d914eede2ba005b5a3b1297c22110a7f34f`;
+- the accepted QOC semantics are repository-promoted source; installed identity and behavior remain unverified.
+
+This post-merge branch may repair only this file's status, lineage and gate reporting. It does not rerun or widen the accepted Static PASS.
 
 ## 11. Bounded carrier-repair disposition
 
@@ -230,8 +232,8 @@ Global is a complete target carrier within its envelope. Project repeats the ful
 
 ## 12. Static disposition
 
-**STATIC SOURCE REGRESSION: PASS for exact Human-accepted semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42`.**
+**STATIC SOURCE REGRESSION: PASS for exact Human-accepted semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42`; PR #43 promoted its verified status-only descendant at repository-source level.**
 
-Human Acceptance was granted on 2026-08-30 for the bounded repository-source semantic Candidate only. This status-only reconciliation changes no accepted contract semantics and does not extend the static claim. The repository Candidate remains unmerged and unpromoted; installed identity, activation, behavioral conformance, generalized professional fitness, Performance, outcome and value remain unverified. Target Architecture v0.2 remains CLOSED.
+Human Acceptance was granted on 2026-08-30 for the bounded repository-source semantic Candidate only. Separate merge authorization and PR-#43 readback then established its status-reconciled descendant as repository-promoted source on `main@fa536d9…`. This reporting-only repair changes no accepted contract semantics and does not extend the static claim. Installed identity, session-effective load, activation, behavioral conformance, generalized professional fitness, Performance, outcome and value remain unverified. Target Architecture v0.2 remains CLOSED.
 
-After the post-reconciliation gates in §10 pass, the exact next transition is a separate Human merge-authorization decision.
+For this new branch, the exact next repository transition is Human Acceptance of the final PR head followed by a separate merge-authorization decision. Neither is supplied by this evidence file.

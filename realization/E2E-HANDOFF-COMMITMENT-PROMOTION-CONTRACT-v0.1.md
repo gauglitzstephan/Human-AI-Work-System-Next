@@ -1,3 +1,6 @@
+> **Status override — 2026-08-31: SUPERSEDED FOR CURRENT RUNTIME RELIANCE — HISTORICAL PROVENANCE ONLY. DO NOT INSTALL, EXECUTE OR USE AS CURRENT AUTHORITY. Resolve the current package through `../CURRENT.md` and `README.md`. All internal “current”, “ready” or next-action wording below is historical to its dated episode.**
+>
+
 # E2E Handoff / Commitment / Authorization / Promotion Contract v0.1
 
 **Status:** CANDIDATE — first-class Runtime control contract; no external installation.  

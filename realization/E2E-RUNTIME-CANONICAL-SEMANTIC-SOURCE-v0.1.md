@@ -1,3 +1,6 @@
+> **Status override — 2026-08-31: SUPERSEDED FOR CURRENT RUNTIME RELIANCE — HISTORICAL PROVENANCE ONLY. DO NOT INSTALL, EXECUTE OR USE AS CURRENT AUTHORITY. Resolve the current package through `../CURRENT.md` and `README.md`. All internal “current”, “ready” or next-action wording below is historical to its dated episode.**
+>
+
 # E2E Runtime Canonical Semantic Source v0.1
 
 **Status:** REPOSITORY-PERSISTED CANDIDATE CANONICAL SOURCE — contains the R21-reconciled native Product/Carrier mapping; repository persistence does not make it an installable prompt or constitute Runtime/UI promotion.  

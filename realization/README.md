@@ -1,142 +1,63 @@
 # Runtime / Realization Navigation
 
-This directory contains current Runtime realization artifacts **and** historical/superseded lineage. File recency, version number or the presence of executable-looking text does not by itself establish current authority.
+This directory contains the current Runtime repository-source package, non-normative Realization companions and historical/superseded lineage. File recency, version number or executable-looking text does not establish current authority.
 
-**Controlling program state:** `../CURRENT.md` in the authoritative repository tree.
+**Controlling program state:** `../CURRENT.md` on authoritative `main`. This file is CURRENT on authoritative `main` and CANDIDATE on every branch/PR until Human Acceptance, separate merge authorization, merge and authoritative `main` readback.
 
-Promotion-state rule:
-
-```text
-if read on unmerged PR #14 / repair/post-pr13-repo-hygiene-v0.1
-→ main/CURRENT.md remains repository authority
-→ this realization-navigation delta remains Candidate
-→ latest PR-level review of current head controls Promotion readiness
-
-if this exact state is read on main after PR #14 merge
-→ bounded hygiene Promotion is COMPLETE
-→ this file is the repository-promoted realization navigation
-```
-
-## Current package
-
-Current repository-promoted Runtime semantics and compiled views from PR #13:
+## Current Runtime repository-source package
 
 | Role | Current artifact | Status / use |
 |---|---|---|
-| Canonical Runtime semantics | `E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md` | semantic source for current compilation |
-| Canonical compilation contract | `E2E-RUNTIME-CANONICAL-COMPILATION-CONTRACT-v0.1.md` | compilation/trace discipline |
-| Global compiled view | `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md` | current Global installation view |
-| System Development Project view | `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md` | current first-Project view |
-| Installation bundle | `E2E-INSTALLATION-BUNDLE-v0.4.md` | current external-transition bundle |
-| Handoff / Commitment / Promotion | `E2E-HANDOFF-COMMITMENT-PROMOTION-CONTRACT-v0.1.md` | current boundary/control contract |
-| Interaction / Control Return | `E2E-INTERACTION-FRONTIER-COMPILATION-CONTRACT-v0.1.md` | current interaction compiler |
-| Capability / Method / Provider map | `E2E-CAPABILITY-METHOD-PROVIDER-MAP-v0.1.md` | current realization mapping |
-| Chat / Work surface allocation | `E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md` | current surface guidance |
+| Sole Runtime semantic owner | `runtime/route-b/v0.6-chatgpt-runtime/PROFESSIONAL-WORK-BASELINE.md` | Repository-promoted v0.6 source; QOC semantics owned in §3A |
+| Runtime allocation | `runtime/route-b/v0.6-chatgpt-runtime/RUNTIME-TOPOLOGY.md` | Derived allocation; QOC allocation in §2A |
+| Global compiled carrier source | `runtime/route-b/v0.6-chatgpt-runtime/GLOBAL-CUSTOM-INSTRUCTIONS.md` | Exact repository blob `3f7a65c5f3fe667762c252d0f6cdf974f21759bc` |
+| System-Development Project carrier source | `runtime/route-b/v0.6-chatgpt-runtime/SYSTEM-DEVELOPMENT-PROJECT-INSTRUCTIONS.md` | Exact repository blob `3077c0c8504f7bcf95914018dd0bf56daf407b8c` |
+| QOC static source assurance | `../reviews/QUALIFIED-ORCHESTRATION-v0.2-RUNTIME-COMPILATION-SEMANTIC-REGRESSION-v0.1.md` | Static PASS remains bound to accepted semantic head `47cfebea529660671c3a12fe2a20246b33c76c42`; PR #43 promoted its verified status-only descendant |
 
-Method carrier: `../methods/METHOD-REGISTRY-v0.1.md` and referenced packs.
+PR #43 merged the accepted QOC repository-source semantics through status-reconciled head `af752f0c9583b223d84aa40a03b4e8f79bd17bfc` as `main@fa536d914eede2ba005b5a3b1297c22110a7f34f`. PWB §3A and Topology §2A remain byte-identical to the accepted object; Global and Project retain the accepted blobs above.
 
-PR #14 does not replace or recompile these Runtime semantics/payloads. It repairs repository navigation, supersession safety, current-package transition metadata and Promotion/readback assurance.
+Repository source is not installed Runtime state. The exact QOC Global/Project installed identities, session-effective load, activation, behavioral conformance, professional fitness, Performance, outcome and value remain unverified. Historical PR-#37 installed identities are predecessor evidence only; see `../CURRENT.md` for their exact scope.
 
-## Current installation identities
+## Non-normative companions
 
-Global v0.5:
+| Companion | Role / boundary |
+|---|---|
+| `../architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md` | Stable Requirements/Architecture/View/Interaction/Runtime lineage and allocation trace; not a semantic owner |
 
-```text
-LF:       4,991
-CRLF:     4,997
-SHA-256:  865cc07b101a907b42adaa5506537f27db554d9195a70077ae7050d7cf84d72f
-```
+## Superseded current-reliance line
 
-System Development Project v0.4:
+The following artifacts remain historical provenance only. Their top banners control over any internal `current`, `ready`, installation or next-action wording:
 
-```text
-LF:       5,172
-CRLF:     5,181
-SHA-256:  338a01576cfa3e330b0e120dba509ee447f516cd4675a212924efc91388dd69b
-```
+- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.5.md`
+- `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.4.md`
+- `E2E-INSTALLATION-BUNDLE-v0.4.md`
+- `E2E-RUNTIME-CANONICAL-SEMANTIC-SOURCE-v0.1.md`
+- `E2E-RUNTIME-CANONICAL-COMPILATION-CONTRACT-v0.1.md`
+- `E2E-HANDOFF-COMMITMENT-PROMOTION-CONTRACT-v0.1.md`
+- `E2E-INTERACTION-FRONTIER-COMPILATION-CONTRACT-v0.1.md`
+- `E2E-RUNTIME-MIGRATION-MANIFEST-v0.1.md` through `v0.4.md`
+- `E2E-CAPABILITY-METHOD-PROVIDER-MAP-v0.1.md`
+- `E2E-CHAT-WORK-SURFACE-ALLOCATION-v0.1.md`
 
-Do not paraphrase or select an older payload merely because it remains in repository history.
+The three earlier installation bundles v0.1–v0.3 already carry `SUPERSEDED / DO NOT INSTALL` tombstones. Earlier Global/Project experiments, rollback material and `../methods/METHOD-REGISTRY-v0.1.md` remain historical; canonical reusable methods/Skills are selected under `../skills/` and `../skills/REGISTRY.md`.
 
-## Superseded / history — do not install
-
-The following remain for provenance, regression comparison and recovery only unless authoritative `CURRENT.md` explicitly changes their status.
-
-### Earlier solution-forming Global experiments
-
-- `GLOBAL-CI-SOLUTION-FORMATION-CANDIDATE-v0.1.md` — superseded framing; do not install.
-- `GLOBAL-CI-SOLUTION-FORMING-ACTIVATION-CANDIDATE-v0.2.md` — superseded by the E2E Runtime line; do not install.
-
-### Earlier Global E2E compiled views
-
-- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.1.md`
-- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.2.md`
-- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.3.md`
-- `GLOBAL-E2E-RUNTIME-KERNEL-CANDIDATE-v0.4.md`
-
-All are superseded for installation by Global v0.5.
-
-### Earlier System Development Project views
-
-- `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.1.md`
-- `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.2.md`
-- `SYSTEM-WEITERENTWICKLUNG-PROJECT-INSTRUCTIONS-CANDIDATE-v0.3.md`
-
-All are superseded for installation by Project v0.4.
-
-### Earlier installation bundles
-
-- `E2E-INSTALLATION-BUNDLE-v0.1.md` — tombstone / do not install.
-- `E2E-INSTALLATION-BUNDLE-v0.2.md` — tombstone / do not install.
-- `E2E-INSTALLATION-BUNDLE-v0.3.md` — tombstone / do not install.
-
-All are superseded by Bundle v0.4.
-
-### Migration manifests
-
-- `E2E-RUNTIME-MIGRATION-MANIFEST-v0.1.md`
-- `E2E-RUNTIME-MIGRATION-MANIFEST-v0.2.md`
-- `E2E-RUNTIME-MIGRATION-MANIFEST-v0.3.md`
-- `E2E-RUNTIME-MIGRATION-MANIFEST-v0.4.md`
-
-These document migration/compilation history. They do not override authoritative `CURRENT.md` or authorize installation of the versions they mention.
-
-## Rollback material
-
-`rollback/` contains explicit pre-E2E / prior-carrier snapshots. Rollback artifacts are recovery controls, not current target configurations.
-
-## Status and authority rules
+## Authority and transition rules
 
 ```text
 historical artifact ≠ current instruction
 newer-looking file ≠ controlling state
-repository Promotion ≠ external settings installation
-session-effective load ≠ independent persistent UI readback
-compiled view ≠ canonical Runtime semantic authority
+repository source ≠ installed identity
+installed identity ≠ session-effective load or activation
+repository merge ≠ external ChatGPT settings installation
+compiled carrier ≠ sole Runtime semantic owner
+non-normative companion ≠ Requirement, Architecture or Runtime contract
 ```
 
 When in doubt:
 
-1. read authoritative `../CURRENT.md` from `main`;
-2. resolve the current package named there;
-3. confirm any material external transition/readback evidence;
+1. read `../CURRENT.md` from authoritative `main`;
+2. resolve the v0.6 package and companion versions named there;
+3. verify any claim-relevant installed identity, permission, behavior or external effect separately;
 4. use historical files only for provenance, comparison, regression or rollback.
 
-## Promotion-state handoff / current transition
-
-The Promotion-State-Handoff rewrite is persisted and read back across `CURRENT.md`, root `README.md`, this file and the E2E-04 record. The transient PR-level verdict is intentionally not hard-coded in repository navigation; the latest review of the current PR #14 head controls readiness before merge.
-
-```text
-IF read on unmerged PR #14 / its head branch:
-  hygiene realization navigation                CANDIDATE / READBACK PASS
-  PR #14 Promotion verdict                       CHECK LATEST REVIEW OF CURRENT PR HEAD
-  PR #14 repository Promotion                   HUMAN MERGE GATE — only after PASS
-
-IF this exact state is read on main after PR #14 merge:
-  bounded hygiene Promotion                     COMPLETE
-  this realization navigation                   REPOSITORY-PROMOTED
-  persistent external-settings readback         NEXT TRANSITION / NOT YET ESTABLISHED
-  Runtime conformance preflight                 PENDING readback reconciliation as required
-  genuine E2E real-use validation               BLOCKED until preflight
-```
-
-A PR #14 merge would not authorize any external ChatGPT settings mutation and would not establish persistent UI readback, behavioral conformance or outcome effectiveness.
+On this branch/PR, all changes remain Candidate. The next repository transition after final-head assurance is Human Acceptance of that exact head, followed by a separate merge-authorization decision. Neither transition installs or activates ChatGPT UI carriers.
