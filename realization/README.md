@@ -23,6 +23,9 @@ Repository source is not installed Runtime state. The exact QOC Global/Project i
 | Companion | Role / boundary |
 |---|---|
 | `../architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md` | Stable Requirements/Architecture/View/Interaction/Runtime lineage and allocation trace; not a semantic owner |
+| `CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md` | Time-bound product-capability, surface, access, activation and enforcement companion; outside the four Runtime carriers and non-normative |
+
+The Operationalization Map does not establish product availability for every account/surface, installation, Runtime behavior or outcome. `CURRENT.md` selects its current version; material product or system changes trigger claim-relative refresh under the Map's own contract.
 
 ## Superseded current-reliance line
 

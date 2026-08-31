@@ -13,6 +13,8 @@ The controlling system basis is:
 
 The current non-normative cross-level companion is [`architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`](architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md). It relates Requirements v0.3 to the closed architecture’s responsibilities, inherited descriptive Views, interaction semantics, Runtime-source carriers and bounded evidence. It neither changes architecture nor establishes installed or behavioral Runtime state.
 
+The current non-normative ChatGPT-Native Realization companion is [`realization/CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md`](realization/CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md). It maps N01–N40 to documented product capabilities, surfaces, access/activation evidence, Instruction Semantics and hard boundaries at a dated cutoff. It is not a Requirement, Architecture source, Runtime carrier, installed-state record or claim of behavioral reliability, professional fitness, outcome or value.
+
 Human Acceptance and repository Promotion of Requirements v0.3 were separately authorized on 2026-08-28 and are recorded in [`decisions/ADR-0004-requirements-baseline-v0.3.md`](decisions/ADR-0004-requirements-baseline-v0.3.md) and PR #34. [Requirements v0.2](foundation/CONCERNS-AND-REQUIREMENTS-v0.2.md) remains immutable historical Qualified Prior evidence.
 
 Human Acceptance for the repaired Runtime-v0.6 compilation source was granted on 2026-08-28 for semantic source head `7beaf27194de5726ae7b8659fded9d2f11ab280f`. After successful PR #35 merge and authoritative `main` readback, Runtime v0.6 is compiled against Requirements v0.3 at repository-source level. The [compilation and semantic-regression evidence](reviews/RUNTIME-v0.6-REQUIREMENTS-v0.3-COMPILATION-SEMANTIC-REGRESSION-v0.1.md) binds the exact source claim. Repository promotion does not establish installed-carrier identity, installed Skill identity, behavioral Runtime conformance, outcome effectiveness or deployment. The architecture remains closed unless a documented reopening trigger occurs.
@@ -34,6 +36,7 @@ On 2026-08-30 the Human repository owner accepted IC-QOC-v0.1 at exact semantic 
 | `.codex-plugin/plugin.json` | installable skills-only plugin view over the canonical `skills/` directory |
 | `.agents/skills/` | repository-local Codex discovery links to the canonical packages |
 | `realization/runtime/route-b/v0.6-chatgpt-runtime/` | native ChatGPT runtime instruction carriers and topology; not a second skill source |
+| `realization/CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md` | current non-normative product-capability/surface operationalization companion; selected by `CURRENT.md` |
 | `methods/` | historical or supporting method artifacts; active skill methods live with their skill package |
 | `evaluation/` | case cards, real-use evidence, test designs, and results |
 | `reviews/` | bounded source and promotion reviews |

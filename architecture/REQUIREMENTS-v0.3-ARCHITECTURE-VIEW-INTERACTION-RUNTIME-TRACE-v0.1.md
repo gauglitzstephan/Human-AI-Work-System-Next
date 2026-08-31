@@ -43,6 +43,8 @@ This document is a navigation and conformance companion. It is not:
 - a mandatory runtime checklist or visible lifecycle; or
 - evidence that every Requirement must become explicit on every episode.
 
+Downstream ChatGPT product/capability/surface operationalization is recorded in `realization/CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md`. That time-bound non-normative companion is not an Architecture source, Runtime owner, installed-state record or behavioral evidence; product facts and N01–N40 remain there rather than being duplicated into this trace.
+
 A row activates operationally only when its semantic can materially change the current work or claim.
 
 ## 2. Codes

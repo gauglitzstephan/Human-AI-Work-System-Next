@@ -1,3 +1,6 @@
+> **Status override — 2026-08-31: SUPERSEDED FOR CURRENT CHATGPT-NATIVE REALIZATION RELIANCE. Historical design lineage only. Successor: `CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md`.**
+>
+
 # E2E Capability / Method / Provider / Surface Map v0.1
 
 **Status:** CANDIDATE — concrete deployment mapping; no external installation.  
