@@ -1,15 +1,17 @@
 # Qualified Orchestration v0.2 — Carrier Recompilation Semantic Regression v0.1
 
-**Status:** CANDIDATE STATIC SOURCE REGRESSION PASS; repository-source Candidate only; Human Acceptance, merge authorization, merge and authoritative `main` readback remain separate transitions  
+**Status:** PROMOTED STATIC SOURCE REGRESSION PASS at repository-source level after PR #45; this status-only revision is CURRENT on authoritative `main` and CANDIDATE on every branch or PR until separately accepted, merged and authoritatively read back  
 **Date:** 2026-08-31  
 **Implementation object:** final repaired Global and System-Development Project carrier recompilation plus non-normative Deployment & Surface Realization Design v0.1  
-**Candidate branch:** `candidate/qoc-carrier-source-promotion-v0.1`  
+**Accepted source Candidate:** `candidate/qoc-carrier-source-promotion-v0.1@0503fd88d06cf17a46acf1e39ae59d6d50e14799`  
 **Controlling base:** `main@573e9e63ccb2ddaa268745abf1d8dde6fe79bd9a`  
+**Repository Promotion:** Human Acceptance was granted for the exact source Candidate; PR #45 merged it into authoritative `main` as `122cb53cd26d15f1114575351bfe20136e3954d1` with resulting tree `6fb976c66c0861beeea2055f26f7c4e8b01c2ece`; authoritative post-merge content readback verified all seven promoted paths against the accepted Candidate  
+**Status-repair boundary:** this one-path revision changes only stale Candidate and next-transition reporting; carrier identities, regression tables, PASS results and source semantics remain unchanged  
 **Claim boundary:** exact repository-source payloads, source design and static semantic regression only; no installation, session-effective load, activation, behavioral conformance, Professional Fitness, Performance, outcome or value claim
 
 ## 1. Promotion object and protected upstream state
 
-This Candidate promotes a downstream carrier recompilation. It does not change or reopen:
+The accepted Candidate promoted a downstream carrier recompilation through PR #45. It did not change or reopen:
 
 | Protected source | Exact base identity | Disposition |
 |---|---|---|
@@ -31,7 +33,7 @@ The earlier branch `candidate/qoc-carrier-recompilation-v0.1@37a62b12fd0d050c618
 - its Global `0831406de5817cfc7c1ae6b07cca036900fe2f17`, Project `124e0aa785564e1ed271799afb57160446c7199d` and review `909efab8641222cbd6b025885e2c7f5437080fff` implement a different surface-router candidate;
 - it is neither rebased nor cherry-picked into this Promotion Candidate.
 
-This Candidate starts from current `main@573e9e63…`. The predecessor branch remains Working/Candidate lineage only and is superseded for current reliance by the exact identities in §4.
+The accepted Candidate started from controlling base `main@573e9e63…`. The predecessor branch remains Working/Candidate lineage only and is superseded for current reliance by the exact identities in §4.
 
 ## 3. Exact Promotion allowlist
 
@@ -266,9 +268,9 @@ Each relation remains a non-equivalence; none is converted into a universal stag
 
 ## 11. Navigation and promotion semantics
 
-On the Candidate branch, `CURRENT.md`, root `README.md` and `realization/README.md` describe the seven-path object as Candidate and point to the exact assurance/design files. They do not claim Promotion before merge.
+On the accepted source Candidate branch, `CURRENT.md`, root `README.md` and `realization/README.md` described the seven-path object as Candidate and pointed to the exact assurance/design files without claiming Promotion before merge.
 
-After separate Human Acceptance, merge authorization, merge and authoritative `main` readback, those same conditional entries resolve to current repository-source status. Final-head and resulting entry-point blob identities are post-write facts and must not be recursively invented in this document.
+Human Acceptance was granted for exact head `0503fd88d06cf17a46acf1e39ae59d6d50e14799`; PR #45 merged that unchanged head into authoritative `main` as `122cb53cd26d15f1114575351bfe20136e3954d1`, producing the Candidate-identical tree `6fb976c66c0861beeea2055f26f7c4e8b01c2ece`. Authoritative post-merge content readback verified all seven promoted paths byte-for-byte. `CURRENT.md`, root `README.md` and `realization/README.md` resolve coherently to current repository-source status; this record's stale pre-merge status and next-transition wording is the sole subject of the present one-path reconciliation.
 
 Repository Promotion does not authorize or establish:
 
@@ -284,4 +286,4 @@ Repository Promotion does not authorize or establish:
 
 **STATIC SOURCE REGRESSION: PASS for the exact carrier identities in §4 and the seven-path Promotion Candidate based on `main@573e9e63ccb2ddaa268745abf1d8dde6fe79bd9a`.**
 
-The supported next repository transition after branch write/readback and final-head assurance is Human Acceptance of that exact final head. Merge requires a separate authorization. Deployment remains separate again.
+Repository-source Human Acceptance, PR #45 merge and authoritative post-merge content-identity readback are complete. The next possible transition is separately authorized installation/deployment of the exact current-`main` carriers; it has not been performed. Installed Identity, session-effective load, activation, behavioral conformance, professional fitness, Performance, outcome and value remain unverified.
