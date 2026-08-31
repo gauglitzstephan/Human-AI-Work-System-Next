@@ -10,6 +10,7 @@ This file is the current authoritative repository state declaration on `main`. I
 - Architecture state: **CLOSED**, unless a documented reopening trigger occurs.
 - Current non-normative Requirements / Architecture / View / Interaction / Runtime trace: `architecture/REQUIREMENTS-v0.3-ARCHITECTURE-VIEW-INTERACTION-RUNTIME-TRACE-v0.1.md`, Git blob `c07e985f31a18db02f032659a7e4f863551f8aa1`
 - Current non-normative ChatGPT-Native Realization companion: `realization/CHATGPT-NATIVE-OPERATIONALIZATION-MAP-v0.1.md`, Git blob `65a8e7ebf09a7dd57b07c82bd2034035789cbaa4`, SHA-256 `6bdc732a41e8538863e40fde7ce1f097419aee5360319fa4e1588914cfac4c6b`, product-evidence cutoff 2026-08-30
+- Current non-normative deployment/surface design: `realization/DEPLOYMENT-AND-SURFACE-REALIZATION-DESIGN-v0.1.md`
 - Canonical reusable-skill source: `skills/`
 - Runtime instruction carriers and topology: `realization/runtime/route-b/v0.6-chatgpt-runtime/`
 
@@ -62,6 +63,8 @@ PR #38 therefore established the accepted bounded predecessor payload as promote
 
 On 2026-08-30 the Human repository owner accepted IC-QOC-v0.1 on `candidate/qualified-orchestration-contract-v0.2` at exact semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42`. The accepted identities are PWB `58358d8d019926da9ec13c077d68783a2acf750e`, Topology `c8a828b81b7db1a2fd8fd0065a8d7531a1bb51e0`, Global `3f7a65c5f3fe667762c252d0f6cdf974f21759bc`, Project `3077c0c8504f7bcf95914018dd0bf56daf407b8c` and static review `52f86158d20fedc9fc85e92d056a38ad201e6865`. Acceptance was bounded to repository-source semantics and Static Source Regression PASS; it did not itself authorize merge, installation, deployment or Promotion. Separate authorization produced status-reconciled head `af752f0c9583b223d84aa40a03b4e8f79bd17bfc`, and PR #43 merged it into authoritative `main` as `fa536d914eede2ba005b5a3b1297c22110a7f34f`. PWB §3A, Topology §2A and the exact Global/Project payloads remained unchanged. This reporting repair changes only the PWB/Topology status lines and QOC-review lineage/gates, producing PWB `84ff5653daf258bce03fbda11030bd6606cf62a7`, Topology `bb4b759eaaa6c0807d178faec32601bcca1c3887` and review `9149d1e6a18cd71449ec6b949c36f6d202bdefe2`. Installed identity, session-effective load, activation, behavior, professional fitness, Performance, outcome and value remain unverified. Target Architecture v0.2 remains CLOSED.
 
+Authoritative `main` carrying this declaration contains the downstream carrier recompilation only: Global `2ab3fb01b31293eff529d2623cac5869829bf195` (raw SHA-256 `98a17a70adbebb2173d76f18688bb924070adf1227a1f311bd9094f24b87319c`) and Project `4615d61277575fe73fc43d39be7d52d183e5980a` (raw SHA-256 `da0f959fce111a6ce6fb740c289ac558971167ff95135c7ea07036723fc61d18`). The Project begins with the complete Global kernel byte-identically and adds only the protected System-Development overlay. `realization/DEPLOYMENT-AND-SURFACE-REALIZATION-DESIGN-v0.1.md` records the non-normative surface/deployment design; `reviews/QUALIFIED-ORCHESTRATION-v0.2-CARRIER-RECOMPILATION-SEMANTIC-REGRESSION-v0.1.md` binds the exact Static Source PASS. On a branch or PR this statement remains Candidate and does not alter authoritative `main`. The recompilation changes no Requirement, Architecture, PWB/QOC owner, Topology, Skill or plugin package and establishes no installation, session load, activation, behavior, professional fitness, Performance, outcome or value.
+
 The ChatGPT-Native Operationalization Map is a downstream, time-bound product-capability/surface companion to the reconciled Trace. It is not a fifth Runtime carrier, semantic owner, installed-state record or behavioral proof. Its exact N01–N40, Requirements, QOC, PSC and protected-lineage Coverage is static repository evidence only.
 
 Bounded genuine-use and collision-sensitive evidence informed the promotion, including business-opportunity exploration, creative exploration, continuation/authority, narrow state update, a genuine property-decision case and a Project forward review. That evidence supports only the bounded source repair and observed candidate-era behaviors. The later installed-content readbacks establish identity only; neither evidence set establishes generalized cross-domain reliability, deterministic Skill activation, behavioral Runtime conformance, outcome effectiveness or that the wider Human–AI Work System is generally fixed.
@@ -91,11 +94,13 @@ The top-down semantic portfolio and bottom-up technical packaging are reconciled
 - six standalone Personal Skills are the current ChatGPT Skill deployment;
 - `.codex-plugin/plugin.json` at source package version `0.1.3` and `.agents/plugins/marketplace.json` retain an optional bundled distribution route;
 - `skills/DEPLOYMENT-CONTRACT.md` defines controlled source→deployment→readback and runtime-evidence→repair→promotion flows;
-- the PR-#37-promoted Global and Project carriers were separately deployed and identity-read back on 2026-08-28; the later PR-#38 and QOC repository-source identities have no matching installed-carrier readback.
+- the PR-#37-promoted Global and Project carriers were separately deployed and identity-read back on 2026-08-28; the later PR-#38, QOC and current carrier-recompilation repository-source identities have no matching installed-carrier readback.
 
 There is no automatic two-way synchronization. Repository merge does not update installed copies, and runtime evidence cannot silently modify or promote source.
 
 ## Candidate branch disposition
+
+`candidate/qoc-carrier-recompilation-v0.1@37a62b12fd0d050c6180a18420c57816dbbffcef` is a **SUPERSEDED WORKING CANDIDATE** for current reliance. It diverged from current `main` and contains a different surface-router carrier pair and static record. It is not the source of the current carrier-recompilation package and must not be installed, promoted or cherry-picked as that package.
 
 `candidate/qualified-orchestration-contract-v0.2` is a **MERGED HISTORICAL CANDIDATE** after PR #43 merged its status-reconciled head `af752f0c9583b223d84aa40a03b4e8f79bd17bfc` as `fa536d914eede2ba005b5a3b1297c22110a7f34f`. Human Acceptance remains bound to exact semantic Candidate head `47cfebea529660671c3a12fe2a20246b33c76c42` and the accepted blobs recorded above and in `reviews/QUALIFIED-ORCHESTRATION-v0.2-RUNTIME-COMPILATION-SEMANTIC-REGRESSION-v0.1.md`. The branch remains provenance only, not active source authority or an installation/deployment source.
 
@@ -122,7 +127,7 @@ CCR-01 open framing and exploration has an explicit repository realization in `a
 This file is authoritative only when read from `main`. PR #43 is complete at repository-source Promotion/readback level. On any later branch or PR, changes remain Candidate until the exact final head passes claim-matched assurance, receives Human Acceptance and receives a separate merge authorization; authoritative `main` remains controlling until merge and readback. Installation/deployment is always a separate transition.
 
 1. Continue genuine work and record only material findings that could change a repair, reliance or reopen decision.
-2. If reliance on the QOC carrier changes is required, install and read back the exact current-`main` Global and Project identities before making an installed-identity claim; then run only claim-matched behavioral tests.
+2. If reliance on the current repository-source carrier identities is required, install and read back the exact current-`main` Global and Project payloads before making an installed-identity claim; then run only claim-matched behavioral tests.
 3. Use the installed `system-development` V0.2 method in genuine work; execute salience or behavioral tests only where a material reliance claim requires them.
 4. Run F01–F20 plus RC01–RC10 on one exact installed identity only if a stronger exact-runtime conformance claim becomes necessary.
 5. Keep repository source, installation, bounded behavior, generalized conformance, Performance, outcome and value separate. Keep Target Architecture v0.2 closed unless a documented reopen trigger occurs.
