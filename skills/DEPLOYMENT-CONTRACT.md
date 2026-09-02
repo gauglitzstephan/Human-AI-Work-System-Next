@@ -1,75 +1,46 @@
-# Skill Source, Discovery, Deployment, and Learning Contract
+# Skill Source and Deployment Contract
 
-## Purpose
+## Active source
 
-Keep one authoritative skill source while supporting the actual discovery and installation mechanisms of ChatGPT and Codex.
+`main/skills/` is the authoritative repository source only for the active custom portfolio:
 
-## Authoritative source
+- `decision-analysis`
+- `evaluate-work-product`
+- `system-development`
 
-`main/skills/` is the only active source for the six reusable skill packages.
+The demoted packages are historical source under `legacy/archive-2026-09-02/skills/`; they are not active plugin or repository-discovery providers.
 
-The following are views or deployment copies, not independent sources:
+## Discovery and packaging
 
-- `.codex-plugin/plugin.json` packages the same `skills/` directory for plugin installation;
-- `.agents/skills/*` points to the same package directories for repository-local Codex discovery;
-- each standalone Personal Skill is a separately installed deployment copy;
-- an installed ChatGPT or Codex copy is a deployment state that must be compared back with `main`.
+- `.codex-plugin/plugin.json` packages the active `skills/` directory.
+- `.agents/skills/*` contains symbolic links only for the active packages.
+- standalone Personal Skills are separately installed deployment copies.
 
-Do not hand-edit a deployment copy and treat it as accepted source.
+No discovery view or installed copy becomes an independent semantic source. Do not hand-edit a deployment copy and treat it as accepted repository source.
 
-## Top-down flow
-
-```text
-controlling Requirements / architecture
-→ portfolio responsibility and boundary
-→ canonical package under skills/
-→ native discovery, standalone Personal Skill deployment, or plugin packaging
-→ explicit install/update transition
-→ installed-content readback
-→ genuine-use evidence
-→ bounded runtime claim
-```
-
-Repository merge does not update an installed plugin or Personal Skill automatically. Packaging presence does not establish installation, activation, correct execution, or outcome quality.
-
-## Bottom-up learning flow
+## State distinctions
 
 ```text
-genuine work observation or failure
-→ bind the failed/supported claim and runtime environment
-→ localize the lowest responsible mechanism
-→ repair the canonical package or packaging layer only if evidence supports it
-→ validate candidate
-→ promote to main through the authorized repository path
-→ reinstall/update the deployment copy
-→ read back installed content
-→ continue genuine work
+repository source
+≠ plugin package
+≠ installed copy
+≠ activation
+≠ correct method execution
+≠ professionally fit result
+≠ outcome
 ```
 
-This is controlled reconciliation, not automatic two-way synchronization. Runtime evidence may propose a source repair; it cannot silently write back, accept, or promote one.
+A repository merge does not update or uninstall a Personal Skill automatically.
 
-## Discovery contracts
+## Change flow
 
-### Skill selection
+1. establish a demonstrated semantic, discovery, execution or maintenance need;
+2. compare native/specialist ownership, reuse, repair, archive and no-action;
+3. change the canonical package on a dedicated branch;
+4. validate the exact candidate and preserve unaffected semantics;
+5. obtain Human acceptance and separate merge authorization;
+6. merge and read back authoritative repository state;
+7. only with separate authorization, install/update/uninstall the external copy and read it back;
+8. learn from genuine use within the bounded claim.
 
-ChatGPT and Codex discover a Skill primarily from its `name` and `description`. Descriptions therefore front-load the positive trigger and retain only boundaries needed to prevent likely misrouting. Full instructions load only after selection; references load only when the selected Skill requires them.
-
-### Codex repository discovery
-
-Codex discovers repository-scoped Skills under `.agents/skills`. Each entry in this repository is a symbolic link to the corresponding canonical directory under `skills/`; it is not a duplicate package.
-
-### ChatGPT and cross-surface distribution
-
-The six packages may be installed as separate Personal Skills. This is the current ChatGPT deployment route. Each installed package must be read back separately against `main/skills/`.
-
-The repository root also remains a skills-only plugin package through `.codex-plugin/plugin.json`, with `.agents/plugins/marketplace.json` as its repository marketplace carrier. The manifest points directly to `./skills/`. This bundled route is optional rather than required.
-
-For either route, a supported installation surface, explicit install/update action, and installed-content readback remain separate requirements. Standalone deployment trades bundled updates for surface compatibility; it does not change Skill semantics or source authority.
-
-## Version and change rules
-
-- Change a Skill only for a demonstrated semantic, discovery, execution, or maintenance need.
-- Increment plugin version when the installable package materially changes.
-- Keep source promotion, installation, activation, method execution, and outcomes as separate registry states.
-- Preserve unaffected package semantics and evidence.
-- Do not create a new Skill merely because a requirement exists; Native ChatGPT and narrower professional methods remain valid owners.
+Increment plugin version when the installable active package materially changes. Never create a new Skill merely because a requirement or failure exists.

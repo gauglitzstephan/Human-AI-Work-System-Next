@@ -1,7 +1,7 @@
 {
   "name": "human-ai-work-system-next",
-  "version": "0.1.4",
-  "description": "Candidate reusable Human-AI work methods under native-first requalification",
+  "version": "0.2.0",
+  "description": "Three optional professional methods around native ChatGPT",
   "author": {
     "name": "Stephan Gauglitz",
     "url": "https://github.com/gauglitzstephan"
@@ -10,22 +10,19 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Human-AI Work Methods",
-    "shortDescription": "Optional methods around native ChatGPT",
-    "longDescription": "A candidate skills-only portfolio of optional reusable methods around native ChatGPT. The repository is not a global router or complete provider universe. Native ChatGPT and actually available specialist providers remain primary; repo-local methods are used only when they add task-specific value. Current rebaseline dispositions are documented in skills/REGISTRY.md.",
+    "shortDescription": "Decision, evaluation, and system methods",
+    "longDescription": "Three optional reusable methods around native ChatGPT: bounded decision analysis, intended-use work-product evaluation, and scoped Human-AI system development. This plugin is not a runtime, router, lifecycle, or complete provider universe.",
     "developerName": "Stephan Gauglitz",
     "category": "Productivity",
     "defaultPrompt": [
       "Analyze this bounded material decision when a reusable decision method adds value.",
-      "Evaluate whether this work product is fit for its intended recipient and use.",
-      "Recover and diagnose this Human-AI work system when system-development work is actually required."
+      "Evaluate whether this exact work product is fit for its intended recipient and use.",
+      "Recover or diagnose this Human-AI work system when system-development work is actually required."
     ],
     "capabilities": [
-      "Optional exploration method reference",
-      "Optional work-formation method reference",
-      "Optional cross-domain evidence method reference",
       "Analyze bounded material decisions",
       "Evaluate existing work products",
-      "Recover and improve Human-AI work systems during rebaseline"
+      "Recover and improve Human-AI work systems"
     ]
   }
 }

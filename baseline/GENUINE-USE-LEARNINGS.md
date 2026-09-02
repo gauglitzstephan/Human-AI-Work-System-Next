@@ -1,0 +1,20 @@
+# Genuine-Use Learnings
+
+**Status:** CANDIDATE compact evidence index. These are bounded observations and inferences, not universal performance claims.
+
+| Evidence | Supported learning | Current implication | Claim limit / source |
+|---|---|---|---|
+| Repository Runtime and installed CI diverged | Repository promotion does not establish effective product state | Recover repository, installed configuration and session-effective state separately | `legacy/archive-2026-09-02/rebaseline/CURRENT-STATE-RECOVERY-2026-09-02.md` |
+| Provider reasoning narrowed to the six repo-local Skills | A local registry can suppress better installed professional providers | Treat repo Skills as optional providers, never the provider universe | `legacy/archive-2026-09-02/rebaseline/REBASELINE-ASSESSMENT-2026-09-02.md`; `CURRENT.md` at rebuild base |
+| Chat-visible capability was used to infer Work availability | Visibility on one surface does not establish account-wide installation or access | Check actual relevant surface/product state; preserve native handoff | `legacy/archive-2026-09-02/rebaseline/CHAT-WORK-COOPERATION-2026-09-02.md` |
+| Sika application production did not recover accessible prior Sika, writing, visual and CV-learning basis | Substantial existing-artifact work needs relevant recovery before production | Recover and requalify prior basis; do not ask the Human to reconstruct AI-accessible state | `legacy/archive-2026-09-02/rebaseline/DURABLE-LEARNINGS-SEPARATION-2026-09-02.md`; base `CURRENT.md` |
+| CV repair reused weak historical layout/craft patterns | Prior existence and prior use do not establish current quality | Requalify legacy for recipient/use and known failure modes | base `CURRENT.md` and rebaseline records |
+| Technical generation/rendering/self-review passed while recipient/craft defects remained | Assurance is valid only for failures it can detect | Use application/editorial/design-capable evaluation for send-readiness claims | `legacy/archive-2026-09-02/evaluation/e2e-real-use/E2E-03-2026-08-26-EWP-TRANSNETBW-v0.1.md`; rebaseline records |
+| NYBA output improved after qualified recovery | Recovery/requalification can materially improve a bounded work result | Preserve the invariant, not a universal recovery ritual | `legacy/archive-2026-09-02/rebaseline/ACTIVATION-COVERAGE-CHECK-2026-09-02.md`; base `CURRENT.md` |
+| NYBA still exposed Chat-only production limits when Work/Skills were materially better | A useful provider/surface must influence execution, not merely be noticed | Use native handoff when another surface materially improves production | base `CURRENT.md`; `legacy/archive-2026-09-02/rebaseline/CHAT-WORK-COOPERATION-2026-09-02.md` |
+| Explicit handoff language was removed and previously observed Work-handoff behavior disappeared | Handoff semantics may matter, but causality is not established | Preserve the current native-handoff invariant; do not build a surface router | base `CURRENT.md`; `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-02.md` |
+| Repeated system/meta-work displaced application and other user outcomes | A coherent support process can still harm the parent outcome | Do the requested work once material prerequisites are sufficient; system learning stays exceptional | `legacy/archive-2026-09-02/rebaseline/DURABLE-LEARNINGS-SEPARATION-2026-09-02.md`; base `CURRENT.md` |
+
+Additional retained historical evidence shows the same bounded disciplines: reachable evidence slice is not the whole system; evaluator evidence-slice absence is not object absence; repository navigation can remain stale after promotion; a Global-CI wording family can fail behaviorally despite exact installation; and successful technical/behavioral tests must remain version- and claim-scoped.
+
+Historical records remain available under `legacy/archive-2026-09-02/evaluation/`, `legacy/archive-2026-09-02/reviews/` and `legacy/archive-2026-09-02/evidence/`. Do not aggregate heterogeneous episodes into a universal score.
