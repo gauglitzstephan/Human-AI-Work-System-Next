@@ -62,6 +62,15 @@ All ten requested lessons are individually retained in `baseline/GENUINE-USE-LEA
 
 ## Regression verdict
 
-`PASS` for static preservation of the defined active-basis claim, contingent on final branch-tree readback confirming the path map, unchanged CI blob, exact archive tree reuse and active-package discovery set.
+`PASS` for static preservation of the defined active-basis claim on the rebuild branch after readback of candidate tree `74787836d24de3e5c2be8e1f7a4e347c2e375c67`:
+
+- all nine archived root trees match their original tree SHAs;
+- all five archived rebaseline files match their original blob SHAs;
+- all three archived Skill packages match their original tree SHAs;
+- the intended Global CI remains blob `d125036600c0265e6849554b2e28b9b0ff4b708e` with a 4,991-character payload;
+- all newly written active sources match their locally reviewed Git blob identities;
+- the active source tree has only nine root entries, three Skill packages and three repository discovery links;
+- active Markdown navigation has no unresolved local links;
+- active Skill references resolve and the narrowed plugin manifest parses as JSON.
 
 This PASS does not establish merge, external installation, behavioral conformance, professional output quality or system value.

@@ -45,6 +45,7 @@ The complete source-tree disposition and preservation proof are in:
 - [`inventory/FILE-DISPOSITION.csv`](inventory/FILE-DISPOSITION.csv)
 - [`inventory/PRESERVATION-COVERAGE.md`](inventory/PRESERVATION-COVERAGE.md)
 - [`inventory/CLEANUP-PLAN.md`](inventory/CLEANUP-PLAN.md)
+- [`inventory/PROMOTION-RECOMMENDATION.md`](inventory/PROMOTION-RECOMMENDATION.md)
 
 ## Candidate and promotion boundary
 
