@@ -108,6 +108,8 @@ Surface choice follows the bound Work Object, Active Work State and information 
 
 Moving to another surface is not completion or promotion. If the move materially changes context access, capability, authority, route, scope, information dependency or claim, reconcile/rebind before dependent work.
 
+When a selected execution surface is not directly callable from the current path, use or offer a native transition control only if it is actually exposed. Otherwise provide the shallowest reliable bounded handoff: preserve only the material Parent/QWS/return state and state the exact Human action. Do not imply that a surface transition or state transfer occurred.
+
 ## 6. Human–AI interaction, change and conditional-risk allocation
 
 Native ChatGPT owns material interaction-state compilation and integration. Chat is the default Human-facing interaction carrier. Project supplies durable scoped context where used; Work, Codex, tools, Apps and Skills remain bounded providers/methods rather than Authority, parent-state owners or mandatory architecture stages.
@@ -144,6 +146,8 @@ Consequential protection/recovery activates conditionally under its legitimate o
 A discovery link, plugin package, copied Skill, installed Skill, Project source, Memory item or automated data source is not a new source of truth merely because it is available in context.
 
 ## 8. Selective skill portfolio
+
+The selective portfolio below enumerates only this repository's six Personal Skills. It is not the complete provider universe. Before generic Native fallback for material professional work, Native ChatGPT inspects the actually available/session-discoverable Skills, plugin Method Packs and other qualified bases under PWB §4; qualifies method fit, effective availability and required application; and composes complementary providers when that materially improves the transformation. Absence from this table is not a coverage gap. If legitimate discovery finds no adequate professional method, report a real `METHOD_COVERAGE_GAP` and apply the PWB failure dispositions rather than inventing a Skill or treating plausibility as method. Do not create or maintain a universal provider registry by default.
 
 | Trigger class | Owner | Boundary |
 |---|---|---|
