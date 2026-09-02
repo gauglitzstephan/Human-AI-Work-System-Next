@@ -1,41 +1,55 @@
-# Reusable Skill Portfolio Registry
+# Reusable Skill Portfolio Registry — Rebaseline Candidate
+
+**Status:** Candidate portfolio disposition for `rebaseline/native-delta-2026-09-02`.
 
 ## Purpose
 
-`skills/` is the single active repository source for reusable skill packages. This registry reports lifecycle evidence without duplicating each skill's invocation contract or method.
+`skills/` contains **repo-local reusable method packages**. It is not the complete provider universe available to ChatGPT and must not be used as a global routing registry.
 
-Discovery and deployment mechanics are defined in `skills/DEPLOYMENT-CONTRACT.md`. Personal Skill deployments, `.agents/skills/*`, and the optional plugin package expose the canonical packages without becoming independent sources.
+Native ChatGPT, installed plugins/Skills, connected capabilities, authoritative professional references and domain-specific providers may all be better providers for a task.
 
-Repository promotion, installed-content identity, runtime activation, runtime fitness, and outcome quality are separate states.
+Historical repository promotion and installed-content readback remain evidence of what existed; they do not establish current necessity, activation, fitness or outcome quality.
 
-## Portfolio
+## Rebaseline portfolio
 
-| Skill | Canonical package | Repository source | Installed-content readback | Runtime evidence |
-|---|---|---|---|---|
-| `adaptive-exploration` | `skills/adaptive-exploration/` | Requirements-v0.3 pointer promoted through PR #35 after merge/readback | all canonical package files matched promoted source at 2026-08-28 readback | bounded genuine-use behavior observed; generalized discoverability and fitness unverified |
-| `work-formation` | `skills/work-formation/` | activation/discovery repair promoted through PR #37 | all canonical candidate package files matched at 2026-08-28 readback; preserved blob identity ties the installed package to promoted source | F20 targeted activation PASS on Non-Project Work; generalized fitness unverified |
-| `research-evidence` | `skills/research-evidence/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | not established by identity alone |
-| `system-development` | `skills/system-development/` | semantic-regression method v0.2 promoted on authoritative `main` through PR #39; source commit `bc56545a2b3730a2b1c89e4d281d875349ad7a52` | 2026-08-29 readback matched all seven canonical package files against that source; method blob `f2b911486603afd14a54a3e51afcd06491ed752d` | installed identity only; activation, behavioral conformance and generalized fitness unverified |
-| `evaluate-work-product` | `skills/evaluate-work-product/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | one bounded predecessor-use PASS; repaired implicit discovery and general fitness remain unverified |
-| `decision-analysis` | `skills/decision-analysis/` | promoted repaired source | personal Skill matched promoted package at 2026-08-27 readback | forward runtime validation not started |
+| Skill | Current candidate disposition | Why |
+|---|---|---|
+| `adaptive-exploration` | **NATIVE BY DEFAULT** | Its durable principles—avoid premature convergence, explore mechanism-distinct alternatives/counterframes and use bounded Human calibration—are now expected from native interaction/CI. Retain package as optional/historical reference pending later deletion decision. |
+| `work-formation` | **NATIVE BY DEFAULT** | The durable need is to form only material missing basis before dependent work. The current CI now includes recovery/requalification before substantial work. Separate Skill activation is no longer assumed necessary. Retain method reference pending later deletion decision. |
+| `research-evidence` | **NATIVE / SPECIALIST PROVIDER FIRST** | Cross-domain evidence discipline remains useful, but Deep Research and domain-specific research providers/methods should own work when they fit. Generic package is not the default research owner. |
+| `decision-analysis` | **KEEP — CANDIDATE REUSABLE METHOD** | Bounded material choices may benefit from a reusable method covering viable alternatives, no-action/delay/staging, reversibility, downside, uncertainty, information value, strongest rival and switching conditions. Incremental value remains to be demonstrated in ordinary use. |
+| `evaluate-work-product` | **KEEP — CANDIDATE REUSABLE METHOD** | Genuine-use failures support a need for recipient/use/failure-mode-capable evaluation. Prefer narrower professional/domain evaluators when available. |
+| `system-development` | **KEEP TEMPORARILY** | Useful during this rebaseline for exact-system recovery, RCA, repository/installed-state reconciliation and genuine-use validation. Reassess after cleanup; not a general Runtime controller. |
 
-## Portfolio boundaries
+## Provider boundary
 
-Use the descriptions in the canonical `SKILL.md` files for activation. At portfolio level:
+For substantive professional work:
 
-- explore a materially open frame, opportunity, route, concept, or direction with `adaptive-exploration`;
-- form a blocking missing basis with `work-formation`;
-- acquire or qualify material evidence with `research-evidence`;
-- analyze a bounded material choice with `decision-analysis`;
-- evaluate an identifiable existing product with `evaluate-work-product`;
-- recover, repair, compile, promote, or validate this system with `system-development`.
+1. recover/requalify relevant accessible context, prior work, methods, references and capabilities when they could materially affect the result;
+2. use the provider/method that is actually qualified for the task;
+3. do not privilege this registry merely because it is local;
+4. combine providers only when the combination materially improves the result;
+5. if no adequate professional basis exists, keep the claim weaker rather than substituting model plausibility.
 
-Native ChatGPT retains ordinary planning, production, tool use, integration, and execution. Skills are not mandatory stages. `adaptive-exploration` is not a required predecessor to `work-formation`.
+This is not a routing lifecycle. Native ChatGPT owns integration and ordinary work.
 
-## Evidence interpretation
+## Historical installation evidence
 
-Installation readback establishes only retrieved content equivalence at the recorded inspection. It does not independently establish raw UI-byte identity, automatic invocation, correct execution in every context, or valuable outcomes.
+Historical readbacks remain valid only for their bounded identity claims:
 
-Runtime and outcome claims must point to bounded evidence under `evaluation/`. A future replacement or material update enters as a candidate and is promoted separately.
+- `adaptive-exploration`: package readback 2026-08-28;
+- `work-formation`: package readback 2026-08-28 and bounded F20 activation evidence;
+- `research-evidence`: package readback 2026-08-27;
+- `system-development`: seven-file readback 2026-08-29 against the then-promoted source;
+- `evaluate-work-product`: package readback 2026-08-27 and bounded predecessor-use evidence;
+- `decision-analysis`: package readback 2026-08-27.
 
-The bounded PR #37 repair evidence is recorded in `evaluation/e2e-real-use/E2E-04-2026-08-28-RUNTIME-v0.6-BEHAVIORAL-REPAIR-v0.1.md`. It establishes the five targeted cases only; it does not claim a fresh exact-candidate 30/30 run or generalized Runtime fitness.
+These facts do not mean the Skills should still be automatically activated or remain installed indefinitely.
+
+## Source and deployment
+
+The canonical package files remain under `skills/` during rebaseline so history and method content are not destroyed before the final uninstall/delete decision.
+
+`.codex-plugin` and `.agents/skills` are discovery/deployment views over these packages, not evidence that all six should remain active.
+
+Any later removal from installed Personal Skills, plugin exposure or repository source is a separate cleanup action after this candidate disposition is accepted.
