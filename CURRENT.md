@@ -1,8 +1,8 @@
-# CURRENT — Rebaseline Candidate
+# CURRENT
 
-**Status:** REBASELINE CANDIDATE on `rebaseline/native-delta-2026-09-02`  
+**Status:** PROMOTED CURRENT on `main`  
 **Date:** 2026-09-02  
-**Authority boundary:** This branch records the proposed current state after rebaseline. It does not change `main`, installed ChatGPT settings, installed Skills, or external product state until separately applied/promoted.
+**Authority boundary:** This file is the current repository-state declaration on `main`. It records the promoted rebaseline. It does not by itself change installed ChatGPT settings, installed Personal Skills, Project instructions or other external product state.
 
 ## 1. Purpose
 
@@ -92,6 +92,8 @@ The six repo-local Skills are no longer treated as a complete or privileged prov
 | `evaluate-work-product` | KEEP AS CANDIDATE reusable method; prefer narrower domain evaluator where available |
 | `system-development` | KEEP TEMPORARILY for this rebaseline/system recovery; reassess after cleanup |
 
+The six corresponding Personal Skills are known to be installed and available on the **Work** surface; their absence from ordinary Chat does not establish non-installation or non-availability in Work. This chat is outside the System-Development Project, so that Project's instructions do not apply here.
+
 Installed Skills/plugins/providers outside this repository must be considered according to actual availability and task fit. Repository-local discovery does not define the full provider space.
 
 ## 8. Authority and persistence
@@ -134,22 +136,24 @@ These failures support the reduction away from custom orchestration and strength
 - `rebaseline/REBASELINE-ASSESSMENT-2026-09-02.md`
 - `rebaseline/CURRENT-STATE-RECOVERY-2026-09-02.md`
 - `rebaseline/DURABLE-LEARNINGS-SEPARATION-2026-09-02.md`
+- `rebaseline/ACTIVATION-COVERAGE-CHECK-2026-09-02.md`
 
 Earlier repository material remains historical evidence unless specifically requalified.
 
-## 12. What is not authorized yet
+## 12. External product-state boundary
 
-This candidate does not by itself:
+Repository promotion does not by itself:
 
-- merge to `main`;
-- delete historical files;
-- uninstall or modify Personal Skills;
+- uninstall, reinstall or modify Personal Skills in Work;
 - change Project instructions;
 - change the installed Global CI;
+- establish Skill activation in a particular Work run;
 - assert generalized runtime reliability or professional output quality.
 
-## 13. Next cleanup boundary
+Those claims require evidence from the relevant ChatGPT surface rather than inference from repository state.
 
-Before promotion, reconcile only the repository surfaces that still falsely advertise the old runtime as current (README, Skill registry/deployment metadata, plugin/discovery metadata where necessary). Do not rewrite historical evidence merely to make it look current.
+## 13. Current operating boundary
 
-After repository authority is coherent, separately decide whether obsolete installed Skills/Project instructions should be disabled, removed or retained as optional methods.
+Repository authority is now coherent with the native-first rebaseline. Historical runtime files remain available as qualified legacy/reference evidence.
+
+Further changes should be driven by ordinary genuine-use evidence. Do not add new runtime semantics merely because an execution fails; first distinguish missing invariant, inaccessible context/capability, activation failure, inadequate provider/method or failed evaluation.
