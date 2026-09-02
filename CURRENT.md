@@ -23,13 +23,13 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, context/tool/pro
 The exact intended Global CI source is:
 
 - `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-02.md`
-- exact instruction length: **4,995 characters**
+- exact instruction length: **4,991 characters**
 
 Its final paragraph is:
 
-> Before substantial work or asking the Human for context/workarounds, recover and requalify relevant context and prior work. Use materially better available methods, tools, skills, surfaces or providers; otherwise infer reversibly and continue.
+> Before substantial work or asking for context/workarounds, recover and requalify relevant prior context/work. Use materially better methods, tools, skills, surfaces or providers; hand off natively when useful. Otherwise infer and continue.
 
-This replaces only the final paragraph of the previously saved 4,996-character CI. The change closes the observed capability-use gap: materially better available execution capabilities must be used, not merely noticed/requalified.
+This changes only the final paragraph of the previously saved 4,995-character CI. It preserves actual capability use and restores explicit native-handoff semantics without recreating a custom surface router or mandatory Work transition.
 
 The CI intentionally does **not** contain explicit repo-local Skill routing, QWS/runtime orchestration, lifecycle/closure control, provider registry, surface router or `else native` dispatch logic.
 
@@ -109,9 +109,9 @@ The current product-role evidence is recorded in:
 
 Chat, Work, Projects, Skills, plugins/apps/connectors, research capabilities, file/artifact capabilities and external systems are parts of the available execution space, not isolated architectures to be independently simulated.
 
-Native ChatGPT owns ordinary selection/integration. The custom invariant is narrower: do not substitute generic model output or the currently visible surface when a materially better available method, tool, Skill, surface or provider would improve the work.
+Native ChatGPT owns ordinary selection/integration. The custom invariant is narrower: use a materially better available capability when it improves the work, and use native handoff behavior when the useful capability resides on another surface. Do not substitute generic model output or continued work on the current surface merely because it is possible.
 
-Do not turn this into a fixed routing lifecycle.
+Do not turn this into a fixed routing lifecycle or mandatory Work transition.
 
 ## 9. Authority and persistence
 
@@ -145,9 +145,10 @@ The rebaseline is informed by genuine failures, not only conceptual review:
 - subsequent CV repair reproduced weak historical layout/craft patterns;
 - technical render/review was incorrectly treated as evidence of professional fitness;
 - NYBA production improved after qualified recovery but still demonstrated the limits of Chat-only production when materially better Work/Skill capabilities were available;
+- removal of explicit handoff/surface-transition semantics correlated with loss of previously observed Work-handoff behavior; causality is not yet established;
 - repeated meta-work displaced the intended user outcome.
 
-These failures support the reduction away from custom orchestration while strengthening recovery/requalification, actual capability use and claim-matched assurance.
+These failures support the reduction away from custom orchestration while strengthening recovery/requalification, actual capability use, native handoff and claim-matched assurance.
 
 ## 12. Rebaseline records
 
@@ -168,12 +169,13 @@ Repository promotion does not by itself:
 - change Project instructions;
 - install/change the Global CI in ChatGPT;
 - establish Skill activation in a particular Work run;
+- guarantee that ChatGPT will surface a particular Work-handoff UI affordance;
 - assert generalized runtime reliability or professional output quality.
 
 Those claims require evidence from the relevant ChatGPT surface rather than inference from repository state.
 
 ## 14. Current operating boundary
 
-Repository authority now records the capability-aware native-first rebaseline and the exact intended CI source.
+Repository authority now records the capability-aware native-first rebaseline, native-handoff expectation and exact intended CI source.
 
-Further changes should be driven by ordinary genuine-use evidence. Do not add new runtime semantics merely because an execution fails; first distinguish missing invariant, inaccessible context/capability, activation failure, inadequate provider/method or failed evaluation.
+Further changes should be driven by ordinary genuine-use evidence. Do not add new runtime semantics merely because an execution fails; first distinguish missing invariant, inaccessible context/capability, activation/handoff failure, inadequate provider/method or failed evaluation.
