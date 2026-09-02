@@ -62,15 +62,18 @@ All ten requested lessons are individually retained in `baseline/GENUINE-USE-LEA
 
 ## Regression verdict
 
-`PASS` for static preservation of the defined active-basis claim on the rebuild branch after readback of candidate tree `74787836d24de3e5c2be8e1f7a4e347c2e375c67`:
+`PASS` for static preservation of the defined active-basis claim on authoritative `main@08346e4222e59074a5ca702acb214293885554cf` (tree `25b967a82caf37f9d1446bd21b621213b570fd34`):
 
-- all nine archived root trees match their original tree SHAs;
-- all five archived rebaseline files match their original blob SHAs;
-- all three archived Skill packages match their original tree SHAs;
-- the intended Global CI remains blob `d125036600c0265e6849554b2e28b9b0ff4b708e` with a 4,991-character payload;
-- all newly written active sources match their locally reviewed Git blob identities;
-- the active source tree has only nine root entries, three Skill packages and three repository discovery links;
-- active Markdown navigation has no unresolved local links;
-- active Skill references resolve and the narrowed plugin manifest parses as JSON.
+- `main` has the exact accepted PR-head tree; comparison against `e21afd7f534063490d099f78217ec4c86508e177` has no file differences;
+- the exact CI source blob is unchanged and its instruction payload is 4,991 characters;
+- all nine archived historical root tree identities match the bound source;
+- former active root trees are absent;
+- the active Skill and `.agents/skills` discovery sets contain only `decision-analysis`, `evaluate-work-product` and `system-development`;
+- `rebaseline/` contains only the exact intended CI source;
+- the active top-level basis is `.agents`, `.codex-plugin`, `CURRENT.md`, `README.md`, `baseline`, `inventory`, `legacy`, `rebaseline`, `skills`;
 
-This PASS does not establish merge, external installation, behavioral conformance, professional output quality or system value.
+The earlier branch-level preservation pass was performed on intermediate candidate tree `74787836d24de3e5c2be8e1f7a4e347c2e375c67`; the authoritative structural promotion claim is the final PR #48 `main` tree above.
+
+Status-only reconciliation follows the same location-sensitive authority rule: CANDIDATE off `main`; authoritative only when present on `main` after readback. It changes no operating semantics, CI source, active Skill set, archive content or external product state, and this record does not predict its own future merge commit.
+
+This PASS does not establish external installation, behavioral conformance, professional output quality or system value.

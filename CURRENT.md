@@ -1,8 +1,9 @@
 # CURRENT
 
-**Candidate baseline:** clean rebuild from `main@c4a517b3682c95ceb356421c6cb8c5e2bdfab4c2`  
-**Status rule:** CANDIDATE off `main`; PROMOTED CURRENT only if this exact tree is explicitly accepted, separately authorized for merge, merged and read back from authoritative `main`  
-**External product state:** unchanged by this repository candidate
+**Repository state:** PROMOTED CURRENT when read from authoritative `main`; CANDIDATE on any branch or PR  
+**Initial promotion readback:** `main@08346e4222e59074a5ca702acb214293885554cf`; tree `25b967a82caf37f9d1446bd21b621213b570fd34`; PR #48 merged 2026-09-02  
+**Rebuild source:** `main@c4a517b3682c95ceb356421c6cb8c5e2bdfab4c2`  
+**External product state:** unchanged by this repository promotion
 
 ## Purpose
 
@@ -36,7 +37,7 @@ The intended source remains exactly:
 
 `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-02.md`
 
-The instruction payload remains **4,991 characters**. This rebuild does not edit, recompile, install or claim readback of that payload.
+The instruction payload remains **4,991 characters**. Promotion readback confirmed the exact repository source blob `d125036600c0265e6849554b2e28b9b0ff4b708e` and payload length. The rebuild did not edit, recompile or install the payload; installed product state remains a separate claim.
 
 Its final invariant remains:
 
@@ -52,7 +53,7 @@ Three repo-local Skills remain active because their transformations are sufficie
 | `evaluate-work-product` | bounded recipient/use/failure-mode-capable fitness judgment | prefer narrower domain evaluator; not creation, repair or approval |
 | `system-development` | exact recovery, failure localization, semantic-regression control, promotion/readback and genuine-use evaluation for this system | not a general runtime controller or universal engineering method |
 
-`adaptive-exploration`, `work-formation` and generic `research-evidence` are archived as reusable history. Their durable semantics are already owned by current CI/native behavior or better specialist providers. Their installed Personal Skill copies, if any, are not changed by this repository candidate.
+`adaptive-exploration`, `work-formation` and generic `research-evidence` are archived as reusable history. Their durable semantics are already owned by current CI/native behavior or better specialist providers. Their installed Personal Skill copies, if any, are not changed by this repository promotion.
 
 ## Legacy boundary
 
@@ -85,8 +86,8 @@ Repository promotion does not by itself:
 
 Durable authority remains with the legitimate domain owner. Conversation, memory, retrieval and stored copies do not become authoritative merely because they are accessible.
 
-## Candidate delta and next legitimate transition
+## Promoted delta and next legitimate transition
 
-This candidate reduces the active source tree, archives the historical system without changing its blobs, narrows the active Skill portfolio from six to three and adds compact learning/preservation records. It does not merge itself.
+The promoted rebuild reduces the active source tree, archives the historical system without changing its blobs, narrows the active Skill portfolio from six to three and adds compact learning/preservation records.
 
-The next legitimate transition is Human review of the PR as a mature promotion object: baseline, diff, preservation evidence, risks, unresolved external product-state actions and recommended merge decision.
+The repository transition is complete. Continue with genuine work and use bounded System Learning only when material evidence warrants it. Any Global CI, Project Instruction, plugin or Personal Skill change remains a separate Human-authorized product-state transition.

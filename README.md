@@ -47,8 +47,8 @@ The complete source-tree disposition and preservation proof are in:
 - [`inventory/CLEANUP-PLAN.md`](inventory/CLEANUP-PLAN.md)
 - [`inventory/PROMOTION-RECOMMENDATION.md`](inventory/PROMOTION-RECOMMENDATION.md)
 
-## Candidate and promotion boundary
+## Current and promotion boundary
 
-This rebuild is Candidate on every branch or PR. It becomes current only after explicit Human acceptance, separate merge authorization, merge to `main` and authoritative `main` readback.
+When read from authoritative `main`, the clean rebuild is current after PR #48 and readback of `main@08346e4222e59074a5ca702acb214293885554cf` (tree `25b967a82caf37f9d1446bd21b621213b570fd34`). Any branch or PR version is Candidate until separately accepted, authorized, merged and read back.
 
 Repository changes do not install or modify Global Custom Instructions, Project Instructions, plugins or Personal Skills. Those are separate product-state transitions.

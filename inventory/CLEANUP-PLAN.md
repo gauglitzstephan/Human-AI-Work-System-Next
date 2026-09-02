@@ -1,6 +1,6 @@
 # Legacy, Archive and Delete Plan
 
-## Executed in this candidate
+## Executed in the promoted rebuild
 
 - Reversibly archive nine historical root trees under `legacy/archive-2026-09-02/` using their existing Git tree identities.
 - Archive five rebaseline evidence files after semantic extraction; keep the exact intended Global CI at its original current path.
@@ -10,9 +10,8 @@
 
 No historical content blob is deleted. All moves remain recoverable through both the Legacy archive and Git history.
 
-## Not executed
+## Not executed by the repository rebuild
 
-- no merge to `main`;
 - no branch deletion;
 - no Global CI or Project Instructions edit/install;
 - no plugin install/update;
@@ -33,9 +32,9 @@ A later deletion proposal must identify exact paths and show:
 
 Absent that showing, keep the archive.
 
-## Personal Skill treatment after acceptance
+## Personal Skill treatment after repository promotion
 
-If the repository rebuild is accepted, separately review installed Personal Skills:
+After repository promotion, separately review installed Personal Skills:
 
 - keep/update `decision-analysis`, `evaluate-work-product` and `system-development` only if their installed identities and continued use are desired;
 - consider uninstalling `adaptive-exploration`, `work-formation` and `research-evidence` because their active repository ownership has been removed;
