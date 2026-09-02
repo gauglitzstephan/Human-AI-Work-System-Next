@@ -20,15 +20,20 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, context/tool/pro
 
 ## 3. Current Global Custom Instructions
 
-The effective Global CI is the Human-saved 2026-09-02 conversation/work-quality CI, not the legacy compiled carrier under `realization/runtime/route-b/v0.6-chatgpt-runtime/`.
+The exact intended Global CI source is:
 
-Its latest final paragraph is:
+- `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-02.md`
+- exact instruction length: **4,995 characters**
 
-> Before substantial work or asking the Human for context/workarounds, recover and requalify accessible context, prior work, methods, references and capabilities if they could materially affect the result. Otherwise infer reversibly and continue.
+Its final paragraph is:
+
+> Before substantial work or asking the Human for context/workarounds, recover and requalify relevant context and prior work. Use materially better available methods, tools, skills, surfaces or providers; otherwise infer reversibly and continue.
+
+This replaces only the final paragraph of the previously saved 4,996-character CI. The change closes the observed capability-use gap: materially better available execution capabilities must be used, not merely noticed/requalified.
 
 The CI intentionally does **not** contain explicit repo-local Skill routing, QWS/runtime orchestration, lifecycle/closure control, provider registry, surface router or `else native` dispatch logic.
 
-Until an exact full installed-CI readback is persisted, the ChatGPT product setting remains the effective source for its exact full text.
+Repository persistence establishes the intended source text; actual installation/effective load remains a separate ChatGPT product-state claim.
 
 ## 4. Durable semantic basis
 
@@ -96,7 +101,19 @@ The six corresponding Personal Skills are known to be installed and available on
 
 Installed Skills/plugins/providers outside this repository must be considered according to actual availability and task fit. Repository-local discovery does not define the full provider space.
 
-## 8. Authority and persistence
+## 8. Capability and surface cooperation
+
+The current product-role evidence is recorded in:
+
+- `rebaseline/CHAT-WORK-COOPERATION-2026-09-02.md`
+
+Chat, Work, Projects, Skills, plugins/apps/connectors, research capabilities, file/artifact capabilities and external systems are parts of the available execution space, not isolated architectures to be independently simulated.
+
+Native ChatGPT owns ordinary selection/integration. The custom invariant is narrower: do not substitute generic model output or the currently visible surface when a materially better available method, tool, Skill, surface or provider would improve the work.
+
+Do not turn this into a fixed routing lifecycle.
+
+## 9. Authority and persistence
 
 No universal state store is required.
 
@@ -106,7 +123,7 @@ Conversation, Memory, retrieval and stored copies do not become authoritative me
 
 Persist additional working state only when continuity/divergence/recovery risk justifies it.
 
-## 9. Assurance
+## 10. Assurance
 
 Assurance is proportional to the claim, stakes, recipient/use and failure modes.
 
@@ -116,7 +133,7 @@ Use narrower professional/domain evaluation methods when available. `evaluate-wo
 
 The Human is not the default QA mechanism for AI-resolvable defects.
 
-## 10. Evidence from the 2026-09-02 rebaseline
+## 11. Evidence from the 2026-09-02 rebaseline
 
 The rebaseline is informed by genuine failures, not only conceptual review:
 
@@ -127,33 +144,36 @@ The rebaseline is informed by genuine failures, not only conceptual review:
 - Sika application production ignored accessible prior Sika work, current writing/visual references and known CV failure lessons;
 - subsequent CV repair reproduced weak historical layout/craft patterns;
 - technical render/review was incorrectly treated as evidence of professional fitness;
+- NYBA production improved after qualified recovery but still demonstrated the limits of Chat-only production when materially better Work/Skill capabilities were available;
 - repeated meta-work displaced the intended user outcome.
 
-These failures support the reduction away from custom orchestration and strengthen recovery/requalification and claim-matched assurance.
+These failures support the reduction away from custom orchestration while strengthening recovery/requalification, actual capability use and claim-matched assurance.
 
-## 11. Rebaseline records
+## 12. Rebaseline records
 
 - `rebaseline/REBASELINE-ASSESSMENT-2026-09-02.md`
 - `rebaseline/CURRENT-STATE-RECOVERY-2026-09-02.md`
 - `rebaseline/DURABLE-LEARNINGS-SEPARATION-2026-09-02.md`
 - `rebaseline/ACTIVATION-COVERAGE-CHECK-2026-09-02.md`
+- `rebaseline/CHAT-WORK-COOPERATION-2026-09-02.md`
+- `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-02.md`
 
 Earlier repository material remains historical evidence unless specifically requalified.
 
-## 12. External product-state boundary
+## 13. External product-state boundary
 
 Repository promotion does not by itself:
 
 - uninstall, reinstall or modify Personal Skills in Work;
 - change Project instructions;
-- change the installed Global CI;
+- install/change the Global CI in ChatGPT;
 - establish Skill activation in a particular Work run;
 - assert generalized runtime reliability or professional output quality.
 
 Those claims require evidence from the relevant ChatGPT surface rather than inference from repository state.
 
-## 13. Current operating boundary
+## 14. Current operating boundary
 
-Repository authority is now coherent with the native-first rebaseline. Historical runtime files remain available as qualified legacy/reference evidence.
+Repository authority now records the capability-aware native-first rebaseline and the exact intended CI source.
 
 Further changes should be driven by ordinary genuine-use evidence. Do not add new runtime semantics merely because an execution fails; first distinguish missing invariant, inaccessible context/capability, activation failure, inadequate provider/method or failed evaluation.
