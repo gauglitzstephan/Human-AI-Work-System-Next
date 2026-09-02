@@ -1,6 +1,6 @@
 # Active Custom Skill Portfolio
 
-**Status:** CANDIDATE portfolio for the clean rebuild.  
+**Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
 **Boundary:** repo-local reusable methods only; not the complete provider universe and not a routing controller.
 
 ## Active packages
@@ -21,7 +21,7 @@ Native ChatGPT owns integration and ordinary work. A Skill is used only when its
 | `work-formation` | `LEGACY / NATIVE BY DEFAULT` | The current CI already requires recovery/requalification and material missing-basis handling; separate activation risks ceremony and duplicate ownership |
 | `research-evidence` | `LEGACY / NATIVE OR SPECIALIST BY DEFAULT` | Native research discipline and specialist providers own current facts and domain methods more directly; generic cross-domain routing adds insufficient incremental value |
 
-Their exact repository packages are preserved under `legacy/archive-2026-09-02/skills/`. This candidate removes only their active repository discovery/packaging exposure.
+Their exact repository packages are preserved under `legacy/archive-2026-09-02/skills/`. The promoted rebuild removes only their active repository discovery/packaging exposure.
 
 ## Provider selection boundary
 
@@ -39,4 +39,4 @@ This is judgment guidance, not a fixed route or lifecycle.
 
 Repository source, plugin packaging, installed Personal Skill identity, activation, execution quality and outcome are separate claims.
 
-The six known installed Personal Skills are not updated or uninstalled by this candidate. Any later Personal Skill removal/update requires explicit Human authorization and product-surface readback.
+The six known installed Personal Skills were not updated or uninstalled by repository promotion. Any later Personal Skill removal/update requires explicit Human authorization and product-surface readback.

@@ -1,6 +1,7 @@
 # Genuine-Use Learnings
 
-**Status:** CANDIDATE compact evidence index. These are bounded observations and inferences, not universal performance claims.
+**Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
+**Claim boundary:** Compact evidence index; bounded observations and inferences, not universal performance claims.
 
 | Evidence | Supported learning | Current implication | Claim limit / source |
 |---|---|---|---|

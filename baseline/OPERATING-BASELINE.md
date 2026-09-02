@@ -1,6 +1,7 @@
 # Operating Baseline
 
-**Status:** CANDIDATE active basis for the clean rebuild. This is a compact support model, not a custom runtime architecture.
+**Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
+**Role:** Compact active basis, not a custom runtime architecture.
 
 ## 1. What the system is for
 

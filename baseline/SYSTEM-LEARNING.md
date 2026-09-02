@@ -1,6 +1,7 @@
 # System Learning
 
-**Status:** CANDIDATE narrow reusable discipline. Not a runtime controller, lifecycle, automatic learner or new Skill.
+**Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
+**Role:** Narrow reusable discipline, not a runtime controller, lifecycle, automatic learner or new Skill.
 
 ## Purpose
 
