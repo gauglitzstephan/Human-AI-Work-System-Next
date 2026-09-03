@@ -1,9 +1,10 @@
 # CURRENT
 
 **Repository state:** PROMOTED CURRENT when read from authoritative `main`; CANDIDATE on any branch or PR  
-**Initial clean-rebuild promotion:** `main@08346e4222e59074a5ca702acb214293885554cf`; tree `25b967a82caf37f9d1446bd21b621213b570fd34`; PR #48 merged 2026-09-02  
-**Native Work Transition base:** `main@25d09fcd4a52e51f8947332e581c1a76192f2a1c`  
-**External product state:** unchanged by repository promotion alone
+**Current readback baseline:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`; tree `79470f56a4e8d9a78270530a081393ef5a3c7b2a`  
+**Promotions:** PR #51 merged as `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`; PR #50 merged as current baseline above  
+**Initial clean-rebuild promotion:** `main@08346e4222e59074a5ca702acb214293885554cf`; tree `25b967a82caf37f9d1446bd21b621213b570fd34`  
+**External product state:** separate from repository promotion; current inspected state is recorded below
 
 ## Purpose
 
@@ -39,7 +40,7 @@ The intended source is exactly:
 
 `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-03.md`
 
-The instruction payload is **4,997 characters**. The exact repository source blob is `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`. Repository promotion does not install or activate this payload; installed product state remains a separate claim.
+The instruction payload is **4,997 characters**. The exact repository source blob is `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`. Repository promotion did not install this payload. A separate product-surface readback on 2026-09-03 established exact installed-text equivalence: 4,997 characters, matching final paragraph and SHA-256 `c73e9ee15b8526bff632cfba0091e674ea9308024ec7704673ea18f6ec1f57f7`. This is an installed-identity claim for the inspected surface, not behavioral or outcome proof.
 
 Its final invariant is:
 
@@ -66,7 +67,7 @@ One compact transition contract and three repo-local Skills remain active becaus
 | `evaluate-work-product` | bounded recipient/use/failure-mode-capable fitness judgment | prefer narrower domain evaluator; not creation, repair or approval |
 | `system-development` | exact recovery, failure localization, semantic-regression control, promotion/readback and genuine-use evaluation for this system | not a general runtime controller or universal engineering method |
 
-`adaptive-exploration`, `work-formation` and generic `research-evidence` remain archived as reusable history. Their durable semantics are owned by current CI/native behavior, the transition contract or better specialist providers. Their installed Personal Skill copies, if any, are not changed by repository promotion.
+`adaptive-exploration`, `work-formation` and generic `research-evidence` remain archived as reusable history. Their durable semantics are owned by current CI/native behavior, the transition contract or better specialist providers. On the product surface inspected 2026-09-03, they remain available under `Created by me` but are absent from `Installed`; this surface-bound readback does not delete their saved source.
 
 ## Legacy boundary
 
@@ -99,8 +100,13 @@ Repository promotion does not by itself:
 
 Durable authority remains with the legitimate domain owner. Conversation, memory, retrieval and stored copies do not become authoritative merely because they are accessible.
 
-## Delta and next legitimate transition
+## Current operational closure and next legitimate transitions
 
-This bounded repository delta adds the missing semantic bridge from qualified conversational work to native agentic execution. It adds one compact transition contract and one concise CI cue without adding a custom runtime, provider/surface router, lifecycle, universal QWS/Work Graph, persistent state machine or new Skill.
+The Native Work Transition and bounded external capability-delta intake are promoted and read back at the current baseline. The intended Global CI is installed with exact text identity on the inspected surface. The active installed Skill set is exactly `decision-analysis`, `evaluate-work-product` and `system-development`; the repository plugin package itself is not installed there.
 
-On a branch or PR, this remains Candidate. After explicit Human merge authorization, merge and read back authoritative `main`. Updating the installed Global CI remains a separate Human-authorized product-state transition. Then validate genuine Chat→Work handoffs and simplify any non-load-bearing fields before considering a `work-architecture` Skill.
+Two transitions remain separate:
+
+1. The `Work System Development` Project still contains legacy QWS/Requirements-v0.3/retired-Skill instructions. Their removal requires an explicit Human product-state gate; the repository does not authorize that edit.
+2. Any accepted change to the `system-development` package requires its own Candidate, merge decision and later installed-copy update/readback.
+
+This closure run is the first bounded genuine-use observation of the promoted transition. It can support only episode-specific evidence about Work Object preservation, method use, Human steering and return quality; it does not establish general behavioral conformance, professional fitness or outcome value.

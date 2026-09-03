@@ -1,6 +1,6 @@
 # Capability Delta — ChatGPT Work interactive steering
 
-**Status:** CANDIDATE evidence/impact record — reconciled to promoted Native Work Transition  
+**Status:** CURRENT evidence/impact record on authoritative `main`; CANDIDATE off `main`  
 **Date:** 2026-09-03  
 **Purpose:** Bind one product delta to the smallest supported system consequence. This is not a new workflow, architecture layer or Work Contract.
 
@@ -19,7 +19,7 @@ This record intentionally does not freeze a specific UI path as a durable system
 
 A Chat→Work model that distinguishes Chat and Work by **interactivity** or treats Work as a primarily silent downstream executor is no longer reliable.
 
-The legitimate owner of the affected transition semantics is the promoted `baseline/NATIVE-WORK-TRANSITION.md` on authoritative `main@7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f` (blob `a33285e59c6b836e1bbea4ef662a46cf94b90676`). This record does not define a parallel handoff or Work Contract.
+The legitimate owner of the affected transition semantics is the promoted `baseline/NATIVE-WORK-TRANSITION.md` on current authoritative `main@d42a1b06614dd9510838750a85ce9690e42e93b5` (blob `a33285e59c6b836e1bbea4ef662a46cf94b90676`; introduced by PR #51 merge `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`). This record does not define a parallel handoff or Work Contract.
 
 ## Classification
 
@@ -32,7 +32,7 @@ Primary dependency: Chat/Project → Work transition semantics, routed to their 
 - Interactive Work steering: originally `CANDIDATE_SEMANTIC_CHANGE`; the change is now absorbed by the promoted Native Work Transition on `main@7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`. Its explicit ordinary-interaction, material re-entry and UI-independent transition semantics, together with the protected-commitment, operational-autonomy and no-silent-mutation rules, cover the acceptance constraints. No additional Chat→Work semantic change remains pending from this episode.
 - Missing prior three-dot Chat→Work action: `TEST`. It remains an unresolved surface observation. No capability-removal or architecture claim follows unless stronger evidence establishes a material underlying impact.
 
-PR #51 is promoted and read back at the authoritative identity above. This PR #50 record now binds to that promoted source rather than the former Candidate head.
+PR #51 and PR #50 are promoted. Post-promotion readback binds this record to current `main@d42a1b06614dd9510838750a85ce9690e42e93b5`.
 
 ## System integration
 
@@ -40,4 +40,4 @@ The generic intake, persistence threshold and termination rule remain owned by `
 
 ## Claim limit
 
-This record establishes only a bounded interpretation of the reviewed product state, its absorption by the promoted Native Work Transition and the remaining UI test. It does not establish that every account/surface exposes identical Work behavior; that the previously observed Chat→Work UI action was permanently removed; that underlying transition capability is absent; that PR #50 has been accepted or merged; that the revised Global CI is installed or active; or that the Native Work Transition is behaviorally validated.
+This record establishes only a bounded interpretation of the reviewed product state, its absorption by the promoted Native Work Transition, the promotion of PR #50 and the remaining UI test. A separate 2026-09-03 product-surface readback established exact installed identity of the revised Global CI; that identity does not prove activation in every session. This record does not establish that every account/surface exposes identical Work behavior; that the previously observed Chat→Work UI action was permanently removed; that underlying transition capability is absent; or that the Native Work Transition is generally behaviorally validated.
