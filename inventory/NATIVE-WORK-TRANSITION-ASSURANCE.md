@@ -1,8 +1,10 @@
 # Native Work Transition — Change Assurance
 
 **Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
-**Bound base:** `main@25d09fcd4a52e51f8947332e581c1a76192f2a1c`  
-**Claim:** static semantic and repository fitness of the bounded Native Work Transition delta only.
+**Original bound base:** `main@25d09fcd4a52e51f8947332e581c1a76192f2a1c`  
+**Promotion readback:** PR #51 merged as `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`; transition blob `a33285e59c6b836e1bbea4ef662a46cf94b90676`  
+**Post-PR-50 baseline:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`  
+**Claim:** static semantic and repository fitness plus bounded post-promotion readback; not general behavior, professional fitness or outcome.
 
 ## 1. Problem and evidence
 
@@ -15,18 +17,18 @@ The active system already assigned ordinary conversation, planning, capability i
 
 The prior CI therefore preserved native handoff but did not define what qualified state must cross the transition.
 
-## 2. Bounded repair
+## 2. Promoted bounded repair
 
-The delta adds one system responsibility:
+PR #51 added one system responsibility:
 
 > When conversational or Project work has sufficiently formed a material Work Object and a native execution surface would materially improve the work, hand off the qualified Work Object and proportionate Work Architecture while leaving operational planning and execution to that native runtime.
 
-Repository changes:
+Promoted repository changes:
 
-- add `baseline/NATIVE-WORK-TRANSITION.md`;
-- update `baseline/OPERATING-BASELINE.md`, `CURRENT.md`, `README.md` and `skills/REGISTRY.md`;
-- replace the intended CI source with `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-03.md`;
-- remove the superseded 2026-09-02 CI path from the resulting active tree.
+- added `baseline/NATIVE-WORK-TRANSITION.md`;
+- updated `baseline/OPERATING-BASELINE.md`, `CURRENT.md`, `README.md` and `skills/REGISTRY.md`;
+- replaced the intended CI source with `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-03.md`;
+- removed the superseded 2026-09-02 CI path from the resulting active tree.
 
 No Skill, plugin package, discovery link, Legacy source, Project Instruction or external product state is changed.
 
@@ -70,14 +72,15 @@ This adds DL-19:
 
 ## 5. Global CI regression check
 
-The prior payload contains 4,991 characters. The proposed payload contains **4,997 characters**.
+The prior payload contains 4,991 characters. The promoted intended payload contains **4,997 characters**.
 
 - Paragraph count is unchanged.
 - Paragraphs 1–14 are byte-identical.
 - Only paragraph 15 changes semantically.
-- Proposed CI repository file blob: `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`.
+- Current intended CI repository file blob: `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`.
 - The previous source remains recoverable through Git history.
-- Repository promotion does not install the payload.
+- Repository promotion did not install the payload.
+- Separate product-surface readback on 2026-09-03 found exact installed-text equivalence: 4,997 characters, matching final paragraph and SHA-256 `c73e9ee15b8526bff632cfba0091e674ea9308024ec7704673ea18f6ec1f57f7`.
 
 Old final paragraph:
 
@@ -87,50 +90,43 @@ New final paragraph:
 
 > Before substantial work or asking for context/workarounds, recover/requalify relevant prior context/work. Use better methods, capabilities or surfaces; when useful, hand off a qualified Work Object and Work Architecture. Else infer and continue.
 
-## 6. Static candidate checks
+## 6. Completed static and promotion checks
 
-Before recommending merge, verify on the exact branch head:
+The promoted source and post-promotion baseline establish:
 
-1. changed files are limited to the declared delta;
-2. active Markdown links resolve;
-3. `rebaseline/` contains only the 2026-09-03 CI source;
-4. the CI payload is exactly 4,997 characters and only its final paragraph differs;
-5. active Skills and `.agents/skills` discovery links remain exactly the existing three;
-6. plugin manifest and Legacy trees are unchanged;
-7. `CURRENT.md`, README, Operating Baseline, transition contract and registry agree on ownership;
-8. no installation, activation, professional-fitness or outcome claim is made.
+1. PR #51 is merged and read back at the exact identity above;
+2. PR #50 is merged and current `main` is exactly `d42a1b06614dd9510838750a85ce9690e42e93b5`;
+3. active Markdown links in the action-bearing closure set resolve;
+4. `rebaseline/` contains only the 2026-09-03 CI source;
+5. the CI payload is exactly 4,997 characters and only its final paragraph differs from the prior source;
+6. active repository Skill discovery remains exactly the existing three;
+7. the plugin manifest and Legacy tree were unchanged by PR #51;
+8. Transition ownership remains in `baseline/NATIVE-WORK-TRANSITION.md`; no installation, behavior, professional-fitness or outcome claim follows from static source.
 
-## 7. Human and product-state gates
+## 7. Remaining Human and product-state gates
 
-Static repository fitness does not authorize or establish:
-
-- merge to `main`;
-- installation of the new Global CI;
-- removal of installed legacy Personal Skills;
-- behavioral conformance;
-- improved Work output;
-- use, outcome or value.
-
-Required sequence:
+Completed, separately evidenced transitions:
 
 ```text
-Candidate branch
-→ static readback
-→ Human acceptance and separate merge authorization
-→ merge
+PR #51 Human acceptance / merge
 → authoritative main readback
-→ separate CI installation authorization
-→ installed-state readback
-→ genuine Chat→Work validation
-→ simplify / repair / retain
+→ PR #50 Human acceptance / merge
+→ authoritative main readback
+→ Global CI installed-identity readback
+→ demoted-Skill installation readback
 ```
+
+Still gated:
+
+- removal of conflicting legacy Project Instructions;
+- acceptance and merge of any later repository Candidate;
+- installation/update/uninstallation of any later Skill or plugin delta;
+- release, authoritative persistence, behavioral-conformance and outcome claims.
+
+The current Product Instructions conflict is a product-state defect, not evidence that the promoted repository transition is semantically wrong.
 
 ## 8. Genuine-use test
 
-After promotion and separate CI installation, use representative material work to compare:
+Use representative material work to observe only dimensions that can change a system decision: Work Object/context preservation, proportional architecture, provider/method use, protected commitments, Human steering/re-entry, return accuracy and net quality/burden.
 
-- ordinary native handoff;
-- Architecture Note;
-- fuller Work Architecture Brief.
-
-Observe intent preservation, provider/method use, execution quality, Human steering burden, architecture deviations and return accuracy. A later `work-architecture` Skill requires separate repeated evidence.
+This operational-closure episode is the first bounded genuine-use observation after promotion and exact CI readback. It used a Human-supplied full Work Architecture and therefore cannot compare direct handoff against an Architecture Note or attribute behavior to the CI alone. Its Architecture Receipt is return evidence, not independent proof. No new `work-architecture` Skill is justified.
