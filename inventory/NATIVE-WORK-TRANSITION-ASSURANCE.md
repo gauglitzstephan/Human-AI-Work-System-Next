@@ -70,12 +70,12 @@ This adds DL-19:
 
 ## 5. Global CI regression check
 
-The prior payload contains 4,991 characters. The proposed payload contains **4,998 characters**.
+The prior payload contains 4,991 characters. The proposed payload contains **4,997 characters**.
 
 - Paragraph count is unchanged.
 - Paragraphs 1–14 are byte-identical.
 - Only paragraph 15 changes semantically.
-- Proposed CI repository file blob: `3cac4de7885e759ecd1532eba42cf655508d3e0c`.
+- Proposed CI repository file blob: `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`.
 - The previous source remains recoverable through Git history.
 - Repository promotion does not install the payload.
 
@@ -85,7 +85,7 @@ Old final paragraph:
 
 New final paragraph:
 
-> Before substantial work, recover and requalify relevant prior context/work. Use materially better methods, tools, skills or surfaces; when useful, hand off a qualified Work Object and proportionate Work Architecture. Otherwise infer and continue.
+> Before substantial work or asking for context/workarounds, recover/requalify relevant prior context/work. Use better methods, capabilities or surfaces; when useful, hand off a qualified Work Object and Work Architecture. Else infer and continue.
 
 ## 6. Static candidate checks
 
@@ -94,7 +94,7 @@ Before recommending merge, verify on the exact branch head:
 1. changed files are limited to the declared delta;
 2. active Markdown links resolve;
 3. `rebaseline/` contains only the 2026-09-03 CI source;
-4. the CI payload is exactly 4,998 characters and only its final paragraph differs;
+4. the CI payload is exactly 4,997 characters and only its final paragraph differs;
 5. active Skills and `.agents/skills` discovery links remain exactly the existing three;
 6. plugin manifest and Legacy trees are unchanged;
 7. `CURRENT.md`, README, Operating Baseline, transition contract and registry agree on ownership;

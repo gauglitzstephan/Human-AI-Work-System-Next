@@ -39,11 +39,11 @@ The intended source is exactly:
 
 `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-03.md`
 
-The instruction payload is **4,998 characters**. The exact repository source blob is `3cac4de7885e759ecd1532eba42cf655508d3e0c`. Repository promotion does not install or activate this payload; installed product state remains a separate claim.
+The instruction payload is **4,997 characters**. The exact repository source blob is `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`. Repository promotion does not install or activate this payload; installed product state remains a separate claim.
 
 Its final invariant is:
 
-> Before substantial work, recover and requalify relevant prior context/work. Use materially better methods, tools, skills or surfaces; when useful, hand off a qualified Work Object and proportionate Work Architecture. Otherwise infer and continue.
+> Before substantial work or asking for context/workarounds, recover/requalify relevant prior context/work. Use better methods, capabilities or surfaces; when useful, hand off a qualified Work Object and Work Architecture. Else infer and continue.
 
 The previous 4,991-character source remains recoverable through Git history.
 
