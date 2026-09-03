@@ -44,6 +44,19 @@ For work involving persistent state or effects, were working/candidate/authorita
 ### Transition/use when material
 If success depends on a recipient or downstream use, distinguish artifact production from readiness, use, performance and outcome.
 
+### Native Work Transition when used
+When a qualified Chat/Project → Work handoff materially shaped the episode, evaluate only the transition dimensions that could change a system decision:
+
+- **Work Object and context preservation** — did outcome, scope, relevant evidence, quality criteria and open uncertainty cross without material loss or invented commitments?
+- **Work Architecture proportionality** — did method/craft, dependencies, feedback, context/capabilities, authority, assurance and return structure earn their burden?
+- **Provider/method realization** — were qualified methods/providers actually used where the work depended on them, rather than merely named?
+- **Protected commitment integrity** — were Human/domain judgment, authorization, release and authoritative persistence preserved without silent mutation?
+- **Human steering and re-entry** — could ordinary progress interaction stay in Work while material protected-boundary changes returned for Human judgment?
+- **Qualified return** — did the Work Product and, when useful, Architecture Receipt expose deviations, unresolved state, claim limits and next legitimate actor/action?
+- **Net effect** — did the transition improve professional quality or reduce avoidable Human burden enough to justify its structure?
+
+The presence of a Work Architecture or Architecture Receipt is not success evidence by itself. A Work self-report is return evidence, not independent proof of behavior, professional fitness or outcome.
+
 ## Failure handling
 
 When a material failure appears:
