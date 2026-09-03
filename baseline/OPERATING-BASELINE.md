@@ -17,6 +17,8 @@ Chat, Work, Projects, Skills, plugins/apps/connectors, research capabilities, fi
 
 Use Projects for scoped continuity when the work earns it. Use domain-owned stores for authoritative state. Use additional persistence only when time, interruption, divergence, handoff or recovery risk justifies it.
 
+When conversation or Project context has sufficiently formed a material Work Object and Work or another native surface would materially improve execution, use `NATIVE-WORK-TRANSITION.md`: hand off the qualified Work Object and proportionate Work Architecture. The receiving native runtime owns operational planning and execution within the preserved outcome, method/craft, authority, assurance and return boundaries.
+
 ## 3. Durable principles
 
 1. **Outcome before means.** A request or proposed solution is evidence of intent, not automatically a complete specification.
@@ -34,12 +36,14 @@ Use Projects for scoped continuity when the work earns it. Use domain-owned stor
 13. **Keep claims distinct.** Produced, technically valid, professionally fit, authorized, used, effective and valuable are different states.
 14. **Match assurance to failure.** A check establishes only claims whose material failure modes it can detect. Rendering or self-review does not prove professional fitness.
 15. **Learn from evidence, not reflex.** Human feedback and local outcomes are evidence with scope; neither automatically authorizes a global rule or system mutation.
+16. **Own the transition, not the runtime.** For a material native handoff, consolidate the qualified Work Object and proportionate Work Architecture; preserve what must survive while leaving operational planning and execution to the receiving native runtime.
 
-The detailed DL-01–DL-18 lineage is preserved in `inventory/PRESERVATION-COVERAGE.md`.
+DL-01–DL-18 remain covered by `inventory/PRESERVATION-COVERAGE.md`; the bounded DL-19 transition repair is covered by `inventory/NATIVE-WORK-TRANSITION-ASSURANCE.md`.
 
 ## 4. Custom behavior that remains
 
 - The exact current Global CI source expresses interaction, epistemic, quality, continuity and native-handoff preferences.
+- `baseline/NATIVE-WORK-TRANSITION.md` provides the compact conditional bridge from qualified conversational work to native agentic execution; it is not a Skill, router or lifecycle.
 - `decision-analysis` provides a bounded cross-domain decision method.
 - `evaluate-work-product` provides a bounded cross-domain fitness method when no narrower evaluator owns the claim.
 - `system-development` provides scoped recovery/diagnosis/promotion/validation methods for this system.
@@ -49,7 +53,7 @@ The detailed DL-01–DL-18 lineage is preserved in `inventory/PRESERVATION-COVER
 
 No Semantic Compiler, global provider router, global surface router, universal QWS, universal Work Graph, universal lifecycle/closure machine, repo-local provider universe, persistence-by-default, assurance-by-default or mandatory meta-work before ordinary work.
 
-These may remain optional analytical lenses in historical evidence. They are not active mechanisms without new gap evidence.
+These may remain optional analytical lenses in historical evidence. A specific native handoff may use a proportionate Work Object Contract and Work Architecture when reinterpretation, dependency, method/craft, context, authority, assurance or return risk makes them material. They are not active universal mechanisms.
 
 ## 6. Safe change and removal
 

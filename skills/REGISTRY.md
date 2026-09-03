@@ -18,7 +18,7 @@ Native ChatGPT owns integration and ordinary work. A Skill is used only when its
 | Skill | Disposition | Reason |
 |---|---|---|
 | `adaptive-exploration` | `LEGACY / NATIVE OR SPECIALIST BY DEFAULT` | Its useful invariants are present in current CI/native interaction; design, strategy and scientific exploration should use narrower providers when available |
-| `work-formation` | `LEGACY / NATIVE BY DEFAULT` | The current CI already requires recovery/requalification and material missing-basis handling; separate activation risks ceremony and duplicate ownership |
+| `work-formation` | `LEGACY / NATIVE BY DEFAULT` | Current CI/native interaction owns proportional formation; `baseline/NATIVE-WORK-TRANSITION.md` owns the conditional qualified handoff to native execution. A separate generic Skill would recreate ceremony and duplicate ownership |
 | `research-evidence` | `LEGACY / NATIVE OR SPECIALIST BY DEFAULT` | Native research discipline and specialist providers own current facts and domain methods more directly; generic cross-domain routing adds insufficient incremental value |
 
 Their exact repository packages are preserved under `legacy/archive-2026-09-02/skills/`. The promoted rebuild removes only their active repository discovery/packaging exposure.
