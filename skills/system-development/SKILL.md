@@ -1,6 +1,6 @@
 ---
 name: system-development
-description: Recover, diagnose, compile, promote, or validate this Human–AI Work System or a comparable AI-work runtime when the task concerns current state, system failure, requirements/architecture, runtime semantic preservation, repository promotion/readback, or genuine-use evaluation. Load only the relevant scoped method; do not use as a universal systems, RCA, or validation method.
+description: Recover, diagnose, compile, promote, or validate this Human–AI Work System or a comparable AI-work runtime when the task concerns current state, system failure, requirements/architecture, runtime semantic preservation, repository promotion/readback, genuine-use evaluation, or a material external product/capability delta that may invalidate active system state. Load only the relevant scoped method; do not use as a universal systems, RCA, or validation method.
 ---
 
 # System Development
@@ -17,6 +17,7 @@ The Native ChatGPT runtime owns the episode. Load only the method(s) required by
 - **Compile semantics into runtime carriers / detect semantic regression** → `references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md`
 - **Repository candidate → promotion / readback / active-state reconciliation** → `references/REPOSITORY-PROMOTION-READBACK-METHOD.md`
 - **Evaluate whether the current runtime supports professional work in genuine use** → `references/REAL-USE-VALIDATION-METHOD.md`
+- **Assess a material external product/capability delta against active system state** → begin with `references/EXISTING-SYSTEM-RECOVERY-METHOD.md`; add failure localization only when observed behavior contradicts a current claim
 
 Use several only when the current claim genuinely requires several different transformations. Do not turn this list into a lifecycle.
 
