@@ -26,6 +26,8 @@ Use this contract when:
 2. Work or another native surface would materially improve sustained research, analysis, artifact production, tool use, reviewability, or multi-step execution; and
 3. a bare task sentence would create material reinterpretation, dependency, method/craft, context, authority, assurance, or return risk.
 
+Use whichever qualified native transition route is available. The contract does not depend on a particular button, menu action, or thread-conversion affordance.
+
 For bounded ordinary work, answer, act, or prompt directly. Architecture must earn its burden.
 
 ## Responsibilities
@@ -100,6 +102,8 @@ These are proportional forms, not stages.
 ## Runtime freedom
 
 Work may normally adapt operational sequence, local decomposition, reversible details, research path, qualified provider/tool selection, and local repair within scope.
+
+Questions, progress interaction, and Human steering may occur during Work without themselves reopening Formation. Return/re-entry is required only when a proposed change crosses a material protected or delegated commitment boundary.
 
 Work must return before materially changing:
 
