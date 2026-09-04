@@ -79,7 +79,7 @@ A broader native runtime reliability contribution remains plausible. This Candid
 PR #56 is repurposed from rollback to the following bounded Candidate:
 
 1. remove the rollback of PR #55 and retain both legitimate PR-#55 semantic gains;
-2. add one application invariant to `skills/system-development/SKILL.md`: once selected, a method remains controlling until its minimum outputs or stop condition are complete; findings/corrections update the smallest affected method state rather than restart framing or substitute free-form work;
+2. add one application invariant to `skills/system-development/SKILL.md`: once selected, a method remains controlling until its minimum outputs or stop condition are complete; findings/local Human corrections update the smallest affected method state rather than restart framing or substitute free-form work, unless the bound claim materially changes or the method becomes unfit;
 3. increment plugin package version from `0.2.1` to `0.2.2` because an installable active package changes materially;
 4. correct `CURRENT.md` so intended 5,000-character repository CI and the Human-reported temporary 4,997-character product hotfix are distinct;
 5. add this bounded evidence to `GENUINE-USE-LEARNINGS.md`.
@@ -92,7 +92,7 @@ No Global CI, Operating Baseline, Native Work Transition, Project Instruction, g
 - **Exploration and justified reframing:** unchanged globally; the new sentence applies only after a method is selected for a bound transformation.
 - **Commitment status:** PR #55's initial-frame/commitment protection is retained.
 - **Professional quality:** PR #55's justified-quality constraint is retained; existing method/source and claim-matched assurance requirements remain.
-- **Human agency:** findings and corrections still update the work; Human decisions, acceptance, merge, installation and product configuration remain gated.
+- **Human agency:** findings and corrections still update the work; a material claim change may reframe or switch the method; Human decisions, acceptance, merge, installation and product configuration remain gated.
 - **Work handoff:** `NATIVE-WORK-TRANSITION.md` remains the sole semantic owner; no duplicate rule or UI mechanic is encoded.
 - **Method/runtime boundary:** native runtime still owns episode execution and may adapt operations, but may not silently replace the selected professional transformation.
 - **Unrelated Skills and legacy:** unchanged.
@@ -105,7 +105,7 @@ Required static obligations and dispositions:
 |---|---|---|---|
 | selected method remains controlling | `skills/system-development/SKILL.md` | Embedded explicitly | Requires comparable genuine-use recheck after any installation |
 | native runtime retains operational ownership | same entry file, unchanged text plus bounded qualifier | Preserved | No provider-internal guarantee |
-| new evidence/correction causes local update, not restart | new application invariant | Embedded explicitly | Short-cue behavior outside selected system-development remains unproven |
+| local evidence/correction does not by itself cause restart | new application invariant | Embedded explicitly; material claim change or method unfitness may reframe/switch | Short-cue behavior outside selected system-development remains unproven |
 | PR-#55 quality and commitment gains | unchanged CI and Operating Baseline | Preserved byte-for-byte from `main@631e843...` | Live product currently reports prior carrier |
 | existing continuity and Work handoff owners | CI, Operating Baseline, Native Work Transition | Unchanged | Activation remains empirical |
 | state/authority separation | `CURRENT.md`, deployment contract, this record | Preserved and corrected | No install/behavior claim |
@@ -116,7 +116,7 @@ The exact contribution of provider/runtime behavior, context ranking and surface
 
 If separately accepted, merged and installed, recheck this exact claim in comparable genuine system-development work:
 
-> Does accessible qualified state control the next action, and does the selected method remain controlling through intermediate findings and local Human correction until its minimum outputs or genuine stop condition?
+> Does accessible qualified state control the next action, and does the selected method remain controlling through intermediate findings and local Human correction until its minimum outputs or genuine stop condition, while still reopening when the bound claim materially changes?
 
 A pass supports only this bounded application repair. A failure would weaken the local Skill repair and shift responsibility further toward native runtime/surface limitations; it would not justify another blind CI or handoff rule.
 
