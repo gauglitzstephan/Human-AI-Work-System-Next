@@ -19,7 +19,7 @@ This record intentionally does not freeze a specific UI path as a durable system
 
 A Chat→Work model that distinguishes Chat and Work by **interactivity** or treats Work as a primarily silent downstream executor is no longer reliable.
 
-The legitimate owner of the affected transition semantics is the promoted `baseline/NATIVE-WORK-TRANSITION.md` on current authoritative `main@d42a1b06614dd9510838750a85ce9690e42e93b5` (blob `a33285e59c6b836e1bbea4ef662a46cf94b90676`; introduced by PR #51 merge `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`). This record does not define a parallel handoff or Work Contract.
+The legitimate owner of the affected transition semantics is the promoted `baseline/NATIVE-WORK-TRANSITION.md` (blob `a33285e59c6b836e1bbea4ef662a46cf94b90676`; introduced by PR #51 merge `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`). The post-PR-50 readback was `main@d42a1b06614dd9510838750a85ce9690e42e93b5`; later promotions left that owner and blob unchanged through `main@fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`. This record does not define a parallel handoff or Work Contract.
 
 ## Classification
 
@@ -32,7 +32,7 @@ Primary dependency: Chat/Project → Work transition semantics, routed to their 
 - Interactive Work steering: originally `CANDIDATE_SEMANTIC_CHANGE`; the change is now absorbed by the promoted Native Work Transition on `main@7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`. Its explicit ordinary-interaction, material re-entry and UI-independent transition semantics, together with the protected-commitment, operational-autonomy and no-silent-mutation rules, cover the acceptance constraints. No additional Chat→Work semantic change remains pending from this episode.
 - Missing prior three-dot Chat→Work action: `TEST`. It remains an unresolved surface observation. No capability-removal or architecture claim follows unless stronger evidence establishes a material underlying impact.
 
-PR #51 and PR #50 are promoted. Post-promotion readback binds this record to current `main@d42a1b06614dd9510838750a85ce9690e42e93b5`.
+PR #51 and PR #50 are promoted. Their post-promotion readback was bound to `main@d42a1b06614dd9510838750a85ce9690e42e93b5`; later repository changes did not reopen this bounded disposition.
 
 ## System integration
 

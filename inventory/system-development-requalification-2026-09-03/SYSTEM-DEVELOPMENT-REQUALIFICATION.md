@@ -1,7 +1,7 @@
 # System-Development Requalification — 2026-09-03
 
-**Status:** Candidate method audit rebased and requalified against `main@22101f2db13357733d06bcbe7f1862ecd8c090a6` after PR #52 promotion.  
-**Installed baseline:** the currently installed standalone `system-development` package matches the pre-patch repository package; this Candidate does not update that installed copy.
+**Status:** PROMOTED HISTORICAL METHOD AUDIT. PR #53 merged as `fe3c46b54c0b5dee47b43eec9c8baba8e042d52b` after rebase/requalification against `main@22101f2db13357733d06bcbe7f1862ecd8c090a6`.  
+**Installed outcome:** a separate post-promotion Product-State-Cutover updated the standalone `system-development` package; all seven installed files then matched the PR #53 repository source exactly.
 
 ## Rebase / requalification result
 
@@ -79,4 +79,4 @@ non_effects: No mandatory scorecard, no test lifecycle, no requirement to create
 
 ## Package and deployment consequence
 
-The active package changes materially, so the repository plugin manifest increments from `0.2.0` to `0.2.1`. Discovery links, active Skill count and other two Skill packages remain unchanged. Installation/update is a separate Human-gated product transition after any merge.
+The active package changed materially, so PR #53 incremented the repository plugin manifest from `0.2.0` to `0.2.1`. Discovery links, active Skill count and the other two Skill packages remained unchanged. The separate Human-gated installed-copy update was subsequently completed and read back exactly; no installation action remains from this audit.

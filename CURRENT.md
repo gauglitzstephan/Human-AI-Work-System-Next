@@ -1,10 +1,11 @@
 # CURRENT
 
 **Repository state:** PROMOTED CURRENT when read from authoritative `main`; CANDIDATE on any branch or PR  
-**Current readback baseline:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`; tree `79470f56a4e8d9a78270530a081393ef5a3c7b2a`  
-**Promotions:** PR #51 merged as `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`; PR #50 merged as current baseline above  
+**Repository identity rule:** resolve authoritative `main` at read time; this tracked file does not bind the mutable branch to a permanently “current” static SHA  
+**Last semantic baseline before this reconciliation:** `main@fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`; tree `df1c40af99dcbacb176f8f82592d13258a188f02`; PR #53 merged as that commit  
+**Prior promotions in the current line:** PR #51 `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`; PR #50 `d42a1b06614dd9510838750a85ce9690e42e93b5`; PR #52 `22101f2db13357733d06bcbe7f1862ecd8c090a6`  
 **Initial clean-rebuild promotion:** `main@08346e4222e59074a5ca702acb214293885554cf`; tree `25b967a82caf37f9d1446bd21b621213b570fd34`  
-**External product state:** separate from repository promotion; current inspected state is recorded below
+**External product state:** separate from repository promotion; the latest qualified inspected state is recorded below
 
 ## Purpose
 
@@ -102,11 +103,19 @@ Durable authority remains with the legitimate domain owner. Conversation, memory
 
 ## Current operational closure and next legitimate transitions
 
-The Native Work Transition and bounded external capability-delta intake are promoted and read back at the current baseline. The intended Global CI is installed with exact text identity on the inspected surface. The active installed Skill set is exactly `decision-analysis`, `evaluate-work-product` and `system-development`; the repository plugin package itself is not installed there.
+The current semantic and inspected product-state line is closed through the PR #53 baseline:
 
-Two transitions remain separate:
+- the Native Work Transition and bounded external capability-delta intake are promoted;
+- the intended Global CI has exact installed-text identity on the inspected surface;
+- the conflicting legacy `Work System Development` Project Instructions were removed by the Human after PR #53;
+- the active installed Skill set is exactly `decision-analysis`, `evaluate-work-product` and `system-development`;
+- after the dedicated post-PR-#53 Product-State-Cutover, all seven installed `system-development` files match the authoritative repository package at `fe3c46b54c0b5dee47b43eec9c8baba8e042d52b` exactly;
+- the repository plugin package itself remains uninstalled on the inspected surface.
 
-1. The `Work System Development` Project still contains legacy QWS/Requirements-v0.3/retired-Skill instructions. Their removal requires an explicit Human product-state gate; the repository does not authorize that edit.
-2. Any accepted change to the `system-development` package requires its own Candidate, merge decision and later installed-copy update/readback.
+These are source- and inspected-state claims only. They do not establish activation in every episode, behavioral conformance, professional fitness, use, outcome or value.
 
-This closure run is the first bounded genuine-use observation of the promoted transition. It can support only episode-specific evidence about Work Object preservation, method use, Human steering and return quality; it does not establish general behavioral conformance, professional fitness or outcome value.
+No known product-state action remains from the PR #51–#53 closure line. The next legitimate transitions are:
+
+1. observe the reduced system in genuine professional work and record only decision-relevant evidence;
+2. handle any future semantic, repository or product-state change as a new bounded Candidate with its own authority and readback;
+3. treat deletion of historical branches or archived blobs as a separate, explicitly scoped destructive cleanup—not as implied current-state reconciliation.

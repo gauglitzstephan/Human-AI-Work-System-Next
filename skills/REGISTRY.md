@@ -39,10 +39,12 @@ This is judgment guidance, not a fixed route or lifecycle.
 
 Repository source, plugin packaging, installed Personal Skill identity, activation, execution quality and outcome are separate claims.
 
-Repository promotion did not itself update or uninstall Personal Skills. A separate product-surface readback on 2026-09-03 established:
+Repository promotion does not itself update or uninstall Personal Skills. Product-surface readback on 2026-09-03 established:
 
 - installed: `decision-analysis`, `evaluate-work-product`, `system-development`;
 - absent from `Installed` but retained under `Created by me`: `adaptive-exploration`, `work-formation`, `research-evidence`;
-- repository plugin package: not present in the installed Plugin list; the three active Skills are standalone Personal/remote deployment copies.
+- repository plugin package: not present in the installed Plugin list;
+- `decision-analysis` and `evaluate-work-product`: entry files exact; each method reference differs only by one additional terminal newline;
+- after PR #53 and its separate Product-State-Cutover, installed `system-development`: all seven files exactly match repository source at `main@fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`.
 
-Installed `system-development` matches all seven authoritative repository files exactly. The two other installed Skill entry files match exactly; each method reference differs only by one additional terminal newline. This readback is bound to the inspected product surface and date. Any later Personal Skill or plugin update/removal still requires explicit Human authorization and readback.
+The legacy `Work System Development` Project Instructions were separately removed by the Human after PR #53. These readbacks are account/surface/date bound; they do not establish activation, correct execution, professional fitness or outcome. Any later Personal Skill, plugin, CI or Project change still requires explicit authorization and readback.

@@ -1,7 +1,7 @@
 # Current State Readback — 2026-09-03
 
-**Status:** Candidate evidence record until merged; observations are bound to the sources and product surface named here.  
-**Repository baseline:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`; tree `79470f56a4e8d9a78270530a081393ef5a3c7b2a`.
+**Status:** HISTORICAL SNAPSHOT — captured before PR #52, PR #53 and the final product-state actions. Do not use it as current repository or product state; root `CURRENT.md` controls.  
+**Repository baseline observed then:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`; tree `79470f56a4e8d9a78270530a081393ef5a3c7b2a`.
 
 | Object | Claim type | Exact readback | Status / limit |
 |---|---|---|---|

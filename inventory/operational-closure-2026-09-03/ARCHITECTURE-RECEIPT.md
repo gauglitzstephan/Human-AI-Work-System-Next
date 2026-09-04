@@ -1,5 +1,7 @@
 # Architecture Receipt — Post-Promotion Operational Closure
 
+**Status:** HISTORICAL EXECUTION RECEIPT. PR #52 and PR #53 were subsequently merged and the two recorded product-state actions were completed. Do not treat its then-current Candidate/gate statements as present actions.
+
 ## Work Object and regime
 
 The requested outcome remained operational closure and Skill requalification, not redesign.
