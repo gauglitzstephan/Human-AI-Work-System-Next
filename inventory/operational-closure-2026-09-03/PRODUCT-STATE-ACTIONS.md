@@ -1,5 +1,7 @@
 # Product State Actions — 2026-09-03
 
+**Status:** COMPLETED / HISTORICAL — DO NOT EXECUTE. Action 1 was completed by removing the legacy Project Instructions; Action 2 was completed after PR #53 with exact seven-file installed-copy readback.
+
 ## Action 1
 
 ```yaml
@@ -11,9 +13,9 @@ exact_human_step: After accepting this disposition, open Work System Development
 expected_readback: Instructions field is empty; a fresh Project session no longer receives QWS/retired-Skill/old-authority instructions.
 ```
 
-This action was not executed. It requires a separate Human product-state gate.
+This action was subsequently executed under the separate Human product-state gate.
 
-## Action 2 — conditional on Skill Candidate promotion
+## Action 2 — completed after Skill Candidate promotion
 
 ```yaml
 action: Update the standalone system-development Personal Skill
@@ -24,4 +26,4 @@ exact_human_step: After merge readback only, update the system-development Perso
 expected_readback: Installed changed files and package version match the promoted repository identities; activation/behavior remain separate claims.
 ```
 
-No action is required for Global CI, the three demoted Skills, or repository-plugin installation.
+The action was subsequently completed after PR #53: all seven installed `system-development` files matched repository source at `fe3c46b54c0b5dee47b43eec9c8baba8e042d52b` exactly. No action is required for Global CI, the three demoted Skills, or repository-plugin installation.

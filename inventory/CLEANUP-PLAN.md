@@ -1,5 +1,7 @@
 # Legacy, Archive and Delete Plan
 
+**Status:** HISTORICAL EXECUTION PLAN / PRODUCT-STATE FOLLOW-UPS COMPLETED. Do not re-execute its former follow-up actions. Branch or blob deletion remains separately gated.
+
 ## Executed in the promoted rebuild
 
 - Reversibly archive nine historical root trees under `legacy/archive-2026-09-02/` using their existing Git tree identities.
@@ -32,12 +34,13 @@ A later deletion proposal must identify exact paths and show:
 
 Absent that showing, keep the archive.
 
-## Personal Skill treatment after repository promotion
+## Post-promotion product-state outcome
 
-After repository promotion, separately review installed Personal Skills:
+The separately authorized product-state work is complete:
 
-- keep/update `decision-analysis`, `evaluate-work-product` and `system-development` only if their installed identities and continued use are desired;
-- consider uninstalling `adaptive-exploration`, `work-formation` and `research-evidence` because their active repository ownership has been removed;
-- perform each product-state change only with explicit Human authorization and installed-state readback.
+- `decision-analysis`, `evaluate-work-product` and `system-development` remain installed;
+- `adaptive-exploration`, `work-formation` and `research-evidence` are absent from `Installed` and remain recoverable under `Created by me`;
+- the conflicting legacy Project Instructions were removed;
+- after PR #53, the installed `system-development` package was updated and all seven files read back exactly against repository source at `fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`.
 
-Repository merge alone must not be described as completing those actions.
+This section records completed state; it authorizes no installation, removal or deletion.

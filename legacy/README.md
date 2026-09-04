@@ -20,7 +20,7 @@
 | five rebaseline evidence files | `legacy/archive-2026-09-02/rebaseline/` |
 | three demoted Skill packages | `legacy/archive-2026-09-02/skills/` |
 
-The exact intended Global CI source remains at `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-02.md` and is not archived or modified.
+The archive's original 2026-09-02 CI source remains recoverable through Git history. The current intended CI source is selected only by root `CURRENT.md` and is presently `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-03.md`; no archived path controls the active instructions.
 
 ## Interpretation rule
 

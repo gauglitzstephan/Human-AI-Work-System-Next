@@ -3,7 +3,8 @@
 **Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
 **Original bound base:** `main@25d09fcd4a52e51f8947332e581c1a76192f2a1c`  
 **Promotion readback:** PR #51 merged as `7cd5b5490f67638e5eb6d85ff1fbb62cfabb1f4f`; transition blob `a33285e59c6b836e1bbea4ef662a46cf94b90676`  
-**Post-PR-50 baseline:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`  
+**Historical post-PR-50 baseline:** `main@d42a1b06614dd9510838750a85ce9690e42e93b5`  
+**Later readback:** the transition blob remains unchanged at the last semantic baseline before reconciliation, `main@fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`  
 **Claim:** static semantic and repository fitness plus bounded post-promotion readback; not general behavior, professional fitness or outcome.
 
 ## 1. Problem and evidence
@@ -95,7 +96,7 @@ New final paragraph:
 The promoted source and post-promotion baseline establish:
 
 1. PR #51 is merged and read back at the exact identity above;
-2. PR #50 is merged and current `main` is exactly `d42a1b06614dd9510838750a85ce9690e42e93b5`;
+2. PR #50 merged as `d42a1b06614dd9510838750a85ce9690e42e93b5`; later PR #52 and PR #53 promotions left the transition blob unchanged through `fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`;
 3. active Markdown links in the action-bearing closure set resolve;
 4. `rebaseline/` contains only the 2026-09-03 CI source;
 5. the CI payload is exactly 4,997 characters and only its final paragraph differs from the prior source;
@@ -116,14 +117,13 @@ PR #51 Human acceptance / merge
 → demoted-Skill installation readback
 ```
 
-Still gated:
+Subsequently completed under separate authority:
 
-- removal of conflicting legacy Project Instructions;
-- acceptance and merge of any later repository Candidate;
-- installation/update/uninstallation of any later Skill or plugin delta;
-- release, authoritative persistence, behavioral-conformance and outcome claims.
+- removal of the conflicting legacy Project Instructions;
+- acceptance and merge of the system-development requalification as PR #53;
+- exact post-PR-#53 installed-copy cutover and seven-file readback for `system-development`.
 
-The current Product Instructions conflict is a product-state defect, not evidence that the promoted repository transition is semantically wrong.
+Still gated are any future repository Candidate, later Skill/plugin/CI/Project change, release, authoritative persistence, behavioral-conformance or outcome claim.
 
 ## 8. Genuine-use test
 
