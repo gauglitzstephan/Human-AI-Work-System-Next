@@ -47,6 +47,8 @@ A qualified Work Object should provide enough of the following, proportionately:
 
 Open questions may remain. Formation is sufficient when Work can resolve them within those boundaries rather than needing to rediscover the Parent Outcome or renegotiate protected state.
 
+Formation does **not** require Chat to pre-solve research, design, architecture, or execution questions that are themselves part of the Work Object. Chat should qualify those questions and their material boundaries well enough for Work to resolve them without redefining the contract.
+
 ## Responsibilities
 
 **Chat / Joint Intelligence** forms and consolidates the Work Object through exploration, framing, recovery, quality/taste calibration, and Human judgment.
