@@ -79,4 +79,4 @@ non_effects: No mandatory scorecard, no test lifecycle, no requirement to create
 
 ## Package and deployment consequence
 
-The active package changes materially, so the repository plugin manifest increments from `0.2.0` to `0.2.1`. Discovery links, active Skill count and other two Skill packages remain unchanged. Installation/update is a separate Human-gated product transition after any merge.
+The active package changed materially, so PR #53 incremented the repository plugin manifest from `0.2.0` to `0.2.1`. Discovery links, active Skill count and the other two Skill packages remained unchanged. The separate Human-gated installed-copy update was subsequently completed and read back exactly; no installation action remains from this audit.
