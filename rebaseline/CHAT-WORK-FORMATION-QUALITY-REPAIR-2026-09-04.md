@@ -6,7 +6,7 @@
 
 This is a bounded repair from genuine-use evidence under the newly installed Global Custom Instructions. It does **not** rebuild the system, add a router, add a lifecycle, or promote a new Skill.
 
-The repository `main` still contains the prior 5,000-character Global CI source. The newer CI used in the test is a separate product-state installation and is not yet represented as authoritative repository state.
+The repository `main` still contains the prior 5,000-character Global CI source. The newer CI used in the test is a separate product-state installation. This candidate now binds that installed CI text as its exact semantic baseline in `rebaseline/GLOBAL-CI-CANDIDATE-2026-09-04.md`; repository representation still does not establish installation, activation, behavior or acceptance.
 
 ## Genuine-use evidence
 
@@ -23,11 +23,11 @@ The evidence supports `INVARIANT_NOT_ACTIVATED_OR_APPLIED` as the primary class 
 
 The intended Global-CI semantic priority is:
 
-> **First establish what the intended outcome and justified quality require. Develop the work to that standard before simplifying scope, structure, or method. Simplify only by removing what does not materially contribute without lowering that quality.**
+> **First qualify the intended outcome and justified quality; develop toward that standard before simplifying. Simplify only what can be removed without lowering justified quality.**
 
-This is a salience/ordering repair, not a new quality capability. It replaces the weaker relation in which quality and simplicity can be interpreted in parallel and simplification can win before sufficiency has been established.
+This is a salience/ordering repair, not a new quality capability. It prevents simplicity from becoming an optimization before the required quality is understood, without requiring work to be made maximally complex before simplification.
 
-No product CI is changed by this repository candidate.
+The exact CI candidate carrying this repair is `rebaseline/GLOBAL-CI-CANDIDATE-2026-09-04.md`. No product CI is changed by this repository candidate.
 
 ## Repair B — Formation sufficiency in Native Work Transition
 
@@ -42,23 +42,33 @@ A qualified Work Object should provide enough of the following, proportionately:
 - justified quality floor and ambition dimensions;
 - material open questions that Work may resolve without redefining the contract;
 - Human-owned judgments, gates, commitments, acceptance or release boundaries;
-- validity-critical professional method, evidence or assurance requirements when they are already known to be material.
+- validity-critical professional method, evidence or assurance requirements when already known to be material.
 
 Open questions may remain. Formation is sufficient when Work can resolve them within those boundaries rather than needing to rediscover the Parent Outcome or renegotiate protected state.
 
+Formation does **not** require Chat to pre-solve research, design, architecture or execution questions that are themselves part of the Work Object. Chat qualifies those questions and their material boundaries well enough for Work to resolve them without redefining the contract.
+
 ## Repair C — Minimal active transition cue
 
-The transition contract remains non-mandatory and non-routing. The missing cooperation semantic is only:
+The transition contract remains non-mandatory and non-routing. The active cooperation semantic in the Global-CI candidate is:
 
-> **When a material Work Object is sufficiently formed and sustained multi-step Work would materially improve execution, consolidate the qualified state for transition rather than continuing to simulate the execution in Chat.**
+> **When a sufficiently formed material Work Object would benefit from sustained native Work, consolidate it for transition rather than simulating Work in Chat.**
 
-This cue must have one reliable active carrier. Detailed Work planning, decomposition, provider/tool routing, graph/loop design, and execution remain owned by the native Work runtime and `baseline/NATIVE-WORK-TRANSITION.md`, not Global CI.
+This cue has one **intended active carrier** in this candidate: Global CI. Its behavioral reliability remains empirical. Detailed Work planning, decomposition, provider/tool routing, graph/loop design, execution and return semantics remain owned by the native Work runtime and `baseline/NATIVE-WORK-TRANSITION.md`, not Global CI.
 
 ### Carrier decision
 
-For this candidate, the minimal cue is represented in the Global-CI candidate because the current operating baseline says the exact Global CI expresses native-handoff preferences and because ordinary Chat otherwise has no guaranteed access to repository transition semantics. The detailed transition contract remains outside the CI.
+Global CI is the current candidate carrier because the operating baseline assigns native-handoff preferences to the exact Global CI and ordinary Chat otherwise has no guaranteed access to repository transition semantics. The detailed transition contract remains outside the CI.
 
-This is a candidate carrier decision, not a claim that Global CI deterministically activates the behavior. It requires genuine-use evaluation.
+This does not claim that Global CI deterministically activates the behavior. Installation, activation and genuine-use behavior must be tested separately.
+
+## Semantic non-regression
+
+`rebaseline/GLOBAL-CI-CANDIDATE-2026-09-04.md` was compiled from the installed 4,984-code-point CI baseline rather than the older 5,000-character repository CI. The candidate is 4,998 Unicode code points and carries only two intentional semantic deltas: Quality-before-Simplification ordering and the minimal native Work transition cue.
+
+The candidate retains the qualified Source-of-Truth responsibilities for Joint Intelligence, constructive contribution, framing/challenge, strategic and structural reasoning, patterns/breakpoints, Quality Ambition, care/depth/follow-through, Professional Depth, Mixed Initiative, Human agency, qualified continuity, correction/feedback, epistemic and authority integrity, capability/claim integrity, natural communication, and symmetric persistence/convergence.
+
+Work Architecture, graphs/loops, operational planning, detailed handoff/return semantics, concrete professional methods and Project-specific authority remain explicitly owned outside Global CI.
 
 ## Evaluation claims
 
@@ -78,15 +88,15 @@ The next representative tests should discriminate the following:
 
 ### Formation sufficiency
 
-**PASS:** before transition, the handoff preserves outcome, qualified state, quality/ambition, protected boundaries and material open questions well enough that Work need not restart discovery.
+**PASS:** before transition, the handoff preserves outcome, qualified state, quality/ambition, protected boundaries and material open questions well enough that Work need not restart discovery, while leaving Work-owned research/design/architecture questions unresolved where appropriate.
 
-**FAIL:** handoff is a bare task sentence or dumps context without a usable Work Object.
+**FAIL:** handoff is a bare task sentence, dumps context without a usable Work Object, or Chat pre-solves substantial Work-owned questions merely to satisfy Formation.
 
 ### Transition activation
 
-**PASS:** when the conversational state is sufficiently formed and sustained multi-step Work has clear execution advantage, Chat consolidates the Work Object and proposes/uses the native transition route instead of continuing to produce the substantive multi-step architecture in Chat.
+**PASS:** when the conversational state is sufficiently formed and sustained native Work has clear execution advantage, Chat consolidates the Work Object and proposes/uses the native transition instead of continuing substantial Work simulation in Chat.
 
-**FAIL:** Chat keeps incrementally simulating Work or adds a custom router/lifecycle.
+**FAIL:** Chat keeps incrementally simulating Work, fails to expose the transition when materially useful, or adds a custom router/lifecycle.
 
 ## Boundaries
 
