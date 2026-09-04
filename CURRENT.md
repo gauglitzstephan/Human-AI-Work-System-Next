@@ -37,17 +37,19 @@ No other file is current system authority merely because it has a newer-looking 
 
 ## Global Custom Instructions
 
-The intended source is exactly:
+The intended repository source is exactly:
 
 `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-03.md`
 
-The instruction payload is **4,997 characters**. The exact repository source blob is `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`. Repository promotion did not install this payload. A separate product-surface readback on 2026-09-03 established exact installed-text equivalence: 4,997 characters, matching final paragraph and SHA-256 `c73e9ee15b8526bff632cfba0091e674ea9308024ec7704673ea18f6ec1f57f7`. This is an installed-identity claim for the inspected surface, not behavioral or outcome proof.
+At `main@631e8431b862ead245fccd69ecdb77a958822a61`, PR #55 has promoted a **5,000-character** payload with source blob `6790acf03770610c4f7d376548ee343545222421`. Repository promotion did not install this payload or establish activation or behavior.
 
-Its final invariant is:
+On 2026-09-04 the Human temporarily restored the pre-PR-#55 **4,997-character** payload as an emergency product hotfix. That payload corresponds to repository blob `e0941d0ed97ff6814ba1fa212be0edfe99ed9269` and the earlier inspected SHA-256 `c73e9ee15b8526bff632cfba0091e674ea9308024ec7704673ea18f6ec1f57f7`; this run did not independently read back the live product carrier. The intended repository source and the Human-reported product state therefore remain intentionally distinct.
+
+The final invariant is unchanged in both payloads:
 
 > Before substantial work or asking for context/workarounds, recover/requalify relevant prior context/work. Use better methods, capabilities or surfaces; when useful, hand off a qualified Work Object and Work Architecture. Else infer and continue.
 
-The previous 4,991-character source remains recoverable through Git history.
+The pre-PR-#55 4,997-character source remains recoverable through Git history.
 
 ## Native Work Transition
 
@@ -101,21 +103,24 @@ Repository promotion does not by itself:
 
 Durable authority remains with the legitimate domain owner. Conversation, memory, retrieval and stored copies do not become authoritative merely because they are accessible.
 
-## Current operational closure and next legitimate transitions
+## Current incident state and next legitimate transitions
 
-The current semantic and inspected product-state line is closed through the PR #53 baseline:
+The PR #51–#53 transition, capability-delta and `system-development` cutover claims remain qualified within their original boundaries:
 
 - the Native Work Transition and bounded external capability-delta intake are promoted;
-- the intended Global CI has exact installed-text identity on the inspected surface;
-- the conflicting legacy `Work System Development` Project Instructions were removed by the Human after PR #53;
-- the active installed Skill set is exactly `decision-analysis`, `evaluate-work-product` and `system-development`;
-- after the dedicated post-PR-#53 Product-State-Cutover, all seven installed `system-development` files match the authoritative repository package at `fe3c46b54c0b5dee47b43eec9c8baba8e042d52b` exactly;
-- the repository plugin package itself remains uninstalled on the inspected surface.
+- the conflicting legacy `Work System Development` Project Instructions were removed by the Human;
+- the active installed Skill set was read back as exactly `decision-analysis`, `evaluate-work-product` and `system-development`;
+- all seven installed `system-development` files still match the repository package that PR #53 promoted; PR #55 did not change that package;
+- the repository plugin package remains uninstalled on the inspected surface.
 
-These are source- and inspected-state claims only. They do not establish activation in every episode, behavioral conformance, professional fitness, use, outcome or value.
+PR #55 subsequently changed the intended repository CI source to 5,000 characters and preserved two bounded semantic gains: justified quality constrains complexity minimization, and structuring an initial frame does not promote it to commitment. The Human-reported emergency product hotfix currently uses the prior 4,997-character payload. The continuing 2026-09-04 multi-turn failure under that hotfix is negative genuine-use evidence against treating PR #55 as a sufficient cause or rollback as a sufficient repair.
 
-No known product-state action remains from the PR #51–#53 closure line. The next legitimate transitions are:
+The failed behavior is currently localized primarily as recovery/method-application unreliability: already-accessible qualified state did not reliably control the next action, and a selected `system-development` method was not kept controlling. Missed Chat→Work realization was a downstream failure; a broader native runtime/surface contribution remains possible. Repository source, installed identity, activation, behavior, professional fitness and outcome remain separate claims.
 
-1. observe the reduced system in genuine professional work and record only decision-relevant evidence;
-2. handle any future semantic, repository or product-state change as a new bounded Candidate with its own authority and readback;
-3. treat deletion of historical branches or archived blobs as a separate, explicitly scoped destructive cleanup—not as implied current-state reconciliation.
+The next legitimate transitions are:
+
+1. review the bounded PR #56 Candidate; no merge is implied;
+2. after any separately authorized merge, read back authoritative `main`;
+3. if repository `system-development` source changes, separately decide and authorize any installed-copy update, then read it back;
+4. reconcile the temporary CI product hotfix only through a separate product-state decision;
+5. recheck the failed claim in comparable genuine work without treating one successful run as general behavioral conformance.
