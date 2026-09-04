@@ -1,125 +1,151 @@
 # Multi-Turn / Handoff Failure Localization — 2026-09-04
 
-**Status:** CANDIDATE GENUINE-USE EVIDENCE AND BOUNDED REPAIR; not promoted; not installed; not a behavioral-conformance or outcome claim.
+**Status:** CANDIDATE GENUINE-USE EVIDENCE AND CURRENT-STATE RECONCILIATION; not promoted; no behavioral semantic repair; not a product-state, behavioral-conformance or outcome claim.
 
-## Bound claim and environment
+## Bound failed claim
 
-Failed claim:
+> Accessible qualified project/system state should reliably control Chat's next action, allowing already-authorized work to continue and producing the already-established qualified Work handoff when Work owns execution, without requiring the Human to reconstruct that state.
 
-> The current Human-AI Work System should reliably use already-qualified accessible system/project state to determine the next action, including selecting and staying within the appropriate system-development method and preparing a Work handoff when Work owns execution, without requiring the Human to reconstruct that state.
-
-Bound environment and state:
+Bound environment:
 
 - authoritative repository baseline read back as `main@631e8431b862ead245fccd69ecdb77a958822a61`;
 - intended repository CI: PR-#55 5,000-character source, blob `6790acf03770610c4f7d376548ee343545222421`;
 - Human-reported live product hotfix: pre-PR-#55 4,997-character CI, repository-equivalent blob `e0941d0ed97ff6814ba1fa212be0edfe99ed9269`;
-- installed `system-development`: all seven files byte-identical to the PR-#53 repository package and current `main`;
-- original PR #56 head before this reconciliation: `b698093c98187e22434e0d94b0b18113214345c7`.
+- installed `system-development` identity had previously been read back as all seven files matching the PR-#53 repository package and current `main`;
+- the present Work run is the first established move of this repair from Chat into Work.
 
-Repository source, installed identity, activation, method execution, product behavior, professional fitness and outcome are separate claims.
+Repository source, content accessibility, installed identity, Skill selection/activation, manual method reading, method-controlled execution, Work execution, professional fitness and outcome are separate claims.
+
+## Corrected chronology and state distinctions
+
+| State | What is established | What does not follow |
+|---|---|---|
+| Repository/method content accessible in Chat | Chat accessed repository material and parts of the `system-development` method | No Personal-Skill activation or method-controlled execution |
+| Personal Skill installed | Prior exact installed-copy readback established the installed `system-development` identity on the inspected product state | No activation in the preceding Chat episode |
+| Skill selected/activated for the Chat episode | **Not established** | Must not be inferred from repository access or manual method reading |
+| Method manually read in Chat | Established for parts of the method | Reading is not selection/activation and does not prove the method controlled execution |
+| Method controlling Chat execution | **Not established** | Therefore no selected-method execution failure can be claimed |
+| Work execution using the Skill | Established only for the present Work run, where `system-development` was explicitly required and loaded | Cannot be projected backward onto the preceding Chat chronology |
 
 ## Genuine-use counterevidence
 
-The live 2026-09-04 episode repeatedly showed:
+The preceding 2026-09-04 Chat episode repeatedly showed:
 
-- already-qualified and accessible project/system state did not reliably control the next action;
+- already-qualified and accessible project/system state did not reliably control Chat's next action;
 - established Chat/Work behavior and product facts were re-researched or re-explained;
-- `system-development` was identified and loaded but did not remain the controlling method;
 - short continuation cues and Human corrections caused reframing/meta-work instead of continuation or local repair;
-- Chat attempted or proposed sustained work that should have been handed to Work;
-- the Human had to reconstruct state and operating semantics that were already accessible.
+- authorized work did not reliably continue across intermediate findings;
+- Chat did not produce the already-established qualified Work handoff without further Human reconstruction;
+- the Human had to reconstruct accessible state and operating semantics.
 
 The same higher-level failure pattern continued after the Human restored the pre-PR-#55 4,997-character CI. Human reconstruction burden and corrections are negative genuine-use evidence, not merely feedback.
+
+This evidence does **not** establish that the Personal Skill was selected or activated in Chat, that a selected method ceased controlling execution, or that the Skill itself failed.
 
 ## Recovered qualified state
 
 The 2026-09-02 Activation Coverage Check already concluded that recovery, requalification, professional-provider use, production, evaluation and native-handoff semantics were conceptually covered, while activation/execution reliability remained unproven. It explicitly rejected another CI rule, generic runtime or generic Skill without evidence of a missing invariant.
 
-Current active sources independently contain:
+Current active sources already contain:
 
 - continuity and no-repeat semantics in Global CI;
 - recovery, narrow reopening, doing the work and transition ownership in the Operating Baseline;
 - explicit conditional Chat/Project → Work activation and a context-complete handoff in `NATIVE-WORK-TRANSITION.md`;
 - claim-bound recovery, failure localization and real-use validation methods in `system-development`;
-- an explicit state distinction between repository source, installed identity, activation, correct execution, fitness and outcome.
+- explicit separation of repository source, installed identity, activation, correct execution, fitness and outcome.
+
+The Personal Skill's installed identity remains relevant product state, but it cannot explain the Chat chronology without evidence that Chat actually selected/activated it.
 
 ## First material divergence
 
-The earliest supported divergence is **authoritative-state recovery/application**: accessible qualified state did not reliably become the working basis for the next action.
+The earliest supported divergence is **Chat authoritative-state recovery/application at next-action selection**: accessible qualified state did not reliably become the working basis for the next Chat action.
 
-After the Human or runtime explicitly selected and loaded `system-development`, the next divergence became **selected-method execution**: the method's procedure ceased to control the bound transformation and was replaced by free-form reframing/meta-work.
+The same application failure then appeared as:
 
-The missed Chat→Work transition is downstream in this incident sequence. A missing native UI conversion guarantee may affect realization, but it does not explain failure to form and return the already-specified handoff.
+1. authorized continuation being displaced by rediscovery, reframing or meta-work; and
+2. failure to form and return the already-established Work handoff without Human reconstruction.
+
+Both occur before any established Personal-Skill activation in the corrected chronology. The current evidence therefore does not reach a selected-method execution layer.
 
 ## Competing causes
 
 | Cause | Disposition | Evidence / limit |
 |---|---|---|
-| Missing recovery/continuity invariant | Not supported | Current CI and Operating Baseline already require recovery, continuity and narrow reopening. |
-| Existing invariant not activated/applied | Supported | Directly matches repeated failure and the earlier Activation Coverage finding. |
-| Context inaccessible | Not supported as primary | The relevant project/repository state was accessible and later recovered; surface-specific access failure remains possible in individual turns. |
-| Method-selection failure | Supported for early turns, downstream of recovery | The correct Skill/method was not consistently selected until prompted. |
-| Selected-method execution failure | Supported | The method was loaded but did not remain controlling. |
-| Chat→Work transition semantic gap | Not supported | The transition owner already defines activation, handoff contents, authority and return. |
-| Chat→Work realization/surface failure | Supported downstream; mechanism partly open | Work was not realized when materially better; official/current evidence does not establish guaranteed automatic conversion of arbitrary Chat threads. |
-| PR #55 CI regression | Possible local contributor; rejected as sufficient cause | Its reframing wording could affect salience, but the higher-level pattern continued under the restored pre-PR-#55 carrier. |
-| Broader native runtime reliability limit | Plausible and unresolved | Existing semantics and exact installed method identity do not guarantee activation or execution in every episode; repository evidence cannot prove provider internals. |
-| Repository identity/reference defect | Confirmed local defect, not the behavioral root | `CURRENT.md` still described the pre-PR-#55 4,997-character blob although authoritative `main` points to the 5,000-character PR-#55 source. |
+| Missing recovery/continuity invariant | Not supported | Current CI and Operating Baseline already require recovery, continuity, narrow reopening and doing the work. |
+| Existing recovery/continuation invariant not activated/applied in Chat | Supported | Directly matches the observed next-action divergence and earlier Activation Coverage finding. |
+| Context unavailable | Not supported as primary | The relevant state was accessible and parts were actually recovered; context ranking or effective use may still have failed. |
+| Personal Skill not installed | Ruled out for the previously inspected product state | Exact installed identity was read back; installation does not prove Chat activation. |
+| Skill selection/activation failure in Chat | Unresolved, not established | The episode did not establish a Personal-Skill activation attempt; Chat surface availability/selection behavior may differ from Work. |
+| Method-selection failure | Not established | Manual access to method files is not Personal-Skill selection. |
+| Selected-method execution failure | Withdrawn | No established selected/activated method in the preceding Chat episode. |
+| Chat→Work semantic gap | Not supported | The transition owner already defines activation, handoff contents, authority and return. |
+| Chat→Work formation/realization failure | Supported | Chat did not produce the qualified handoff when the established contract indicated Work was materially better. |
+| Required UI conversion missing | Unresolved and not necessary to the observed failure | No guaranteed automatic conversion is established, but a context-complete handoff could still have been produced. |
+| PR #55 CI regression | Possible contributor; rejected as sufficient cause or rollback target | The higher-level pattern continued under the restored pre-PR-#55 carrier. |
+| Broader native Chat runtime/context reliability limit | Plausible and unresolved | Existing semantics do not guarantee that accessible state will dominate next-action selection in every episode. |
+| Repository identity/reference defect | Confirmed local defect, not the behavioral mechanism | `CURRENT.md` still described the pre-PR-#55 4,997-character blob although authoritative `main` points to the 5,000-character PR-#55 source. |
 
 ## Most-supported responsible mechanism
 
-Primary class: `INVARIANT_NOT_ACTIVATED_OR_APPLIED`.
+Primary classification: `INVARIANT_NOT_ACTIVATED_OR_APPLIED`.
 
-Lowest repairable local layer: `system-development` method application. The entry file routes methods but does not explicitly preserve selected-method control across new findings and Human corrections. That omission is narrower than the already-covered general continuity and handoff invariants.
+Responsible behavioral layer currently supported by evidence: native Chat recovery/continuation/handoff application at next-action selection.
 
-A broader native runtime reliability contribution remains plausible. This Candidate cannot repair or claim access to provider-internal control behavior.
+The repository already represents the required semantics. The evidence does not identify a missing transferable invariant in Global CI, Native Work Transition or `system-development`, and it does not establish a Skill-application defect.
 
-## Bounded Candidate repair
+A broader native runtime/context/surface limitation remains plausible, but provider-internal causality is unverified.
 
-PR #56 is repurposed from rollback to the following bounded Candidate:
+## Lowest responsible response
 
-1. remove the rollback of PR #55 and retain both legitimate PR-#55 semantic gains;
-2. add one application invariant to `skills/system-development/SKILL.md`: once selected, a method remains controlling until its minimum outputs or stop condition are complete; findings/local Human corrections update the smallest affected method state rather than restart framing or substitute free-form work, unless the bound claim materially changes or the method becomes unfit;
-3. increment plugin package version from `0.2.1` to `0.2.2` because an installable active package changes materially;
-4. correct `CURRENT.md` so intended 5,000-character repository CI and the Human-reported temporary 4,997-character product hotfix are distinct;
-5. add this bounded evidence to `GENUINE-USE-LEARNINGS.md`.
+Behavioral disposition: `NO_SYSTEM_CHANGE` pending stronger evidence.
 
-No Global CI, Operating Baseline, Native Work Transition, Project Instruction, generic runtime/router, new Skill or product configuration is changed by this Candidate.
+Persistent disposition:
 
-## Preservation and regression analysis
+1. `EVIDENCE_REPAIR` — correct the chronology and remove the unsupported selected-method claim;
+2. `EVIDENCE_REPAIR` — record the Chat recovery/continuation/handoff failure with its exact claim limit;
+3. repository source/reference repair — correct the stale Global-CI identity in `CURRENT.md`;
+4. preserve PR #55's two legitimate semantic gains;
+5. continue ordinary genuine work; do not create a synthetic test, another CI sentence, a Native Work Transition duplicate, a Skill patch, a router or a new runtime.
 
-- **Continuity/recovery:** existing owners remain unchanged; the Skill delta reinforces only selected-method application.
-- **Exploration and justified reframing:** unchanged globally; the new sentence applies only after a method is selected for a bound transformation.
-- **Commitment status:** PR #55's initial-frame/commitment protection is retained.
-- **Professional quality:** PR #55's justified-quality constraint is retained; existing method/source and claim-matched assurance requirements remain.
-- **Human agency:** findings and corrections still update the work; a material claim change may reframe or switch the method; Human decisions, acceptance, merge, installation and product configuration remain gated.
-- **Work handoff:** `NATIVE-WORK-TRANSITION.md` remains the sole semantic owner; no duplicate rule or UI mechanic is encoded.
-- **Method/runtime boundary:** native runtime still owns episode execution and may adapt operations, but may not silently replace the selected professional transformation.
-- **Unrelated Skills and legacy:** unchanged.
+PR #56 therefore contains no installable package change and creates no product-state action.
 
-## Claim-bounded assurance
+## PR #56 reconciliation
 
-Required static obligations and dispositions:
+The Candidate is repurposed from rollback and then from the unsupported selected-method repair to an evidence/current-state Candidate:
 
-| Obligation | Candidate locus | Static disposition | Behavioral limit |
-|---|---|---|---|
-| selected method remains controlling | `skills/system-development/SKILL.md` | Embedded explicitly | Requires comparable genuine-use recheck after any installation |
-| native runtime retains operational ownership | same entry file, unchanged text plus bounded qualifier | Preserved | No provider-internal guarantee |
-| local evidence/correction does not by itself cause restart | new application invariant | Embedded explicitly; material claim change or method unfitness may reframe/switch | Short-cue behavior outside selected system-development remains unproven |
-| PR-#55 quality and commitment gains | unchanged CI and Operating Baseline | Preserved byte-for-byte from `main@631e843...` | Live product currently reports prior carrier |
-| existing continuity and Work handoff owners | CI, Operating Baseline, Native Work Transition | Unchanged | Activation remains empirical |
-| state/authority separation | `CURRENT.md`, deployment contract, this record | Preserved and corrected | No install/behavior claim |
+- Global CI and Operating Baseline remain byte-identical to `main@631e8431b862ead245fccd69ecdb77a958822a61`;
+- `skills/system-development/SKILL.md` is restored byte-identically to current `main`;
+- plugin version remains `0.2.1`;
+- `CURRENT.md` distinguishes the intended 5,000-character repository source from the Human-reported temporary 4,997-character product hotfix and records the corrected incident boundary;
+- `GENUINE-USE-LEARNINGS.md` records the bounded Chat failure without inferring Skill activation;
+- this record preserves the corrected chronology, cause dispositions and claim limits.
 
-## Remaining uncertainty and recheck
+No Global CI, Operating Baseline, Native Work Transition, Skill, plugin package, Project Instruction, product configuration or permission is changed by this Candidate.
 
-The exact contribution of provider/runtime behavior, context ranking and surface transition affordances remains unresolved. The Candidate is therefore not a repair claim for general multi-turn continuity.
+## Preservation analysis
 
-If separately accepted, merged and installed, recheck this exact claim in comparable genuine system-development work:
+- **Qualified state:** all unaffected current sources remain unchanged.
+- **PR-#55 gains:** justified quality constrains simplicity, and structuring an initial frame does not create commitment.
+- **Continuity/recovery:** existing owners remain unchanged; no duplicate rule is added.
+- **Exploration and justified reframing:** unchanged.
+- **Human agency:** corrections can change the working state; no unsupported interpretation is retained against the Human's chronology.
+- **Work handoff:** `NATIVE-WORK-TRANSITION.md` remains the sole semantic owner.
+- **Skill/runtime distinction:** installed identity, activation, manual reading and method-controlled execution remain explicitly separate.
+- **Authority:** PR remains Candidate; merge and product-state effects remain unauthorized.
 
-> Does accessible qualified state control the next action, and does the selected method remain controlling through intermediate findings and local Human correction until its minimum outputs or genuine stop condition, while still reopening when the bound claim materially changes?
+## Remaining uncertainty and next evidence
 
-A pass supports only this bounded application repair. A failure would weaken the local Skill repair and shift responsibility further toward native runtime/surface limitations; it would not justify another blind CI or handoff rule.
+Unresolved:
 
-## Human gate
+- why accessible qualified state did not dominate Chat's next-action selection;
+- whether context ranking, instruction salience, native runtime behavior or surface behavior contributed;
+- whether Chat could or should have selected the Personal Skill on that surface;
+- why the existing Work-handoff invariant did not result in a handoff without Human reconstruction.
 
-One gate remains: accept or reject merge of the PR #56 Candidate. Merge, installed-copy update and product-CI reconciliation are distinct effects and require separate authorization/readback.
+Do not answer these gaps by inferring provider internals or adding semantics already present.
+
+Use future ordinary genuine work as evidence only if the same boundary recurs. A future episode can establish Skill-selection or selected-method execution evidence only if activation is independently observable or otherwise specifically evidenced. One successful Work run cannot validate preceding Chat behavior or general continuity.
+
+## Current gate
+
+No merge or product-state action is authorized. PR #56 remains a draft evidence/current-state Candidate for Human review.

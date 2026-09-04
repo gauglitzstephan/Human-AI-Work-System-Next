@@ -9,8 +9,6 @@ Purpose: provide reusable methods for recurring System-Development work without 
 
 The Native ChatGPT runtime owns the episode. Load only the method(s) required by the current claim.
 
-Once a method is selected for a bound transformation, keep it controlling until its minimum outputs or stated stop condition are complete. New findings and local Human corrections update the smallest affected method state; they do not by themselves restart framing or substitute free-form work. Reframe or switch only when the bound claim materially changes or the method is no longer fit, preserving unaffected qualified state. The native runtime may adapt execution, but must not silently abandon or replace the selected method.
-
 ## Methods
 
 - **Requirements / architecture reasoning for this system** → `references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md`

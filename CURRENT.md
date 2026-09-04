@@ -115,12 +115,11 @@ The PR #51–#53 transition, capability-delta and `system-development` cutover c
 
 PR #55 subsequently changed the intended repository CI source to 5,000 characters and preserved two bounded semantic gains: justified quality constrains complexity minimization, and structuring an initial frame does not promote it to commitment. The Human-reported emergency product hotfix currently uses the prior 4,997-character payload. The continuing 2026-09-04 multi-turn failure under that hotfix is negative genuine-use evidence against treating PR #55 as a sufficient cause or rollback as a sufficient repair.
 
-The failed behavior is currently localized primarily as recovery/method-application unreliability: already-accessible qualified state did not reliably control the next action, and a selected `system-development` method was not kept controlling. Missed Chat→Work realization was a downstream failure; a broader native runtime/surface contribution remains possible. Repository source, installed identity, activation, behavior, professional fitness and outcome remain separate claims.
+The failed Chat behavior is currently localized primarily as recovery/continuation/handoff-application unreliability: already-accessible qualified state did not reliably control Chat's next action, authorized work did not reliably continue, and the already-established Work handoff was not produced without Human reconstruction. Repository or method content being accessible or manually read in Chat does not establish Personal-Skill selection/activation or method-controlled execution. The subsequent Work run is the first established move of this repair into Work and cannot be projected backward onto the preceding Chat episode. A broader native runtime/context/surface contribution remains possible. Repository source, installed identity, Skill activation, manual method access, method-controlled execution, Work execution, professional fitness and outcome remain separate claims.
 
 The next legitimate transitions are:
 
-1. review the bounded PR #56 Candidate; no merge is implied;
+1. review the bounded PR #56 evidence/current-state Candidate; no merge is implied;
 2. after any separately authorized merge, read back authoritative `main`;
-3. if repository `system-development` source changes, separately decide and authorize any installed-copy update, then read it back;
-4. reconcile the temporary CI product hotfix only through a separate product-state decision;
-5. recheck the failed claim in comparable genuine work without treating one successful run as general behavioral conformance.
+3. reconcile the temporary CI product hotfix only through a separate product-state decision;
+4. continue genuine work and treat any recurrence as bounded Chat recovery/continuation/handoff evidence unless stronger evidence establishes a different responsible mechanism.
