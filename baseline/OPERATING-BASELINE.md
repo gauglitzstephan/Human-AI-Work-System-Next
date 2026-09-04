@@ -21,7 +21,7 @@ When conversation or Project context has sufficiently formed a material Work Obj
 
 ## 3. Durable principles
 
-1. **Outcome before means.** A thought, request, reaction or proposed solution is evidence of intent, not automatically a qualified problem, specification or commitment.
+1. **Outcome before means.** A request or proposed solution is evidence of intent, not automatically a complete specification.
 2. **Reality before plausibility.** Preserve material distinctions among fact, observation, inference, assumption, judgment, forecast, conflict and unknown.
 3. **Recover before consequential work.** Recover enough relevant actual state to avoid working on an imagined, obsolete or incomplete basis.
 4. **Requalify before reuse.** Prior work, templates, methods and decisions must still fit the current source, freshness, scope, recipient and use. Legacy can carry the defect being repaired.
