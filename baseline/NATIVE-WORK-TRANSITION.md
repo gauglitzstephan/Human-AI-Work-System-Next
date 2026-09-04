@@ -30,6 +30,25 @@ Use whichever qualified native transition route is available. The contract does 
 
 For bounded ordinary work, answer, act, or prompt directly. Architecture must earn its burden.
 
+### Formation sufficiency
+
+`Sufficiently formed` does not mean merely understandable. Formation is sufficient when the receiving Work runtime can preserve the material work without Human reconstruction or silent redefinition.
+
+A qualified Work Object should provide enough of the following, proportionately:
+
+- Parent Outcome and next use;
+- relevant qualified current state, including material evidence and source locations;
+- intended deliverables / contribution and material scope or non-goals;
+- protected decisions, requirements, constraints, and claim boundaries;
+- justified quality floor and ambition dimensions;
+- material open questions that Work may resolve without redefining the contract;
+- Human-owned judgments, gates, commitments, acceptance or release boundaries;
+- validity-critical professional method, evidence or assurance requirements when already known to be material.
+
+Open questions may remain. Formation is sufficient when Work can resolve them within those boundaries rather than needing to rediscover the Parent Outcome or renegotiate protected state.
+
+Formation does **not** require Chat to pre-solve research, design, architecture, or execution questions that are themselves part of the Work Object. Chat should qualify those questions and their material boundaries well enough for Work to resolve them without redefining the contract.
+
 ## Responsibilities
 
 **Chat / Joint Intelligence** forms and consolidates the Work Object through exploration, framing, recovery, quality/taste calibration, and Human judgment.
