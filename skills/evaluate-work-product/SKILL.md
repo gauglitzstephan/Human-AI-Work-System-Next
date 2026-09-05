@@ -1,6 +1,6 @@
 ---
 name: evaluate-work-product
-description: Evaluate whether an identifiable intermediate or final work product is fit for a bounded recipient, intended use, handoff, readiness, or reliance claim—standalone or inside a larger Work episode when fitness materially affects the next step. Apply claim- and failure-mode-capable evaluation, using a narrower professional method when required. The Skill owns only the evaluation transformation; do not use for ordinary production without a material fitness claim or as a default completion gate.
+description: Evaluate whether an identifiable intermediate or final work product is fit for a bounded recipient, intended use, handoff, readiness, or reliance claim—for example whether it can be used, sent, relied on, or handed off—standalone or inside a larger Work episode when fitness materially affects the next step. Apply claim- and failure-mode-capable evaluation, using a narrower professional method when required. The Skill owns only the evaluation transformation. Do not use primarily for research, wider-option decision analysis, runtime diagnosis, creation or repair, authorization, ordinary production without a material fitness claim, or as a default completion gate.
 ---
 
 # Evaluate Work Product
