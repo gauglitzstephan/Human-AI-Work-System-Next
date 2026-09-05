@@ -1,7 +1,7 @@
 # Work Product Evaluation Method v0.2
 **Status:** cross-domain evaluation discipline; not a universal professional evaluation methodology.
 ## Purpose
-Determine whether an identifiable existing work product supports a bounded recipient, intended use or claim using methods capable of detecting its material failure modes.
+Determine whether an identifiable intermediate or final work product supports a bounded recipient, intended use, handoff, readiness or reliance claim using methods capable of detecting its material failure modes.
 ## 1. Bind the evaluation object
 Establish only as far as needed:
 - the exact work product;
@@ -38,7 +38,7 @@ Test material edge cases, counterexamples, alternative interpretations, fragile 
 These are selectable operations, not mandatory stages.
 ## 4. Route work that belongs elsewhere
 ### Evidence acquisition
-Use available adequate evidence directly. When obtaining or qualifying missing evidence becomes a material primary task, use `research-evidence` or another qualified research method.
+Use available adequate evidence directly. When obtaining or qualifying missing evidence becomes a material task, native research or another qualified specialist research method owns that transformation.
 ### Comparative work
 Products may be compared against the same bound criteria. Choosing among alternatives under wider trade-offs belongs to `decision-analysis`.
 ### Runtime, transition and outcome claims
@@ -135,4 +135,4 @@ Stop when:
 * remaining uncertainty is immaterial or represented by explicit limits; or
 * missing evidence or method prevents a stronger conclusion.
 
-Do not continue into research, repair, decision, authorization or outcome work without a separate task need and legitimate owner.
+This method stops at the evaluation boundary. The native episode may continue into research, repair, decision, authorization or outcome work when separately needed and legitimately owned; this method must not absorb those transformations or become a default completion gate.

@@ -1,26 +1,28 @@
 ---
 name: evaluate-work-product
-description: Evaluate whether an identifiable existing work product is fit for a bounded recipient, intended use, or reliance claim—for example “Can I use, send, rely on, or hand this off?”. Apply claim- and failure-mode-capable evaluation, using a narrower professional method when required. Do not use primarily to create or rewrite, research, choose among wider options, diagnose runtime behavior, authorize use, or impose a default completion gate.
+description: Evaluate whether an identifiable intermediate or final work product is fit for a bounded recipient, intended use, handoff, readiness, or reliance claim—for example whether it can be used, sent, relied on, or handed off—standalone or inside a larger Work episode when fitness materially affects the next step. Apply claim- and failure-mode-capable evaluation, using a narrower professional method when required. The Skill owns only the evaluation transformation. Do not use primarily for research, wider-option decision analysis, runtime diagnosis, creation or repair, authorization, ordinary production without a material fitness claim, or as a default completion gate.
 ---
 
 # Evaluate Work Product
 
-Determine whether an identifiable existing work product is professionally fit for a bounded recipient, intended use, or claim. Native ChatGPT owns the work episode; this Skill owns only the evaluation transformation.
+Determine whether an identifiable existing work product is professionally fit for a bounded recipient, intended use, handoff, readiness, or reliance claim. Native ChatGPT owns the work episode; this Skill owns only the evaluation transformation.
 
 Read `references/EVALUATE-WORK-PRODUCT-METHOD.md` for substantive evaluation.
 
 ## Activation boundary
 
-Bind the exact product and enough of its version or state to distinguish it from later changes. Bind the recipient, intended use, and evaluated claim; split materially different uses or claims.
+Bind the exact intermediate or final product and enough of its version or state to distinguish it from later changes. Bind the recipient, intended use, handoff, readiness, or reliance claim; split materially different uses or claims.
+
+The product may arise inside a larger research, design, planning, production, or execution episode. Dedicated evaluation is eligible when fitness for the bound claim materially affects the next step. Ordinary production without such a material fitness or reliance need does not trigger evaluation automatically.
 
 Use a narrower professional evaluation method when it fully owns the task. If no adequate method, criteria, or evidence basis exists, return `INSUFFICIENT_BASIS` or weaken the claim.
 
-Route elsewhere when the primary need is:
+Keep adjacent transformations with their current owners:
 
-- acquiring or qualifying missing evidence → `research-evidence`;
+- acquiring or qualifying missing evidence → native research or a qualified specialist research method;
 - choosing among alternatives under wider objectives, consequences, uncertainty, or trade-offs → `decision-analysis`;
 - diagnosing this system's runtime or transition behavior → `system-development`;
-- creating or repairing the product → Native ChatGPT or the relevant production method.
+- creating or repairing the product → Native ChatGPT, native Work, or the relevant production method.
 
 ## Essential invariants
 
@@ -49,4 +51,4 @@ These are evaluation dispositions, not Acceptance, Approval, Authorization, Comm
 
 ## Stop
 
-Stop when enough evidence supports the bounded disposition or when missing method, criteria, or evidence prevents one. Do not continue into research, repair, decision, authorization, or outcome work without a separate task need and legitimate owner.
+Stop this transformation when enough evidence supports the bounded disposition or when missing method, criteria, or evidence prevents one. Do not absorb research, repair, decision, authorization, or outcome work merely because the native episode continues, and do not turn evaluation into a universal completion gate.

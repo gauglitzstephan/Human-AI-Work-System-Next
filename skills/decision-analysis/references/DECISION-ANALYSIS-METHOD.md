@@ -103,7 +103,7 @@ Do not manufacture options merely to create symmetry. Do not rank alternatives w
 
 ## 4. Bind evidence and assumptions
 
-Use qualified evidence already available from Research, Evaluation or specialist methods.
+Use qualified evidence already available from native or specialist research, work-product evaluation, or other qualified methods.
 
 Distinguish:
 
@@ -292,4 +292,4 @@ If the user has legitimately delegated a routine decision within an authorized s
 
 Stop when the bounded recommendation is adequately supported, a reversible or conditional route responsibly contains remaining uncertainty, or the missing basis prevents a stronger result.
 
-Do not continue into evidence acquisition, product repair, strategy creation, project planning, execution or monitoring without a separate task need and legitimate owner.
+This method stops at the decision-analysis boundary. The native episode may continue into evidence acquisition, product repair, strategy creation, project planning, execution or monitoring when separately needed and legitimately owned; this method must not absorb those transformations.
