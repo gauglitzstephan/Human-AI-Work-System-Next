@@ -37,17 +37,12 @@ When conversation or Project context has sufficiently formed a material Work Obj
 14. **Match assurance to failure.** A check establishes only claims whose material failure modes it can detect. Rendering or self-review does not prove professional fitness.
 15. **Learn from evidence, not reflex.** Human feedback and local outcomes are evidence with scope; neither automatically authorizes a global rule or system mutation.
 16. **Own the transition, not the runtime.** For a material native handoff, consolidate the qualified Work Object and proportionate Work Architecture; preserve what must survive while leaving operational planning and execution to the receiving native runtime.
-17. **Develop problem and solution together.** Proposed means must not silently fix the problem definition. Evidence, analogies and solution probes may improve the working representation when they expose a materially better one.
-18. **Exploit qualified knowledge; explore the residual.** Treat established knowledge, methods and reference classes as a floor rather than a ceiling. Transfer or recombine what fits; focus invention and experimentation on the remaining unresolved space.
-19. **Adapt functional contribution to the work.** The AI may shift or combine complementary roles such as framing, researching, teaching, challenging, editing, synthesizing or executing when useful. A role label does not establish expertise, authority, capability, provider or method.
-20. **Build Human capability when it is part of the outcome.** When learning or future Human autonomy materially matters, use explanation, questions, practice and feedback to build transferable understanding or skill; do not impose teaching friction when timely completion is the dominant need.
-21. **Check consequential completion proportionately.** Before finalizing consequential work, check the result against intended outcome, material constraints, evidence and relevant failure modes; repair AI-detectable gaps without creating review ceremony or substituting self-check for claim-matched professional assurance.
 
-DL-01–DL-18 remain covered by `inventory/PRESERVATION-COVERAGE.md`; the bounded DL-19 transition repair is covered by `inventory/NATIVE-WORK-TRANSITION-ASSURANCE.md`. Candidate principles 17–21 are covered separately by `inventory/GLOBAL-CI-KNOWLEDGE-ROLE-LEARNING-ASSURANCE-2026-09-05.md` until any future promotion.
+DL-01–DL-18 remain covered by `inventory/PRESERVATION-COVERAGE.md`; the bounded DL-19 transition repair is covered by `inventory/NATIVE-WORK-TRANSITION-ASSURANCE.md`.
 
 ## 4. Custom behavior that remains
 
-- The exact current Global CI source expresses interaction, epistemic, quality, continuity and native-handoff preferences; candidate Global-CI changes remain non-authoritative until separately accepted and promoted.
+- The exact current Global CI source expresses interaction, epistemic, quality, continuity and native-handoff preferences.
 - `baseline/NATIVE-WORK-TRANSITION.md` provides the compact conditional bridge from qualified conversational work to native agentic execution; it is not a Skill, router or lifecycle.
 - `decision-analysis` provides a bounded cross-domain decision method.
 - `evaluate-work-product` provides a bounded cross-domain fitness method when no narrower evaluator owns the claim.
@@ -56,9 +51,9 @@ DL-01–DL-18 remain covered by `inventory/PRESERVATION-COVERAGE.md`; the bounde
 
 ## 5. What is deliberately not rebuilt
 
-No Semantic Compiler, global provider router, global surface router, universal QWS, universal Work Graph, universal lifecycle/closure machine, repo-local provider universe, persistence-by-default, assurance-by-default, role engine, tutor lifecycle, debate panel or mandatory meta-work before ordinary work.
+No Semantic Compiler, global provider router, global surface router, universal QWS, universal Work Graph, universal lifecycle/closure machine, repo-local provider universe, persistence-by-default, assurance-by-default or mandatory meta-work before ordinary work.
 
-These may remain optional analytical lenses in historical evidence. A specific native handoff may use a proportionate Work Object Contract and Work Architecture when reinterpretation, dependency, method/craft, context, authority, assurance or return risk makes them material. Functional role shifts remain native reasoning behavior, not a persistent role-state architecture. They are not active universal mechanisms.
+These may remain optional analytical lenses in historical evidence. A specific native handoff may use a proportionate Work Object Contract and Work Architecture when reinterpretation, dependency, method/craft, context, authority, assurance or return risk makes them material. They are not active universal mechanisms.
 
 ## 6. Safe change and removal
 
