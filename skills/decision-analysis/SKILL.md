@@ -1,6 +1,6 @@
 ---
 name: decision-analysis
-description: Analyze a sufficiently bounded material choice—standalone or inside a broader research, design, planning, or execution episode—with a known decision object, owner, intended outcome, and decision level. Compare viable options under objectives, constraints, consequences, uncertainty, risk, trade-offs, and information value. The Skill owns only the decision-analysis transformation. Do not use for open exploration without a bounded decision, same-use product evaluation, authorization, or to perform surrounding research, planning, or execution.
+description: Analyze a sufficiently bounded material choice—standalone or inside a broader research, design, planning, or execution episode—with a known decision object, owner, intended outcome, and decision level. Compare viable options—including no action, delay, staged commitment, or a reversible test—under objectives, constraints, consequences, uncertainty, risk, trade-offs, and information value. The Skill owns only the decision-analysis transformation. Do not use for open exploration without a bounded decision, same-use product evaluation, authorization, or to perform surrounding research, planning, or execution.
 ---
 
 # Decision Analysis
