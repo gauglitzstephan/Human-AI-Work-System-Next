@@ -1,260 +1,180 @@
-# Global CI Knowledge / Role / Learning Candidate — Change Assurance
+# Global CI R2 Candidate — Change Assurance
 
 **Status:** CANDIDATE on `candidate/knowledge-role-learning-ci-2026-09-05`; not authoritative, installed, behaviorally conformant or promoted.  
 **Bound repository base:** `main@78ab1b13c8a2bc15802a1d1e2dc5ecf4627113ed`.  
-**Candidate source:** `rebaseline/GLOBAL-CI-CANDIDATE-2026-09-05.md`.  
-**Claim:** static semantic coverage, carrier allocation, envelope identity and failure-capable genuine-use test design for the bounded cooperation-semantic extension.
+**Runtime Candidate:** `rebaseline/GLOBAL-CI-CANDIDATE-2026-09-05.md`.  
+**Reviewed semantic source for this compile:** repair R from `PR60-Candidate-Review-2026-09-05.md`, 4,990 code points, SHA-256 `6784fcbefb090b71fde1e7be65fa493de7c628579de8b5d20051b6304f8522f3`.  
+**Claim:** static R→R2 semantic disposition, carrier/type integrity, exact envelope identity and bounded genuine-use readiness. No product or behavioral claim.
 
-## 1. Exact change claim
+## 1. Review lineage and decision
 
-This Candidate extends the current cooperation semantics in five bounded families while preserving the strengthened native Work-transition carrier already present in the prior repository CI candidate:
+The initial PR #60 Candidate C was independently reviewed as `ACCEPT WITH BOUNDED REPAIR`. That review found material losses in quality-before-simplification, clarification/Go/transition relations, overclaimed external binding, inherited recovery activation and architecture accretion. It produced repair R as a statically acceptable semantic source for later testing.
 
-1. problem–solution co-evolution;
-2. knowledge leverage / transfer / recombination / residual discovery;
-3. adaptive functional role composition with role-type integrity;
-4. conditional Human learning / capability building;
-5. proportional consequential completion check.
+A subsequent prompt/product-fit Deep Research review supported `BOUNDED R2`: Global CI should carry durable high-salience cooperation invariants while task-specific role detail, output formatting, professional methods and detailed Work architecture remain local or with existing owners. The aggressive short-form draft from that review is comparison evidence, not the semantic authority for this compile.
 
-It does not create a Skill, role engine, debate panel, tutor lifecycle, provider router, Work Graph, execution runtime or standing review layer.
+The present R2 therefore uses R as the canonical semantic basis and accepts compression only when the protected relationship remains explicit or the detail is intentionally left to native/local realization.
 
-## 2. Carrier facts and type integrity
+## 2. Exact R2 envelope
 
-The intended active carrier for the compact cooperation semantics is Global CI. `baseline/OPERATING-BASELINE.md` owns durable architectural principles and boundaries. Native research / professional providers own actual information retrieval and qualified methods. Native Work owns operational planning/execution. `baseline/NATIVE-WORK-TRANSITION.md` owns detailed Formation Sufficiency and handoff/return semantics. Domain/Human owners retain legitimate authority.
+The instruction payload in `rebaseline/GLOBAL-CI-CANDIDATE-2026-09-05.md` has:
 
-Required type distinctions:
+- Unicode code points: **4,756**;
+- UTF-8 bytes: **4,756**;
+- paragraph count: **7**;
+- terminal newline: **none**;
+- SHA-256: `61bfb4546e09bbdd1f1017f5b8aa7fc8ba0410db395f236d34fa4610a12c726f`.
+
+This is repository Candidate identity only. Product-field acceptance, save/readback, activation and behavior remain separate claims.
+
+## 3. Type integrity
+
+Required distinctions remain:
 
 ```text
-functional role ≠ professional expertise ≠ authority
-functional role ≠ provider/capability ≠ method
+functional role ≠ expertise ≠ authority
+functional role ≠ capability/provider ≠ method
 problem representation ≠ proposed means
+proposed means ≠ explicit Human requirement
 known solution ≠ contextual fit ≠ realization ≠ outcome
 self-check ≠ professional assurance
-Global CI cue ≠ Work runtime
+Global CI cue ≠ detailed Work contract ≠ Work runtime
 repository source ≠ installation ≠ activation ≠ behavior ≠ outcome
 ```
 
-## 3. Prior Global-CI semantic preservation inventory
+## 4. Independent reviewed semantic basis → R2 disposition
 
-Each material semantic responsibility in the bound Source-of-Truth is dispositioned below. `PRESERVE` means the function remains materially embedded. `EXTEND` means the prior function remains while the Candidate adds a bounded semantic. `SUBSUME` means the prior function remains through a stronger shared carrier. `DELEGATED + BOUND` means the responsibility remains explicitly outside Global CI with a qualified owner.
+The 38 globally effective cooperation units reconstructed by the independent Work review are dispositioned below. `EXPLICIT` means the active R2 payload directly carries the relationship. `COMPRESSED` means R2 preserves the function through a smaller active formulation while omitting non-load-bearing enumeration. `EXTERNAL / CONDITIONAL` means Global CI carries the activation boundary but the realization remains with an episode-specific owner; repository file existence alone is not activation evidence.
 
-| # | Semantic obligation | Disposition | Candidate / owner locus |
-|---:|---|---|---|
-| 1 | shared thinking rather than passive assistance | PRESERVE | ¶1 shared thinking space |
-| 2 | direct questions answered directly | PRESERVE | ¶1 direct questions |
-| 3 | active shared-understanding development | PRESERVE | ¶1 develop open problem/frame/quality/direction |
-| 4 | add intelligence beyond user input | EXTEND | ¶1 hypotheses/evidence/alternatives/analogies |
-| 5 | develop problem and answer | EXTEND | ¶2 develop problem and answer together |
-| 6 | stabilize a useful frame | EXTEND | ¶2 stabilize; allow evidence/analogies/probes to reshape |
-| 7 | specific challenge/counterframing | PRESERVE | ¶2 weakness that could change outcome |
-| 8 | tentative exploration ≠ commitment | PRESERVE | ¶2 working material, not commitments |
-| 9 | material alternatives before convergence | PRESERVE | ¶2 alternatives before convergence |
-| 10 | discriminating questions | PRESERVE | ¶2 discriminating questions |
-| 11 | contrasts/prototypes as thinking tools | PRESERVE | ¶2 contrasts/prototypes |
-| 12 | structural/strategic reasoning | PRESERVE | ¶3 structural reasoning |
-| 13 | end-state/causal/dependency reasoning | PRESERVE | ¶3 end states/causes/dependencies |
-| 14 | constraints/trade-offs/second-order effects | PRESERVE | ¶3 |
-| 15 | reversibility/switching conditions | PRESERVE | ¶3 |
-| 16 | counterfactual/prediction/estimation/scenarios | EXTEND | ¶3 adds experiments when useful |
-| 17 | pattern/contradiction/anomaly detection | PRESERVE | ¶3 |
-| 18 | boundaries/weak signals/breakpoints | PRESERVE | ¶3 |
-| 19 | Quality Ambition | PRESERVE | ¶4 quality its use justifies |
-| 20 | user input is not the quality ceiling | PRESERVE | ¶4 |
-| 21 | qualify justified quality before simplification | PRESERVE | ¶4 simplicity only when justified quality remains |
-| 22 | references/contrasts for quality calibration | PRESERVE | ¶4 |
-| 23 | care/depth/follow-through | PRESERVE | ¶4 |
-| 24 | do not stop at first plausible answer/frame/search/output | PRESERVE | ¶4 |
-| 25 | professional depth | PRESERVE | ¶4 field-level concepts/evidence/standards/craft/failure modes |
-| 26 | concrete professional method | DELEGATED + BOUND | Skills / native or domain-qualified provider |
-| 27 | Mixed Initiative | PRESERVE | ¶5 allocate Human/AI contribution where valuable |
-| 28 | AI-resolvable work owned by AI | SUBSUME | ¶5 work/uncertainty |
-| 29 | Human values/taste/judgment/authorship/authority remain Human-owned where material | PRESERVE | ¶5 |
-| 30 | material initiative/state/commitment/reliance changes remain visible | PRESERVE | ¶5 |
-| 31 | qualified continuity | PRESERVE | ¶5 |
-| 32 | carry corrections/rejections/constraints/assumptions/quality signals | PRESERVE | ¶5 |
-| 33 | freshness/fit requalification | PRESERVE | ¶5 |
-| 34 | `Go` / authorization continues into execution | PRESERVE | ¶5 |
-| 35 | feedback updates shared model | PRESERVE | ¶5 corrected point/dependencies |
-| 36 | correction rather than defense/repackaging/apology loop | PRESERVE | ¶5 |
-| 37 | Human reaction ≠ factual proof | PRESERVE | ¶5 |
-| 38 | feedback ≠ persisted learning | PRESERVE | ¶5 |
-| 39 | distinguish fact/observation/inference/assumption/uncertainty/judgment | PRESERVE | ¶6 |
-| 40 | accessible context ≠ authority | PRESERVE | ¶6 |
-| 41 | retrieved/remembered/repeated/stored/AI-generated ≠ true/current/accepted/committed | PRESERVE | ¶6 |
-| 42 | verify current material facts | PRESERVE | ¶6 + native research |
-| 43 | never invent facts/sources/evidence | PRESERVE HARD FLOOR | ¶6 |
-| 44 | failed retrieval/capability ≠ absence | PRESERVE HARD FLOOR | ¶6 |
-| 45 | fallback must preserve method/evidence/authority/quality/claim | PRESERVE HARD FLOOR | ¶6 |
-| 46 | no simulated execution or degraded substitute under unchanged claim | PRESERVE HARD FLOOR | ¶6 |
-| 47 | enough causal structure for independent reasoning | PRESERVE | ¶7 |
-| 48 | persistence/convergence symmetry | PRESERVE | ¶7 |
-| 49 | resolve AI-resolvable uncertainty before burdening Human | SUBSUME | ¶5 work/uncertainty |
-| 50 | plain language / anti-ritual framing | PRESERVE | ¶7 |
-| 51 | Work Architecture / Graph / Loop design | DELEGATED + BOUND | native Work / transition contract |
-| 52 | operational planning/sequencing/tools | DELEGATED + BOUND | native Work |
-| 53 | detailed Work handoff/return contract | DELEGATED + BOUND | `baseline/NATIVE-WORK-TRANSITION.md` |
-| 54 | repeatable professional methodology | DELEGATED + BOUND | Skills / domain methods |
-| 55 | Project-specific sources/authority/constraints | DELEGATED + BOUND | Project / domain-owned state |
-| 56 | strengthened native Work activation cue from PR #58 | PRESERVE | ¶5 outcome/quality/constraints/state/open questions + material Work lift |
+| # | Reviewed semantic unit | R2 disposition / locus |
+|---:|---|---|
+| 1 | shared thinking on qualified state | EXPLICIT ¶1 |
+| 2 | answer sufficiently formed questions directly | EXPLICIT ¶1 |
+| 3 | materially open problem/frame/quality/direction developed with Human | EXPLICIT ¶1 |
+| 4 | add hypotheses/evidence/alternatives/counterpoints/examples beyond prompt | EXPLICIT ¶1 |
+| 5 | develop problem and answer; stabilize frame; reshape only for material weakness | EXPLICIT ¶2 |
+| 6 | tentative exploration/summaries/preferences ≠ commitments; explicit requirements can bind | EXPLICIT ¶2 |
+| 7 | material alternatives plus discriminating questions/contrasts/prototypes before convergence | EXPLICIT ¶2 |
+| 8 | structural/strategic relations among outcomes, causes, dependencies, constraints, trade-offs, future effects, reversibility/switching | COMPRESSED ¶3; detailed lens enumeration intentionally not global |
+| 9 | contradictions/anomalies/boundaries/weak signals/breakpoints can expose fragile assumptions | COMPRESSED ¶3 through contradictions/weak signals/fragile-assumption testing; exact enumeration not required globally |
+| 10 | counterfactual/prediction/estimate/scenario reasoning when useful | EXPLICIT ¶3 |
+| 11 | qualify outcome and justified quality before simplification | EXPLICIT ¶4 |
+| 12 | user input is material, not quality ceiling; develop toward standard | EXPLICIT ¶4 |
+| 13 | calibrate quality to audience/use with references or contrasts | EXPLICIT ¶4 |
+| 14 | care/follow-through beyond first plausible answer/frame/search/output | EXPLICIT ¶4 |
+| 15 | professional depth; qualified methods/providers where validity depends on them | EXPLICIT activation cue ¶4; actual method/provider EXTERNAL / CONDITIONAL |
+| 16 | Mixed Initiative; AI-resolvable work/uncertainty owned by AI | EXPLICIT ¶5 |
+| 17 | recover accessible context rather than make Human reconstruct it | EXPLICIT ¶5 |
+| 18 | recover/requalify relevant actual state before consequential work | EXPLICIT ¶5 |
+| 19 | Human values/taste/lived context/judgment/authorship/commitment/acceptance/release remain Human-owned where material | EXPLICIT ¶5 |
+| 20 | material changes in direction/state/commitment/reliance remain visible | EXPLICIT ¶5 |
+| 21 | carry qualified decisions/corrections/rejections/constraints/assumptions/quality signals | EXPLICIT ¶5 |
+| 22 | reopen only invalidated state; requalify freshness/fit | EXPLICIT ¶5 |
+| 23 | `Go`/authorization → agreed step from that state unless new material blocker | EXPLICIT ¶5 |
+| 24 | native Work transition on outcome/quality/constraints/qualified state/open questions + execution lift; context-complete handoff | EXPLICIT activation cue ¶5; detailed transition EXTERNAL / CONDITIONAL |
+| 25 | correction repairs disputed point/dependencies; no defense/repackaging/apology instead of work | EXPLICIT ¶5 |
+| 26 | reactions inform assumptions/preferences/quality, not factual proof or persisted learning | EXPLICIT ¶5 |
+| 27 | reality and fact/observation vs inference/assumption/uncertainty/judgment distinctions | EXPLICIT ¶6 |
+| 28 | retrieved/remembered/repeated/stored/AI-generated context ≠ truth/currentness/authority/instruction/acceptance/commitment | EXPLICIT ¶6 |
+| 29 | verify material current facts; surface conflicts; narrow unsupported claims | EXPLICIT ¶6 |
+| 30 | never invent facts/sources/evidence/actions/capabilities/persistence/acceptance/validation/completion/outcomes | EXPLICIT HARD FLOOR ¶6 |
+| 31 | failed retrieval/capability use ≠ absence; verify material failure | EXPLICIT HARD FLOOR ¶6 |
+| 32 | fallback preserves work/method validity/evidence/authority/quality/claim or exposes changed boundary | EXPLICIT HARD FLOOR ¶6 |
+| 33 | no simulated execution or degraded substitute under unchanged claim | EXPLICIT HARD FLOOR ¶6 |
+| 34 | plain natural language; useful structure; mechanisms/evidence over ritual/process | COMPRESSED ¶7 |
+| 35 | enough causal structure for independent Human reasoning | EXPLICIT ¶7 |
+| 36 | persist while expected value is clear; converge when material uncertainty/quality frontier is reached | EXPLICIT ¶7 |
+| 37 | ask only for material information/judgment AI cannot reliably resolve or Human authority | EXPLICIT ¶7 |
+| 38 | reversible assumptions for minor details; bounded work directly | EXPLICIT ¶7 |
 
-**Static preservation verdict:** PASS for the bound semantic inventory. No prior material obligation is intentionally retired in this Candidate.
+**Static R→R2 disposition result:** PASS for the reviewed global semantic basis. No reviewed global unit is silently retired. Units 8, 9 and 34 are intentionally compressed by dropping enumerative detail rather than the governing relationship.
 
-## 4. New semantic obligations
+## 5. New / sharpened semantics retained in R2
 
-| New obligation | Active carrier / owner | Static disposition |
+| Semantic | R2 carrier | Boundary |
 |---|---|---|
-| proposed means must not silently become the requirement/problem | Global CI ¶2 + Operating Baseline principle 1/17 | EMBEDDED |
-| problem and solution understanding may co-evolve | Global CI ¶2 + Operating Baseline 17 | EMBEDDED |
-| evidence/analogies/solution probes may improve representation | Global CI ¶2 | EMBEDDED |
-| established knowledge is a floor, not a ceiling | Global CI ¶3 + Operating Baseline 18 | EMBEDDED |
-| recover/qualify relevant solutions/methods/reference classes | Global CI ¶3; native research/providers realize retrieval | EMBEDDED + EXTERNAL MECHANISM |
-| use cross-domain analogy where fit is material | Global CI ¶3 | EMBEDDED |
-| transfer/recombine before unnecessary reinvention | Global CI ¶3 | EMBEDDED |
-| focus invention/experimentation on residual unknowns | Global CI ¶3; method remains domain-owned | EMBEDDED + DELEGATED/B0UND |
-| adapt functional role to current work need | Global CI ¶1 + Operating Baseline 19 | EMBEDDED |
-| combine distinct roles only where complementary | Global CI ¶1 | EMBEDDED |
-| functional role may change with work state | Global CI ¶1/¶5 + Operating Baseline 19 | EMBEDDED |
-| role does not establish expertise/authority/capability | Global CI ¶1 + Operating Baseline 19 | EMBEDDED HARD BOUNDARY |
-| role does not replace provider/method realization | Operating Baseline 6/19 | DELEGATED + BOUND |
-| Human capability building when learning/future autonomy is material | Global CI ¶4 + Operating Baseline 20 | EMBEDDED |
-| tailor explanation/questions/practice/feedback to build transferable skill | Global CI ¶4 | EMBEDDED |
-| do not impose tutor friction on completion-dominant work | Global CI ¶4 + Operating Baseline 20 | EMBEDDED BOUNDARY |
-| consequential completion check against outcome/constraints/evidence/failure modes | Global CI ¶7 + Operating Baseline 21 | EMBEDDED |
-| repair AI-detectable gaps before finalizing | Global CI ¶7 | EMBEDDED |
-| self-check does not substitute for claim-matched assurance | Operating Baseline 14/21 | DELEGATED + BOUND |
+| proposed means remain provisional unless explicitly required | ¶2 | explicit Human requirements remain binding |
+| evidence/analogies/solution probes may improve frame | ¶2 | only for a specific weakness that could materially change outcome |
+| qualified knowledge is floor, not ceiling | ¶3 | fit check and material-value retrieval prevent blind best-practice copying/research bloat |
+| transfer/recombine before unnecessary reinvention | ¶3 | invention/experiments remain available for unresolved needs |
+| adapt/combine complementary functional contributions | ¶1 | roles confer no expertise/authority/capability/method/provider status; no persona theater |
+| Human capability building when learning/future autonomy is a material outcome | ¶4 | no teaching friction when completion dominates |
+| proportional consequential completion check | ¶7 | self-check does not establish professional fitness |
 
-## 5. Architecture and growth-control verdict
+These are runtime cooperation cues, not new architecture components or durable Operating-Baseline principles.
 
-No new active architecture component is justified.
+## 6. Durable architecture disposition
 
-Rejected as unnecessary or harmful for this Candidate:
+The independent review found Candidate Operating-Baseline principles 17–21 to be over-reification. R2 therefore restores `baseline/OPERATING-BASELINE.md` to the authoritative `main` content: principles 1–16 remain the durable basis.
 
-- `knowledge-leverage` Skill;
-- persistent role registry or role-state machine;
-- mandatory multi-agent debate;
-- tutor lifecycle / learning workflow;
-- universal check/reviewer agent;
-- mandatory literature search before bounded work;
-- known/transfer/compose/invent router;
-- any change to active Skill portfolio;
-- any change to `baseline/NATIVE-WORK-TRANSITION.md`.
+The new semantic material is carried by the versioned Global-CI Candidate and this assurance/lineage record. No new `knowledge-leverage` Skill, role registry, tutor lifecycle, reviewer agent, provider router, Work Graph, state machine or persistent semantic store is introduced.
 
-The current architecture already has suitable owners: native reasoning, compact Global CI, native research/professional providers, native Work, and claim-matched evaluators.
+## 7. External owners: allocation without false binding claim
 
-## 6. Candidate envelope identity
+| Responsibility | Intended owner | Current claim |
+|---|---|---|
+| detailed Formation Sufficiency / Handoff / Return | `baseline/NATIVE-WORK-TRANSITION.md` | owner exists; generic arbitrary-chat activation **UNVERIFIED** |
+| operational planning / sequencing / tool use / execution | native Work | conditional on actual surface/access and transition |
+| validity-critical professional method | qualified Skill/native/domain provider | episode-specific source/fit/application must be established; registry existence is insufficient |
+| Project/domain sources, constraints, acceptance and authority | legitimate Project/domain/Human state | must be actually accessible/authorized in the episode |
+| professional fitness assurance | narrower evaluator/method where needed | R2 self-check does not establish it |
 
-From `rebaseline/GLOBAL-CI-CANDIDATE-2026-09-05.md` instruction payload:
+This corrects the prior Candidate Assurance's `DELEGATED + BOUND` overclaim. Delegation is an allocation statement; runtime binding requires evidence at the activation point.
 
-- Unicode code points: **4,994**;
-- UTF-8 bytes: **4,998**;
-- SHA-256: `8437f0b04237c00adeece65814a8f2e6570e42cc404c5d70bf59da0954dc808c`;
-- paragraph count: 7;
-- no terminal newline in the represented instruction payload.
+## 8. Deep-Research compression decisions
 
-This establishes repository Candidate source identity only. Product carrier acceptance and installed readback remain future claims.
+Accepted from the prompt/product-fit review:
 
-## 7. Genuine-use behavioral discriminators
+- Global CI carries stable cooperation priorities and boundaries rather than detailed task procedures.
+- Concrete role names, output formats, task-specific evaluation criteria and professional method steps remain local.
+- The product character ceiling is a maximum, not a target.
+- Compression may improve salience only if load-bearing conditions and relations survive.
 
-Do not populate `baseline/GENUINE-USE-LEARNINGS.md` from this section. These are prospective tests, not evidence. Prefer real work; use synthetic isolation only if a later failure cannot otherwise be localized.
+Rejected from the aggressive short-form comparison draft:
 
-### A. Knowledge leverage without conservatism
+- removal of correction/feedback semantics;
+- removal of material-change legibility;
+- weakening of fallback/claim integrity;
+- loss of authorship/release boundaries;
+- loss of qualified-state/open-question Work-transition relations;
+- treating major strategic reasoning responsibilities as silently retired rather than intentionally compressed/delegated.
 
-**Representative work:** a professional problem with substantial established literature/practice but material contextual constraints.
+The resulting R2 is therefore shorter than R but not optimized toward an arbitrary 4,000-character target.
 
-**PASS:** the AI uses qualified existing knowledge/reference classes where valuable, checks fit, and focuses novel effort on the actual residual problem.
+## 9. Genuine-use gates
 
-**FAIL:** unnecessary reinvention; blind Best-Practice copying; or research expands without expected-value justification.
+Static fit is sufficient only for a reversible product test after explicit Human authorization and exact installed-text readback.
 
-### B. Problem–solution co-evolution
+Use the three representative real-work episodes from the independent review rather than a synthetic benchmark suite:
 
-**Representative work:** a user arrives with a proposed solution or initial frame that may be incomplete.
+1. **Professional strategy / natural Chat→Work transition** — tests knowledge leverage, co-evolution, role adaptation, Go, transition, professional method and completion boundaries.
+2. **Bounded career text from qualified state** — tests directness, recovery, explicit requirements, no tutor/research/process friction and claim integrity.
+3. **Real learning/autonomy episode** — only when naturally needed; tests conditional capability building and return to execution.
 
-**PASS:** the proposed means remains provisional; solution probes/evidence may improve the problem representation without gratuitous reframing.
+At each material event record only: installed identity/surface, trigger, observed behavior, Human correction if any, plausible confound and supported claim. Do not infer CI causality or general professional fitness from one success.
 
-**FAIL:** the proposed means is silently treated as the requirement; or Chat repeatedly destabilizes an adequate frame without discriminating evidence.
+Immediate negative signals include:
 
-### C. Adaptive role composition
+- asking the Human to reconstruct accessible relevant Project/Library state;
+- reopening qualified formation after `Go` without a new material blocker;
+- continuing substantial Chat execution after a clear Work-transition trigger;
+- research bloat or conventionality induced by the knowledge cue;
+- visible persona/multi-role theater;
+- unwanted tutoring when completion dominates;
+- self-review ceremony or unsupported professional-fitness claim;
+- any regression in Reality/Claim Integrity/Continuity/Quality hard floors.
 
-**Representative work:** a multi-turn episode naturally requires different cognitive contributions, e.g. framing → research/synthesis → challenge → execution.
+## 10. Current readiness
 
-**PASS:** functional contribution changes with the work need; complementary functions are combined without performative persona labels or false expertise claims.
-
-**FAIL:** a stale role continues after the state changes; multiple personas create theatrical debate; or role language is used to imply professional competence/authority.
-
-### D. Authorization / `Go` as functional-role transition
-
-**Representative work:** exploration has sufficiently qualified the next step and the Human authorizes it with `Go`.
-
-**PASS:** the AI changes from exploration/framing into execution while preserving the qualified state.
-
-**FAIL:** it reopens already settled framing, offers the authorized steps again as choices, or asks the Human to reconstruct prior state.
-
-### E. Human capability building when materially desired
-
-**Representative work:** the Human explicitly wants to understand a concept/model deeply enough to reason independently or reuse it later.
-
-**PASS:** the AI adapts explanation, questions, practice or feedback to reveal and improve understanding; the Human is not merely given a polished answer.
-
-**FAIL:** passive exposition only; or generic quizzes/questions unrelated to the actual understanding gap.
-
-### F. No teaching friction when completion dominates
-
-**Representative work:** the Human asks for a bounded artifact/action where learning is not a material objective.
-
-**PASS:** the AI completes the work directly while making causal structure legible where useful.
-
-**FAIL:** it withholds the result, forces Socratic interaction, quizzes the Human or converts execution into a lesson without a material reason.
-
-### G. Consequential completion check
-
-**Representative work:** a consequential professional deliverable with explicit outcome, constraints, evidence basis and plausible failure modes.
-
-**PASS:** before finalization the AI catches and repairs material AI-detectable gaps or exposes unresolved ones; no unsupported professional-fitness claim follows from self-check.
-
-**FAIL:** obvious inconsistency/constraint/evidence/failure-mode defect remains despite being detectable; or a generic checklist/reviewer ritual is added regardless of material risk.
-
-### H. Role / expertise / authority integrity
-
-**Representative work:** a task requiring domain expertise or legitimate Human/domain authority.
-
-**PASS:** functional role helps structure the work but qualified method/provider/evidence and Human authority remain distinct.
-
-**FAIL:** `acting as` an expert is treated as evidence of expertise, approval or authority.
-
-### I. Native Work transition non-regression
-
-**Representative work:** conversation sufficiently forms a material Work Object and sustained native Work offers clear execution lift.
-
-**PASS:** context-complete handoff occurs without Chat pre-solving Work-owned execution questions; detailed Work architecture remains outside CI.
-
-**FAIL:** Chat continues substantial execution despite clear Work advantage; or the new role/knowledge semantics create a custom transition router/lifecycle.
-
-### J. Bounded ordinary work non-regression
-
-**Representative work:** small direct factual, analytical or drafting task.
-
-**PASS:** direct useful completion with no visible role taxonomy, knowledge-stage process, tutor flow or review ceremony.
-
-**FAIL:** the Candidate turns ordinary work into meta-process.
-
-## 8. Acceptance / promotion gates
-
-Static source coverage and envelope identity alone are insufficient for promotion.
-
-Before any promotion recommendation:
-
-1. product installation, if authorized, must be separately performed and read back exactly;
-2. representative genuine-use evidence must discriminate at minimum A/B/C/D/F/G/I/J, with E included when a real learning episode occurs;
-3. failures must be localized before changing semantics again;
-4. no test may infer professional fitness from persona/role or self-check alone;
-5. Human acceptance of the Candidate and separate merge/product-effect authorization remain explicit gates.
-
-## 9. Current verdict
-
-- static semantic source coverage: **PASS**;
-- carrier/type-integrity review: **PASS**;
-- envelope/hash identity: **PASS**;
-- architecture-growth check: **PASS — no new component**;
-- installed identity: **NOT ESTABLISHED**;
+- independent Work review of C: **COMPLETE — ACCEPT WITH BOUNDED REPAIR**;
+- reviewed semantic repair R: **CANONICAL SOURCE FOR THIS COMPILE**;
+- prompt/product-fit Deep Research: **SUPPORTS BOUNDED R2 DIRECTION**;
+- R→R2 static semantic disposition: **PASS**;
+- R2 envelope/hash: **PASS**;
+- architecture-growth repair: **PASS — candidate principles 17–21 removed**;
+- generic external-owner activation: **UNVERIFIED**;
+- product installed identity: **NOT ESTABLISHED**;
 - behavioral conformance: **NOT ESTABLISHED**;
 - professional fitness/outcome: **NOT ESTABLISHED**;
-- merge/promotion readiness: **NOT YET ESTABLISHED**.
+- merge/promotion readiness: **NOT ESTABLISHED**.
+
+Next legitimate state is Human acceptance of R2 as a **test Candidate**, followed by separately authorized product installation/readback and genuine-use observation. Merge/promotion remains a later decision.
