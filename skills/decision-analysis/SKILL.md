@@ -1,6 +1,6 @@
 ---
 name: decision-analysis
-description: Analyze a sufficiently bounded material choice with a known decision object, owner, intended outcome, and decision level. Compare viable options—including no action, delay, staged commitment, or a reversible test—under objectives, constraints, consequences, uncertainty, risk, trade-offs, and information value. Do not use for open exploration, missing-basis formation, same-use product evaluation, research, planning, authorization, or execution.
+description: Analyze a sufficiently bounded material choice—standalone or inside a broader research, design, planning, or execution episode—with a known decision object, owner, intended outcome, and decision level. Compare viable options under objectives, constraints, consequences, uncertainty, risk, trade-offs, and information value. The Skill owns only the decision-analysis transformation. Do not use for open exploration without a bounded decision, same-use product evaluation, authorization, or to perform surrounding research, planning, or execution.
 ---
 
 # Decision Analysis
@@ -13,13 +13,15 @@ Read `references/DECISION-ANALYSIS-METHOD.md` for substantive analysis.
 
 The decision object, Decision Owner, intended outcome, and material decision level must be sufficiently bound. The option set may still need to be formed.
 
-Route elsewhere when the primary need is:
+A bounded material decision may be one transformation inside a broader research, design, planning, or execution episode. Surrounding work does not disqualify activation and does not become this Skill's scope. Use the decision result in the continuing native episode when appropriate.
 
-- an open frame, opportunity, solution class, or creative direction → `adaptive-exploration`;
-- a blocking missing basis that could redefine the decision or required method → `work-formation`;
-- acquiring or qualifying material evidence → `research-evidence`;
+Keep adjacent transformations with their current owners:
+
+- an open frame, opportunity, solution class, or creative direction without a bounded decision → Native ChatGPT or a narrower exploration, strategy, or design method;
+- a blocking missing basis that could redefine the decision or required method → the native episode or the relevant specialist method;
+- acquiring or qualifying material evidence → native research or a qualified specialist research method;
 - evaluating identifiable work products against the same recipient, use, or criteria → `evaluate-work-product`;
-- implementation planning or execution → Native ChatGPT or the relevant specialist method.
+- implementation planning or execution → native Work or the relevant specialist method.
 
 Use a narrower qualified decision method when domain validity depends on one.
 
@@ -54,6 +56,6 @@ Name the relevant option, condition, or missing basis. These are analytical reco
 
 ## Stop
 
-Stop when the bounded recommendation is adequately supported, a conditional or reversible route responsibly contains remaining uncertainty, no robust preference exists, or missing evidence, method, or non-substitutable Human input prevents a stronger result.
+Stop this transformation when the bounded recommendation is adequately supported, a conditional or reversible route responsibly contains remaining uncertainty, no robust preference exists, or missing evidence, method, or non-substitutable Human input prevents a stronger result.
 
-Do not continue into research, product evaluation, planning, implementation, authorization, or governance merely because further work is possible.
+Do not absorb research, product evaluation, planning, implementation, authorization, or governance merely because the native episode continues into those transformations.
