@@ -5,7 +5,7 @@
 
 ## Purpose
 
-Move sufficiently formed material work from conversational Joint Intelligence into a materially better native execution surface without losing intent, qualified state, professional method/craft, Human authority, or claim boundaries.
+Move material work from one conversational environment into a more suitable native environment without losing intent, qualified state, professional method/craft, Human authority, or claim boundaries.
 
 ```text
 qualified conversational state
@@ -18,6 +18,8 @@ qualified conversational state
 
 ChatGPT Work or another qualified native surface owns operational planning and execution. This repository owns only the transition semantics that must survive the handoff.
 
+Direct Work entry is independently legitimate, including an unfinished situation whose next useful contribution is goal, question, scope or frame formation. Work can provide Joint Intelligence, research and exploration as well as production. This contract applies when a cross-surface handoff occurs; it does not impose Chat formation before Work. Protected existing meaning must transfer, while an open goal or decision must remain open.
+
 ## Activation
 
 Use this contract when:
@@ -29,6 +31,22 @@ Use this contract when:
 Use whichever qualified native transition route is available. The contract does not depend on a particular button, menu action, or thread-conversion affordance.
 
 For bounded ordinary work, answer, act, or prompt directly. Architecture must earn its burden.
+
+### Product-configuration preflight
+
+Before relying on a transition, distinguish and verify only the material links in this chain:
+
+`documented feature → account eligibility → surface visibility → access/permission → activation/load → correct execution → professional effectiveness`
+
+In particular:
+
+- do not assume that Chat, Work, Skills, tools, apps, files, memory, or Project context are mutually available merely because each exists somewhere in the product;
+- current official product documentation says Projects may contain both Chat and Work, but also says **ChatGPT Work is not available when the Project uses project-only memory**; verify the actual Project configuration and surface;
+- Project Instructions override Global Custom Instructions, so the receiving Project must carry its own essential cooperation semantics when Project Instructions are used;
+- this Human has established Personal Skill use in Work, not ordinary Chat activation;
+- no universally reliable automatic context-preserving Chat→Work conversion is established for this Human; absence of one affordance does not prove that Work is unavailable.
+
+When a preferred route is unavailable, select a fallback only if it preserves the Work Object, method validity, evidence, authority, quality, and claim. Otherwise expose the changed boundary and ask for the smallest necessary Human action.
 
 ### Formation sufficiency
 
@@ -51,9 +69,9 @@ Formation does **not** require Chat to pre-solve research, design, architecture,
 
 ## Responsibilities
 
-**Chat / Joint Intelligence** forms and consolidates the Work Object through exploration, framing, recovery, quality/taste calibration, and Human judgment.
+**Originating Chat or Work** consolidates the shared basis through exploration, framing, recovery, quality/taste calibration and Human judgment. If the next contribution is to form the basis, that is a legitimate handoff outcome rather than a reason to pre-solve it.
 
-**Native Work runtime** owns executable planning, local decomposition, sequencing, provider/tool use, iteration, repair, integration, and production within the handoff.
+**Native Work runtime** can continue inquiry, goal/scope/frame formation and exploration, and owns executable planning, local decomposition, sequencing, provider/tool use, iteration, repair, integration, and production within the handoff.
 
 **Human / legitimate domain owner** retains purpose, values, material trade-offs, taste, decision, commitment, release, and authoritative persistence where material.
 
@@ -94,6 +112,20 @@ What Work may adapt or repair; what it may not redefine; which actions or writes
 
 Return the Work Product plus actual work, methods/providers/tools/sources used, checks and findings, repairs and unresolved defects, material deviations, actions/writes/readbacks, exact supported readiness, and required Human contribution or next frontier.
 
+### Portable handoff when native transfer is unavailable
+
+ChatGPT should normally compile the six-section handoff from qualified shared state. The Human may inspect or edit protected boundaries, but should not have to reconstruct the state or select the execution method manually.
+
+If no reliable native transition preserves the context:
+
+1. compile a self-contained handoff at the justified density;
+2. identify source files/links and state versions that cannot travel inside the text;
+3. have the Human copy the handoff or attach the package to a new Work chat;
+4. require Work to verify access assumptions before relying on them;
+5. retain the originating conversation or Project as the parent state for later reconciliation.
+
+Prompt length is not an optimization objective. Omit repeated architecture prose, but retain every material fact, decision, rejection, requirement, method, quality, authority, assurance, and return boundary needed to prevent rediscovery or reinterpretation.
+
 ## Forming Work Architecture
 
 Do not begin with agent personas. Begin with the work.
@@ -131,7 +163,7 @@ Work must return before materially changing:
 - quality floor or accepted strategy, design direction, voice, or meaning;
 - a validity-critical professional method;
 - material budget, consequence, permission, or authority;
-- external or irreversible state;
+- external or irreversible effects beyond existing legitimate authorization, or a material change in their disclosed consequences;
 - a Human Decision or Release Gate.
 
 Execution fulfills and operationally refines the contract; it does not silently redefine it.
@@ -150,6 +182,19 @@ intended architecture
 ```
 
 The receipt supports observability, reintegration, and bounded learning. It is not a deterministic trace, independent assurance, or proof of professional fitness.
+
+## Parent reintegration
+
+A Work return is a proposed state delta, not a new controlling parent.
+
+1. Rebind the originating Parent Outcome, next use, protected state, and current gate.
+2. Compare the returned product and receipt with the handoff rather than accepting the latest output by recency.
+3. Separate supported additions, conflicts, deviations, unresolved defects, and claims that remain unverified.
+4. Repair the disputed point and dependent conclusions without reopening unaffected qualified state.
+5. Request Human judgment only for material values, taste, inaccessible expertise/context, acceptance, commitment, authorization, or release.
+6. Update exactly the state class earned: conversation/Project working state, authoritative external state through its legitimate write/readback path, or accepted reusable Knowledge Capital.
+
+When the parent and Work live in separate chats or surfaces, Work should return a portable package and the Human may perform the mechanical copy. The system must compile both sides so that this sensible product action does not become Human state reconstruction.
 
 ## State and authority
 

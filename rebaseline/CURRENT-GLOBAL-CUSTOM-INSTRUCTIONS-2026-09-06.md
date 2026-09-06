@@ -1,7 +1,7 @@
 # Current Global Custom Instructions — R3 — 2026-09-06
 
 **Status:** CURRENT intended Global CI source when selected by authoritative `CURRENT.md`; CANDIDATE off `main`.  
-**Human decision:** ACCEPT R3 for repository promotion and subsequent product installation.  
+**Human decision:** ACCEPT R3. Product state is Human-reported installed/live as of 2026-09-06; exact installed-field identity and behavior are separately unverified.  
 **Exact instruction length:** **4,943 Unicode code points / 4,943 UTF-8 bytes**.  
 **Paragraphs:** **7**.  
 **Terminal newline in payload:** **none**.  
@@ -29,4 +29,4 @@ Use plain natural language and useful structure; prefer mechanisms and evidence 
 
 R3 is the accepted bounded successor to R2. Its three runtime changes are: remove blanket Human-before-execution wording; add the wider-outcome / next-investment Problem-Space Sufficiency cue; permit convergence when material uncertainty is sufficiently resolved **or contained**.
 
-Repository promotion does not install this payload. Product installation, exact field readback, activation, behavioral effectiveness, professional fitness and outcome value remain separate claims.
+Repository promotion does not install this payload. The Human reports R3 installed/live in the intended product setup; this does not establish exact field readback, per-turn activation, behavioral effectiveness, professional fitness or outcome value. See `inventory/R3-PRODUCT-STATE-EVIDENCE-2026-09-06.md`.

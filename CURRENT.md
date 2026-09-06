@@ -2,7 +2,7 @@
 
 **Repository state:** PROMOTED CURRENT when read from authoritative `main`; CANDIDATE on any branch or PR  
 **Repository identity rule:** resolve authoritative `main` at read time; this file selects current sources and does not bind `main` to a permanent SHA  
-**External product state:** separate from repository promotion; this package does not install or verify ChatGPT product settings
+**External product state:** separate from repository promotion; R3 is Human-reported installed/live, but exact product-field identity, activation and effectiveness are not independently verified
 
 ## Purpose
 
@@ -21,7 +21,10 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 | Repository state / current package | `CURRENT.md` |
 | Carrier-independent cooperation semantics | `baseline/CANONICAL-JOINT-WORK-SEMANTICS.md` |
 | Product model / operating allocation / customization economy | `baseline/OPERATING-BASELINE.md` |
+| Complete Human-facing product/carrier realization | `baseline/HUMAN-AI-WORK-OPERATING-REALIZATION.md` |
 | Native Chat/Project → Work transition | `baseline/NATIVE-WORK-TRANSITION.md` |
+| Exact Project Instructions candidate | `baseline/PROJECT-INSTRUCTIONS-CANDIDATE.md` |
+| Optional sparse Project working-state template | `baseline/PROJECT-CURRENT-TEMPLATE.md` |
 | Exact intended Global CI source | `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md` |
 | System learning | `baseline/SYSTEM-LEARNING.md` |
 | Genuine-use learning record | `baseline/GENUINE-USE-LEARNINGS.md` |
@@ -29,6 +32,12 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 | Skill source/deployment boundary | `skills/DEPLOYMENT-CONTRACT.md` |
 | Current preservation/non-regression map | `inventory/PRESERVATION-COVERAGE.md` |
 | Promotion/readback receipt for this package | `inventory/JOINT-WORK-R3-PROMOTION-RECEIPT-2026-09-06.md` |
+| Concrete operating playbook and full function contracts | `baseline/PROFESSIONAL-WORK-PLAYBOOK.md` |
+| Reconciled source/product/portfolio evidence | `inventory/RUNTIME-REALIZATION-RECONCILIATION-2026-09-06.md` |
+| Complete Requirement Master | `inventory/REQUIREMENT-MASTER-2026-09-06.md` |
+| Requirement/product/runtime regression evidence | `inventory/QUALIFIED-REQUIREMENT-REGRESSION-2026-09-06.md` |
+| Operating-realization assurance / acceptance boundary | `inventory/OPERATING-REALIZATION-ASSURANCE-2026-09-06.md` |
+| R3 product-state evidence | `inventory/R3-PRODUCT-STATE-EVIDENCE-2026-09-06.md` |
 | Historical boundary | `legacy/README.md` |
 
 No other file is current system authority merely because it has a newer-looking name, an old promotion label or executable-looking instructions.
@@ -39,7 +48,7 @@ The exact intended repository source is:
 
 `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md`
 
-Human decision: **ACCEPT R3** for repository promotion and subsequent product installation.
+Human decision: **ACCEPT R3**. The Human reports R3 installed/live in the intended ChatGPT setup.
 
 Exact R3 payload identity:
 
@@ -49,7 +58,7 @@ Exact R3 payload identity:
 - terminal newline: **none**
 - SHA-256: `e5de13b5989590959829ae12207f1269f691603d3c4f99568b4f68101be20985`
 
-Repository promotion does **not** install this payload. The Human intends to install the CI product state after repository promotion. No post-R3 product-field readback has occurred in this repository promotion, so effective installed identity, activation and behavior remain unverified.
+Repository promotion does **not** install this payload. Human-reported installation establishes neither exact product-field identity nor per-turn activation, semantic conformance, professional effectiveness, use, outcome or value. No independent post-R3 product-field readback is recorded; see `inventory/R3-PRODUCT-STATE-EVIDENCE-2026-09-06.md`.
 
 The previously action-bearing September 3 CI source and R2 Candidate are explicitly superseded and must not be installed.
 
@@ -93,11 +102,13 @@ These are transformations, not a lifecycle or Skill topology. For substantial ag
 
 ## Active custom methods
 
-Only three custom Skills remain active because their methods are sufficiently differentiated:
+The three base custom methods remain unchanged:
 
 - `decision-analysis` — bounded material decisions under objectives, uncertainty, downside and option value;
 - `evaluate-work-product` — recipient/use/failure-mode-capable fitness evaluation;
 - `system-development` — exact recovery, failure localization, semantic regression, promotion/readback and genuine-use evaluation for this system.
+
+This Candidate also integrates revised `work-formation` v0.7 and `adaptive-exploration` v0.2 from the exact separately prepared restoration Candidate. They are optional methods inside Work. `research-evidence` stays demoted. Repository source integration does not install Personal Skills.
 
 Skills are method providers, not Work Functions, stages or the complete provider universe.
 
@@ -120,8 +131,8 @@ Working context, memory, retrieval and stored copies do not gain authority merel
 
 The repository package is current once this file and all selected sources are present on authoritative `main` after readback.
 
-The next external transition is intentionally simple:
+The next external transitions are intentionally bounded:
 
-1. Human installs the exact R3 payload from `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md` in the intended ChatGPT Global Custom Instructions field.
-2. Product installation identity/readback is recorded separately if verification is desired.
-3. Resume genuine professional use. Record only decision-relevant behavioral evidence; do not reopen architecture without a material failure or supported improvement opportunity.
+1. For a persistent Project that uses Project Instructions, the Human may install the exact Project payload from `baseline/PROJECT-INSTRUCTIONS-CANDIDATE.md`, add a sparse `PROJECT-CURRENT` source when continuity risk earns it, and verify the Project memory/Work configuration.
+2. Resume genuine professional use through the playbook. Observe specific newly relied-upon source/activation paths or consequential failures; do not run a generic campaign to rediscover known probabilistic properties.
+3. Record exact R3 or Project-field readback only if identity verification is decision-relevant. Do not reopen architecture without a material failure, product change or supported improvement opportunity.
