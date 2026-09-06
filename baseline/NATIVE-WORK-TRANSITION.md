@@ -1,38 +1,32 @@
 # Native Work Transition
 
 **Status:** CURRENT on authoritative `main`; CANDIDATE off `main`.  
-**Role:** Conditional Chat/Project → Work transition contract. It is not a runtime, router, lifecycle, universal graph, or mandatory artifact.
+**Role:** Conditional cross-surface contract when work actually moves from Chat/Project context to Work. It is not the starting lifecycle for substantial work, a runtime, router, universal graph, or mandatory artifact.
 
 ## Purpose
 
-Move sufficiently formed material work from conversational Joint Intelligence into a materially better native execution surface without losing intent, qualified state, professional method/craft, Human authority, or claim boundaries.
+Preserve intent, qualified state, scope, quality, professional method/craft, Human authority, assurance and return boundaries when moving existing conversational work into a materially better native execution environment.
 
-```text
-qualified conversational state
-→ qualified Work Object
-→ proportionate Work Architecture
-→ context-complete native handoff
-→ native planning and execution
-→ Work Product + qualified return
-```
-
-ChatGPT Work or another qualified native surface owns operational planning and execution. This repository owns only the transition semantics that must survive the handoff.
+[Operating Baseline](OPERATING-BASELINE.md) owns direct Chat or Work entry. Substantial work can begin in Work, including inside a Project, without a prior Chat episode or Chat-produced Work Object. This contract applies only if a transfer occurs. ChatGPT Work or another qualified native surface owns bounded formation and actual planning/execution within the authorized work; this file maintains the obligations that must survive the transfer.
 
 ## Activation
 
 Use this contract when:
 
-1. conversation, Project context, or an existing source has formed enough of the intended outcome and Work Object to support execution;
-2. Work or another native surface would materially improve sustained research, analysis, artifact production, tool use, reviewability, or multi-step execution; and
-3. a bare task sentence would create material reinterpretation, dependency, method/craft, context, authority, assurance, or return risk.
+1. work is moving from an existing Chat/Project conversation to Work or another native surface that materially improves sustained research, analysis, artifact production, tool use, reviewability or multi-step execution; and
+2. the receiving environment has enough intent, qualified state and protected boundaries to continue, including resolving the open questions delegated to it.
 
-Use whichever qualified native transition route is available. The contract does not depend on a particular button, menu action, or thread-conversion affordance.
+Preserve the material context at that boundary; a bare task sentence is insufficient when it would lose intent, dependencies, method/craft, authority, assurance or return requirements. Do not continue substantial Chat work merely to finish formation that Work can perform within the authorized scope.
+
+Prefer a native context transfer when available and suitable. Use its transferred conversation and sources, adding only the orientation or missing material boundaries the receiving environment needs. Native transfer does not itself prove complete context, source access or preserved authority. The receiver resolves material gaps from accessible sources before asking the Human to reconstruct them.
+
+When native transfer is unavailable, unreliable or inappropriate, the sending AI prepares the smallest context-complete handoff using qualified state and accessible source pointers or attachments. A manually serialized full conversation or separate handoff document is not the default. The Human should not have to author the transfer. The contract does not depend on a particular button, menu action or thread-conversion affordance; current product evidence is recorded in the [dated surface profile](../rebaseline/DIRECT-WORK-ENTRY-NATIVE-HANDOFF-REQUALIFICATION-2026-09-06.md).
 
 For bounded ordinary work, answer, act, or prompt directly. Architecture must earn its burden.
 
-### Formation sufficiency
+### Transfer sufficiency
 
-`Sufficiently formed` does not mean merely understandable. Formation is sufficient when the receiving Work runtime can preserve the material work without Human reconstruction or silent redefinition.
+`Sufficiently formed` at transfer means the receiving Work runtime can preserve the material work without Human reconstruction or silent redefinition. It does not mean the problem, options, research, decision or design has already been solved in Chat.
 
 A qualified Work Object should provide enough of the following, proportionately:
 
@@ -45,21 +39,21 @@ A qualified Work Object should provide enough of the following, proportionately:
 - Human-owned judgments, gates, commitments, acceptance or release boundaries;
 - validity-critical professional method, evidence or assurance requirements when already known to be material.
 
-Open questions may remain. Formation is sufficient when Work can resolve them within those boundaries rather than needing to rediscover the Parent Outcome or renegotiate protected state.
+Open questions may remain. Transfer is sufficient when Work can resolve them within those boundaries rather than needing to rediscover the Parent Outcome or renegotiate protected state. Bounded problem formation or option formation can itself be the authorized contribution; no completed solution or investment decision is required to begin that work.
 
-Formation does **not** require Chat to pre-solve research, design, architecture, or execution questions that are themselves part of the Work Object. Chat should qualify those questions and their material boundaries well enough for Work to resolve them without redefining the contract.
+Chat does **not** pre-solve research, problem/option formation, decision analysis, design or operational planning delegated to Work. It preserves what is already qualified and makes the open contribution and material boundaries clear enough for Work to proceed.
 
 ## Responsibilities
 
-**Chat / Joint Intelligence** forms and consolidates the Work Object through exploration, framing, recovery, quality/taste calibration, and Human judgment.
+**Sending conversational/Project context** supplies the existing intent, qualified state and material open questions through the selected transfer route. The sending AI consolidates only what preservation requires; it does not own all formation or remain the permanent controller.
 
-**Native Work runtime** owns executable planning, local decomposition, sequencing, provider/tool use, iteration, repair, integration, and production within the handoff.
+**Native Work runtime** owns further bounded formation, research, option development, decision analysis and design within the authorized work, plus executable planning, local decomposition, sequencing, method/provider/tool selection, iteration, repair, integration and production. It can ask material questions and receive Human steering during the work. Skill access and fit must be established in the receiving environment; method names in a handoff do not prove application.
 
 **Human / legitimate domain owner** retains purpose, values, material trade-offs, taste, decision, commitment, release, and authoritative persistence where material.
 
 ## Work Handoff Contract
 
-Include only what the receiving runtime needs, proportionately.
+Preserve only what the receiving runtime needs, proportionately. These are content obligations, not six mandatory sections or a required new artifact; native transferred context may already supply them.
 
 ### 1. Parent Outcome and next use
 
@@ -84,7 +78,7 @@ A Work Architecture is a design-time execution contract. It may specify:
 - context, Skills, providers, tools, templates, or connected sources;
 - assurance needs and Human/Release Gates.
 
-Its detail is proportional. It is not necessarily a graph, separate-agent topology, persistent state object, or fixed runtime plan.
+Its detail is proportional. Preserve already-qualified validity-critical methods and boundaries; leave remaining method choice and operational planning to Work. Chat need not produce a Work Architecture before transfer. It is not necessarily a graph, separate-agent topology, persistent state object, or fixed runtime plan.
 
 ### 5. Native runtime envelope
 
@@ -96,7 +90,7 @@ Return the Work Product plus actual work, methods/providers/tools/sources used, 
 
 ## Forming Work Architecture
 
-Do not begin with agent personas. Begin with the work.
+Where an explicit Work Architecture materially helps, begin with the work rather than agent personas. The following are considerations, not pre-handoff steps: preserve already-qualified constraints in the transfer and let Work develop the remaining execution approach.
 
 1. **Bind the Work Object:** Parent Outcome, next use, protected state, and required contribution.
 2. **Choose the work regime:** direct work, predictable flow, adaptive case, experiment, option portfolio, or monitoring.
@@ -111,7 +105,7 @@ Do not begin with agent personas. Begin with the work.
 
 Use the lightest sufficient expression:
 
-- **Direct** — outcome, task, and material constraints;
+- **Minimal transfer** — outcome, task, and material constraints;
 - **Architecture Note** — key method, loop, protected state, and return condition;
 - **Work Architecture Brief** — explicit activities, dependencies, methods, authority, and assurance;
 - **Architecture Pack** — only for consequential, recurring, long-running, multi-artifact, or multi-surface work.
@@ -120,9 +114,9 @@ These are proportional forms, not stages.
 
 ## Runtime freedom
 
-Work may normally adapt operational sequence, local decomposition, reversible details, research path, qualified provider/tool selection, and local repair within scope.
+Work may normally resolve bounded research, problem formation, option formation, decision analysis and design questions, and adapt operational sequence, local decomposition, reversible details, research path, qualified method/provider/tool selection and local repair within scope. An open question is not itself a reason to leave Work.
 
-Questions, progress interaction, and Human steering may occur during Work without themselves reopening Formation. Return/re-entry is required only when a proposed change crosses a material protected or delegated commitment boundary.
+Questions, progress interaction and Human steering may occur during Work without themselves reopening the transfer or requiring a new Chat. Return/re-entry is required only when a proposed change crosses a material protected or delegated commitment boundary. Return means obtaining the legitimate owner's judgment or authorization and integrating it; it can occur in the same Work conversation. Move surfaces only when doing so materially helps.
 
 Work must return before materially changing:
 

@@ -17,7 +17,15 @@ Chat, Work, Projects, Skills, plugins/apps/connectors, research capabilities, fi
 
 Use Projects for scoped continuity when the work earns it. Use domain-owned stores for authoritative state. Use additional persistence only when time, interruption, divergence, handoff or recovery risk justifies it.
 
-When conversation or Project context has sufficiently formed a material Work Object and Work or another native surface would materially improve execution, use `NATIVE-WORK-TRANSITION.md`: hand off the qualified Work Object and proportionate Work Architecture. The receiving native runtime owns operational planning and execution within the preserved outcome, method/craft, authority, assurance and return boundaries.
+Chat and Work are first-class entry surfaces. Start in Chat for conversation, focused questions, lightweight exploration, calibration and bounded reasoning. Start directly in Work when substantial research, material decision analysis, strategy/design, multi-step production or execution is foreseeable and Work materially improves delivery. A reviewable result may be a qualified problem frame or recommendation; it need not be a predesigned artifact. No prior Chat draft or completed Formation is required.
+
+Work can recover context and resolve bounded problem/option formation, research, decision analysis and design within the authorized Parent Outcome and protected boundaries. It owns operational planning, decomposition, sequencing, method/provider/tool selection, adaptation, iterative execution, integration and ordinary local repair. Keep follow-up reasoning, questions, Human steering and refinement in Work while that remains the effective environment. Return to the legitimate Human/domain owner when a protected boundary needs judgment or authorization; that interaction need not move back to Chat.
+
+When a Chat becomes substantial and Work would materially improve the next contribution, apply [Native Work Transition](NATIVE-WORK-TRANSITION.md) before substantial further Chat execution. Prefer an available native context-transfer route; use an AI-prepared context-complete handoff when that route is unavailable, unreliable or inappropriate. Preserve intent, qualified state, scope, quality, method/craft, authority, assurance and return boundaries through either route. NWT governs actual transfers, not direct Work entry. Choose the effective available environment with the least unnecessary switching; no universal task router or fixed size threshold follows.
+
+The nine informative Work Functions do not allocate surfaces: Chat may perform several when bounded; Work may perform several or all within a substantial Work Object. `Work Function ≠ Skill ≠ Surface`; a function is not a lifecycle stage. Work may select `decision-analysis`, `evaluate-work-product`, `system-development` or narrower qualified providers when their differentiated methods fit. Verify access on the actual surface; a repository Skill does not prove Chat activation capability.
+
+Dated product evidence and unresolved surface claims are recorded in [Direct Work Entry / Native Handoff Requalification](../rebaseline/DIRECT-WORK-ENTRY-NATIVE-HANDOFF-REQUALIFICATION-2026-09-06.md). Its UI observations are informative and do not become architecture invariants.
 
 ## 3. Semantic ownership and customization economy
 
@@ -30,7 +38,7 @@ The canonical source is a design/review authority, not a required always-loaded 
 ## 4. Custom behavior that remains
 
 - The exact current Global CI source selected by `CURRENT.md` expresses high-salience interaction, epistemic, quality, continuity and native-handoff preferences.
-- `baseline/NATIVE-WORK-TRANSITION.md` provides the compact conditional bridge from qualified conversational work to native agentic execution; it is not a Skill, router or lifecycle.
+- `baseline/NATIVE-WORK-TRANSITION.md` preserves qualified work across actual Chat/Project → Work transfers; it is not a prerequisite to direct Work entry, Skill, router or lifecycle.
 - `decision-analysis` provides a bounded cross-domain decision method.
 - `evaluate-work-product` provides a bounded cross-domain fitness method when no narrower evaluator owns the claim.
 - `system-development` provides scoped recovery/diagnosis/promotion/validation methods for this system.
