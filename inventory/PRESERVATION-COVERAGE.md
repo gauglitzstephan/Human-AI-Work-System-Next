@@ -1,6 +1,6 @@
 # Preservation and Regression Coverage
 
-**Status:** CURRENT static semantic/ownership map on authoritative `main`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
+**Status:** CURRENT static semantic/ownership map on authoritative `main`; CANDIDATE off `main`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
 
 ## Durable-learning coverage
 
@@ -47,6 +47,8 @@ The nine Work Functions in the Canonical source are **INFORMATIVE ONLY**. They a
 
 Concrete differentiated method ownership remains:
 
+- `work-formation` for a material missing problem/premise/next-use basis; no mandatory entry stage;
+- `adaptive-exploration` for materially open frames/mechanisms; no universal exploration stage;
 - `decision-analysis` for bounded material decisions when its method adds value;
 - `evaluate-work-product` for claim-matched fitness when no narrower evaluator owns the claim;
 - `system-development` for this system's recovery, failure localization, semantic regression, promotion/readback and genuine-use validation;
@@ -84,6 +86,6 @@ The full Canonical source is intentionally not copied into Global CI. Detailed W
 
 ## Current static verdict
 
-**PASS** for promoted source/ownership coherence within the current repository package, subject to the claim boundary above.
+The base Canonical/R3 package retains its promoted static preservation result. The restoration delta has a separate [scope and regression receipt](../rebaseline/FORMATION-EXPLORATION-RESTORATION-2026-09-06.md); its checks must not inherit a claim of Human acceptance, promotion or runtime success from the base.
 
 This PASS does not prove installed CI identity, runtime activation, behavioral improvement, professional fitness, use, outcome or value.

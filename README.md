@@ -28,13 +28,15 @@ Current operating model:
 
 Work Functions are descriptive transformations, not lifecycle stages or Skills. For substantial agentic work, native Work owns operational planning, decomposition, sequencing, provider/tool selection, adaptation, execution, integration and ordinary local repair inside the protected Work Object boundaries.
 
-Only three custom Skills remain active:
+The Candidate portfolio contains five differentiated custom methods:
 
+- `work-formation` — resolve or contain material missing problem/premise/next-use basis;
+- `adaptive-exploration` — develop and test materially different frames or mechanisms;
 - `decision-analysis` — bounded material decisions;
 - `evaluate-work-product` — recipient/use/failure-mode-capable fitness evaluation;
 - `system-development` — recovery, diagnosis, semantic preservation, promotion/readback and genuine-use evaluation for this system.
 
-Skills are optional differentiated method providers, not a complete provider universe or runtime topology.
+Skills are optional differentiated method providers, not a complete provider universe or runtime topology. The restored methods work inside an unfinished Work episode without a mandatory formation stage. See the [restoration Candidate receipt](rebaseline/FORMATION-EXPLORATION-RESTORATION-2026-09-06.md) for scope, checks and installation boundaries.
 
 ## What remains native / intentionally absent
 
