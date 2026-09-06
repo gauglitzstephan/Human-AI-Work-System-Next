@@ -1,79 +1,89 @@
 # Preservation and Regression Coverage
 
-**Claim:** the clean rebuild preserves materially valuable semantics from the bound source while removing current/default authority from unjustified custom architecture and runtime mechanisms.
+**Status:** CURRENT static semantic/ownership map on authoritative `main`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
 
 ## Durable-learning coverage
 
-| ID | Preserved semantic | Active carrier | Historical source locus | Result |
-|---|---|---|---|---|
-| DL-01 | Outcome before means | `baseline/OPERATING-BASELINE.md` §3.1; current CI | durable separation; Requirements CR-01 | `PRESERVED` |
-| DL-02 | Reality outranks plausibility | Operating Baseline §3.2; current CI | separation; Requirements CR-03 | `PRESERVED` |
-| DL-03 | Recover actual state before consequential work | Operating Baseline §3.3; final CI invariant | separation; Requirements CR-04 | `PRESERVED` |
-| DL-04 | Qualified reuse, not blind legacy reuse | Operating Baseline §3.4 | separation; Requirements CR-05 | `PRESERVED` |
-| DL-05 | Coherence is not professional completeness | Operating Baseline §3.5; current CI | separation; Requirements CR-05 | `PRESERVED` |
-| DL-06 | Professional method where validity depends on it | Operating Baseline §3.6; Skill boundaries | separation; PWB §4 | `PRESERVED` |
-| DL-07 | Do not redundantly rebuild native capability | Operating Baseline §2/§3.7 | separation; PWB §2 | `PRESERVED` |
-| DL-08 | Capability/access/effectiveness/authority/accountability differ | Operating Baseline §3.8; `CURRENT.md` | separation; Requirements CR-08 | `PRESERVED` |
-| DL-09 | Working context/authority/reusable knowledge differ | Operating Baseline §2/§3.8 | separation; Requirements CR-09 | `PRESERVED` |
-| DL-10 | Relevant rather than maximal context | Operating Baseline §3.10 | separation; Requirements CR-10 | `PRESERVED` |
-| DL-11 | Human attention is a system cost | Operating Baseline §3.9 | separation; Requirements CR-07 | `PRESERVED` |
-| DL-12 | Feedback is scoped evidence, not automatic truth/change authority | Operating Baseline §3.15; `SYSTEM-LEARNING.md` | separation; Requirements CR-14 | `PRESERVED` |
-| DL-13 | Preserve qualified state; reopen narrowly | Operating Baseline §3.11; safe-change protocol | separation; Architecture §5.3 | `PRESERVED` |
-| DL-14 | Minimum sufficient work preserves prerequisites | Operating Baseline §3.10/§3.12 | separation; Requirements CR-10 | `PRESERVED` |
-| DL-15 | Meta-work must not displace the Work Product | Operating Baseline §3.12 | separation; Requirements CR-15; PWB §13 | `PRESERVED` |
-| DL-16 | Production/fitness/use/outcome/value differ | Operating Baseline §3.13; deployment contract | separation; Requirements CR-12 | `PRESERVED` |
-| DL-17 | Assurance must detect the claimed failure | Operating Baseline §3.14; `evaluate-work-product` | separation; Requirements CR-11 | `PRESERVED` |
-| DL-18 | Source/installation/activation/behavior/outcome differ | `CURRENT.md`; deployment contract; System Learning | separation; runtime/promotion evidence | `PRESERVED` |
-
-## Required genuine-use coverage
-
-All ten requested lessons are individually retained in `baseline/GENUINE-USE-LEARNINGS.md`: repository/runtime drift; provider-space narrowing; Chat-visible/Work-availability inference; Sika recovery failure; blind legacy CV reuse; rendering/self-review assurance failure; NYBA recovery improvement; NYBA Chat-only limitation; handoff correlation without causal overclaim; and repeated meta-work displacement.
-
-## Skill semantic coverage
-
-| Former package | Surviving semantic | Current owner | Loss decision |
+| ID | Preserved semantic | Current owner / carrier | Result |
 |---|---|---|---|
-| `adaptive-exploration` | avoid premature convergence; mechanism-distinct alternatives; counterhypotheses; scoped Human calibration | current CI/native reasoning; narrower exploration/ideation provider | separate generic Skill activation rejected as duplicate ownership; exact package archived |
-| `work-formation` | form only material missing basis; preserve qualified state; avoid manufactured gates | final CI invariant; native work control; safe-change protocol | separate generic Skill activation rejected as ceremony/duplication risk; exact package archived |
-| `research-evidence` | provenance, freshness, conflict, uncertainty, counterevidence, sufficiency stop | current CI/native research rules; specialist research providers; System Learning evidence-failure class | generic Skill no longer active because provider/method specificity improves validity; exact package archived |
-| `decision-analysis` | bounded choice, option set, uncertainty, downside, option value, switching conditions | active Skill | `KEEP-SKILL` |
-| `evaluate-work-product` | bounded intended-use, failure-capable fitness evaluation | active Skill | `KEEP-SKILL` |
-| `system-development` | exact recovery, RCA, semantic regression, promotion/readback, genuine-use validation | active Skill | `KEEP-SKILL`; also sufficient method owner for System Learning |
+| DL-01 | Outcome before means | Canonical CJS-01; compact Global CI cue | PRESERVED |
+| DL-02 | Reality before plausibility | Canonical CJS-10; Global CI reality/claim paragraph | PRESERVED |
+| DL-03 | Recover actual state before consequential work | Canonical CJS-08; Global CI continuity cue | PRESERVED |
+| DL-04 | Qualified reuse | Canonical CJS-04/08; native/provider appraisal | PRESERVED |
+| DL-05 | Coherence ≠ professional completeness | Canonical CJS-06 | PRESERVED |
+| DL-06 | Qualified method where validity depends | Canonical CJS-06/14; Skill/domain method | PRESERVED |
+| DL-07 | Native before customization | Operating Baseline §3 | PRESERVED |
+| DL-08 | Capability/access/effectiveness/authority/accountability differ | Canonical CJS-07/10 | PRESERVED |
+| DL-09 | Working context/authority/reusable knowledge differ | Canonical CJS-08/10 | PRESERVED |
+| DL-10 | Relevant rather than maximal context | Canonical CJS-08/12 | PRESERVED |
+| DL-11 | Human attention is system cost | Canonical CJS-07/12 | PRESERVED |
+| DL-12 | Feedback is scoped evidence | Canonical CJS-15; System Learning for system mutation | PRESERVED |
+| DL-13 | Preserve qualified state; reopen narrowly | Canonical CJS-08/15 | PRESERVED |
+| DL-14 | Minimum sufficient work preserves prerequisites | Canonical CJS-01/12 | PRESERVED |
+| DL-15 | Supporting/meta-work does not replace Work Product | Canonical CJS-11 | PRESERVED |
+| DL-16 | Production/fitness/use/outcome/value differ | Canonical CJS-11 | PRESERVED |
+| DL-17 | Assurance must detect claimed failure | Canonical CJS-14; evaluate-work-product/narrower evaluator | PRESERVED |
+| DL-18 | Source/install/activation/behavior/outcome differ | System Learning/system-development; CURRENT claim boundary | PRESERVED |
+| DL-19 | Qualified native Work transition without custom Runtime | NATIVE-WORK-TRANSITION + Operating Baseline | PRESERVED |
 
-## Rejected active mechanisms
+## Human–AI coordination and formation coverage
 
-| Historical mechanism | Preserved value | Why not active |
-|---|---|---|
-| Semantic Compiler / compiled PWB-QOC controller | semantic preservation and carrier/source distinction | no concrete remaining subsystem gap; native behavior and compact sources are sufficient |
-| global provider router / repo-local provider universe | use qualified methods/providers | caused provider narrowing and cannot represent the actual installed provider space reliably |
-| global surface router | use materially better surfaces and context-complete handoff | product owns surfaces; native handoff preserved without fixed routing |
-| universal QWS / Work Contract | optional compact execution brief when reinterpretation risk is real | universalization creates meta-work and duplicate native planning/control |
-| universal Work Graph / lifecycle / closure machine | optional dependency or descriptive lenses | no evidence they must exist for ordinary work; meta-work cost is material |
-| persistence by default | continuity when divergence/recovery risk is material | domain-owned and risk-triggered persistence is smaller and safer |
-| assurance by default | claim-matched evaluation | assurance must be proportional and failure-capable, not ceremonial |
+Current Canonical Joint-Work Semantics additionally preserves:
 
-## Structural preservation
+- Problem-Space Sufficiency relative to the next investment;
+- problem–solution co-evolution and provisional means;
+- Joint Intelligence and materially open alternative space;
+- common ground, observability, predictability and directability;
+- Human/domain authority and AI-resolvable burden allocation;
+- child→parent integration before wider completion claims;
+- uncertainty reduction, containment, staging, probing, acting, deferring, stopping or weaker claims according to consequence/information value;
+- Human capability effects and calibrated reliance;
+- portability/reconstructability where material;
+- evidence-bound adaptation and legitimate closure.
 
-- Nine former top-level historical trees are moved by reusing their exact Git tree SHAs under `legacy/archive-2026-09-02/`.
-- Five rebaseline evidence blobs and three demoted Skill-package trees are moved without content edits.
-- The exact intended Global CI blob remains at its current path and unchanged.
-- Git history preserves former paths and every prior commit.
-- No installed CI, Project Instruction, plugin or Personal Skill is changed.
+## Work Functions and method boundary
 
-## Regression verdict
+The nine Work Functions in the Canonical source are **INFORMATIVE ONLY**. They are not stages, agents, Skills, carriers or a router.
 
-`PASS` for static preservation of the defined active-basis claim on authoritative `main@08346e4222e59074a5ca702acb214293885554cf` (tree `25b967a82caf37f9d1446bd21b621213b570fd34`):
+Concrete differentiated method ownership remains:
 
-- `main` has the exact accepted PR-head tree; comparison against `e21afd7f534063490d099f78217ec4c86508e177` has no file differences;
-- the exact CI source blob is unchanged and its instruction payload is 4,991 characters;
-- all nine archived historical root tree identities match the bound source;
-- former active root trees are absent;
-- the active Skill and `.agents/skills` discovery sets contain only `decision-analysis`, `evaluate-work-product` and `system-development`;
-- `rebaseline/` contains only the exact intended CI source;
-- the active top-level basis is `.agents`, `.codex-plugin`, `CURRENT.md`, `README.md`, `baseline`, `inventory`, `legacy`, `rebaseline`, `skills`;
+- `decision-analysis` for bounded material decisions when its method adds value;
+- `evaluate-work-product` for claim-matched fitness when no narrower evaluator owns the claim;
+- `system-development` for this system's recovery, failure localization, semantic regression, promotion/readback and genuine-use validation;
+- narrower native/domain/professional methods where they fit better.
 
-The earlier branch-level preservation pass was performed on intermediate candidate tree `74787836d24de3e5c2be8e1f7a4e347c2e375c67`; the authoritative structural promotion claim is the final PR #48 `main` tree above.
+Native Work owns substantial operational planning/execution rather than a repo-local Work Engine.
 
-Status-only reconciliation follows the same location-sensitive authority rule: CANDIDATE off `main`; authoritative only when present on `main` after readback. It changes no operating semantics, CI source, active Skill set, archive content or external product state, and this record does not predict its own future merge commit.
+## Retired default mechanisms
 
-This PASS does not establish external installation, behavioral conformance, professional output quality or system value.
+The following remain intentionally retired as default active mechanisms:
+
+- Runtime Semantic Compiler;
+- universal Controller / Work Engine;
+- provider/surface router;
+- mandatory Formation / Adaptive Exploration;
+- generic Research-Evidence Skill default;
+- universal QWS / Work Contract;
+- universal Work Graph / lifecycle;
+- central Dynamic Work Model;
+- persistence by default;
+- assurance / second reviewer / debate by default;
+- role registry / persona engine;
+- permanent Chat controller / rigid subordinate Work;
+- historical product limits as durable architecture invariants.
+
+## Global CI R3 regression boundary
+
+The exact current Global CI source is selected by `CURRENT.md`. R3 is a bounded successor to R2: the protected R2 semantics remain, with only three intended runtime edits:
+
+1. materially open work no longer requires Human involvement before execution in every case;
+2. substantial optimization/commitment is related to the wider outcome and next-investment sufficiency;
+3. convergence permits material uncertainty to be sufficiently resolved **or contained**.
+
+The full Canonical source is intentionally not copied into Global CI. Detailed Work transition, risk controls, state protocols, methods, authoritative state and system-change mechanics remain with their legitimate owners.
+
+## Current static verdict
+
+**PASS** for promoted source/ownership coherence within the current repository package, subject to the claim boundary above.
+
+This PASS does not prove installed CI identity, runtime activation, behavioral improvement, professional fitness, use, outcome or value.
