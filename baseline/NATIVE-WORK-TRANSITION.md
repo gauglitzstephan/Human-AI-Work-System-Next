@@ -30,6 +30,22 @@ Use whichever qualified native transition route is available. The contract does 
 
 For bounded ordinary work, answer, act, or prompt directly. Architecture must earn its burden.
 
+### Product-configuration preflight
+
+Before relying on a transition, distinguish and verify only the material links in this chain:
+
+`documented feature → account eligibility → surface visibility → access/permission → activation/load → correct execution → professional effectiveness`
+
+In particular:
+
+- do not assume that Chat, Work, Skills, tools, apps, files, memory, or Project context are mutually available merely because each exists somewhere in the product;
+- current official product documentation says Projects may contain both Chat and Work, but also says **ChatGPT Work is not available when the Project uses project-only memory**; verify the actual Project configuration and surface;
+- Project Instructions override Global Custom Instructions, so the receiving Project must carry its own essential cooperation semantics when Project Instructions are used;
+- this Human has established Personal Skill use in Work, not ordinary Chat activation;
+- no universally reliable automatic context-preserving Chat→Work conversion is established for this Human; absence of one affordance does not prove that Work is unavailable.
+
+When a preferred route is unavailable, select a fallback only if it preserves the Work Object, method validity, evidence, authority, quality, and claim. Otherwise expose the changed boundary and ask for the smallest necessary Human action.
+
 ### Formation sufficiency
 
 `Sufficiently formed` does not mean merely understandable. Formation is sufficient when the receiving Work runtime can preserve the material work without Human reconstruction or silent redefinition.
@@ -94,6 +110,20 @@ What Work may adapt or repair; what it may not redefine; which actions or writes
 
 Return the Work Product plus actual work, methods/providers/tools/sources used, checks and findings, repairs and unresolved defects, material deviations, actions/writes/readbacks, exact supported readiness, and required Human contribution or next frontier.
 
+### Portable handoff when native transfer is unavailable
+
+ChatGPT should normally compile the six-section handoff from qualified shared state. The Human may inspect or edit protected boundaries, but should not have to reconstruct the state or select the execution method manually.
+
+If no reliable native transition preserves the context:
+
+1. compile a self-contained handoff at the justified density;
+2. identify source files/links and state versions that cannot travel inside the text;
+3. have the Human copy the handoff or attach the package to a new Work chat;
+4. require Work to verify access assumptions before relying on them;
+5. retain the originating conversation or Project as the parent state for later reconciliation.
+
+Prompt length is not an optimization objective. Omit repeated architecture prose, but retain every material fact, decision, rejection, requirement, method, quality, authority, assurance, and return boundary needed to prevent rediscovery or reinterpretation.
+
 ## Forming Work Architecture
 
 Do not begin with agent personas. Begin with the work.
@@ -150,6 +180,19 @@ intended architecture
 ```
 
 The receipt supports observability, reintegration, and bounded learning. It is not a deterministic trace, independent assurance, or proof of professional fitness.
+
+## Parent reintegration
+
+A Work return is a proposed state delta, not a new controlling parent.
+
+1. Rebind the originating Parent Outcome, next use, protected state, and current gate.
+2. Compare the returned product and receipt with the handoff rather than accepting the latest output by recency.
+3. Separate supported additions, conflicts, deviations, unresolved defects, and claims that remain unverified.
+4. Repair the disputed point and dependent conclusions without reopening unaffected qualified state.
+5. Request Human judgment only for material values, taste, inaccessible expertise/context, acceptance, commitment, authorization, or release.
+6. Update exactly the state class earned: conversation/Project working state, authoritative external state through its legitimate write/readback path, or accepted reusable Knowledge Capital.
+
+When the parent and Work live in separate chats or surfaces, Work should return a portable package and the Human may perform the mechanical copy. The system must compile both sides so that this sensible product action does not become Human state reconstruction.
 
 ## State and authority
 

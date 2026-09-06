@@ -15,9 +15,15 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 
 Chat, Work, Projects, Skills, plugins/apps/connectors, research capabilities, files/artifacts, GitHub and other execution systems form one available capability space. Visibility on one surface does not prove overall availability or absence. Use a materially better provider or surface when it improves the work; use native handoff behavior when useful.
 
+Natural entry is allowed anywhere. Prefer Chat while interaction, goal/question/scope/frame development or bounded research dominates. Direct Work entry is legitimate when a substantial outcome, relevant inputs, consequential constraints and review target are already sufficiently clear. This is an adaptive allocation, not a Chat-first or Work-first topology; see `HUMAN-AI-WORK-OPERATING-REALIZATION.md`.
+
 Use Projects for scoped continuity when the work earns it. Use domain-owned stores for authoritative state. Use additional persistence only when time, interruption, divergence, handoff or recovery risk justifies it.
 
+Current product documentation creates two material Project boundaries: Project Instructions override Global Custom Instructions, and Work is unavailable when a Project uses project-only memory. Therefore a Project that uses Project Instructions needs its own qualified cooperation carrier, and Project Work availability must be checked rather than assumed. Project memory, conversation history, files and Sources remain working context rather than controlled authoritative state.
+
 When conversation or Project context has sufficiently formed a material Work Object and Work or another native surface would materially improve execution, use `NATIVE-WORK-TRANSITION.md`: hand off the qualified Work Object and proportionate Work Architecture. The receiving native runtime owns operational planning and execution within the preserved outcome, method/craft, authority, assurance and return boundaries.
+
+No universally reliable automatic context-preserving Chat→Work conversion is established. When native transfer is unavailable, ChatGPT compiles a portable handoff and qualified return; the Human may perform the mechanical copy without reconstructing state or orchestration.
 
 ## 3. Semantic ownership and customization economy
 

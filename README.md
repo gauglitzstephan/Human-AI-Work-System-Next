@@ -17,12 +17,17 @@ Current operating model:
 | Repository state / current package | [`CURRENT.md`](CURRENT.md) |
 | Carrier-independent cooperation semantics | [`baseline/CANONICAL-JOINT-WORK-SEMANTICS.md`](baseline/CANONICAL-JOINT-WORK-SEMANTICS.md) |
 | Product model / operating allocation | [`baseline/OPERATING-BASELINE.md`](baseline/OPERATING-BASELINE.md) |
+| Complete Human-facing operating realization | [`baseline/HUMAN-AI-WORK-OPERATING-REALIZATION.md`](baseline/HUMAN-AI-WORK-OPERATING-REALIZATION.md) |
 | Native Chat/Project → Work transition | [`baseline/NATIVE-WORK-TRANSITION.md`](baseline/NATIVE-WORK-TRANSITION.md) |
+| Project instruction/state carriers | [`baseline/PROJECT-INSTRUCTIONS-CANDIDATE.md`](baseline/PROJECT-INSTRUCTIONS-CANDIDATE.md), [`baseline/PROJECT-CURRENT-TEMPLATE.md`](baseline/PROJECT-CURRENT-TEMPLATE.md) |
 | Exact intended Global CI R3 | [`rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md`](rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md) |
 | System learning | [`baseline/SYSTEM-LEARNING.md`](baseline/SYSTEM-LEARNING.md) |
 | Genuine-use evidence | [`baseline/GENUINE-USE-LEARNINGS.md`](baseline/GENUINE-USE-LEARNINGS.md) |
 | Active custom methods | [`skills/REGISTRY.md`](skills/REGISTRY.md) |
 | Current preservation map | [`inventory/PRESERVATION-COVERAGE.md`](inventory/PRESERVATION-COVERAGE.md) |
+| Complete Requirement Master | [`inventory/REQUIREMENT-MASTER-2026-09-06.md`](inventory/REQUIREMENT-MASTER-2026-09-06.md) |
+| Requirement/product/runtime regression evidence | [`inventory/QUALIFIED-REQUIREMENT-REGRESSION-2026-09-06.md`](inventory/QUALIFIED-REQUIREMENT-REGRESSION-2026-09-06.md) |
+| Operating-realization assurance | [`inventory/OPERATING-REALIZATION-ASSURANCE-2026-09-06.md`](inventory/OPERATING-REALIZATION-ASSURANCE-2026-09-06.md) |
 
 ## Native Work and Skills
 
@@ -46,4 +51,4 @@ The repository does not recreate a Runtime Semantic Compiler, provider/surface r
 
 Legacy architecture and prior candidates remain recoverable through Git history and `legacy/`. Older executable-looking CI sources on `main` are explicitly marked superseded when they are no longer current.
 
-Repository promotion does not install or modify Global Custom Instructions, Project Instructions, plugins or Personal Skills. Product installation and readback are separate transitions.
+Repository promotion does not install or modify Global Custom Instructions, Project Instructions, plugins or Personal Skills. R3 is Human-reported installed/live; exact product-field readback, activation and effectiveness remain separate. Project carrier installation is a separate Human action.

@@ -1,6 +1,6 @@
 # Preservation and Regression Coverage
 
-**Status:** CURRENT static semantic/ownership map on authoritative `main`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
+**Status:** CURRENT compact semantic/ownership map on authoritative `main`. The exhaustive lineage inventory and 2026 runtime regression are `REQUIREMENT-MASTER-2026-09-06.md`, `QUALIFIED-REQUIREMENT-REGRESSION-2026-09-06.md`, and `OPERATING-REALIZATION-ASSURANCE-2026-09-06.md`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
 
 ## Durable-learning coverage
 
@@ -25,6 +25,9 @@
 | DL-17 | Assurance must detect claimed failure | Canonical CJS-14; evaluate-work-product/narrower evaluator | PRESERVED |
 | DL-18 | Source/install/activation/behavior/outcome differ | System Learning/system-development; CURRENT claim boundary | PRESERVED |
 | DL-19 | Qualified native Work transition without custom Runtime | NATIVE-WORK-TRANSITION + Operating Baseline | PRESERVED |
+| DL-20 | Project Instructions override Global CI; Project context is working evidence, not authority | Project Instructions candidate + Operating Realization | PRESERVED / PRODUCT-QUALIFICATION PENDING |
+| DL-21 | Direct Work is legitimate for sufficiently formed substantial work; Chat→Work may use a portable AI-compiled brief | NATIVE-WORK-TRANSITION + Operating Realization | PRESERVED |
+| DL-22 | Documented capability, account/surface availability, access, activation, execution and effectiveness are separate | Requirement Master RM-081–086 + runtime regression | PRESERVED |
 
 ## Human–AI coordination and formation coverage
 
@@ -84,6 +87,6 @@ The full Canonical source is intentionally not copied into Global CI. Detailed W
 
 ## Current static verdict
 
-**PASS** for promoted source/ownership coherence within the current repository package, subject to the claim boundary above.
+**PASS** for Candidate source/ownership coherence against the exhaustive Requirement Master and prior-regression record, subject to the claim boundary above. On `main`, the package is promoted only after authorized merge and readback.
 
 This PASS does not prove installed CI identity, runtime activation, behavioral improvement, professional fitness, use, outcome or value.
