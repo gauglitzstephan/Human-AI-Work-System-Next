@@ -1,4 +1,4 @@
-# Professional Work Evaluation Method v0.2
+# Professional Work Evaluation Method v0.3
 
 **Status:** scoped internal evaluation method for the current Human–AI Work System.  
 **Use when:** genuine work provides evidence about whether the current working setup is helping or harming professional output.
@@ -104,3 +104,15 @@ Do not:
 - make the Human the standing evaluator of AI work.
 
 The system earns confidence through sustained useful work, low avoidable Human correction and evidence-bound repair — not through ceremony.
+
+## Targeted comparison after an observed failure
+
+When the observed failure and a concrete repair decision justify a controlled comparison:
+
+- Bind current and proposed source versions, raw input, available evidence, tools, authority and intended-use criteria before execution. Specify which failed property could change the repair decision.
+- Use fresh comparable execution contexts. Supply only evidence available at that point; withhold the diagnosis, expected answer and later Human correction. A known historical regression is not an independent holdout.
+- Record whether the relevant method was supplied, selected, read and actually applied. Separate these from fitness and outcome. If installed competing descriptions or source context cannot be excluded, report that contamination and avoid a clean “with versus without Skill” claim.
+- Compare the actual outputs against the same criteria, ideally with version labels hidden from the reviewer. Examine decisive calculations, counterevidence, result integration and Human repair burden; do not reward method names, visible process, length or format conformity.
+- Retain failures and ties. Revise only a demonstrated defect and recheck the affected claim. Limited synthetic cases support only scoped application evidence; they neither prove automatic selection nor substitute for subsequent genuine use.
+
+For example, an observed unsupported recommendation can justify comparing whether two method versions actually screen binding constraints and respond correctly to changed evidence. Two correct outputs establish preservation on that case, not added value. A claimed improvement in spontaneous method selection requires a separate natural-entry observation without naming the Skill. Do not add a standing benchmark, router or permanent evaluation gate.

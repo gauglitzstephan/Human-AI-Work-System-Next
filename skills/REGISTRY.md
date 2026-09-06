@@ -5,23 +5,25 @@
 
 ## Active packages
 
-| Skill | Why it remains | Use boundary |
+| Skill | Differentiated method | Use boundary |
 |---|---|---|
+| `work-formation` | Tests the purpose, problem/decision level, causal premise and next-use basis that could change the next substantial investment; resolves or contains the material gap | No preformed Work Object required; not routine planning, a mandatory entry stage or a handoff controller |
+| `adaptive-exploration` | Develops mechanism-distinct frames/alternatives, challenges shared assumptions and uses discriminating probes or scoped Human calibration | For materially open spaces; not routine variation or a replacement for an already-applicable decision/domain method |
 | `decision-analysis` | Differentiated method for sufficiently bounded material choices: viable alternatives, no action/delay/staging, reversibility, downside, uncertainty, information value, strongest rival and switching conditions | Prefer narrower domain decision methods where validity depends on them; does not authorize or execute |
-| `evaluate-work-product` | Genuine-use failures demonstrate the need for recipient/use/failure-mode-capable evaluation beyond rendering, polish or generic self-review | Prefer narrower professional evaluator; does not create, repair, approve or authorize the product |
+| `evaluate-work-product` | Derives applicable criteria from qualified sources, examines the actual product and supports a bounded intended-use judgment | Prefer narrower professional evaluator; an authorized review-and-repair episode preserves the original findings, performs production revision, and rechecks the new state; evaluation grants no approval |
 | `system-development` | Repeated exact-state, semantic-regression, promotion/readback and genuine-use failure-localization work has a specialized reusable method need | Scoped to this/comparable AI-work system; not universal systems engineering or a runtime controller |
 
-Native ChatGPT owns integration and ordinary work. A Skill is used only when its bounded transformation materially improves the task.
+Native ChatGPT owns integration and ordinary work. Work may apply these bounded methods inside an unfinished authorized episode, obtain evidence and continue across transformations without mandatory Skill handoffs. A Skill is used only when its method materially improves the task. Method availability does not prove automatic selection or correct application.
+
+All five packages are revised Candidate method sources. The [implementation receipt](../rebaseline/ACTIVE-SKILL-METHODS-IMPLEMENTATION-2026-09-06.md) binds the accepted concept, prior restoration, positive operations, static preservation and bounded comparisons. Method boundaries preserve professional responsibility; they do not require the Human to restart authorized supporting research or revision.
 
 ## Demoted packages
 
 | Skill | Disposition | Reason |
 |---|---|---|
-| `adaptive-exploration` | `LEGACY / NATIVE OR SPECIALIST BY DEFAULT` | Its useful invariants are present in current CI/native interaction; design, strategy and scientific exploration should use narrower providers when available |
-| `work-formation` | `LEGACY / NATIVE BY DEFAULT` | Current CI/native interaction owns proportional formation; `baseline/NATIVE-WORK-TRANSITION.md` owns the conditional qualified handoff to native execution. A separate generic Skill would recreate ceremony and duplicate ownership |
 | `research-evidence` | `LEGACY / NATIVE OR SPECIALIST BY DEFAULT` | Native research discipline and specialist providers own current facts and domain methods more directly; generic cross-domain routing adds insufficient incremental value |
 
-Their exact repository packages are preserved under `legacy/archive-2026-09-02/skills/`. The promoted rebuild removes only their active repository discovery/packaging exposure.
+The exact historical packages remain under `legacy/archive-2026-09-02/skills/`. `research-evidence` stays excluded from active discovery/packaging. Archived `work-formation` and `adaptive-exploration` remain lineage evidence; only their revised `skills/` packages are Candidate method sources.
 
 ## Provider selection boundary
 
@@ -39,12 +41,11 @@ This is judgment guidance, not a fixed route or lifecycle.
 
 Repository source, plugin packaging, installed Personal Skill identity, activation, execution quality and outcome are separate claims.
 
-Repository promotion does not itself update or uninstall Personal Skills. Product-surface readback on 2026-09-03 established:
+Repository promotion does not itself update or uninstall Personal Skills. Work-environment file readback on 2026-09-06 confirmed all 15 exposed files in the existing five Personal Skills:
 
-- installed: `decision-analysis`, `evaluate-work-product`, `system-development`;
-- absent from `Installed` but retained under `Created by me`: `adaptive-exploration`, `work-formation`, `research-evidence`;
-- repository plugin package: not present in the installed Plugin list;
-- `decision-analysis` and `evaluate-work-product`: entry files exact; each method reference differs only by one additional terminal newline;
-- after PR #53 and its separate Product-State-Cutover, installed `system-development`: all seven files exactly match repository source at `main@fe3c46b54c0b5dee47b43eec9c8baba8e042d52b`.
+- `decision-analysis`, `evaluate-work-product`, `system-development`: exact source at `main@9d195dd2270557c901c47147ed2411bd51ad6e59`;
+- `work-formation`, `adaptive-exploration`: exact restored source at `ebdfb39a6f5b97b48c19e507a5887d2ce9ac414b`.
 
-The legacy `Work System Development` Project Instructions were separately removed by the Human after PR #53. These readbacks are account/surface/date bound; they do not establish activation, correct execution, professional fitness or outcome. Any later Personal Skill, plugin, CI or Project change still requires explicit authorization and readback.
+This readback supersedes the older September 3 absence observation for those two restored methods in this Work environment. The five packages revised on this Candidate are not installed by this run. Three system-development references remain identical; other method files differ from the installed set. The manifest in the implementation evidence binds exact source hashes.
+
+The Human reported R3 installed/live; no CI product field is read back here. The legacy system-development Project Instructions were separately removed by the Human. Repository packaging is not proof of plugin installation, availability on another surface, spontaneous selection, correct application or professional value. Product changes require their own authorization and exact readback.

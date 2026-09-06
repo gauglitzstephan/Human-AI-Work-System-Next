@@ -1,7 +1,7 @@
 {
   "name": "human-ai-work-system-next",
-  "version": "0.2.2",
-  "description": "Three optional professional methods around native ChatGPT",
+  "version": "0.4.0",
+  "description": "Five reusable methods for problem formation, exploration, decisions, evaluation and system change",
   "author": {
     "name": "Stephan Gauglitz",
     "url": "https://github.com/gauglitzstephan"
@@ -10,16 +10,20 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Human-AI Work Methods",
-    "shortDescription": "Decision, evaluation, and system methods",
-    "longDescription": "Three optional reusable methods around native ChatGPT: bounded decision analysis, intended-use work-product evaluation, and scoped Human-AI system development. This plugin is not a runtime, router, lifecycle, or complete provider universe.",
+    "shortDescription": "Formation, exploration and professional methods",
+    "longDescription": "Five differentiated methods that investigate material premises, develop and test alternatives, analyze choices, evaluate actual products and repair the Human-AI work system. They operate within native Work, including unfinished input, with qualified domain providers and Human authority. No controller, mandatory sequence or additional Skill is introduced.",
     "developerName": "Stephan Gauglitz",
     "category": "Productivity",
     "defaultPrompt": [
+      "Develop the missing problem or premise basis before a substantial investment in this work.",
+      "Explore materially different frames or solution mechanisms before committing to a direction.",
       "Analyze this bounded material decision when a reusable decision method adds value.",
       "Evaluate whether this exact work product is fit for its intended recipient and use.",
       "Recover or diagnose this Human-AI work system when system-development work is actually required."
     ],
     "capabilities": [
+      "Form a sufficient problem and next-investment basis",
+      "Explore distinct frames and solution mechanisms",
       "Analyze bounded material decisions",
       "Evaluate existing work products",
       "Recover and improve Human-AI work systems"

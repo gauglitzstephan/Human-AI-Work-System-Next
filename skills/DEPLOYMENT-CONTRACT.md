@@ -2,13 +2,15 @@
 
 ## Active source
 
-`main/skills/` is the authoritative repository source only for the active custom portfolio:
+`main/skills/` is authoritative after promotion; `skills/` on a Candidate branch is proposed source only. This Candidate portfolio contains:
 
+- `work-formation`
+- `adaptive-exploration`
 - `decision-analysis`
 - `evaluate-work-product`
 - `system-development`
 
-The demoted packages are historical source under `legacy/archive-2026-09-02/skills/`; they are not active plugin or repository-discovery providers.
+`research-evidence` remains demoted and absent from active discovery. The archived versions of all three packages remain historical evidence under `legacy/archive-2026-09-02/skills/`; they do not override revised Candidate/current source. Restoring repository discovery does not reinstall a Personal Skill. This Candidate explicitly incorporates the prior restoration, then revises all five method entries. Package version 0.4.0 identifies the source change; the installed 15-file predecessor set remains unchanged. See `rebaseline/ACTIVE-SKILL-METHODS-IMPLEMENTATION-2026-09-06.md` for exact identities and claim limits.
 
 ## Discovery and packaging
 

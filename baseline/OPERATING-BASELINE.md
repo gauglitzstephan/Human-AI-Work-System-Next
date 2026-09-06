@@ -31,10 +31,14 @@ The canonical source is a design/review authority, not a required always-loaded 
 
 - The exact current Global CI source selected by `CURRENT.md` expresses high-salience interaction, epistemic, quality, continuity and native-handoff preferences.
 - `baseline/NATIVE-WORK-TRANSITION.md` provides the compact conditional bridge from qualified conversational work to native agentic execution; it is not a Skill, router or lifecycle.
-- `decision-analysis` provides a bounded cross-domain decision method.
-- `evaluate-work-product` provides a bounded cross-domain fitness method when no narrower evaluator owns the claim.
+- `work-formation` investigates the premise or missing next-use basis that could change the next substantial contribution, then resolves or contains it.
+- `adaptive-exploration` develops materially different frames or mechanisms and uses evidence, counterhypotheses, probes and scoped calibration to discriminate them.
+- `decision-analysis` compares a bounded choice through consequences, binding constraints, uncertainty, strongest rivals and switching conditions.
+- `evaluate-work-product` establishes criteria and performs examinations of the actual product for its intended use, with narrower professional evaluators where needed.
 - `system-development` provides scoped recovery/diagnosis/promotion/validation methods for this system.
 - `baseline/SYSTEM-LEARNING.md` provides compact failure classification and change discipline; it is not a Skill or runtime layer.
+
+The differentiated methods can be applied to unfinished input inside Work; no prior Chat formation or complete Work Object is a prerequisite for method use. Native Work retains evidence acquisition, method/provider choice, operational planning, execution and integration. A method governs its own transformation only. Necessary research, complementary methods and authorized review-and-repair continue within the same episode and their results are integrated; completion does not create a new Human gate or fixed method sequence. Naming a native owner or available method does not demonstrate professional performance. Canonical semantics and NWT retain their existing ownership.
 
 ## 5. Retired default mechanisms
 

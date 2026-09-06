@@ -1,61 +1,26 @@
 ---
 name: decision-analysis
-description: Analyze a sufficiently bounded material choice—standalone or inside a broader research, design, planning, or execution episode—with a known decision object, owner, intended outcome, and decision level. Compare viable options—including no action, delay, staged commitment, or a reversible test—under objectives, constraints, consequences, uncertainty, risk, trade-offs, and information value. The Skill owns only the decision-analysis transformation. Do not use for open exploration without a bounded decision, same-use product evaluation, authorization, or to perform surrounding research, planning, or execution.
+description: Analyze a bounded material choice and develop an evidence-based or explicitly conditional recommendation. Compare viable alternatives by consequences, constraints, uncertainty and the decision owner's priorities; test the leading option against its strongest rival and identify switching conditions.
 ---
 
 # Decision Analysis
 
-Develop a responsible recommendation for a bounded material choice. Native ChatGPT owns the work episode; this Skill owns only the decision-analysis transformation.
+Develop a responsible recommendation for an identifiable material choice, standalone or within broader work. Read [DECISION-ANALYSIS-METHOD.md](references/DECISION-ANALYSIS-METHOD.md) and perform the analysis appropriate to this choice.
 
-Read `references/DECISION-ANALYSIS-METHOD.md` for substantive analysis.
+## Analyze the choice
 
-## Activation boundary
+Bind the actual choice, Decision Owner, intended outcome, decision level and relevant horizon. Options and some preferences may still need development. Recover qualified alternatives and evidence; develop missing viable routes, including no action, delay or staging when relevant.
 
-The decision object, Decision Owner, intended outcome, and material decision level must be sufficiently bound. The option set may still need to be formed.
+Separate binding constraints from preferences. Choose the analysis that can decide this case: constraint or dominance reasoning, consequence comparison, sensitivity analysis, or scenarios when probabilities are not defensible. Obtain decision-relevant evidence through the available research/provider capability and perform the comparison. Use a narrower qualified decision method where domain validity depends on it.
 
-A bounded material decision may be one transformation inside a broader research, design, planning, or execution episode. Surrounding work does not disqualify activation and does not become this Skill's scope. Use the decision result in the continuing native episode when appropriate.
+Test the leading option against its strongest credible rival. Identify what would change the recommendation; state when constraints or dominance leave no meaningful rival. Include material downside, affected parties, opportunity cost, reversibility and information value. Never invent preferences, weights, probabilities, consent or numerical precision.
 
-Keep adjacent transformations with their current owners:
+Resolve a material value trade-off with the Human only when necessary. Deliver a supported or conditional recommendation, a justified test, deferral, no action, or an honest absence of robust preference.
 
-- an open frame, opportunity, solution class, or creative direction without a bounded decision → Native ChatGPT or a narrower exploration, strategy, or design method;
-- a blocking missing basis that could redefine the decision or required method → the native episode or the relevant specialist method;
-- acquiring or qualifying material evidence → native research or a qualified specialist research method;
-- evaluating identifiable work products against the same recipient, use, or criteria → `evaluate-work-product`;
-- implementation planning or execution → native Work or the relevant specialist method.
+## Integrate the result
 
-Use a narrower qualified decision method when domain validity depends on one.
+The native executor owns the continuing episode. Research, option formation, evaluation or production can supply necessary work without a Human-directed method handoff. Integrate their findings into this analysis and its implication into the authorized parent work. An unbounded frame may need formation or exploration first, without requiring a separate episode or complete option set.
 
-## Essential invariants
+Return the decisive comparison, evidence, strongest rival, switching condition and material limits naturally; do not force a scorecard. Analytical dispositions are `RECOMMEND_OPTION`, `RECOMMEND_OPTION_WITH_CONDITIONS`, `RECOMMEND_REVERSIBLE_TEST`, `RECOMMEND_DEFER`, `RECOMMEND_NO_ACTION`, `NO_ROBUST_PREFERENCE` or `INSUFFICIENT_BASIS`.
 
-- Preserve Human goals, values, constraints, and risk tolerance; never invent weights, consent, or commitment.
-- Distinguish hard constraints from preferences and current plans.
-- Consider status quo, no action, delay, staged commitment, and reversible tests only when genuinely viable.
-- Use qualified evidence and upstream evaluations without taking over their methods.
-- Match the decision regime to the stakes, reversibility, time pressure, and structure of uncertainty.
-- Do not manufacture probabilities, scores, or precision under model or deep uncertainty.
-- Challenge the leading option against its strongest credible rival and identify the switching condition.
-- Treat a recommendation as analysis, not Human acceptance, authorization, execution, or outcome.
-
-## Return
-
-Return proportionately: the bound decision and owner; viable options; decisive objectives, constraints, evidence, consequences, trade-offs, downside, uncertainty, reversibility, and information value; the strongest rival and switching condition; one analytical disposition; and claim/authority limits.
-
-Present the result naturally. Do not force a matrix or scorecard when a shorter analysis is professionally sufficient.
-
-## Dispositions
-
-- `RECOMMEND_OPTION`
-- `RECOMMEND_OPTION_WITH_CONDITIONS`
-- `RECOMMEND_REVERSIBLE_TEST`
-- `RECOMMEND_DEFER`
-- `RECOMMEND_NO_ACTION`
-- `NO_ROBUST_PREFERENCE`
-- `INSUFFICIENT_BASIS`
-
-Name the relevant option, condition, or missing basis. These are analytical recommendations only.
-
-## Stop
-
-Stop this transformation when the bounded recommendation is adequately supported, a conditional or reversible route responsibly contains remaining uncertainty, no robust preference exists, or missing evidence, method, or non-substitutable Human input prevents a stronger result.
-
-Do not absorb research, product evaluation, planning, implementation, authorization, or governance merely because the native episode continues into those transformations.
+End this method when the recommendation is supported or uncertainty is responsibly contained or bounded. Its end does not stop already-authorized work. A recommendation is not Human acceptance, authorization, commitment, execution or outcome; the method creates no new delegation.

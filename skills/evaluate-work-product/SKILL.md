@@ -1,54 +1,30 @@
 ---
 name: evaluate-work-product
-description: Evaluate whether an identifiable intermediate or final work product is fit for a bounded recipient, intended use, handoff, readiness, or reliance claim—for example whether it can be used, sent, relied on, or handed off—standalone or inside a larger Work episode when fitness materially affects the next step. Apply claim- and failure-mode-capable evaluation, using a narrower professional method when required. The Skill owns only the evaluation transformation. Do not use primarily for research, wider-option decision analysis, runtime diagnosis, creation or repair, authorization, ordinary production without a material fitness claim, or as a default completion gate.
+description: Evaluate an identifiable work product for a material intended-use or reliance claim. Establish the applicable professional criteria, inspect the actual product and perform tests capable of revealing its important failures; return evidence-based findings and a bounded fitness judgment.
 ---
 
 # Evaluate Work Product
 
-Determine whether an identifiable existing work product is professionally fit for a bounded recipient, intended use, handoff, readiness, or reliance claim. Native ChatGPT owns the work episode; this Skill owns only the evaluation transformation.
+Determine whether the exact product supports its recipient's intended use. Read [EVALUATE-WORK-PRODUCT-METHOD.md](references/EVALUATE-WORK-PRODUCT-METHOD.md) and apply examinations capable of detecting the material failures.
 
-Read `references/EVALUATE-WORK-PRODUCT-METHOD.md` for substantive evaluation.
+## Establish and perform the evaluation
 
-## Activation boundary
+Bind the exact intermediate or final product state and recipient/use or reliance claim. Split materially different claims. Establish the professional basis from accessible authoritative requirements, relevant methods and qualified exemplars.
 
-Bind the exact intermediate or final product and enough of its version or state to distinguish it from later changes. Bind the recipient, intended use, handoff, readiness, or reliance claim; split materially different uses or claims.
+Translate important ways this product could fail its user into concrete criteria and examinations. Inspect the actual content and, when the claim depends on it, the rendered or functioning recipient surface. Perform the checks; distinguish supported properties, defects and unavailable evidence.
 
-The product may arise inside a larger research, design, planning, production, or execution episode. Dedicated evaluation is eligible when fitness for the bound claim materially affects the next step. Ordinary production without such a material fitness or reliance need does not trigger evaluation automatically.
+Seek accessible criteria and evidence before concluding that the basis is insufficient. Use a narrower professional evaluator when it owns the claim. Do not replace missing craft, expertise or representative-use evidence with a plausible rubric, polish, successful rendering or a second general model pass.
 
-Use a narrower professional evaluation method when it fully owns the task. If no adequate method, criteria, or evidence basis exists, return `INSUFFICIENT_BASIS` or weaken the claim.
+Explain each material finding through evidence, the affected criterion and its consequence for use. Preserve supported properties and state only the fitness judgment the examinations support.
 
-Keep adjacent transformations with their current owners:
+## Review, repair and continue
 
-- acquiring or qualifying missing evidence → native research or a qualified specialist research method;
-- choosing among alternatives under wider objectives, consequences, uncertainty, or trade-offs → `decision-analysis`;
-- diagnosing this system's runtime or transition behavior → `system-development`;
-- creating or repairing the product → Native ChatGPT, native Work, or the relevant production method.
+Keep the original product unchanged during its evaluation. For an authorized review-and-repair task, retain its findings, perform the production revision through the appropriate native/domain method, and reevaluate affected properties of the new state in the same episode. No new Human permission or handoff is required for already-authorized revision.
 
-## Essential invariants
+Native Work owns evidence acquisition, production and integration; this method supplies evaluation. Wider option decisions and system-runtime diagnosis retain their own methods. Method boundaries do not abandon those tasks when they are part of the request.
 
-- Use claim- and failure-mode-capable methods, deterministic checks, and authoritative requirements where applicable.
-- Keep the evaluated product unchanged during evaluation.
-- For evaluation plus revision, close the original evaluation first; the revision is a new product state whose affected claims may require reevaluation.
-- Preserve supported properties while prioritizing defects by consequence for the stated use.
-- Do not infer runtime performance, transition success, use, adoption, or outcome from a static artifact.
-- Do not equate polish, fluency, length, process conformity, or a generic score with professional fitness.
-- Treat an evaluation disposition as neither approval nor authorization.
+## Result and limits
 
-## Return
+Return product/state, use, basis, supported properties, prioritized findings, limits and direct implications naturally. Use one disposition per materially distinct claim: `FIT_FOR_STATED_USE`, `FIT_FOR_STATED_USE_WITH_LIMITS`, `NOT_FIT_FOR_STATED_USE` or `INSUFFICIENT_BASIS`.
 
-Return proportionately: product/state; recipient, intended use, and claim; evaluation basis and decisive evidence; supported properties; prioritized findings and their consequence; uncertainty or missing basis; one disposition per materially distinct claim/use; direct next implication; and authority limits.
-
-Present the result naturally. Do not force a visible schema when a concise professional evaluation is sufficient.
-
-## Dispositions
-
-- `FIT_FOR_STATED_USE`
-- `FIT_FOR_STATED_USE_WITH_LIMITS`
-- `NOT_FIT_FOR_STATED_USE`
-- `INSUFFICIENT_BASIS`
-
-These are evaluation dispositions, not Acceptance, Approval, Authorization, Commitment, execution, or outcome claims.
-
-## Stop
-
-Stop this transformation when enough evidence supports the bounded disposition or when missing method, criteria, or evidence prevents one. Do not absorb research, repair, decision, authorization, or outcome work merely because the native episode continues, and do not turn evaluation into a universal completion gate.
+An insufficient basis is not a negative fitness finding. Complete independently assessable properties even when a stronger claim remains unavailable. End evaluation when the bounded disposition is supported; continue authorized work where needed. Evaluation is not a default completion gate and does not grant acceptance, approval, release or authority, or establish runtime behavior, adoption or outcome.

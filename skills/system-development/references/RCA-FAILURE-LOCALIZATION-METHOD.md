@@ -1,4 +1,4 @@
-# System Failure Localization Method v0.2
+# System Failure Localization Method v0.3
 
 **Status:** scoped internal diagnostic method.  
 **Use when:** observed behavior, artifact quality, runtime control, state continuity or outcome evidence in this system contradicts the expected claim.
@@ -28,7 +28,7 @@ Locate the lowest responsible failure mechanism before changing broader architec
    - assurance;
    - transition/use/outcome;
    - architecture only if lower layers cannot represent or own the failure.
-5. **Test plausible competing causes** when they would change the repair. Do not stop at the first coherent story.
+5. **Test plausible competing causes** when they would change the repair. For each live rival, name the observation expected if it were true and a check capable of discriminating it. Obtain accessible evidence and update the localization; do not stop at a coherent story or a list of untested causes. Distinguish a missing source operation, a different installed/loaded version, failed selection, and non-application of an available operation. These require different repairs. If internal causality is not observable, report the first supported divergence and retain the unresolved causal claim.
 6. **Preserve unaffected qualified state.** Define the smallest repair capable of fixing or detecting the responsible mechanism.
 7. **Recheck the affected claim and material regressions.** Do not launch a new system redesign by default.
 8. **Escalate only on evidence.** Architecture reopen requires a named failure that cannot be represented or repaired cleanly at lower layers.
@@ -51,3 +51,7 @@ Locate the lowest responsible failure mechanism before changing broader architec
 - Human blamed for detecting an AI-resolvable defect;
 - architecture reopened before runtime/method/state recovery;
 - internal layer taxonomy mistaken for a general causal RCA method.
+
+## Discriminating example
+
+A response omitted a required comparison. One hypothesis is that the source lacks it; another is that the active source differed; another is non-application. Read the expected source, recover the available installed/loaded identity and inspect the episode's actual comparison. A loaded older version localizes a state divergence before application of the new rule could be expected. An exact current read plus an omitted comparison supports an application failure, without proving why the model omitted it. A source file's existence alone distinguishes neither case. Recheck the claim at the identified layer rather than adding a global rule to cover every rival.

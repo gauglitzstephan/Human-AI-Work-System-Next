@@ -1,4 +1,4 @@
-# Decision Analysis Method v0.1
+# Decision Analysis Method v0.2
 
 **Status:** cross-domain decision discipline; not a universal professional decision methodology.
 
@@ -103,7 +103,7 @@ Do not manufacture options merely to create symmetry. Do not rank alternatives w
 
 ## 4. Bind evidence and assumptions
 
-Use qualified evidence already available from native or specialist research, work-product evaluation, or other qualified methods.
+Use qualified evidence already available from native or specialist research, work-product evaluation, or other qualified methods. When a material premise can be investigated within the authorization, obtain that evidence through the available provider and incorporate it into the comparison. “Research required” is not a completed contribution when that research is accessible and part of the task.
 
 Distinguish:
 
@@ -121,14 +121,17 @@ Do not treat an evaluation disposition as a decision. Do not treat a rationale, 
 
 Use the shallowest regime capable of detecting the material decision failure modes.
 
-Possible regimes include:
+Choose an operation with inputs adequate for its conclusion:
 
-- **Simple constraint or dominance reasoning** — one or more options fail hard constraints or are materially dominated.
-- **Deliberative trade-off analysis** — several viable alternatives differ across consequential objectives, risks or opportunity costs.
-- **Time-constrained expert judgment** — qualified domain experience and rapid mental simulation are more appropriate than exhaustive option scoring.
-- **Deep-uncertainty or adaptive choice** — models, probabilities or future states are not reliable enough for one-shot optimization.
+| Decision structure | Perform | Required basis | Supportable conclusion |
+|---|---|---|---|
+| Binding constraint or dominance | Test feasibility first; compare remaining consequences | Actual constraint, comparable option properties | Exclusion or dominance on the specified basis |
+| Consequential trade-off | Compare consequences in meaningful units; vary decisive assumptions/preferences | Evidence for consequences and legitimate priorities | Supported or conditional preference; explicit switching point |
+| Characterizable risk | Expected-value/utility or probability analysis when useful | Defensible probabilities, consequence model and risk preferences | Model-conditional recommendation, with sensitivity |
+| Genuine time pressure | Qualified expert judgment and rapid mental simulation | Relevant domain experience and recognizable situation | Time-bounded judgment; uncertainty exposed |
+| Deep uncertainty | Test option vulnerabilities across plausible regimes; examine thresholds and adaptation | Credible mechanisms, relevant futures, consequence ranges where supportable | Scenario-conditional or robust preference on the examined basis |
 
-These regimes are selectable, not mandatory stages.
+These regimes are selectable, not mandatory stages. A qualitative matrix is a reasoning aid, not a calculated regret measure or evidence of robustness. Compare actual consequences where supported; do not invent scores, weights or probabilities to fill cells.
 
 Do not force a matrix onto a clear decision. Do not treat generic pattern recognition as qualified expertise. Combine regimes only when the decision genuinely requires it.
 
@@ -144,7 +147,7 @@ Compare material benefits, costs, burdens, risks, opportunity costs and downstre
 
 ### Scenario and robustness analysis
 
-Test how options perform across plausible futures. Prefer a robust option when small assumption changes would otherwise reverse a fragile ranking.
+Test how options perform across relevant plausible futures, including the mechanisms that could defeat each option. A robustness claim needs demonstrated satisfactory performance across the examined conditions, or qualified dominance; naming scenarios and assigning qualitative ranks is insufficient. Expose a fragile ranking or return a conditional recommendation when support is weaker.
 
 ### Sensitivity and switching analysis
 
@@ -221,7 +224,7 @@ Further evidence or testing is decision-relevant only when it could credibly cha
 
 Specify the smallest question, observation or test that would reduce the material uncertainty.
 
-Recommend additional information only when its expected decision value exceeds its cost, delay, burden and risk of losing the option.
+Pursue additional information when its plausible decision value justifies its cost, delay, burden and risk of losing the option. Quantify that value only with a defensible basis. Perform authorized accessible inquiry now when it is part of the request; preserve a conditional result or exact blocker when it is not obtainable.
 
 ## 8. Challenge the emerging recommendation
 
@@ -241,9 +244,7 @@ Test material failure modes such as:
 
 Use premortems, counterfactuals or outside-view comparisons only where they can expose a material failure mode.
 
-## Challenge the prospective recommendation
-
-Before reaching a material recommendation:
+Apply the challenge to the actual comparison, rather than appending a generic risk warning:
 
 1. identify the strongest credible rival at the same decision level;
 2. state the strongest reason the leading option could fail;
@@ -292,4 +293,12 @@ If the user has legitimately delegated a routine decision within an authorized s
 
 Stop when the bounded recommendation is adequately supported, a reversible or conditional route responsibly contains remaining uncertainty, or the missing basis prevents a stronger result.
 
-This method stops at the decision-analysis boundary. The native episode may continue into evidence acquisition, product repair, strategy creation, project planning, execution or monitoring when separately needed and legitimately owned; this method must not absorb those transformations.
+The recommendation completes this transformation, not necessarily the task. Continue authorized evidence acquisition, product repair, strategy, planning, execution or monitoring through their appropriate native/domain methods and integrate the decision result. Preserve qualified state and reopen only dependencies affected by new evidence; do not manufacture another Human handoff.
+
+## Worked examples — analyze what can decide the case
+
+**Constraint dominance.** A purchase must work offline. A cheaper service requires an online connection; a more expensive device meets all binding requirements. Price cannot compensate for the failed offline constraint. Recommend the feasible device on this comparison if the purchase is otherwise justified; if its price violates a binding budget too, neither option is feasible. Do not invent weights to pick a winner.
+
+**Sensitive trade-off.** Two feasible machines differ by 2,000 euros upfront and an evidenced 500 euros of annual operating cost. Ignoring discounting and other differences explicitly, the cost crossover is four years. A shorter intended life favors the cheaper purchase; a longer life favors lower operating cost. Test whether maintenance, uncertainty or a different horizon changes that conclusion. An unknown lifespan supports a conditional recommendation, not an invented preference.
+
+**Deep uncertainty.** A proprietary service may become much cheaper, remain expensive or cease to meet access needs. Compare service-only, self-managed and export-capable hybrid routes on actual cost, switching burden, control and failure recovery under those regimes. If export cost or completeness is unknown, “hybrid is robust” is not yet established. Examine export/reconstruction evidence or recommend only a bounded commitment with a specific condition. Waiting also costs foregone use; it is not free optionality. Do not assign probabilities or select a future merely to settle the recommendation.

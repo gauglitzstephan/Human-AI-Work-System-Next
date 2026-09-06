@@ -1,6 +1,6 @@
 # Preservation and Regression Coverage
 
-**Status:** CURRENT static semantic/ownership map on authoritative `main`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
+**Status:** CURRENT static semantic/ownership map on authoritative `main`; CANDIDATE off `main`. This file does not establish product installation, runtime activation, behavioral conformance or outcome value.
 
 ## Durable-learning coverage
 
@@ -47,6 +47,8 @@ The nine Work Functions in the Canonical source are **INFORMATIVE ONLY**. They a
 
 Concrete differentiated method ownership remains:
 
+- `work-formation` for a material missing problem/premise/next-use basis; no mandatory entry stage;
+- `adaptive-exploration` for materially open frames/mechanisms; no universal exploration stage;
 - `decision-analysis` for bounded material decisions when its method adds value;
 - `evaluate-work-product` for claim-matched fitness when no narrower evaluator owns the claim;
 - `system-development` for this system's recovery, failure localization, semantic regression, promotion/readback and genuine-use validation;
@@ -84,6 +86,27 @@ The full Canonical source is intentionally not copied into Global CI. Detailed W
 
 ## Current static verdict
 
-**PASS** for promoted source/ownership coherence within the current repository package, subject to the claim boundary above.
+The base Canonical/R3 package retains its promoted static preservation result. The five-method Candidate has a separate [implementation and regression receipt](../rebaseline/ACTIVE-SKILL-METHODS-IMPLEMENTATION-2026-09-06.md). Its source checks and bounded supplied-method comparisons must not inherit Human acceptance, promotion or runtime success from the base.
 
 This PASS does not prove installed CI identity, runtime activation, behavioral improvement, professional fitness, use, outcome or value.
+
+## Active-method Candidate preservation
+
+| Material obligation | Disposition / preserved locus |
+|---|---|
+| Need/means, next-investment sufficiency, decision level, causal relevance, intended use | PRESERVED; Formation premise tests, supported/conditional formulation and worked examples |
+| Qualified recovery, explicit means, valuable local contribution, narrow reopening | PRESERVED; Formation recovery and continuation; all entries' integration boundaries |
+| Resolve or contain uncertainty; information value includes delay and lost opportunity | PRESERVED; Formation uncertainty treatment; Decision Analysis information/option value |
+| Mechanism differences, shared-premise challenge, precedents/transfer, evidence-changing probes | PRESERVED / MADE EXECUTABLE; Exploration mechanism and probe sections plus examples |
+| Human calibration local/provisional; no invented preferences, commitments or authority | PRESERVED; Formation, Exploration and Decision Analysis Human boundaries |
+| Binding constraints, affected parties, consequences, uncertainty regimes, strongest rival and switching conditions | PRESERVED; Decision Analysis method; duplicate challenge headings consolidated |
+| Claim-matched criteria and examinations; craft/recipient transformation beyond opening or render success | PRESERVED / MADE EXECUTABLE; Evaluation basis-to-examination table and examples |
+| Original product identity, supported properties, four fitness dispositions and qualified revision | PRESERVED; Evaluation sections 5–10; revision remains production work in the same authorized episode |
+| First divergence, competing causes, lowest responsible repair | PRESERVED / MADE EXECUTABLE; System failure-localization reference with discriminating observations |
+| Requirement → owner → mechanism → runtime claim | PRESERVED; Architecture reference; owner/access alone cannot prove realization |
+| Exact recovery, compilation/regression, promotion/readback | PRESERVED BYTE-FOR-BYTE; corresponding three System Development references |
+| Evidence-bounded genuine use; no method read/selection/outcome conflation | PRESERVED / PRECISED; Real-Use Validation scoped comparison guidance |
+| Method boundary requires task termination or Human-operated handoff for authorized research/repair | INTENTIONALLY RETIRED as instruction implication; native episode continues with legitimate providers |
+| Mandatory Formation/Exploration, router, universal lifecycle/state, research-evidence default, default review | REMAIN INTENTIONALLY RETIRED; no new Skill or runtime mechanism |
+
+Canonical conditional risk/recovery, divergent-state authority, Human capability effects, reliance, child-to-parent integration, adaptation legibility and portability remain with their unchanged canonical and domain owners. They are not recompiled into every Skill. External ownership remains distinct from activation or behavior.

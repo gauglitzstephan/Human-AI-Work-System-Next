@@ -28,7 +28,9 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 | Active custom Skill portfolio | `skills/REGISTRY.md` |
 | Skill source/deployment boundary | `skills/DEPLOYMENT-CONTRACT.md` |
 | Current preservation/non-regression map | `inventory/PRESERVATION-COVERAGE.md` |
-| Promotion/readback receipt for this package | `inventory/JOINT-WORK-R3-PROMOTION-RECEIPT-2026-09-06.md` |
+| Base Canonical/R3 promotion receipt | `inventory/JOINT-WORK-R3-PROMOTION-RECEIPT-2026-09-06.md` |
+| Active-method implementation Candidate receipt | `rebaseline/ACTIVE-SKILL-METHODS-IMPLEMENTATION-2026-09-06.md` |
+| Formation/exploration lineage | `rebaseline/FORMATION-EXPLORATION-RESTORATION-2026-09-06.md` |
 | Historical boundary | `legacy/README.md` |
 
 No other file is current system authority merely because it has a newer-looking name, an old promotion label or executable-looking instructions.
@@ -49,7 +51,7 @@ Exact R3 payload identity:
 - terminal newline: **none**
 - SHA-256: `e5de13b5989590959829ae12207f1269f691603d3c4f99568b4f68101be20985`
 
-Repository promotion does **not** install this payload. The Human intends to install the CI product state after repository promotion. No post-R3 product-field readback has occurred in this repository promotion, so effective installed identity, activation and behavior remain unverified.
+Repository promotion does **not** install this payload. The Human subsequently reported R3 installed and live in the current runtime. That report establishes the reported use context; this Candidate does not independently read back the product field or establish exact installed identity, activation in a particular episode, behavioral effectiveness or outcome.
 
 The previously action-bearing September 3 CI source and R2 Candidate are explicitly superseded and must not be installed.
 
@@ -93,13 +95,15 @@ These are transformations, not a lifecycle or Skill topology. For substantial ag
 
 ## Active custom methods
 
-Only three custom Skills remain active because their methods are sufficiently differentiated:
+This Candidate contains five differentiated custom methods:
 
+- `work-formation` — the missing problem, premise and next-use basis that could change the next substantial investment;
+- `adaptive-exploration` — materially different frames/mechanisms, counterhypotheses, discriminating probes and scoped calibration;
 - `decision-analysis` — bounded material decisions under objectives, uncertainty, downside and option value;
 - `evaluate-work-product` — recipient/use/failure-mode-capable fitness evaluation;
 - `system-development` — exact recovery, failure localization, semantic regression, promotion/readback and genuine-use evaluation for this system.
 
-Skills are method providers, not Work Functions, stages or the complete provider universe.
+Skills are method providers, not Work Functions, stages or the complete provider universe. These methods accept unfinished input within Work where their bounded transformation is needed and do not require prior Chat formation. Native Work retains research, method/provider choice, operational planning, execution and integration; bounded method completion creates no new approval gate.
 
 ## Retired defaults
 
@@ -118,10 +122,8 @@ Working context, memory, retrieval and stored copies do not gain authority merel
 
 ## Current closure and next legitimate transition
 
-The repository package is current once this file and all selected sources are present on authoritative `main` after readback.
+The five revised method packages and their discovery/entry-point changes are Candidate until separately accepted and promoted. This implementation explicitly incorporates the earlier formation/exploration restoration at `ebdfb39a6f5b97b48c19e507a5887d2ce9ac414b`, then applies the accepted reconception. The separate direct-entry Candidate is not merged. The existing Canonical/R3 promotion receipt establishes only the base package. See the implementation receipt for exact lineage, deltas and checks.
 
-The next external transition is intentionally simple:
+Work-environment readback on 2026-09-06 found all 15 exposed Personal Skill files matching the prior source set: the three methods from main plus the two from the restoration Candidate. Those installed copies remain unchanged; they are not these five revised packages. This does not independently attest every account surface or future session.
 
-1. Human installs the exact R3 payload from `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md` in the intended ChatGPT Global Custom Instructions field.
-2. Product installation identity/readback is recorded separately if verification is desired.
-3. Resume genuine professional use. Record only decision-relevant behavioral evidence; do not reopen architecture without a material failure or supported improvement opportunity.
+Next gate: Human review of the exact committed active-method Candidate and its bounded comparison evidence. Merge and installation/update require separate authorization. Targeted supplied-method runs do not establish spontaneous selection or general professional improvement; subsequent genuine use retains that claim boundary.
