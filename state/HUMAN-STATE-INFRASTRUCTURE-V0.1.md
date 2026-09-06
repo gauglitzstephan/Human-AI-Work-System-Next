@@ -13,10 +13,12 @@ The layer exists to answer, with provenance and authority, questions such as:
 - What has the Human actually decided?
 - What evidence or source supports a claim?
 - What constraints and standards govern this work?
-- What is committed, open, superseded, or expired?
+- What is committed, open, resolved, superseded, or expired?
 - What may the AI decide or do autonomously, and what remains Human/domain authority?
 
 Native ChatGPT/Work owns reasoning, planning, tool choice, execution and ordinary adaptation. Projects and memory provide working continuity and convenience. Domain systems retain their own authoritative data. Human State Infrastructure preserves the small durable subset that should survive model, chat, project and provider changes.
+
+The operational registry can be understood as a **State Library**: a typed, provenance-aware index of durable current and historical state. It is not the Human's entire Knowledge Capital. Source documents, research, models, artifacts and domain-native records remain in their legitimate systems; the State Library records what currently applies, what is authoritative, what was decided, what remains open, what has been resolved, and how those states relate to source material.
 
 ## 2. Core model
 
@@ -33,7 +35,7 @@ Required logical fields:
 - `assertion_mode` — how the state entered the system
 - `provenance` — source/reference and time where applicable
 - `validity` — effective/review timing where applicable
-- `relations` — supports, based_on, supersedes, constrained_by, governed_by, related_to
+- `relations` — supports, based_on, supersedes, constrained_by, governed_by, resolves, related_to
 
 Optional fields are added only where semantically needed, e.g. confidence for epistemic claims or sensitivity for access handling.
 
@@ -79,13 +81,16 @@ Minimum lifecycle:
 
 - `proposed`
 - `active`
+- `resolved`
 - `superseded`
 - `expired`
 - `rejected`
 
-Never silently overwrite material history. A replacement should normally supersede the prior object and preserve the relation.
+`resolved` means the object reached a legitimate terminal outcome without becoming false or being replaced. Typical examples are an answered open question, a fulfilled commitment, or a closed case whose history remains useful.
 
-Retrieval defaults to active state; historical state is available when needed for audit, explanation, requalification or comparison.
+Never silently overwrite material history. A replacement should normally supersede the prior object and preserve the relation. Resolution should preserve the object and, where useful, relate it to the answer, outcome or successor state.
+
+Retrieval defaults to active state plus any resolved state that is materially relevant to the current work; historical state is available when needed for audit, explanation, requalification or comparison.
 
 ## 6. Scope
 
@@ -112,6 +117,7 @@ Output: zero or more candidate mutations:
 
 - `CREATE`
 - `UPDATE`
+- `RESOLVE`
 - `SUPERSEDE`
 - `EXPIRE`
 - `RELATE`
@@ -124,7 +130,7 @@ Input: current work intent plus resolvable domain/project/entity context.
 
 Output: a compact authoritative State Packet containing only the state relevant to the present work, ranked primarily by scope proximity, authority, current status and task relevance; recency is secondary and only used where time matters.
 
-The packet should normally include active decisions, relevant claims/evidence, constraints, standards, authority, commitments and blocking/open questions. It should not dump the full store into context.
+The packet should normally include active decisions, relevant claims/evidence, constraints, standards, authority, commitments and blocking/open questions. It may include resolved state where prior outcomes materially inform current work. It should not dump the full store into context.
 
 ## 8. Human gates and autonomy
 
@@ -146,7 +152,7 @@ Evidence extraction, relationship suggestions, non-authoritative hypotheses and 
 - **ChatGPT Memory:** convenience and personalization; not sole authority.
 - **Projects:** scoped working context and continuity; not sole authoritative state registry.
 - **Chat / Work / Research / Codex:** reasoning and execution consumers/producers of candidate state events.
-- **Human State Store:** durable typed authoritative state.
+- **Human State Store / State Library:** durable typed authoritative state and its lifecycle.
 - **Domain systems (Drive, Gmail, Calendar, GitHub, finance systems, web sources, etc.):** retain domain-native authoritative records and evidence.
 - **Repository:** schema/policy/system-learning authority, not the operational database for all personal state.
 
