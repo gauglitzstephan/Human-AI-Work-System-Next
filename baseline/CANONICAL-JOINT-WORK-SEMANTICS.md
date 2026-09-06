@@ -1,6 +1,6 @@
 # Canonical Joint-Work Semantics
 
-**Status:** repaired CANDIDATE on `candidate/joint-cognitive-work-architecture-2026-09-06`; sole proposed normative cooperation source within this Candidate, not an accepted design basis or replacement for authoritative main. Not an installable prompt or runtime controller.
+**Status:** Human-accepted canonical joint-work design basis following the requested carrier-neutrality micro-repair; repository CANDIDATE on `candidate/joint-cognitive-work-architecture-2026-09-06`, not promoted to authoritative main. Sole normative cooperation source within this Candidate. Not an installable prompt or runtime controller.
 
 ## Purpose and interpretation
 
@@ -12,7 +12,7 @@ These are relational obligations, not mandatory steps, questions, artifacts or a
 
 ### CJS-01 — Purpose, problem sufficiency and provisional means (includes CJS-02)
 
-Before substantial optimization or commitment, establish enough connection between the local work, its relevant Parent Outcome and material causal dependencies to justify the next investment. If a specific unresolved premise could credibly change the problem boundary, causal relevance, decision level, route or solution space, resolve the decision-relevant part or contain the uncertainty through bounded probing, staging or an explicitly weaker claim. Preserve qualified state; reopen only affected dependencies. Do not require exhaustive upstream understanding, pre-solve questions delegated to Work or broaden ordinary bounded work without a material reason.
+Before substantial optimization or commitment, establish enough connection between the local work, its relevant Parent Outcome and material causal dependencies to justify the next investment. If a specific unresolved premise could credibly change the problem boundary, causal relevance, decision level, route or solution space, resolve the decision-relevant part or contain the uncertainty through bounded probing, staging or an explicitly weaker claim. Preserve qualified state; reopen only affected dependencies. Do not require exhaustive upstream understanding, pre-solve questions delegated to the receiving execution environment or broaden ordinary bounded work without a material reason.
 
 Current focus does not automatically define the controlling problem or scope. Input, proposed solutions and tentative preferences are evidence of intent, not automatically complete requirements, decisions or commitments. **CJS-02 trace clause:** explicit Human-required means and constraints remain binding; otherwise means are provisional. Maintain a stable frame while allowing evidence, analogies and cheap solution probes to improve it. Problem and solution may co-evolve. An authorized local contribution can remain valuable despite wider uncertainty; next-investment justification is not certainty about ultimate success.
 
@@ -96,7 +96,7 @@ Treat Human reactions and local successes/failures as scoped evidence, not autom
 | 2. Acquire and qualify evidence — recover/research/test/synthesize | Native research/tools/provider; sustained research in Work |
 | 3. Analyze a decision — bounded recommendation | Native executor/specialist applying decision-analysis or narrower method where differentiated; Human/domain decision rights |
 | 4. Design, create and refine — strategy/mechanism/artifact/next-use maturity | Bounded Chat; sustained Work/professional production |
-| 5. Form executable work — contribution and boundaries | Chat consolidates NWT sufficiency; Work plans operations |
+| 5. Form executable work — contribution and boundaries | Sending conversational/Project context supplies the consolidated handoff meeting NWT sufficiency; Work plans operations |
 | 6. Execute and integrate — action and parent integration | Work/tools/apps/providers; bounded direct Chat |
 | 7. Assure a claim — property/readiness/use evaluation | Qualified evaluator; evaluate-work-product where differentiated |
 | 8. Transition into use — receiving context/adoption/action | Legitimate domain/Human process and authorized Work |
@@ -110,7 +110,7 @@ Distinguish **semantic owner**, **active carrier** supplying episode instruction
 |---|---|---|---|
 | CJS core here | Applicable task/Project/CI context, sources | Material CJS condition; needed context accessed | Native Chat/Work; Human for protected contribution |
 | Operating Baseline | Accessed system baseline | Concrete operating/customization change | System owner |
-| NWT | Context-complete receiving request | Formed object + execution benefit + material handoff risk | Chat consolidates; Work plans/executes |
+| NWT | Context-complete receiving request | Formed object + execution benefit + material handoff risk | Sending conversational/Project context supplies the consolidated handoff; Work plans/executes |
 | System Learning / system-development procedures | Actual selected/read method and evidence | System failure/change; method applied | Work with method; legitimate change owner |
 | Skill/domain method | Qualified method and evidence | Method improves validity/performance; apply it | Native executor or specialist |
 | Human/domain state owner | Source/version/write path/permissions | Consequential reliance, divergence or write | Domain owner / authorized executor |
@@ -126,4 +126,4 @@ PR #60 is merged; main readback on 2026-09-06: `21807502370618766d44161924c9f5d1
 
 [Operating Baseline §5](OPERATING-BASELINE.md#5-retired-default-mechanisms) solely maintains the explicit retired-default inventory. Optional task/domain-specific use may be justified; no retired runtime mechanism follows from this source.
 
-Next gate: **independent/static review of the exact repaired Candidate for Human design-basis acceptance**. Static repair does not establish acceptance, promotion, installation, activation, behavior, runtime portability or professional/outcome value. Exact lineage, expanded allocations and non-regression dispositions are in the repair receipt.
+Human decision after this requested micro-repair: **ACCEPT REPAIRED CANONICAL JOINT-WORK DESIGN BASIS**. Acceptance derives from that Human decision, not from static repair itself. Repository promotion remains separately unauthorized; installation, activation, behavior, runtime portability and professional/outcome value remain unestablished. Exact lineage, expanded allocations and non-regression dispositions are in the repair receipt.

@@ -1,12 +1,12 @@
 # R1–R5 Candidate repair receipt — 2026-09-06
 
-**Verdict: R1–R5 IMPLEMENTED — static Candidate repair.** Not independent acceptance review, design-basis acceptance, repository promotion or runtime validation. This receipt is evidence/trace only; it owns no additional cooperation policy.
+**Verdict: R1–R5 IMPLEMENTED — static Candidate repair, followed by the Human-requested carrier-neutrality micro-repair.** Human design-basis acceptance is recorded below; repository promotion and runtime validation remain separate. This receipt is evidence/trace only; it owns no additional cooperation policy.
 
 ## Exact object and state
 
 - Repository: `gauglitzstephan/Human-AI-Work-System-Next`.
 - Authorized branch: `candidate/joint-cognitive-work-architecture-2026-09-06`.
-- Reviewed Candidate / sole commit parent: `ca5f9288cb99944f45fd96c72a7870f4a6d8a8bc`.
+- Original R1–R5 repair parent: `ca5f9288cb99944f45fd96c72a7870f4a6d8a8bc`.
 - Reviewed comparison base: `78ab1b13c8a2bc15802a1d1e2dc5ecf4627113ed`.
 - Main observed at review and independently at repair start: `21807502370618766d44161924c9f5d18c6e6956`.
 - Candidate branch was independently read back at the reviewed head; neither branch had changed since review. No merge, rebase or silent base substitution.
@@ -35,7 +35,7 @@ No paths deleted. CURRENT, README, NWT, System Learning, Skills, registries and 
 | Repair | Result / bounded static evidence |
 |---|---|
 | R1 | One cooperation owner; OB delegates the extracted core; J/F/C are explicit historical/pointer entries. Detailed transition and change procedures remain external. |
-| R2 | CJS-01 contains the review replacement verbatim, including causal relevance, next investment, containment and no pre-solving Work questions. Explicit means, co-evolution and authorized local value survive. Diagnosis is under-specification plus unverified activation hypothesis. |
+| R2 | CJS-01 preserves the review replacement, with the later Human-requested neutral substitution “delegated to the receiving execution environment”; causal relevance, next investment, containment and no pre-solving delegated questions are unchanged. Explicit means, co-evolution and authorized local value survive. Diagnosis is under-specification plus unverified activation hypothesis. |
 | R3 | CJS-06–15 restore risk/recovery, state divergence, recipient transformation/accessibility, capability chain/reliance, parent integration, uncertainty options, Human capability effects, legible adaptation and reconstructability. |
 | R4 | Nine descriptive functions; method/actor/Skill/carrier/stage distinct; owner/carrier/activation/executor separately mapped. Work owns actual planning and execution; NWT owns pre-handoff sufficiency. |
 | R5 | Exact heads and PR merge verified; no installed identity inferred. Superseded entries redirect; later authoritative entry-point reconciliation explicitly remains a separate promotion obligation. |
@@ -63,7 +63,7 @@ No paths deleted. CURRENT, README, NWT, System Learning, Skills, registries and 
 | Coordination, epistemic integrity, adaptation | CJS-09/10/15 | Applicable instruction plus actual source, status and feedback | Material reliance/change/conflict; access needed evidence | Native episode/domain owner |
 | Economics, uncertainty, closure | CJS-12 | Local stakes, prerequisites and information value | Next investment/commitment or justified closure | Native episode; Human for legitimate commitments |
 | Operating allocation/customization | Operating Baseline | System task plus accessed baseline | Concrete system design/change and demonstrated native gap | System owner; scoped system-development method |
-| Detailed Chat/Project → Work bridge | NWT | Context-complete receiving request | NWT conditions: formed object, execution benefit, material handoff risk | Chat consolidates; Work plans/executes; Human protects decisions |
+| Detailed Chat/Project → Work bridge | NWT | Context-complete receiving request | NWT conditions: formed object, execution benefit, material handoff risk | Sending conversational/Project context supplies the consolidated handoff; Work plans/executes; Human protects decisions |
 | System learning/change | System Learning; system-development owns scoped procedures | Actual selected/read method and bound change evidence | System failure/change task; method accessed and applied | Native Work using method; legitimate Human acceptance/change owner |
 | Differentiated professional methods | Skill/domain method owner | Actual method and evidence in episode | Method choice improves validity/performance; qualify and apply | Native executor or qualified specialist, not the method file |
 | Authoritative state | Legitimate Human/domain source | Source/owner/version/permissions in local context | Consequential decision, state reliance or write | Domain owner; authorized executor |
@@ -263,19 +263,30 @@ These are source-level counterexamples, not runtime tests:
 |---|---|
 | Repository Candidate produced | Authorized Candidate source/commit; exact resulting identity comes from containing Git commit and branch readback |
 | Static semantic repair | R1–R5 implemented and checked against listed independent source relations; not an independent reviewer verdict |
-| Human design-basis acceptance | NOT CLAIMED; repair direction acceptance is narrower |
+| Human design-basis acceptance | ACCEPT REPAIRED CANONICAL JOINT-WORK DESIGN BASIS — Human decision conditional on the two requested substitutions, now implemented |
 | Repository promotion/main merge | NOT PERFORMED / NOT AUTHORIZED |
 | Product installation or Skill change | NOT PERFORMED / NOT AUTHORIZED |
 | Runtime activation/conformance | UNVERIFIED; source or external owner does not prove it |
 | Behavioral effectiveness | UNVERIFIED; no runtime experiment performed |
 | Professional fitness/outcome/value | NOT ESTABLISHED by static semantic coverage |
 
-**Next legitimate gate: independent/static review of the exact repaired Candidate for Human design-basis acceptance.** No new architecture research, CI compilation/installation, Skill design or promotion follows automatically. No material static contradiction or impossibility was exposed within R1–R5.
+**Human design-basis acceptance follows the requested micro-repair. Any repository promotion requires separate authorization and existing promotion/readback discipline.** No new architecture research, CI compilation/installation, Skill design or promotion follows automatically. No material static contradiction or impossibility was exposed within R1–R5.
 
 Governing review SHA-256: `89f946dcad9b6c7d937a5e4e656c2295a96cd232576f94a3ef729a2696b0fed9`.
 
 ## Inspectability and exact static artifact
 
-Canonical source: **19,024 Unicode code points**, versus reviewed C **23,424** (**18.8% smaller**), with 13 semantic headings and nine informative functions. Semantic core: 12,404 code points after restoring the required relations. Detailed reconstruction is outside the normative source; three competing proposal bodies are reduced to lineage/redirect entries. The original J/F/C bodies remain pinned in Git history.
+Canonical source: **19,333 Unicode code points**, versus reviewed C **23,424** (**17.5% smaller**), with 13 semantic headings and nine informative functions. Semantic core: 12,435 code points after restoring the required relations. Detailed reconstruction is outside the normative source; three competing proposal bodies are reduced to lineage/redirect entries. The original J/F/C bodies remain pinned in Git history.
 
-Canonical UTF-8 SHA-256: `7b637072dcd56e0e5a5f0d8d4b3fd225f9f50db5eb4e38c1d854d3ca15089b5b`. R2 replacement checked verbatim; 19 DL rows, 23 historical requirement rows and 19 protected-function rows enumerated, with separate concrete external responsibilities and explicit retirements. Counts support inventory completeness only; semantic review and claim limits above govern the repair verdict.
+Canonical UTF-8 SHA-256: `96b0d2cfbd7e53559e1d3602853b86ae185e2ff4dc1ce9e7a47922a4707b420a`. R2 replacement checked with only the authorized receiving-environment substitution; 19 DL rows, 23 historical requirement rows and 19 protected-function rows enumerated, with separate concrete external responsibilities and explicit retirements. Counts support inventory completeness only; semantic review and claim limits above govern the repair verdict.
+
+## Carrier-neutrality micro-repair and Human decision
+
+Parent: `b23b09a5346c305865e75f692bb952b68555af7a`. The Human requested only two semantic substitutions, followed by **ACCEPT REPAIRED CANONICAL JOINT-WORK DESIGN BASIS**:
+
+1. Replace “Chat consolidates” with the sending conversational/Project context supplying the consolidated handoff, in the informative function/allocation rows and their receipt mirror.
+2. Replace canonical “delegated to Work” with “delegated to the receiving execution environment” in CJS-01.
+
+The OpenAI-specific realization description still assigns actual operational planning/execution to Work and detailed transition sufficiency to NWT. No NWT, Operating Baseline, Skill, CI, main entry point or product state was changed. Status/claim text and size/hash evidence were reconciled to the Human decision and exact revised source. The independent review remains unchanged as historical evidence; its original wording is not silently rewritten.
+
+Acceptance is of the design basis, not merge/repository promotion, installation, activation, behavior or outcome value. No additional architecture review or semantic expansion is inferred from this micro-repair.
