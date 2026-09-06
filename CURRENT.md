@@ -32,6 +32,8 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 | Skill source/deployment boundary | `skills/DEPLOYMENT-CONTRACT.md` |
 | Current preservation/non-regression map | `inventory/PRESERVATION-COVERAGE.md` |
 | Promotion/readback receipt for this package | `inventory/JOINT-WORK-R3-PROMOTION-RECEIPT-2026-09-06.md` |
+| Concrete operating playbook and full function contracts | `baseline/PROFESSIONAL-WORK-PLAYBOOK.md` |
+| Reconciled source/product/portfolio evidence | `inventory/RUNTIME-REALIZATION-RECONCILIATION-2026-09-06.md` |
 | Complete Requirement Master | `inventory/REQUIREMENT-MASTER-2026-09-06.md` |
 | Requirement/product/runtime regression evidence | `inventory/QUALIFIED-REQUIREMENT-REGRESSION-2026-09-06.md` |
 | Operating-realization assurance / acceptance boundary | `inventory/OPERATING-REALIZATION-ASSURANCE-2026-09-06.md` |
@@ -100,11 +102,13 @@ These are transformations, not a lifecycle or Skill topology. For substantial ag
 
 ## Active custom methods
 
-Only three custom Skills remain active because their methods are sufficiently differentiated:
+The three base custom methods remain unchanged:
 
 - `decision-analysis` — bounded material decisions under objectives, uncertainty, downside and option value;
 - `evaluate-work-product` — recipient/use/failure-mode-capable fitness evaluation;
 - `system-development` — exact recovery, failure localization, semantic regression, promotion/readback and genuine-use evaluation for this system.
+
+This Candidate also integrates revised `work-formation` v0.7 and `adaptive-exploration` v0.2 from the exact separately prepared restoration Candidate. They are optional methods inside Work. `research-evidence` stays demoted. Repository source integration does not install Personal Skills.
 
 Skills are method providers, not Work Functions, stages or the complete provider universe.
 
@@ -130,5 +134,5 @@ The repository package is current once this file and all selected sources are pr
 The next external transitions are intentionally bounded:
 
 1. For a persistent Project that uses Project Instructions, the Human may install the exact Project payload from `baseline/PROJECT-INSTRUCTIONS-CANDIDATE.md`, add a sparse `PROJECT-CURRENT` source when continuity risk earns it, and verify the Project memory/Work configuration.
-2. Resume genuine professional use, including one direct-Work case and one portable Chat→Work→parent return. Record only decision-relevant behavioral evidence.
+2. Resume genuine professional use through the playbook. Observe specific newly relied-upon source/activation paths or consequential failures; do not run a generic campaign to rediscover known probabilistic properties.
 3. Record exact R3 or Project-field readback only if identity verification is decision-relevant. Do not reopen architecture without a material failure, product change or supported improvement opportunity.

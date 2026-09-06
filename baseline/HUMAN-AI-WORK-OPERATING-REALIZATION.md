@@ -4,16 +4,18 @@
 **Evidence date:** 2026-09-06.  
 **Role:** Human-usable operating realization across current ChatGPT surfaces. It is not a controller, stage machine, universal prompt, or claim that any capability is available on every account or surface.
 
+For concrete everyday use, the complete worked interaction, persistence operations and twelve-field function contracts, read [Professional Work Playbook](PROFESSIONAL-WORK-PLAYBOOK.md).
+
 ## Executive answer
 
 Use ChatGPT as an **adaptive portfolio of native work environments**, not as one universal entry point.
 
 1. Start naturally—with an observation, concern, idea, question, draft, file, or proposed solution. The Human does not first have to turn it into a specification.
 2. Stay in **Chat** while the main value comes from interaction: understanding the situation, discovering a worthwhile goal, producing better questions, setting the right scope, reframing, comparing options, or exercising Human values, taste, expertise, and judgment. Research in Chat is legitimate when it is formative or bounded.
-3. Enter **Work directly** when the outcome, relevant inputs, consequential constraints, and review target are already sufficiently clear and sustained research, tool use, analysis, integration, or artifact production will materially improve the result. A preparatory Chat is not mandatory.
+3. Enter **Work directly** when sustained investigation, relevant methods, tools, analysis, integration or artifact work will materially help. The first outcome may be to discover the worthwhile goal, causal frame or next investment; it need not be a finalized solution brief. A preparatory Chat is not mandatory.
 4. Move deliberately from Chat to **Work** when conversationally qualified state exists, Work offers material execution lift, and a bare task would risk reinterpretation or loss of method, quality, authority, or return obligations. ChatGPT normally compiles the Work brief from the shared state; the Human reviews only material boundaries or judgments. If the product offers no reliable context-preserving transition, copy the compiled brief into a new Work chat.
 5. Use a **Project** when the same initiative will continue, produce multiple outputs, or repeatedly depend on the same sources and decisions. A Project is a context hub, not the authoritative system of record. Project Instructions must carry the cooperation kernel because they override Global Custom Instructions. Check the Project memory mode before assuming Work is available: official product documentation says Work is unavailable under project-only memory.
-6. Keep serious **non-Project work** in one conversation while it remains coherent. When interruption, handoff, truncation, divergence, or future reuse becomes material, ask ChatGPT to compile a checkpoint or Work brief; persist only the state that earns persistence.
+6. Keep serious **non-Project work** in one conversation while it remains coherent. When interruption, handoff, truncation, divergence, or future reuse becomes material, ChatGPT should compile a checkpoint or Work brief; persist only the state that earns persistence.
 7. Keep exact operational truth in the legitimate **external/domain-authoritative store**. Memory, conversation history, Project context, Project Sources, retrieved app content, and generated files are evidence or working context unless a legitimate owner assigns another status and the write is verified.
 8. End every substantial frontier with the right maturity claim and next responsible state: produced, checked, professionally fit, accepted, authorized, transferred, used, effective, and causally valuable are different states.
 
@@ -25,7 +27,7 @@ Choose the next environment by the **dominant unresolved need**, not by a fixed 
 
 | Dominant unresolved need | Default environment | Why | Switch when |
 |---|---|---|---|
-| Orientation, goal discovery, questions, scope, frame, values, taste, challenge | Chat, in or outside a Project | High-bandwidth mixed-initiative interaction | A bounded Work Object exists and execution lift is material |
+| Orientation, goal discovery, questions, scope, frame, values, taste, challenge | Chat or Work, in or outside an eligible Project | Chat suits short exchanges; Work can combine interaction with sustained inquiry and methods | Change surface only if the available capability offers material benefit |
 | A clear substantial outcome requiring sources, tools, files, code, analysis, or iteration | Work, direct or by handoff | Native operational planning and execution | Protected purpose/scope/method/authority must change, or a Human gate is reached |
 | Continuing initiative with recurring sources, multiple outcomes, or parallel chats | Project Chat and eligible Project Work | Shared context and organization | Project context becomes stale, conflicts with authority, or Work is blocked by memory/configuration |
 | Self-contained professional work | Non-Project Chat or Work | Avoid unnecessary persistent structure | Continuity or recovery risk becomes material |
@@ -82,8 +84,8 @@ The following are revisitable transformations, not mandatory stages. Any one may
 
 | Function | Method, performer, and product environment | Instruction/context carrier | State read/change | Human contribution | Assurance and next state | Persistence |
 |---|---|---|---|---|---|---|
-| Natural entry and orientation | Native Chat mixed initiative; Work may orient locally if direct-entry task is already bounded | Global CI or Project kernel + local message + accessible context | Read conversation/Project/source state; no write by default | Correct inaccessible facts and importance | Epistemic typing and scope check → qualified shared state | Conversation; checkpoint only if risk earns it |
-| Goal/question/scope/frame formation | Native Chat; optional domain/problem-structuring method | Cooperation carrier + current sources | Update shared working model and rejected directions | Values, remit, lived context, judgment | Parent outcome, next use, material unknowns, reframe trigger | Same chat or Project Current when persistent |
+| Natural entry and orientation | Native Chat or Work mixed initiative, including unfinished direct entry | Global CI or Project kernel + local message + accessible context | Read conversation/Project/source state; no write by default | Correct inaccessible facts and importance | Epistemic typing and scope check → qualified shared state | Conversation; checkpoint only if risk earns it |
+| Goal/question/scope/frame formation | Native Chat or Work; revised formation/exploration or narrower problem-structuring method when useful | Cooperation carrier + current sources | Update shared working model and rejected directions | Values, remit, lived context, judgment | Parent outcome, next use, material unknowns, reframe trigger | Same chat or Project Current when persistent |
 | Formative research | Chat search, files, apps; AI synthesizes and updates the frame | Local question and source constraints | Read current sources; update evidence model | Supply private sources, judge context | Source/provenance/freshness/counterevidence → next question or closure | Citations in chat/checkpoint if consequential |
 | Sustained research | Deep research or Work with research capability; specialist provider when domain method demands it | AI-compiled research/Work brief + selected sources | Read web/files/apps; no source write during deep research | Review plan/source scope; supply gates | Research plan, activity, citations, reconciliation, limitations → parent state | Report + evidence register where reuse/decision warrants |
 | Reference and solution intelligence | Chat or Work retrieval/comparison; field-specific design/research methods | Brief + exemplars/pattern sources | Read reference landscape; record fit/rejection | Taste, context, transfer judgment | Explicit fit/transferability → options/design | Persist only accepted reusable adaptations |
@@ -119,37 +121,37 @@ Projects are optional. Create one when continuity benefit exceeds maintenance an
 - Chat answers the formed question and adds the most consequential issue, alternative, or uncertainty.
 - If the frontier becomes material, Chat states the emerging parent outcome, scope, evidence needs, and whether further work belongs in Chat or Work.
 - If Work is justified, Chat compiles the brief; the Human copies it when native transition is unavailable.
-- If work ends in Chat, no persistent machinery is required. Ask for a compact checkpoint only if future continuation is likely.
+- If work ends in Chat, no persistent machinery is required. ChatGPT should prepare a compact checkpoint if future continuation creates material recovery risk.
 
 ### 2. Multi-turn non-Project professional work
 
 - Continue the same conversation while context remains coherent.
 - Chat carries corrections, rejected directions, decisions, constraints, evidence, and current frontier; `Go` means the agreed next step, not the last local suggestion.
-- Before a long pause, surface change, or likely context loss, request: “Compile the current qualified state and the next frontier so another Chat or Work run can continue without reinterpretation.”
+- Before a long pause, surface change, or likely context loss, ChatGPT should proactively compile a checkpoint. A useful optional Human steering phrase is: “Compile the current qualified state and the next frontier so another Chat or Work run can continue without reinterpretation.”
 - Keep the checkpoint with the relevant files or in the eventual Project/external store only if the work persists.
 
 ### 3. Persistent Project-based professional work
 
 - Create a Project for a continuing initiative, not for each stage.
-- Install the Project cooperation kernel and add a curated `PROJECT-CURRENT` source.
+- After separate authorization, install the Project cooperation kernel if relevant and use a curated current source when needed; an existing adequate record is sufficient.
 - Put exact authoritative links/pointers in `PROJECT-CURRENT`; do not copy every operational record into the Project.
-- Use separate chats for distinct outcomes; use Project Chat for interactive formation and eligible Project Work for substantial execution.
+- Use separate chats for distinct outcomes; choose Project Chat or eligible Project Work for the next useful contribution, including formation in either.
 - Before relying on Project Work, check memory/configuration: project-only memory disables Work according to current official Help documentation.
 - Reconcile material results into `PROJECT-CURRENT` or the authoritative store; do not expect Project memory to perform controlled state promotion.
 
 ### 4. Research-heavy work
 
-- Begin in Chat when the research question itself needs goal/frame/scope formation or a quick current lookup can resolve the frontier.
+- Use Chat for convenient short inquiry; Work may form the research question while investigating. A quick current lookup can resolve a bounded frontier without a surface change.
 - Use deep research when many sources, a research plan, source controls, and a documented report add material value.
 - Use Work when research is one part of a larger analysis/artifact/integration workflow, or tools/files/code must be combined.
-- Specify authoritative source preferences, date/freshness, counterevidence, exclusions, and the decision/product the research must change.
+- ChatGPT should recover or establish authoritative source preferences, freshness, counterevidence, exclusions and the decision/product the research must change; ask the Human only for material inaccessible constraints.
 - Return claims with citations and unresolved uncertainty; a cited report still needs domain/professional validation when relied upon.
 
 ### 5. Material decision work
 
 - First bind the actual decision, Decision Owner, decision level, objectives, constraints, horizon, and next use.
 - Use ordinary Chat for bounded advice and interactive preference discovery.
-- Invoke `decision-analysis` in Work when its differentiated method materially improves comparison under uncertainty, downside, or option value.
+- ChatGPT should select `decision-analysis` in Work when its differentiated method materially improves comparison under uncertainty, downside, or option value.
 - Include no action/delay/staging/reversible test where viable. Do not invent weights or probabilities.
 - Return a recommendation, strongest rival, switching condition, and exact authority state. The Human/domain owner decides or authorizes.
 
@@ -204,7 +206,7 @@ When a different environment is beneficial, the AI should say something like:
 
 > “The goal and boundaries are now stable enough. The remaining work is sustained source review, comparison, and production of a reviewable report, so Work should materially improve it. I can compile the complete Work brief from our current state. Because reliable automatic context transfer is not established here, use the brief in a new Work chat; we will reconcile the return against this parent outcome.”
 
-If the object is not sufficiently formed, continue Joint Intelligence. If it is formed but Work adds no material lift, do the bounded work in Chat. If direct Work is already open and the task is bounded, Work may form ordinary operational detail itself.
+If the next contribution is formation, continue it in the environment that can perform it well. Work may research, explore and develop goals from unfinished input; it does not require a prior Chat or a finalized Work Object. At a cross-surface handoff, transfer already-qualified meaning and identify what remains open. If a switch adds no material benefit, stay in the current surface.
 
 ### AI-generated professional Work brief
 
@@ -262,19 +264,11 @@ For a persistent initiative:
 
 ## Skill portfolio decision
 
-Retain the three current Skills without modification in this Candidate:
+Retain `decision-analysis`, `evaluate-work-product`, and `system-development` unchanged. Include the revised `work-formation` v0.7 and `adaptive-exploration` v0.2 from the exact restoration Candidate `ebdfb39a6f5b97b48c19e507a5887d2ce9ac414b`, without changing their method files. Keep `research-evidence` demoted.
 
-- `decision-analysis`: differentiated decision method; use when a bounded material decision under objectives, uncertainty, downside, or option value benefits from it.
-- `evaluate-work-product`: differentiated intended-use/failure-mode fitness method; use only against an exact object and reliance claim, after production is frozen for evaluation.
-- `system-development`: differentiated recovery, failure localization, semantic regression, repository/product promotion/readback, and genuine-use method for this system.
+Formation supplies material missing-premise tests; exploration supplies mechanism contrast, counterhypotheses and discriminating probes. They are optional methods inside Work, not prerequisites, a router or a mandatory sequence. The earlier verdict that native capability established their redundancy is withdrawn. A differentiated method and usable Work discovery path are now evidenced; two explicitly invoked synthetic tests support selected operations, not spontaneous selection or comparative professional effectiveness. Narrower professional providers take precedence when they own the actual method.
 
-Do not revive the former general Skills:
-
-- `work-formation`: its useful termination and sufficiency semantics are carried by native interaction, R3, and NWT; revival would add ceremony and duplicate selection burden.
-- `adaptive-exploration`: its mechanism diversity, counterhypotheses, and probes are carried by Joint Intelligence/native capability; narrower ideation/design providers are preferable when needed.
-- `research-evidence`: its evidence/provenance semantics are carried by R3/CJS and current search/deep-research/domain providers; a generic Skill would add little method differentiation.
-
-Personal Skills are evidenced as usable in Work in this Human's setup. Ordinary Chat activation is not established. The previously attempted repository plugin installation failed and is not a dependency of this realization.
+The five-method repository portfolio and the live Personal Skills are separate objects. Both revised entrypoints are available and readable in this Work session; that does not establish byte identity of every installed reference or reliable activation. This Candidate changes no installed Skill. Ordinary Chat Personal Skill activation remains unverified. The failed repository plugin installation is not a deployment dependency. See [reconciled evidence](../inventory/RUNTIME-REALIZATION-RECONCILIATION-2026-09-06.md).
 
 ## Assurance and closure
 

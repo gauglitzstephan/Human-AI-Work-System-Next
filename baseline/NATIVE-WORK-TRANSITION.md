@@ -5,7 +5,7 @@
 
 ## Purpose
 
-Move sufficiently formed material work from conversational Joint Intelligence into a materially better native execution surface without losing intent, qualified state, professional method/craft, Human authority, or claim boundaries.
+Move material work from one conversational environment into a more suitable native environment without losing intent, qualified state, professional method/craft, Human authority, or claim boundaries.
 
 ```text
 qualified conversational state
@@ -17,6 +17,8 @@ qualified conversational state
 ```
 
 ChatGPT Work or another qualified native surface owns operational planning and execution. This repository owns only the transition semantics that must survive the handoff.
+
+Direct Work entry is independently legitimate, including an unfinished situation whose next useful contribution is goal, question, scope or frame formation. Work can provide Joint Intelligence, research and exploration as well as production. This contract applies when a cross-surface handoff occurs; it does not impose Chat formation before Work. Protected existing meaning must transfer, while an open goal or decision must remain open.
 
 ## Activation
 
@@ -67,9 +69,9 @@ Formation does **not** require Chat to pre-solve research, design, architecture,
 
 ## Responsibilities
 
-**Chat / Joint Intelligence** forms and consolidates the Work Object through exploration, framing, recovery, quality/taste calibration, and Human judgment.
+**Originating Chat or Work** consolidates the shared basis through exploration, framing, recovery, quality/taste calibration and Human judgment. If the next contribution is to form the basis, that is a legitimate handoff outcome rather than a reason to pre-solve it.
 
-**Native Work runtime** owns executable planning, local decomposition, sequencing, provider/tool use, iteration, repair, integration, and production within the handoff.
+**Native Work runtime** can continue inquiry, goal/scope/frame formation and exploration, and owns executable planning, local decomposition, sequencing, provider/tool use, iteration, repair, integration, and production within the handoff.
 
 **Human / legitimate domain owner** retains purpose, values, material trade-offs, taste, decision, commitment, release, and authoritative persistence where material.
 
@@ -161,7 +163,7 @@ Work must return before materially changing:
 - quality floor or accepted strategy, design direction, voice, or meaning;
 - a validity-critical professional method;
 - material budget, consequence, permission, or authority;
-- external or irreversible state;
+- external or irreversible effects beyond existing legitimate authorization, or a material change in their disclosed consequences;
 - a Human Decision or Release Gate.
 
 Execution fulfills and operationally refines the contract; it does not silently redefine it.

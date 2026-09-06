@@ -2,13 +2,15 @@
 
 ## Active source
 
-`main/skills/` is the authoritative repository source only for the active custom portfolio:
+`main/skills/` is authoritative after promotion; `skills/` on a Candidate branch is proposed source only. This Candidate portfolio contains:
 
+- `work-formation`
+- `adaptive-exploration`
 - `decision-analysis`
 - `evaluate-work-product`
 - `system-development`
 
-The demoted packages are historical source under `legacy/archive-2026-09-02/skills/`; they are not active plugin or repository-discovery providers.
+`research-evidence` remains demoted and absent from active discovery. The archived versions of all three packages remain historical evidence under `legacy/archive-2026-09-02/skills/`; they do not override revised Candidate/current source. Restoring repository discovery does not reinstall a Personal Skill.
 
 ## Discovery and packaging
 
@@ -44,3 +46,4 @@ A repository merge does not update or uninstall a Personal Skill automatically.
 8. learn from genuine use within the bounded claim.
 
 Increment plugin version when the installable active package materially changes. Never create a new Skill merely because a requirement or failure exists.
+

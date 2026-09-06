@@ -10,7 +10,7 @@
 
 | Object | Claim supported |
 |---|---|
-| `baseline/HUMAN-AI-WORK-OPERATING-REALIZATION.md` | Complete Human-facing operating model, runtime influence/carrier map, eight operating modes, prompts, return, Project, Skill, assurance and closure contracts |
+| `baseline/HUMAN-AI-WORK-OPERATING-REALIZATION.md` | Human-facing operating model, supplemented by the concrete playbook and reconciled evidence |
 | `inventory/REQUIREMENT-MASTER-2026-09-06.md` | Ninety lineage-backed semantic obligations with all requested inventory fields across two keyed tables |
 | `inventory/QUALIFIED-REQUIREMENT-REGRESSION-2026-09-06.md` | Prior-to-current regression, September 2026 first-party product evidence, terminology recovery, same-level path comparison, Skill requalification and external challenge |
 | `baseline/PROJECT-INSTRUCTIONS-CANDIDATE.md` | Exact compact Project cooperation carrier required because Project Instructions override Global CI |
@@ -61,50 +61,47 @@ The regression record enumerates all accepted v0.3 interpretation rules (IR-01�
 - direct Work entry, portable fallback details and the Project override/project-only boundary were missing or conflicting operating details and are repaired in this Candidate;
 - no historical Skill or mechanism is revived solely because it existed.
 
-## 4. Deterministic checks
+## 4. Reconciled Candidate checks
 
-| Check | Observed result | Claim |
+The existing draft Candidate at `f067109c6299b84c366a817aa076b76a91f266d9` was recovered and challenged against later source evidence. Its categorical rejection of formation/exploration is superseded by the exact revised restoration source and Human direction. Earlier identity/check claims apply to that earlier tree only.
+
+| Check performed on the reconciled local Candidate | Observed result | Claim supported |
 |---|---|---|
-| Requirement Table A identifiers | 90 rows; 90 unique; continuous `RM-001`–`RM-090` | PASS |
-| Requirement Table B identifiers | 90 rows; 90 unique; continuous `RM-001`–`RM-090` | PASS |
-| Requested inventory fields | Obligation/source/status/consequence/effectiveness in Table A; activation/function/Human/AI/method/state/carrier/required realization in keyed Table B | PASS |
-| Changed-document relative links | Every local Markdown target resolves in the exact Candidate tree | PASS |
-| Global CI R3 payload | 4,943 Unicode code points; 4,943 bytes; no terminal newline; SHA-256 `e5de13b5989590959829ae12207f1269f691603d3c4f99568b4f68101be20985` | PASS — payload unchanged |
-| Project Instructions payload | 4,366 Unicode code points; 4,370 bytes; 8 paragraphs; no terminal newline; SHA-256 `a71bd30d6535d0baf383269a0d8fe6ecaf16f72d3a84bfc34c554edafb9fcc37` | PASS — exact Candidate identity |
-| Skill packages | No file inside the three active Skill packages changed; no former Skill revived | PASS |
-| Plugin dependency | Failed repository-plugin installation is recorded and is not a realization dependency | PASS |
+| Requirement Table A | 90 unique continuous IDs; six nonempty columns per row | Structurally complete obligation/evidence table |
+| Requirement Table B | Same 90 IDs; nine nonempty columns per row | All requested activation/role/method/state/carrier/repair fields present |
+| Function contracts | 16 keyed transformations, two rows each, together all twelve requested questions | Explicit many-to-many realization/return/persistence contract |
+| Relative Markdown file links in changed documents | All targets resolve | Local navigation integrity, not source validity |
+| Canonical, System Learning, Genuine-Use Learnings and all three base Skill packages | 14 protected file blobs match the authoritative base exactly | No changes to those source objects |
+| Four restored formation/exploration files | Exact byte match to restoration commit `ebdfb39a6f5b97b48c19e507a5887d2ce9ac414b` | Source integration without method alteration |
+| Five Skill entry metadata, references and discovery symlinks | Names/descriptions valid; targets resolve to the five packages | Repository discovery coherence; not installation or activation |
+| Global CI R3 payload | 4,943 code points/bytes; SHA-256 `e5de13b5989590959829ae12207f1269f691603d3c4f99568b4f68101be20985` | Payload unchanged; surrounding product provenance was corrected |
+| Project payload | 4,788 code points; 4,792 bytes; 8 paragraphs; no terminal newline; SHA-256 `57632504551d2476f3b0a05cb74595d1a2c22cd86fa7b8fc1e44003c31502f2f` | Exact prepared carrier; actual Project field limit/installation not assumed |
+| Candidate delta | 25 paths relative to authoritative base; no historical archive edits | Bounded operating/carrier/portfolio repair |
 
-## 5. Claim and evidence boundary
+## 5. Semantic non-regression of the actual repair
 
-Established here:
+| Changed relation | Requirements challenged | Finding and realization |
+|---|---|---|
+| Work can form unfinished goals, questions and frames | RM-004–015, 020, 048–052, 065–070 | Chat is not mandatory; existing protected meaning remains; NWT governs actual transfers only |
+| Optional revised formation/exploration | RM-001–003, 010–011, 019, 023, 032–033, 050–052, 084 | Exact bounded methods replace unsupported redundancy verdict; no router, mandatory stages or automatic research-evidence dependency |
+| Project cooperation payload | RM-003, 010, 016–018, 041–047, 054–057, 070, 083, 088–089 | Protect explicit required means, Human learning, continuity/assurance floors and existing legitimate authorization; no silent goal or state promotion |
+| State/handoff/return operations | RM-008, 054–064, 068–071, 076, 079–086 | AI compiles and reconciles; writes only through actual authorized paths; UI-only action stays explicit; saved draft remains draft; concurrent deltas checked |
+| Detailed operating comparison | RM-004, 020, 041, 048–053, 065–072, 081, 089–090 | Conditional hybrid is a design recommendation, not measured universal superiority; all six requested paths considered at coherent decision level |
+| Older identifiers and source loci | RM-001–090 | v0.1/v0.2/accepted v0.3, normalized R01–30, protected salience and retired mechanism residue remain traceable; terminology absence scoped to recovered snapshots |
+| External challenge and assurance limits | RM-021–028, 047, 073–079, 089–090 | Primary-source counterevidence limits process claims; no generic campaign to rediscover known stochastic properties; professional checks remain claim-dependent |
 
-- the exact repository snapshots were recovered;
-- the named and implicit qualified requirements were reconstructed into a complete reviewable inventory;
-- current product documentation and Human-reported availability evidence were kept distinct;
-- a coherent product-native operating Candidate and exact Project carrier were produced;
-- static semantic regression and identity checks above passed.
+The A–X table above means **semantic source coverage**, not observed runtime coverage. No named accepted requirement is intentionally lost. The inventory consolidates the recovered semantic corpus; it cannot prove absence of every possible domain-specific obligation or validate all future professional work.
 
-Not established here:
+## 6. Supported and unsupported claims
 
-- exact R3 readback from the live Custom Instructions field;
-- whether every ordinary Chat or Project turn activates the intended carrier;
-- actual Project memory configuration or Work availability in any specific Project;
-- ordinary-Chat activation of Personal Skills;
-- automatic Chat→Work context transfer;
-- installation or effectiveness of the Project Instructions Candidate;
-- professional effectiveness across domains, Human adoption, real-world outcome, causal value, or authorization to merge.
+Supported: reviewable operating Candidate, explicit source/authority distinctions, practical eight-mode playbook, twelve-field function map, complete required Master fields, later portfolio reconciliation, exact protected-source identity, and bounded source regression.
 
-Those claims require product readback and genuine-use probes. The minimum next acceptance set is: exact carrier installation/readback; one non-Project natural-entry case; one Project natural-entry/state-recovery case; one direct-Work case; one portable Chat→Work→parent return; one professional artifact whose actual failure modes are tested; and one long-running authoritative-state write/readback/recovery case.
+Not established: exact live R3/Project/Skill reference identity, universal activation or retrieval, every specific Project configuration, ordinary Chat Personal Skill activation, automatic context-preserving Chat→Work conversion, comparative professional effectiveness across domains, adoption, causal outcome or realized value. No merge, product installation, app connection or automation is performed.
 
-## 6. Repository promotion and readback
+After a separately authorized carrier change, inspect its actual saved identity and any newly relied-upon access/source path if material. In genuine professional work, observe a concrete defect or benefit only when it can change the operating decision. The earlier generic seven-case acceptance campaign is withdrawn; known probabilistic properties need not be rediscovered.
 
-Remote repository operations completed as a Candidate, not a merge:
+## 7. Repository identity and promotion boundary
 
-- branch `candidate/complete-runtime-realization-2026-09-06` was created from exact base `9d195dd2270557c901c47147ed2411bd51ad6e59`;
-- Candidate tree `acfbe0f312b597bfae5be2c80ae37309d66c6c8d` was created over exact base tree `18ad72fe2a235e1f8206d28b9edb1ca73ee3f22d`;
-- initial content commit `4ad6ed2c549c98844ed69852dee8a8c22e2752f0` has that exact base as its sole parent;
-- compare readback reported `ahead_by=1`, `behind_by=0`, the required merge base, and exactly the 13 intended changed paths;
-- all 13 remote file reads returned the exact Git blob SHAs created from the locally checked files;
-- draft pull request [#61](https://github.com/gauglitzstephan/Human-AI-Work-System-Next/pull/61) targets `main` from the Candidate branch.
+Original branch: `candidate/complete-runtime-realization-2026-09-06`, based on exact `9d195dd2270557c901c47147ed2411bd51ad6e59`. Initial content commit `4ad6ed2c549c98844ed69852dee8a8c22e2752f0`; original assurance head `f067109c6299b84c366a817aa076b76a91f266d9`.
 
-This assurance-receipt update follows the initial content commit, so the pull request is the non-self-referential source for its final head SHA. Repository promotion remains distinct from product installation, behavioral qualification, merge authorization, and merge.
+The reconciled Candidate is appended on this branch through [draft PR #61](https://github.com/gauglitzstephan/Human-AI-Work-System-Next/pull/61). The subsequent readback receipt binds the exact content commit and remote tree. Its own commit identity is obtained from the PR head, avoiding a self-referential hash. Source acceptance, merge authorization and product changes remain separate. No other branch is merged or rewritten.

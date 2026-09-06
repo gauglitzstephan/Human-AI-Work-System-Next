@@ -15,7 +15,7 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 
 Chat, Work, Projects, Skills, plugins/apps/connectors, research capabilities, files/artifacts, GitHub and other execution systems form one available capability space. Visibility on one surface does not prove overall availability or absence. Use a materially better provider or surface when it improves the work; use native handoff behavior when useful.
 
-Natural entry is allowed anywhere. Prefer Chat while interaction, goal/question/scope/frame development or bounded research dominates. Direct Work entry is legitimate when a substantial outcome, relevant inputs, consequential constraints and review target are already sufficiently clear. This is an adaptive allocation, not a Chat-first or Work-first topology; see `HUMAN-AI-WORK-OPERATING-REALIZATION.md`.
+Natural entry is allowed anywhere. Use Chat when short conversational exchanges best advance the work. Use Work directly when sustained inquiry, methods, tools or iteration help, including goal/question/scope/frame formation from unfinished input. No finalized Work Object is required before entry. This is an adaptive allocation, not a Chat-first or Work-first topology; see `HUMAN-AI-WORK-OPERATING-REALIZATION.md`.
 
 Use Projects for scoped continuity when the work earns it. Use domain-owned stores for authoritative state. Use additional persistence only when time, interruption, divergence, handoff or recovery risk justifies it.
 
@@ -37,6 +37,7 @@ The canonical source is a design/review authority, not a required always-loaded 
 
 - The exact current Global CI source selected by `CURRENT.md` expresses high-salience interaction, epistemic, quality, continuity and native-handoff preferences.
 - `baseline/NATIVE-WORK-TRANSITION.md` provides the compact conditional bridge from qualified conversational work to native agentic execution; it is not a Skill, router or lifecycle.
+- Revised `work-formation` and `adaptive-exploration` provide optional missing-premise and mechanism-contrast methods inside Work.
 - `decision-analysis` provides a bounded cross-domain decision method.
 - `evaluate-work-product` provides a bounded cross-domain fitness method when no narrower evaluator owns the claim.
 - `system-development` provides scoped recovery/diagnosis/promotion/validation methods for this system.
@@ -68,3 +69,7 @@ Optional task/domain-specific representations or methods remain possible when ju
 [SYSTEM-LEARNING.md](SYSTEM-LEARNING.md) owns system-specific evidence classification and lowest-layer repair. [system-development](../skills/system-development/SKILL.md) owns scoped recovery, failure localization, semantic regression, repository/product promotion and readback. [Repository Promotion / Readback](../skills/system-development/references/REPOSITORY-PROMOTION-READBACK-METHOD.md) owns authorization, exact-target write/readback and coherent entry-point reconciliation.
 
 Human design acceptance, merge authority and external product changes remain separately legitimate decisions under those owners. Remove a custom Skill when its differentiated value is no longer demonstrated, an existing provider owns it better, or maintenance/coordination burden outweighs value. Repository removal and product uninstallation are separate actions.
+
+## Reconciled optional method portfolio
+
+The Candidate integrates revised work-formation v0.7 and adaptive-exploration v0.2 from restoration commit `ebdfb39a6f5b97b48c19e507a5887d2ce9ac414b`. The three base methods remain byte-for-byte unchanged; research-evidence remains demoted. Work can form goals, questions and frames from natural unfinished input. No mandatory Formation stage, router, inter-Skill handoff or product installation follows. See [evidence reconciliation](../inventory/RUNTIME-REALIZATION-RECONCILIATION-2026-09-06.md) and the five-method registry.

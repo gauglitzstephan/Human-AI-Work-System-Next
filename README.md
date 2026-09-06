@@ -4,7 +4,7 @@ A small support layer around native ChatGPT for professionally useful Human–AI
 
 ## Start here
 
-Read [`CURRENT.md`](CURRENT.md). It is the only repository-state entry point.
+For everyday operation, read the [Professional Work Playbook](baseline/PROFESSIONAL-WORK-PLAYBOOK.md). For source authority, read [`CURRENT.md`](CURRENT.md). It is the only repository-state entry point.
 
 Current operating model:
 
@@ -33,11 +33,13 @@ Current operating model:
 
 Work Functions are descriptive transformations, not lifecycle stages or Skills. For substantial agentic work, native Work owns operational planning, decomposition, sequencing, provider/tool selection, adaptation, execution, integration and ordinary local repair inside the protected Work Object boundaries.
 
-Only three custom Skills remain active:
+The three base methods remain unchanged:
 
 - `decision-analysis` — bounded material decisions;
 - `evaluate-work-product` — recipient/use/failure-mode-capable fitness evaluation;
 - `system-development` — recovery, diagnosis, semantic preservation, promotion/readback and genuine-use evaluation for this system.
+
+This Candidate also integrates revised `work-formation` v0.7 and `adaptive-exploration` v0.2 from the exact separately prepared restoration Candidate. They are optional methods inside Work. `research-evidence` stays demoted. Repository source integration does not install Personal Skills.
 
 Skills are optional differentiated method providers, not a complete provider universe or runtime topology.
 

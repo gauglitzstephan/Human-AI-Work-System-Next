@@ -26,7 +26,7 @@
 | DL-18 | Source/install/activation/behavior/outcome differ | System Learning/system-development; CURRENT claim boundary | PRESERVED |
 | DL-19 | Qualified native Work transition without custom Runtime | NATIVE-WORK-TRANSITION + Operating Baseline | PRESERVED |
 | DL-20 | Project Instructions override Global CI; Project context is working evidence, not authority | Project Instructions candidate + Operating Realization | PRESERVED / PRODUCT-QUALIFICATION PENDING |
-| DL-21 | Direct Work is legitimate for sufficiently formed substantial work; Chat→Work may use a portable AI-compiled brief | NATIVE-WORK-TRANSITION + Operating Realization | PRESERVED |
+| DL-21 | Direct Work is legitimate for substantial inquiry or production, including formation from unfinished input; Chat→Work may use a portable AI-compiled brief | NATIVE-WORK-TRANSITION + Operating Realization | PRESERVED |
 | DL-22 | Documented capability, account/surface availability, access, activation, execution and effectiveness are separate | Requirement Master RM-081–086 + runtime regression | PRESERVED |
 
 ## Human–AI coordination and formation coverage
@@ -90,3 +90,7 @@ The full Canonical source is intentionally not copied into Global CI. Detailed W
 **PASS** for Candidate source/ownership coherence against the exhaustive Requirement Master and prior-regression record, subject to the claim boundary above. On `main`, the package is promoted only after authorized merge and readback.
 
 This PASS does not prove installed CI identity, runtime activation, behavioral improvement, professional fitness, use, outcome or value.
+
+## Reconciled optional method portfolio
+
+The Candidate integrates revised work-formation v0.7 and adaptive-exploration v0.2 from restoration commit `ebdfb39a6f5b97b48c19e507a5887d2ce9ac414b`. The three base methods remain byte-for-byte unchanged; research-evidence remains demoted. Work can form goals, questions and frames from natural unfinished input. No mandatory Formation stage, router, inter-Skill handoff or product installation follows. See [evidence reconciliation](RUNTIME-REALIZATION-RECONCILIATION-2026-09-06.md) and the five-method registry.
