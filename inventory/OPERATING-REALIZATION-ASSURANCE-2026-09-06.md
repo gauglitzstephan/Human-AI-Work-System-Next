@@ -105,3 +105,16 @@ After a separately authorized carrier change, inspect its actual saved identity 
 Original branch: `candidate/complete-runtime-realization-2026-09-06`, based on exact `9d195dd2270557c901c47147ed2411bd51ad6e59`. Initial content commit `4ad6ed2c549c98844ed69852dee8a8c22e2752f0`; original assurance head `f067109c6299b84c366a817aa076b76a91f266d9`.
 
 The reconciled Candidate is appended on this branch through [draft PR #61](https://github.com/gauglitzstephan/Human-AI-Work-System-Next/pull/61). The subsequent readback receipt binds the exact content commit and remote tree. Its own commit identity is obtained from the PR head, avoiding a self-referential hash. Source acceptance, merge authorization and product changes remain separate. No other branch is merged or rewritten.
+
+## 8. Reconciled content commit — remote readback receipt
+
+- Content commit: `711b2d2682b67aea09201c4e38a5bfdd24c36d40`.
+- Committed tree: `4b7be077af9a1b28b9d2c878a7d6662aced278ac`.
+- Sole parent: `f067109c6299b84c366a817aa076b76a91f266d9`.
+- Compare against the authoritative base: 3 commits ahead, 0 behind; exact merge base `9d195dd2270557c901c47147ed2411bd51ad6e59`; 25 changed paths.
+- All 23 changed regular files were fetched at that exact commit and compared byte-for-byte with the prepared contents: PASS.
+- Both added symlink blobs and all changed modes/SHAs were checked in the remote tree: PASS.
+- All 236 base blobs outside the intended delta retain their exact original SHA and mode, including archived image evidence: PASS.
+- Draft PR #61 remains the Candidate review object; no merge or product installation occurred.
+
+This receipt is a subsequent change to this assurance file only. The final head is the receipt commit returned by PR/branch readback; it does not change the identity of the verified content commit. Source semantics, installed runtime behavior, professional effectiveness and realized outcome remain separate claims.
