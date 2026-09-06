@@ -98,4 +98,13 @@ Those claims require product readback and genuine-use probes. The minimum next a
 
 ## 6. Repository promotion and readback
 
-The intended remote Candidate is branch `candidate/complete-runtime-realization-2026-09-06` from the exact base above. Repository creation, compare/readback and pull-request identity are recorded only after the remote operations succeed; repository promotion remains distinct from product installation and merge authorization.
+Remote repository operations completed as a Candidate, not a merge:
+
+- branch `candidate/complete-runtime-realization-2026-09-06` was created from exact base `9d195dd2270557c901c47147ed2411bd51ad6e59`;
+- Candidate tree `acfbe0f312b597bfae5be2c80ae37309d66c6c8d` was created over exact base tree `18ad72fe2a235e1f8206d28b9edb1ca73ee3f22d`;
+- initial content commit `4ad6ed2c549c98844ed69852dee8a8c22e2752f0` has that exact base as its sole parent;
+- compare readback reported `ahead_by=1`, `behind_by=0`, the required merge base, and exactly the 13 intended changed paths;
+- all 13 remote file reads returned the exact Git blob SHAs created from the locally checked files;
+- draft pull request [#61](https://github.com/gauglitzstephan/Human-AI-Work-System-Next/pull/61) targets `main` from the Candidate branch.
+
+This assurance-receipt update follows the initial content commit, so the pull request is the non-self-referential source for its final head SHA. Repository promotion remains distinct from product installation, behavioral qualification, merge authorization, and merge.
