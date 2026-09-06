@@ -1,6 +1,6 @@
 # Canonical Joint-Work Semantics
 
-**Status:** Human-accepted canonical joint-work design basis following the requested carrier-neutrality micro-repair; repository CANDIDATE on `candidate/joint-cognitive-work-architecture-2026-09-06`, not promoted to authoritative main. Sole normative cooperation source within this Candidate. Not an installable prompt or runtime controller.
+**Status:** repaired and micro-repair-reviewed CANDIDATE on `candidate/joint-cognitive-work-architecture-2026-09-06`; sole proposed normative cooperation source within this Candidate, not yet Human-accepted or promoted to authoritative main. Not an installable prompt or runtime controller.
 
 ## Purpose and interpretation
 
@@ -126,4 +126,4 @@ PR #60 is merged; main readback on 2026-09-06: `21807502370618766d44161924c9f5d1
 
 [Operating Baseline §5](OPERATING-BASELINE.md#5-retired-default-mechanisms) solely maintains the explicit retired-default inventory. Optional task/domain-specific use may be justified; no retired runtime mechanism follows from this source.
 
-Human decision after this requested micro-repair: **ACCEPT REPAIRED CANONICAL JOINT-WORK DESIGN BASIS**. Acceptance derives from that Human decision, not from static repair itself. Repository promotion remains separately unauthorized; installation, activation, behavior, runtime portability and professional/outcome value remain unestablished. Exact lineage, expanded allocations and non-regression dispositions are in the repair receipt.
+Micro-repair review: the two requested carrier-neutrality substitutions are semantically correct. Human design-basis acceptance remains a separate decision and is not claimed by this source. Repository promotion remains separately unauthorized; installation, activation, behavior, runtime portability and professional/outcome value remain unestablished. Exact lineage, expanded allocations and non-regression dispositions are in the repair receipt.
