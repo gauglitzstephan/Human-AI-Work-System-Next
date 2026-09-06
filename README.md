@@ -18,11 +18,12 @@ Current operating model:
 | Carrier-independent cooperation semantics | [`baseline/CANONICAL-JOINT-WORK-SEMANTICS.md`](baseline/CANONICAL-JOINT-WORK-SEMANTICS.md) |
 | Product model / operating allocation | [`baseline/OPERATING-BASELINE.md`](baseline/OPERATING-BASELINE.md) |
 | Native Chat/Project → Work transition | [`baseline/NATIVE-WORK-TRANSITION.md`](baseline/NATIVE-WORK-TRANSITION.md) |
-| Exact intended Global CI R3 | [`rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md`](rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md) |
+| Proposed exact Global CI R4 | [`rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06-R4.md`](rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06-R4.md) |
 | System learning | [`baseline/SYSTEM-LEARNING.md`](baseline/SYSTEM-LEARNING.md) |
 | Genuine-use evidence | [`baseline/GENUINE-USE-LEARNINGS.md`](baseline/GENUINE-USE-LEARNINGS.md) |
 | Active custom methods | [`skills/REGISTRY.md`](skills/REGISTRY.md) |
 | Current preservation map | [`inventory/PRESERVATION-COVERAGE.md`](inventory/PRESERVATION-COVERAGE.md) |
+| Joint Intelligence Runtime Candidate assessment | [`inventory/JOINT-INTELLIGENCE-RUNTIME-REALIZATION-CANDIDATE-2026-09-06.md`](inventory/JOINT-INTELLIGENCE-RUNTIME-REALIZATION-CANDIDATE-2026-09-06.md) |
 
 ## Native Work and Skills
 

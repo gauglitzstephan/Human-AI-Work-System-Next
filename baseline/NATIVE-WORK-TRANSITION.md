@@ -49,6 +49,25 @@ Open questions may remain. Formation is sufficient when Work can resolve them wi
 
 Formation does **not** require Chat to pre-solve research, design, architecture, or execution questions that are themselves part of the Work Object. Chat should qualify those questions and their material boundaries well enough for Work to resolve them without redefining the contract.
 
+### Specification projection
+
+Treat requirements or a specification as part of the qualified Work Object where material. Do not create a separate universal Specification stage or mandatory artifact.
+
+A **Specification** states what the work product or system must satisfy. A **Work Brief** is the delegated contract for producing, changing, or evaluating it. When a specification exists or emerges during conversational Joint Intelligence and formation, carry only its execution-relevant subset into the Work Brief and extend it with:
+
+- qualified current state;
+- protected decisions and constraints;
+- execution freedom;
+- Human authority and gates;
+- reopen conditions; and
+- return conditions.
+
+The Work Brief does not replace the specification, silently modify its authority, or require Work to rediscover it.
+
+### Operational expression
+
+ChatGPT normally recovers accessible qualified state and compiles the handoff. The Human supplies or judges only material inputs that depend on values, lived or inaccessible context, taste, authorship, material trade-offs, commitment, acceptance, release, or legitimate authority. The sections below are coverage dimensions, not a Human-authored form or mandatory visible template. Use a compact natural-language Work request when that is sufficient. Use an available native transition directly where authorized; otherwise present the complete handoff and the smallest necessary Human action without asking the Human to reconstruct it.
+
 ## Responsibilities
 
 **Chat / Joint Intelligence** forms and consolidates the Work Object through exploration, framing, recovery, quality/taste calibration, and Human judgment.
@@ -57,9 +76,9 @@ Formation does **not** require Chat to pre-solve research, design, architecture,
 
 **Human / legitimate domain owner** retains purpose, values, material trade-offs, taste, decision, commitment, release, and authoritative persistence where material.
 
-## Work Handoff Contract
+## Work Brief / Handoff Contract
 
-Include only what the receiving runtime needs, proportionately.
+`Work Brief` here means the context-complete delegated contract carried by the handoff, not a new universal artifact. Include only what the receiving runtime needs, proportionately.
 
 ### 1. Parent Outcome and next use
 
@@ -71,7 +90,7 @@ Accepted decisions, relevant rejected directions, primary source pointers, prior
 
 ### 3. Work Object Contract
 
-Deliverables, scope, non-goals, protected facts/decisions/requirements, quality floor, ambition dimensions, and next responsible state.
+Deliverables, scope, non-goals, protected facts/decisions/requirements, execution-relevant specification, quality floor, ambition dimensions, and next responsible state.
 
 ### 4. Work Architecture
 

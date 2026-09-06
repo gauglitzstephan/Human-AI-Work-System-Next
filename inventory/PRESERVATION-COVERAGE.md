@@ -25,6 +25,7 @@
 | DL-17 | Assurance must detect claimed failure | Canonical CJS-14; evaluate-work-product/narrower evaluator | PRESERVED |
 | DL-18 | Source/install/activation/behavior/outcome differ | System Learning/system-development; CURRENT claim boundary | PRESERVED |
 | DL-19 | Qualified native Work transition without custom Runtime | NATIVE-WORK-TRANSITION + Operating Baseline | PRESERVED |
+| DL-20 | Practical AI literacy and calibrated reliance when it improves future delegation/judgment | Canonical CJS-09/13; compact Global CI cue | PRESERVED / SHARPENED IN CANDIDATE |
 
 ## Human–AI coordination and formation coverage
 
@@ -72,18 +73,20 @@ The following remain intentionally retired as default active mechanisms:
 - permanent Chat controller / rigid subordinate Work;
 - historical product limits as durable architecture invariants.
 
-## Global CI R3 regression boundary
+## Global CI R4 Candidate regression boundary
 
-The exact current Global CI source is selected by `CURRENT.md`. R3 is a bounded successor to R2: the protected R2 semantics remain, with only three intended runtime edits:
+The exact proposed R4 source is selected by Candidate `CURRENT.md`; authoritative `main@9d195dd2270557c901c47147ed2411bd51ad6e59` continues to select accepted R3 until separately authorized promotion. R4 preserves the protected R2/R3 semantics and adds three bounded runtime cues:
 
-1. materially open work no longer requires Human involvement before execution in every case;
-2. substantial optimization/commitment is related to the wider outcome and next-investment sufficiency;
-3. convergence permits material uncertainty to be sufficiently resolved **or contained**.
+1. materially open input is oriented to its wider outcome, relevant system/object and whether it is a symptom, cause, opportunity, proposed means or qualified Work Object;
+2. practical AI-literacy mechanisms are briefly explained only when they improve future judgment or autonomy;
+3. ChatGPT compiles a context-complete Work handoff once Formation Sufficiency and execution lift are present.
 
 The full Canonical source is intentionally not copied into Global CI. Detailed Work transition, risk controls, state protocols, methods, authoritative state and system-change mechanics remain with their legitimate owners.
 
+The NWT Candidate also makes `Specification ≠ Work Brief` explicit, projects only execution-relevant Specification content into the Brief, and assigns handoff compilation to ChatGPT without creating a universal Spec stage, artifact or Human-authored form.
+
 ## Current static verdict
 
-**PASS** for promoted source/ownership coherence within the current repository package, subject to the claim boundary above.
+**PASS** for static Candidate source/ownership coherence and the claim-bounded R3→R4 inventory, subject to the claim boundary above. Human acceptance, promotion and runtime behavior remain open.
 
 This PASS does not prove installed CI identity, runtime activation, behavioral improvement, professional fitness, use, outcome or value.
