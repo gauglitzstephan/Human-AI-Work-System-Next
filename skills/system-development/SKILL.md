@@ -1,39 +1,31 @@
 ---
 name: system-development
-description: Recover, diagnose, compile, promote, or validate this Human–AI Work System or a comparable AI-work runtime when the task concerns current state, system failure, requirements/architecture, runtime semantic preservation, repository promotion/readback, genuine-use evaluation, or a material external product/capability delta that may invalidate active system state. Load only the relevant scoped method; do not use as a universal systems, RCA, or validation method.
+description: Recover, diagnose, redesign, compile, promote or validate this Human–AI work system or a comparable AI-work runtime when actual state, a work failure, a material external capability/product change or an authorized system change requires it. Use external changes only when they may affect an active system assumption or work path; ordinary product questions alone do not require system work. Apply the relevant scoped method to establish the evidence, supported cause or delta, concrete result and claim-matched verification.
 ---
 
 # System Development
 
-Purpose: provide reusable methods for recurring System-Development work without becoming the work controller.
+Produce the requested system result from actual state and evidence. The native executor owns the episode; this Skill supplies scoped methods, not a work controller.
 
-The Native ChatGPT runtime owns the episode. Load only the method(s) required by the current claim.
+## Apply the relevant method
 
-## Methods
+Bind the requested result, exact object/version and environment. Recover the source, installed state and episode evidence needed for that claim. Load and perform only the relevant method:
 
-- **Requirements / architecture reasoning for this system** → `references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md`
-- **Recover an existing system before repair/change** → `references/EXISTING-SYSTEM-RECOVERY-METHOD.md`
-- **Locate a failure in this system/runtime** → `references/RCA-FAILURE-LOCALIZATION-METHOD.md`
-- **Compile semantics into runtime carriers / detect semantic regression** → `references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md`
-- **Repository candidate → promotion / readback / active-state reconciliation** → `references/REPOSITORY-PROMOTION-READBACK-METHOD.md`
-- **Evaluate whether the current runtime supports professional work in genuine use** → `references/REAL-USE-VALIDATION-METHOD.md`
-- **Assess a material external product/capability delta against active system state** → begin with `references/EXISTING-SYSTEM-RECOVERY-METHOD.md`; add failure localization only when observed behavior contradicts a current claim
+- Existing-state recovery or material external capability delta → [EXISTING-SYSTEM-RECOVERY-METHOD.md](references/EXISTING-SYSTEM-RECOVERY-METHOD.md)
+- Failure diagnosis → [RCA-FAILURE-LOCALIZATION-METHOD.md](references/RCA-FAILURE-LOCALIZATION-METHOD.md)
+- Requirements or architecture change → [SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md](references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md)
+- Carrier compilation or semantic regression → [RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md](references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md)
+- Candidate, promotion or active-state reconciliation → [REPOSITORY-PROMOTION-READBACK-METHOD.md](references/REPOSITORY-PROMOTION-READBACK-METHOD.md)
+- Professional performance in use or claim-matched change qualification → [REAL-USE-VALIDATION-METHOD.md](references/REAL-USE-VALIDATION-METHOD.md)
 
-Use several only when the current claim genuinely requires several different transformations. Do not turn this list into a lifecycle.
+For a failure, find the first material divergence, compare causes requiring different repairs, and obtain useful discriminating evidence. For a design change, connect the need to an executable mechanism and compare credible routes at the same level. “Native owns” or “Skill available” identifies responsibility or access, not demonstrated realization.
 
-## Professional-method boundary
+Produce the authorized concrete result and check affected claims against its exact state. Combine scoped methods only when the request needs their transformations; this list is not a lifecycle. An audit may end with a finding; an authorized implementation continues through the change and verification.
 
-These methods are scoped to this system and its repository/runtime practices. Their existence does not prove a universal professional method for systems engineering, requirements engineering, RCA, validation or software engineering.
+## Preserve qualified work and claims
 
-When the intended claim requires an external professional standard or discipline-specific method, retrieve and use that qualified basis rather than stretching these internal methods.
+Choose the smallest intervention sufficient for the required performance, consequence and uncertainty; ownership or representability alone does not establish adequacy. Separate observed divergence, causal contributions and intervention choice; repair multiple contributions together when needed and preserve unaffected qualified state. Distinguish repository candidate, approved operating target, installed identity, availability, selection, actual application, product fitness and outcome. A version difference is not itself an installation defect. A coherent design or method read is not performance evidence.
 
-## Discipline
+Use a qualified external/domain method when the claim requires expertise or a professional standard beyond these internal practices. This Skill is not universal systems engineering, RCA or software assurance.
 
-- bind the exact claim/object/version/environment;
-- recover authoritative current state when the method requires it;
-- preserve unaffected qualified state;
-- repair the lowest responsible layer;
-- separate working result from acceptance, merge, installation, promotion, use and outcome;
-- stop when the requested professional frontier is complete.
-
-Do not infer architecture reopen, authority or wider completion from method completion.
+Finish at the requested boundary with a concrete result and its supporting evidence. Preserve Human/domain authority, acceptance, merge, installation and release boundaries without adding approval gates for work already authorized. Method completion grants neither architecture reopening nor wider completion.

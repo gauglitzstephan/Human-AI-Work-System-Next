@@ -1,0 +1,214 @@
+--- installed/SKILL.md
++++ candidate/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: system-development
+-description: Recover, diagnose, redesign, compile, promote or validate this Human–AI work system or a comparable AI-work runtime when actual state, a work failure or an authorized system change requires it. Apply the relevant scoped method to establish the evidence, supported cause or delta, concrete result and claim-matched verification.
++description: Recover, diagnose, redesign, compile, promote or validate this Human–AI work system or a comparable AI-work runtime when actual state, a work failure, a material external capability/product change or an authorized system change requires it. Use external changes only when they may affect an active system assumption or work path; ordinary product questions alone do not require system work. Apply the relevant scoped method to establish the evidence, supported cause or delta, concrete result and claim-matched verification.
+ ---
+ 
+ # System Development
+@@ -16,7 +16,7 @@
+ - Requirements or architecture change → [SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md](references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md)
+ - Carrier compilation or semantic regression → [RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md](references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md)
+ - Candidate, promotion or active-state reconciliation → [REPOSITORY-PROMOTION-READBACK-METHOD.md](references/REPOSITORY-PROMOTION-READBACK-METHOD.md)
+-- Professional performance in use → [REAL-USE-VALIDATION-METHOD.md](references/REAL-USE-VALIDATION-METHOD.md)
++- Professional performance in use or claim-matched change qualification → [REAL-USE-VALIDATION-METHOD.md](references/REAL-USE-VALIDATION-METHOD.md)
+ 
+ For a failure, find the first material divergence, compare causes requiring different repairs, and obtain useful discriminating evidence. For a design change, connect the need to an executable mechanism and compare credible routes at the same level. “Native owns” or “Skill available” identifies responsibility or access, not demonstrated realization.
+ 
+@@ -24,7 +24,7 @@
+ 
+ ## Preserve qualified work and claims
+ 
+-Repair the lowest responsible layer and reopen only affected dependencies. Distinguish source coverage, installed identity, availability, selection, actual application, product fitness and outcome. A coherent design or method read is not performance evidence.
++Choose the smallest intervention sufficient for the required performance, consequence and uncertainty; ownership or representability alone does not establish adequacy. Separate observed divergence, causal contributions and intervention choice; repair multiple contributions together when needed and preserve unaffected qualified state. Distinguish repository candidate, approved operating target, installed identity, availability, selection, actual application, product fitness and outcome. A version difference is not itself an installation defect. A coherent design or method read is not performance evidence.
+ 
+ Use a qualified external/domain method when the claim requires expertise or a professional standard beyond these internal practices. This Skill is not universal systems engineering, RCA or software assurance.
+ 
+--- installed/references/EXISTING-SYSTEM-RECOVERY-METHOD.md
++++ candidate/references/EXISTING-SYSTEM-RECOVERY-METHOD.md
+@@ -1,6 +1,6 @@
+-# Existing-System Recovery Method v0.1
++# Existing-System Recovery Method v0.2
+ 
+-**Status:** promoted scoped internal System-Development method.  
++**Status:** scoped internal System-Development method; repository and installed status are separate.  
+ **Use when:** repairing, redesigning, extending, migrating, auditing or replacing an existing material system/process/artifact.
+ 
+ ## Method objective
+@@ -16,7 +16,7 @@
+ 5. Reconcile conflicts, staleness and missing evidence; mark unknown rather than assuming absence.
+ 6. Classify current elements: **KEEP / REPAIR / RETIRE / REPLACE**.
+ 7. Retrieve relevant qualified precedent/patterns before bespoke redesign where useful.
+-8. Define only the delta needed for the next legitimate transition; preserve unaffected qualified state.
++8. Define only the delta needed for the next legitimate transition; preserve unaffected qualified state. For an external capability/product delta, bind the affected active assumption or work path and verify the actual capability on the relevant environment. Distinguish confirmed product change, observed surface change and unverified report; UI placement alone does not prove capability addition/removal. Ordinary product news without a material dependency requires no system change.
+ 9. After any material persistent change, read back the affected authoritative state and reconcile the parent work state.
+ 
+ ## Minimum outputs
+@@ -33,5 +33,5 @@
+ - exhaustive archaeology with no decision value;
+ - redesign from memory/summary instead of authoritative state;
+ - current file/branch assumed controlling without status/authority check;
+-- new architecture replacing a local repair;
++- new architecture displacing an adequate local repair without justified additional value;
+ - absence interpreted as proof that no requirement/owner exists.
+--- installed/references/RCA-FAILURE-LOCALIZATION-METHOD.md
++++ candidate/references/RCA-FAILURE-LOCALIZATION-METHOD.md
+@@ -1,4 +1,4 @@
+-# System Failure Localization Method v0.3
++# System Failure Localization Method v0.4
+ 
+ **Status:** scoped internal diagnostic method.  
+ **Use when:** observed behavior, artifact quality, runtime control, state continuity or outcome evidence in this system contradicts the expected claim.
+@@ -7,14 +7,14 @@
+ 
+ ## Objective
+ 
+-Locate the lowest responsible failure mechanism before changing broader architecture, policy or controls.
++Localize supported causal contributions and choose the smallest sufficiently effective intervention. The first observed divergence, its causes and the best intervention location can differ.
+ 
+ ## Method
+ 
+ 1. **State the failed claim and observed counterevidence.** Keep object/version/environment explicit.
+ 2. **Recover the actual runtime/state involved.** Inspect effective instructions, provider/surface, authoritative state, method/tool used and relevant authority boundary rather than reconstructing from memory.
+-3. **Find the first material divergence.** Identify where expected state/behavior first differs from observed state/behavior.
+-4. **Classify the responsible layer provisionally:**
++3. **Find the first material divergence.** Identify where justified expected state/behavior first differs from observed state/behavior. For version claims, bind repository candidate, approved operating target, actual installed and loaded identities separately. A newer repository version alone does not establish a deployment obligation. An unknown approved target leaves that obligation unresolved; a false claim about the version used can still be corrected.
++4. **Classify causal contributions provisionally; several can coexist:**
+    - frame/requirement;
+    - authoritative-state recovery;
+    - formation/sufficiency;
+@@ -27,19 +27,19 @@
+    - artifact/craft/refinement;
+    - assurance;
+    - transition/use/outcome;
+-   - architecture only if lower layers cannot represent or own the failure.
++   - architecture when a material performance, coordination or structural gap remains; existing ownership or representability does not rule it out.
+ 5. **Test plausible competing causes** when they would change the repair. For each live rival, name the observation expected if it were true and a check capable of discriminating it. Obtain accessible evidence and update the localization; do not stop at a coherent story or a list of untested causes. Distinguish a missing source operation, a different installed/loaded version, failed selection, and non-application of an available operation. These require different repairs. If internal causality is not observable, report the first supported divergence and retain the unresolved causal claim.
+-6. **Preserve unaffected qualified state.** Define the smallest repair capable of fixing or detecting the responsible mechanism.
++6. **Select an adequate intervention and preserve unaffected qualified state.** Compare only materially plausible routes: local correction, provider/method or execution-mechanism change, narrower use/claim, or architecture change. Judge required performance, recurrence, consequences, uncertainty, feasibility and total cost including Human correction. A detection measure must also lead to timely correction or containment. A local fix can be enough for a one-off omission; repeated failure under accessible valid instructions is evidence against merely repeating them. Combine repairs when independent or interacting contributions require it.
+ 7. **Recheck the affected claim and material regressions.** Do not launch a new system redesign by default.
+-8. **Escalate only on evidence.** Architecture reopen requires a named failure that cannot be represented or repaired cleanly at lower layers.
++8. **Reopen only affected dependencies on evidence.** Architecture change requires a material unresolved need and a justified realization route; neither exhaust a fixed ladder of smaller changes nor assume a new controller is the answer. If adequacy remains uncertain, choose a discriminating check or bound use until the relevant claim is supported.
+ 
+ ## Output
+ 
+ - failed claim + evidence;
+ - first divergence point;
+-- most supported responsible mechanism/layer;
++- supported causal contributions, separated from the first observed divergence;
+ - material competing causes still open or ruled out;
+-- bounded repair;
++- bounded intervention and why it is sufficient, including combined contributions when needed;
+ - exact claim to recheck;
+ - broader reopen implication only if genuinely established.
+ 
+@@ -47,11 +47,11 @@
+ 
+ - symptom relabeled as root cause;
+ - Global/Project instructions changed for a domain-method or craft defect;
+-- process/agents added to compensate for a provider/tool problem;
++- process/agents added without evidence of adequate effect or comparison with credible provider/tool remedies;
+ - Human blamed for detecting an AI-resolvable defect;
+ - architecture reopened before runtime/method/state recovery;
+ - internal layer taxonomy mistaken for a general causal RCA method.
+ 
+ ## Discriminating example
+ 
+-A response omitted a required comparison. One hypothesis is that the source lacks it; another is that the active source differed; another is non-application. Read the expected source, recover the available installed/loaded identity and inspect the episode's actual comparison. A loaded older version localizes a state divergence before application of the new rule could be expected. An exact current read plus an omitted comparison supports an application failure, without proving why the model omitted it. A source file's existence alone distinguishes neither case. Recheck the claim at the identified layer rather than adding a global rule to cover every rival.
++A response omitted a required comparison. One hypothesis is that the source lacks it; another is that the active source differed; another is non-application. Read the expected source, recover the available installed/loaded identity and inspect the episode's actual comparison. If v2 is only a repository candidate and v1 remains approved, loading v1 is not an installation defect. If the approved target is unknown, keep that issue unresolved. If v2 is the approved operating target and actual v1 is loaded, a deployment divergence is supported; update only within the authorized path and read back the result. In all three cases correct a false claim that v2 was used. An exact v2 read plus an omitted required comparison supports non-application, without proving why the model omitted it or making reinstallation an adequate repair. A source file's existence alone distinguishes neither case. Recheck the affected claim and material regressions on the chosen intervention, without adding a global rule to cover every rival.
+--- installed/references/REAL-USE-VALIDATION-METHOD.md
++++ candidate/references/REAL-USE-VALIDATION-METHOD.md
+@@ -1,11 +1,11 @@
+-# Professional Work Evaluation Method v0.3
++# Professional Work Evaluation Method v0.4
+ 
+ **Status:** scoped internal evaluation method for the current Human–AI Work System.  
+-**Use when:** genuine work provides evidence about whether the current working setup is helping or harming professional output.
++**Use when:** genuine work informs system quality, or a concrete change/use decision needs bounded diagnosis, regression verification or pre-use qualification.
+ 
+ ## Purpose
+ 
+-Evaluate the system through real professional work, not through synthetic testing of ordinary ChatGPT product behavior or process-compliance exercises.
++Evaluate whether the system supports real professional work. Use genuine work as the main outcome evidence and targeted checks when they can resolve a material change or reliance claim.
+ 
+ The evaluation question is:
+ 
+@@ -17,7 +17,7 @@
+ 
+ Use ordinary genuine work. Record or analyze system evidence only when it materially changes a decision about the working setup.
+ 
+-A controlled/synthetic isolation test is justified only when an observed failure cannot otherwise be localized and the result would change a concrete repair decision.
++A controlled test is justified when it can change a concrete decision and its cost is proportionate to consequence and uncertainty. Legitimate purposes include causal localization, verification/regression after a change, and qualification before consequential use. Neither a prior real-world failure nor an unknown cause is required for the latter two. Bind the decision, failure-capable criteria, exact candidate and stop condition before running; test only material uncertainties.
+ 
+ ## Evaluate the work product and work experience
+ 
+@@ -62,10 +62,10 @@
+ When a material failure appears:
+ 
+ 1. state the failed professional/work claim and evidence;
+-2. localize the lowest responsible mechanism using the System Failure Localization method when useful;
+-3. repair only that layer;
++2. distinguish the first observed divergence from supported causal contributions using the System Failure Localization method when useful;
++3. choose the smallest sufficiently effective intervention, combining affected contributions when needed; evaluate recurrence, consequences and total Human burden rather than rule ownership alone;
+ 4. preserve unaffected qualified state;
+-5. continue genuine work and observe whether the failure recurs.
++5. verify the changed claim and material regressions with proportionate checks, then continue genuine work and observe recurrence within the qualified use boundary.
+ 
+ Do not automatically add a rule, Skill, reviewer, artifact or new version.
+ 
+@@ -96,7 +96,7 @@
+ Do not:
+ 
+ - test ordinary ChatGPT capabilities for their own sake;
+-- score whether Skills activate as a product feature unless an observed work failure depends on activation;
++- test activation as a product feature for its own sake; test the actual entry path when a concrete qualification or repair claim depends on selection;
+ - construct synthetic coverage matrices merely to exercise every component;
+ - treat process adherence as professional quality;
+ - average heterogeneous work into a universal quality score;
+@@ -105,14 +105,14 @@
+ 
+ The system earns confidence through sustained useful work, low avoidable Human correction and evidence-bound repair — not through ceremony.
+ 
+-## Targeted comparison after an observed failure
++## Targeted qualification and comparison
+ 
+-When the observed failure and a concrete repair decision justify a controlled comparison:
++When diagnosis, a change or consequential intended use justifies a controlled check:
+ 
+-- Bind current and proposed source versions, raw input, available evidence, tools, authority and intended-use criteria before execution. Specify which failed property could change the repair decision.
++- Bind current and proposed source versions, raw input, available evidence, tools, authority and intended-use criteria before execution. Specify which uncertain or changed property could change the decision and what would count against it. Bind the approved operating target separately from repository and installed identities when judging deployment correctness.
+ - Use fresh comparable execution contexts. Supply only evidence available at that point; withhold the diagnosis, expected answer and later Human correction. A known historical regression is not an independent holdout.
+ - Record whether the relevant method was supplied, selected, read and actually applied. Separate these from fitness and outcome. If installed competing descriptions or source context cannot be excluded, report that contamination and avoid a clean “with versus without Skill” claim.
+-- Compare the actual outputs against the same criteria, ideally with version labels hidden from the reviewer. Examine decisive calculations, counterevidence, result integration and Human repair burden; do not reward method names, visible process, length or format conformity.
++- Include a comparable control when it can distinguish change effect from existing capability; do not add one merely for ceremony. Compare the actual outputs against the same criteria, ideally with version labels hidden from the reviewer. Examine decisive calculations, counterevidence, result integration and Human repair burden; do not reward method names, visible process, length or format conformity.
+ - Retain failures and ties. Revise only a demonstrated defect and recheck the affected claim. Limited synthetic cases support only scoped application evidence; they neither prove automatic selection nor substitute for subsequent genuine use.
+ 
+ For example, an observed unsupported recommendation can justify comparing whether two method versions actually screen binding constraints and respond correctly to changed evidence. Two correct outputs establish preservation on that case, not added value. A claimed improvement in spontaneous method selection requires a separate natural-entry observation without naming the Skill. Do not add a standing benchmark, router or permanent evaluation gate.
+--- installed/references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md
++++ candidate/references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md
+@@ -1,4 +1,4 @@
+-# System Requirements / Architecture Reasoning Method v0.3
++# System Requirements / Architecture Reasoning Method v0.4
+ 
+ **Status:** scoped internal System-Development method.  
+ **Use when:** this Human–AI Work System requires requirements clarification, architecture comparison/change, or conformance reasoning.
+@@ -7,7 +7,7 @@
+ 
+ ## Objective
+ 
+-Produce the smallest requirements/architecture result sufficient for the current system claim without inventing new structure when existing state already owns the need.
++Produce the smallest requirements/architecture result sufficient for the current system claim. Preserve existing structure when it can adequately meet the need; ownership alone is not performance evidence.
+ 
+ ## Method
+ 
+@@ -16,7 +16,7 @@
+ 3. **Separate need from proposed solution** — user wording, current artifact or proposed component is evidence of intent, not automatically the requirement.
+ 4. **Form only material requirements/performance needs** — functional outcome, intended use, quality floors, authority/state/transition constraints and relevant failure modes.
+ 5. **Trace responsibility/ownership** — each material requirement must have a legitimate owner/mechanism; do not turn every concern, distinction or view into a component, agent or store.
+-6. **Compare peer routes only when the choice is materially open** — preserve/repair/reuse/adapt/compose/build/no-action at one decision level.
++6. **Compare peer routes only when the choice is materially open** — preserve/repair/reuse/adapt/compose/build/no-action or narrower use at one decision level. Choose by required performance, recurrence, consequences, uncertainty and total cost including Human correction. A broader mechanism can be justified by inadequate performance despite existing ownership; no fixed escalation ladder or default controller follows.
+ 7. **Check realization feasibility** — establish the actual runtime/provider/state/permission/carrier conditions needed for any implementation claim. State what the proposed mechanism actually does to detect or prevent the material failure and what observable result would support that claim. Distinguish semantic owner, active carrier, activation path and execution owner. “Native owns it” and “Skill available” do not close an unresolved execution or professional-validity gap. Check the relevant operation or retain that realization claim as unverified.
+ 8. **Check relational integrity** — requirement → owner → mechanism → runtime claim, with evidence appropriate to each link. Detect unowned transformation, type collapse, authority contradiction and semantic loss.
+ 9. **Stop at the required claim** — do not extend into implementation, promotion or additional architecture work unless the current task requires it.

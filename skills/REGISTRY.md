@@ -37,6 +37,8 @@ This is judgment guidance, not a fixed route or lifecycle.
 
 ## External installation boundary
 
+**Later scoped observation — 2026-09-18:** all seven operational files of installed `system-development` (Personal Skill `skill-6a8ddd367c6c81919fbd86aa685ac949`) match historical candidate `c2a4f93af19da077e16ea3c4741cca8fc672ed53`; four differ from `main@9d195dd2270557c901c47147ed2411bd51ad6e59`. The local historical import commit `455e7ae47210d354fcf27dc32c4563056f5cd68a` establishes provenance, not acceptance. The prior approval was not recovered. The [new repair candidate](../inventory/system-development-repair-2026-09-18/REPAIR-RECEIPT.md) is separate and has not been installed. The September 3 readback below remains historical evidence, not a current byte-identity claim. Other Personal Skills were not requalified in this scoped repair.
+
 Repository source, plugin packaging, installed Personal Skill identity, activation, execution quality and outcome are separate claims.
 
 Repository promotion does not itself update or uninstall Personal Skills. Product-surface readback on 2026-09-03 established:

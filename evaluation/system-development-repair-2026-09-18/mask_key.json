@@ -1,0 +1,17 @@
+{
+  "repair": {
+    "X": "repair_b.md",
+    "Y": "repair_a.md"
+  },
+  "qualification": {
+    "X": "qualification_a.md",
+    "Y": "qualification_b.md"
+  },
+  "versions": {
+    "X": "versions_b.md",
+    "Y": "versions_a.md"
+  },
+  "delta": {
+    "Z": "delta_a.md"
+  }
+}

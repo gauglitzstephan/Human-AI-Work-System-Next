@@ -1,0 +1,20 @@
+--- a/skills/system-development/references/EXISTING-SYSTEM-RECOVERY-METHOD.md
++++ b/skills/system-development/references/EXISTING-SYSTEM-RECOVERY-METHOD.md
+@@ -33,5 +33,5 @@
+ - exhaustive archaeology with no decision value;
+ - redesign from memory/summary instead of authoritative state;
+ - current file/branch assumed controlling without status/authority check;
+-- new architecture replacing a local repair;
++- new architecture displacing an adequate local repair without justified additional value;
+ - absence interpreted as proof that no requirement/owner exists.
+--- a/skills/system-development/references/RCA-FAILURE-LOCALIZATION-METHOD.md
++++ b/skills/system-development/references/RCA-FAILURE-LOCALIZATION-METHOD.md
+@@ -47,7 +47,7 @@
+ 
+ - symptom relabeled as root cause;
+ - Global/Project instructions changed for a domain-method or craft defect;
+-- process/agents added to compensate for a provider/tool problem;
++- process/agents added without evidence of adequate effect or comparison with credible provider/tool remedies;
+ - Human blamed for detecting an AI-resolvable defect;
+ - architecture reopened before runtime/method/state recovery;
+ - internal layer taxonomy mistaken for a general causal RCA method.

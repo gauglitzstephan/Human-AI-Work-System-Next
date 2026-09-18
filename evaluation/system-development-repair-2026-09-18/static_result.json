@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "candidate_source_files": 12,
+  "resolved_links": 24,
+  "evidence_files": 38,
+  "errors": [],
+  "claim_limit": "Source/packet identity and link integrity only; no behavior, selection, installation or outcome claim."
+}

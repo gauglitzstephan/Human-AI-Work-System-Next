@@ -23,7 +23,7 @@ When conversation or Project context has sufficiently formed a material Work Obj
 
 [Canonical Joint-Work Semantics](CANONICAL-JOINT-WORK-SEMANTICS.md) is the sole normative carrier-independent cooperation source. This file maintains operating allocation rather than a second policy copy.
 
-Build custom behavior only for a demonstrated remaining gap, with material incremental value over native or narrower existing capability, at the lowest responsible layer. Select differentiated reusable methods where method choice improves validity/performance; a Skill registry is not the provider universe. Local roles/functions do not create new actors, Skills or controllers.
+Build custom behavior only for a demonstrated remaining gap, with material incremental value over native or narrower existing capability, using the smallest sufficiently effective intervention. Judge adequacy by required performance, consequences, uncertainty and total Human burden; ownership alone does not establish it. Select differentiated reusable methods where method choice improves validity/performance; a Skill registry is not the provider universe. Local roles/functions do not create new actors, Skills or controllers.
 
 The canonical source is a design/review authority, not a required always-loaded prompt. Runtime carriers require target-specific qualification; source ownership alone proves no activation.
 
@@ -59,6 +59,6 @@ Optional task/domain-specific representations or methods remain possible when ju
 
 ## 6. Safe change and removal owners
 
-[SYSTEM-LEARNING.md](SYSTEM-LEARNING.md) owns system-specific evidence classification and lowest-layer repair. [system-development](../skills/system-development/SKILL.md) owns scoped recovery, failure localization, semantic regression, repository/product promotion and readback. [Repository Promotion / Readback](../skills/system-development/references/REPOSITORY-PROMOTION-READBACK-METHOD.md) owns authorization, exact-target write/readback and coherent entry-point reconciliation.
+[SYSTEM-LEARNING.md](SYSTEM-LEARNING.md) owns system-specific evidence classification and sufficiently effective bounded repair. [system-development](../skills/system-development/SKILL.md) owns scoped recovery, failure localization, semantic regression, repository/product promotion and readback. [Repository Promotion / Readback](../skills/system-development/references/REPOSITORY-PROMOTION-READBACK-METHOD.md) owns authorization, exact-target write/readback and coherent entry-point reconciliation.
 
 Human design acceptance, merge authority and external product changes remain separately legitimate decisions under those owners. Remove a custom Skill when its differentiated value is no longer demonstrated, an existing provider owns it better, or maintenance/coordination burden outweighs value. Repository removal and product uninstallation are separate actions.

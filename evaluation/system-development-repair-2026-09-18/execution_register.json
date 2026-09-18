@@ -1,0 +1,110 @@
+{
+  "runs": [
+    {
+      "task": "/root/case_repair_a",
+      "arm": "candidate",
+      "input": "inputs/repair.md",
+      "output": "outputs/repair_a.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/repair.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/repair_a.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_qualification_a",
+      "arm": "candidate",
+      "input": "inputs/qualification.md",
+      "output": "outputs/qualification_a.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/qualification.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/qualification_a.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_versions_a",
+      "arm": "candidate",
+      "input": "inputs/versions.md",
+      "output": "outputs/versions_a.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/versions.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/versions_a.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_delta_a",
+      "arm": "candidate",
+      "input": "inputs/delta.md",
+      "output": "outputs/delta_a.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/delta.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/delta_a.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_repair_b",
+      "arm": "control",
+      "input": "inputs/repair.md",
+      "output": "outputs/repair_b.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/repair.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/audit_evidence/installed/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/repair_b.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_qualification_b",
+      "arm": "control",
+      "input": "inputs/qualification.md",
+      "output": "outputs/qualification_b.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/qualification.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/audit_evidence/installed/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/qualification_b.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_versions_b",
+      "arm": "control",
+      "input": "inputs/versions.md",
+      "output": "outputs/versions_b.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/versions.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/audit_evidence/installed/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/versions_b.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_repair_final",
+      "arm": "candidate_final",
+      "input": "inputs/repair.md",
+      "output": "outputs/repair_final.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/repair.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/repair_final.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "final_tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case_delta_final",
+      "arm": "candidate_final",
+      "input": "inputs/delta.md",
+      "output": "outputs/delta_final.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/delta.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/delta_final.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "final_tested_sources.json",
+      "condition": "Method path supplied; fresh context per group, not per individual case; shared installed catalog."
+    },
+    {
+      "task": "/root/case3_final",
+      "arm": "candidate_final",
+      "input": "inputs/repair_case3.md",
+      "input_sha256": "5226ba7cc3e2a2098c00940872bd9a818a4f0c0e4551eab5bfcc00ce38749fc8",
+      "output": "outputs/repair_case3_final.md",
+      "dispatch_text": "Bearbeite den Auftrag in /workspace/scratch/cda19bcc7083/repair_checks/inputs/repair_case3.md. Nutze dafür die Methode /workspace/scratch/cda19bcc7083/repair_candidate/skills/system-development/SKILL.md mit den jeweils relevanten Referenzen. Lies nur diese Aufgabenquelle und diese Methodenfamilie, keine anderen Arbeitsdateien. Schreibe dein vollständiges Ergebnis als lokales Zwischenergebnis nach /workspace/scratch/cda19bcc7083/repair_checks/outputs/repair_case3_final.md. Notiere am Ende die tatsächlich gelesenen Methodenpfade. Keine Änderungen außerhalb dieser Ergebnisdatei, keine Subagenten. Antworte anschließend mit Ergebnisdatei und kurzem Ergebnis.",
+      "fork_turns": "none",
+      "source_manifest": "final_tested_sources.json",
+      "condition": "Fresh single original case; no diagnosis or prior answer. Targeted follow-up to OF-01, not an independent holdout."
+    }
+  ],
+  "environment": "ChatGPT Work, native collaboration.spawn_agent. Model/version/seed and full internal tool traces are not exported by this interface. No explicit model override.",
+  "trace_boundary": "Dispatches and resulting output artifacts are retained. Worker method-read lists and claims about their Python runs are worker reports; no independent full read/call trace is asserted. Behavior is evaluated from the actual produced outputs.",
+  "authority": "Fictional dossiers; no real state writes by task workers. Only local intermediate outputs authorized.",
+  "review": "Independent source reviewer; independent outcome reviewer with version labels masked and method path lines omitted. Inputs and substantive answers unchanged. Mask key retained separately.",
+  "actual_source_note": "Initial sources differ from final only in two overbroad failure-mode bullets; patch and both identity sets retained."
+}

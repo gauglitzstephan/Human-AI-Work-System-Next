@@ -6,6 +6,8 @@ A small support layer around native ChatGPT for professionally useful Human–AI
 
 Read [`CURRENT.md`](CURRENT.md). It is the only repository-state entry point.
 
+The [System-Development repair record of 2026-09-18](inventory/system-development-repair-2026-09-18/REPAIR-RECEIPT.md) identifies the scoped candidate, evidence and unperformed adoption steps. It does not change the operating status of CI or installed Skills.
+
 Current operating model:
 
 > **Native ChatGPT + compact Global CI runtime profile + Canonical Joint-Work Semantics + native Work + differentiated methods/Skills + legitimate domain/Human authority/state + proportional claim-matched assurance.**

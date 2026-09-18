@@ -4,6 +4,12 @@
 **Repository identity rule:** resolve authoritative `main` at read time; this file selects current sources and does not bind `main` to a permanent SHA  
 **External product state:** separate from repository promotion; this package does not install or verify ChatGPT product settings
 
+## System-Development repair record — 2026-09-18
+
+The scoped repair is a **CANDIDATE**, not an installed or accepted operating update. [Repair receipt and adoption boundary](inventory/system-development-repair-2026-09-18/REPAIR-RECEIPT.md) records its source lineage, bounded evidence and next decision. It selectively preserves the seven System-Development files matching historical candidate `c2a4f93af19da077e16ea3c4741cca8fc672ed53`; it does not adopt that entire historical branch. Plugin package version 0.2.3 identifies this changed source, not installation.
+
+The observed Personal Skill on 2026-09-18 matches those seven historical files and differs from the repository baseline. Its earlier installation acceptance was not recovered; neither acceptance nor unauthorized installation is inferred. CI, Project instructions and the other methods retain their existing status. This record grants no merge or installation authority.
+
 ## Purpose
 
 Support professionally useful Human–AI work with strong reality contact, sound judgment, appropriate Human agency and minimum unnecessary process, without rebuilding ordinary native capability.

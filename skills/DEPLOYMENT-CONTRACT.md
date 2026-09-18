@@ -32,6 +32,10 @@ repository source
 
 A repository merge does not update or uninstall a Personal Skill automatically.
 
+For deployment judgments bind the repository candidate, approved operating target, actual installed/loaded copy and adoption status separately. A newer repository source is not by itself an obligation to install it. If the approved target is unknown, preserve that uncertainty while continuing independently authorized candidate work. A false claim about the version used is correctable even when the operating target is unresolved.
+
+The [2026-09-18 repair receipt](../inventory/system-development-repair-2026-09-18/REPAIR-RECEIPT.md) records the observed historical installation, candidate provenance, bounded verification and proposed adoption path. Package 0.2.3 does not assert an installed update.
+
 ## Change flow
 
 1. establish a demonstrated semantic, discovery, execution or maintenance need;

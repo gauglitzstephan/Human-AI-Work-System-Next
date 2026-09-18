@@ -1,6 +1,6 @@
-# Existing-System Recovery Method v0.1
+# Existing-System Recovery Method v0.2
 
-**Status:** promoted scoped internal System-Development method.  
+**Status:** scoped internal System-Development method; repository and installed status are separate.  
 **Use when:** repairing, redesigning, extending, migrating, auditing or replacing an existing material system/process/artifact.
 
 ## Method objective
@@ -16,7 +16,7 @@ Recover enough actual current state to avoid solving an imagined system, duplica
 5. Reconcile conflicts, staleness and missing evidence; mark unknown rather than assuming absence.
 6. Classify current elements: **KEEP / REPAIR / RETIRE / REPLACE**.
 7. Retrieve relevant qualified precedent/patterns before bespoke redesign where useful.
-8. Define only the delta needed for the next legitimate transition; preserve unaffected qualified state.
+8. Define only the delta needed for the next legitimate transition; preserve unaffected qualified state. For an external capability/product delta, bind the affected active assumption or work path and verify the actual capability on the relevant environment. Distinguish confirmed product change, observed surface change and unverified report; UI placement alone does not prove capability addition/removal. Ordinary product news without a material dependency requires no system change.
 9. After any material persistent change, read back the affected authoritative state and reconcile the parent work state.
 
 ## Minimum outputs
@@ -33,5 +33,5 @@ Recover enough actual current state to avoid solving an imagined system, duplica
 - exhaustive archaeology with no decision value;
 - redesign from memory/summary instead of authoritative state;
 - current file/branch assumed controlling without status/authority check;
-- new architecture replacing a local repair;
+- new architecture displacing an adequate local repair without justified additional value;
 - absence interpreted as proof that no requirement/owner exists.

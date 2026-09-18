@@ -1,0 +1,76 @@
+{
+  "candidate": {
+    "SKILL.md": {
+      "sha256": "cf007e6aaf0555836c3ace020958e2f0f3322a2cc8a4a84694ffa7773877aea2",
+      "bytes": 3686,
+      "git_blob": "5af588f3aa095258b5bdbfb239d7ef03c266a5a2"
+    },
+    "references/EXISTING-SYSTEM-RECOVERY-METHOD.md": {
+      "sha256": "139722a0b674392725e927991acc193b563e6f5bae081d06428660e2f27c7695",
+      "bytes": 2300,
+      "git_blob": "e526e8b0162d2a09fdbf13d9419e5f09a600ec5f"
+    },
+    "references/RCA-FAILURE-LOCALIZATION-METHOD.md": {
+      "sha256": "7ced72f6d102a5ed9aa9e943943aa89af11c3e901827b14d3a87c87e4fb71937",
+      "bytes": 5508,
+      "git_blob": "cb79fe6a5c8de2efe8705f7ebf67c02b6806dca6"
+    },
+    "references/REAL-USE-VALIDATION-METHOD.md": {
+      "sha256": "417072245d788d35cd24f3591fb64b5b757fe0041859374e8b2b27d201f6e650",
+      "bytes": 8645,
+      "git_blob": "83a4a27feaa94327e32ab3f2fd2975968072020b"
+    },
+    "references/REPOSITORY-PROMOTION-READBACK-METHOD.md": {
+      "sha256": "d57864095eaf50abc9f2b9edb7ed05f0a94d7cb24c730faa9164b8fafeb1d83e",
+      "bytes": 4153,
+      "git_blob": "d295d913d9da44dba9b5fcdbaff8de910c691f23"
+    },
+    "references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md": {
+      "sha256": "9155ced5e6a1c4180183da250121b53953ca5b8563953c790b2e7252feccfe48",
+      "bytes": 4506,
+      "git_blob": "7f9ff732940363a1ffcd6e542f83775b844810b3"
+    },
+    "references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md": {
+      "sha256": "6860368ec90fbf961869e2a72ea5a7029e0082e7d11f4ee7e8eb63a555a1dc13",
+      "bytes": 3609,
+      "git_blob": "521b30e338f67ebc6c5a4c1f3565545cb420cfa0"
+    }
+  },
+  "control": {
+    "SKILL.md": {
+      "sha256": "55ccf8d270e35d343b01d9e9a6d4aa4ec2beca4e572f577933650dfafadad6ae",
+      "bytes": 3099,
+      "git_blob": "f8504c87ac2c0e3948ca97d39ab383c986f7e399"
+    },
+    "references/EXISTING-SYSTEM-RECOVERY-METHOD.md": {
+      "sha256": "6e007078bfaa694c1df658dd9649c7bb2a0af6178112cefccdacce847d1af75a",
+      "bytes": 1883,
+      "git_blob": "a073ed47528c768cff62225e53fc2c632bd74c39"
+    },
+    "references/RCA-FAILURE-LOCALIZATION-METHOD.md": {
+      "sha256": "1d10ecca8361fb35c73ca4f9394c699d4e39180bcfa4467057f8e9a5759895e8",
+      "bytes": 3800,
+      "git_blob": "351b561d4ce2f11f2f7b9a9aaee977b505b8316e"
+    },
+    "references/REAL-USE-VALIDATION-METHOD.md": {
+      "sha256": "a84b5478a58d9c22d55c5b8436b63f316b514eb442b81485d4e3d6934e60a738",
+      "bytes": 7634,
+      "git_blob": "fc84de2780f420f2148287ec47d7486fb365f3ed"
+    },
+    "references/REPOSITORY-PROMOTION-READBACK-METHOD.md": {
+      "sha256": "d57864095eaf50abc9f2b9edb7ed05f0a94d7cb24c730faa9164b8fafeb1d83e",
+      "bytes": 4153,
+      "git_blob": "d295d913d9da44dba9b5fcdbaff8de910c691f23"
+    },
+    "references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md": {
+      "sha256": "9155ced5e6a1c4180183da250121b53953ca5b8563953c790b2e7252feccfe48",
+      "bytes": 4506,
+      "git_blob": "7f9ff732940363a1ffcd6e542f83775b844810b3"
+    },
+    "references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md": {
+      "sha256": "effde8efc88fa8161619dc1bc05a6398d7ce7f814e596fd3ec7f5435fc97c5db",
+      "bytes": 3294,
+      "git_blob": "f859c337a89e0e71e3c5b68935d1672d95aec4dd"
+    }
+  }
+}
