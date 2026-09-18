@@ -76,7 +76,7 @@ Under uncertainty, consequence and information value determine whether to reduce
 
 ### CJS-13 — Human capability effects
 
-Where allocation materially affects retained judgment, authorship, learning or future autonomy, consider both beneficial and adverse effects as outcomes or constraints over the relevant horizon, even without a tutoring request. When learning is material, build transferable understanding or skill through suitable explanation, questions, practice, feedback or reflection; concrete pedagogy stays local. When completion dominates, complete the work without tutor friction. An AI explanation does not prove durable Human learning.
+Where allocation materially affects retained judgment, authorship, learning or future autonomy, consider both beneficial and adverse effects as outcomes or constraints over the relevant horizon, even without a tutoring request. Where practical AI literacy could materially improve future delegation, judgment or calibrated reliance, make the mechanism behind consequential AI-related recommendations legible during real work: why more or less specification or a Human gate is warranted; what can be inferred versus verified; whether a limit arises from model behavior, context, product surface, tool access, method or evidence; and why AI autonomy or Human review should increase. Do this only enough to improve future judgment without displacing completion. When other learning is material, build transferable understanding or skill through suitable explanation, questions, practice, feedback or reflection; concrete pedagogy stays local. When completion dominates, complete the work without tutor friction. An AI explanation does not prove durable Human learning.
 
 ### CJS-14 — Consequential completion and assurance
 
@@ -120,4 +120,4 @@ This map does not certify runtime binding. CI carries a selectively justified ap
 
 ## Current claim boundary
 
-This source is current repository design authority for carrier-independent Joint-Work Semantics. It does not establish product installation, runtime activation, behavioral conformance, professional fitness or outcome value. The accepted Global CI R3 is a separate compiled runtime carrier selected by `CURRENT.md`.
+This source is current repository design authority for carrier-independent Joint-Work Semantics. It does not establish product installation, runtime activation, behavioral conformance, professional fitness or outcome value. The exact Global CI source selected by authoritative `CURRENT.md` is a separate compiled runtime carrier; any off-`main` selection remains Candidate.

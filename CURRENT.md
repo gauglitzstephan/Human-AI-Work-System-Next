@@ -28,36 +28,38 @@ Native ChatGPT owns ordinary conversation, reasoning, planning, capability selec
 | Carrier-independent cooperation semantics | `baseline/CANONICAL-JOINT-WORK-SEMANTICS.md` |
 | Product model / operating allocation / customization economy | `baseline/OPERATING-BASELINE.md` |
 | Native Chat/Project → Work transition | `baseline/NATIVE-WORK-TRANSITION.md` |
-| Exact intended Global CI source | `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md` |
+| Proposed exact Global CI R4 source | `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06-R4.md` |
 | System learning | `baseline/SYSTEM-LEARNING.md` |
 | Genuine-use learning record | `baseline/GENUINE-USE-LEARNINGS.md` |
 | Active custom Skill portfolio | `skills/REGISTRY.md` |
 | Skill source/deployment boundary | `skills/DEPLOYMENT-CONTRACT.md` |
 | Current preservation/non-regression map | `inventory/PRESERVATION-COVERAGE.md` |
-| Promotion/readback receipt for this package | `inventory/JOINT-WORK-R3-PROMOTION-RECEIPT-2026-09-06.md` |
+| Joint Intelligence Runtime Candidate assessment | `inventory/JOINT-INTELLIGENCE-RUNTIME-REALIZATION-CANDIDATE-2026-09-06.md` |
+| Accepted predecessor R3 promotion/readback receipt | `inventory/JOINT-WORK-R3-PROMOTION-RECEIPT-2026-09-06.md` |
 | Historical boundary | `legacy/README.md` |
 
 No other file is current system authority merely because it has a newer-looking name, an old promotion label or executable-looking instructions.
 
-## Global Custom Instructions — R3
+## Global Custom Instructions — R4 Candidate
 
 The exact intended repository source is:
 
-`rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md`
+`rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06-R4.md`
 
-Human decision: **ACCEPT R3** for repository promotion and subsequent product installation.
+On this branch the R4 selection is a **CANDIDATE FOR HUMAN REVIEW**. Authoritative `main@9d195dd2270557c901c47147ed2411bd51ad6e59` continues to select accepted R3 until a separately authorized merge and readback. If R4 is promoted, the authoritative `main` selection records repository status only; product installation remains separate.
 
-Exact R3 payload identity:
+Exact R4 Candidate payload identity:
 
-- Unicode code points: **4,943**
-- UTF-8 bytes: **4,943**
+- Unicode code points: **4,979**
+- UTF-8 bytes: **4,979**
 - paragraphs: **7**
 - terminal newline: **none**
-- SHA-256: `e5de13b5989590959829ae12207f1269f691603d3c4f99568b4f68101be20985`
+- CRLF-equivalent length: **4,991 code units**
+- SHA-256: `78b0628b726396168d5b2821404a1f391c2dc655f2ee46f56e95c0bd669dbe14`
 
-Repository promotion does **not** install this payload. The Human intends to install the CI product state after repository promotion. No post-R3 product-field readback has occurred in this repository promotion, so effective installed identity, activation and behavior remain unverified.
+R4 is a bounded successor Candidate: it sharpens proportionate Joint Orientation for materially open input, makes practical AI-literacy support conditional and legible, and makes ChatGPT responsible for compiling the context-complete Work handoff. It creates no mandatory Orientation/Specification stage, artifact, Skill, router or controller.
 
-The previously action-bearing September 3 CI source and R2 Candidate are explicitly superseded and must not be installed.
+Repository creation or later promotion does **not** install this payload. R4 product identity, activation and behavior remain unverified. If authoritative `main` selects R4, accepted R3 becomes superseded rollback evidence under its conditional status and must not be installed as current. The September 3 source and R2 Candidate remain explicitly superseded.
 
 ## Canonical Joint-Work design basis
 
@@ -76,6 +78,7 @@ It preserves, among other relations:
 - Work Product → integration → transition/use/outcome distinctions;
 - proportional uncertainty handling, convergence and closure;
 - Human capability effects;
+- practical AI literacy and calibrated reliance where materially useful;
 - consequential assurance boundaries;
 - evidence-bound adaptation.
 
@@ -126,8 +129,9 @@ Working context, memory, retrieval and stored copies do not gain authority merel
 
 The repository package is current once this file and all selected sources are present on authoritative `main` after readback.
 
-The next external transition is intentionally simple:
+The next legitimate transitions are intentionally separate:
 
-1. Human installs the exact R3 payload from `rebaseline/CURRENT-GLOBAL-CUSTOM-INSTRUCTIONS-2026-09-06.md` in the intended ChatGPT Global Custom Instructions field.
-2. Product installation identity/readback is recorded separately if verification is desired.
-3. Resume genuine professional use. Record only decision-relevant behavioral evidence; do not reopen architecture without a material failure or supported improvement opportunity.
+1. Human reviews the R4/CJS-13/NWT Candidate and its static assurance.
+2. Only if accepted, Human separately authorizes repository merge/promotion; read back authoritative `main` and reconcile entry points.
+3. Only under separate product-state authority, install and read back the exact R4 payload.
+4. Resume genuine professional use. Record only decision-relevant behavioral evidence; do not reopen architecture without a material failure or supported improvement opportunity.

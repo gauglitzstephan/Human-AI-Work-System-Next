@@ -1,10 +1,10 @@
 # Current Global Custom Instructions — R3 — 2026-09-06
 
-**Status:** CURRENT intended Global CI source when selected by authoritative `CURRENT.md`; CANDIDATE off `main`.  
-**Human decision:** ACCEPT R3 for repository promotion and subsequent product installation.  
-**Exact instruction length:** **4,943 Unicode code points / 4,943 UTF-8 bytes**.  
-**Paragraphs:** **7**.  
-**Terminal newline in payload:** **none**.  
+**Status:** CURRENT intended Global CI source only while selected by authoritative `CURRENT.md`; CANDIDATE off `main`; if a later source is selected on authoritative `main`, SUPERSEDED / DO NOT INSTALL.
+**Human decision:** ACCEPT R3 for repository promotion and subsequent product installation.
+**Exact instruction length:** **4,943 Unicode code points / 4,943 UTF-8 bytes**.
+**Paragraphs:** **7**.
+**Terminal newline in payload:** **none**.
 **SHA-256:** `e5de13b5989590959829ae12207f1269f691603d3c4f99568b4f68101be20985`.
 
 ## Exact installable payload
@@ -30,3 +30,5 @@ Use plain natural language and useful structure; prefer mechanisms and evidence 
 R3 is the accepted bounded successor to R2. Its three runtime changes are: remove blanket Human-before-execution wording; add the wider-outcome / next-investment Problem-Space Sufficiency cue; permit convergence when material uncertainty is sufficiently resolved **or contained**.
 
 Repository promotion does not install this payload. Product installation, exact field readback, activation, behavioral effectiveness, professional fitness and outcome value remain separate claims.
+
+If authoritative `CURRENT.md` selects a later source, this file remains historical rollback evidence and must not be installed as the current payload.
