@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-09-18T19:00:58.628664+00:00",
+  "scope": "Known audit regressions and constructed boundary cases, not independent holdouts.",
+  "criteria_fixed_before_runs": true,
+  "criteria": {
+    "1": [
+      "Konkrete Umstiegsbedingung: A>100/Monat bei B=100; Gleichheit erlaubt A.",
+      "Einzelnen Output korrigieren; keine neue permanente Komponente ohne Bedarf."
+    ],
+    "2": [
+      "Zugängliche gelesene Quelle von Anwendung unterscheiden; innere Ursache offen.",
+      "Wiederholung und 18 Minuten Menschenlast gegen bloße Erinnerung berücksichtigen.",
+      "Mindestens zwei real tragfähige Mechanismen/Provider/Nutzungsgrenze vergleichen; keine vorbestimmte Lösung; kleine entscheidungsfähige Qualifikation."
+    ],
+    "3": [
+      "Beide Beiträge: belegte v1/v2-Deploymentabweichung und untaugliche Prüfung.",
+      "Bericht: 3*12+5*8=76; 70 ersetzen, bisherige Prüfaussage korrigieren.",
+      "Beide Maßnahmen samt Fehler-erkennender Nachprüfung; keine real ausgeführte Installation vortäuschen."
+    ],
+    "4": [
+      "Präventive fachliche Qualifikation erlauben obwohl kein Schaden.",
+      "Frist inkl Grenzwert/außerhalb, Vollständigkeit, Dublette mit erwarteten Ergebnissen; Freigabe aus Tabellenlesbarkeit nicht ableiten."
+    ],
+    "5": [
+      "Regressionsprüfung trotz bekannter Ursache erlauben.",
+      "Erwartete IDs 1,2,3 genau einmal incl leer/null; Dossierableitung von tatsächlich ausgeführtem Export unterscheiden."
+    ],
+    "6": [
+      "Kein Installationsfehler bei v1 freigegeben und v2 Candidate.",
+      "Falsche v2-Nutzungsbehauptung korrigieren, keine v2-Installation autorisieren."
+    ],
+    "7": [
+      "Betriebsziel unbekannt -> Abweichungsfehler unentschieden.",
+      "Nutzungsbehauptung korrigieren, Candidate-Arbeit nicht blockieren, kein Installationsvollzug."
+    ],
+    "8": [
+      "Installationsabweichung positiv erkennen.",
+      "Autorisierter v2-Updatepfad+Readback; Dossier hat keine echte Fläche -> nicht Vollzug behaupten; Verhaltensprüfung separat."
+    ],
+    "9": [
+      "Nichtanwendung erkannt; innere Ursache offen.",
+      "Keine Reinstallation als ausreichende Reparatur; Ausgabe reparieren/Anwendung prüfen."
+    ],
+    "10": [
+      "a: Oberflächenänderung/ungeprüfter Bericht von Capability-Entfernung trennen; beobachtete Alternativroute.",
+      "b: Bestätigte relevante Entfernung; begrenzte Anpassung/Qualifikation synchroner Route statt Scheinhandoff.",
+      "Dekorative Farbfrage: blau, keine notwendige Systemänderung."
+    ]
+  },
+  "arms": {
+    "candidate": "repair_candidate/skills/system-development",
+    "control": "audit_evidence/installed"
+  },
+  "design": "Fresh worker context per group/arm. Candidate: repair, qualification, versions, delta. Control: repair, qualification, versions. No control for delta; no added-value inference there. Cases within a group share a context.",
+  "limits": [
+    "Supplied-method execution, not automatic candidate activation.",
+    "Installed global catalog may expose earlier skill descriptions; no clean with/without-skill claim.",
+    "No deployed candidate or production outcomes.",
+    "One execution per group and arm; not a reliability estimate."
+  ],
+  "input_sha256": {
+    "repair": "07206912c8c7f773e407adaa60e317be3046c721b79c5e6a10b564d00e40dd35",
+    "qualification": "b7fd62c68940268abf3f2260a5ebeaf1b41ff4647f38859544eaae0b72d06dd1",
+    "versions": "f0b0e78ee9d2c6fde78cb25f33b7eeb4f9f22db840dbba3ee071206c30f2037d",
+    "delta": "10cede369d8edfe446e258cf3ee508221cab059f9d006e31bdd4675f83a78420"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "installed_files_unchanged": [
+    "SKILL.md",
+    "assets/icon.svg",
+    "agents/openai.yaml",
+    "references/EXISTING-SYSTEM-RECOVERY-METHOD.md",
+    "references/RCA-FAILURE-LOCALIZATION-METHOD.md",
+    "references/RUNTIME-COMPILATION-SEMANTIC-REGRESSION-METHOD.md",
+    "references/REAL-USE-VALIDATION-METHOD.md",
+    "references/SYSTEM-ARCHITECTURE-REQUIREMENTS-METHOD.md",
+    "references/REPOSITORY-PROMOTION-READBACK-METHOD.md"
+  ],
+  "candidate_skill_metadata": "quick_validate.py returned Skill is valid!",
+  "discovery_symlink": {
+    "path": ".agents/skills/system-development",
+    "unchanged_blob": "69d1f3bd5763dc927b625682bca603d30e3f5ebf",
+    "target": "../../skills/system-development"
+  },
+  "scope": "Selective repository overlay; Git base_tree preserves every untouched entry. Final remote tree readback will verify preservation.",
+  "semantic_review": "source_review.md with SR-01 closed in source_review_recheck.md",
+  "forbidden_old_rule_scan": "No matches in active changed skill, System Learning or Operating Baseline for the five scoped obsolete rule patterns; search is not the semantic review."
+}

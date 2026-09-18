@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-09-18T19:08:56.383112+00:00",
+  "reason": "Independent source review found two overbroad failure-mode bullets. Both narrowed; no other method change.",
+  "cases": [
+    "repair: 1,2,3",
+    "delta: 10 with positive and negative conditions"
+  ],
+  "criteria": "Unchanged original protocol.json criteria, fixed before initial runs.",
+  "mode": "Fresh supplied-method contexts; compare regressions to original candidate, not a new superiority study.",
+  "unchanged_claims": "Qualification method and all version-target rules unchanged. Initial versions outputs retained with original exact hashes; no final-source full version rerun claimed."
+}
