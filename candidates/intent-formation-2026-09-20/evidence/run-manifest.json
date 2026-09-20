@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-20",
+  "candidate_initial_commit": "c9189e0",
+  "research_first_commit": "f3ecf5e",
+  "runtime": "Work Mode child agents; fresh threads except explicit followups; inherited model, no override",
+  "isolation": "Logical read scope in shared filesystem; not a security sandbox",
+  "user_data": "All followups and acceptance statements are synthetic scenario fixtures, not Stephan acceptance",
+  "source_limit": "Native complete tool transcripts are not exported; emitted responses, files, source references and controller observations retained",
+  "cases": {
+    "D01": {
+      "agent": "/root/daily",
+      "condition": "candidate"
+    },
+    "D02": {
+      "agent": "/root/dguv",
+      "condition": "candidate"
+    },
+    "D02H": {
+      "agent": "/root/dguv_handoff",
+      "condition": "candidate"
+    },
+    "D03": {
+      "agent": "/root/decision",
+      "condition": "candidate"
+    },
+    "D04": {
+      "agent": "/root/ready",
+      "condition": "candidate"
+    },
+    "D05": {
+      "agent": "/root/helpdesk",
+      "condition": "candidate"
+    },
+    "D06": {
+      "agent": "/root/preference",
+      "condition": "candidate"
+    },
+    "D07": {
+      "agent": "/root/signals",
+      "condition": "candidate"
+    },
+    "D08": {
+      "agent": "/root/sunk_cost",
+      "condition": "candidate"
+    },
+    "D09": {
+      "agent": "/root/boundary",
+      "condition": "candidate"
+    },
+    "D10": {
+      "agent": "/root/artifact_reader",
+      "condition": "candidate"
+    },
+    "D01H": {
+      "agent": "/root/repair_handoff",
+      "condition": "candidate"
+    },
+    "A01": {
+      "agent": "/root/architecture_signals",
+      "condition": "router + same core"
+    },
+    "A02": {
+      "agent": "/root/architecture_ready",
+      "condition": "router + same core"
+    },
+    "B01Raw": {
+      "agent": "/root/baseline_raw_daily",
+      "condition": "baseline named in case id"
+    },
+    "B01v1": {
+      "agent": "/root/baseline_v1_daily",
+      "condition": "baseline named in case id"
+    },
+    "B04Raw": {
+      "agent": "/root/baseline_raw_ready",
+      "condition": "baseline named in case id"
+    },
+    "B04v1": {
+      "agent": "/root/baseline_v1_ready",
+      "condition": "baseline named in case id"
+    },
+    "B01v2": {
+      "agent": "/root/baseline_v2_daily",
+      "condition": "baseline named in case id"
+    },
+    "review": {
+      "agent": "/root/independent_review",
+      "condition": "independent review"
+    },
+    "R01": {
+      "agent": "/root/refined_daily",
+      "condition": "candidate R1",
+      "core_commit": "e63653c"
+    },
+    "R04": {
+      "agent": "/root/refined_ready",
+      "condition": "candidate R1",
+      "core_commit": "e63653c"
+    },
+    "R21": {
+      "agent": "/root/grounded_daily",
+      "condition": "candidate R2",
+      "core_commit": "c67efb7"
+    },
+    "R24": {
+      "agent": "/root/grounded_ready",
+      "condition": "candidate R2",
+      "core_commit": "c67efb7"
+    }
+  },
+  "candidate_revisions": {
+    "R0": "c9189e0",
+    "R1": "e63653c",
+    "R2": "c67efb7"
+  },
+  "execution_wrapper": "Use specified skill and request file; German output; read only assigned case, appropriate skill refs and task-relevant sources; no other run/evaluation files; write only assigned local directory; no external writes or install; save response verbatim. Baselines replace skill with direct drafting, intent/v1 template or v2 carrier.",
+  "special_requests": "Special handoff/reader request.md files preserve the full semantic task; path/instrumentation wording is normalized. Followup-inputs.json preserves exact supplied scenario turns."
+}

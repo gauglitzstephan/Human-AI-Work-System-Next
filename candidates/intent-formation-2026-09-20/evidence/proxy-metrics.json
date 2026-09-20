@@ -1,0 +1,576 @@
+[
+  {
+    "case": "A01",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 489,
+        "bytes": 4232,
+        "question_marks": 0,
+        "sha256": "6fb57ebb19a1c662169e9fcad845bf7579342b13956de1b4110babd4171b3a11"
+      },
+      {
+        "file": "intent.md",
+        "words": 193,
+        "bytes": 1464,
+        "question_marks": 0,
+        "sha256": "0d90a51858a1191d0e0e4c4f600ff54b4e580342c3ffd36505dee823139ad1cb"
+      },
+      {
+        "file": "response-01.md",
+        "words": 404,
+        "bytes": 3388,
+        "question_marks": 2,
+        "sha256": "c5586f500f2a72a98aa1061c87775b18cdb0f39eaa69b79cc7e833d23e8ea106"
+      }
+    ]
+  },
+  {
+    "case": "A02",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 186,
+        "bytes": 1578,
+        "question_marks": 0,
+        "sha256": "020300702459b437fbdee436233ee86a6ff2351917683a4e177499b80df341ef"
+      },
+      {
+        "file": "response-01.md",
+        "words": 19,
+        "bytes": 236,
+        "question_marks": 0,
+        "sha256": "321020efbf9d1b607d17806843d2dcf9c0328cdf536af0da7170b9159dc9dbe2"
+      }
+    ]
+  },
+  {
+    "case": "B01Raw",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 324,
+        "bytes": 2343,
+        "question_marks": 0,
+        "sha256": "ffbb6491b75d8eb53acdf9108208aa8d0a9687e5321f0e9acee15b0e9acf8085"
+      },
+      {
+        "file": "response-01.md",
+        "words": 20,
+        "bytes": 248,
+        "question_marks": 0,
+        "sha256": "66a929e964b10f308208dbb38cf281542062aafbff75c4e4fbd03cf693780fcb"
+      }
+    ]
+  },
+  {
+    "case": "B01v1",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 2993,
+        "bytes": 22468,
+        "question_marks": 7,
+        "sha256": "231a58f84e2b6895bd6daf39e2e5a5fd2232f9242c518b41ed78611d46903091"
+      },
+      {
+        "file": "response-01.md",
+        "words": 37,
+        "bytes": 378,
+        "question_marks": 0,
+        "sha256": "dab5896506ee3fc10055512700c0b12660aa09f11faf13c5e02302159588654b"
+      }
+    ]
+  },
+  {
+    "case": "B01v2",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 520,
+        "bytes": 4147,
+        "question_marks": 2,
+        "sha256": "aec9b4736924561acba3b4481b0160edf3d689f20f0d61a5a542cb8d0faa3d01"
+      },
+      {
+        "file": "response-01.md",
+        "words": 107,
+        "bytes": 795,
+        "question_marks": 1,
+        "sha256": "325a3cb1db33ade8f0bbb5da86218a2c1455fe12545ad2619585a12055b7dfb1"
+      },
+      {
+        "file": "response-02.md",
+        "words": 99,
+        "bytes": 821,
+        "question_marks": 0,
+        "sha256": "fc3d03663c3fbf0c5a9acc48fbb6497df5540b2dcaaaa926195c81e32bdbf36c"
+      }
+    ]
+  },
+  {
+    "case": "B04Raw",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 101,
+        "bytes": 827,
+        "question_marks": 0,
+        "sha256": "a1dfc6b66697fffa5e94d428683f7903f6c5c21d06c9bea334c1d9f83671929a"
+      },
+      {
+        "file": "response-01.md",
+        "words": 9,
+        "bytes": 143,
+        "question_marks": 0,
+        "sha256": "d96d1c88b519984b3772687f3f62ab37f6a4c6b3493127bd8be6bd13d73cc14e"
+      }
+    ]
+  },
+  {
+    "case": "B04v1",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 418,
+        "bytes": 3509,
+        "question_marks": 0,
+        "sha256": "6b851626b35ac2ad984768b39b0bf28696398a8ef9072d606a5f2ba2c57155c9"
+      },
+      {
+        "file": "response-01.md",
+        "words": 11,
+        "bytes": 166,
+        "question_marks": 0,
+        "sha256": "d8d0a79f60b86b8f99df608892ba59d78560ee3df2049da29ead800cc5030982"
+      }
+    ]
+  },
+  {
+    "case": "D01",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 592,
+        "bytes": 4693,
+        "question_marks": 1,
+        "sha256": "becb157ade602ca045a78427aaf2e635a32cb9e4a457282ad35b9845c22a8ac2"
+      },
+      {
+        "file": "intent-rev1.md",
+        "words": 439,
+        "bytes": 3459,
+        "question_marks": 0,
+        "sha256": "28c4a4d542634c11fc1ef144f430ca4a882eca304fe0cf1c70480fd2cd5e7d7d"
+      },
+      {
+        "file": "intent.md",
+        "words": 527,
+        "bytes": 4194,
+        "question_marks": 0,
+        "sha256": "f729e5c53a3cfe7960b2320d03b90937aefef616202ca8e0515d3ccedde568fd"
+      },
+      {
+        "file": "response-01.md",
+        "words": 99,
+        "bytes": 833,
+        "question_marks": 0,
+        "sha256": "800752ef0ffd62575b7f770036367d0570e1346d342753336b4d03d56049bc56"
+      },
+      {
+        "file": "response-02.md",
+        "words": 113,
+        "bytes": 1135,
+        "question_marks": 0,
+        "sha256": "aace2b2d8f89ea307aec60d74c18266f42cf72810a2dc0fce07ec6685d84edd6"
+      },
+      {
+        "file": "response-03.md",
+        "words": 32,
+        "bytes": 307,
+        "question_marks": 0,
+        "sha256": "07ff2829d5e048a7344728cea400b2c738722604a4835fe3f0f2636e5f41a112"
+      }
+    ]
+  },
+  {
+    "case": "D01H",
+    "artifacts": [
+      {
+        "file": "formation-injected.md",
+        "words": 617,
+        "bytes": 4901,
+        "question_marks": 1,
+        "sha256": "29a60211d4a5a138b69db598c0f542e7ee000d9eebfe6631db12c222b4a22216"
+      },
+      {
+        "file": "formation.md",
+        "words": 855,
+        "bytes": 6897,
+        "question_marks": 0,
+        "sha256": "8a96cd5cd7d40492f4868007ba5bab6c8e156af08e3fcd5b02a9e96a83ec3b28"
+      },
+      {
+        "file": "intent-before.md",
+        "words": 527,
+        "bytes": 4194,
+        "question_marks": 0,
+        "sha256": "f729e5c53a3cfe7960b2320d03b90937aefef616202ca8e0515d3ccedde568fd"
+      },
+      {
+        "file": "intent.md",
+        "words": 696,
+        "bytes": 5503,
+        "question_marks": 0,
+        "sha256": "aedd28ba214f0436256d89dc073b46dade1d053a45bcf85ee1398ecdadfb34a6"
+      },
+      {
+        "file": "response-01.md",
+        "words": 64,
+        "bytes": 666,
+        "question_marks": 0,
+        "sha256": "588f67380ae39f8bfc5a70ecf1aa116e758bc7eda72656345250efa250733bb1"
+      }
+    ]
+  },
+  {
+    "case": "D02",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 372,
+        "bytes": 3233,
+        "question_marks": 1,
+        "sha256": "9010bfc4d892e084da054fe7ed313e24906d18b442293ca3de38de120b92494d"
+      },
+      {
+        "file": "intent.md",
+        "words": 829,
+        "bytes": 7602,
+        "question_marks": 4,
+        "sha256": "b22363f9b1a3d7aeaf8c5740c62a16666354cdae58da7842107f56a3ab21fbff"
+      },
+      {
+        "file": "response-01.md",
+        "words": 442,
+        "bytes": 4230,
+        "question_marks": 3,
+        "sha256": "c95f7453d18a2f7af0122ef5b04edb5e0f09fd8ceb91323ca7c5901b548dda28"
+      }
+    ]
+  },
+  {
+    "case": "D02H",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 372,
+        "bytes": 3233,
+        "question_marks": 1,
+        "sha256": "9010bfc4d892e084da054fe7ed313e24906d18b442293ca3de38de120b92494d"
+      },
+      {
+        "file": "intent.md",
+        "words": 829,
+        "bytes": 7602,
+        "question_marks": 4,
+        "sha256": "b22363f9b1a3d7aeaf8c5740c62a16666354cdae58da7842107f56a3ab21fbff"
+      },
+      {
+        "file": "response-01.md",
+        "words": 432,
+        "bytes": 3823,
+        "question_marks": 1,
+        "sha256": "1a544ded0423ee497dfd2c8955d1fb6e85095b61932e658bdc7f076d850f9e3c"
+      }
+    ]
+  },
+  {
+    "case": "D03",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 612,
+        "bytes": 4869,
+        "question_marks": 0,
+        "sha256": "ce828d8f096567db28a4f5329c092f020c389d63c5f38798cf916dab9a2029a6"
+      },
+      {
+        "file": "response-01.md",
+        "words": 114,
+        "bytes": 1082,
+        "question_marks": 0,
+        "sha256": "93bf482c6053bf9dc3d98d8df1ad8a1bf951191381cd6ba4a5517cb7957daf1d"
+      }
+    ]
+  },
+  {
+    "case": "D04",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 151,
+        "bytes": 1246,
+        "question_marks": 0,
+        "sha256": "90a0b2537d444b33bf0a4597e8bead4ba7dce061f6eb71d51d096587a80c0a60"
+      },
+      {
+        "file": "response-01.md",
+        "words": 22,
+        "bytes": 244,
+        "question_marks": 0,
+        "sha256": "a56ab1ce6f73cf81f2ed7fa90f7a99e7cebaba9a1a30535f593fc56aa19225da"
+      }
+    ]
+  },
+  {
+    "case": "D05",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 646,
+        "bytes": 5131,
+        "question_marks": 0,
+        "sha256": "1c7ee04176d466dbfdbaed38bae97e57ab356db78b39068345ec41b9c2f43146"
+      },
+      {
+        "file": "response-01.md",
+        "words": 99,
+        "bytes": 890,
+        "question_marks": 0,
+        "sha256": "ef50f782b057c276e1b322b976848fa8a3e62a2bf382695c7ee23b02040fd36d"
+      }
+    ]
+  },
+  {
+    "case": "D06",
+    "artifacts": [
+      {
+        "file": "intent-rev1.md",
+        "words": 288,
+        "bytes": 2423,
+        "question_marks": 0,
+        "sha256": "309c9d3b0e3d1c832b02889ecfce3a3fbbd05ff8cd00ca6d8323e40de824cc87"
+      },
+      {
+        "file": "intent.md",
+        "words": 409,
+        "bytes": 3352,
+        "question_marks": 0,
+        "sha256": "29f83e60d91f190a1b4835eadbc06ec4809d1a58a53dc2079cb06fecef788875"
+      },
+      {
+        "file": "response-01.md",
+        "words": 219,
+        "bytes": 1773,
+        "question_marks": 2,
+        "sha256": "39ac10add59057ff4eb8a65bab5fa19d63f383080965d19e983fe40aacb3fe0e"
+      },
+      {
+        "file": "response-02.md",
+        "words": 100,
+        "bytes": 934,
+        "question_marks": 0,
+        "sha256": "14bc9f77748761526a3c19a6c162b1d9f1bb99bc961305f27533345346ec05da"
+      }
+    ]
+  },
+  {
+    "case": "D07",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 361,
+        "bytes": 2998,
+        "question_marks": 0,
+        "sha256": "b55bae02cdfbd29b8e9b9ce559aaf3c86dae9fa378bb412b1225fa1790a9ec2b"
+      },
+      {
+        "file": "intent.md",
+        "words": 316,
+        "bytes": 2543,
+        "question_marks": 1,
+        "sha256": "8d88db7555cba386d4911dd95d936898c05cfc3d72e403e48053c2d711790e7c"
+      },
+      {
+        "file": "response-01.md",
+        "words": 292,
+        "bytes": 2433,
+        "question_marks": 1,
+        "sha256": "ca79d8ea4ab2ca96edfc7cd19747f93adfb19c4531b17762d8ba90f599cf5fc0"
+      }
+    ]
+  },
+  {
+    "case": "D08",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 345,
+        "bytes": 2906,
+        "question_marks": 0,
+        "sha256": "b91e00e8012a3c697f0324ad699a5174b41e187383bac57ed4b45fbd09004af7"
+      },
+      {
+        "file": "intent-rev1.md",
+        "words": 369,
+        "bytes": 3055,
+        "question_marks": 1,
+        "sha256": "dae1375f0f5910a5c31805631ebfb5a7f2bd98974ea33773e68931598b0a91e5"
+      },
+      {
+        "file": "intent.md",
+        "words": 381,
+        "bytes": 3177,
+        "question_marks": 0,
+        "sha256": "3bd52c6a8ae86c799a2d6f9d55c1ca4de48d77552b191e669a7fbb8ebba29123"
+      },
+      {
+        "file": "response-01.md",
+        "words": 114,
+        "bytes": 1091,
+        "question_marks": 1,
+        "sha256": "6dd6d34e004b6e9e54bff850c0a890cf3426601a358aba9cd3e7379fc2554590"
+      },
+      {
+        "file": "response-02.md",
+        "words": 72,
+        "bytes": 904,
+        "question_marks": 0,
+        "sha256": "73bb1675ec02be63368e8b667443fa1686dccb3e02467aad4db6153839dbb0d0"
+      }
+    ]
+  },
+  {
+    "case": "D09",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 425,
+        "bytes": 3669,
+        "question_marks": 0,
+        "sha256": "276e498ad55a137ad7a9183ccae569a50ae06409850da0efb3cd93f362fbbe3a"
+      },
+      {
+        "file": "response-01.md",
+        "words": 44,
+        "bytes": 420,
+        "question_marks": 0,
+        "sha256": "88ad7247feb879da34238c2f5bf7bf6e8ece7333fa78dbf64f275d1151ae617d"
+      }
+    ]
+  },
+  {
+    "case": "D10",
+    "artifacts": [
+      {
+        "file": "reader-response.md",
+        "words": 1623,
+        "bytes": 14018,
+        "question_marks": 5,
+        "sha256": "4d99daea089b154fdfac3505994536ab5e06dc0b853450af681b40b80afd0fb5"
+      }
+    ]
+  },
+  {
+    "case": "R01",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 379,
+        "bytes": 2955,
+        "question_marks": 0,
+        "sha256": "682d698166c95d6ab83ff5a1ca6903acfd21783c30fcdfba5ff2ad96d73e5263"
+      },
+      {
+        "file": "response-01.md",
+        "words": 63,
+        "bytes": 576,
+        "question_marks": 0,
+        "sha256": "c791566a4b42a675913f1ce655114e2b480e01764f3be3102b35de973586a7dd"
+      }
+    ]
+  },
+  {
+    "case": "R04",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 150,
+        "bytes": 1228,
+        "question_marks": 0,
+        "sha256": "bd59213a2f562912eb0129f0160383666cd77f617c68cb3302a1437d24bb59a4"
+      },
+      {
+        "file": "response-01.md",
+        "words": 16,
+        "bytes": 192,
+        "question_marks": 0,
+        "sha256": "88967d6ebcb2127b70865625f81d2dd4b2b50cfa18cb41528bb76c9b86d83caf"
+      }
+    ]
+  },
+  {
+    "case": "R21",
+    "artifacts": [
+      {
+        "file": "formation.md",
+        "words": 136,
+        "bytes": 1199,
+        "question_marks": 0,
+        "sha256": "4f45578de218739381834e86e31fe40be0e7bde187f1b120cbc321e62c372276"
+      },
+      {
+        "file": "intent-rev1.md",
+        "words": 329,
+        "bytes": 2549,
+        "question_marks": 1,
+        "sha256": "5e8fcf20eb6536998fc18f8e5e19055fd64dc82244f9a3e3e8f60a1d5351f3ee"
+      },
+      {
+        "file": "intent.md",
+        "words": 409,
+        "bytes": 3278,
+        "question_marks": 0,
+        "sha256": "fbb61c71fe35017ea527bd3214320b4f4919525d7bfac2c37ae711aad08be004"
+      },
+      {
+        "file": "response-01.md",
+        "words": 106,
+        "bytes": 842,
+        "question_marks": 1,
+        "sha256": "aeb2a0908ee6e55edc82f86c893f80b1884dc6cc6f361118249eab55b7b18996"
+      },
+      {
+        "file": "response-02.md",
+        "words": 94,
+        "bytes": 873,
+        "question_marks": 0,
+        "sha256": "7e7dfa331596223b9e6ecaa9e5bd4cd8c757c83e1a9c9490b04fff27e765a413"
+      }
+    ]
+  },
+  {
+    "case": "R24",
+    "artifacts": [
+      {
+        "file": "intent.md",
+        "words": 155,
+        "bytes": 1314,
+        "question_marks": 0,
+        "sha256": "631817a2e85e7e12c295621a8710b66b93975daa6bd4e0d008064a27fdfc62d8"
+      },
+      {
+        "file": "response-01.md",
+        "words": 22,
+        "bytes": 242,
+        "question_marks": 0,
+        "sha256": "42bff734cd7a5091da283928113b6d02ede3d29570c8682b8dc885d79ff5bf53"
+      }
+    ]
+  },
+  {
+    "case": "review",
+    "artifacts": []
+  }
+]

@@ -1,0 +1,1 @@
+Deine ausdrückliche Annahme von **Revision 2** ist mit dem Wortlaut „Ich nehme Revision 2 des Intents ausdrücklich an.“ in [intent.md](sandbox:/workspace/scratch/54beb5477391/formation-runs/D01/intent.md) und im Arbeitsstand vermerkt. Der Inhalt bleibt unverändert. Folgearbeit wurde nicht begonnen.

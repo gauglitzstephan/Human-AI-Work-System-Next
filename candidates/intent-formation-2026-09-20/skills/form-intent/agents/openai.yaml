@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intent Formation"
+  short_description: "Rohe Anliegen zu tragfähigen Intents entwickeln"
+  default_prompt: "Nutze $form-intent, um mein Anliegen zu einem qualifizierten intent.md zu entwickeln."

@@ -1,0 +1,51 @@
+{
+  "library_sources": [
+    {
+      "name": "intent_v1(1).md",
+      "library_id": "libfile_96095373baf4819184a9be52d836c731",
+      "version": "1",
+      "download_url": "https://chatgpt.com/api/library/files/libfile_96095373baf4819184a9be52d836c731/download",
+      "sha256": "b34bb7736b523d812911c55b412549181d049b0cb68dc50b9f38a22d2ccbbca3"
+    },
+    {
+      "name": "Framing_v0.1.4_Audit_Evidence_2026-09-17.md",
+      "library_id": "libfile_89115a6058788191bbfd7bc79f01fd77",
+      "version": "1",
+      "download_url": "https://chatgpt.com/api/library/files/libfile_89115a6058788191bbfd7bc79f01fd77/download",
+      "sha256": "eb57b2c7c9dba081061ce68ad73c7bbce8a167e5f112c7c50cece206f7db832f"
+    },
+    {
+      "name": "Framing_v0.1.4_Mechanism_Architecture_Audit_2026-09-17.md",
+      "library_id": "libfile_aa0963521c688191a531fee964fdb432",
+      "version": "1",
+      "download_url": "https://chatgpt.com/api/library/files/libfile_aa0963521c688191a531fee964fdb432/download",
+      "sha256": "c7f5fa871d9674a58cabd0dbf0ad0371176ac2f3e4d158309c2d731a8b9de46a"
+    },
+    {
+      "name": "intent_v1.md",
+      "library_id": "libfile_0427b711c174819192f0a2de77cf2c38",
+      "version": "0",
+      "download_url": "https://chatgpt.com/api/library/files/libfile_0427b711c174819192f0a2de77cf2c38/download",
+      "sha256": "a75ef992ced1340d7d3bfc20f2c32bc24eec49bec2189808f5c260f0546f82ef"
+    },
+    {
+      "name": "intent-outcome-clarification-architecture-v1.md",
+      "library_id": "libfile_cb67c93ca8348191aedc768779428823",
+      "version": "0",
+      "download_url": "https://chatgpt.com/api/library/files/libfile_cb67c93ca8348191aedc768779428823/download",
+      "sha256": "003ebd8fa84db42366d2b2a59d4adadb8ca5d1181ec6dbe470057eeef4b7af6d"
+    },
+    {
+      "name": "intent-formation-runtime-eval-v2-reference.zip",
+      "library_id": "libfile_07e28e64d3b08191ab3a7f961b649e68",
+      "version": "0",
+      "download_url": "https://chatgpt.com/api/library/files/libfile_07e28e64d3b08191ab3a7f961b649e68/download",
+      "sha256": "4be3d8a454523ff733af6c7c2e5d3243d625f6314e5f6a4592373e40f3795262"
+    }
+  ],
+  "canonical_system_commit": "6a2597431f6c7acf13577139af9d95b2dc30a6a9",
+  "canonical_system_url": "https://github.com/gauglitzstephan/Human-AI-Work-System-Next/tree/6a2597431f6c7acf13577139af9d95b2dc30a6a9",
+  "readme": "README.md",
+  "authority": "CURRENT.md",
+  "registry": "skills/REGISTRY.md"
+}

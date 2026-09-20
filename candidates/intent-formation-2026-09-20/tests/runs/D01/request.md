@@ -1,0 +1,1 @@
+Ich verliere im Alltag kleine Aufgaben, Gedanken und Follow-ups. Ich möchte Dinge schnell festhalten und später verlässlich sehen, was noch offen ist. Eine einfache persönliche Anwendung könnte helfen, aber ich will die Lösung noch nicht festlegen. Entwickle daraus einen Intent. Keine Spezifikation oder Umsetzung.

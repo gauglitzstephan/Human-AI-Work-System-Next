@@ -1,0 +1,1 @@
+Ich komme zu meinem DGUV-Prüforganisationsvorhaben zurück. intent.md und formation.md sind der gesicherte aktuelle Arbeitsstand. Wo stehen wir, was ist geklärt, was muss ich entscheiden, und was wäre danach noch offen? Es gibt noch keine neue Entscheidung von mir. Lies nur diese beiden Dateien und bei Bedarf passende Skill-Referenzen oder die darin genannten öffentlichen Quellen.

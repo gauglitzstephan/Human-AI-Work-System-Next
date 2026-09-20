@@ -1,0 +1,5 @@
+f3ecf5e1ee2b0b4a2d2cb1223c2f5f86d87d2a91 2026-09-20T13:43:15+05:30 Record reference-first research and existing-system evidence before design
+c9189e036203d331baca8c758132bc1882a1f364 2026-09-20T13:50:31+05:30 Add isolated intent formation candidate and predeclared behavioral evaluation
+1fda2aaf68a2cb9ab658c17e2a53e141d5921dea 2026-09-20T14:02:05+05:30 Document domain, quality, UX, boundaries and reversible handover
+e63653ca3f69b9312bb407fd2b9c08ed583b17f0 2026-09-20T14:08:10+05:30 Clarify outcome ambiguity before qualification from observed comparison
+c67efb7c069c3d36a1e721602598aefd5af86e7d 2026-09-20T14:10:43+05:30 Require a material inquiry for ungrounded symptom-only problem statements

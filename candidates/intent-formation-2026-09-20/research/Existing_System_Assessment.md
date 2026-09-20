@@ -4,6 +4,8 @@
 
 Der Auftrag ist Entwicklung eines Kandidaten, nicht dessen Aktivierung. Geprüft wurden der bereitgestellte Work Contract, die zugänglichen Library-Artefakte, der aktuelle persönliche Skill-Checkout und die einschlägigen privaten Repositories. `evidence/baseline-manifest.json` hält Pfade, Größen und SHA-256 der lokal gesicherten Quellen fest. Die folgenden Aussagen unterscheiden aktuellen Quellstand, historischen Audit und tatsächlich beobachtete Nutzung.
 
+Konkrete Herkunftslinks und Dateiversionen sind im [Quellenindex](../evidence/source-locations.json) gesichert. Repository-Basis ist [Human-AI-Work-System-Next, geprüfter Stand](https://github.com/gauglitzstephan/Human-AI-Work-System-Next/tree/6a2597431f6c7acf13577139af9d95b2dc30a6a9), insbesondere `CURRENT.md` und `skills/REGISTRY.md`. Der später angelegte isolierte Kandidatenbranch verändert diese Basis nicht.
+
 | Quelle | Feststellung | Belastbarkeit / Konsequenz |
 |---|---|---|
 | `intent_v1.md` | Universaltemplate mit umfangreichen Metadaten und etwa 17 Inhaltsbereichen; umfasst Outcome, Evidenz, Alternativen und Unknowns, aber auch Requirements Elasticity, Delegation, Holdouts, Telemetrie und Downstream-Verknüpfung. | Quellartefakt tatsächlich gelesen. Semantik erhalten, nicht als Pflichtformular übernehmen. |

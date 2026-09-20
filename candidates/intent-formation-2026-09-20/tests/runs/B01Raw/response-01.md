@@ -1,0 +1,1 @@
+Der [Intent](sandbox:/workspace/scratch/54beb5477391/formation-runs/B01Raw/intent.md) ist ausgearbeitet. Er beschreibt das Alltagsproblem, den gewünschten Nutzen und erkennbare Erfolgssignale. Lösungsform, Funktionen und Umsetzung bleiben offen.
