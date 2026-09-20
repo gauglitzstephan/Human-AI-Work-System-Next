@@ -54,7 +54,7 @@ Dies ist ein Verhaltenskatalog, keine Behauptung universeller Absicherung. „Ni
 
 ## Verbleibende Aussagegrenzen
 
-1. Die Läufe sind instruktionsbasierte Agent-Ausführungen in der verfügbaren Work-Runtime. Keine Installation, keine implizite Skill-Discovery, kein UI-Nutzertest und keine produktive Downstream-Ausführung.
+1. Die ursprünglichen Entwicklungsläufe sind instruktionsbasierte Agent-Ausführungen und belegen selbst keine Installation, implizite Auswahl oder menschliche Nutzung. Nach gesonderter Freigabe kamen [Installation und vier tatsächliche Work-Chats](../handover/Installation_Verification_2026-09-20.md) hinzu. Eine menschliche Gebrauchstauglichkeitsprüfung und produktive Downstream-Ausführung bleiben offen.
 2. Thread-Kontexte waren frisch, das Dateisystem gemeinsam. Lesegrenzen waren instruierte Isolation, keine technische Sicherheitsbarriere. Keine beobachtete Nutzung anderer Testausgaben; vollständige native Tool-Traces wurden nicht exportiert.
 3. Kleine Fallzahl, gleiche Modellfamilie, keine Randomisierung oder statistische Effektschätzung. Wortzahlen sind exakt reproduzierbare Proxies, keine gemessene kognitive Last. Ein Lauf pro Bedingung begründet keine allgemeine Architekturüberlegenheit.
 4. T15 ist ein aufgabenbasierter AI-Reviewer-Proxy. Kein Mensch wurde als Reviewer ausgegeben. Menschliche Verständlichkeit, Präferenzwirkung und Owner-Akzeptanz bleiben zu bestätigen.

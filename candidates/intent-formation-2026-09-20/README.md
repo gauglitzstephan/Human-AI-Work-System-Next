@@ -1,6 +1,6 @@
 # AI-Native Intent Formation — Kandidat R3 vom 20.09.2026
 
-**Kandidat vorbereitet und geprüft; nicht installiert, nicht gemergt.** Bestehendes Framing bleibt unverändert. Gebaut wurde `form-intent`: ein dedizierter Einstieg mit optionalen Methoden, getrenntem Working State und lesbarem Intent. Er endet vor Specification und Planning.
+**R3 nach separater Nutzerfreigabe installiert und in vier neuen Work-Chats getestet; kein Merge.** [Installations- und Laufnachweis](handover/Installation_Verification_2026-09-20.md). Bestehendes Framing bleibt unverändert. Gebaut wurde `form-intent`: ein dedizierter Einstieg mit optionalen Methoden, getrenntem Working State und lesbarem Intent. Er endet vor Specification und Planning.
 
 R3 präzisiert die Qualifikation an der Grenze zur nachfolgenden Arbeit, unterscheidet Beobachtung, Deutung und gewünschte Wirkung und verbessert die Lesefläche. Acht neue Formation-/Fortsetzungsläufe und ein isolierter Leser-Test ergänzen die historische Evidenz. Die frühere pauschale Fertig-/Abnahmeaussage gilt nicht fort. Der originale R21-Status wurde anhand seiner tatsächlichen synthetischen Nachlieferung unabhängig als tragfähig beurteilt; daraus wird keine allgemeine Discovery-Fähigkeit abgeleitet. Menschliche Eignung und produktive Aktivierung bleiben gesondert.
 

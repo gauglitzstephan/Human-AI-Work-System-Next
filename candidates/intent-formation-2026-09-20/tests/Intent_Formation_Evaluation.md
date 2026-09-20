@@ -1,5 +1,7 @@
 # Intent Formation Evaluation — R3
 
+**Nachtrag zum Betriebsstand:** Die folgende Entwicklungsprüfung entstand vor Installation. Anschließend autorisierte der Nutzer Installation und Test; [Installation und vier neue Work-Chats](../handover/Installation_Verification_2026-09-20.md) sind separat belegt. Die dortigen Nachweise erweitern die konkrete Betriebsprüfung, nicht die allgemeine Qualitätsaussage dieser Evaluation.
+
 **Stand:** 20.09.2026. Gezielte Reparatur des Qualifikationsmechanismus und der Lesefläche; acht neue Formation-/Fortsetzungsfälle sowie ein Leser-Test. Der unabhängige Rohverlauf-Review findet in diesen acht Fällen keinen sicher belegten materiellen Fehler; begrenzte Schwächen bleiben dokumentiert. Keine Installation, kein Merge, keine vollständige menschliche Eignungs- oder Betriebsaussage.
 
 ## Maßstab und korrigierter Ausgangsbefund

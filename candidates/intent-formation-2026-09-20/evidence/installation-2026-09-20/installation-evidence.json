@@ -1,0 +1,42 @@
+{
+  "remote_commit": "a68cc192811a231e98695180120c5dffd6bbf3ba",
+  "installed_folder": "skill-6aafd04c456481919402bea400007c92",
+  "local_path": "/root/.codex/skills/remote-skills/skill-6aafd04c456481919402bea400007c92",
+  "exact_source_files": [
+    "SKILL.md",
+    "references/selection.md",
+    "references/boundary.md",
+    "references/inquiry.md",
+    "references/state-and-artifact.md",
+    "assets/intent-short.md",
+    "assets/intent-expanded.md"
+  ],
+  "platform_normalization": {
+    "original_interface_values_preserved": true,
+    "policy": {
+      "products": [
+        "chatgpt",
+        "codex",
+        "api",
+        "atlas"
+      ],
+      "allow_implicit_invocation": true
+    },
+    "default_icon_added": "assets/icon.svg"
+  },
+  "prior_tracked_paths_unchanged": 48,
+  "prior_untracked_paths_unchanged": 2,
+  "candidate_commit": "b92e3df137c82b3e7f9b5b187708393ac695d3e2",
+  "installed_sha256": {
+    "SKILL.md": "c83a42476f383890867d26edd6b0430f356fcf9b83b37820691ecade97cf8d0b",
+    "references/state-and-artifact.md": "bf1e6b2c689f15d6c032aa1c201e6fb31c7fbe07387bb03ed4c07b37035bd03b",
+    "references/selection.md": "4b4ff61469ae84eedaa1b5ba01f48d6e759851ff96b24b39c9967dfb900da35d",
+    "references/inquiry.md": "65d2faed2ea882f00fe56fa868f611f70c9a9f24c848d2dc75b156e7ffaf726c",
+    "references/boundary.md": "bf0d1be1487aa76ddb18d1f1fbd54c7c382647742f95825e05bf99d84f21289e",
+    "assets/intent-short.md": "9ddce09b39651a6bb2c26b642fb39c0e4848cb2121b9d0068e4c4aaaba71f2c9",
+    "assets/intent-expanded.md": "92033d775decc5d363496083170e8002e1f9774de9aa0b8351a8296fceffae17",
+    "assets/icon.svg": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+    "agents/openai.yaml": "02f8901fe3644a73d09dc1c8d6ee521404ffdcf3ef98db4673d1c100f04aae1d"
+  },
+  "detail_url": "https://chatgpt.com/skills?skill_id=6aafd04c456481919402bea400007c92"
+}

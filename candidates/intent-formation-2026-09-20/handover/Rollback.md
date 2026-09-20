@@ -1,8 +1,8 @@
 # Rollback
 
-Aktuell gibt es keine Installation zurückzunehmen. Der isolierte Kandidat kann unverändert als Evidenz erhalten bleiben; bestehende aktive Skills, kanonische Templates und Nutzer-Intents wurden nicht verändert.
+Seit 20.09.2026 ist `form-intent` nach ausdrücklicher Nutzerfreigabe neu installiert. Der [Installationsnachweis](Installation_Verification_2026-09-20.md) beschreibt den genauen Stand. Zuvor vorhandene Skills und kanonische Templates wurden nicht ersetzt oder deaktiviert.
 
-## Falls der Kandidat später installiert wird
+## Rücknahme der erfolgten Neuinstallation
 
 1. Weitere Nutzung des neuen `form-intent` stoppen. Den tatsächlichen installierten Ordner über seinen Frontmatter-Namen identifizieren; nicht auf einen alten generierten Pfad vertrauen.
 2. Nur die in der Installationsfreigabe dokumentierte Änderung mit dem vorgesehenen Skill-Verfahren deaktivieren oder zurücknehmen. Ist es eine Neuinstallation, diese entfernen/deaktivieren; wurde nach gesonderter Freigabe ein bestehender Skill ersetzt, exakt dessen gesicherte vorige Revision wiederherstellen. Keine parallelen Änderungen anderer Skills rückgängig machen.

@@ -1,13 +1,13 @@
 {
-  "release": "R3-2026-09-20",
+  "release": "R3-2026-09-20-installed",
   "core_local_commit": "0cbdb91",
   "base_system_commit": "6a2597431f6c7acf13577139af9d95b2dc30a6a9",
-  "installed": false,
+  "installed": true,
   "files": [
     {
       "path": "README.md",
-      "bytes": 4579,
-      "sha256": "4ce5f1b64f554a9f0c073b1e4b524f08213cabed52eaaa5e5ffb69505817da99"
+      "bytes": 4691,
+      "sha256": "0177bf9ffab20a7863176ba36b26585225ee8d1785a4a7e5846f143fbcfe633a"
     },
     {
       "path": "design/Intent_Artifact_Information_Architecture.md",
@@ -120,6 +120,26 @@
       "sha256": "862b65a867d06f6bb6d8e886d417ae5052f38e6e772120c7c790dc5f57622acb"
     },
     {
+      "path": "evidence/installation-2026-09-20/Installationstest_Materialausleihe_intent.md",
+      "bytes": 5072,
+      "sha256": "64ba24b33b6d155d36c8c5f488feeec43cb09ff1abbd7771bc818f08f5d85fed"
+    },
+    {
+      "path": "evidence/installation-2026-09-20/Installationstest_Museumszeiten_intent.md",
+      "bytes": 4653,
+      "sha256": "f180a5f88bfbfa67ece7e96b543ccb45c22100342267426032da27ff85a6389c"
+    },
+    {
+      "path": "evidence/installation-2026-09-20/installation-evidence.json",
+      "bytes": 1879,
+      "sha256": "6de6be1fe1b5f01b948cde8515bf2c50967e33bece6983b1c8e37be337290555"
+    },
+    {
+      "path": "evidence/installation-2026-09-20/runtime-evidence.json",
+      "bytes": 26181,
+      "sha256": "9fadac77657a5520c80677bc69f996eed5285f92fe076c696f18970b0e45c886"
+    },
+    {
       "path": "evidence/local-development-log.txt",
       "bytes": 699,
       "sha256": "b9af10645e07489287cbee41567bdafca4693d67549293286351ebc90d5ccade"
@@ -201,8 +221,13 @@
     },
     {
       "path": "handover/Installation.md",
-      "bytes": 3819,
-      "sha256": "b3317350bda0064126c502bcf43a12001f380668e24e3e2b6f9331042f28bd85"
+      "bytes": 4141,
+      "sha256": "2523d1f0f2b34b1fcc50fbe97533896740cc4cfd0a2c98216083b40112214e73"
+    },
+    {
+      "path": "handover/Installation_Verification_2026-09-20.md",
+      "bytes": 5378,
+      "sha256": "d8dd39426e0886329b94f889ef527e9025c646302f599e85aed8f25a5a74cb35"
     },
     {
       "path": "handover/Migration_and_Compatibility.md",
@@ -211,8 +236,8 @@
     },
     {
       "path": "handover/Rollback.md",
-      "bytes": 1869,
-      "sha256": "0f1e1257fc39228939c5a5a06c5133f7984615de2dea82681a8165ae50257b01"
+      "bytes": 1926,
+      "sha256": "91258dc11aee0cb85fcb6d41bd13ce416ac84bbca2accc8e3eb65d676e001bd0"
     },
     {
       "path": "research/Existing_System_Assessment.md",
@@ -281,13 +306,13 @@
     },
     {
       "path": "tests/Failure_Modes_and_Known_Limitations.md",
-      "bytes": 8602,
-      "sha256": "d1f367ebf1f52ef3eba01ed36e300cc981a81ce2b64b9502611fb7a21c1630f9"
+      "bytes": 8804,
+      "sha256": "db8319339592703dc8eb9a5deb81365c6fcfbd70e53bbe10d0dec6756cf2d189"
     },
     {
       "path": "tests/Intent_Formation_Evaluation.md",
-      "bytes": 10720,
-      "sha256": "0a01024f6201a1946a1a2ac9d621db8a4e45a5111151dc2f4d92a967896b4f45"
+      "bytes": 11111,
+      "sha256": "594f95b269b57e2f21bca4f23a7329b1990e20fbe12509ffc7153b35a730fcb9"
     },
     {
       "path": "tests/Intent_Formation_Test_Plan.md",
@@ -1055,5 +1080,6 @@
       "sha256": "1942a38a6ddc60f829bf998eeb961a4cce989ff03d1b370322c5d25ac4e13621"
     }
   ],
-  "manifest_excludes_itself": true
+  "manifest_excludes_itself": true,
+  "installation_record": "handover/Installation_Verification_2026-09-20.md"
 }
