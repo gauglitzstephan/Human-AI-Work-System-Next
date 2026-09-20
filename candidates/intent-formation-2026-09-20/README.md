@@ -1,4 +1,8 @@
-# AI-Native Intent Formation — Kandidat R3 vom 20.09.2026
+# AI-Native Intent Formation — Reparaturkandidat vom 20.09.2026
+
+**Aktueller Stand: Korrektur der Inhaltsauswahl und Intent-Vorlagen; nicht installiert.** Geändert sind `SKILL.md`, `references/state-and-artifact.md` und die beiden Vorlagen. Der [anwendbare Patch](evidence/readability-repair-2026-09-20/form-intent.patch) enthält nur diese vier Dateien. Die folgenden R3-Nachweise einschließlich des bisherigen Release-Manifests dokumentieren den historischen Stand und belegen nicht die Installation dieser Korrektur.
+
+## Historischer Stand R3
 
 **R3 nach separater Nutzerfreigabe installiert und in vier neuen Work-Chats getestet; kein Merge.** [Installations- und Laufnachweis](handover/Installation_Verification_2026-09-20.md). Bestehendes Framing bleibt unverändert. Gebaut wurde `form-intent`: ein dedizierter Einstieg mit optionalen Methoden, getrenntem Working State und lesbarem Intent. Er endet vor Specification und Planning.
 

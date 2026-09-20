@@ -4,24 +4,18 @@
 
 **[Everyday status and concrete reason; any material framing blocker.]**
 
-## Situation and affected people
-[Enough context, current evidence and roles to interpret the problem boundary.]
+## Starting situation
+[The relevant observation and context. Include affected roles and a local source/qualification when they change the interpretation.]
 
-## Boundaries and human decisions
-[Material scope, non-scope, real constraints, adopted choices and rationale.]
+## Intended result and use
+[What should change or become known, and what that enables for the person. Make the connection to the purpose explicit.]
 
-## Evidence and framing
-[Key sources, current explanation, material alternatives kept open or ruled out with reason; separate AI interpretation.]
+## What makes the result useful
+[Only distinct criteria or trade-offs needed beyond the result above. Omit if already clear there. Preserve domain substance without explaining whole frameworks.]
 
-## Open facts and human judgments
-[Unknown/undecided and impact: which blocks framing, which belongs to later work and why. No invented completeness.]
+## Boundaries and open choices
+[Fixed scope/constraints and the consequential unresolved distinction, with its effect. Distinguish a framing blocker from what the intended investigation will discover. Do not copy the working question inventory.]
 
-## Recognizing success
-[Outcome meaning and guardrails.]
-
-## Validity
-[Only when material: expiry/reopen conditions and time-sensitive assumptions.]
-
-[Add economics/taste/affected-party detail only if needed; omit empty sections and all instructional brackets.]
+[Use work-specific headings. Add a separate section only for a distinct reader need, such as conflicting affected-party interests or a time-sensitive limit. Place material attribution next to the claim; link formation state for sources and reasoning. Omit empty sections and all instructional brackets.]
 
 [ID] · Revision [n] · [technical readiness] · Owner [if known] · [Acceptance of this version: not recorded / explicit source]

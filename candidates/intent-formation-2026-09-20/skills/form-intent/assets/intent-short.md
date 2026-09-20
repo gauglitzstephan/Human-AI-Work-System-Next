@@ -1,16 +1,13 @@
 # [Meaningful title]
 
-[Problem/opportunity, current context, affected people, desired effect and why it matters.]
+[What the person wants to change or learn, for whom and why. Include the specific current situation needed to understand it.]
 
 **[Everyday status and concrete reason; any material framing blocker.]**
 
-## Boundaries and decisions
-[Material in/out, constraints and human choices; distinguish proposed means.]
+## Desired result
+[The useful result and how it serves the purpose. Include the meaning of success here; do not repeat the opening.]
 
-## Grounding and open points
-[Material sources and AI interpretations. If needed: what remains unresolved, why it blocks or can wait for later work, and what would reopen this intent. Omit empty distinctions.]
-
-## Recognizing success
-[Observable useful change and material adverse effects to avoid; no feature requirements.]
+## Limits and unresolved choices
+[Only the limits or unresolved distinctions that change how this work is understood. Preserve a binding choice; distinguish a suggestion. Omit this heading if there is nothing material to add. Attribute a consequential claim where it appears; link supporting state if needed.]
 
 [ID] · Revision [n] · [technical readiness] · Owner [if known] · [Acceptance of this version: not recorded / explicit source]

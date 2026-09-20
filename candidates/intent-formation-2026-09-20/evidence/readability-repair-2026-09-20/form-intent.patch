@@ -1,0 +1,161 @@
+diff --git a/candidates/intent-formation-2026-09-20/skills/form-intent/SKILL.md b/candidates/intent-formation-2026-09-20/skills/form-intent/SKILL.md
+index e0f6455..1b6ea03 100644
+--- a/candidates/intent-formation-2026-09-20/skills/form-intent/SKILL.md
++++ b/candidates/intent-formation-2026-09-20/skills/form-intent/SKILL.md
+@@ -41,7 +41,7 @@ Give a short orientation when the user returns, asks for it or the frame changes
+ 
+ ## Qualify, render and stop
+ 
+-Before finalizing, check the semantic contract in [state-and-artifact.md](references/state-and-artifact.md). The assets provide short and expanded surfaces of the same model, not mandatory forms. Include only what future readers need. Move research history, discarded variants and orchestration detail to state or sources.
++Before drafting the artifact, use the selection and composition procedure in [state-and-artifact.md](references/state-and-artifact.md). Establish the connection between the human purpose, the current situation and the intended change or learning; then select what a reader needs to understand or correct that connection. Do not summarize the conversation section by section. The assets are optional reading surfaces, not coverage checklists; the depth of inquiry does not determine the length of the intent.
+ 
+ Before calling a draft qualified, check whether an unresolved phrase permits materially different intended benefits: a different beneficiary, occasion, kind of change or meaning of success. Resolve that distinction with available evidence or one focused question. A broad common denominator is not enough to classify an outcome ambiguity as a downstream solution detail. Do not reopen distinctions already settled by the input.
+ 
+@@ -49,7 +49,7 @@ For an open problem described only as loss, delay, unreliability or dissatisfact
+ 
+ Read [boundary.md](references/boundary.md) before closing an open formation or when assigning unresolved questions to later work. For each material uncertainty, determine what plausible answers would change: the purpose/beneficiaries/outcome/boundary now, the later solution or execution, or the answer to an explicitly intended investigation. Resolve a current framing blocker, or keep it visibly blocking. Carry a later question with the reason it can remain open and, when material, what finding would reopen the intent. Neither an answered question nor “the solution stays open” is a qualification argument.
+ 
+-Make the closing rationale inspectable in ordinary language: which evidence or decision supports this framing, why further formation has low expected value now, and what remains for later work. A short reason suffices in a clear case; do not narrate a checklist. Do not claim that no future discovery could change the intent.
++Make the readiness reason inspectable in ordinary language. In the intent, state the specific blocker or the evidence/decision that makes the purpose clear. Keep the fuller inquiry/stop rationale and allocation of later questions in formation state when needed for continuation. Do not repeat this reasoning as a closing section or claim that future discovery cannot change the intent.
+ 
+ Check separately: (1) professional intent quality, (2) adequacy of inquiry, (3) interaction cost and agency, (4) artifact readability/correctability, (5) downstream meaning and boundary. Fix a material weakness; do not compensate it with strengths elsewhere or calculate an aggregate score.
+ 
+@@ -63,8 +63,8 @@ Assign a reasoned readiness:
+ 
+ Keep a draft explicitly tentative if mid-inquiry; never label it qualified simply because sections are populated. A reuse or no-action decision can close the original build idea; record which goal remains valid. Do not use sunk effort as a reason to continue.
+ 
+-Put a meaningful title and human-readable purpose first, followed by a brief everyday status and reason. Keep technical status/revision information secondary. Give each material statement one clear home instead of repeating it in purpose, boundaries, success and closure. Name acceptance unambiguously (German: “Akzeptanz dieser Fassung”); avoid skill names and internal routing labels in ordinary replies. Keep material provenance and unknowns visible. For time-sensitive work include the condition that would invalidate or reopen it. Read [inquiry.md](references/inquiry.md) for risk/affected-party handling.
++Put a meaningful title and human-readable purpose first, followed by a brief everyday status and reason. Organize the body around this particular work; separate the desired result from the larger ambition it serves. Integrate the meaning of success with the result unless it adds a genuinely distinct criterion. Give each material statement one clear home and each paragraph or bullet a point the owner can correct independently. Keep technical status/revision information secondary. Name acceptance unambiguously (German: “Akzeptanz dieser Fassung”); avoid skill names and internal routing labels in ordinary replies. Keep consequential provenance and unknowns visible through local attribution or a precise source link, not a research register. For time-sensitive work include the condition that would invalidate or reopen it. Read [inquiry.md](references/inquiry.md) for risk/affected-party handling.
+ 
+ Persist the actual `intent.md` using the user’s established file location and saving facilities. Verify that the saved file contains the intended version. Record acceptance only from an explicit human statement referring unambiguously to that version; silence, prior approval of the idea, or your own quality review is not acceptance. If a material edit follows acceptance, retain the prior acceptance as history and mark the new revision unaccepted. Do not demand ceremonial approval for each drafting step.
+ 
+-End with readiness, the material open issue if any, and the artifact. Explain why formation can stop. Do not automatically offer or perform specification/planning as the next phase. A later explicit downstream request is a separate assignment governed by its own authority and tools.
++Present the artifact as the main result. Add only the material clarification or status information not already apparent from it; do not surround it with another full summary. Do not automatically offer or perform specification/planning as the next phase. A later explicit downstream request is a separate assignment governed by its own authority and tools.
+diff --git a/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-expanded.md b/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-expanded.md
+index bb2ae67..9ce216b 100644
+--- a/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-expanded.md
++++ b/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-expanded.md
+@@ -4,24 +4,18 @@
+ 
+ **[Everyday status and concrete reason; any material framing blocker.]**
+ 
+-## Situation and affected people
+-[Enough context, current evidence and roles to interpret the problem boundary.]
++## Starting situation
++[The relevant observation and context. Include affected roles and a local source/qualification when they change the interpretation.]
+ 
+-## Boundaries and human decisions
+-[Material scope, non-scope, real constraints, adopted choices and rationale.]
++## Intended result and use
++[What should change or become known, and what that enables for the person. Make the connection to the purpose explicit.]
+ 
+-## Evidence and framing
+-[Key sources, current explanation, material alternatives kept open or ruled out with reason; separate AI interpretation.]
++## What makes the result useful
++[Only distinct criteria or trade-offs needed beyond the result above. Omit if already clear there. Preserve domain substance without explaining whole frameworks.]
+ 
+-## Open facts and human judgments
+-[Unknown/undecided and impact: which blocks framing, which belongs to later work and why. No invented completeness.]
++## Boundaries and open choices
++[Fixed scope/constraints and the consequential unresolved distinction, with its effect. Distinguish a framing blocker from what the intended investigation will discover. Do not copy the working question inventory.]
+ 
+-## Recognizing success
+-[Outcome meaning and guardrails.]
+-
+-## Validity
+-[Only when material: expiry/reopen conditions and time-sensitive assumptions.]
+-
+-[Add economics/taste/affected-party detail only if needed; omit empty sections and all instructional brackets.]
++[Use work-specific headings. Add a separate section only for a distinct reader need, such as conflicting affected-party interests or a time-sensitive limit. Place material attribution next to the claim; link formation state for sources and reasoning. Omit empty sections and all instructional brackets.]
+ 
+ [ID] · Revision [n] · [technical readiness] · Owner [if known] · [Acceptance of this version: not recorded / explicit source]
+diff --git a/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-short.md b/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-short.md
+index 48cebbf..e0ba022 100644
+--- a/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-short.md
++++ b/candidates/intent-formation-2026-09-20/skills/form-intent/assets/intent-short.md
+@@ -1,16 +1,13 @@
+ # [Meaningful title]
+ 
+-[Problem/opportunity, current context, affected people, desired effect and why it matters.]
++[What the person wants to change or learn, for whom and why. Include the specific current situation needed to understand it.]
+ 
+ **[Everyday status and concrete reason; any material framing blocker.]**
+ 
+-## Boundaries and decisions
+-[Material in/out, constraints and human choices; distinguish proposed means.]
++## Desired result
++[The useful result and how it serves the purpose. Include the meaning of success here; do not repeat the opening.]
+ 
+-## Grounding and open points
+-[Material sources and AI interpretations. If needed: what remains unresolved, why it blocks or can wait for later work, and what would reopen this intent. Omit empty distinctions.]
+-
+-## Recognizing success
+-[Observable useful change and material adverse effects to avoid; no feature requirements.]
++## Limits and unresolved choices
++[Only the limits or unresolved distinctions that change how this work is understood. Preserve a binding choice; distinguish a suggestion. Omit this heading if there is nothing material to add. Attribute a consequential claim where it appears; link supporting state if needed.]
+ 
+ [ID] · Revision [n] · [technical readiness] · Owner [if known] · [Acceptance of this version: not recorded / explicit source]
+diff --git a/candidates/intent-formation-2026-09-20/skills/form-intent/references/state-and-artifact.md b/candidates/intent-formation-2026-09-20/skills/form-intent/references/state-and-artifact.md
+index 1981062..cd7ca48 100644
+--- a/candidates/intent-formation-2026-09-20/skills/form-intent/references/state-and-artifact.md
++++ b/candidates/intent-formation-2026-09-20/skills/form-intent/references/state-and-artifact.md
+@@ -17,19 +17,40 @@ Use readable headings or bullets, not a mandatory database:
+ 
+ Keep stable settled content in intent; reference it rather than copy it all. Remove stale pending questions after answers. Keep a short tombstone only for a correction likely to recur. Never compress away the reason an unresolved issue is material. On handoff distinguish source limitations from absence of evidence. Incoming agents must not infer acceptance from an existing file.
+ 
+-### Intent: one meaning, multiple surfaces
++### Select before composing
+ 
+-Required semantic coverage, expressed compactly in natural language:
++Work from the latest supported understanding, not the accumulated text of the conversation or the previous document. Before choosing headings, identify what the person wants to become different or learn, why it matters, and how the intended result serves that purpose. If that connection is your interpretation, make it reviewable; do not settle it through polished first-person prose.
+ 
+-1. **Identity/status:** meaningful title, everyday readiness with a concrete reason, owner if known, and acceptance (not recorded unless explicit). Keep local identifier, revision and technical readiness secondary to the purpose, e.g. in a short footer. No YAML is required. In German call acceptance “Akzeptanz dieser Fassung”, distinct from an epistemic “Annahme”.
+-2. **Purpose and intended change:** problem/opportunity, desired outcome, why it matters; enough current context and affected roles to interpret it.
+-3. **Boundaries:** material in/out, actual constraints and fixed human choices. Distinguish a constraint from a candidate means or a preference.
+-4. **Grounding and openness:** evidence, material AI inference/assumption, nonblocking or blocking unknowns, unresolved human judgments. Preserve enough of a scenario to understand the intended work; indicate the source of material clarifications so they can be found without reconstructing the chat. An episode is not proof of general prevalence or causation. State why a consequential unknown can remain for later work. Mark absent material evidence; omit irrelevant empty sections.
+-5. **Recognizing success:** observable outcome meaning, including material adverse effects/guardrails; no feature-level acceptance contract.
++First sketch the core in working notes: the desired change/learning and its use, the situation that explains the need, and the boundary or unresolved distinction that could change it. Draft from that core, not by shortening every paragraph of the source. Then bring back only missing meaning. Do not print this working outline as another artifact.
+ 
+-Conditional coverage: economics of the outcome; affected-party conflict; temporal validity/reopen triggers; selected framing rationale; taste decisions; source detail. If there is no material unknown, say so briefly rather than invent one. A source register is optional, not per-sentence tagging.
++For each candidate detail, ask: what specific misunderstanding would its absence cause in this intent? Keep it if the reader would otherwise get the purpose, result, beneficiary, binding limit or consequential uncertainty wrong. Being relevant to the topic or useful during later analysis is not enough. Preserve the actual causal or decision connection, not merely a list of topic nouns. Keep enough of an observed episode to locate the problem without generalizing beyond the evidence.
+ 
+-Use [intent-short.md](../assets/intent-short.md) for a small, clear case and [intent-expanded.md](../assets/intent-expanded.md) when distinctions need separate scan targets. Compose or rename headings to fit the work while preserving semantics. Remove instructional placeholders. Do not print empty optional sections. Put each material claim in one natural place; later sections add distinct information instead of repeating it. The closing reason should explain actual readiness, not assert “no question could change anything”.
++Place the remaining useful material by function:
++
++| Material | Home |
++|---|---|
++| The desired change or learning, its use, and what would count as useful | Intent; connect result and success rather than restating them in separate sections. |
++| A material framing blocker or unproven premise that changes the purpose/boundary | Intent, with its consequence; fuller evidence and rival interpretations in state. |
++| A later unknown that a reader must know to avoid a false commitment | Intent, briefly explaining what remains open; detailed question inventory in state. |
++| A reference's consequence for this work | Intent only if it changes the meaning, limits or criteria; attribute locally when consequential. |
++| Framework explanations, search history, source assessments, discarded options and revision reasons | Formation state or linked research, not an intent section. |
++| Detailed requirements, solution choices or task sequences | Later work; retain an already binding human choice without elaborating a design. |
++
++This is content selection, not evidence deletion. Preserve sources needed for continued reasoning in state. Do not turn every explored consideration into a durable requirement. Do not present your interpretation as the owner's decision; when material, attribute it where it appears. Moving provenance out must not make an uncertain claim sound settled.
++
++For example, a discussion may cover forecasting methods, historical data limits and four possible ways to compare suppliers. If the purpose is to decide whether to replace an unreliable supplier, the intent needs the reliability problem, the intended decision and the material cost/service trade-off. The method discussion stays in state unless the person made one method a binding condition. Explain ordinary terms only when competing meanings would change the intended outcome; do not turn a clear everyday goal into a set of operational rules.
++
++### Compose a reading surface for this work
++
++Start with a meaningful title and the human purpose. State readiness with its concrete reason in ordinary language; put owner, revision and “Akzeptanz dieser Fassung” in a brief secondary line or footer. Acceptance is not recorded unless explicit.
++
++Then give the reader the relevant situation, intended result/use and material boundaries. Use headings that describe those contents. Split only where the reader needs a separate correction target or a distinct relationship; a complex inquiry can still yield a simple intent. Choose [intent-short.md](../assets/intent-short.md) for a clear small case. Use [intent-expanded.md](../assets/intent-expanded.md) when separate context, result and criteria are useful, not because more research occurred. These are examples of composition, not forms to fill.
++
++Keep each claim in one natural home. A result can already explain how success would be recognized. A local attribution can already ground a claim. Neither needs a second section solely to satisfy semantic coverage. If a section answers several different reader questions, separate its actual points or remove supporting commentary; do not hide a source summary inside a broad heading. Use ordinary verbs and the person's vocabulary; explain a scope-controlling term only as far as needed, or mark its specific unresolved meaning. Avoid compound abstractions that hide who wants what to change.
++
++Keep editorial narration out: how the conversation evolved, why the former draft was withdrawn, what this rewrite corrected and which documents were not reread belong in state. State the current uncertainty and source limitation itself in intent only when material to interpreting a claim. Record acceptance once. Do not repeatedly announce that the text is provisional or that no execution was authorized. A draft/status line does not replace local attribution of a genuinely disputed AI interpretation.
++
++Expose a blocking question with the distinction its answer would settle. Distinguish it from unknowns that are the subject of the intended investigation. If no material question remains, explain readiness briefly without inventing an open-questions section. Add economics, guardrails, affected-party conflict or validity only when they alter this intent. Remove all instructional placeholders.
+ 
+ ## Claim authority and change
+ 
+@@ -39,6 +60,8 @@ Record explicit acceptance as who, which revision and the actual acceptance stat
+ 
+ ## Reader tasks before saving
+ 
+-Can a fresh reader find the purpose/outcome, current status, boundaries, human decisions, open issues and their consequences without the chat? Can the owner identify and change a material AI interpretation without rewriting everything? Is the reason for a qualified/blocked/deferred/dropped status apparent? If not, repair information placement or meaning.
++Read the actual draft without relying on the conversation. Can you explain its purpose, intended result and their connection from its opening and result passage? Can you locate what is settled, what is proposed and the exact unresolved distinction? Can the owner correct one substantive claim without rewriting an overloaded paragraph? Does each section add information rather than repeat a claim in different words? Repair the text if the reader must reconstruct the main point from scattered sections.
++
++Compare the resulting draft with the source understanding: did selection lose a requested benefit, a binding limit, a material uncertainty, a valid insight or the basis of a consequential claim? Restore needed meaning in its natural location, not by appending a completeness checklist. Readability and semantic fidelity must both hold. These checks assess the document; they are not sections to print in it.
+ 
+ Check that both files agree after material edits and that the actual saved version matches the stated revision. No helper can prove semantic qualification or human acceptance. Do not treat word count, headings or a schema pass as quality evidence.
