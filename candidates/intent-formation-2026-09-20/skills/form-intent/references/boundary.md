@@ -2,6 +2,18 @@
 
 Classify by semantic function, not file name. Intent conveys why/for whom/what change and meaningful boundaries. Specification determines what the solution must do and how its behavior is accepted; planning determines work and resources. An `intent.md` containing detailed requirements is still specification leakage.
 
+Discovery, exploration, reference knowledge and economics can contribute at several points in the work chain. Allocate the question by the decision it informs, not by labeling all research “upstream” or all uncertainty “downstream”. Formation qualifies the meaning of the selected work; it does not finish every investigation, prove a solution works or authorize the next stage.
+
+| A question could change… | Treatment at the intent boundary |
+|---|---|
+| Who benefits, what problem is addressed, what improvement means, a necessary trade-off or an actual boundary | Resolve enough to establish the intended work; otherwise keep a specific framing blocker. A vague shared denominator is not a resolution. |
+| What the intended research/analysis will discover or which option a later decision will select | May remain open when the investigation's purpose, decision owner and relevant criteria are grounded. Do not perform the investigation merely to qualify its intent. |
+| How a solution behaves, which means work best, detailed requirements or design | Leave to solution exploration/specification unless plausible answers already defeat the purpose or a binding constraint. Preserve the consequential unknown and reopen condition. |
+| How work is sequenced, staffed or implemented | Leave to planning; retain only genuinely fixed resource/timing limits that shape intent. |
+| Whether the eventual intervention actually produces the desired benefit | Preserve the meaning of success and the material unproven causal assumption. Detailed tests/measurement and realized effectiveness belong to later evaluation. |
+
+For small work, express the relevant distinction in one sentence rather than printing this table. Scope-controlling terms need an ordinary-language meaning when interpretations would change the intended work; they do not need a full taxonomy, data model or rules engine. Conversely, leaving a term unexplained is not solution openness when a later reader must decide what the user meant.
+
 | Content | Intent treatment |
 |---|---|
 | “I want open commitments to reliably return to my attention” | Outcome. |

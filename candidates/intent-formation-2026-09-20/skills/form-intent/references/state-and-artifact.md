@@ -11,7 +11,7 @@ Use readable headings or bullets, not a mandatory database:
 - Identity and current intent revision/path; current disposition and why.
 - Current problem/outcome understanding, source of material claims and live rival explanation if any.
 - Known evidence and accessible source locations; essential limitations/freshness.
-- Material assumptions, unknown facts, undecided human choices; which block and why.
+- Material assumptions, unknown facts, undecided human choices; which block current framing and why. For a material later question, preserve why it can wait and what finding would reopen the intent.
 - Last important correction and affected claims, including any now-superseded conclusion.
 - Next useful inquiry and the expected difference its answer would make; attention/revisit condition when relevant.
 
@@ -21,15 +21,15 @@ Keep stable settled content in intent; reference it rather than copy it all. Rem
 
 Required semantic coverage, expressed compactly in natural language:
 
-1. **Identity/status:** meaningful title, stable local identifier, revision, readiness with reason, owner if known, and acceptance (not recorded unless explicit). A one-line status is enough; no YAML is required.
+1. **Identity/status:** meaningful title, everyday readiness with a concrete reason, owner if known, and acceptance (not recorded unless explicit). Keep local identifier, revision and technical readiness secondary to the purpose, e.g. in a short footer. No YAML is required. In German call acceptance “Akzeptanz dieser Fassung”, distinct from an epistemic “Annahme”.
 2. **Purpose and intended change:** problem/opportunity, desired outcome, why it matters; enough current context and affected roles to interpret it.
 3. **Boundaries:** material in/out, actual constraints and fixed human choices. Distinguish a constraint from a candidate means or a preference.
-4. **Grounding and openness:** evidence, material AI inference/assumption, nonblocking or blocking unknowns, unresolved human judgments. State only material content, with provenance where trust or later correction depends on it. Mark absent material evidence; omit irrelevant empty sections.
+4. **Grounding and openness:** evidence, material AI inference/assumption, nonblocking or blocking unknowns, unresolved human judgments. Preserve enough of a scenario to understand the intended work; indicate the source of material clarifications so they can be found without reconstructing the chat. An episode is not proof of general prevalence or causation. State why a consequential unknown can remain for later work. Mark absent material evidence; omit irrelevant empty sections.
 5. **Recognizing success:** observable outcome meaning, including material adverse effects/guardrails; no feature-level acceptance contract.
 
 Conditional coverage: economics of the outcome; affected-party conflict; temporal validity/reopen triggers; selected framing rationale; taste decisions; source detail. If there is no material unknown, say so briefly rather than invent one. A source register is optional, not per-sentence tagging.
 
-Use [intent-short.md](../assets/intent-short.md) for a small, clear case and [intent-expanded.md](../assets/intent-expanded.md) when distinctions need separate scan targets. Compose or rename headings to fit the work while preserving semantics. Remove instructional placeholders. Do not print empty optional sections. Avoid duplicated summaries and machine-first metadata blocks.
+Use [intent-short.md](../assets/intent-short.md) for a small, clear case and [intent-expanded.md](../assets/intent-expanded.md) when distinctions need separate scan targets. Compose or rename headings to fit the work while preserving semantics. Remove instructional placeholders. Do not print empty optional sections. Put each material claim in one natural place; later sections add distinct information instead of repeating it. The closing reason should explain actual readiness, not assert “no question could change anything”.
 
 ## Claim authority and change
 

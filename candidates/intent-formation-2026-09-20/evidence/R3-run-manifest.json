@@ -1,0 +1,125 @@
+{
+  "revision": "R3",
+  "date": "2026-09-20",
+  "core_local_commit": "0cbdb91",
+  "criteria_local_commit": "bad1253",
+  "remote_parent": "c2074ffdd215ac8c07deecd28964049885fbcd40",
+  "runtime": "Actual Work Mode child-agent executions; no model override",
+  "isolation": "Fresh conversation contexts, instructed read scope in shared filesystem; no technical sandbox",
+  "scope": "Eight formation/continuation cases and one isolated reader, not a full re-run of T01–T26",
+  "fixture_authority": "Synthetic scenarios and followups; no statement is a personal commitment or acceptance by Stephan",
+  "wrapper": "Read assigned request and explicit skill path plus relevant references/public evidence. Write only assigned run folder; preserve exact response. No other run/design/evaluation reads or external writes. Ask rather than invent personal answers. Reader receives only X/Y/Z and its reader task.",
+  "trace_limit": "Full native tool traces not exported; preserved requests, responses, artifacts and source references. Root sent Q31 a neutral completion reminder; no intended answer supplied.",
+  "skill_hashes": {
+    "SKILL.md": "c83a42476f383890867d26edd6b0430f356fcf9b83b37820691ecade97cf8d0b",
+    "references/selection.md": "4b4ff61469ae84eedaa1b5ba01f48d6e759851ff96b24b39c9967dfb900da35d",
+    "references/boundary.md": "bf0d1be1487aa76ddb18d1f1fbd54c7c382647742f95825e05bf99d84f21289e",
+    "references/inquiry.md": "65d2faed2ea882f00fe56fa868f611f70c9a9f24c848d2dc75b156e7ffaf726c",
+    "references/state-and-artifact.md": "bf1e6b2c689f15d6c032aa1c201e6fb31c7fbe07387bb03ed4c07b37035bd03b",
+    "agents/openai.yaml": "a6a6830ba16f5f3416c2dc3ac7469fb70a0db077d02d8793324210fabb57d4f4",
+    "assets/intent-short.md": "9ddce09b39651a6bb2c26b642fb39c0e4848cb2121b9d0068e4c4aaaba71f2c9",
+    "assets/intent-expanded.md": "92033d775decc5d363496083170e8002e1f9774de9aa0b8351a8296fceffae17"
+  },
+  "cases": {
+    "Q31": {
+      "agent": "/root/q31_daily",
+      "files": [
+        "clarification-02.md",
+        "followup-inputs.json",
+        "formation.md",
+        "intent-rev1.md",
+        "intent.md",
+        "request.md",
+        "response-01.md",
+        "response-02.md"
+      ]
+    },
+    "Q32": {
+      "agent": "/root/q32_club",
+      "files": [
+        "followup-inputs.json",
+        "formation.md",
+        "intent-rev1.md",
+        "intent.md",
+        "request.md",
+        "response-01.md",
+        "response-02.md"
+      ],
+      "unused_followup": "Second prewritten elaboration was not delivered; the first episode sufficed for the run’s stated intent."
+    },
+    "Q33": {
+      "agent": "/root/q33_analysis",
+      "files": [
+        "intent.md",
+        "request.md",
+        "response-01.md"
+      ]
+    },
+    "Q34": {
+      "agent": "/root/q34_clear",
+      "files": [
+        "intent.md",
+        "request.md",
+        "response-01.md"
+      ]
+    },
+    "Q35": {
+      "agent": "/root/q35_helpdesk",
+      "files": [
+        "intent.md",
+        "request.md",
+        "response-01.md"
+      ]
+    },
+    "Q35H": {
+      "agent": "/root/q35_handoff",
+      "files": [
+        "before-intent.md",
+        "formation.md",
+        "intent.md",
+        "request.md",
+        "response-01.md"
+      ],
+      "received": "Only Q35 intent revision 01 and a new request; Q35 had no separate formation.md."
+    },
+    "Q36": {
+      "agent": "/root/q36_domain",
+      "files": [
+        "formation.md",
+        "intent.md",
+        "request.md",
+        "response-01.md",
+        "sources.md"
+      ]
+    },
+    "Q37": {
+      "agent": "/root/q37_boundary",
+      "files": [
+        "intent.md",
+        "request.md",
+        "response-01.md"
+      ]
+    },
+    "Q38": {
+      "agent": "/root/q38_reader",
+      "files": [
+        "X.md",
+        "Y.md",
+        "Z.md",
+        "reader-response.md",
+        "request.md"
+      ],
+      "mapping": {
+        "X.md": "Q31/intent.md",
+        "Y.md": "Q32/intent.md",
+        "Z.md": "Q33/intent.md"
+      }
+    }
+  },
+  "independent_review": {
+    "agent": "/root/r3_partial_review",
+    "path": "tests/runs/review-r3/independent-review.md",
+    "read_scope": "Original contract and eight raw runs; no design/repair/evaluation reports",
+    "result": "No securely established material error within reviewed cases; limited weaknesses and missing broader evidence retained"
+  }
+}

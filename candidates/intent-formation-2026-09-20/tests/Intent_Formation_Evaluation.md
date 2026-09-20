@@ -1,117 +1,62 @@
-# Intent Formation Evaluation
+# Intent Formation Evaluation — R3
 
-**Urteil:** Der Kandidat ist als eigenständige, instruktionsbasierte Intent-Formation-Capability technisch und verhaltensbezogen tragfähig für eine begrenzte menschliche Abnahme. Er ist **nicht installiert** und kein nachgewiesen universell zuverlässiger Ersatz für bestehendes Framing. Ein beobachteter früher Qualification-Fehler wurde nach einem erfolglosen ersten Reparaturversuch gezielt behoben. Menschliche UX-/Ownability-Evidenz bleibt offen; der verfügbare aufgabenbezogene AI-Proxy ist ausdrücklich begrenzt.
+**Stand:** 20.09.2026. Gezielte Reparatur des Qualifikationsmechanismus und der Lesefläche; acht neue Formation-/Fortsetzungsfälle sowie ein Leser-Test. Der unabhängige Rohverlauf-Review findet in diesen acht Fällen keinen sicher belegten materiellen Fehler; begrenzte Schwächen bleiben dokumentiert. Keine Installation, kein Merge, keine vollständige menschliche Eignungs- oder Betriebsaussage.
 
-## Evidenz und Verfahren
+## Maßstab und korrigierter Ausgangsbefund
 
-Reference Map und Bestandsanalyse wurden lokal vor Architektur committen (`f3ecf5e`). Der ursprüngliche ausführbare Kern liegt in `c9189e0`, die erste Nachschärfung in `e63653c`, die operative Reparatur in `c67efb7`. Exakte Paketdateien/Hashes, Laufzuordnung und Umfangsproxies liegen unter `evidence/`. Die Läufe wurden real in frischen Agent-Kontexten ausgeführt, bei Fortsetzung im selben oder ausdrücklich frischen Kontext. Modell wurde nicht überschrieben. Es gab keine Produktionsänderung durch die Szenarien.
+Maßstab bleibt Work Contract v1.2. Die gesamte Arbeitskette bleibt relevant: Intent qualifiziert Zweck und Bedeutung; Specification, Planning und Evaluation bearbeiten ihre jeweiligen Fragen. Discovery, Referenzwissen und Economics können an mehreren Stellen beitragen. Vollständige Discovery vor jedem Intent ist weder Ziel noch Reparatur.
 
-Die Fälle sind realistisch ausgearbeitete Fixtures. D01 ist durch den vorhandenen persönlichen Real-Use-Fall motiviert; Episoden, Zahlen, Präferenzantworten, Annahme und Suchbefunde in den Tests sind **synthetisch**. Keine davon ist eine Entscheidung Stephans über die Capability. Die unabhängige Review in `runs/review/independent-review.md` prüfte die ursprünglichen Ausgaben ohne Eltern-Designberichte. D10 prüfte drei isolierte Intents ohne Entstehungsdialog anhand konkreter Leseraufgaben.
+Die im Dialog erhobene Behauptung, R21 müsse wegen fehlender weiterer Recherche unqualifiziert sein, hat die unabhängige Rohartefaktprüfung **nicht bestätigt**. Die ausführliche synthetische Nachlieferung trägt dessen Zweck und Abgrenzung. Sie ist zugleich der Grund, weshalb R21 allein kein starker Nachweis für noch offene Discovery ist. Sie darf nicht als vom Skill eigenständig erarbeitete Nutzerpräferenz oder reales Nutzerurteil gelten. [Unabhängiger Ausgangsbefund](../evidence/qualification-review-independent.md).
 
-## Alle 26 Contract-Testklassen
+R3 macht die bisher teils absolute Abschlussbegründung konkret, ordnet materiale Restfragen nach ihrer Bedeutung für die Übergabe zu und unterscheidet eine Episode von Verbreitungs-, Ursachen- oder Wirkungsnachweisen. Ein Untersuchungsziel kann geklärt sein, während seine Ergebnisse offen sind. Die Lesefläche setzt Zweck vor Metadaten und nennt Akzeptanz eindeutig. [Änderungsnachweis](../evidence/Repair_R3_Record.md), [vorab festgelegte Kriterien](Qualification_Repair_R3.md).
 
-| T | Nachweis | Ergebnis / Grenze |
+## Tatsächlich neu ausgeführte Fälle
+
+| Lauf | Beobachtetes Verhalten | Einordnung |
 |---|---|---|
-| 01 Daily capture | D01, R01, R21 | R0 und R1 qualifizieren zu pauschal. R2/R21 fragt eine konkrete Bruchstelle, nutzt die Folgeantwort und erzeugt qualifiziertes lösungsoffenes Intent. |
-| 02 DGUV/BetrSichV | D02 | Primärquellen verändern Framing; keine pauschale Rechtssicherheitszusage; echte menschliche Richtungsfrage plus verbleibende Betriebsevidenz. |
-| 03 Research/Decision | D03 | Nichtsoftware-Analy­sezweck qualifiziert, keine Saalentscheidung vorweggenommen. |
-| 04 Already well formed | D04, R04, R24 | Direkter Abschluss ohne Rückfrage, auch nach Reparaturen. |
-| 05 Solution-first | D05 | Chatbot-Hypothese gelöst, produktive Arbeitszeit als menschlich vorgegebenes Outcome erhalten. |
-| 06 Human judgment | D06 | Persönlicher Wertkonflikt offen; Fixture-Präferenz übernommen, Partnervereinbarung nicht erfunden. |
-| 07 Multi-turn/handoff | D01, D01H, D02H | Quellen, Revisionen, Bedeutung und offene Fragen aus Dateien wiederhergestellt. |
-| 08 Boundary | D09, D02 | Verbindliche Plattform bewahrt; API/Stack/Sprints nicht übernommen; keine ungefragte Ausführung. |
-| 09 Professional challenge | D02, D05 | Rechts-/Verantwortungsrahmen sowie Ticketdaten führen zu substanzieller Challenge. |
-| 10 Opportunity preservation | D02, D05, D07 | Nachweis-/Wissens-/Übergabeproblem, nichttechnische Optionen und Reuse bleiben offen. |
-| 11 Interaction cost | D04, D07/A01, R21 | Klare Fälle null Fragen; R21 eine materiale Erlebnisfrage; Router zwei unterschiedlich gewichtete Messefragen. Keine menschliche Rekonstruktion zugänglicher Daten verlangt. |
-| 12 Orientation | D02H | Frischer Agent benennt Stand, bekannte Evidenz, menschliche Entscheidung und danach offene Fakten allein aus zwei Dateien. |
-| 13 Repairability | D01H | Absichtlich injizierte falsche AI-Ableitung in isoliertem State verworfen; Erfolg/Scope konsistent repariert. Neue Revision unakzeptiert, alte Annahme historisch. |
-| 14 Re-entry | D10 | Nur drei finale Intents gelesen; Zweck/Outcome/Status/Grenzen/Offenes mit Fundstellen auffindbar. Zeitabstand durch neuen Kontext simuliert. |
-| 15 Ownability | D10 | AI-Reviewer unterscheidet Quellen, Entscheidungen, Inferenzen und findet Unklarheiten. **Kein menschlicher Nutzertest**. |
-| 16 Artifact IA | D10 | Konkrete Such-/Änderungsaufgaben ausgeführt; abhängige Abschnitte bei Scope-Änderung erkannt. Keine gemessene menschliche Suchzeit. |
-| 17 Entry gate | D07, A01 | Heterogene Signale proportional unterschiedlich behandelt; unnötiger Neubau nicht durchformiert. |
-| 18 Attention economics | D07 | Ein reservierter Antragstag verändert Route der attraktiven Messeidee; kein Business Case erzwungen. |
-| 19 Reuse/don’t build | D07, D08 | Vorhandene Notizfunktionen und gute bestehende Suche verhindern voreiligen Neubau. |
-| 20 Portfolio fit | D07, A01 | Verpflichtung und Zeitkonflikt sichtbar, Prioritätsentscheidung beim Menschen. |
-| 21 Whole problem | D05, D02 | Fachbereichsfreigaben und Prüforganisation statt enger Toolgrenze einbezogen; als AI-Framing erkennbar. |
-| 22 Risk/affected parties | D04 vs D02/D07 | Kleine Korrektur ohne Governance-Aufwand, folgenreiche Fälle mit Verantwortungs-/Betroffenheits-/Evidenzgrenzen. |
-| 23 Temporal validity | D03 | Angebotsfrist und geänderte Konditionen als Wiederprüfungsbedingungen. Keine Automatisierung angelegt. |
-| 24 Preference formation | D06 | Faire illustrative Kontraste mit Zurückweisungsmöglichkeit; möglicher Ankereffekt bleibt unbelegt. |
-| 25 Sunk cost/stop | D08 | Neubau nach neuer Evidenz explizit beendet; kein Folgeprojekt trotz erhaltenem Bedarf. |
-| 26 Skill architecture | D07/A01, D04/A02 | Zwei echte Einstiegspfade mit demselben Kern ausgeführt. Ein Einstieg spart im Mischfall Nebenformation/Fragekomplexität; kleine Aufgabe fachlich gleichwertig. Kein statistischer Vorteil bewiesen. |
+| [Q31](runs/Q31/intent.md) | Erst vorläufiger Intent und eine Erlebnisfrage; nach derselben Nachlieferung wie R21 qualifiziert. Zusagen werden als bewusst übernommene Verpflichtungen erklärt. Einzelbeispiel wird nicht zum Nachweis von Häufigkeit oder Ursache. Mittel und Wirksamkeit bleiben mit Begründung offen. | Persönlicher Zweck ohne künstliche Recherchepflicht geklärt. Die Quelle der Nachlieferung ist als eigene Datei erhalten. |
+| [Q32](runs/Q32/intent.md) | Neuer offener Vereinsfall; eine unvollständige Episode führt von pauschaler Verbindlichkeit zu gemeinsam verstandener Vereinbarung und Aufgabenübernahme. Der Zweck ist als KI-Synthese kenntlich, Zustimmungsbefugnis bleibt offen. | Fachlicher Beitrag und Grenze aus einem sparsamen Fall; kein behaupteter allgemeiner Ursachennachweis, keine Protokollpflicht. Die vorbereitete zweite Folgeantwort wurde nicht benötigt und nicht geliefert. |
+| [Q33](runs/Q33/intent.md) | Der Zweck einer Saalentscheidungsanalyse wird ohne Rückfrage qualifiziert. Besucherzahlen, Zuschüsse und Ergebnis bleiben Untersuchungsgegenstände. 6.000 Euro Mietdifferenz werden korrekt eingeordnet; Gesamtbudget beweist keine Finanzierbarkeit. | Die neue Regel zieht spätere Analyse nicht pauschal vor. Menschliche Auswahl bleibt offen. |
+| [Q34](runs/Q34/intent.md) | Kleine bekannte Kontaktkorrektur direkt und knapp; keine personenbezogene Nummer ausgegeben, keine operative Änderung. Die Aktenprüfung wird nicht erfunden. | Proportionalität und Trennung von Sachbeschluss und Fassung-Akzeptanz erhalten. |
+| [Q35](runs/Q35/intent.md) | Ticketzahlen und Wartezeit werden vom tatsächlichen Produktivitätsverlust getrennt. Der Chatbot bleibt Hypothese; übergreifender Problemrahmen überträgt keine Zuständigkeit. | Zweck kann ausreichend feststehen, obwohl Ursachenanteile und geeignete Mittel noch untersucht werden müssen. |
+| [Q35H](runs/Q35H/intent.md) | Frischer Kontext liest Q35 und die neue Auswertung: lange Freigabewartezeit blockiert meist nicht die Arbeit; Ersatzteilfälle sind größter berichteter Verlustbereich. Neue Revision erhält Zweck, revidiert die Gewichtung und hält fehlende Stundenwerte sichtbar. | Widersprechende Evidenz repariert abhängige Aussagen; keine Rekonstruktion durch die Person. Keine Generalisierung aus der kleinen Fallzahl. |
+| [Q36](runs/Q36/intent.md) | Primärtexte verändern das DGUV-Produktframing. Pauschale Fristen und Rechtssicherheitsversprechen bleiben nicht als gesicherte Grundlage bestehen. Nutzenentscheidung und Betriebsevidenz blockieren; Zahlungsbereitschaft bleibt unbekannt. | Fachliche Recherche trägt eine materielle Challenge. Weder menschliche Zweckwahl noch Produktwirtschaftlichkeit werden erfunden. |
+| [Q37](runs/Q37/intent.md) | Plattform und beschränkter HR-Zugriff bleiben erhalten; Technik- und Sprintideen werden nicht verbindlich. Suchaufwand trägt das Outcome, Ursache und Wirkung bleiben offen. | Grenze zu Requirements/Plan gewahrt; Zugriffsinterpretation und zusätzliche KI-Leitplanke ausdrücklich markiert. |
 
 ## Fünf getrennte Qualitätsebenen
 
-### 1. Professional Intent Quality
-
-| Dimension | Stärken | Defizit / Trade-off |
-|---|---|---|
-| Purpose Fidelity | D03 priorisiert Programmumfang wie vorgegeben; D06 übernimmt genau die Fixture-Präferenz; D09 erfindet keine technische Bindung. | Frühes D01 machte Capture-Verbesserung zu schnell zum Outcome; R21 klärt die Bruchstelle vorher. |
-| Problem/Opportunity Quality | D05 trennt Reaktionskennzahl von Arbeitsverlust; D02 untersucht Ursachen statt nur Kalender. | D02s breiter Organisationszweck ist noch ein Vorschlag und zu Recht nicht qualifiziert. |
-| Outcome Quality | Nutzen statt Features; D03 Erreichbarkeit umfasst Weg und Zugang; R21 Zusagen rechtzeitig aufgreifen. | Konkrete Nutzenwirkung wurde nicht real beobachtet. |
-| Reference Grounding | D02 öffentliche Primärquellen mit materieller Framing-Folge; Methodenarchitektur aus R01–40. | Rechtsprüfung nicht vollständig, Analysten-/Normzugang begrenzt. Kein „mehr Quellen = besser“. |
-| Opportunity Preservation | Reuse, Prozessänderung, Nachweisentlastung, keine Intervention sichtbar. | Vollständigkeit möglicher Chancen nicht beweisbar. |
-| Challenge Quality | D02 Rechtsversprechen, D05 falscher Antwortzeitanker, D07 Messvalidität. | D05 formuliert die Empfehlung im Chat bestimmter als im Intent; der Vorschlagsstatus bleibt im Artefakt sichtbar. |
-| Evidence Discipline | D05 62 % Tickets ≠ 62 % Arbeitsverlust; D08 19/20 plus Korrektur ≠ nachgewiesener 20/20-Retest. | Kleine AI-Leitplanken teils erst im State eindeutig zugeordnet. |
-| Proportionality | 151-Wörter-Intent D04, kein Interview; D02 mehr Evidenz wegen Tragweite; D07 selektive Aufmerksamkeit. | D03/D05 und persönliche Fortsetzungsstände könnten knapper sein. |
-| Intent/Spec Boundary | Candidate D09 bewahrt nur echte Plattform-/Zugriffsgrenzen; keine Requirements/Tasks. | Baseline B01v1 überschreitet semantisch die Grenze trotz Dateiname intent.md. |
-| Actionable Downstream Meaning | D10 rekonstruiert Bedeutung ohne Chat und erkennt abhängige Stellen einer Scope-Änderung. | Nachgelagerte produktive Nutzung absichtlich nicht ausgeführt. |
-
-Keine starke Dimension kompensiert einen materiellen Fehler in einer anderen. Insbesondere legitimiert D01s gute Lesbarkeit nicht sein zu endgültiges frühes Qualification-Urteil.
-
-### 2. Formation Quality
-
-Eigenständige fachliche Arbeit ist in D02/D05 nachweisbar; D06 benötigt menschliche Werte statt Recherche. D08 respektiert den Stop und trennt berichtete neue Evidenz von unabhängiger Prüfung. D01H repariert bewusst fehlerhaften State und verhindert eine stille Übertragung alter Akzeptanz. D02H hält neben dem aktuellen menschlichen Gate die nachfolgende faktische Blockade sichtbar. Der finale R2-Kern behebt das konkrete Defizit der reinen Symptomschilderung, ohne bereits geklärte Arbeit neu zu öffnen.
-
-Die Änderungen sind nicht nur plausibel beschrieben: R01 zeigte, dass die erste abstrakte Nachschärfung **nicht** genügte; erst R21 änderte das Verhalten. R24 belegt weiterhin direkte Formation im klaren Fall. Wiederholungen beschränkten sich auf das konkrete Risiko. Alle früheren Beobachtungen beziehen sich auf ihren damaligen Kernstand; daraus wird keine komplette Regressionserprobung des finalen Stands behauptet.
-
-### 3. Human–AI Interaction UX
-
-| Dimension | Beobachtung |
+| Ebene | Beleg und Aussagegrenze |
 |---|---|
-| Orientation | D02H erschließt Stand selbst; mit 432 Wörtern eher ausführlich. |
-| Cognitive Load | Kurzer klarer Fall kompakt; v1-Capture 2.993 Wörter erzeugt sichtbar mehr Lesefläche. Keine menschliche Lastmessung. |
-| Interaction Cost | Keine erkennbar redundanten Fragen in klaren Kandidatenfällen; R21s zusätzliche Frage hat materiale Konsequenz. |
-| Progressive Disclosure | Methoden werden nicht als Pflichtfragen an Nutzer ausgegeben; komplexer rechtlicher Rahmen erklärt sich aus der Aufgabe. |
-| Mixed Initiative | AI recherchiert/challengt; Mensch liefert Präferenz, Erfahrung und Priorität. |
-| Agency & Control | Vorschläge markiert, andere Rahmungen möglich; kein Schweigen als Zustimmung. |
-| Explainability at Decision Points | D02 erklärt Bedeutung des Richtungsentscheids; D06 erklärt Trade-off; R21 erklärt, warum Bruchstelle zählt. |
-| Repairability | D01H repariert falsche Ableitung plus Scope und Akzeptanzstatus, ohne alte Aussagen als aktuell zu führen. |
-| Continuity | Neue Threads lesen State/Intent ohne Nutzerrekonstruktion; tatsächliche Langzeit-Persistenz bleibt ungetestet. |
-| Closure Clarity | D08 beendet; D04/D09 schließen; D02 bleibt begründet offen. |
+| Professional Intent Quality | Q31/Q32 erklären den Problemkern aus den gegebenen Beobachtungen; Q33/Q35 unterscheiden relevante Größen; Q36 leistet Quellenchallenge; Q37 bewahrt tatsächliche Grenzen. Keine universelle Überlegenheit oder Wirksamkeit behauptet. |
+| Formation Quality | Q31/Q32 klären gezielt; Q33/Q34 schließen direkt; Q36 bleibt trotz Recherche offen; Q35H revidiert eine Deutung nach widersprechender Evidenz. Acht begrenzte Fälle statt vollständiger Regression aller früheren Testklassen. |
+| Human–AI Interaction UX | Keine neue Rückfrage bei den klaren Fällen. Q31/Q32 brauchen je eine zusammenhängende Frage. Deren erste Antworten enthalten weiterhin einen vermeidbaren Hinweis auf den Skill; komplexe Antworten können lang sein. Keine gemessene menschliche Belastung. |
+| Intent Artifact UX | Zweck steht vor technischen Metadaten; Akzeptanz ist eindeutig bezeichnet; neue Begründungen benennen, was später offenbleiben darf. Komplexe Intents sind weiterhin ausführlich. Der neue Leser-Test bleibt ein AI-Proxy. |
+| Downstream Utility | Q33 lässt den Untersuchungsgegenstand offen; Q35/Q37 benennen, welche Erkenntnisse für Mittelwahl oder Wirkung fehlen; Q35H erhält semantische Kontinuität. Produktive Specification, Planung oder Wirksamkeitsprüfung wurden nicht ausgeführt. |
 
-Quantitative Proxies stehen in `evidence/proxy-metrics.json`. Fragezeichen in URLs oder wiedergegebenen Fragen sind **nicht** automatisch Rückfragen; die obige Beurteilung ist semantisch. Gesamte Tokenkosten, menschliche Antwortzeit und subjektive Belastung wurden nicht gemessen.
+## Unabhängige Nachprüfung
 
-### 4. Intent Artifact UX / Ownability
+Der [kontextfreie Leser-Test Q38](runs/Q38/reader-response.md) erhält nur Q31, Q32 und Q33 als X/Y/Z. Er rekonstruiert Zweck, Beobachtung, KI-Deutung, offene Fragen, spätere Arbeit und gezielt korrigierbare Aussagen mit Fundstellen. Bei Q32 erkennt er die fehlende verbindliche Annahmezuständigkeit, statt sie aus dem Status zu erfinden. Bei Q33 unterscheidet er die klare Analyseabsicht von fehlenden Analyseergebnissen. Kein Entstehungsdialog wurde mitgegeben; dies ist ein AI-Leserbefund, keine menschliche Nutzungsevidenz.
 
-D10 konnte aus X/Y/Z Zweck, Outcome, Grenzen, Entscheidungen, AI-Deutungen, offene Fakten/Werte, Readiness und Reopen-Bedingungen benennen. Beim probeweise engeren Helpdesk-Scope erkannte der Leser die Mehrdeutigkeit von „innerhalb des Helpdesks“ und die betroffenen Abschnitte, statt blind Text zu ersetzen. Er fand zugleich, dass nicht jede Erfolgsaussage eindeutig separat menschlichen Ursprungs ist. Das ist nützliche beobachtete Reviewbarkeit, kein Beweis menschlicher Verständlichkeit oder tatsächlicher Annahme.
+Der [unabhängige Review aller acht Rohverläufe](runs/review-r3/independent-review.md) liest ausschließlich Originalauftrag, Inputs und erzeugte Dateien, ohne Reparaturdiagnose oder Entwicklerbewertung. Er findet keinen sicher belegten materiellen Fehler. Sieben qualifizierte Entwürfe sind für ihren jeweiligen Zweck nachvollziehbar; Q36 ist angemessen offen und wird ausdrücklich nicht als fertiger DGUV-Intent gezählt.
 
-Die finale Oberfläche ist überwiegend menschenlesbar und scanbar. Die kleinen Statusbegriffe benötigen weiterhin Verständnis; für eine Einmalkorrektur ist der Mehrwert der Lifecycle-Spur begrenzt. Persönliche State-Dateien enthalten noch mehr historische Wiederholung als minimal nötig. Alte Antwortlinks auf `intent.md` zeigen nach Revisionen auf den neuesten Stand; archivierte Inhalte und Revisionsbezug erlauben Rekonstruktion, garantieren aber keinen unveränderlichen historischen Chatlink.
+Der Review hält drei begrenzte Schwächen fest: Q31 erklärt seine erste Frage teilweise über den Skill statt ausschließlich fachlich; der Statusname für fehlende persönliche Sachinformation ist in Q31/Q32 etwas unscharf, während die tatsächliche Lücke verständlich bleibt; Q37 formuliert eine ausdrücklich unbestätigte KI-Leitplanke zum Gesamtaufwand relativ hart. Diese darf später nicht als vom Owner gesetztes Veto gegen jede Aufwandsverlagerung gelten. Die semantische Lesbarkeit und sichtbare Herkunft begrenzen das Risiko, beseitigen es aber nicht. Eine neue Statusarchitektur oder zusätzliche Pflichtbefragung wäre dafür nicht begründet.
 
-### 5. Downstream Utility
+Die Prüfung von Q36 ist ein Rohartefakt-/Quellenverwendungsreview; sie wiederholt nicht unabhängig jede rechtliche Quellenprüfung. Dass Q35H eine vorsichtige Gewichtung revidiert, wird nicht als Reparatur einer zuvor fälschlich als sicher behaupteten Hauptursache ausgegeben.
 
-Das fertige Intent vermittelt Meaning ohne Requirements: D03 ermöglicht einen späteren Analyseauftrag, D09 einen späteren Auftrag innerhalb echter Plattform-/Zugriffsgrenzen, R21 eine spätere Ausgestaltung des Wiederaufgreifens. Offene Lösungstechnik ist kein Intent-Mangel. D02s offene Betriebsevidenz ist dagegen ein tatsächlicher Qualifikationsblocker. Kein Candidate-Lauf erzeugte ungefragt Specification, Plan oder Implementierung; die Boundary wurde auch inhaltlich geprüft.
+## Was aus früherer Arbeit gilt
 
-Readiness und Akzeptanz dürfen nicht als Ausführungserlaubnis konsumiert werden. Ein nachgelagerter Parser muss Statusbegründung und Bezugsgegenstand erhalten: In D08 ist der Neubau beendet, der Zweck nicht als erfüllt bewiesen. Ein nacktes `dropped` ohne diese Bedeutung wäre verlustbehaftet.
+Reference Map, Bestandsanalyse, Architekturvergleich, Selection-/Reuse-/Stop-Fälle und deren Originalbelege bleiben erhalten. Die vollständige historische Abdeckung T01–T26 steht in der [R2-Evaluation](../evidence/history/R2/Intent_Formation_Evaluation.md); sie ist keine Regression aller 26 Klassen auf R3. Die dortige pauschale Abnahmeempfehlung ist historisch und wird durch diesen Stand ersetzt. Historische Rohdateien wurden nicht nachträglich passend geschrieben.
 
-## Direkter Vergleich
+## Grenzen der Aussage
 
-| Gleicher erster Input | Raw direkt | intent/v1 | Kandidat R0 | Schluss |
-|---|---:|---:|---:|---|
-| Capture | 324 Wörter | 2.993 Wörter | 439 Wörter | Candidate klarer in Herkunft/Readiness, aber zunächst kein besserer Outcome-Abschluss als Raw. v1 mehr Formlast und unerbetene Abnahmelogik. |
-| Kleine Kontaktkorrektur | 101 Wörter | 418 Wörter | 151 Wörter | Raw genügt inhaltlich am knappsten; Candidate trennt Verifikation/Sachbeschluss/Intent-Annahme. v1 erfindet `accepted`. |
+- Synthetische Folgeantworten sind keine persönlichen Aussagen Stephans. Auch die Fähigkeit, diese korrekt zu übernehmen, beweist keine menschliche Ownability.
+- Frische Agentenkontexte lesen instruierte Teilbereiche eines gemeinsamen Dateisystems; keine technische Isolation. Native vollständige Tool-Traces sind nicht exportiert. Aufträge, Antworten, Dateien, Quellen und Paket-Hashes sind erhalten.
+- Strukturelle Validierung prüft das Skill-Format, keine semantische Güte. Das Paket wird direkt aus Dateien ausgeführt, nicht über eine behauptete produktive Installation.
+- Reale Akzeptanz/Verständlichkeit des geänderten Ergebnisses, automatische Auswahl im Zielhost, langfristiges Wiederfinden und produktiver Downstream-Nutzen bleiben unbewiesen.
+- Die Prüfung stützt konkrete Mechanismen und einen begrenzten Erprobungsstand, keine allgemeine Zuverlässigkeitsquote und kein vollständiges „34/34 erfüllt“.
 
-Wörter sind whitespace-basierte Zählungen der Artefakte, keine Qualitätsnoten. Der Kandidat gewinnt nicht durch möglichst kurze Texte. Der v2-Referenzansatz lieferte im ersten Turn die sinnvolle Bedeutungsfrage nach bewusstem Überblick versus Wiederaufgreifen ohne Nachsehen; diese Beobachtung informierte die schmale Qualification-Reparatur. Vollständige aktive Framing-v0.1.4-A/B-Evidenz liegt nicht vor; dessen historisches KEEP wird deshalb nicht überstimmt.
+## Aktuelle Entscheidungsempfehlung
 
-**V2-Fortsetzung:** Nach derselben inhaltlichen Fixture-Präzisierung wie R21 erzeugte B01v2 ein fertiges, gut begründetes Intent. Besonders hilfreich ist dort die ausdrücklich begrenzte Wirkannahme: Wiederaufgreifen ermöglicht Erfüllung, garantiert sie aber nicht. Der Kandidat R21 stellt dafür Revision, Qualification und fehlende Akzeptanz deutlicher heraus. Beide finalen Artefakte bewahren Lösungsoffenheit und die Grenze zwischen Zusage und Idee. Eine allgemeine fachliche Überlegenheit des Kandidaten gegenüber v2 ist damit **nicht** belegt. Die unabhängige Review beurteilte B01v2 vor diesem zweiten Turn; die Fortsetzung wurde anschließend vom Hauptagenten geprüft.
+**Die gezielte Entwicklungsreparatur R3 ist umgesetzt und anhand der genannten Fälle geprüft. Der Kandidat ist für eine begrenzte menschliche Erprobung anhand der neuen Artefakte vertretbar.** Die unabhängige Prüfung trägt keine vollständige persönliche Eignungs-, Betriebs- oder allgemeine Zuverlässigkeitsaussage. Die frühere Aufforderung zur pauschalen Abnahme des Gesamtpakets wird nicht wiederholt.
 
-## Architekturentscheidung
-
-Gewählt bleibt **ein Formation-Kern mit optionalen Methoden und einem kleinen Entry Check**. D07 behandelt den tatsächlichen Prioritätskonflikt, während A01 zusätzlich die ohnehin klare Kontaktkorrektur als Haupt-Intent formt und zwei Messefragen stellt. D04/A02 sind fachlich nahezu gleichwertig; A02 ist etwas ausführlicher. Beide Pfade benötigen keinen manuellen zweiten Skill-Aufruf. Der Router hat daher in den ausgeführten Fällen keinen nachgewiesenen Nutzen, der einen zusätzlichen Einstieg rechtfertigt.
-
-Dies ist ein begrenztes Auswahlurteil, kein genereller Anti-Router-Befund. Ein separates Portfolio-Angebot könnte später eigenen Nutzen haben. Gemeinsamer Kern verhindert semantische Duplikation in beiden Varianten; der getestete Handoff erfolgt instruktionsbasiert im gleichen Runtime-Agenten, nicht über einen behaupteten technischen Workflow-Dienst.
-
-## Review-Abwägung und Entscheidung
-
-Die unabhängige Review priorisiert Qualification, Statusbezug beim Stop und historische Links. Qualification wurde tatsächlich repariert und neu geprüft. Bei D08 steht der Bezugsgegenstand bereits unmittelbar in Titel und Statuszeile; deshalb wird kein neuer Statuskatalog eingeführt. Die Gefahr einer losgelösten Enum-Auswertung bleibt als Schnittstellengrenze dokumentiert. Historische Linkstabilität wird nicht behauptet; die gesicherten Originalversionen bleiben im Evidenzpaket.
-
-**Empfohlener menschlicher Entscheid:** Kandidat und Erhaltsempfehlung fachlich abnehmen; menschlichen Ownability-Review an den bereitgestellten Beispielen durchführen; Installation nur separat beauftragen. Kein pauschaler Ersatz von Framing, keine Migration oder produktive Aktivierung durch diesen Auftrag.
+Für eine kurze Prüfung des konkreten Ergebnisses eignen sich Q31 und der Gegenfall Q33: Q31 erklärt tatsächliche Zusagen, berichtete Beobachtung und offenbleibende Mittel; Q33 zeigt, weshalb ungeklärte Analyseergebnisse einen klaren Analyse-Intent nicht blockieren. Das ist eine mögliche Erprobung, keine simulierte Zustimmung und keine Installationsfreigabe. Bestehendes Framing und kanonische Artefakte bleiben unverändert.

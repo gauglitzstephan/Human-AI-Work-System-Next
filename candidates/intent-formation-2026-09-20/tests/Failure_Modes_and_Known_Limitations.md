@@ -1,6 +1,21 @@
-# Failure Modes and Known Limitations
+# Failure Modes and Known Limitations — aktueller Stand R3
 
-Dies ist ein Verhaltenskatalog, keine Behauptung universeller Absicherung. Laufdateien unter `runs/`, getrennte unabhängige Review unter `runs/review/`. „Nicht beobachtet“ bedeutet nicht „unmöglich“.
+Dies ist ein Verhaltenskatalog, keine Behauptung universeller Absicherung. „Nicht beobachtet“ bedeutet nicht „unmöglich“. D-, A-, B-, R01-, R04-, R21- und R24-Läufe sind historische Revisionen; Q31–Q38 prüfen R3. Die frühere globale Abnahmeempfehlung ist durch die [aktuelle Evaluation](Intent_Formation_Evaluation.md) ersetzt.
+
+## Neue R3-Befunde
+
+| Gegenstand | Beobachtung / Grenze |
+|---|---|
+| Zu früh oder zu spät qualifizieren | Q31/Q32 schließen nach materialer Klärung, Q33/Q34 ohne unnötige Fragen, Q36 bleibt begründet offen. Der Originalstatus R21 ist unter seiner ausführlichen Testantwort tragfähig; seine Generalisierung war das Bewertungsproblem. |
+| Ungewissheit pauschal downstream verschieben | Q33 benennt Untersuchungsgegenstände; Q35/Q37 ordnen verbleibende Ursachen-/Wirkungsfragen ein und nennen Wiederöffnungsbedingungen. |
+| Neue Evidenz ohne Folgen | Q35H aktualisiert Ursachenbewertung und abhängige Aussagen aus einem frischen Kontext; Zweck bleibt erhalten. |
+| Quellen-/Erfahrungsersatz | Q36 nutzt Primärquellen mit Einfluss auf die Rahmung; Q31/Q32 behandeln Episoden weder als Marktbeleg noch als Nachweis allgemeiner Häufigkeit. |
+| Lesefläche und Prozesssprache | Zweck steht vor Metadaten, Akzeptanz ist eindeutig. Erste Q31-/Q32-Antworten erwähnen trotzdem den Skill; komplexe Intents und Reviews bleiben ausführlich. Kein Nachweis idealer kognitiver Last. |
+| KI-Leitplanken | Q37 markiert den Vorschlag, Aufwand nicht bloß zu verlagern, ausdrücklich als unbestätigte KI-Einordnung. Er darf nachgelagert nicht als vom Owner gesetzte harte Grenze konsumiert werden. |
+| Kontextfreies Lesen | Q38 findet Zweck, Grundlage, KI-Deutung, offene Fragen und lokale Korrekturmöglichkeiten in drei Intents. Das bleibt ein AI-Leserbefund. |
+
+## Historische Entwicklungsbeobachtungen
+
 
 | Failure Mode | Konkrete Probe / Befund |
 |---|---|
@@ -45,6 +60,6 @@ Dies ist ein Verhaltenskatalog, keine Behauptung universeller Absicherung. Laufd
 4. T15 ist ein aufgabenbasierter AI-Reviewer-Proxy. Kein Mensch wurde als Reviewer ausgegeben. Menschliche Verständlichkeit, Präferenzwirkung und Owner-Akzeptanz bleiben zu bestätigen.
 5. Die vollständige aktuell aktive Framing-v0.1.4-Implementierung war nicht verfügbar. Audit, gesicherte Ausschnitte und vorhandene Templates erlauben Erhaltsempfehlung, aber keinen vollständigen direkten A/B-Test dieses Skills.
 6. Analysten-Terminologie und gesperrte Norm-/Verlagstexte bleiben begrenzte Quellenbereiche. Kein Standardkonsens, keine formale Compliance und keine individuelle Rechtsprüfung behauptet.
-7. Der finale Skill wurde nach einem beobachteten Qualification-Defizit schmal geändert. Betroffene Fälle wurden neu geprüft; die gesamte ursprüngliche Suite wurde nicht unnötig wiederholt. Ergebnisse früherer Revisionen bleiben als solche gekennzeichnet.
+7. R3 ändert den Mechanismus der Abschlussbegründung und die Lesefläche; acht neue Formation-/Fortsetzungsfälle und ein Leser-Test prüfen die betroffenen Funktionen. Die gesamte historische Suite wurde nicht wiederholt. Alte Ergebnisse bleiben revisionsgebunden und werden nicht zu R3-Erfolgen umetikettiert.
 
-Empfehlung: Kandidat zur fachlichen Abnahme bereitstellen, zunächst menschlichen Ownability-Review an den konkreten Beispielen, anschließend nur bei gesondertem Auftrag begrenzte Installation. Kein Ersatz bewährter Framing-Funktion aufgrund dieser Evidenz.
+Die aktuelle Empfehlung steht in der R3-Evaluation. Eine strukturell und verhaltensbezogen geprüfte Revision ist noch kein nachgewiesen dauerhaft brauchbares persönliches System. Keine automatische Installation und kein Ersatz bewährter Framing-Funktion.

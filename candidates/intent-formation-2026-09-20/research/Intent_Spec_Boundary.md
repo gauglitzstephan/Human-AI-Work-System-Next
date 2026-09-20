@@ -2,6 +2,22 @@
 
 Die Grenze folgt der **semantischen Funktion**, nicht dem Dateinamen. Intent beschreibt das relevante Problem oder die Opportunity, den menschlichen Zweck, die beabsichtigte Wirkung und die Grenzen des zulässigen Lösungsraums. Specification legt erforderliches Lösungsverhalten und dessen Abnahme fest; Planning ordnet Umsetzung, Abhängigkeiten und Ressourcen. Diese Abgrenzung ist die Synthese dieses Auftrags; nicht jede Anbieterreferenz zieht sie identisch.
 
+## Präzisierung aus dem Review R3
+
+Discovery, Exploration, Referenzwissen und Economics können an mehreren Stellen der Arbeitskette nötig sein. Sie sind keine vollständig vor Intent zu erledigende Phase. Eine offene Frage wird danach zugeordnet, welche Entscheidung ihre Antwort verändern würde:
+
+| Gegenstand | Vor dem Intent-Abschluss nötig | Darf begründet später bleiben |
+|---|---|---|
+| Problem und gewünschte Veränderung | Situation, betroffene Rollen, relevante Bedeutungsunterscheidung, menschlicher Zweck und wesentliche Grenzen | Vollständige Ursachenanalyse, sofern sie den bereits hinreichend begründeten Zweck nicht blockiert |
+| Intent einer Analyse/Discovery | Was soll gelernt oder entschieden werden, für wen und nach welchen relevanten Gesichtspunkten? | Ergebnisse der beauftragten Analyse, einschließlich Nachfrage, Kosten oder Optionenbewertung |
+| Lösungsarbeit / Specification | Zweckprägende Machbarkeits- oder Constraint-Konflikte sichtbar halten | Mittelvergleich, Verhalten, Requirements, Design und deren konkrete Prüfung |
+| Planning | Tatsächlich gesetzte Ressourcen- und Zeitgrenzen | Durchführung, Arbeitspakete, Sequenz und Ressourcenverteilung |
+| Evaluation | Woran wäre der gewünschte Nutzen erkennbar; welche Wirkung ist bislang nur angenommen? | Detailliertes Mess-/Testdesign und Nachweis der realisierten Wirkung |
+
+Eine verbleibende Frage wird nicht allein durch das Wort „downstream“ nichtblockierend. Ihre mögliche Auswirkung und der Grund für das Offenlassen müssen erkennbar sein. Spätere Erkenntnisse können Formation gezielt wieder öffnen. Ebenso ist ein klares Untersuchungsziel nicht deshalb unqualifiziert, weil sein Untersuchungsergebnis noch fehlt.
+
+Diese Zuordnung ist die auf den Contract zugeschnittene Synthese. Im [Anthropic-Playbook](https://claude.com/blog/the-ai-native-sdlc-playbook) enthält Intent bereits offene Fragen; der anschließende Spec-Review prüft deren Behandlung. [NASA](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/) begründet die verständliche Darstellung von Stakeholdererwartungen, Erfolg aus Stakeholdersicht und Herkunft der Aussagen. [GOV.UK](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works) trennt Problemverständnis von Bauentscheidung und macht den Erkenntniszweck für Umfang und Abschluss der Discovery maßgeblich. Die vollständigen Prozessmodelle dieser Quellen werden nicht in Intent importiert. Originale am 20.09.2026 erneut gelesen.
+
 ## Was der nächste verantwortliche Leser erhalten muss
 
 Aktuelle Identität/Revision und Readiness; explizite Akzeptanz oder deren Fehlen; Zweck, Wirkung und Why; interpretierbarer Kontext mit betroffenen Rollen; geltende Grenzen und menschliche Entscheidungen; materiale Evidenz/Annahmen/Unknowns einschließlich Konsequenz; Bedeutung von Erfolg und gegebenenfalls Gültigkeits-/Reopen-Bedingungen. Das erlaubt einen begründeten nächsten Auftrag, ohne die Absicht aus dem Chat rekonstruieren zu müssen. Ein Dateiübergang ist keine Beauftragung.

@@ -10,8 +10,8 @@ Ein dedizierter Einstieg `form-intent`, ein gemeinsamer Formation-Kern, vier nur
 2. **Aufmerksamkeit proportional prüfen:** Bei klaren kleinen Anliegen direkt arbeiten. Bei Konkurrenz, Duplikaten, erheblichem Aufwand oder fraglichem Wert Auswahlgrund prüfen; ggf. zurückstellen oder beenden.
 3. **Nächsten erkenntnisreichen Schritt wählen:** Direct Formation, Clarification und Discovery sind wechselbare Arbeitslagen, keine Phasen. Recherche löst sachliche Fragen; persönliche Erfahrung und Wertentscheidungen kommen vom Menschen.
 4. **Working Model verändern:** Plausible Gegenhypothese, Whole-Problem-Prüfung oder Referenzlinse einsetzen, sofern materiell. Neue Evidenz korrigiert die aktuelle Deutung und abhängige Aussagen.
-5. **Konvergieren:** Nicht Vollständigkeit, sondern stabile Bedeutung und geklärte materiale Entscheidungen bestimmen Readiness. Aufwand rechtfertigt sich durch erwarteten Erkenntniswert.
-6. **Intent rendern und speichern:** Nur dauerhafte Bedeutung; klare Statuszeile, erkennbare Entscheidungen/Unknowns. Tatsächlich geschriebene Version prüfen. Stoppen.
+5. **Konvergieren:** Beobachtung, fachliche Deutung und gewünschte Veränderung auseinanderhalten. Readiness anhand des Zwecks der ausgewählten Arbeit begründen: Welche Frage blockiert dessen Bedeutung, welche gehört zu einer späteren Lösung oder ist gerade Untersuchungsgegenstand? Eine Episode ist kein allgemeiner Abschlussbeweis. Die entscheidende Evidenz und der Grund für den Stopp bleiben sichtbar; späteres Lernen kann den Intent wieder öffnen.
+6. **Intent rendern und speichern:** Nur dauerhaft benötigte Bedeutung; Zweck zuerst, verständlicher Status samt Grund, technische Metadaten nachgeordnet. Aussagen nicht mehrfach in Zweck, Grenzen, Nutzen und Abschluss wiederholen. Entscheidungen, Herkunft und Unknowns erhalten. Tatsächlich geschriebene Version prüfen. Stoppen.
 
 ## Verantwortung
 

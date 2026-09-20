@@ -17,4 +17,6 @@ Consider only material factors: likely benefit and relevance; urgency/window; hi
 
 **Economics of outcome:** For a commercial/service initiative, demand, ability to deliver the intended benefit, relevant cost/resource constraints and viability may be part of the intent. Label missing quantities; do not fabricate a business case. Personal productivity need not carry revenue or cost forecasts.
 
+Match this to the intended undertaking. A purpose of investigating commercial viability may be qualified while demand and costs are still unknown: those are its investigation subjects. A claim that a product is already worth delivering cannot borrow that qualification. For a personal change, the user's expected practical benefit and acceptable recurring burden may be enough; do not require invented frequency, money estimates or a numeric effort budget. Reuse exploration informs the frame without committing to a vendor or solution.
+
 Selection records belong in state when they explain a defer/drop or priority. Only durable rationale, scope and viability uncertainty flow into intent. Do not create a separate selection dossier for a trivial task.
