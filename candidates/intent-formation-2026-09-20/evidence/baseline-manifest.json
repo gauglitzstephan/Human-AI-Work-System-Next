@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-09-20T08:04:44.929068+00:00",
+  "files": [
+    {
+      "path": "/workspace/scratch/54beb5477391/baseline/library/intent_v1(1).md",
+      "sha256": "b34bb7736b523d812911c55b412549181d049b0cb68dc50b9f38a22d2ccbbca3",
+      "bytes": 30240
+    },
+    {
+      "path": "/workspace/scratch/54beb5477391/baseline/library/Framing_v0.1.4_Audit_Evidence_2026-09-17.md",
+      "sha256": "eb57b2c7c9dba081061ce68ad73c7bbce8a167e5f112c7c50cece206f7db832f",
+      "bytes": 81072
+    },
+    {
+      "path": "/workspace/scratch/54beb5477391/baseline/library/Framing_v0.1.4_Mechanism_Architecture_Audit_2026-09-17.md",
+      "sha256": "c7f5fa871d9674a58cabd0dbf0ad0371176ac2f3e4d158309c2d731a8b9de46a",
+      "bytes": 69483
+    },
+    {
+      "path": "/workspace/scratch/54beb5477391/baseline/library/intent_v1.md",
+      "sha256": "a75ef992ced1340d7d3bfc20f2c32bc24eec49bec2189808f5c260f0546f82ef",
+      "bytes": 8920
+    },
+    {
+      "path": "/workspace/scratch/54beb5477391/baseline/v2/intent-formation-runtime-eval-v2/REFERENCE_RUNTIME_CARRIER_v2.md",
+      "sha256": "76f78105b351ee619aff215492ef850afcc89f0f83033d11ae2b0f2c88ab0c62",
+      "bytes": 17441
+    },
+    {
+      "path": "/workspace/scratch/54beb5477391/upload/AI_Native_Intent_Formation_Work_Contract_v1.2(1).md",
+      "sha256": "f015574b006fa11fdcd90c7c1a0762ae491cd07a35c36fc605e840f8c8d06e45",
+      "bytes": 43501
+    }
+  ]
+}
